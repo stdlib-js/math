@@ -45,7 +45,6 @@
     "debug": "^2.6.9"
   },
   "devDependencies": {
-    "@stdlib/_tools": "^0.0.x",
     "@stdlib/array": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/blas": "^0.0.x",
