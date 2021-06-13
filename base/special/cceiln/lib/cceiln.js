@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var ceiln = require( '@stdlib/math/base/special/ceiln' );
+var ceiln = require( './../../../../base/special/ceiln' );
 
 
 // MAIN //

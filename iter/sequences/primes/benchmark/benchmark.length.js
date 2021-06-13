@@ -21,7 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var pow = require( './../../../../base/special/pow' );
 var pkg = require( './../package.json' ).name;
 var iterPrimesSeq = require( './../lib' );
 

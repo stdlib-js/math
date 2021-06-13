@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var kernelBetainc = require( '@stdlib/math/base/special/kernel-betainc' ).assign;
+var kernelBetainc = require( './../../../../base/special/kernel-betainc' ).assign;
 
 
 // MAIN //

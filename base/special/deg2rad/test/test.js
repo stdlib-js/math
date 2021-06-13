@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var deg2rad = require( './../lib' );
 
 

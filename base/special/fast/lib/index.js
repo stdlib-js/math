@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/abs}
 */
-setReadOnly( ns, 'abs', require( '@stdlib/math/base/special/fast/abs' ) );
+setReadOnly( ns, 'abs', require( './../../../../base/special/fast/abs' ) );
 
 /**
 * @name acosh
@@ -52,7 +52,7 @@ setReadOnly( ns, 'abs', require( '@stdlib/math/base/special/fast/abs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/acosh}
 */
-setReadOnly( ns, 'acosh', require( '@stdlib/math/base/special/fast/acosh' ) );
+setReadOnly( ns, 'acosh', require( './../../../../base/special/fast/acosh' ) );
 
 /**
 * @name ampbm
@@ -61,7 +61,7 @@ setReadOnly( ns, 'acosh', require( '@stdlib/math/base/special/fast/acosh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/alpha-max-plus-beta-min}
 */
-setReadOnly( ns, 'ampbm', require( '@stdlib/math/base/special/fast/alpha-max-plus-beta-min' ) );
+setReadOnly( ns, 'ampbm', require( './../../../../base/special/fast/alpha-max-plus-beta-min' ) );
 
 /**
 * @name asinh
@@ -70,7 +70,7 @@ setReadOnly( ns, 'ampbm', require( '@stdlib/math/base/special/fast/alpha-max-plu
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/asinh}
 */
-setReadOnly( ns, 'asinh', require( '@stdlib/math/base/special/fast/asinh' ) );
+setReadOnly( ns, 'asinh', require( './../../../../base/special/fast/asinh' ) );
 
 /**
 * @name atanh
@@ -79,7 +79,7 @@ setReadOnly( ns, 'asinh', require( '@stdlib/math/base/special/fast/asinh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/atanh}
 */
-setReadOnly( ns, 'atanh', require( '@stdlib/math/base/special/fast/atanh' ) );
+setReadOnly( ns, 'atanh', require( './../../../../base/special/fast/atanh' ) );
 
 /**
 * @name hypot
@@ -88,7 +88,7 @@ setReadOnly( ns, 'atanh', require( '@stdlib/math/base/special/fast/atanh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/hypot}
 */
-setReadOnly( ns, 'hypot', require( '@stdlib/math/base/special/fast/hypot' ) );
+setReadOnly( ns, 'hypot', require( './../../../../base/special/fast/hypot' ) );
 
 /**
 * @name max
@@ -97,7 +97,7 @@ setReadOnly( ns, 'hypot', require( '@stdlib/math/base/special/fast/hypot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/max}
 */
-setReadOnly( ns, 'max', require( '@stdlib/math/base/special/fast/max' ) );
+setReadOnly( ns, 'max', require( './../../../../base/special/fast/max' ) );
 
 /**
 * @name min
@@ -106,7 +106,7 @@ setReadOnly( ns, 'max', require( '@stdlib/math/base/special/fast/max' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/min}
 */
-setReadOnly( ns, 'min', require( '@stdlib/math/base/special/fast/min' ) );
+setReadOnly( ns, 'min', require( './../../../../base/special/fast/min' ) );
 
 /**
 * @name powint
@@ -115,7 +115,7 @@ setReadOnly( ns, 'min', require( '@stdlib/math/base/special/fast/min' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/pow-int}
 */
-setReadOnly( ns, 'powint', require( '@stdlib/math/base/special/fast/pow-int' ) );
+setReadOnly( ns, 'powint', require( './../../../../base/special/fast/pow-int' ) );
 
 /**
 * @name log2Uint32
@@ -124,7 +124,7 @@ setReadOnly( ns, 'powint', require( '@stdlib/math/base/special/fast/pow-int' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/uint32-log2}
 */
-setReadOnly( ns, 'log2Uint32', require( '@stdlib/math/base/special/fast/uint32-log2' ) );
+setReadOnly( ns, 'log2Uint32', require( './../../../../base/special/fast/uint32-log2' ) );
 
 /**
 * @name sqrtUint32
@@ -133,7 +133,7 @@ setReadOnly( ns, 'log2Uint32', require( '@stdlib/math/base/special/fast/uint32-l
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fast/uint32-sqrt}
 */
-setReadOnly( ns, 'sqrtUint32', require( '@stdlib/math/base/special/fast/uint32-sqrt' ) );
+setReadOnly( ns, 'sqrtUint32', require( './../../../../base/special/fast/uint32-sqrt' ) );
 
 
 // EXPORTS //

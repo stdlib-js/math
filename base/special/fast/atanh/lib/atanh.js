@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isinfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var isinfinite = require( './../../../../../base/assert/is-infinite' );
+var isnan = require( './../../../../../base/assert/is-nan' );
+var ln = require( './../../../../../base/special/ln' );
 
 
 // MAIN //

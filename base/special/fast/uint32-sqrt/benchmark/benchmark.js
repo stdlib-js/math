@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var minstd = require( '@stdlib/random/base/minstd-shuffle' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../../base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var sqrtUint32 = require( './../lib' );
 

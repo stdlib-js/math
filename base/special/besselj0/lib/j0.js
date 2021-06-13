@@ -33,8 +33,8 @@
 
 // MODULES //
 
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var sincos = require( '@stdlib/math/base/special/sincos' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var sincos = require( './../../../../base/special/sincos' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var poly1 = require( './rational_p1q1.js' );
 var poly2 = require( './rational_p2q2.js' );

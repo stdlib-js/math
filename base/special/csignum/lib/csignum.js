@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var cabs = require( '@stdlib/math/base/special/cabs' );
+var cabs = require( './../../../../base/special/cabs' );
 
 
 // MAIN //

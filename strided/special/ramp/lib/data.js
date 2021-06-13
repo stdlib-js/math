@@ -22,9 +22,9 @@
 
 // MODULES //
 
-var ramp = require( '@stdlib/math/base/special/ramp' );
-var rampf = require( '@stdlib/math/base/special/rampf' );
-var identity = require( '@stdlib/math/base/special/identity' );
+var ramp = require( './../../../../base/special/ramp' );
+var rampf = require( './../../../../base/special/rampf' );
+var identity = require( './../../../../base/special/identity' );
 
 
 // MAIN //

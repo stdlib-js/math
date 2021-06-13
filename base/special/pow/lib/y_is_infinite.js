@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
 

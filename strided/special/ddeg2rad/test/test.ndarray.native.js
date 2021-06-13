@@ -23,7 +23,7 @@
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var tryRequire = require( '@stdlib/utils/try-require' );
-var deg2rad = require( '@stdlib/math/base/special/deg2rad' );
+var deg2rad = require( './../../../../base/special/deg2rad' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 

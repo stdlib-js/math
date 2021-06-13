@@ -38,9 +38,9 @@
 
 var FLOAT64_MAX_BASE2_EXPONENT = require( '@stdlib/constants/float64/max-base2-exponent' ); // eslint-disable-line id-length
 var FLOAT64_MIN_BASE2_EXPONENT = require( '@stdlib/constants/float64/min-base2-exponent' ); // eslint-disable-line id-length
-var round = require( '@stdlib/math/base/special/round' );
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var round = require( './../../../../base/special/round' );
+var ldexp = require( './../../../../base/special/ldexp' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var polyvalP = require( './polyval_p.js' );
 var polyvalQ = require( './polyval_q.js' );

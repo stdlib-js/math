@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var log1p = require( './../../../../base/special/log1p' );
+var abs = require( './../../../../base/special/abs' );
+var expm1 = require( './../../../../base/special/expm1' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 
 

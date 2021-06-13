@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
+var iterMap = require( './../../../../iter/tools/map' );
+var gammaln = require( './../../../../base/special/gammaln' );
 
 
 // MAIN //

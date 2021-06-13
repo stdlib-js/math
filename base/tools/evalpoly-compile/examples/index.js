@@ -20,7 +20,7 @@
 
 var resolve = require( 'path' ).resolve;
 var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
+var round = require( './../../../../base/special/round' );
 var Float64Array = require( '@stdlib/array/float64' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 

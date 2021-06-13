@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var uniform = require( '@stdlib/random/iter/uniform' );
-var acovercos = require( '@stdlib/math/base/special/acovercos' );
+var acovercos = require( './../../../../base/special/acovercos' );
 var linspace = require( '@stdlib/iter/linspace' );
 var iterAcovercos = require( './../lib' );
 

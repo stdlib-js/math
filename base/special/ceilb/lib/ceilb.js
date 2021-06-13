@@ -20,11 +20,11 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
-var ceiln = require( '@stdlib/math/base/special/ceiln' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var pow = require( './../../../../base/special/pow' );
+var ceil = require( './../../../../base/special/ceil' );
+var ceiln = require( './../../../../base/special/ceiln' );
 
 
 // MAIN //

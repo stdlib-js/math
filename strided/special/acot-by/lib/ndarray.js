@@ -23,7 +23,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' ).ndarray;
-var acot = require( '@stdlib/math/base/special/acot' );
+var acot = require( './../../../../base/special/acot' );
 
 
 // MAIN //

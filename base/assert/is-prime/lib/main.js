@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var floor = require( './../../../../base/special/floor' );
 var FLOAT64_MAX_SAFE_INTEGER = require( '@stdlib/constants/float64/max-safe-integer' );
 var WHEEL_PRIMES = require( './wheel_primes.json' );
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var besselj1 = require( '@stdlib/math/base/special/besselj1' );
+var besselj1 = require( './../../../../base/special/besselj1' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var besselj1By = require( './../lib/ndarray.js' );
 

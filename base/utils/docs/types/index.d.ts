@@ -21,9 +21,9 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import absdiff = require( '@stdlib/math/base/utils/absolute-difference' );
-import epsdiff = require( '@stdlib/math/base/utils/float64-epsilon-difference' );
-import reldiff = require( '@stdlib/math/base/utils/relative-difference' );
+import absdiff = require( './../../../../base/utils/absolute-difference' );
+import epsdiff = require( './../../../../base/utils/float64-epsilon-difference' );
+import reldiff = require( './../../../../base/utils/relative-difference' );
 
 /**
 * Interface describing the `utils` namespace.

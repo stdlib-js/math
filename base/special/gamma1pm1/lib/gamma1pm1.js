@@ -36,10 +36,10 @@
 
 // MODULES //
 
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var gamma = require( './../../../../base/special/gamma' );
+var expm1 = require( './../../../../base/special/expm1' );
+var log1p = require( './../../../../base/special/log1p' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var lgammaSmallImp = require( './lgamma_small_imp.js' );
 
 

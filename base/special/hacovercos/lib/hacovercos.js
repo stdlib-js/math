@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sin = require( '@stdlib/math/base/special/sin' );
+var sin = require( './../../../../base/special/sin' );
 
 
 // MAIN //

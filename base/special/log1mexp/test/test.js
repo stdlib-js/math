@@ -22,14 +22,14 @@
 
 var tape = require( 'tape' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var randu = require( '@stdlib/random/base/randu' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var expm1 = require( './../../../../base/special/expm1' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
+var ln = require( './../../../../base/special/ln' );
+var log1p = require( './../../../../base/special/log1p' );
 var LN2 = require( '@stdlib/constants/float64/ln-two' );
 var log1mexp = require( './../lib' );
 

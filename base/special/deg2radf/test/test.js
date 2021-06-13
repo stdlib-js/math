@@ -24,8 +24,8 @@ var tape = require( 'tape' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var EPS = require( '@stdlib/constants/float32/eps' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
-var absf = require( '@stdlib/math/base/special/absf' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var absf = require( './../../../../base/special/absf' );
 var deg2radf = require( './../lib' );
 
 

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gcd = require( '@stdlib/math/base/special/gcd' );
+var gcd = require( './../../../../base/special/gcd' );
 
 
 // MAIN //

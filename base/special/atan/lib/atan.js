@@ -34,7 +34,7 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var PIO2 = require( '@stdlib/constants/float64/half-pi' );
 var PIO4 = require( '@stdlib/constants/float64/fourth-pi' );

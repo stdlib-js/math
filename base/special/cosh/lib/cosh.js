@@ -34,8 +34,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var exp = require( './../../../../base/special/exp' );
 
 
 // MAIN //

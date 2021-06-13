@@ -21,11 +21,11 @@
 // MODULES //
 
 var constantFunction = require( '@stdlib/utils/constant-function' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isint = require( '@stdlib/math/base/assert/is-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isint = require( './../../../../base/assert/is-integer' );
 var SQRT2 = require( '@stdlib/constants/float64/sqrt-two' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var normhermitepoly = require( '@stdlib/math/base/tools/normhermitepoly' );
+var pow = require( './../../../../base/special/pow' );
+var normhermitepoly = require( './../../../../base/tools/normhermitepoly' );
 
 
 // MAIN //

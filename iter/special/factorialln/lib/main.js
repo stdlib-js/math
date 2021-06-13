@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var factorialln = require( '@stdlib/math/base/special/factorialln' );
+var iterMap = require( './../../../../iter/tools/map' );
+var factorialln = require( './../../../../base/special/factorialln' );
 
 
 // MAIN //

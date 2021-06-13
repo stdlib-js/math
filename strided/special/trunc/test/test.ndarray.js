@@ -22,8 +22,8 @@
 
 var tape = require( 'tape' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var trunc = require( '@stdlib/math/base/special/trunc' );
-var truncf = require( '@stdlib/math/base/special/truncf' );
+var trunc = require( './../../../../base/special/trunc' );
+var truncf = require( './../../../../base/special/truncf' );
 var filledarray = require( '@stdlib/array/filled' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Uint8Array = require( '@stdlib/array/uint8' );

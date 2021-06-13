@@ -19,7 +19,7 @@
 'use strict';
 
 var randu = require( '@stdlib/random/iter/randu' );
-var sin = require( '@stdlib/math/base/special/sin' );
+var sin = require( './../../../../base/special/sin' );
 var iterMap = require( './../lib' );
 
 // Create a seeded iterator for generating pseudorandom numbers:

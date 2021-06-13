@@ -21,8 +21,8 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isPositiveZerof = require( '@stdlib/math/base/assert/is-positive-zerof' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var absf = require( './../lib/abs.js' );

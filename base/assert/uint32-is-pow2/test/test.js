@@ -21,8 +21,8 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var log2 = require( '@stdlib/math/base/special/log2' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
+var log2 = require( './../../../../base/special/log2' );
+var isInteger = require( './../../../../base/assert/is-integer' );
 var isPow2Uint32 = require( './../lib' );
 
 

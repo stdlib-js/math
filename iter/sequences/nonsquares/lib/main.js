@@ -22,8 +22,8 @@
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var floor = require( './../../../../base/special/floor' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var validate = require( './validate.js' );
 
 

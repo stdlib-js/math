@@ -34,7 +34,7 @@
 
 // MODULES //
 
-var exp = require( '@stdlib/math/base/special/exp' );
+var exp = require( './../../../../base/special/exp' );
 
 
 // MAIN //

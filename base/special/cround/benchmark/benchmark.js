@@ -23,7 +23,7 @@
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var isArray = require( '@stdlib/assert/is-array' );
-var round = require( '@stdlib/math/base/special/round' );
+var round = require( './../../../../base/special/round' );
 var pkg = require( './../package.json' ).name;
 var cround = require( './../lib' );
 

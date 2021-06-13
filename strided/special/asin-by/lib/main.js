@@ -21,7 +21,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' );
-var asin = require( '@stdlib/math/base/special/asin' );
+var asin = require( './../../../../base/special/asin' );
 
 
 // MAIN //

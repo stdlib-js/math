@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var uniform = require( '@stdlib/random/iter/uniform' );
-var aversin = require( '@stdlib/math/base/special/aversin' );
+var aversin = require( './../../../../base/special/aversin' );
 var linspace = require( '@stdlib/iter/linspace' );
 var iterAversin = require( './../lib' );
 

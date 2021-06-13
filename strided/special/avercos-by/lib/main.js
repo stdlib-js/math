@@ -21,7 +21,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' );
-var avercos = require( '@stdlib/math/base/special/avercos' );
+var avercos = require( './../../../../base/special/avercos' );
 
 
 // MAIN //

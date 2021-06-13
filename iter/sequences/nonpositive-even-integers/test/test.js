@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var isEven = require( '@stdlib/math/base/assert/is-even' );
+var isEven = require( './../../../../base/assert/is-even' );
 var isNonPositiveInteger = require( '@stdlib/assert/is-nonpositive-integer' ).isPrimitive;
 var iterNonPositiveEvenIntegersSeq = require( './../lib' ); // eslint-disable-line id-length
 

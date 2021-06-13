@@ -19,7 +19,7 @@
 'use strict';
 
 var uniform = require( '@stdlib/random/iter/uniform' );
-var clamp = require( '@stdlib/math/base/special/clamp' );
+var clamp = require( './../../../../base/special/clamp' );
 var iterMap3 = require( './../lib' );
 
 // Create seeded iterators for generating pseudorandom numbers:

@@ -22,7 +22,7 @@
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var isPrime = require( '@stdlib/math/base/assert/is-prime' );
+var isPrime = require( './../../../../base/assert/is-prime' );
 var validate = require( './validate.js' );
 
 

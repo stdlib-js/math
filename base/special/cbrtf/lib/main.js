@@ -22,7 +22,7 @@
 // MODULES //
 
 var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
-var cbrt = require( '@stdlib/math/base/special/cbrt' );
+var cbrt = require( './../../../../base/special/cbrt' );
 
 
 // MAIN //

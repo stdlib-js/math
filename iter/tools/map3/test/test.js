@@ -22,8 +22,8 @@
 
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var clamp = require( '@stdlib/math/base/special/clamp' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var clamp = require( './../../../../base/special/clamp' );
 var randu = require( '@stdlib/random/iter/randu' );
 var map = require( '@stdlib/iter/map' );
 var array2iterator = require( '@stdlib/array/to-iterator' );

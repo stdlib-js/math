@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var pow = require( './../../../../base/special/pow' );
 var klog = require( './../lib/klog.js' );
 
 

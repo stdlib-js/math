@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isOdd = require( '@stdlib/math/base/assert/is-odd' );
-var round = require( '@stdlib/math/base/special/round' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isOdd = require( './../../../../base/assert/is-odd' );
+var round = require( './../../../../base/special/round' );
 
 
 // MAIN //

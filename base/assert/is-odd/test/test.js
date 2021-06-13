@@ -24,7 +24,7 @@ var tape = require( 'tape' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
+var round = require( './../../../../base/special/round' );
 var isOdd = require( './../lib' );
 
 

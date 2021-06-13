@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var floor = require( '@stdlib/math/base/special/floor' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
+var floor = require( './../../../../base/special/floor' );
+var ceil = require( './../../../../base/special/ceil' );
 
 
 // MAIN //

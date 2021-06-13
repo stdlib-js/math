@@ -20,11 +20,11 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var pow = require( './../../../../base/special/pow' );
+var abs = require( './../../../../base/special/abs' );
+var floor = require( './../../../../base/special/floor' );
 var MAX_SAFE_INTEGER = require( '@stdlib/constants/float64/max-safe-integer' );
 var MAX_EXP = require( '@stdlib/constants/float64/max-base10-exponent' );
 var MIN_EXP = require( '@stdlib/constants/float64/min-base10-exponent' );

@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var acoversin = require( '@stdlib/math/base/special/acoversin' );
+var acoversin = require( './../../../../base/special/acoversin' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var acoversinBy = require( './../lib/ndarray.js' );
 

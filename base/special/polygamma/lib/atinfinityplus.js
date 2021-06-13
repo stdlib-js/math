@@ -37,13 +37,13 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var bernoulli = require( '@stdlib/math/base/special/bernoulli' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var bernoulli = require( './../../../../base/special/bernoulli' );
+var factorial = require( './../../../../base/special/factorial' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var MAX_LN = require( '@stdlib/constants/float64/max-ln' );
 var LN_TWO = require( '@stdlib/constants/float64/ln-two' );
 var EPS = require( '@stdlib/constants/float64/eps' );

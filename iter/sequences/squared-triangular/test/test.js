@@ -25,7 +25,7 @@ var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
 var isSquareNumber = require( '@stdlib/assert/is-square-number' ).isPrimitive;
 var isTriangularNumber = require( '@stdlib/assert/is-triangular-number' ).isPrimitive;
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var iterSquaredTriangularSeq = require( './../lib' );
 
 

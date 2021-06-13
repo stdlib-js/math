@@ -37,10 +37,10 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
-var zeta = require( '@stdlib/math/base/special/riemann-zeta' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var factorial = require( './../../../../base/special/factorial' );
+var zeta = require( './../../../../base/special/riemann-zeta' );
+var abs = require( './../../../../base/special/abs' );
+var pow = require( './../../../../base/special/pow' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var EPS = require( '@stdlib/constants/float64/eps' );

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var base = require( '@stdlib/math/base/special/abs' );
-var strided = require( '@stdlib/math/strided/special/abs' );
+var base = require( './../../../base/special/abs' );
+var strided = require( './../../../strided/special/abs' );
 var dispatcher = require( '@stdlib/ndarray/dispatch' );
 var unary = require( '@stdlib/ndarray/base/unary' );
 var types = require( './types.json' );

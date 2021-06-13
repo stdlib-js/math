@@ -21,10 +21,10 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var gammainc = require( '@stdlib/math/base/special/gammainc' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var gammainc = require( './../../../../base/special/gammainc' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var ln = require( './../../../../base/special/ln' );
 var MAX_FLOAT32 = require( '@stdlib/constants/float32/max' );
 
 

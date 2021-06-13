@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-import pow = require( '@stdlib/math/base/special/pow' );
+import pow = require( './../../../../../base/special/pow' );
 import sumSeries = require( './index' );
 
 /**

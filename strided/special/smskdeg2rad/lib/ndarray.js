@@ -21,7 +21,7 @@
 // MODULES //
 
 var smskmap = require( '@stdlib/strided/base/smskmap' ).ndarray;
-var deg2radf = require( '@stdlib/math/base/special/deg2radf' );
+var deg2radf = require( './../../../../base/special/deg2radf' );
 
 
 // MAIN //

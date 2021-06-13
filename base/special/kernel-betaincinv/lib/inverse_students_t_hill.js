@@ -36,10 +36,10 @@
 
 // MODULES //
 
-var erfcinv = require( '@stdlib/math/base/special/erfcinv' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var erfcinv = require( './../../../../base/special/erfcinv' );
+var expm1 = require( './../../../../base/special/expm1' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var pow = require( './../../../../base/special/pow' );
 var HALF_PI = require( '@stdlib/constants/float64/half-pi' );
 var SQRT2 = require( '@stdlib/constants/float64/sqrt-two' );
 

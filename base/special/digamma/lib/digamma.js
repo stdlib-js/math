@@ -33,9 +33,9 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var tan = require( '@stdlib/math/base/special/tan' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var floor = require( './../../../../base/special/floor' );
+var tan = require( './../../../../base/special/tan' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var asymptoticApprox = require( './asymptotic_expansion.js' );
 var rationalApprox = require( './rational_approximation.js' );

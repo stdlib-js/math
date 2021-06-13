@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var trunc = require( '@stdlib/math/base/special/trunc' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var trunc = require( './../../../../base/special/trunc' );
 
 
 // MAIN //

@@ -22,8 +22,8 @@
 
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var pow = require( './../../../../base/special/pow' );
 var filledarray = require( '@stdlib/array/filled' );
 var pkg = require( './../package.json' ).name;
 var ahavercosBy = require( './../lib/ndarray.js' );

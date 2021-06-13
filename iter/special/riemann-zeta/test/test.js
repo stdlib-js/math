@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/base/uniform' ).factory;
 var uniform = require( '@stdlib/random/iter/uniform' );
-var zeta = require( '@stdlib/math/base/special/riemann-zeta' );
+var zeta = require( './../../../../base/special/riemann-zeta' );
 var iterZeta = require( './../lib' );
 
 

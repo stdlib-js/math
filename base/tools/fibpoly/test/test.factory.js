@@ -21,8 +21,8 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var fibonacci = require( '@stdlib/math/base/special/fibonacci' );
-var negaFibonacci = require( '@stdlib/math/base/special/negafibonacci' );
+var fibonacci = require( './../../../../base/special/fibonacci' );
+var negaFibonacci = require( './../../../../base/special/negafibonacci' );
 var factory = require( './../lib/factory.js' );
 
 

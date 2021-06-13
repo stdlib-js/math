@@ -21,9 +21,9 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var pow = require( './../../../../base/special/pow' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var evalpoly = require( './../lib' );
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' );
-var bessely0 = require( '@stdlib/math/base/special/bessely0' );
+var bessely0 = require( './../../../../base/special/bessely0' );
 
 
 // MAIN //

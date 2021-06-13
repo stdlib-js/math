@@ -21,7 +21,7 @@
 // MODULES //
 
 var smskmap = require( '@stdlib/strided/base/smskmap' );
-var rampf = require( '@stdlib/math/base/special/rampf' );
+var rampf = require( './../../../../base/special/rampf' );
 
 
 // MAIN //

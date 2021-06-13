@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 
 
 // MAIN //

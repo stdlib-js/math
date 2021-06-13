@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmskmap = require( '@stdlib/strided/base/dmskmap' );
-var trunc = require( '@stdlib/math/base/special/trunc' );
+var trunc = require( './../../../../base/special/trunc' );
 
 
 // MAIN //

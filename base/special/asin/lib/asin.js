@@ -34,8 +34,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var PIO4 = require( '@stdlib/constants/float64/fourth-pi' );
 var ratevalPQ = require( './rational_pq.js' );
 var ratevalRS = require( './rational_rs.js' );

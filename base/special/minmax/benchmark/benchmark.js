@@ -23,8 +23,8 @@
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var isArray = require( '@stdlib/assert/is-array' );
-var min = require( '@stdlib/math/base/special/min' );
-var max = require( '@stdlib/math/base/special/max' );
+var min = require( './../../../../base/special/min' );
+var max = require( './../../../../base/special/max' );
 var pkg = require( './../package.json' ).name;
 var minmax = require( './../lib' );
 

@@ -22,10 +22,10 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var pow = require( './../../../../base/special/pow' );
 var filledarray = require( '@stdlib/array/filled' );
-var dabs = require( '@stdlib/math/strided/special/dabs' );
+var dabs = require( './../../../../strided/special/dabs' );
 var pkg = require( './../package.json' ).name;
 
 

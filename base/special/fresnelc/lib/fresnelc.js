@@ -34,8 +34,8 @@
 
 // MODULES //
 
-var sincos = require( '@stdlib/math/base/special/sincos' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var sincos = require( './../../../../base/special/sincos' );
+var abs = require( './../../../../base/special/abs' );
 var HALF_PI = require( '@stdlib/constants/float64/half-pi' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var polyC = require( './rational_pcqc.js' );

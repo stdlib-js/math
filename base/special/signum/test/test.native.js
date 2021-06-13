@@ -22,9 +22,9 @@
 
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );

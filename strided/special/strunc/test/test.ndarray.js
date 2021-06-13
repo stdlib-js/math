@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var truncf = require( '@stdlib/math/base/special/truncf' );
+var truncf = require( './../../../../base/special/truncf' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float32Array = require( '@stdlib/array/float32' );
 var strunc = require( './../lib/ndarray.js' );

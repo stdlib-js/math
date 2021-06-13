@@ -34,10 +34,10 @@
 
 // MODULES //
 
-var gammaDeltaRatio = require( '@stdlib/math/base/special/gamma-delta-ratio' );
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var gammaDeltaRatio = require( './../../../../base/special/gamma-delta-ratio' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var pow = require( './../../../../base/special/pow' );
 var PI = require( '@stdlib/constants/float64/pi' );
 
 

@@ -27,12 +27,12 @@
 
 // MODULES //
 
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var max = require( '@stdlib/math/base/special/max' );
-var min = require( '@stdlib/math/base/special/min' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var log1p = require( './../../../../base/special/log1p' );
+var gamma = require( './../../../../base/special/gamma' );
+var max = require( './../../../../base/special/max' );
+var min = require( './../../../../base/special/min' );
+var ln = require( './../../../../base/special/ln' );
 var LN_SQRT_TWO_PI = require( '@stdlib/constants/float64/ln-sqrt-two-pi' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );

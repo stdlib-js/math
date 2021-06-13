@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var trunc = require( '@stdlib/math/base/special/trunc' );
+var trunc = require( './../../../../base/special/trunc' );
 var randu = require( '@stdlib/random/base/randu' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
 var PINF = require( '@stdlib/constants/float64/pinf' );

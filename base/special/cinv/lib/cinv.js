@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var max = require( '@stdlib/math/base/special/max' );
+var abs = require( './../../../../base/special/abs' );
+var max = require( './../../../../base/special/max' );
 var FLOAT64_BIGGEST = require( '@stdlib/constants/float64/max' );
 var FLOAT64_SMALLEST = require( '@stdlib/constants/float64/smallest-normal' );
 var EPS = require( '@stdlib/constants/float64/eps' );

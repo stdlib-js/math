@@ -21,7 +21,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' );
-var binet = require( '@stdlib/math/base/special/binet' );
+var binet = require( './../../../../base/special/binet' );
 
 
 // MAIN //

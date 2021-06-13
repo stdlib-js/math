@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var cbrt = require( '@stdlib/math/base/special/cbrt' );
+var iterMap = require( './../../../../iter/tools/map' );
+var cbrt = require( './../../../../base/special/cbrt' );
 
 
 // MAIN //

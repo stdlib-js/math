@@ -22,7 +22,7 @@
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var nonfibonacci = require( '@stdlib/math/base/special/nonfibonacci' );
+var nonfibonacci = require( './../../../../base/special/nonfibonacci' );
 var validate = require( './validate.js' );
 
 

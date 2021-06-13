@@ -22,7 +22,7 @@
 
 var MAX_SAFE_INTEGER = require( '@stdlib/constants/float64/max-safe-integer' );
 var MIN_SAFE_INTEGER = require( '@stdlib/constants/float64/min-safe-integer' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
+var isInteger = require( './../../../../base/assert/is-integer' );
 
 
 // MAIN //

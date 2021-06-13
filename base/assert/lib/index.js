@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/int32-is-even}
 */
-setReadOnly( ns, 'isEvenInt32', require( '@stdlib/math/base/assert/int32-is-even' ) );
+setReadOnly( ns, 'isEvenInt32', require( './../../../base/assert/int32-is-even' ) );
 
 /**
 * @name isOddInt32
@@ -52,7 +52,7 @@ setReadOnly( ns, 'isEvenInt32', require( '@stdlib/math/base/assert/int32-is-even
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/int32-is-odd}
 */
-setReadOnly( ns, 'isOddInt32', require( '@stdlib/math/base/assert/int32-is-odd' ) );
+setReadOnly( ns, 'isOddInt32', require( './../../../base/assert/int32-is-odd' ) );
 
 /**
 * @name isComposite
@@ -61,7 +61,7 @@ setReadOnly( ns, 'isOddInt32', require( '@stdlib/math/base/assert/int32-is-odd' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-composite}
 */
-setReadOnly( ns, 'isComposite', require( '@stdlib/math/base/assert/is-composite' ) );
+setReadOnly( ns, 'isComposite', require( './../../../base/assert/is-composite' ) );
 
 /**
 * @name isCoprime
@@ -70,7 +70,7 @@ setReadOnly( ns, 'isComposite', require( '@stdlib/math/base/assert/is-composite'
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-coprime}
 */
-setReadOnly( ns, 'isCoprime', require( '@stdlib/math/base/assert/is-coprime' ) );
+setReadOnly( ns, 'isCoprime', require( './../../../base/assert/is-coprime' ) );
 
 /**
 * @name isEven
@@ -79,7 +79,7 @@ setReadOnly( ns, 'isCoprime', require( '@stdlib/math/base/assert/is-coprime' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-even}
 */
-setReadOnly( ns, 'isEven', require( '@stdlib/math/base/assert/is-even' ) );
+setReadOnly( ns, 'isEven', require( './../../../base/assert/is-even' ) );
 
 /**
 * @name isFinite
@@ -88,7 +88,7 @@ setReadOnly( ns, 'isEven', require( '@stdlib/math/base/assert/is-even' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-finite}
 */
-setReadOnly( ns, 'isFinite', require( '@stdlib/math/base/assert/is-finite' ) );
+setReadOnly( ns, 'isFinite', require( './../../../base/assert/is-finite' ) );
 
 /**
 * @name isFinitef
@@ -97,7 +97,7 @@ setReadOnly( ns, 'isFinite', require( '@stdlib/math/base/assert/is-finite' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-finitef}
 */
-setReadOnly( ns, 'isFinitef', require( '@stdlib/math/base/assert/is-finitef' ) );
+setReadOnly( ns, 'isFinitef', require( './../../../base/assert/is-finitef' ) );
 
 /**
 * @name isInfinite
@@ -106,7 +106,7 @@ setReadOnly( ns, 'isFinitef', require( '@stdlib/math/base/assert/is-finitef' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-infinite}
 */
-setReadOnly( ns, 'isInfinite', require( '@stdlib/math/base/assert/is-infinite' ) );
+setReadOnly( ns, 'isInfinite', require( './../../../base/assert/is-infinite' ) );
 
 /**
 * @name isInfinitef
@@ -115,7 +115,7 @@ setReadOnly( ns, 'isInfinite', require( '@stdlib/math/base/assert/is-infinite' )
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-infinitef}
 */
-setReadOnly( ns, 'isInfinitef', require( '@stdlib/math/base/assert/is-infinitef' ) );
+setReadOnly( ns, 'isInfinitef', require( './../../../base/assert/is-infinitef' ) );
 
 /**
 * @name isInteger
@@ -124,7 +124,7 @@ setReadOnly( ns, 'isInfinitef', require( '@stdlib/math/base/assert/is-infinitef'
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-integer}
 */
-setReadOnly( ns, 'isInteger', require( '@stdlib/math/base/assert/is-integer' ) );
+setReadOnly( ns, 'isInteger', require( './../../../base/assert/is-integer' ) );
 
 /**
 * @name isnan
@@ -133,7 +133,7 @@ setReadOnly( ns, 'isInteger', require( '@stdlib/math/base/assert/is-integer' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-nan}
 */
-setReadOnly( ns, 'isnan', require( '@stdlib/math/base/assert/is-nan' ) );
+setReadOnly( ns, 'isnan', require( './../../../base/assert/is-nan' ) );
 
 /**
 * @name isnanf
@@ -142,7 +142,7 @@ setReadOnly( ns, 'isnan', require( '@stdlib/math/base/assert/is-nan' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-nanf}
 */
-setReadOnly( ns, 'isnanf', require( '@stdlib/math/base/assert/is-nanf' ) );
+setReadOnly( ns, 'isnanf', require( './../../../base/assert/is-nanf' ) );
 
 /**
 * @name isNegativeInteger
@@ -151,7 +151,7 @@ setReadOnly( ns, 'isnanf', require( '@stdlib/math/base/assert/is-nanf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-negative-integer}
 */
-setReadOnly( ns, 'isNegativeInteger', require( '@stdlib/math/base/assert/is-negative-integer' ) );
+setReadOnly( ns, 'isNegativeInteger', require( './../../../base/assert/is-negative-integer' ) );
 
 /**
 * @name isNegativeZero
@@ -160,7 +160,7 @@ setReadOnly( ns, 'isNegativeInteger', require( '@stdlib/math/base/assert/is-nega
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-negative-zero}
 */
-setReadOnly( ns, 'isNegativeZero', require( '@stdlib/math/base/assert/is-negative-zero' ) );
+setReadOnly( ns, 'isNegativeZero', require( './../../../base/assert/is-negative-zero' ) );
 
 /**
 * @name isNegativeZerof
@@ -169,7 +169,7 @@ setReadOnly( ns, 'isNegativeZero', require( '@stdlib/math/base/assert/is-negativ
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-negative-zerof}
 */
-setReadOnly( ns, 'isNegativeZerof', require( '@stdlib/math/base/assert/is-negative-zerof' ) );
+setReadOnly( ns, 'isNegativeZerof', require( './../../../base/assert/is-negative-zerof' ) );
 
 /**
 * @name isNonNegativeInteger
@@ -178,7 +178,7 @@ setReadOnly( ns, 'isNegativeZerof', require( '@stdlib/math/base/assert/is-negati
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-nonnegative-integer}
 */
-setReadOnly( ns, 'isNonNegativeInteger', require( '@stdlib/math/base/assert/is-nonnegative-integer' ) );
+setReadOnly( ns, 'isNonNegativeInteger', require( './../../../base/assert/is-nonnegative-integer' ) );
 
 /**
 * @name isNonPositiveInteger
@@ -187,7 +187,7 @@ setReadOnly( ns, 'isNonNegativeInteger', require( '@stdlib/math/base/assert/is-n
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-nonpositive-integer}
 */
-setReadOnly( ns, 'isNonPositiveInteger', require( '@stdlib/math/base/assert/is-nonpositive-integer' ) );
+setReadOnly( ns, 'isNonPositiveInteger', require( './../../../base/assert/is-nonpositive-integer' ) );
 
 /**
 * @name isOdd
@@ -196,7 +196,7 @@ setReadOnly( ns, 'isNonPositiveInteger', require( '@stdlib/math/base/assert/is-n
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-odd}
 */
-setReadOnly( ns, 'isOdd', require( '@stdlib/math/base/assert/is-odd' ) );
+setReadOnly( ns, 'isOdd', require( './../../../base/assert/is-odd' ) );
 
 /**
 * @name isPositiveInteger
@@ -205,7 +205,7 @@ setReadOnly( ns, 'isOdd', require( '@stdlib/math/base/assert/is-odd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-positive-integer}
 */
-setReadOnly( ns, 'isPositiveInteger', require( '@stdlib/math/base/assert/is-positive-integer' ) );
+setReadOnly( ns, 'isPositiveInteger', require( './../../../base/assert/is-positive-integer' ) );
 
 /**
 * @name isPositiveZero
@@ -214,7 +214,7 @@ setReadOnly( ns, 'isPositiveInteger', require( '@stdlib/math/base/assert/is-posi
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-positive-zero}
 */
-setReadOnly( ns, 'isPositiveZero', require( '@stdlib/math/base/assert/is-positive-zero' ) );
+setReadOnly( ns, 'isPositiveZero', require( './../../../base/assert/is-positive-zero' ) );
 
 /**
 * @name isPositiveZerof
@@ -223,7 +223,7 @@ setReadOnly( ns, 'isPositiveZero', require( '@stdlib/math/base/assert/is-positiv
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-positive-zerof}
 */
-setReadOnly( ns, 'isPositiveZerof', require( '@stdlib/math/base/assert/is-positive-zerof' ) );
+setReadOnly( ns, 'isPositiveZerof', require( './../../../base/assert/is-positive-zerof' ) );
 
 /**
 * @name isPrime
@@ -232,7 +232,7 @@ setReadOnly( ns, 'isPositiveZerof', require( '@stdlib/math/base/assert/is-positi
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-prime}
 */
-setReadOnly( ns, 'isPrime', require( '@stdlib/math/base/assert/is-prime' ) );
+setReadOnly( ns, 'isPrime', require( './../../../base/assert/is-prime' ) );
 
 /**
 * @name isProbability
@@ -241,7 +241,7 @@ setReadOnly( ns, 'isPrime', require( '@stdlib/math/base/assert/is-prime' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-probability}
 */
-setReadOnly( ns, 'isProbability', require( '@stdlib/math/base/assert/is-probability' ) );
+setReadOnly( ns, 'isProbability', require( './../../../base/assert/is-probability' ) );
 
 /**
 * @name isSafeInteger
@@ -250,7 +250,7 @@ setReadOnly( ns, 'isProbability', require( '@stdlib/math/base/assert/is-probabil
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/is-safe-integer}
 */
-setReadOnly( ns, 'isSafeInteger', require( '@stdlib/math/base/assert/is-safe-integer' ) );
+setReadOnly( ns, 'isSafeInteger', require( './../../../base/assert/is-safe-integer' ) );
 
 /**
 * @name isPow2Uint32
@@ -259,7 +259,7 @@ setReadOnly( ns, 'isSafeInteger', require( '@stdlib/math/base/assert/is-safe-int
 * @type {Function}
 * @see {@link module:@stdlib/math/base/assert/uint32-is-pow2}
 */
-setReadOnly( ns, 'isPow2Uint32', require( '@stdlib/math/base/assert/uint32-is-pow2' ) );
+setReadOnly( ns, 'isPow2Uint32', require( './../../../base/assert/uint32-is-pow2' ) );
 
 
 // EXPORTS //

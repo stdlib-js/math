@@ -25,8 +25,8 @@ var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var MAX_FLOAT64 = require( '@stdlib/constants/float64/max' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var diff = require( './../lib' );
 
 

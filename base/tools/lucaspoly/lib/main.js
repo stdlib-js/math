@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var pow = require( './../../../../base/special/pow' );
+var abs = require( './../../../../base/special/abs' );
 var coefficients = require( './coefficients.js' );
 
 

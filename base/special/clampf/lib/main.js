@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
-var isNegativeZerof = require( '@stdlib/math/base/assert/is-negative-zerof' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var isNegativeZerof = require( './../../../../base/assert/is-negative-zerof' );
 
 
 // MAIN //

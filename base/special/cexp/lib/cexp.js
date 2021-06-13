@@ -20,11 +20,11 @@
 
 // MODULES //
 
-var copysign = require( '@stdlib/math/base/special/copysign' );
-var sincos = require( '@stdlib/math/base/special/sincos' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var copysign = require( './../../../../base/special/copysign' );
+var sincos = require( './../../../../base/special/sincos' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var exp = require( './../../../../base/special/exp' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 

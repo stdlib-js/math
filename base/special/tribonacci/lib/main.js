@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInteger = require( './../../../../base/assert/is-integer' );
 var TRIBONACCI = require( './tribonacci.json' );
 
 

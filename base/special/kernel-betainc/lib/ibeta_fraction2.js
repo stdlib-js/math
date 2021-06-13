@@ -33,7 +33,7 @@
 
 // MODULES //
 
-var continuedFraction = require( '@stdlib/math/base/tools/continued-fraction' );
+var continuedFraction = require( './../../../../base/tools/continued-fraction' );
 var ibetaPowerTerms = require( './ibeta_power_terms.js' );
 
 

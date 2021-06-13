@@ -34,14 +34,14 @@
 
 // MODULES //
 
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var erfcinv = require( '@stdlib/math/base/special/erfcinv' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var sin = require( '@stdlib/math/base/special/sin' );
-var cos = require( '@stdlib/math/base/special/cos' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var erfcinv = require( './../../../../base/special/erfcinv' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var ln = require( './../../../../base/special/ln' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var sin = require( './../../../../base/special/sin' );
+var cos = require( './../../../../base/special/cos' );
 var temmeRootFinder = require( './root_finder.js');
 var newtonRaphsonIterate = require( './newton_raphson.js' );
 var polyval1 = require( './polyval_co1.js' );

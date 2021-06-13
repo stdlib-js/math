@@ -26,11 +26,11 @@ var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var BIAS = require( '@stdlib/constants/float64/exponent-bias' );
 var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var round = require( './../../../../base/special/round' );
+var pow = require( './../../../../base/special/pow' );
+var abs = require( './../../../../base/special/abs' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var Float64Array = require( '@stdlib/array/float64' );
 var frexp = require( './../lib' );
 

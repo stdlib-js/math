@@ -25,11 +25,11 @@ var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var EPS = require( '@stdlib/constants/float32/eps' );
-var absf = require( '@stdlib/math/base/special/absf' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
-var isPositiveZerof = require( '@stdlib/math/base/assert/is-positive-zerof' );
+var absf = require( './../../../../base/special/absf' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var pow = require( './../../../../base/special/pow' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
 var hypotf = require( './../lib' );
 
 

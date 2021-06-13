@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var atan = require( '@stdlib/math/base/special/atan' );
+var atan = require( './../../../../base/special/atan' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var atanBy = require( './../lib/main.js' );

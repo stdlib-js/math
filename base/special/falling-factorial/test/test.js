@@ -21,8 +21,8 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var abs = require( './../../../../base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var fallingFactorial = require( './../lib' );

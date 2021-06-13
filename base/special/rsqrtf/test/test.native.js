@@ -22,11 +22,11 @@
 
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var EPS = require( '@stdlib/constants/float32/eps' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var trunc10 = require( '@stdlib/math/base/special/trunc10' );
+var iterMap = require( './../../../../iter/tools/map' );
+var trunc10 = require( './../../../../base/special/trunc10' );
 
 
 // MAIN //

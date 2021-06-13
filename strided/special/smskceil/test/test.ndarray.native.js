@@ -23,7 +23,7 @@
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var tryRequire = require( '@stdlib/utils/try-require' );
-var ceilf = require( '@stdlib/math/base/special/ceilf' );
+var ceilf = require( './../../../../base/special/ceilf' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float32Array = require( '@stdlib/array/float32' );
 var Uint8Array = require( '@stdlib/array/uint8' );

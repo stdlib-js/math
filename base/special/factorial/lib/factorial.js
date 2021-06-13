@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var gamma = require( './../../../../base/special/gamma' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var FACTORIALS = require( './factorials.json' );
 

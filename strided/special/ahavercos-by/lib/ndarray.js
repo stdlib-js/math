@@ -23,7 +23,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' ).ndarray;
-var ahavercos = require( '@stdlib/math/base/special/ahavercos' );
+var ahavercos = require( './../../../../base/special/ahavercos' );
 
 
 // MAIN //

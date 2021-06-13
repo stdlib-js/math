@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/base/uniform' ).factory;
 var uniform = require( '@stdlib/random/iter/uniform' );
-var fresnelc = require( '@stdlib/math/base/special/fresnelc' );
+var fresnelc = require( './../../../../base/special/fresnelc' );
 var iterFresnelc = require( './../lib' );
 
 

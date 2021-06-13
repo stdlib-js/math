@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var signum = require( '@stdlib/math/base/special/signum' );
+var iterMap = require( './../../../../iter/tools/map' );
+var signum = require( './../../../../base/special/signum' );
 
 
 // MAIN //

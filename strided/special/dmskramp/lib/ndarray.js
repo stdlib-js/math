@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmskmap = require( '@stdlib/strided/base/dmskmap' ).ndarray;
-var ramp = require( '@stdlib/math/base/special/ramp' );
+var ramp = require( './../../../../base/special/ramp' );
 
 
 // MAIN //

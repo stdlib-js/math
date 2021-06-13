@@ -22,8 +22,8 @@
 
 // MODULES //
 
-var inv = require( '@stdlib/math/base/special/inv' );
-var invf = require( '@stdlib/math/base/special/invf' );
+var inv = require( './../../../../base/special/inv' );
+var invf = require( './../../../../base/special/invf' );
 
 
 // MAIN //

@@ -22,8 +22,8 @@
 
 // MODULES //
 
-var deg2rad = require( '@stdlib/math/base/special/deg2rad' );
-var deg2radf = require( '@stdlib/math/base/special/deg2radf' );
+var deg2rad = require( './../../../../base/special/deg2rad' );
+var deg2radf = require( './../../../../base/special/deg2radf' );
 
 
 // MAIN //

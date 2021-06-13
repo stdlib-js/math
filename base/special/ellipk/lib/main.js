@@ -51,8 +51,8 @@
 
 // MODULES //
 
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var ln = require( './../../../../base/special/ln' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var HALF_PI = require( '@stdlib/constants/float64/half-pi' );
 var poly1 = require( './poly_p1.js' );

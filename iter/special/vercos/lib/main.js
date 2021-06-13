@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var vercos = require( '@stdlib/math/base/special/vercos' );
+var iterMap = require( './../../../../iter/tools/map' );
+var vercos = require( './../../../../base/special/vercos' );
 
 
 // MAIN //

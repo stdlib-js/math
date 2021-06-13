@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/iter/randu' );
-var cospi = require( '@stdlib/math/base/special/cospi' );
+var cospi = require( './../../../../base/special/cospi' );
 var linspace = require( '@stdlib/iter/linspace' );
 var iterCospi = require( './../lib' );
 

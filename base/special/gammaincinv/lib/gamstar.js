@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var exp = require( '@stdlib/math/base/special/exp' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var exp = require( './../../../../base/special/exp' );
+var gamma = require( './../../../../base/special/gamma' );
+var ln = require( './../../../../base/special/ln' );
 var FLOAT32_MAX = require( '@stdlib/constants/float32/max' );
 var SQRT_TWO_PI = require( '@stdlib/constants/float64/sqrt-two-pi' );
 var stirling = require( './stirling.js' );

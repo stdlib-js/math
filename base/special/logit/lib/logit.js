@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isProbability = require( '@stdlib/math/base/assert/is-probability' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var isProbability = require( './../../../../base/assert/is-probability' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var ln = require( './../../../../base/special/ln' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 

@@ -37,15 +37,15 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var signum = require( '@stdlib/math/base/special/signum' );
-var cospi = require( '@stdlib/math/base/special/cospi' );
-var sinpi = require( '@stdlib/math/base/special/sinpi' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var signum = require( './../../../../base/special/signum' );
+var cospi = require( './../../../../base/special/cospi' );
+var sinpi = require( './../../../../base/special/sinpi' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var MAX_LN = require( '@stdlib/constants/float64/max-ln' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );

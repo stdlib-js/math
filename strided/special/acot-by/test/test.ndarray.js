@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var acot = require( '@stdlib/math/base/special/acot' );
+var acot = require( './../../../../base/special/acot' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var acotBy = require( './../lib/ndarray.js' );
 

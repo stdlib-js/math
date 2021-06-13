@@ -22,8 +22,8 @@
 
 // MODULES //
 
-var abs2 = require( '@stdlib/math/base/special/abs2' );
-var abs2f = require( '@stdlib/math/base/special/abs2f' );
+var abs2 = require( './../../../../base/special/abs2' );
+var abs2f = require( './../../../../base/special/abs2f' );
 
 
 // MAIN //

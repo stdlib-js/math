@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var sinpi = require( '@stdlib/math/base/special/sinpi' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
+var sinpi = require( './../../../../base/special/sinpi' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
 var PI = require( '@stdlib/constants/float64/pi' );
 
 

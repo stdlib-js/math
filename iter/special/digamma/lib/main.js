@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var digamma = require( '@stdlib/math/base/special/digamma' );
+var iterMap = require( './../../../../iter/tools/map' );
+var digamma = require( './../../../../base/special/digamma' );
 
 
 // MAIN //

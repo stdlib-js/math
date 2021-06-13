@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmap = require( '@stdlib/strided/base/dmap' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var floor = require( './../../../../base/special/floor' );
 
 
 // MAIN //

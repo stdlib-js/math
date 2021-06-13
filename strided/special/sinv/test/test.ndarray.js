@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var invf = require( '@stdlib/math/base/special/invf' );
+var invf = require( './../../../../base/special/invf' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float32Array = require( '@stdlib/array/float32' );
 var sinv = require( './../lib/ndarray.js' );

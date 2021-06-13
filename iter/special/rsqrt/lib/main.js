@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var rsqrt = require( '@stdlib/math/base/special/rsqrt' );
+var iterMap = require( './../../../../iter/tools/map' );
+var rsqrt = require( './../../../../base/special/rsqrt' );
 
 
 // MAIN //

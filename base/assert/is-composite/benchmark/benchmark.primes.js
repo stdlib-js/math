@@ -21,9 +21,9 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var log10 = require( '@stdlib/math/base/special/log10' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var pow = require( './../../../../base/special/pow' );
+var log10 = require( './../../../../base/special/log10' );
+var floor = require( './../../../../base/special/floor' );
 var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
 var PRIMES = require( './../test/fixtures/primes.js' );

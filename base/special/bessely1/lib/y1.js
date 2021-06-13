@@ -33,14 +33,14 @@
 
 // MODULES //
 
-var ln = require( '@stdlib/math/base/special/ln' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var ln = require( './../../../../base/special/ln' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var SQRT_PI = require( '@stdlib/constants/float64/sqrt-pi' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
-var sincos = require( '@stdlib/math/base/special/sincos' );
-var besselj1 = require( '@stdlib/math/base/special/besselj1' );
+var sincos = require( './../../../../base/special/sincos' );
+var besselj1 = require( './../../../../base/special/besselj1' );
 var poly1 = require( './rational_p1q1.js' );
 var poly2 = require( './rational_p2q2.js' );
 var polyC = require( './rational_pcqc.js' );

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var covercos = require( '@stdlib/math/base/special/covercos' );
+var iterMap = require( './../../../../iter/tools/map' );
+var covercos = require( './../../../../base/special/covercos' );
 
 
 // MAIN //

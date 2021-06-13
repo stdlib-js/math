@@ -35,8 +35,8 @@
 // MODULES //
 
 var getHighWord = require( '@stdlib/number/float64/base/get-high-word' );
-var kernelTan = require( '@stdlib/math/base/special/kernel-tan' );
-var rempio2 = require( '@stdlib/math/base/special/rempio2' );
+var kernelTan = require( './../../../../base/special/kernel-tan' );
+var rempio2 = require( './../../../../base/special/rempio2' );
 
 
 // VARIABLES //

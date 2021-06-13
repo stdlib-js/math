@@ -21,9 +21,9 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
+var gamma = require( './../../../../base/special/gamma' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var gammaDeltaRatio = require( './../lib' );
 

@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var ln = require( './../../../../base/special/ln' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
 var polyvalAK1 = require( './polyval_ak1.js' );
 var polyvalAK2 = require( './polyval_ak2.js' );
 

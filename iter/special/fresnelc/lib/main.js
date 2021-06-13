@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var fresnelc = require( '@stdlib/math/base/special/fresnelc' );
+var iterMap = require( './../../../../iter/tools/map' );
+var fresnelc = require( './../../../../base/special/fresnelc' );
 
 
 // MAIN //

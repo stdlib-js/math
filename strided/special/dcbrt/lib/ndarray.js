@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmap = require( '@stdlib/strided/base/dmap' ).ndarray;
-var cbrt = require( '@stdlib/math/base/special/cbrt' );
+var cbrt = require( './../../../../base/special/cbrt' );
 
 
 // MAIN //

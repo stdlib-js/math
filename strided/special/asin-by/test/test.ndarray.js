@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var asin = require( '@stdlib/math/base/special/asin' );
+var asin = require( './../../../../base/special/asin' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var asinBy = require( './../lib/ndarray.js' );
 

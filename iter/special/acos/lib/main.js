@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var acos = require( '@stdlib/math/base/special/acos' );
+var iterMap = require( './../../../../iter/tools/map' );
+var acos = require( './../../../../base/special/acos' );
 
 
 // MAIN //

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var expm1 = require( './../../../../base/special/expm1' );
+var abs = require( './../../../../base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 

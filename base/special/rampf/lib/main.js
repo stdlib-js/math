@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
 
 
 // MAIN //

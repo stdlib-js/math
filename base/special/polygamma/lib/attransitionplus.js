@@ -37,12 +37,12 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var trunc = require( '@stdlib/math/base/special/trunc' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var factorial = require( './../../../../base/special/factorial' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var trunc = require( './../../../../base/special/trunc' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var MAX_LN = require( '@stdlib/constants/float64/max-ln' );
 var atinfinityplus = require( './atinfinityplus.js' );
 

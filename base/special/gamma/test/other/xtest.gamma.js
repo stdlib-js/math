@@ -22,10 +22,10 @@
 
 var tape = require( 'tape' );
 var gamma = require( 'gamma' ); // eslint-disable-line stdlib/require-file-extensions
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../../base/assert/is-nan' );
 var incrspace = require( '@stdlib/array/incrspace' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var max = require( '@stdlib/math/base/special/max' );
+var abs = require( './../../../../../base/special/abs' );
+var max = require( './../../../../../base/special/max' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 

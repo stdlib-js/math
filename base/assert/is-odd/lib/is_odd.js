@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isEven = require( '@stdlib/math/base/assert/is-even' );
+var isEven = require( './../../../../base/assert/is-even' );
 
 
 // MAIN //

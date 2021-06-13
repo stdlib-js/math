@@ -26,13 +26,13 @@ var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
+var round = require( './../../../../base/special/round' );
+var ceil = require( './../../../../base/special/ceil' );
+var pow = require( './../../../../base/special/pow' );
+var abs = require( './../../../../base/special/abs' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var ceilb = require( './../lib' );
 
 

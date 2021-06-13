@@ -33,13 +33,13 @@
 
 // MODULES //
 
-var lanczosSumExpGScaled = require( '@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled' );
-var sumSeries = require( '@stdlib/math/base/tools/sum-series' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var lanczosSumExpGScaled = require( './../../../../base/special/gamma-lanczos-sum-expg-scaled' );
+var sumSeries = require( './../../../../base/tools/sum-series' );
+var log1p = require( './../../../../base/special/log1p' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var MIN_VALUE = require( '@stdlib/constants/float64/smallest-normal' );
 var MAX_LN = require( '@stdlib/constants/float64/max-ln' );
 var MIN_LN = require( '@stdlib/constants/float64/min-ln' );

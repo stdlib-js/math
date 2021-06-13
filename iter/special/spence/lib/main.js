@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var spence = require( '@stdlib/math/base/special/spence' );
+var iterMap = require( './../../../../iter/tools/map' );
+var spence = require( './../../../../base/special/spence' );
 
 
 // MAIN //

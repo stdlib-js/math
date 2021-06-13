@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/composites}
 */
-setReadOnly( ns, 'iterCompositesSeq', require( '@stdlib/math/iter/sequences/composites' ) );
+setReadOnly( ns, 'iterCompositesSeq', require( './../../../iter/sequences/composites' ) );
 
 /**
 * @name iterCubesSeq
@@ -52,7 +52,7 @@ setReadOnly( ns, 'iterCompositesSeq', require( '@stdlib/math/iter/sequences/comp
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/cubes}
 */
-setReadOnly( ns, 'iterCubesSeq', require( '@stdlib/math/iter/sequences/cubes' ) );
+setReadOnly( ns, 'iterCubesSeq', require( './../../../iter/sequences/cubes' ) );
 
 /**
 * @name iterEvenIntegersSeq
@@ -61,7 +61,7 @@ setReadOnly( ns, 'iterCubesSeq', require( '@stdlib/math/iter/sequences/cubes' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/even-integers}
 */
-setReadOnly( ns, 'iterEvenIntegersSeq', require( '@stdlib/math/iter/sequences/even-integers' ) );
+setReadOnly( ns, 'iterEvenIntegersSeq', require( './../../../iter/sequences/even-integers' ) );
 
 /**
 * @name iterFactorialsSeq
@@ -70,7 +70,7 @@ setReadOnly( ns, 'iterEvenIntegersSeq', require( '@stdlib/math/iter/sequences/ev
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/factorials}
 */
-setReadOnly( ns, 'iterFactorialsSeq', require( '@stdlib/math/iter/sequences/factorials' ) );
+setReadOnly( ns, 'iterFactorialsSeq', require( './../../../iter/sequences/factorials' ) );
 
 /**
 * @name iterFibonacciSeq
@@ -79,7 +79,7 @@ setReadOnly( ns, 'iterFactorialsSeq', require( '@stdlib/math/iter/sequences/fact
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/fibonacci}
 */
-setReadOnly( ns, 'iterFibonacciSeq', require( '@stdlib/math/iter/sequences/fibonacci' ) );
+setReadOnly( ns, 'iterFibonacciSeq', require( './../../../iter/sequences/fibonacci' ) );
 
 /**
 * @name iterFifthPowersSeq
@@ -88,7 +88,7 @@ setReadOnly( ns, 'iterFibonacciSeq', require( '@stdlib/math/iter/sequences/fibon
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/fifth-powers}
 */
-setReadOnly( ns, 'iterFifthPowersSeq', require( '@stdlib/math/iter/sequences/fifth-powers' ) );
+setReadOnly( ns, 'iterFifthPowersSeq', require( './../../../iter/sequences/fifth-powers' ) );
 
 /**
 * @name iterFourthPowersSeq
@@ -97,7 +97,7 @@ setReadOnly( ns, 'iterFifthPowersSeq', require( '@stdlib/math/iter/sequences/fif
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/fourth-powers}
 */
-setReadOnly( ns, 'iterFourthPowersSeq', require( '@stdlib/math/iter/sequences/fourth-powers' ) );
+setReadOnly( ns, 'iterFourthPowersSeq', require( './../../../iter/sequences/fourth-powers' ) );
 
 /**
 * @name iterIntegersSeq
@@ -106,7 +106,7 @@ setReadOnly( ns, 'iterFourthPowersSeq', require( '@stdlib/math/iter/sequences/fo
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/integers}
 */
-setReadOnly( ns, 'iterIntegersSeq', require( '@stdlib/math/iter/sequences/integers' ) );
+setReadOnly( ns, 'iterIntegersSeq', require( './../../../iter/sequences/integers' ) );
 
 /**
 * @name iterLucasSeq
@@ -115,7 +115,7 @@ setReadOnly( ns, 'iterIntegersSeq', require( '@stdlib/math/iter/sequences/intege
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/lucas}
 */
-setReadOnly( ns, 'iterLucasSeq', require( '@stdlib/math/iter/sequences/lucas' ) );
+setReadOnly( ns, 'iterLucasSeq', require( './../../../iter/sequences/lucas' ) );
 
 /**
 * @name iterNegaFibonacciSeq
@@ -124,7 +124,7 @@ setReadOnly( ns, 'iterLucasSeq', require( '@stdlib/math/iter/sequences/lucas' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/negafibonacci}
 */
-setReadOnly( ns, 'iterNegaFibonacciSeq', require( '@stdlib/math/iter/sequences/negafibonacci' ) );
+setReadOnly( ns, 'iterNegaFibonacciSeq', require( './../../../iter/sequences/negafibonacci' ) );
 
 /**
 * @name iterNegaLucasSeq
@@ -133,7 +133,7 @@ setReadOnly( ns, 'iterNegaFibonacciSeq', require( '@stdlib/math/iter/sequences/n
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/negalucas}
 */
-setReadOnly( ns, 'iterNegaLucasSeq', require( '@stdlib/math/iter/sequences/negalucas' ) );
+setReadOnly( ns, 'iterNegaLucasSeq', require( './../../../iter/sequences/negalucas' ) );
 
 /**
 * @name iterNegativeEvenIntegersSeq
@@ -142,7 +142,7 @@ setReadOnly( ns, 'iterNegaLucasSeq', require( '@stdlib/math/iter/sequences/negal
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/negative-even-integers}
 */
-setReadOnly( ns, 'iterNegativeEvenIntegersSeq', require( '@stdlib/math/iter/sequences/negative-even-integers' ) );
+setReadOnly( ns, 'iterNegativeEvenIntegersSeq', require( './../../../iter/sequences/negative-even-integers' ) );
 
 /**
 * @name iterNegativeIntegersSeq
@@ -151,7 +151,7 @@ setReadOnly( ns, 'iterNegativeEvenIntegersSeq', require( '@stdlib/math/iter/sequ
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/negative-integers}
 */
-setReadOnly( ns, 'iterNegativeIntegersSeq', require( '@stdlib/math/iter/sequences/negative-integers' ) );
+setReadOnly( ns, 'iterNegativeIntegersSeq', require( './../../../iter/sequences/negative-integers' ) );
 
 /**
 * @name iterNegativeOddIntegersSeq
@@ -160,7 +160,7 @@ setReadOnly( ns, 'iterNegativeIntegersSeq', require( '@stdlib/math/iter/sequence
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/negative-odd-integers}
 */
-setReadOnly( ns, 'iterNegativeOddIntegersSeq', require( '@stdlib/math/iter/sequences/negative-odd-integers' ) );
+setReadOnly( ns, 'iterNegativeOddIntegersSeq', require( './../../../iter/sequences/negative-odd-integers' ) );
 
 /**
 * @name iterNonFibonacciSeq
@@ -169,7 +169,7 @@ setReadOnly( ns, 'iterNegativeOddIntegersSeq', require( '@stdlib/math/iter/seque
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/nonfibonacci}
 */
-setReadOnly( ns, 'iterNonFibonacciSeq', require( '@stdlib/math/iter/sequences/nonfibonacci' ) );
+setReadOnly( ns, 'iterNonFibonacciSeq', require( './../../../iter/sequences/nonfibonacci' ) );
 
 /**
 * @name iterNonNegativeEvenIntegersSeq
@@ -178,7 +178,7 @@ setReadOnly( ns, 'iterNonFibonacciSeq', require( '@stdlib/math/iter/sequences/no
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/nonnegative-even-integers}
 */
-setReadOnly( ns, 'iterNonNegativeEvenIntegersSeq', require( '@stdlib/math/iter/sequences/nonnegative-even-integers' ) );
+setReadOnly( ns, 'iterNonNegativeEvenIntegersSeq', require( './../../../iter/sequences/nonnegative-even-integers' ) );
 
 /**
 * @name iterNonNegativeIntegersSeq
@@ -187,7 +187,7 @@ setReadOnly( ns, 'iterNonNegativeEvenIntegersSeq', require( '@stdlib/math/iter/s
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/nonnegative-integers}
 */
-setReadOnly( ns, 'iterNonNegativeIntegersSeq', require( '@stdlib/math/iter/sequences/nonnegative-integers' ) );
+setReadOnly( ns, 'iterNonNegativeIntegersSeq', require( './../../../iter/sequences/nonnegative-integers' ) );
 
 /**
 * @name iterNonPositiveEvenIntegersSeq
@@ -196,7 +196,7 @@ setReadOnly( ns, 'iterNonNegativeIntegersSeq', require( '@stdlib/math/iter/seque
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/nonpositive-even-integers}
 */
-setReadOnly( ns, 'iterNonPositiveEvenIntegersSeq', require( '@stdlib/math/iter/sequences/nonpositive-even-integers' ) );
+setReadOnly( ns, 'iterNonPositiveEvenIntegersSeq', require( './../../../iter/sequences/nonpositive-even-integers' ) );
 
 /**
 * @name iterNonPositiveIntegersSeq
@@ -205,7 +205,7 @@ setReadOnly( ns, 'iterNonPositiveEvenIntegersSeq', require( '@stdlib/math/iter/s
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/nonpositive-integers}
 */
-setReadOnly( ns, 'iterNonPositiveIntegersSeq', require( '@stdlib/math/iter/sequences/nonpositive-integers' ) );
+setReadOnly( ns, 'iterNonPositiveIntegersSeq', require( './../../../iter/sequences/nonpositive-integers' ) );
 
 /**
 * @name iterNonSquaresSeq
@@ -214,7 +214,7 @@ setReadOnly( ns, 'iterNonPositiveIntegersSeq', require( '@stdlib/math/iter/seque
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/nonsquares}
 */
-setReadOnly( ns, 'iterNonSquaresSeq', require( '@stdlib/math/iter/sequences/nonsquares' ) );
+setReadOnly( ns, 'iterNonSquaresSeq', require( './../../../iter/sequences/nonsquares' ) );
 
 /**
 * @name iterOddIntegersSeq
@@ -223,7 +223,7 @@ setReadOnly( ns, 'iterNonSquaresSeq', require( '@stdlib/math/iter/sequences/nons
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/odd-integers}
 */
-setReadOnly( ns, 'iterOddIntegersSeq', require( '@stdlib/math/iter/sequences/odd-integers' ) );
+setReadOnly( ns, 'iterOddIntegersSeq', require( './../../../iter/sequences/odd-integers' ) );
 
 /**
 * @name iterPositiveEvenIntegersSeq
@@ -232,7 +232,7 @@ setReadOnly( ns, 'iterOddIntegersSeq', require( '@stdlib/math/iter/sequences/odd
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/positive-even-integers}
 */
-setReadOnly( ns, 'iterPositiveEvenIntegersSeq', require( '@stdlib/math/iter/sequences/positive-even-integers' ) );
+setReadOnly( ns, 'iterPositiveEvenIntegersSeq', require( './../../../iter/sequences/positive-even-integers' ) );
 
 /**
 * @name iterPositiveIntegersSeq
@@ -241,7 +241,7 @@ setReadOnly( ns, 'iterPositiveEvenIntegersSeq', require( '@stdlib/math/iter/sequ
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/positive-integers}
 */
-setReadOnly( ns, 'iterPositiveIntegersSeq', require( '@stdlib/math/iter/sequences/positive-integers' ) );
+setReadOnly( ns, 'iterPositiveIntegersSeq', require( './../../../iter/sequences/positive-integers' ) );
 
 /**
 * @name iterPositiveOddIntegersSeq
@@ -250,7 +250,7 @@ setReadOnly( ns, 'iterPositiveIntegersSeq', require( '@stdlib/math/iter/sequence
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/positive-odd-integers}
 */
-setReadOnly( ns, 'iterPositiveOddIntegersSeq', require( '@stdlib/math/iter/sequences/positive-odd-integers' ) );
+setReadOnly( ns, 'iterPositiveOddIntegersSeq', require( './../../../iter/sequences/positive-odd-integers' ) );
 
 /**
 * @name iterPrimesSeq
@@ -259,7 +259,7 @@ setReadOnly( ns, 'iterPositiveOddIntegersSeq', require( '@stdlib/math/iter/seque
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/primes}
 */
-setReadOnly( ns, 'iterPrimesSeq', require( '@stdlib/math/iter/sequences/primes' ) );
+setReadOnly( ns, 'iterPrimesSeq', require( './../../../iter/sequences/primes' ) );
 
 /**
 * @name iterSquaredTriangularSeq
@@ -268,7 +268,7 @@ setReadOnly( ns, 'iterPrimesSeq', require( '@stdlib/math/iter/sequences/primes' 
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/squared-triangular}
 */
-setReadOnly( ns, 'iterSquaredTriangularSeq', require( '@stdlib/math/iter/sequences/squared-triangular' ) );
+setReadOnly( ns, 'iterSquaredTriangularSeq', require( './../../../iter/sequences/squared-triangular' ) );
 
 /**
 * @name iterSquaresSeq
@@ -277,7 +277,7 @@ setReadOnly( ns, 'iterSquaredTriangularSeq', require( '@stdlib/math/iter/sequenc
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/squares}
 */
-setReadOnly( ns, 'iterSquaresSeq', require( '@stdlib/math/iter/sequences/squares' ) );
+setReadOnly( ns, 'iterSquaresSeq', require( './../../../iter/sequences/squares' ) );
 
 /**
 * @name iterTriangularSeq
@@ -286,7 +286,7 @@ setReadOnly( ns, 'iterSquaresSeq', require( '@stdlib/math/iter/sequences/squares
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/sequences/triangular}
 */
-setReadOnly( ns, 'iterTriangularSeq', require( '@stdlib/math/iter/sequences/triangular' ) );
+setReadOnly( ns, 'iterTriangularSeq', require( './../../../iter/sequences/triangular' ) );
 
 
 // EXPORTS //

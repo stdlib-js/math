@@ -20,13 +20,13 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var sincos = require( '@stdlib/math/base/special/sincos' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var abs = require( './../../../../base/special/abs' );
+var sincos = require( './../../../../base/special/sincos' );
+var floor = require( './../../../../base/special/floor' );
 var PI = require( '@stdlib/constants/float64/pi' );
-var copysign = require( '@stdlib/math/base/special/copysign' );
+var copysign = require( './../../../../base/special/copysign' );
 
 
 // MAIN //

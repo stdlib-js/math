@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var randu = require( '@stdlib/random/iter/randu' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );

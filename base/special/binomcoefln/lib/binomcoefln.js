@@ -20,11 +20,11 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var betaln = require( '@stdlib/math/base/special/betaln' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var betaln = require( './../../../../base/special/betaln' );
+var abs = require( './../../../../base/special/abs' );
+var ln = require( './../../../../base/special/ln' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 
 

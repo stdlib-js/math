@@ -34,10 +34,10 @@
 
 // MODULES //
 
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var erfcinv = require( '@stdlib/math/base/special/erfcinv' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var erfcinv = require( './../../../../base/special/erfcinv' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var exp = require( './../../../../base/special/exp' );
 var SQRT2 = require( '@stdlib/constants/float64/sqrt-two' );
 
 

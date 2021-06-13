@@ -34,9 +34,9 @@
 
 // MODULES //
 
-var erfc = require( '@stdlib/math/base/special/erfc' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var erfc = require( './../../../../base/special/erfc' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var exp = require( './../../../../base/special/exp' );
 var PI = require( '@stdlib/constants/float64/pi' );
 
 

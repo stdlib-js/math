@@ -22,9 +22,9 @@
 
 var tape = require( 'tape' );
 var minstd = require( '@stdlib/random/base/minstd-shuffle' );
-var log2 = require( '@stdlib/math/base/special/log2' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var log2 = require( './../../../../../base/special/log2' );
+var floor = require( './../../../../../base/special/floor' );
+var pow = require( './../../../../../base/special/pow' );
 var log2Uint32 = require( './../lib' );
 
 

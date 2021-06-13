@@ -36,20 +36,20 @@
 
 // MODULES //
 
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var betainc = require( '@stdlib/math/base/special/betainc' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var asin = require( '@stdlib/math/base/special/asin' );
-var beta = require( '@stdlib/math/base/special/beta' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var sin = require( '@stdlib/math/base/special/sin' );
-var max = require( '@stdlib/math/base/special/max' );
-var min = require( '@stdlib/math/base/special/min' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var betainc = require( './../../../../base/special/betainc' );
+var expm1 = require( './../../../../base/special/expm1' );
+var log1p = require( './../../../../base/special/log1p' );
+var asin = require( './../../../../base/special/asin' );
+var beta = require( './../../../../base/special/beta' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var sin = require( './../../../../base/special/sin' );
+var max = require( './../../../../base/special/max' );
+var min = require( './../../../../base/special/min' );
+var ln = require( './../../../../base/special/ln' );
 var FLOAT64_MIN_NORM = require( '@stdlib/constants/float64/smallest-normal' );
 var HALF_PI = require( '@stdlib/constants/float64/half-pi' );
 var EPSILON = require( '@stdlib/constants/float64/eps' );

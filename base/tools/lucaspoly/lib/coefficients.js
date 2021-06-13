@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var binomcoef = require( '@stdlib/math/base/special/binomcoef' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
+var binomcoef = require( './../../../../base/special/binomcoef' );
+var floor = require( './../../../../base/special/floor' );
+var ceil = require( './../../../../base/special/ceil' );
 var cache = require( './cache.js' );
 
 

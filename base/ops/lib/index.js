@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/base/ops/cadd}
 */
-setReadOnly( ns, 'cadd', require( '@stdlib/math/base/ops/cadd' ) );
+setReadOnly( ns, 'cadd', require( './../../../base/ops/cadd' ) );
 
 /**
 * @name cdiv
@@ -52,7 +52,7 @@ setReadOnly( ns, 'cadd', require( '@stdlib/math/base/ops/cadd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/ops/cdiv}
 */
-setReadOnly( ns, 'cdiv', require( '@stdlib/math/base/ops/cdiv' ) );
+setReadOnly( ns, 'cdiv', require( './../../../base/ops/cdiv' ) );
 
 /**
 * @name cmul
@@ -61,7 +61,7 @@ setReadOnly( ns, 'cdiv', require( '@stdlib/math/base/ops/cdiv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/ops/cmul}
 */
-setReadOnly( ns, 'cmul', require( '@stdlib/math/base/ops/cmul' ) );
+setReadOnly( ns, 'cmul', require( './../../../base/ops/cmul' ) );
 
 /**
 * @name cneg
@@ -70,7 +70,7 @@ setReadOnly( ns, 'cmul', require( '@stdlib/math/base/ops/cmul' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/ops/cneg}
 */
-setReadOnly( ns, 'cneg', require( '@stdlib/math/base/ops/cneg' ) );
+setReadOnly( ns, 'cneg', require( './../../../base/ops/cneg' ) );
 
 /**
 * @name csub
@@ -79,7 +79,7 @@ setReadOnly( ns, 'cneg', require( '@stdlib/math/base/ops/cneg' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/ops/csub}
 */
-setReadOnly( ns, 'csub', require( '@stdlib/math/base/ops/csub' ) );
+setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 
 
 // EXPORTS //

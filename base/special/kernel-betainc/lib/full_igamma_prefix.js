@@ -34,9 +34,9 @@
 
 // MODULES //
 
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var MAX_LN = require( '@stdlib/constants/float64/max-ln' );
 var MIN_LN = require( '@stdlib/constants/float64/min-ln' );
 

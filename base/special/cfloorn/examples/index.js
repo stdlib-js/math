@@ -20,7 +20,7 @@
 
 var Complex128 = require( '@stdlib/complex/float64' );
 var randu = require( '@stdlib/random/base/randu' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
+var ceil = require( './../../../../base/special/ceil' );
 var real = require( '@stdlib/complex/real' );
 var imag = require( '@stdlib/complex/imag' );
 var cfloorn = require( './../lib' );

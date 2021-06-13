@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var kernelBetaincinv = require( '@stdlib/math/base/special/kernel-betaincinv' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var kernelBetaincinv = require( './../../../../base/special/kernel-betaincinv' );
 
 
 // MAIN //

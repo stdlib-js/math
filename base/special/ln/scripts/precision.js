@@ -25,7 +25,7 @@
 var divide = require( 'compute-divide' );
 var mean = require( 'compute-mean' );
 var subtract = require( 'compute-subtract' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var ln = require( './../lib' );
 
 

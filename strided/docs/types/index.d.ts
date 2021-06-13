@@ -21,7 +21,7 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import special = require( '@stdlib/math/strided/special' );
+import special = require( './../../../strided/special' );
 
 /**
 * Interface describing the `strided` namespace.

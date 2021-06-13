@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/ops/add}
 */
-setReadOnly( ns, 'iterAdd', require( '@stdlib/math/iter/ops/add' ) );
+setReadOnly( ns, 'iterAdd', require( './../../../iter/ops/add' ) );
 
 /**
 * @name iterDivide
@@ -52,7 +52,7 @@ setReadOnly( ns, 'iterAdd', require( '@stdlib/math/iter/ops/add' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/ops/divide}
 */
-setReadOnly( ns, 'iterDivide', require( '@stdlib/math/iter/ops/divide' ) );
+setReadOnly( ns, 'iterDivide', require( './../../../iter/ops/divide' ) );
 
 /**
 * @name iterMod
@@ -61,7 +61,7 @@ setReadOnly( ns, 'iterDivide', require( '@stdlib/math/iter/ops/divide' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/ops/mod}
 */
-setReadOnly( ns, 'iterMod', require( '@stdlib/math/iter/ops/mod' ) );
+setReadOnly( ns, 'iterMod', require( './../../../iter/ops/mod' ) );
 
 /**
 * @name iterMultiply
@@ -70,7 +70,7 @@ setReadOnly( ns, 'iterMod', require( '@stdlib/math/iter/ops/mod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/ops/multiply}
 */
-setReadOnly( ns, 'iterMultiply', require( '@stdlib/math/iter/ops/multiply' ) );
+setReadOnly( ns, 'iterMultiply', require( './../../../iter/ops/multiply' ) );
 
 /**
 * @name iterSubtract
@@ -79,7 +79,7 @@ setReadOnly( ns, 'iterMultiply', require( '@stdlib/math/iter/ops/multiply' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/ops/subtract}
 */
-setReadOnly( ns, 'iterSubtract', require( '@stdlib/math/iter/ops/subtract' ) );
+setReadOnly( ns, 'iterSubtract', require( './../../../iter/ops/subtract' ) );
 
 
 // EXPORTS //

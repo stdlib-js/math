@@ -36,13 +36,13 @@
 
 // MODULES //
 
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var floor = require( './../../../../base/special/floor' );
+var gamma = require( './../../../../base/special/gamma' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var SQRT_EPSILON = require( '@stdlib/constants/float64/sqrt-eps' );
 var FLOAT64_MAX = require( '@stdlib/constants/float64/max' );
 var SQRT_TWO_PI = require( '@stdlib/constants/float64/sqrt-two-pi' );

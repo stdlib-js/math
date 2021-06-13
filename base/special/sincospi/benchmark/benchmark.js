@@ -22,9 +22,9 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var sinpi = require( '@stdlib/math/base/special/sinpi' );
-var cospi = require( '@stdlib/math/base/special/cospi' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var sinpi = require( './../../../../base/special/sinpi' );
+var cospi = require( './../../../../base/special/cospi' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var pkg = require( './../package.json' ).name;
 var sincospi = require( './../lib' );

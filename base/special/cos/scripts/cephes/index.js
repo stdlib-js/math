@@ -34,11 +34,11 @@
 
 // MODULES //
 
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' ).factory; // TODO: replace with compiled polyval functions
-var floor = require( '@stdlib/math/base/special/floor' );
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isinfinite = require( '@stdlib/math/base/assert/is-infinite' );
+var evalpoly = require( './../../../../../base/tools/evalpoly' ).factory; // TODO: replace with compiled polyval functions
+var floor = require( './../../../../../base/special/floor' );
+var ldexp = require( './../../../../../base/special/ldexp' );
+var isnan = require( './../../../../../base/assert/is-nan' );
+var isinfinite = require( './../../../../../base/assert/is-infinite' );
 
 
 // VARIABLES //

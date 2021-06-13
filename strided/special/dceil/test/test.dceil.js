@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
+var ceil = require( './../../../../base/special/ceil' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var dceil = require( './../lib/dceil.js' );

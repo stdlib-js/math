@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var absf = require( '@stdlib/math/base/special/absf' );
+var absf = require( './../../../../base/special/absf' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float32Array = require( '@stdlib/array/float32' );
 var Uint8Array = require( '@stdlib/array/uint8' );

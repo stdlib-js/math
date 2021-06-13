@@ -36,10 +36,10 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
+var abs = require( './../../../../base/special/abs' );
+var floor = require( './../../../../base/special/floor' );
+var gamma = require( './../../../../base/special/gamma' );
+var factorial = require( './../../../../base/special/factorial' );
 var gammaDeltaRatioLanczos = require( './gamma_delta_ratio_lanczos.js' );
 
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var atanh = require( '@stdlib/math/base/special/atanh' );
+var atanh = require( './../../../../base/special/atanh' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var atanhBy = require( './../lib/ndarray.js' );
 

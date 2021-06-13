@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var gcd = require( '@stdlib/math/base/special/gcd' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var gcd = require( './../../../../base/special/gcd' );
 
 
 // MAIN //

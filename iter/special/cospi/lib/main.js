@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var cospi = require( '@stdlib/math/base/special/cospi' );
+var iterMap = require( './../../../../iter/tools/map' );
+var cospi = require( './../../../../base/special/cospi' );
 
 
 // MAIN //

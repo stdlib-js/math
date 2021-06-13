@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmskmap = require( '@stdlib/strided/base/dmskmap' ).ndarray;
-var rsqrt = require( '@stdlib/math/base/special/rsqrt' );
+var rsqrt = require( './../../../../base/special/rsqrt' );
 
 
 // MAIN //

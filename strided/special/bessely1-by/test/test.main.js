@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var bessely1 = require( '@stdlib/math/base/special/bessely1' );
+var bessely1 = require( './../../../../base/special/bessely1' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var bessely1By = require( './../lib/main.js' );

@@ -23,8 +23,8 @@
 var tape = require( 'tape' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var round = require( './../lib' );
 
 

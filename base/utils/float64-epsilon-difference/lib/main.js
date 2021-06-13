@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var reldiff = require( '@stdlib/math/base/utils/relative-difference' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var reldiff = require( './../../../../base/utils/relative-difference' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var MAX_FLOAT64 = require( '@stdlib/constants/float64/max' );
 var EPS = require( '@stdlib/constants/float64/eps' );

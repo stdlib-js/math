@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var cabs = require( '@stdlib/math/base/special/cabs' );
-var cphase = require( '@stdlib/math/base/special/cphase' );
+var cabs = require( './../../../../base/special/cabs' );
+var cphase = require( './../../../../base/special/cphase' );
 
 
 // MAIN //

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var atan = require( '@stdlib/math/base/special/atan' );
+var atan = require( './../../../../base/special/atan' );
 
 
 // MAIN //

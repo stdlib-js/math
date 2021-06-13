@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var ln = require( '@stdlib/math/base/special/ln' );
+var ln = require( './../../../../base/special/ln' );
 
 
 // MAIN //

@@ -23,7 +23,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' ).ndarray;
-var acoversin = require( '@stdlib/math/base/special/acoversin' );
+var acoversin = require( './../../../../base/special/acoversin' );
 
 
 // MAIN //

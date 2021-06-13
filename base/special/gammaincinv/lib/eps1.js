@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var abs = require( './../../../../base/special/abs' );
+var ln = require( './../../../../base/special/ln' );
 var lambdaeta = require( './lambdaeta.js' );
 var rateval = require( './rational_ak0bk0.js' );
 

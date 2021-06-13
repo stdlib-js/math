@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var FLOAT32_SMALLEST_NORMAL = require( '@stdlib/constants/float32/smallest-normal' );
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var smap = require( '@stdlib/strided/base/smap' ).ndarray;
-var rsqrtf = require( '@stdlib/math/base/special/rsqrtf' );
+var rsqrtf = require( './../../../../base/special/rsqrtf' );
 
 
 // MAIN //

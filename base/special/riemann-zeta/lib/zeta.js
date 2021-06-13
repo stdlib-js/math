@@ -33,16 +33,16 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var sinpi = require( '@stdlib/math/base/special/sinpi' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var floor = require( './../../../../base/special/floor' );
+var gamma = require( './../../../../base/special/gamma' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var sinpi = require( './../../../../base/special/sinpi' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var TWO_PI = require( '@stdlib/constants/float64/two-pi' );

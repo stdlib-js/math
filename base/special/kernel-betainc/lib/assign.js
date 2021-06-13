@@ -36,17 +36,17 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var asin = require( '@stdlib/math/base/special/asin' );
-var beta = require( '@stdlib/math/base/special/beta' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var max = require( '@stdlib/math/base/special/max' );
-var min = require( '@stdlib/math/base/special/min' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var expm1 = require( './../../../../base/special/expm1' );
+var floor = require( './../../../../base/special/floor' );
+var log1p = require( './../../../../base/special/log1p' );
+var asin = require( './../../../../base/special/asin' );
+var beta = require( './../../../../base/special/beta' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var max = require( './../../../../base/special/max' );
+var min = require( './../../../../base/special/min' );
 var MAX_FLOAT64 = require( '@stdlib/constants/float64/max' );
 var MIN_FLOAT64 = require( '@stdlib/constants/float64/smallest-normal' );
 var MAX_INT32 = require( '@stdlib/constants/int32/max' );

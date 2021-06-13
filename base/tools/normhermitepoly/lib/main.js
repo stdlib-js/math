@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isint = require( '@stdlib/math/base/assert/is-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isint = require( './../../../../base/assert/is-integer' );
 
 
 // MAIN //

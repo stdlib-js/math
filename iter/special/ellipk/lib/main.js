@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var ellipk = require( '@stdlib/math/base/special/ellipk' );
+var iterMap = require( './../../../../iter/tools/map' );
+var ellipk = require( './../../../../base/special/ellipk' );
 
 
 // MAIN //

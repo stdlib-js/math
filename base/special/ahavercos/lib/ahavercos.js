@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var acos = require( '@stdlib/math/base/special/acos' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var acos = require( './../../../../base/special/acos' );
+var sqrt = require( './../../../../base/special/sqrt' );
 
 
 // MAIN //

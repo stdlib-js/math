@@ -34,11 +34,11 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var log1p = require( './../../../../base/special/log1p' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var LN2 = require( '@stdlib/constants/float64/ln-two' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var ln = require( './../../../../base/special/ln' );
 
 
 // VARIABLES //

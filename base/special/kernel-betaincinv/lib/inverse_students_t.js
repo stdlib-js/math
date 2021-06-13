@@ -34,16 +34,16 @@
 
 // MODULES //
 
-var erfcinv = require( '@stdlib/math/base/special/erfcinv' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
-var round = require( '@stdlib/math/base/special/round' );
-var acos = require( '@stdlib/math/base/special/acos' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var cos = require( '@stdlib/math/base/special/cos' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var sin = require( '@stdlib/math/base/special/sin' );
+var erfcinv = require( './../../../../base/special/erfcinv' );
+var floor = require( './../../../../base/special/floor' );
+var ldexp = require( './../../../../base/special/ldexp' );
+var round = require( './../../../../base/special/round' );
+var acos = require( './../../../../base/special/acos' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var abs = require( './../../../../base/special/abs' );
+var cos = require( './../../../../base/special/cos' );
+var pow = require( './../../../../base/special/pow' );
+var sin = require( './../../../../base/special/sin' );
 var SQRT2 = require( '@stdlib/constants/float64/sqrt-two' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var inverseStudentsTBodySeries = require( './inverse_students_t_body_series.js' );

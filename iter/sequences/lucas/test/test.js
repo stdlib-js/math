@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var lucas = require( '@stdlib/math/base/special/lucas' );
+var lucas = require( './../../../../base/special/lucas' );
 var iterLucasSeq = require( './../lib' );
 
 

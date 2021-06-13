@@ -36,16 +36,16 @@
 
 // MODULES //
 
-var gammaLanczosSum = require( '@stdlib/math/base/special/gamma-lanczos-sum' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var signum = require( '@stdlib/math/base/special/signum' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var gammaLanczosSum = require( './../../../../../base/special/gamma-lanczos-sum' );
+var isNegativeZero = require( './../../../../../base/assert/is-negative-zero' );
+var isInteger = require( './../../../../../base/assert/is-integer' );
+var isnan = require( './../../../../../base/assert/is-nan' );
+var signum = require( './../../../../../base/special/signum' );
+var floor = require( './../../../../../base/special/floor' );
+var abs = require( './../../../../../base/special/abs' );
+var exp = require( './../../../../../base/special/exp' );
+var pow = require( './../../../../../base/special/pow' );
+var ln = require( './../../../../../base/special/ln' );
 var SQRT_EPSILON = require( '@stdlib/constants/float64/sqrt-eps' );
 var LANCZOS_G = require( '@stdlib/constants/float64/gamma-lanczos-g' );
 var EULERGAMMA = require( '@stdlib/constants/float64/eulergamma' );

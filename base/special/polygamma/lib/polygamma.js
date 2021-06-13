@@ -37,17 +37,17 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var isNonNegativeInteger = require( '@stdlib/math/base/assert/is-nonnegative-integer' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
-var trigamma = require( '@stdlib/math/base/special/trigamma' );
-var digamma = require( '@stdlib/math/base/special/digamma' );
-var signum = require( '@stdlib/math/base/special/signum' );
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var trunc = require( '@stdlib/math/base/special/trunc' );
-var zeta = require( '@stdlib/math/base/special/riemann-zeta' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var min = require( '@stdlib/math/base/special/min' );
+var isNonNegativeInteger = require( './../../../../base/assert/is-nonnegative-integer' );
+var factorial = require( './../../../../base/special/factorial' );
+var trigamma = require( './../../../../base/special/trigamma' );
+var digamma = require( './../../../../base/special/digamma' );
+var signum = require( './../../../../base/special/signum' );
+var ldexp = require( './../../../../base/special/ldexp' );
+var floor = require( './../../../../base/special/floor' );
+var trunc = require( './../../../../base/special/trunc' );
+var zeta = require( './../../../../base/special/riemann-zeta' );
+var abs = require( './../../../../base/special/abs' );
+var min = require( './../../../../base/special/min' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var MAX = require( '@stdlib/constants/float64/max' );

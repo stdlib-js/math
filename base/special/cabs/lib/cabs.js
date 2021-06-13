@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var hypot = require( '@stdlib/math/base/special/hypot' );
+var hypot = require( './../../../../base/special/hypot' );
 
 
 // MAIN //

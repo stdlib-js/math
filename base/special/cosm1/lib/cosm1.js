@@ -34,7 +34,7 @@
 
 // MODULES //
 
-var cos = require( '@stdlib/math/base/special/cos' );
+var cos = require( './../../../../base/special/cos' );
 var polyval = require( './polyval_p.js' );
 
 

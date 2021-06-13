@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var ln = require( '@stdlib/math/base/special/ln' );
+var ln = require( './../../../../base/special/ln' );
 var rational1 = require( './rational_ak4bk4.js' );
 var rational2 = require( './rational_ak5bk5.js' );
 var rational3 = require( './rational_ak6bk6.js' );

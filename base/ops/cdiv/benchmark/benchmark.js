@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var isArray = require( '@stdlib/assert/is-array' );
 var pkg = require( './../package.json' ).name;
 var cdiv = require( './../lib' );

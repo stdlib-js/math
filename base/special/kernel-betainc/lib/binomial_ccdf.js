@@ -33,9 +33,9 @@
 
 // MODULES //
 
-var binomcoef = require( '@stdlib/math/base/special/binomcoef' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var binomcoef = require( './../../../../base/special/binomcoef' );
+var floor = require( './../../../../base/special/floor' );
+var pow = require( './../../../../base/special/pow' );
 var MIN_VALUE = require( '@stdlib/constants/float64/smallest-normal' );
 
 

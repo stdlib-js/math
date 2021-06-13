@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var diracDelta = require( '@stdlib/math/base/special/dirac-delta' );
+var iterMap = require( './../../../../iter/tools/map' );
+var diracDelta = require( './../../../../base/special/dirac-delta' );
 
 
 // MAIN //

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap2 = require( '@stdlib/math/iter/tools/map2' );
-var log = require( '@stdlib/math/base/special/log' );
+var iterMap2 = require( './../../../../iter/tools/map2' );
+var log = require( './../../../../base/special/log' );
 
 
 // MAIN //

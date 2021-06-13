@@ -21,10 +21,10 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var floor = require( './../../../../base/special/floor' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var deg2rad = require( '@stdlib/math/base/special/deg2rad' );
-var deg2radf = require( '@stdlib/math/base/special/deg2radf' );
+var deg2rad = require( './../../../../base/special/deg2rad' );
+var deg2radf = require( './../../../../base/special/deg2radf' );
 var filledarray = require( '@stdlib/array/filled' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Uint8Array = require( '@stdlib/array/uint8' );

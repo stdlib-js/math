@@ -36,7 +36,7 @@
 
 // MODULES //
 
-var ln = require( '@stdlib/math/base/special/ln' );
+var ln = require( './../../../../base/special/ln' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var rateval1 = require( './rational_p1q1.js' );
 var rateval2 = require( './rational_p2q2.js' );

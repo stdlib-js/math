@@ -20,15 +20,15 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var log10 = require( '@stdlib/math/base/special/log10' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var pow = require( './../../../../base/special/pow' );
+var log10 = require( './../../../../base/special/log10' );
+var ln = require( './../../../../base/special/ln' );
+var abs = require( './../../../../base/special/abs' );
+var floor = require( './../../../../base/special/floor' );
 var exponent = require( '@stdlib/number/float64/base/exponent' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
+var ceil = require( './../../../../base/special/ceil' );
 
 
 // MAIN //

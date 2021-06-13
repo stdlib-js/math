@@ -21,34 +21,34 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import iterCompositesSeq = require( '@stdlib/math/iter/sequences/composites' );
-import iterCubesSeq = require( '@stdlib/math/iter/sequences/cubes' );
-import iterEvenIntegersSeq = require( '@stdlib/math/iter/sequences/even-integers' );
-import iterFactorialsSeq = require( '@stdlib/math/iter/sequences/factorials' );
-import iterFibonacciSeq = require( '@stdlib/math/iter/sequences/fibonacci' );
-import iterFifthPowersSeq = require( '@stdlib/math/iter/sequences/fifth-powers' );
-import iterFourthPowersSeq = require( '@stdlib/math/iter/sequences/fourth-powers' );
-import iterIntegersSeq = require( '@stdlib/math/iter/sequences/integers' );
-import iterLucasSeq = require( '@stdlib/math/iter/sequences/lucas' );
-import iterNegaFibonacciSeq = require( '@stdlib/math/iter/sequences/negafibonacci' );
-import iterNegaLucasSeq = require( '@stdlib/math/iter/sequences/negalucas' );
-import iterNegativeEvenIntegersSeq = require( '@stdlib/math/iter/sequences/negative-even-integers' );
-import iterNegativeIntegersSeq = require( '@stdlib/math/iter/sequences/negative-integers' );
-import iterNegativeOddIntegersSeq = require( '@stdlib/math/iter/sequences/negative-odd-integers' );
-import iterNonFibonacciSeq = require( '@stdlib/math/iter/sequences/nonfibonacci' );
-import iterNonNegativeEvenIntegersSeq = require( '@stdlib/math/iter/sequences/nonnegative-even-integers' );
-import iterNonNegativeIntegersSeq = require( '@stdlib/math/iter/sequences/nonnegative-integers' );
-import iterNonPositiveEvenIntegersSeq = require( '@stdlib/math/iter/sequences/nonpositive-even-integers' );
-import iterNonPositiveIntegersSeq = require( '@stdlib/math/iter/sequences/nonpositive-integers' );
-import iterNonSquaresSeq = require( '@stdlib/math/iter/sequences/nonsquares' );
-import iterOddIntegersSeq = require( '@stdlib/math/iter/sequences/odd-integers' );
-import iterPositiveEvenIntegersSeq = require( '@stdlib/math/iter/sequences/positive-even-integers' );
-import iterPositiveIntegersSeq = require( '@stdlib/math/iter/sequences/positive-integers' );
-import iterPositiveOddIntegersSeq = require( '@stdlib/math/iter/sequences/positive-odd-integers' );
-import iterPrimesSeq = require( '@stdlib/math/iter/sequences/primes' );
-import iterSquaredTriangularSeq = require( '@stdlib/math/iter/sequences/squared-triangular' );
-import iterSquaresSeq = require( '@stdlib/math/iter/sequences/squares' );
-import iterTriangularSeq = require( '@stdlib/math/iter/sequences/triangular' );
+import iterCompositesSeq = require( './../../../../iter/sequences/composites' );
+import iterCubesSeq = require( './../../../../iter/sequences/cubes' );
+import iterEvenIntegersSeq = require( './../../../../iter/sequences/even-integers' );
+import iterFactorialsSeq = require( './../../../../iter/sequences/factorials' );
+import iterFibonacciSeq = require( './../../../../iter/sequences/fibonacci' );
+import iterFifthPowersSeq = require( './../../../../iter/sequences/fifth-powers' );
+import iterFourthPowersSeq = require( './../../../../iter/sequences/fourth-powers' );
+import iterIntegersSeq = require( './../../../../iter/sequences/integers' );
+import iterLucasSeq = require( './../../../../iter/sequences/lucas' );
+import iterNegaFibonacciSeq = require( './../../../../iter/sequences/negafibonacci' );
+import iterNegaLucasSeq = require( './../../../../iter/sequences/negalucas' );
+import iterNegativeEvenIntegersSeq = require( './../../../../iter/sequences/negative-even-integers' );
+import iterNegativeIntegersSeq = require( './../../../../iter/sequences/negative-integers' );
+import iterNegativeOddIntegersSeq = require( './../../../../iter/sequences/negative-odd-integers' );
+import iterNonFibonacciSeq = require( './../../../../iter/sequences/nonfibonacci' );
+import iterNonNegativeEvenIntegersSeq = require( './../../../../iter/sequences/nonnegative-even-integers' );
+import iterNonNegativeIntegersSeq = require( './../../../../iter/sequences/nonnegative-integers' );
+import iterNonPositiveEvenIntegersSeq = require( './../../../../iter/sequences/nonpositive-even-integers' );
+import iterNonPositiveIntegersSeq = require( './../../../../iter/sequences/nonpositive-integers' );
+import iterNonSquaresSeq = require( './../../../../iter/sequences/nonsquares' );
+import iterOddIntegersSeq = require( './../../../../iter/sequences/odd-integers' );
+import iterPositiveEvenIntegersSeq = require( './../../../../iter/sequences/positive-even-integers' );
+import iterPositiveIntegersSeq = require( './../../../../iter/sequences/positive-integers' );
+import iterPositiveOddIntegersSeq = require( './../../../../iter/sequences/positive-odd-integers' );
+import iterPrimesSeq = require( './../../../../iter/sequences/primes' );
+import iterSquaredTriangularSeq = require( './../../../../iter/sequences/squared-triangular' );
+import iterSquaresSeq = require( './../../../../iter/sequences/squares' );
+import iterTriangularSeq = require( './../../../../iter/sequences/triangular' );
 
 /**
 * Interface describing the `sequences` namespace.

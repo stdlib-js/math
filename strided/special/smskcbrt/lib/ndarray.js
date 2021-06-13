@@ -21,7 +21,7 @@
 // MODULES //
 
 var smskmap = require( '@stdlib/strided/base/smskmap' ).ndarray;
-var cbrtf = require( '@stdlib/math/base/special/cbrtf' );
+var cbrtf = require( './../../../../base/special/cbrtf' );
 
 
 // MAIN //

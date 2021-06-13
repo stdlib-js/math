@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
+var isInteger = require( './../../../../base/assert/is-integer' );
 
 
 // MAIN //

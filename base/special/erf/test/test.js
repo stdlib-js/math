@@ -21,13 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var erf = require( './../lib' );
 
 

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var binet = require( '@stdlib/math/base/special/binet' );
+var iterMap = require( './../../../../iter/tools/map' );
+var binet = require( './../../../../base/special/binet' );
 
 
 // MAIN //

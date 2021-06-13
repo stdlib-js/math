@@ -23,7 +23,7 @@
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var isArray = require( '@stdlib/assert/is-array' );
-var ceiln = require( '@stdlib/math/base/special/ceiln' );
+var ceiln = require( './../../../../base/special/ceiln' );
 var pkg = require( './../package.json' ).name;
 var cceiln = require( './../lib' );
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var ramp = require( '@stdlib/math/base/special/ramp' );
+var ramp = require( './../../../../base/special/ramp' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var dramp = require( './../lib/ndarray.js' );

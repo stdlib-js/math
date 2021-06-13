@@ -34,11 +34,11 @@
 
 // MODULES //
 
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var cos = require( '@stdlib/math/base/special/cos' );
-var sin = require( '@stdlib/math/base/special/sin' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var cos = require( './../../../../base/special/cos' );
+var sin = require( './../../../../base/special/sin' );
+var ln = require( './../../../../base/special/ln' );
 var HALF_PI = require( '@stdlib/constants/float64/half-pi' );
 var GAMMA = require( '@stdlib/constants/float64/eulergamma' );
 var NINF = require( '@stdlib/constants/float64/ninf' );

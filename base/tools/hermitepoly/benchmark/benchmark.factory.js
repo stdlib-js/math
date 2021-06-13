@@ -23,7 +23,7 @@
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var factory = require( './../lib/factory.js' );
 

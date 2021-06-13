@@ -24,7 +24,7 @@ var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 

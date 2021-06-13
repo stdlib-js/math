@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var avercos = require( '@stdlib/math/base/special/avercos' );
+var avercos = require( './../../../../base/special/avercos' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var avercosBy = require( './../lib/ndarray.js' );
 

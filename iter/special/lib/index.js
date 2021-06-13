@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/abs}
 */
-setReadOnly( ns, 'iterAbs', require( '@stdlib/math/iter/special/abs' ) );
+setReadOnly( ns, 'iterAbs', require( './../../../iter/special/abs' ) );
 
 /**
 * @name iterAbs2
@@ -52,7 +52,7 @@ setReadOnly( ns, 'iterAbs', require( '@stdlib/math/iter/special/abs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/abs2}
 */
-setReadOnly( ns, 'iterAbs2', require( '@stdlib/math/iter/special/abs2' ) );
+setReadOnly( ns, 'iterAbs2', require( './../../../iter/special/abs2' ) );
 
 /**
 * @name iterAcos
@@ -61,7 +61,7 @@ setReadOnly( ns, 'iterAbs2', require( '@stdlib/math/iter/special/abs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/acos}
 */
-setReadOnly( ns, 'iterAcos', require( '@stdlib/math/iter/special/acos' ) );
+setReadOnly( ns, 'iterAcos', require( './../../../iter/special/acos' ) );
 
 /**
 * @name iterAcosh
@@ -70,7 +70,7 @@ setReadOnly( ns, 'iterAcos', require( '@stdlib/math/iter/special/acos' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/acosh}
 */
-setReadOnly( ns, 'iterAcosh', require( '@stdlib/math/iter/special/acosh' ) );
+setReadOnly( ns, 'iterAcosh', require( './../../../iter/special/acosh' ) );
 
 /**
 * @name iterAcot
@@ -79,7 +79,7 @@ setReadOnly( ns, 'iterAcosh', require( '@stdlib/math/iter/special/acosh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/acot}
 */
-setReadOnly( ns, 'iterAcot', require( '@stdlib/math/iter/special/acot' ) );
+setReadOnly( ns, 'iterAcot', require( './../../../iter/special/acot' ) );
 
 /**
 * @name iterAcoth
@@ -88,7 +88,7 @@ setReadOnly( ns, 'iterAcot', require( '@stdlib/math/iter/special/acot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/acoth}
 */
-setReadOnly( ns, 'iterAcoth', require( '@stdlib/math/iter/special/acoth' ) );
+setReadOnly( ns, 'iterAcoth', require( './../../../iter/special/acoth' ) );
 
 /**
 * @name iterAcovercos
@@ -97,7 +97,7 @@ setReadOnly( ns, 'iterAcoth', require( '@stdlib/math/iter/special/acoth' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/acovercos}
 */
-setReadOnly( ns, 'iterAcovercos', require( '@stdlib/math/iter/special/acovercos' ) );
+setReadOnly( ns, 'iterAcovercos', require( './../../../iter/special/acovercos' ) );
 
 /**
 * @name iterAcoversin
@@ -106,7 +106,7 @@ setReadOnly( ns, 'iterAcovercos', require( '@stdlib/math/iter/special/acovercos'
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/acoversin}
 */
-setReadOnly( ns, 'iterAcoversin', require( '@stdlib/math/iter/special/acoversin' ) );
+setReadOnly( ns, 'iterAcoversin', require( './../../../iter/special/acoversin' ) );
 
 /**
 * @name iterAhavercos
@@ -115,7 +115,7 @@ setReadOnly( ns, 'iterAcoversin', require( '@stdlib/math/iter/special/acoversin'
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ahavercos}
 */
-setReadOnly( ns, 'iterAhavercos', require( '@stdlib/math/iter/special/ahavercos' ) );
+setReadOnly( ns, 'iterAhavercos', require( './../../../iter/special/ahavercos' ) );
 
 /**
 * @name iterAhaversin
@@ -124,7 +124,7 @@ setReadOnly( ns, 'iterAhavercos', require( '@stdlib/math/iter/special/ahavercos'
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ahaversin}
 */
-setReadOnly( ns, 'iterAhaversin', require( '@stdlib/math/iter/special/ahaversin' ) );
+setReadOnly( ns, 'iterAhaversin', require( './../../../iter/special/ahaversin' ) );
 
 /**
 * @name iterAsin
@@ -133,7 +133,7 @@ setReadOnly( ns, 'iterAhaversin', require( '@stdlib/math/iter/special/ahaversin'
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/asin}
 */
-setReadOnly( ns, 'iterAsin', require( '@stdlib/math/iter/special/asin' ) );
+setReadOnly( ns, 'iterAsin', require( './../../../iter/special/asin' ) );
 
 /**
 * @name iterAsinh
@@ -142,7 +142,7 @@ setReadOnly( ns, 'iterAsin', require( '@stdlib/math/iter/special/asin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/asinh}
 */
-setReadOnly( ns, 'iterAsinh', require( '@stdlib/math/iter/special/asinh' ) );
+setReadOnly( ns, 'iterAsinh', require( './../../../iter/special/asinh' ) );
 
 /**
 * @name iterAtan
@@ -151,7 +151,7 @@ setReadOnly( ns, 'iterAsinh', require( '@stdlib/math/iter/special/asinh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/atan}
 */
-setReadOnly( ns, 'iterAtan', require( '@stdlib/math/iter/special/atan' ) );
+setReadOnly( ns, 'iterAtan', require( './../../../iter/special/atan' ) );
 
 /**
 * @name iterAtan2
@@ -160,7 +160,7 @@ setReadOnly( ns, 'iterAtan', require( '@stdlib/math/iter/special/atan' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/atan2}
 */
-setReadOnly( ns, 'iterAtan2', require( '@stdlib/math/iter/special/atan2' ) );
+setReadOnly( ns, 'iterAtan2', require( './../../../iter/special/atan2' ) );
 
 /**
 * @name iterAtanh
@@ -169,7 +169,7 @@ setReadOnly( ns, 'iterAtan2', require( '@stdlib/math/iter/special/atan2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/atanh}
 */
-setReadOnly( ns, 'iterAtanh', require( '@stdlib/math/iter/special/atanh' ) );
+setReadOnly( ns, 'iterAtanh', require( './../../../iter/special/atanh' ) );
 
 /**
 * @name iterAvercos
@@ -178,7 +178,7 @@ setReadOnly( ns, 'iterAtanh', require( '@stdlib/math/iter/special/atanh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/avercos}
 */
-setReadOnly( ns, 'iterAvercos', require( '@stdlib/math/iter/special/avercos' ) );
+setReadOnly( ns, 'iterAvercos', require( './../../../iter/special/avercos' ) );
 
 /**
 * @name iterAversin
@@ -187,7 +187,7 @@ setReadOnly( ns, 'iterAvercos', require( '@stdlib/math/iter/special/avercos' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/aversin}
 */
-setReadOnly( ns, 'iterAversin', require( '@stdlib/math/iter/special/aversin' ) );
+setReadOnly( ns, 'iterAversin', require( './../../../iter/special/aversin' ) );
 
 /**
 * @name iterBesselj0
@@ -196,7 +196,7 @@ setReadOnly( ns, 'iterAversin', require( '@stdlib/math/iter/special/aversin' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/besselj0}
 */
-setReadOnly( ns, 'iterBesselj0', require( '@stdlib/math/iter/special/besselj0' ) );
+setReadOnly( ns, 'iterBesselj0', require( './../../../iter/special/besselj0' ) );
 
 /**
 * @name iterBesselj1
@@ -205,7 +205,7 @@ setReadOnly( ns, 'iterBesselj0', require( '@stdlib/math/iter/special/besselj0' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/besselj1}
 */
-setReadOnly( ns, 'iterBesselj1', require( '@stdlib/math/iter/special/besselj1' ) );
+setReadOnly( ns, 'iterBesselj1', require( './../../../iter/special/besselj1' ) );
 
 /**
 * @name iterBessely0
@@ -214,7 +214,7 @@ setReadOnly( ns, 'iterBesselj1', require( '@stdlib/math/iter/special/besselj1' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/bessely0}
 */
-setReadOnly( ns, 'iterBessely0', require( '@stdlib/math/iter/special/bessely0' ) );
+setReadOnly( ns, 'iterBessely0', require( './../../../iter/special/bessely0' ) );
 
 /**
 * @name iterBessely1
@@ -223,7 +223,7 @@ setReadOnly( ns, 'iterBessely0', require( '@stdlib/math/iter/special/bessely0' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/bessely1}
 */
-setReadOnly( ns, 'iterBessely1', require( '@stdlib/math/iter/special/bessely1' ) );
+setReadOnly( ns, 'iterBessely1', require( './../../../iter/special/bessely1' ) );
 
 /**
 * @name iterBeta
@@ -232,7 +232,7 @@ setReadOnly( ns, 'iterBessely1', require( '@stdlib/math/iter/special/bessely1' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/beta}
 */
-setReadOnly( ns, 'iterBeta', require( '@stdlib/math/iter/special/beta' ) );
+setReadOnly( ns, 'iterBeta', require( './../../../iter/special/beta' ) );
 
 /**
 * @name iterBetaln
@@ -241,7 +241,7 @@ setReadOnly( ns, 'iterBeta', require( '@stdlib/math/iter/special/beta' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/betaln}
 */
-setReadOnly( ns, 'iterBetaln', require( '@stdlib/math/iter/special/betaln' ) );
+setReadOnly( ns, 'iterBetaln', require( './../../../iter/special/betaln' ) );
 
 /**
 * @name iterBinet
@@ -250,7 +250,7 @@ setReadOnly( ns, 'iterBetaln', require( '@stdlib/math/iter/special/betaln' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/binet}
 */
-setReadOnly( ns, 'iterBinet', require( '@stdlib/math/iter/special/binet' ) );
+setReadOnly( ns, 'iterBinet', require( './../../../iter/special/binet' ) );
 
 /**
 * @name iterCbrt
@@ -259,7 +259,7 @@ setReadOnly( ns, 'iterBinet', require( '@stdlib/math/iter/special/binet' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/cbrt}
 */
-setReadOnly( ns, 'iterCbrt', require( '@stdlib/math/iter/special/cbrt' ) );
+setReadOnly( ns, 'iterCbrt', require( './../../../iter/special/cbrt' ) );
 
 /**
 * @name iterCeil
@@ -268,7 +268,7 @@ setReadOnly( ns, 'iterCbrt', require( '@stdlib/math/iter/special/cbrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ceil}
 */
-setReadOnly( ns, 'iterCeil', require( '@stdlib/math/iter/special/ceil' ) );
+setReadOnly( ns, 'iterCeil', require( './../../../iter/special/ceil' ) );
 
 /**
 * @name iterCeil2
@@ -277,7 +277,7 @@ setReadOnly( ns, 'iterCeil', require( '@stdlib/math/iter/special/ceil' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ceil2}
 */
-setReadOnly( ns, 'iterCeil2', require( '@stdlib/math/iter/special/ceil2' ) );
+setReadOnly( ns, 'iterCeil2', require( './../../../iter/special/ceil2' ) );
 
 /**
 * @name iterCeil10
@@ -286,7 +286,7 @@ setReadOnly( ns, 'iterCeil2', require( '@stdlib/math/iter/special/ceil2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ceil10}
 */
-setReadOnly( ns, 'iterCeil10', require( '@stdlib/math/iter/special/ceil10' ) );
+setReadOnly( ns, 'iterCeil10', require( './../../../iter/special/ceil10' ) );
 
 /**
 * @name iterCos
@@ -295,7 +295,7 @@ setReadOnly( ns, 'iterCeil10', require( '@stdlib/math/iter/special/ceil10' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/cos}
 */
-setReadOnly( ns, 'iterCos', require( '@stdlib/math/iter/special/cos' ) );
+setReadOnly( ns, 'iterCos', require( './../../../iter/special/cos' ) );
 
 /**
 * @name iterCosh
@@ -304,7 +304,7 @@ setReadOnly( ns, 'iterCos', require( '@stdlib/math/iter/special/cos' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/cosh}
 */
-setReadOnly( ns, 'iterCosh', require( '@stdlib/math/iter/special/cosh' ) );
+setReadOnly( ns, 'iterCosh', require( './../../../iter/special/cosh' ) );
 
 /**
 * @name iterCosm1
@@ -313,7 +313,7 @@ setReadOnly( ns, 'iterCosh', require( '@stdlib/math/iter/special/cosh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/cosm1}
 */
-setReadOnly( ns, 'iterCosm1', require( '@stdlib/math/iter/special/cosm1' ) );
+setReadOnly( ns, 'iterCosm1', require( './../../../iter/special/cosm1' ) );
 
 /**
 * @name iterCospi
@@ -322,7 +322,7 @@ setReadOnly( ns, 'iterCosm1', require( '@stdlib/math/iter/special/cosm1' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/cospi}
 */
-setReadOnly( ns, 'iterCospi', require( '@stdlib/math/iter/special/cospi' ) );
+setReadOnly( ns, 'iterCospi', require( './../../../iter/special/cospi' ) );
 
 /**
 * @name iterCovercos
@@ -331,7 +331,7 @@ setReadOnly( ns, 'iterCospi', require( '@stdlib/math/iter/special/cospi' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/covercos}
 */
-setReadOnly( ns, 'iterCovercos', require( '@stdlib/math/iter/special/covercos' ) );
+setReadOnly( ns, 'iterCovercos', require( './../../../iter/special/covercos' ) );
 
 /**
 * @name iterCoversin
@@ -340,7 +340,7 @@ setReadOnly( ns, 'iterCovercos', require( '@stdlib/math/iter/special/covercos' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/coversin}
 */
-setReadOnly( ns, 'iterCoversin', require( '@stdlib/math/iter/special/coversin' ) );
+setReadOnly( ns, 'iterCoversin', require( './../../../iter/special/coversin' ) );
 
 /**
 * @name iterDeg2rad
@@ -349,7 +349,7 @@ setReadOnly( ns, 'iterCoversin', require( '@stdlib/math/iter/special/coversin' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/deg2rad}
 */
-setReadOnly( ns, 'iterDeg2rad', require( '@stdlib/math/iter/special/deg2rad' ) );
+setReadOnly( ns, 'iterDeg2rad', require( './../../../iter/special/deg2rad' ) );
 
 /**
 * @name iterDigamma
@@ -358,7 +358,7 @@ setReadOnly( ns, 'iterDeg2rad', require( '@stdlib/math/iter/special/deg2rad' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/digamma}
 */
-setReadOnly( ns, 'iterDigamma', require( '@stdlib/math/iter/special/digamma' ) );
+setReadOnly( ns, 'iterDigamma', require( './../../../iter/special/digamma' ) );
 
 /**
 * @name iterDiracDelta
@@ -367,7 +367,7 @@ setReadOnly( ns, 'iterDigamma', require( '@stdlib/math/iter/special/digamma' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/dirac-delta}
 */
-setReadOnly( ns, 'iterDiracDelta', require( '@stdlib/math/iter/special/dirac-delta' ) );
+setReadOnly( ns, 'iterDiracDelta', require( './../../../iter/special/dirac-delta' ) );
 
 /**
 * @name iterEta
@@ -376,7 +376,7 @@ setReadOnly( ns, 'iterDiracDelta', require( '@stdlib/math/iter/special/dirac-del
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/dirichlet-eta}
 */
-setReadOnly( ns, 'iterEta', require( '@stdlib/math/iter/special/dirichlet-eta' ) );
+setReadOnly( ns, 'iterEta', require( './../../../iter/special/dirichlet-eta' ) );
 
 /**
 * @name iterEllipe
@@ -385,7 +385,7 @@ setReadOnly( ns, 'iterEta', require( '@stdlib/math/iter/special/dirichlet-eta' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ellipe}
 */
-setReadOnly( ns, 'iterEllipe', require( '@stdlib/math/iter/special/ellipe' ) );
+setReadOnly( ns, 'iterEllipe', require( './../../../iter/special/ellipe' ) );
 
 /**
 * @name iterEllipk
@@ -394,7 +394,7 @@ setReadOnly( ns, 'iterEllipe', require( '@stdlib/math/iter/special/ellipe' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ellipk}
 */
-setReadOnly( ns, 'iterEllipk', require( '@stdlib/math/iter/special/ellipk' ) );
+setReadOnly( ns, 'iterEllipk', require( './../../../iter/special/ellipk' ) );
 
 /**
 * @name iterErf
@@ -403,7 +403,7 @@ setReadOnly( ns, 'iterEllipk', require( '@stdlib/math/iter/special/ellipk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/erf}
 */
-setReadOnly( ns, 'iterErf', require( '@stdlib/math/iter/special/erf' ) );
+setReadOnly( ns, 'iterErf', require( './../../../iter/special/erf' ) );
 
 /**
 * @name iterErfc
@@ -412,7 +412,7 @@ setReadOnly( ns, 'iterErf', require( '@stdlib/math/iter/special/erf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/erfc}
 */
-setReadOnly( ns, 'iterErfc', require( '@stdlib/math/iter/special/erfc' ) );
+setReadOnly( ns, 'iterErfc', require( './../../../iter/special/erfc' ) );
 
 /**
 * @name iterErfcinv
@@ -421,7 +421,7 @@ setReadOnly( ns, 'iterErfc', require( '@stdlib/math/iter/special/erfc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/erfcinv}
 */
-setReadOnly( ns, 'iterErfcinv', require( '@stdlib/math/iter/special/erfcinv' ) );
+setReadOnly( ns, 'iterErfcinv', require( './../../../iter/special/erfcinv' ) );
 
 /**
 * @name iterErfinv
@@ -430,7 +430,7 @@ setReadOnly( ns, 'iterErfcinv', require( '@stdlib/math/iter/special/erfcinv' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/erfinv}
 */
-setReadOnly( ns, 'iterErfinv', require( '@stdlib/math/iter/special/erfinv' ) );
+setReadOnly( ns, 'iterErfinv', require( './../../../iter/special/erfinv' ) );
 
 /**
 * @name iterExp
@@ -439,7 +439,7 @@ setReadOnly( ns, 'iterErfinv', require( '@stdlib/math/iter/special/erfinv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/exp}
 */
-setReadOnly( ns, 'iterExp', require( '@stdlib/math/iter/special/exp' ) );
+setReadOnly( ns, 'iterExp', require( './../../../iter/special/exp' ) );
 
 /**
 * @name iterExp2
@@ -448,7 +448,7 @@ setReadOnly( ns, 'iterExp', require( '@stdlib/math/iter/special/exp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/exp2}
 */
-setReadOnly( ns, 'iterExp2', require( '@stdlib/math/iter/special/exp2' ) );
+setReadOnly( ns, 'iterExp2', require( './../../../iter/special/exp2' ) );
 
 /**
 * @name iterExp10
@@ -457,7 +457,7 @@ setReadOnly( ns, 'iterExp2', require( '@stdlib/math/iter/special/exp2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/exp10}
 */
-setReadOnly( ns, 'iterExp10', require( '@stdlib/math/iter/special/exp10' ) );
+setReadOnly( ns, 'iterExp10', require( './../../../iter/special/exp10' ) );
 
 /**
 * @name iterExpit
@@ -466,7 +466,7 @@ setReadOnly( ns, 'iterExp10', require( '@stdlib/math/iter/special/exp10' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/expit}
 */
-setReadOnly( ns, 'iterExpit', require( '@stdlib/math/iter/special/expit' ) );
+setReadOnly( ns, 'iterExpit', require( './../../../iter/special/expit' ) );
 
 /**
 * @name iterExpm1
@@ -475,7 +475,7 @@ setReadOnly( ns, 'iterExpit', require( '@stdlib/math/iter/special/expit' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/expm1}
 */
-setReadOnly( ns, 'iterExpm1', require( '@stdlib/math/iter/special/expm1' ) );
+setReadOnly( ns, 'iterExpm1', require( './../../../iter/special/expm1' ) );
 
 /**
 * @name iterExpm1rel
@@ -484,7 +484,7 @@ setReadOnly( ns, 'iterExpm1', require( '@stdlib/math/iter/special/expm1' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/expm1rel}
 */
-setReadOnly( ns, 'iterExpm1rel', require( '@stdlib/math/iter/special/expm1rel' ) );
+setReadOnly( ns, 'iterExpm1rel', require( './../../../iter/special/expm1rel' ) );
 
 /**
 * @name iterFactorial
@@ -493,7 +493,7 @@ setReadOnly( ns, 'iterExpm1rel', require( '@stdlib/math/iter/special/expm1rel' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/factorial}
 */
-setReadOnly( ns, 'iterFactorial', require( '@stdlib/math/iter/special/factorial' ) );
+setReadOnly( ns, 'iterFactorial', require( './../../../iter/special/factorial' ) );
 
 /**
 * @name iterFactorialln
@@ -502,7 +502,7 @@ setReadOnly( ns, 'iterFactorial', require( '@stdlib/math/iter/special/factorial'
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/factorialln}
 */
-setReadOnly( ns, 'iterFactorialln', require( '@stdlib/math/iter/special/factorialln' ) );
+setReadOnly( ns, 'iterFactorialln', require( './../../../iter/special/factorialln' ) );
 
 /**
 * @name iterFloor
@@ -511,7 +511,7 @@ setReadOnly( ns, 'iterFactorialln', require( '@stdlib/math/iter/special/factoria
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/floor}
 */
-setReadOnly( ns, 'iterFloor', require( '@stdlib/math/iter/special/floor' ) );
+setReadOnly( ns, 'iterFloor', require( './../../../iter/special/floor' ) );
 
 /**
 * @name iterFloor2
@@ -520,7 +520,7 @@ setReadOnly( ns, 'iterFloor', require( '@stdlib/math/iter/special/floor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/floor2}
 */
-setReadOnly( ns, 'iterFloor2', require( '@stdlib/math/iter/special/floor2' ) );
+setReadOnly( ns, 'iterFloor2', require( './../../../iter/special/floor2' ) );
 
 /**
 * @name iterFloor10
@@ -529,7 +529,7 @@ setReadOnly( ns, 'iterFloor2', require( '@stdlib/math/iter/special/floor2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/floor10}
 */
-setReadOnly( ns, 'iterFloor10', require( '@stdlib/math/iter/special/floor10' ) );
+setReadOnly( ns, 'iterFloor10', require( './../../../iter/special/floor10' ) );
 
 /**
 * @name iterFresnelc
@@ -538,7 +538,7 @@ setReadOnly( ns, 'iterFloor10', require( '@stdlib/math/iter/special/floor10' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/fresnelc}
 */
-setReadOnly( ns, 'iterFresnelc', require( '@stdlib/math/iter/special/fresnelc' ) );
+setReadOnly( ns, 'iterFresnelc', require( './../../../iter/special/fresnelc' ) );
 
 /**
 * @name iterFresnels
@@ -547,7 +547,7 @@ setReadOnly( ns, 'iterFresnelc', require( '@stdlib/math/iter/special/fresnelc' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/fresnels}
 */
-setReadOnly( ns, 'iterFresnels', require( '@stdlib/math/iter/special/fresnels' ) );
+setReadOnly( ns, 'iterFresnels', require( './../../../iter/special/fresnels' ) );
 
 /**
 * @name iterGamma
@@ -556,7 +556,7 @@ setReadOnly( ns, 'iterFresnels', require( '@stdlib/math/iter/special/fresnels' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/gamma}
 */
-setReadOnly( ns, 'iterGamma', require( '@stdlib/math/iter/special/gamma' ) );
+setReadOnly( ns, 'iterGamma', require( './../../../iter/special/gamma' ) );
 
 /**
 * @name iterGamma1pm1
@@ -565,7 +565,7 @@ setReadOnly( ns, 'iterGamma', require( '@stdlib/math/iter/special/gamma' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/gamma1pm1}
 */
-setReadOnly( ns, 'iterGamma1pm1', require( '@stdlib/math/iter/special/gamma1pm1' ) );
+setReadOnly( ns, 'iterGamma1pm1', require( './../../../iter/special/gamma1pm1' ) );
 
 /**
 * @name iterGammaln
@@ -574,7 +574,7 @@ setReadOnly( ns, 'iterGamma1pm1', require( '@stdlib/math/iter/special/gamma1pm1'
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/gammaln}
 */
-setReadOnly( ns, 'iterGammaln', require( '@stdlib/math/iter/special/gammaln' ) );
+setReadOnly( ns, 'iterGammaln', require( './../../../iter/special/gammaln' ) );
 
 /**
 * @name iterHacovercos
@@ -583,7 +583,7 @@ setReadOnly( ns, 'iterGammaln', require( '@stdlib/math/iter/special/gammaln' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/hacovercos}
 */
-setReadOnly( ns, 'iterHacovercos', require( '@stdlib/math/iter/special/hacovercos' ) );
+setReadOnly( ns, 'iterHacovercos', require( './../../../iter/special/hacovercos' ) );
 
 /**
 * @name iterHacoversin
@@ -592,7 +592,7 @@ setReadOnly( ns, 'iterHacovercos', require( '@stdlib/math/iter/special/hacoverco
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/hacoversin}
 */
-setReadOnly( ns, 'iterHacoversin', require( '@stdlib/math/iter/special/hacoversin' ) );
+setReadOnly( ns, 'iterHacoversin', require( './../../../iter/special/hacoversin' ) );
 
 /**
 * @name iterHavercos
@@ -601,7 +601,7 @@ setReadOnly( ns, 'iterHacoversin', require( '@stdlib/math/iter/special/hacoversi
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/havercos}
 */
-setReadOnly( ns, 'iterHavercos', require( '@stdlib/math/iter/special/havercos' ) );
+setReadOnly( ns, 'iterHavercos', require( './../../../iter/special/havercos' ) );
 
 /**
 * @name iterHaversin
@@ -610,7 +610,7 @@ setReadOnly( ns, 'iterHavercos', require( '@stdlib/math/iter/special/havercos' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/haversin}
 */
-setReadOnly( ns, 'iterHaversin', require( '@stdlib/math/iter/special/haversin' ) );
+setReadOnly( ns, 'iterHaversin', require( './../../../iter/special/haversin' ) );
 
 /**
 * @name iterInv
@@ -619,7 +619,7 @@ setReadOnly( ns, 'iterHaversin', require( '@stdlib/math/iter/special/haversin' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/inv}
 */
-setReadOnly( ns, 'iterInv', require( '@stdlib/math/iter/special/inv' ) );
+setReadOnly( ns, 'iterInv', require( './../../../iter/special/inv' ) );
 
 /**
 * @name iterLn
@@ -628,7 +628,7 @@ setReadOnly( ns, 'iterInv', require( '@stdlib/math/iter/special/inv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ln}
 */
-setReadOnly( ns, 'iterLn', require( '@stdlib/math/iter/special/ln' ) );
+setReadOnly( ns, 'iterLn', require( './../../../iter/special/ln' ) );
 
 /**
 * @name iterLog
@@ -637,7 +637,7 @@ setReadOnly( ns, 'iterLn', require( '@stdlib/math/iter/special/ln' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/log}
 */
-setReadOnly( ns, 'iterLog', require( '@stdlib/math/iter/special/log' ) );
+setReadOnly( ns, 'iterLog', require( './../../../iter/special/log' ) );
 
 /**
 * @name iterLog1mexp
@@ -646,7 +646,7 @@ setReadOnly( ns, 'iterLog', require( '@stdlib/math/iter/special/log' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/log1mexp}
 */
-setReadOnly( ns, 'iterLog1mexp', require( '@stdlib/math/iter/special/log1mexp' ) );
+setReadOnly( ns, 'iterLog1mexp', require( './../../../iter/special/log1mexp' ) );
 
 /**
 * @name iterLog1p
@@ -655,7 +655,7 @@ setReadOnly( ns, 'iterLog1mexp', require( '@stdlib/math/iter/special/log1mexp' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/log1p}
 */
-setReadOnly( ns, 'iterLog1p', require( '@stdlib/math/iter/special/log1p' ) );
+setReadOnly( ns, 'iterLog1p', require( './../../../iter/special/log1p' ) );
 
 /**
 * @name iterLog1pexp
@@ -664,7 +664,7 @@ setReadOnly( ns, 'iterLog1p', require( '@stdlib/math/iter/special/log1p' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/log1pexp}
 */
-setReadOnly( ns, 'iterLog1pexp', require( '@stdlib/math/iter/special/log1pexp' ) );
+setReadOnly( ns, 'iterLog1pexp', require( './../../../iter/special/log1pexp' ) );
 
 /**
 * @name iterLog2
@@ -673,7 +673,7 @@ setReadOnly( ns, 'iterLog1pexp', require( '@stdlib/math/iter/special/log1pexp' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/log2}
 */
-setReadOnly( ns, 'iterLog2', require( '@stdlib/math/iter/special/log2' ) );
+setReadOnly( ns, 'iterLog2', require( './../../../iter/special/log2' ) );
 
 /**
 * @name iterLog10
@@ -682,7 +682,7 @@ setReadOnly( ns, 'iterLog2', require( '@stdlib/math/iter/special/log2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/log10}
 */
-setReadOnly( ns, 'iterLog10', require( '@stdlib/math/iter/special/log10' ) );
+setReadOnly( ns, 'iterLog10', require( './../../../iter/special/log10' ) );
 
 /**
 * @name iterLogit
@@ -691,7 +691,7 @@ setReadOnly( ns, 'iterLog10', require( '@stdlib/math/iter/special/log10' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/logit}
 */
-setReadOnly( ns, 'iterLogit', require( '@stdlib/math/iter/special/logit' ) );
+setReadOnly( ns, 'iterLogit', require( './../../../iter/special/logit' ) );
 
 /**
 * @name iterPow
@@ -700,7 +700,7 @@ setReadOnly( ns, 'iterLogit', require( '@stdlib/math/iter/special/logit' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/pow}
 */
-setReadOnly( ns, 'iterPow', require( '@stdlib/math/iter/special/pow' ) );
+setReadOnly( ns, 'iterPow', require( './../../../iter/special/pow' ) );
 
 /**
 * @name iterRad2deg
@@ -709,7 +709,7 @@ setReadOnly( ns, 'iterPow', require( '@stdlib/math/iter/special/pow' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/rad2deg}
 */
-setReadOnly( ns, 'iterRad2deg', require( '@stdlib/math/iter/special/rad2deg' ) );
+setReadOnly( ns, 'iterRad2deg', require( './../../../iter/special/rad2deg' ) );
 
 /**
 * @name iterRamp
@@ -718,7 +718,7 @@ setReadOnly( ns, 'iterRad2deg', require( '@stdlib/math/iter/special/rad2deg' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/ramp}
 */
-setReadOnly( ns, 'iterRamp', require( '@stdlib/math/iter/special/ramp' ) );
+setReadOnly( ns, 'iterRamp', require( './../../../iter/special/ramp' ) );
 
 /**
 * @name iterZeta
@@ -727,7 +727,7 @@ setReadOnly( ns, 'iterRamp', require( '@stdlib/math/iter/special/ramp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/riemann-zeta}
 */
-setReadOnly( ns, 'iterZeta', require( '@stdlib/math/iter/special/riemann-zeta' ) );
+setReadOnly( ns, 'iterZeta', require( './../../../iter/special/riemann-zeta' ) );
 
 /**
 * @name iterRound
@@ -736,7 +736,7 @@ setReadOnly( ns, 'iterZeta', require( '@stdlib/math/iter/special/riemann-zeta' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/round}
 */
-setReadOnly( ns, 'iterRound', require( '@stdlib/math/iter/special/round' ) );
+setReadOnly( ns, 'iterRound', require( './../../../iter/special/round' ) );
 
 /**
 * @name iterRound2
@@ -745,7 +745,7 @@ setReadOnly( ns, 'iterRound', require( '@stdlib/math/iter/special/round' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/round2}
 */
-setReadOnly( ns, 'iterRound2', require( '@stdlib/math/iter/special/round2' ) );
+setReadOnly( ns, 'iterRound2', require( './../../../iter/special/round2' ) );
 
 /**
 * @name iterRound10
@@ -754,7 +754,7 @@ setReadOnly( ns, 'iterRound2', require( '@stdlib/math/iter/special/round2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/round10}
 */
-setReadOnly( ns, 'iterRound10', require( '@stdlib/math/iter/special/round10' ) );
+setReadOnly( ns, 'iterRound10', require( './../../../iter/special/round10' ) );
 
 /**
 * @name iterRsqrt
@@ -763,7 +763,7 @@ setReadOnly( ns, 'iterRound10', require( '@stdlib/math/iter/special/round10' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/rsqrt}
 */
-setReadOnly( ns, 'iterRsqrt', require( '@stdlib/math/iter/special/rsqrt' ) );
+setReadOnly( ns, 'iterRsqrt', require( './../../../iter/special/rsqrt' ) );
 
 /**
 * @name iterSignum
@@ -772,7 +772,7 @@ setReadOnly( ns, 'iterRsqrt', require( '@stdlib/math/iter/special/rsqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/signum}
 */
-setReadOnly( ns, 'iterSignum', require( '@stdlib/math/iter/special/signum' ) );
+setReadOnly( ns, 'iterSignum', require( './../../../iter/special/signum' ) );
 
 /**
 * @name iterSin
@@ -781,7 +781,7 @@ setReadOnly( ns, 'iterSignum', require( '@stdlib/math/iter/special/signum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/sin}
 */
-setReadOnly( ns, 'iterSin', require( '@stdlib/math/iter/special/sin' ) );
+setReadOnly( ns, 'iterSin', require( './../../../iter/special/sin' ) );
 
 /**
 * @name iterSinc
@@ -790,7 +790,7 @@ setReadOnly( ns, 'iterSin', require( '@stdlib/math/iter/special/sin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/sinc}
 */
-setReadOnly( ns, 'iterSinc', require( '@stdlib/math/iter/special/sinc' ) );
+setReadOnly( ns, 'iterSinc', require( './../../../iter/special/sinc' ) );
 
 /**
 * @name iterSinh
@@ -799,7 +799,7 @@ setReadOnly( ns, 'iterSinc', require( '@stdlib/math/iter/special/sinc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/sinh}
 */
-setReadOnly( ns, 'iterSinh', require( '@stdlib/math/iter/special/sinh' ) );
+setReadOnly( ns, 'iterSinh', require( './../../../iter/special/sinh' ) );
 
 /**
 * @name iterSinpi
@@ -808,7 +808,7 @@ setReadOnly( ns, 'iterSinh', require( '@stdlib/math/iter/special/sinh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/sinpi}
 */
-setReadOnly( ns, 'iterSinpi', require( '@stdlib/math/iter/special/sinpi' ) );
+setReadOnly( ns, 'iterSinpi', require( './../../../iter/special/sinpi' ) );
 
 /**
 * @name iterSpence
@@ -817,7 +817,7 @@ setReadOnly( ns, 'iterSinpi', require( '@stdlib/math/iter/special/sinpi' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/spence}
 */
-setReadOnly( ns, 'iterSpence', require( '@stdlib/math/iter/special/spence' ) );
+setReadOnly( ns, 'iterSpence', require( './../../../iter/special/spence' ) );
 
 /**
 * @name iterSqrt
@@ -826,7 +826,7 @@ setReadOnly( ns, 'iterSpence', require( '@stdlib/math/iter/special/spence' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/sqrt}
 */
-setReadOnly( ns, 'iterSqrt', require( '@stdlib/math/iter/special/sqrt' ) );
+setReadOnly( ns, 'iterSqrt', require( './../../../iter/special/sqrt' ) );
 
 /**
 * @name iterSqrt1pm1
@@ -835,7 +835,7 @@ setReadOnly( ns, 'iterSqrt', require( '@stdlib/math/iter/special/sqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/sqrt1pm1}
 */
-setReadOnly( ns, 'iterSqrt1pm1', require( '@stdlib/math/iter/special/sqrt1pm1' ) );
+setReadOnly( ns, 'iterSqrt1pm1', require( './../../../iter/special/sqrt1pm1' ) );
 
 /**
 * @name iterTan
@@ -844,7 +844,7 @@ setReadOnly( ns, 'iterSqrt1pm1', require( '@stdlib/math/iter/special/sqrt1pm1' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/tan}
 */
-setReadOnly( ns, 'iterTan', require( '@stdlib/math/iter/special/tan' ) );
+setReadOnly( ns, 'iterTan', require( './../../../iter/special/tan' ) );
 
 /**
 * @name iterTanh
@@ -853,7 +853,7 @@ setReadOnly( ns, 'iterTan', require( '@stdlib/math/iter/special/tan' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/tanh}
 */
-setReadOnly( ns, 'iterTanh', require( '@stdlib/math/iter/special/tanh' ) );
+setReadOnly( ns, 'iterTanh', require( './../../../iter/special/tanh' ) );
 
 /**
 * @name iterTrigamma
@@ -862,7 +862,7 @@ setReadOnly( ns, 'iterTanh', require( '@stdlib/math/iter/special/tanh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/trigamma}
 */
-setReadOnly( ns, 'iterTrigamma', require( '@stdlib/math/iter/special/trigamma' ) );
+setReadOnly( ns, 'iterTrigamma', require( './../../../iter/special/trigamma' ) );
 
 /**
 * @name iterTrunc
@@ -871,7 +871,7 @@ setReadOnly( ns, 'iterTrigamma', require( '@stdlib/math/iter/special/trigamma' )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/trunc}
 */
-setReadOnly( ns, 'iterTrunc', require( '@stdlib/math/iter/special/trunc' ) );
+setReadOnly( ns, 'iterTrunc', require( './../../../iter/special/trunc' ) );
 
 /**
 * @name iterTrunc2
@@ -880,7 +880,7 @@ setReadOnly( ns, 'iterTrunc', require( '@stdlib/math/iter/special/trunc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/trunc2}
 */
-setReadOnly( ns, 'iterTrunc2', require( '@stdlib/math/iter/special/trunc2' ) );
+setReadOnly( ns, 'iterTrunc2', require( './../../../iter/special/trunc2' ) );
 
 /**
 * @name iterTrunc10
@@ -889,7 +889,7 @@ setReadOnly( ns, 'iterTrunc2', require( '@stdlib/math/iter/special/trunc2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/trunc10}
 */
-setReadOnly( ns, 'iterTrunc10', require( '@stdlib/math/iter/special/trunc10' ) );
+setReadOnly( ns, 'iterTrunc10', require( './../../../iter/special/trunc10' ) );
 
 /**
 * @name iterVercos
@@ -898,7 +898,7 @@ setReadOnly( ns, 'iterTrunc10', require( '@stdlib/math/iter/special/trunc10' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/vercos}
 */
-setReadOnly( ns, 'iterVercos', require( '@stdlib/math/iter/special/vercos' ) );
+setReadOnly( ns, 'iterVercos', require( './../../../iter/special/vercos' ) );
 
 /**
 * @name iterVersin
@@ -907,7 +907,7 @@ setReadOnly( ns, 'iterVercos', require( '@stdlib/math/iter/special/vercos' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/iter/special/versin}
 */
-setReadOnly( ns, 'iterVersin', require( '@stdlib/math/iter/special/versin' ) );
+setReadOnly( ns, 'iterVersin', require( './../../../iter/special/versin' ) );
 
 
 // EXPORTS //

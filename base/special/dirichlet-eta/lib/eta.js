@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var powm1 = require( '@stdlib/math/base/special/powm1' );
-var zeta = require( '@stdlib/math/base/special/riemann-zeta' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var powm1 = require( './../../../../base/special/powm1' );
+var zeta = require( './../../../../base/special/riemann-zeta' );
 var LN2 = require( '@stdlib/constants/float64/ln-two' );
 
 

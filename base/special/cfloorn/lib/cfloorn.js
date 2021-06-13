@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var floorn = require( '@stdlib/math/base/special/floorn' );
+var floorn = require( './../../../../base/special/floorn' );
 
 
 // MAIN //

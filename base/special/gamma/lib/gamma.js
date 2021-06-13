@@ -34,12 +34,12 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var sin = require( '@stdlib/math/base/special/sin' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+var abs = require( './../../../../base/special/abs' );
+var floor = require( './../../../../base/special/floor' );
+var sin = require( './../../../../base/special/sin' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PI = require( '@stdlib/constants/float64/pi' );

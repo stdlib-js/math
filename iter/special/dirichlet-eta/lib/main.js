@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var eta = require( '@stdlib/math/base/special/dirichlet-eta' );
+var iterMap = require( './../../../../iter/tools/map' );
+var eta = require( './../../../../base/special/dirichlet-eta' );
 
 
 // MAIN //

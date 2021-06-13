@@ -21,9 +21,9 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import ops = require( '@stdlib/math/iter/ops' );
-import sequences = require( '@stdlib/math/iter/sequences' );
-import special = require( '@stdlib/math/iter/special' );
+import ops = require( './../../../iter/ops' );
+import sequences = require( './../../../iter/sequences' );
+import special = require( './../../../iter/special' );
 
 /**
 * Interface describing the `iter` namespace.

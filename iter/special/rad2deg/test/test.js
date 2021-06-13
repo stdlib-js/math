@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/base/uniform' ).factory;
 var uniform = require( '@stdlib/random/iter/uniform' );
-var rad2deg = require( '@stdlib/math/base/special/rad2deg' );
+var rad2deg = require( './../../../../base/special/rad2deg' );
 var iterRad2deg = require( './../lib' );
 
 

@@ -21,10 +21,10 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import base = require( '@stdlib/math/base' );
-import iter = require( '@stdlib/math/iter' );
-import special = require( '@stdlib/math/special' );
-import strided = require( '@stdlib/math/strided' );
+import base = require( './../../base' );
+import iter = require( './../../iter' );
+import special = require( './../../special' );
+import strided = require( './../../strided' );
 
 /**
 * Interface describing the `math` namespace.

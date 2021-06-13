@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var TWO_PI = require( '@stdlib/constants/float64/two-pi' );
 var pkg = require( './../package.json' ).name;
 var rad2deg = require( './../lib' );

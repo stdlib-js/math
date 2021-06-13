@@ -22,9 +22,9 @@
 
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/base/randu' ).factory;
-var abs = require( '@stdlib/math/base/special/abs' );
-var roundn = require( '@stdlib/math/base/special/roundn' );
-var hypot = require( '@stdlib/math/base/special/hypot' );
+var abs = require( './../../../../../base/special/abs' );
+var roundn = require( './../../../../../base/special/roundn' );
+var hypot = require( './../../../../../base/special/hypot' );
 var factory = require( './../lib' ).factory;
 
 

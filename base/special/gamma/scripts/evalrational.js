@@ -26,7 +26,7 @@
 var resolve = require( 'path' ).resolve;
 var writeFileSync = require( '@stdlib/fs/write-file' ).sync;
 var licenseHeader = require( '@stdlib/_tools/licenses/header' );
-var compile = require( '@stdlib/math/base/tools/evalrational-compile' );
+var compile = require( './../../../../base/tools/evalrational-compile' );
 
 
 // VARIABLES //

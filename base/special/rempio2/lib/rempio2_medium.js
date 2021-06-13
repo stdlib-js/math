@@ -34,7 +34,7 @@
 
 // MODULES //
 
-var round = require( '@stdlib/math/base/special/round' );
+var round = require( './../../../../base/special/round' );
 var getHighWord = require( '@stdlib/number/float64/base/get-high-word' );
 
 

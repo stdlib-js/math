@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmskmap = require( '@stdlib/strided/base/dmskmap' );
-var abs2 = require( '@stdlib/math/base/special/abs2' );
+var abs2 = require( './../../../../base/special/abs2' );
 
 
 // MAIN //

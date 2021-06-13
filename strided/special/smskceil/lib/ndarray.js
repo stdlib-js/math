@@ -21,7 +21,7 @@
 // MODULES //
 
 var smskmap = require( '@stdlib/strided/base/smskmap' ).ndarray;
-var ceilf = require( '@stdlib/math/base/special/ceilf' );
+var ceilf = require( './../../../../base/special/ceilf' );
 
 
 // MAIN //

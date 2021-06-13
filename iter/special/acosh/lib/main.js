@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var acosh = require( '@stdlib/math/base/special/acosh' );
+var iterMap = require( './../../../../iter/tools/map' );
+var acosh = require( './../../../../base/special/acosh' );
 
 
 // MAIN //

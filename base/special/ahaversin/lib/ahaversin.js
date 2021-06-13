@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var asin = require( '@stdlib/math/base/special/asin' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var asin = require( './../../../../base/special/asin' );
+var sqrt = require( './../../../../base/special/sqrt' );
 
 
 // MAIN //

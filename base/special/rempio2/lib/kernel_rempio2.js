@@ -36,8 +36,8 @@
 
 // MODULES //
 
-var floor = require( '@stdlib/math/base/special/floor' );
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
+var floor = require( './../../../../base/special/floor' );
+var ldexp = require( './../../../../base/special/ldexp' );
 
 
 // VARIABLES //

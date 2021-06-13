@@ -21,9 +21,9 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var round = require( '@stdlib/math/base/special/round' );
+var round = require( './../../../../base/special/round' );
 var randu = require( '@stdlib/random/base/randu' );
-var abs2 = require( '@stdlib/math/base/special/abs2' );
+var abs2 = require( './../../../../base/special/abs2' );
 var filledarray = require( '@stdlib/array/filled' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Uint8Array = require( '@stdlib/array/uint8' );

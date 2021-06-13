@@ -22,8 +22,8 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var floor = require( './../../../../base/special/floor' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var TRIBONACCI = require( './../lib/tribonacci.json' );
 var tribonacci = require( './../lib' );

@@ -33,12 +33,12 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var trunc = require( '@stdlib/math/base/special/trunc' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var abs = require( './../../../../base/special/abs' );
+var expm1 = require( './../../../../base/special/expm1' );
+var ln = require( './../../../../base/special/ln' );
+var pow = require( './../../../../base/special/pow' );
+var trunc = require( './../../../../base/special/trunc' );
 
 
 // MAIN //

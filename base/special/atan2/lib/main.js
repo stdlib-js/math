@@ -55,11 +55,11 @@
 
 // MODULES //
 
-var isinfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var copysign = require( '@stdlib/math/base/special/copysign' );
+var isinfinite = require( './../../../../base/assert/is-infinite' );
+var copysign = require( './../../../../base/special/copysign' );
 var signbit = require( '@stdlib/number/float64/base/signbit' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var atan = require( '@stdlib/math/base/special/atan' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var atan = require( './../../../../base/special/atan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var PI = require( '@stdlib/constants/float64/pi' );
 

@@ -23,7 +23,7 @@
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/iter/randu' );
 var iterConstant = require( '@stdlib/iter/constant' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
 var pkg = require( './../package.json' ).name;
 var iterMod = require( './../lib' );

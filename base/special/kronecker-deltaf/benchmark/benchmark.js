@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
 var pkg = require( './../package.json' ).name;
 var kroneckerDeltaf = require( './../lib' );
 

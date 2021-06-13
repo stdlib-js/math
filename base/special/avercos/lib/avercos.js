@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var acos = require( '@stdlib/math/base/special/acos' );
+var acos = require( './../../../../base/special/acos' );
 
 
 // MAIN //

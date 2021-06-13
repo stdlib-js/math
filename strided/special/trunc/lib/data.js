@@ -22,9 +22,9 @@
 
 // MODULES //
 
-var trunc = require( '@stdlib/math/base/special/trunc' );
-var truncf = require( '@stdlib/math/base/special/truncf' );
-var identity = require( '@stdlib/math/base/special/identity' );
+var trunc = require( './../../../../base/special/trunc' );
+var truncf = require( './../../../../base/special/truncf' );
+var identity = require( './../../../../base/special/identity' );
 
 
 // MAIN //

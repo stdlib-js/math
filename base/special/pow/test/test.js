@@ -21,17 +21,17 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var abs = require( './../../../../base/special/abs' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
+var round = require( './../../../../base/special/round' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var MAX_SAFE_INTEGER = require( '@stdlib/constants/float64/max-safe-integer' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var pow = require( './../lib' );
 
 

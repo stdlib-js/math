@@ -38,9 +38,9 @@
 
 // MODULES //
 
-var isOdd = require( '@stdlib/math/base/assert/is-odd' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var sinpi = require( '@stdlib/math/base/special/sinpi' );
+var isOdd = require( './../../../../../base/assert/is-odd' );
+var floor = require( './../../../../../base/special/floor' );
+var sinpi = require( './../../../../../base/special/sinpi' );
 
 
 // MAIN //

@@ -22,8 +22,8 @@
 
 // MODULES //
 
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var sqrtf = require( '@stdlib/math/base/special/sqrtf' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var sqrtf = require( './../../../../base/special/sqrtf' );
 
 
 // MAIN //

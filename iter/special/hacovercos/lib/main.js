@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var hacovercos = require( '@stdlib/math/base/special/hacovercos' );
+var iterMap = require( './../../../../iter/tools/map' );
+var hacovercos = require( './../../../../base/special/hacovercos' );
 
 
 // MAIN //

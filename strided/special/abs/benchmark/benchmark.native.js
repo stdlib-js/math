@@ -23,9 +23,9 @@
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var round = require( '@stdlib/math/base/special/round' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var pow = require( './../../../../base/special/pow' );
+var round = require( './../../../../base/special/round' );
 var filledarray = require( '@stdlib/array/filled' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;

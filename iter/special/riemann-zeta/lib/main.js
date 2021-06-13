@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var zeta = require( '@stdlib/math/base/special/riemann-zeta' );
+var iterMap = require( './../../../../iter/tools/map' );
+var zeta = require( './../../../../base/special/riemann-zeta' );
 
 
 // MAIN //

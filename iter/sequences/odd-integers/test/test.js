@@ -23,8 +23,8 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var isEven = require( '@stdlib/math/base/assert/is-even' );
-var isOdd = require( '@stdlib/math/base/assert/is-odd' );
+var isEven = require( './../../../../base/assert/is-even' );
+var isOdd = require( './../../../../base/assert/is-odd' );
 var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
 var iterOddIntegersSeq = require( './../lib' );
 

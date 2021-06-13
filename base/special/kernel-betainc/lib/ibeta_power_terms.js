@@ -33,17 +33,17 @@
 
 // MODULES //
 
-var lanczosSumExpGScaled = require( '@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled' );
-var maxabs = require( '@stdlib/math/base/special/maxabs' );
-var minabs = require( '@stdlib/math/base/special/minabs' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var min = require( '@stdlib/math/base/special/min' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var lanczosSumExpGScaled = require( './../../../../base/special/gamma-lanczos-sum-expg-scaled' );
+var maxabs = require( './../../../../base/special/maxabs' );
+var minabs = require( './../../../../base/special/minabs' );
+var expm1 = require( './../../../../base/special/expm1' );
+var log1p = require( './../../../../base/special/log1p' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var min = require( './../../../../base/special/min' );
+var ln = require( './../../../../base/special/ln' );
 var MAX_LN = require( '@stdlib/constants/float64/max-ln' );
 var MIN_LN = require( '@stdlib/constants/float64/min-ln' );
 var G = require( '@stdlib/constants/float64/gamma-lanczos-g' );

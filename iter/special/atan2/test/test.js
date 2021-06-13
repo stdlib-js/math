@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/iter/randu' );
-var atan2 = require( '@stdlib/math/base/special/atan2' );
+var atan2 = require( './../../../../base/special/atan2' );
 var linspace = require( '@stdlib/iter/linspace' );
 var iterAtan2 = require( './../lib' );
 

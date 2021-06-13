@@ -22,8 +22,8 @@
 
 // MODULES //
 
-var cbrt = require( '@stdlib/math/base/special/cbrt' );
-var cbrtf = require( '@stdlib/math/base/special/cbrtf' );
+var cbrt = require( './../../../../base/special/cbrt' );
+var cbrtf = require( './../../../../base/special/cbrtf' );
 
 
 // MAIN //

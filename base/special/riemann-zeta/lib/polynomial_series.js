@@ -33,8 +33,8 @@
 
 // MODULES //
 
-var pow = require( '@stdlib/math/base/special/pow' );
-var powm1 = require( '@stdlib/math/base/special/powm1' );
+var pow = require( './../../../../base/special/pow' );
+var powm1 = require( './../../../../base/special/powm1' );
 
 
 // VARIABLES //

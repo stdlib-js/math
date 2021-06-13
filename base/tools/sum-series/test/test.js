@@ -23,8 +23,8 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var detectGeneratorSupport = require( '@stdlib/assert/has-generator-support' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var log1p = require( './../../../../base/special/log1p' );
+var abs = require( './../../../../base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var sumSeries = require( './../lib' );
 var sumSeriesBasic = proxyquire( './../lib', {

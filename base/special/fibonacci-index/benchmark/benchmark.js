@@ -22,9 +22,9 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var fibonacci = require( '@stdlib/math/base/special/fibonacci' );
+var floor = require( './../../../../base/special/floor' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var fibonacci = require( './../../../../base/special/fibonacci' );
 var pkg = require( './../package.json' ).name;
 var fibonacciIndex = require( './../lib' );
 

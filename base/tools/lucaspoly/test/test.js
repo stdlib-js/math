@@ -21,8 +21,8 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var lucas = require( '@stdlib/math/base/special/lucas' );
-var negaLucas = require( '@stdlib/math/base/special/negalucas' );
+var lucas = require( './../../../../base/special/lucas' );
+var negaLucas = require( './../../../../base/special/negalucas' );
 var lucaspoly = require( './../lib' );
 
 

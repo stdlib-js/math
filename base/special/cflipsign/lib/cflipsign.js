@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 
 
 // MAIN //

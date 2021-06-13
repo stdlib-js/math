@@ -36,7 +36,7 @@
 
 var getHighWord = require( '@stdlib/number/float64/base/get-high-word' );
 var setHighWord = require( '@stdlib/number/float64/base/set-high-word' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var BIAS = require( '@stdlib/constants/float64/exponent-bias' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var polyvalP = require( './polyval_p.js' );

@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var sqrt = require( './../../../../base/special/sqrt' );
 
 
 // MAIN //

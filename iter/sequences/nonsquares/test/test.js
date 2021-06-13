@@ -23,8 +23,8 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var floor = require( './../../../../base/special/floor' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var isSquareNumber = require( '@stdlib/assert/is-square-number' ).isPrimitive;
 var iterNonSquaresSeq = require( './../lib' );
 

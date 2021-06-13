@@ -21,11 +21,11 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import iterAdd = require( '@stdlib/math/iter/ops/add' );
-import iterDivide = require( '@stdlib/math/iter/ops/divide' );
-import iterMod = require( '@stdlib/math/iter/ops/mod' );
-import iterMultiply = require( '@stdlib/math/iter/ops/multiply' );
-import iterSubtract = require( '@stdlib/math/iter/ops/subtract' );
+import iterAdd = require( './../../../../iter/ops/add' );
+import iterDivide = require( './../../../../iter/ops/divide' );
+import iterMod = require( './../../../../iter/ops/mod' );
+import iterMultiply = require( './../../../../iter/ops/multiply' );
+import iterSubtract = require( './../../../../iter/ops/subtract' );
 
 /**
 * Interface describing the `ops` namespace.

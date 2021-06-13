@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var deg2radf = require( '@stdlib/math/base/special/deg2radf' );
+var deg2radf = require( './../../../../base/special/deg2radf' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float32Array = require( '@stdlib/array/float32' );
 var sdeg2rad = require( './../lib/sdeg2rad.js' );

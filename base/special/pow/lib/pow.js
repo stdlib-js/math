@@ -34,12 +34,12 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isOdd = require( '@stdlib/math/base/assert/is-odd' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isOdd = require( './../../../../base/assert/is-odd' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var abs = require( './../../../../base/special/abs' );
 var toWords = require( '@stdlib/number/float64/base/to-words' );
 var setLowWord = require( '@stdlib/number/float64/base/set-low-word' );
 var uint32ToInt32 = require( '@stdlib/number/uint32/base/to-int32' );

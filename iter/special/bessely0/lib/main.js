@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var bessely0 = require( '@stdlib/math/base/special/bessely0' );
+var iterMap = require( './../../../../iter/tools/map' );
+var bessely0 = require( './../../../../base/special/bessely0' );
 
 
 // MAIN //

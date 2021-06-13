@@ -21,11 +21,11 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var linspace = require( '@stdlib/array/linspace' );
-var rempio2 = require( '@stdlib/math/base/special/rempio2' );
+var rempio2 = require( './../../../../base/special/rempio2' );
 var PI = require( '@stdlib/constants/float64/pi' );
-var cos = require( '@stdlib/math/base/special/cos' );
+var cos = require( './../../../../base/special/cos' );
 var kernelCos = require( './../lib' );
 
 

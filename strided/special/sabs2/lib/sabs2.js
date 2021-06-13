@@ -21,7 +21,7 @@
 // MODULES //
 
 var smap = require( '@stdlib/strided/base/smap' );
-var abs2f = require( '@stdlib/math/base/special/abs2f' );
+var abs2f = require( './../../../../base/special/abs2f' );
 
 
 // MAIN //

@@ -19,7 +19,7 @@
 'use strict';
 
 var randu = require( '@stdlib/random/base/randu' );
-var ceil = require( '@stdlib/math/base/special/ceil' );
+var ceil = require( './../../../../base/special/ceil' );
 var risingFactorial = require( './../lib' );
 
 var n;

@@ -34,8 +34,8 @@
 
 // MODULES //
 
-var isOdd = require( '@stdlib/math/base/assert/is-odd' );
-var copysign = require( '@stdlib/math/base/special/copysign' );
+var isOdd = require( './../../../../base/assert/is-odd' );
+var copysign = require( './../../../../base/special/copysign' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 

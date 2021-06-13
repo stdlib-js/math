@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var coversin = require( '@stdlib/math/base/special/coversin' );
+var iterMap = require( './../../../../iter/tools/map' );
+var coversin = require( './../../../../base/special/coversin' );
 
 
 // MAIN //

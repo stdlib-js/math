@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/base/uniform' ).factory;
 var uniform = require( '@stdlib/random/iter/uniform' );
-var tanh = require( '@stdlib/math/base/special/tanh' );
+var tanh = require( './../../../../base/special/tanh' );
 var iterTanh = require( './../lib' );
 
 

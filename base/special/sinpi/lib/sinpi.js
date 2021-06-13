@@ -29,12 +29,12 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var cos = require( '@stdlib/math/base/special/cos' );
-var sin = require( '@stdlib/math/base/special/sin' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var copysign = require( '@stdlib/math/base/special/copysign' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var cos = require( './../../../../base/special/cos' );
+var sin = require( './../../../../base/special/sin' );
+var abs = require( './../../../../base/special/abs' );
+var copysign = require( './../../../../base/special/copysign' );
 var PI = require( '@stdlib/constants/float64/pi' );
 
 

@@ -22,9 +22,9 @@
 
 // MODULES //
 
-var ceil = require( '@stdlib/math/base/special/ceil' );
-var ceilf = require( '@stdlib/math/base/special/ceilf' );
-var identity = require( '@stdlib/math/base/special/identity' );
+var ceil = require( './../../../../base/special/ceil' );
+var ceilf = require( './../../../../base/special/ceilf' );
+var identity = require( './../../../../base/special/identity' );
 
 
 // MAIN //

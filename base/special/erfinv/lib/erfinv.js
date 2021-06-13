@@ -33,9 +33,9 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var ln = require( './../../../../base/special/ln' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var rationalFcnR1 = require( './rational_p1q1.js' );

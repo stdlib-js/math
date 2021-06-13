@@ -34,8 +34,8 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
 var ratval = require( './rational_pq.js' );
 
 

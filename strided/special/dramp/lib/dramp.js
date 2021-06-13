@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmap = require( '@stdlib/strided/base/dmap' );
-var ramp = require( '@stdlib/math/base/special/ramp' );
+var ramp = require( './../../../../base/special/ramp' );
 
 
 // MAIN //

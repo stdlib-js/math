@@ -22,9 +22,9 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/iter/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
-var sin = require( '@stdlib/math/base/special/sin' );
+var sin = require( './../../../../base/special/sin' );
 var pkg = require( './../package.json' ).name;
 var iterMap = require( './../lib' );
 

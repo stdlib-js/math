@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap2 = require( '@stdlib/math/iter/tools/map2' );
-var atan2 = require( '@stdlib/math/base/special/atan2' );
+var iterMap2 = require( './../../../../iter/tools/map2' );
+var atan2 = require( './../../../../base/special/atan2' );
 
 
 // MAIN //

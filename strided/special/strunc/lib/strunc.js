@@ -21,7 +21,7 @@
 // MODULES //
 
 var smap = require( '@stdlib/strided/base/smap' );
-var truncf = require( '@stdlib/math/base/special/truncf' );
+var truncf = require( './../../../../base/special/truncf' );
 
 
 // MAIN //

@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/iter/randu' );
-var eta = require( '@stdlib/math/base/special/dirichlet-eta' );
+var eta = require( './../../../../base/special/dirichlet-eta' );
 var linspace = require( '@stdlib/iter/linspace' );
 var iterEta = require( './../lib' );
 

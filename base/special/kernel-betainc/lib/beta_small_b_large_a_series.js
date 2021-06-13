@@ -33,13 +33,13 @@
 
 // MODULES //
 
-var gammaDeltaRatio = require( '@stdlib/math/base/special/gamma-delta-ratio' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
-var gammainc = require( '@stdlib/math/base/special/gammainc' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var gammaDeltaRatio = require( './../../../../base/special/gamma-delta-ratio' );
+var factorial = require( './../../../../base/special/factorial' );
+var gammainc = require( './../../../../base/special/gammainc' );
+var log1p = require( './../../../../base/special/log1p' );
+var abs = require( './../../../../base/special/abs' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var MIN_VALUE = require( '@stdlib/constants/float64/smallest-normal' );
 var EPSILON = require( '@stdlib/constants/float64/eps' );
 var fullIGammaPrefix = require( './full_igamma_prefix.js' );

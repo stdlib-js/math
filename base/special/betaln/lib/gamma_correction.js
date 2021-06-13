@@ -27,7 +27,7 @@
 
 // MODULES //
 
-var pow = require( '@stdlib/math/base/special/pow' );
+var pow = require( './../../../../base/special/pow' );
 var dceval = require( './dceval.js' );
 
 

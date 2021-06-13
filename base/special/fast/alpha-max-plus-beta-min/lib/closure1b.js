@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/fast/abs' );
+var abs = require( './../../../../../base/special/fast/abs' );
 
 
 // MAIN //

@@ -22,9 +22,9 @@
 
 var tape = require( 'tape' );
 var linspace = require( '@stdlib/array/linspace' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var cos = require( '@stdlib/math/base/special/cos' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var abs = require( './../../../../base/special/abs' );
+var cos = require( './../../../../base/special/cos' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );

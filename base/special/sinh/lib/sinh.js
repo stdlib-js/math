@@ -36,8 +36,8 @@
 
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
 var LN2 = require( '@stdlib/constants/float64/ln-two' );
 var rateval = require( './rational_pq.js' );
 

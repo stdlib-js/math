@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/base/utils/absolute-difference}
 */
-setReadOnly( ns, 'absdiff', require( '@stdlib/math/base/utils/absolute-difference' ) );
+setReadOnly( ns, 'absdiff', require( './../../../base/utils/absolute-difference' ) );
 
 /**
 * @name epsdiff
@@ -52,7 +52,7 @@ setReadOnly( ns, 'absdiff', require( '@stdlib/math/base/utils/absolute-differenc
 * @type {Function}
 * @see {@link module:@stdlib/math/base/utils/float64-epsilon-difference}
 */
-setReadOnly( ns, 'epsdiff', require( '@stdlib/math/base/utils/float64-epsilon-difference' ) );
+setReadOnly( ns, 'epsdiff', require( './../../../base/utils/float64-epsilon-difference' ) );
 
 /**
 * @name reldiff
@@ -61,7 +61,7 @@ setReadOnly( ns, 'epsdiff', require( '@stdlib/math/base/utils/float64-epsilon-di
 * @type {Function}
 * @see {@link module:@stdlib/math/base/utils/relative-difference}
 */
-setReadOnly( ns, 'reldiff', require( '@stdlib/math/base/utils/relative-difference' ) );
+setReadOnly( ns, 'reldiff', require( './../../../base/utils/relative-difference' ) );
 
 
 // EXPORTS //

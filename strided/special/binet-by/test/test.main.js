@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var binet = require( '@stdlib/math/base/special/binet' );
+var binet = require( './../../../../base/special/binet' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var binetBy = require( './../lib/main.js' );

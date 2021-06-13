@@ -34,9 +34,9 @@
 
 // MODULES //
 
-var gammaDeltaRatio = require( '@stdlib/math/base/special/gamma-delta-ratio' );
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var gammaDeltaRatio = require( './../../../../base/special/gamma-delta-ratio' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var polyval1 = require( './polyval_co14.js' );
 var polyval2 = require( './polyval_co15.js' );

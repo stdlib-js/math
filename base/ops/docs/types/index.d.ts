@@ -21,11 +21,11 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cadd = require( '@stdlib/math/base/ops/cadd' );
-import cdiv = require( '@stdlib/math/base/ops/cdiv' );
-import cmul = require( '@stdlib/math/base/ops/cmul' );
-import cneg = require( '@stdlib/math/base/ops/cneg' );
-import csub = require( '@stdlib/math/base/ops/csub' );
+import cadd = require( './../../../../base/ops/cadd' );
+import cdiv = require( './../../../../base/ops/cdiv' );
+import cmul = require( './../../../../base/ops/cmul' );
+import cneg = require( './../../../../base/ops/cneg' );
+import csub = require( './../../../../base/ops/csub' );
 
 /**
 * Interface describing the `ops` namespace.

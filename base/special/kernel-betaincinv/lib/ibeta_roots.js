@@ -34,8 +34,8 @@
 
 // MODULES //
 
-var kernelBetainc = require( '@stdlib/math/base/special/kernel-betainc' ).assign;
-var abs = require( '@stdlib/math/base/special/abs' );
+var kernelBetainc = require( './../../../../base/special/kernel-betainc' ).assign;
+var abs = require( './../../../../base/special/abs' );
 var FLOAT64_MAX = require( '@stdlib/constants/float64/max' );
 var FLOAT64_MIN_NORM = require( '@stdlib/constants/float64/smallest-normal' );
 

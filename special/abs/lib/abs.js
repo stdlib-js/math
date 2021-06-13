@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dispatch = require( '@stdlib/math/tools/unary' );
+var dispatch = require( './../../../tools/unary' );
 var config = require( './config.json' );
 var table = require( './table.js' );
 

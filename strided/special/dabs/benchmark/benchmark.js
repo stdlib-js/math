@@ -22,8 +22,8 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var pow = require( './../../../../base/special/pow' );
 var Float64Array = require( '@stdlib/array/float64' );
 var pkg = require( './../package.json' ).name;
 var dabs = require( './../lib/main.js' );

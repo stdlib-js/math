@@ -21,7 +21,7 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import abs = require( '@stdlib/math/special/abs' );
+import abs = require( './../../../special/abs' );
 
 /**
 * Interface describing the `special` namespace.

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var iterMap = require( './../../../../iter/tools/map' );
+var floor = require( './../../../../base/special/floor' );
 
 
 // MAIN //

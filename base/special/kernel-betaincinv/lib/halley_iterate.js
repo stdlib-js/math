@@ -33,10 +33,10 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
-var sign = require( '@stdlib/math/base/special/signum' );
-var max = require( '@stdlib/math/base/special/max' );
+var abs = require( './../../../../base/special/abs' );
+var ldexp = require( './../../../../base/special/ldexp' );
+var sign = require( './../../../../base/special/signum' );
+var max = require( './../../../../base/special/max' );
 var MAX_VALUE = require( '@stdlib/constants/float64/max' );
 
 

@@ -28,7 +28,7 @@ var Float64Array = require( '@stdlib/array/float64' );
 var Float32Array = require( '@stdlib/array/float32' );
 var ndarray = require( '@stdlib/ndarray/ctor' );
 var shape2strides = require( '@stdlib/ndarray/base/shape2strides' );
-var base = require( '@stdlib/math/base/special/abs' );
+var base = require( './../../../base/special/abs' );
 var abs = require( './../lib/main.js' );
 
 

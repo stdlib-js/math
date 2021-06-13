@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var acoth = require( '@stdlib/math/base/special/acoth' );
+var acoth = require( './../../../../base/special/acoth' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var acothBy = require( './../lib/main.js' );

@@ -21,7 +21,7 @@
 // MODULES //
 
 var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
 
 
 // MAIN //

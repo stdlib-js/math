@@ -20,8 +20,8 @@
 
 'use strict';
 
-var base = require( '@stdlib/math/base/special/abs' );
-var strided = require( '@stdlib/math/strided/special/abs' );
+var base = require( './../../../base/special/abs' );
+var strided = require( './../../../strided/special/abs' );
 var Float64Array = require( '@stdlib/array/float64' );
 var array = require( '@stdlib/ndarray/array' );
 var ndarray = require( '@stdlib/ndarray/ctor' );

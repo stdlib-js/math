@@ -21,8 +21,8 @@
 // MODULES //
 
 var SQRT2 = require( '@stdlib/constants/float64/sqrt-two' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var normhermitepoly = require( '@stdlib/math/base/tools/normhermitepoly' );
+var pow = require( './../../../../base/special/pow' );
+var normhermitepoly = require( './../../../../base/tools/normhermitepoly' );
 
 
 // MAIN //

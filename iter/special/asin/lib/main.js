@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var asin = require( '@stdlib/math/base/special/asin' );
+var iterMap = require( './../../../../iter/tools/map' );
+var asin = require( './../../../../base/special/asin' );
 
 
 // MAIN //

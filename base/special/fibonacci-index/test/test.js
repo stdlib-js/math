@@ -21,9 +21,9 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
-var fibonacci = require( '@stdlib/math/base/special/fibonacci' );
+var fibonacci = require( './../../../../base/special/fibonacci' );
 var fibonacciIndex = require( './../lib' );
 
 

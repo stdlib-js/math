@@ -43,7 +43,7 @@ var ns = {};
 * @type {Namespace}
 * @see {@link module:@stdlib/math/strided/special}
 */
-setReadOnly( ns, 'special', require( '@stdlib/math/strided/special' ) );
+setReadOnly( ns, 'special', require( './../../strided/special' ) );
 
 
 // EXPORTS //

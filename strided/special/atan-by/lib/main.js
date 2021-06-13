@@ -21,7 +21,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' );
-var atan = require( '@stdlib/math/base/special/atan' );
+var atan = require( './../../../../base/special/atan' );
 
 
 // MAIN //

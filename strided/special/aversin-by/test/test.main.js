@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var aversin = require( '@stdlib/math/base/special/aversin' );
+var aversin = require( './../../../../base/special/aversin' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var aversinBy = require( './../lib/main.js' );

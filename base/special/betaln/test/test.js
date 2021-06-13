@@ -21,11 +21,11 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
 var isnan = require( '@stdlib/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var betaln = require( './../lib' );
 
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var smskmap = require( '@stdlib/strided/base/smskmap' ).ndarray;
-var floorf = require( '@stdlib/math/base/special/floorf' );
+var floorf = require( './../../../../base/special/floorf' );
 
 
 // MAIN //

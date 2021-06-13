@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var asinh = require( '@stdlib/math/base/special/asinh' );
+var asinh = require( './../../../../base/special/asinh' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float64Array = require( '@stdlib/array/float64' );
 var asinhBy = require( './../lib/main.js' );

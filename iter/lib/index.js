@@ -43,7 +43,7 @@ var ns = {};
 * @type {Namespace}
 * @see {@link module:@stdlib/math/iter/ops}
 */
-setReadOnly( ns, 'ops', require( '@stdlib/math/iter/ops' ) );
+setReadOnly( ns, 'ops', require( './../../iter/ops' ) );
 
 /**
 * @name sequences
@@ -52,7 +52,7 @@ setReadOnly( ns, 'ops', require( '@stdlib/math/iter/ops' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/math/iter/sequences}
 */
-setReadOnly( ns, 'sequences', require( '@stdlib/math/iter/sequences' ) );
+setReadOnly( ns, 'sequences', require( './../../iter/sequences' ) );
 
 /**
 * @name special
@@ -61,7 +61,7 @@ setReadOnly( ns, 'sequences', require( '@stdlib/math/iter/sequences' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/math/iter/special}
 */
-setReadOnly( ns, 'special', require( '@stdlib/math/iter/special' ) );
+setReadOnly( ns, 'special', require( './../../iter/special' ) );
 
 
 // EXPORTS //

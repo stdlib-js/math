@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isNegativeInteger = require( '@stdlib/math/base/assert/is-negative-integer' );
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
+var isNegativeInteger = require( './../../../../base/assert/is-negative-integer' );
+var gammaln = require( './../../../../base/special/gammaln' );
 
 
 // MAIN //

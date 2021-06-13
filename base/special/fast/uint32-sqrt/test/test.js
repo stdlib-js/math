@@ -22,8 +22,8 @@
 
 var tape = require( 'tape' );
 var minstd = require( '@stdlib/random/base/minstd-shuffle' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var sqrt = require( './../../../../../base/special/sqrt' );
+var floor = require( './../../../../../base/special/floor' );
 var sqrtUint32 = require( './../lib' );
 
 

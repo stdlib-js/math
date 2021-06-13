@@ -34,9 +34,9 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var asin = require( '@stdlib/math/base/special/asin' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var asin = require( './../../../../base/special/asin' );
+var sqrt = require( './../../../../base/special/sqrt' );
 var PIO4 = require( '@stdlib/constants/float64/fourth-pi' );
 
 

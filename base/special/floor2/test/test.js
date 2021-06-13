@@ -24,11 +24,11 @@ var tape = require( 'tape' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var SMALLEST_SUBNORMAL = require( '@stdlib/constants/float64/smallest-subnormal' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
-var exp2 = require( '@stdlib/math/base/special/exp2' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
+var exp2 = require( './../../../../base/special/exp2' );
+var pow = require( './../../../../base/special/pow' );
 var floor2 = require( './../lib' );
 
 

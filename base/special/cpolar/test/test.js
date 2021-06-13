@@ -21,9 +21,9 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var cabs = require( '@stdlib/math/base/special/cabs' );
-var cphase = require( '@stdlib/math/base/special/cphase' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var cabs = require( './../../../../base/special/cabs' );
+var cphase = require( './../../../../base/special/cphase' );
 var Float64Array = require( '@stdlib/array/float64' );
 var cpolar = require( './../lib' );
 

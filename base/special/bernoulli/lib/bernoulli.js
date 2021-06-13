@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isNonNegativeInteger = require( '@stdlib/math/base/assert/is-nonnegative-integer' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isOdd = require( '@stdlib/math/base/assert/is-odd' );
+var isNonNegativeInteger = require( './../../../../base/assert/is-nonnegative-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isOdd = require( './../../../../base/assert/is-odd' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var BERNOULLI = require( './bernoulli.json' );

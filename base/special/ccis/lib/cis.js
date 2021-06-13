@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var sincos = require( '@stdlib/math/base/special/sincos' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var sincos = require( './../../../../base/special/sincos' );
+var exp = require( './../../../../base/special/exp' );
 
 
 // MAIN //

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var max = require( '@stdlib/math/base/special/max' );
+var abs = require( './../../../../base/special/abs' );
+var max = require( './../../../../base/special/max' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
 

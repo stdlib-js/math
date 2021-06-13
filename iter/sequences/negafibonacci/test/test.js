@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var negafibonacci = require( '@stdlib/math/base/special/negafibonacci' );
+var negafibonacci = require( './../../../../base/special/negafibonacci' );
 var iterNegaFibonacciSeq = require( './../lib' );
 
 

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var binomcoef = require( '@stdlib/math/base/special/binomcoef' );
+var binomcoef = require( './../../../../base/special/binomcoef' );
 var cache = require( './cache.js' );
 
 

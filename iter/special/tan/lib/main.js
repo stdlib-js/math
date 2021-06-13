@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var tan = require( '@stdlib/math/base/special/tan' );
+var iterMap = require( './../../../../iter/tools/map' );
+var tan = require( './../../../../base/special/tan' );
 
 
 // MAIN //

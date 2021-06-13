@@ -21,7 +21,7 @@
 // MODULES //
 
 var dmap = require( '@stdlib/strided/base/dmap' );
-var deg2rad = require( '@stdlib/math/base/special/deg2rad' );
+var deg2rad = require( './../../../../base/special/deg2rad' );
 
 
 // MAIN //

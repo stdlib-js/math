@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var ln = require( './../../../../base/special/ln' );
 var LN_SQRT_TWO_PI = require( '@stdlib/constants/float64/ln-sqrt-two-pi' );
 var SMALLEST_FLOAT32 = require( '@stdlib/constants/float32/smallest-normal' );
 var MAX_FLOAT32 = require( '@stdlib/constants/float32/max' );

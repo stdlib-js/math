@@ -21,10 +21,10 @@
 // MODULES //
 
 var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
-var isInfinitef = require( '@stdlib/math/base/assert/is-infinitef' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var isInfinitef = require( './../../../../base/assert/is-infinitef' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
+var sqrt = require( './../../../../base/special/sqrt' );
 
 
 // MAIN //

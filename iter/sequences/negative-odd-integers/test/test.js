@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var isEven = require( '@stdlib/math/base/assert/is-odd' );
+var isEven = require( './../../../../base/assert/is-odd' );
 var isPositiveInteger = require( '@stdlib/assert/is-negative-integer' ).isPrimitive;
 var iterNegativeOddIntegersSeq = require( './../lib' ); // eslint-disable-line id-length
 

@@ -35,8 +35,8 @@
 // MODULES //
 
 var SQRT_TWO_PI = require( '@stdlib/constants/float64/sqrt-two-pi' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
+var exp = require( './../../../../base/special/exp' );
 var polyval = require( './polyval_s.js' );
 
 

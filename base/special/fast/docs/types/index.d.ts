@@ -21,17 +21,17 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import abs = require( '@stdlib/math/base/special/fast/abs' );
-import acosh = require( '@stdlib/math/base/special/fast/acosh' );
-import ampbm = require( '@stdlib/math/base/special/fast/alpha-max-plus-beta-min' );
-import asinh = require( '@stdlib/math/base/special/fast/asinh' );
-import atanh = require( '@stdlib/math/base/special/fast/atanh' );
-import hypot = require( '@stdlib/math/base/special/fast/hypot' );
-import max = require( '@stdlib/math/base/special/fast/max' );
-import min = require( '@stdlib/math/base/special/fast/min' );
-import powint = require( '@stdlib/math/base/special/fast/pow-int' );
-import log2Uint32 = require( '@stdlib/math/base/special/fast/uint32-log2' );
-import sqrtUint32 = require( '@stdlib/math/base/special/fast/uint32-sqrt' );
+import abs = require( './../../../../../base/special/fast/abs' );
+import acosh = require( './../../../../../base/special/fast/acosh' );
+import ampbm = require( './../../../../../base/special/fast/alpha-max-plus-beta-min' );
+import asinh = require( './../../../../../base/special/fast/asinh' );
+import atanh = require( './../../../../../base/special/fast/atanh' );
+import hypot = require( './../../../../../base/special/fast/hypot' );
+import max = require( './../../../../../base/special/fast/max' );
+import min = require( './../../../../../base/special/fast/min' );
+import powint = require( './../../../../../base/special/fast/pow-int' );
+import log2Uint32 = require( './../../../../../base/special/fast/uint32-log2' );
+import sqrtUint32 = require( './../../../../../base/special/fast/uint32-sqrt' );
 
 /**
 * Interface describing the `fast` namespace.

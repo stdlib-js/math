@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/abs}
 */
-setReadOnly( ns, 'abs', require( '@stdlib/math/strided/special/abs' ) );
+setReadOnly( ns, 'abs', require( './../../../strided/special/abs' ) );
 
 /**
 * @name absBy
@@ -52,7 +52,7 @@ setReadOnly( ns, 'abs', require( '@stdlib/math/strided/special/abs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/abs-by}
 */
-setReadOnly( ns, 'absBy', require( '@stdlib/math/strided/special/abs-by' ) );
+setReadOnly( ns, 'absBy', require( './../../../strided/special/abs-by' ) );
 
 /**
 * @name abs2
@@ -61,7 +61,7 @@ setReadOnly( ns, 'absBy', require( '@stdlib/math/strided/special/abs-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/abs2}
 */
-setReadOnly( ns, 'abs2', require( '@stdlib/math/strided/special/abs2' ) );
+setReadOnly( ns, 'abs2', require( './../../../strided/special/abs2' ) );
 
 /**
 * @name abs2By
@@ -70,7 +70,7 @@ setReadOnly( ns, 'abs2', require( '@stdlib/math/strided/special/abs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/abs2-by}
 */
-setReadOnly( ns, 'abs2By', require( '@stdlib/math/strided/special/abs2-by' ) );
+setReadOnly( ns, 'abs2By', require( './../../../strided/special/abs2-by' ) );
 
 /**
 * @name acosBy
@@ -79,7 +79,7 @@ setReadOnly( ns, 'abs2By', require( '@stdlib/math/strided/special/abs2-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/acos-by}
 */
-setReadOnly( ns, 'acosBy', require( '@stdlib/math/strided/special/acos-by' ) );
+setReadOnly( ns, 'acosBy', require( './../../../strided/special/acos-by' ) );
 
 /**
 * @name acoshBy
@@ -88,7 +88,7 @@ setReadOnly( ns, 'acosBy', require( '@stdlib/math/strided/special/acos-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/acosh-by}
 */
-setReadOnly( ns, 'acoshBy', require( '@stdlib/math/strided/special/acosh-by' ) );
+setReadOnly( ns, 'acoshBy', require( './../../../strided/special/acosh-by' ) );
 
 /**
 * @name acotBy
@@ -97,7 +97,7 @@ setReadOnly( ns, 'acoshBy', require( '@stdlib/math/strided/special/acosh-by' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/acot-by}
 */
-setReadOnly( ns, 'acotBy', require( '@stdlib/math/strided/special/acot-by' ) );
+setReadOnly( ns, 'acotBy', require( './../../../strided/special/acot-by' ) );
 
 /**
 * @name acothBy
@@ -106,7 +106,7 @@ setReadOnly( ns, 'acotBy', require( '@stdlib/math/strided/special/acot-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/acoth-by}
 */
-setReadOnly( ns, 'acothBy', require( '@stdlib/math/strided/special/acoth-by' ) );
+setReadOnly( ns, 'acothBy', require( './../../../strided/special/acoth-by' ) );
 
 /**
 * @name acovercosBy
@@ -115,7 +115,7 @@ setReadOnly( ns, 'acothBy', require( '@stdlib/math/strided/special/acoth-by' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/acovercos-by}
 */
-setReadOnly( ns, 'acovercosBy', require( '@stdlib/math/strided/special/acovercos-by' ) );
+setReadOnly( ns, 'acovercosBy', require( './../../../strided/special/acovercos-by' ) );
 
 /**
 * @name acoversinBy
@@ -124,7 +124,7 @@ setReadOnly( ns, 'acovercosBy', require( '@stdlib/math/strided/special/acovercos
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/acoversin-by}
 */
-setReadOnly( ns, 'acoversinBy', require( '@stdlib/math/strided/special/acoversin-by' ) );
+setReadOnly( ns, 'acoversinBy', require( './../../../strided/special/acoversin-by' ) );
 
 /**
 * @name ahavercosBy
@@ -133,7 +133,7 @@ setReadOnly( ns, 'acoversinBy', require( '@stdlib/math/strided/special/acoversin
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/ahavercos-by}
 */
-setReadOnly( ns, 'ahavercosBy', require( '@stdlib/math/strided/special/ahavercos-by' ) );
+setReadOnly( ns, 'ahavercosBy', require( './../../../strided/special/ahavercos-by' ) );
 
 /**
 * @name ahaversinBy
@@ -142,7 +142,7 @@ setReadOnly( ns, 'ahavercosBy', require( '@stdlib/math/strided/special/ahavercos
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/ahaversin-by}
 */
-setReadOnly( ns, 'ahaversinBy', require( '@stdlib/math/strided/special/ahaversin-by' ) );
+setReadOnly( ns, 'ahaversinBy', require( './../../../strided/special/ahaversin-by' ) );
 
 /**
 * @name asinBy
@@ -151,7 +151,7 @@ setReadOnly( ns, 'ahaversinBy', require( '@stdlib/math/strided/special/ahaversin
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/asin-by}
 */
-setReadOnly( ns, 'asinBy', require( '@stdlib/math/strided/special/asin-by' ) );
+setReadOnly( ns, 'asinBy', require( './../../../strided/special/asin-by' ) );
 
 /**
 * @name asinhBy
@@ -160,7 +160,7 @@ setReadOnly( ns, 'asinBy', require( '@stdlib/math/strided/special/asin-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/asinh-by}
 */
-setReadOnly( ns, 'asinhBy', require( '@stdlib/math/strided/special/asinh-by' ) );
+setReadOnly( ns, 'asinhBy', require( './../../../strided/special/asinh-by' ) );
 
 /**
 * @name atanBy
@@ -169,7 +169,7 @@ setReadOnly( ns, 'asinhBy', require( '@stdlib/math/strided/special/asinh-by' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/atan-by}
 */
-setReadOnly( ns, 'atanBy', require( '@stdlib/math/strided/special/atan-by' ) );
+setReadOnly( ns, 'atanBy', require( './../../../strided/special/atan-by' ) );
 
 /**
 * @name atanhBy
@@ -178,7 +178,7 @@ setReadOnly( ns, 'atanBy', require( '@stdlib/math/strided/special/atan-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/atanh-by}
 */
-setReadOnly( ns, 'atanhBy', require( '@stdlib/math/strided/special/atanh-by' ) );
+setReadOnly( ns, 'atanhBy', require( './../../../strided/special/atanh-by' ) );
 
 /**
 * @name avercosBy
@@ -187,7 +187,7 @@ setReadOnly( ns, 'atanhBy', require( '@stdlib/math/strided/special/atanh-by' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/avercos-by}
 */
-setReadOnly( ns, 'avercosBy', require( '@stdlib/math/strided/special/avercos-by' ) );
+setReadOnly( ns, 'avercosBy', require( './../../../strided/special/avercos-by' ) );
 
 /**
 * @name aversinBy
@@ -196,7 +196,7 @@ setReadOnly( ns, 'avercosBy', require( '@stdlib/math/strided/special/avercos-by'
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/aversin-by}
 */
-setReadOnly( ns, 'aversinBy', require( '@stdlib/math/strided/special/aversin-by' ) );
+setReadOnly( ns, 'aversinBy', require( './../../../strided/special/aversin-by' ) );
 
 /**
 * @name besselj0By
@@ -205,7 +205,7 @@ setReadOnly( ns, 'aversinBy', require( '@stdlib/math/strided/special/aversin-by'
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/besselj0-by}
 */
-setReadOnly( ns, 'besselj0By', require( '@stdlib/math/strided/special/besselj0-by' ) );
+setReadOnly( ns, 'besselj0By', require( './../../../strided/special/besselj0-by' ) );
 
 /**
 * @name besselj1By
@@ -214,7 +214,7 @@ setReadOnly( ns, 'besselj0By', require( '@stdlib/math/strided/special/besselj0-b
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/besselj1-by}
 */
-setReadOnly( ns, 'besselj1By', require( '@stdlib/math/strided/special/besselj1-by' ) );
+setReadOnly( ns, 'besselj1By', require( './../../../strided/special/besselj1-by' ) );
 
 /**
 * @name bessely0By
@@ -223,7 +223,7 @@ setReadOnly( ns, 'besselj1By', require( '@stdlib/math/strided/special/besselj1-b
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/bessely0-by}
 */
-setReadOnly( ns, 'bessely0By', require( '@stdlib/math/strided/special/bessely0-by' ) );
+setReadOnly( ns, 'bessely0By', require( './../../../strided/special/bessely0-by' ) );
 
 /**
 * @name bessely1By
@@ -232,7 +232,7 @@ setReadOnly( ns, 'bessely0By', require( '@stdlib/math/strided/special/bessely0-b
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/bessely1-by}
 */
-setReadOnly( ns, 'bessely1By', require( '@stdlib/math/strided/special/bessely1-by' ) );
+setReadOnly( ns, 'bessely1By', require( './../../../strided/special/bessely1-by' ) );
 
 /**
 * @name binetBy
@@ -241,7 +241,7 @@ setReadOnly( ns, 'bessely1By', require( '@stdlib/math/strided/special/bessely1-b
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/binet-by}
 */
-setReadOnly( ns, 'binetBy', require( '@stdlib/math/strided/special/binet-by' ) );
+setReadOnly( ns, 'binetBy', require( './../../../strided/special/binet-by' ) );
 
 /**
 * @name cbrt
@@ -250,7 +250,7 @@ setReadOnly( ns, 'binetBy', require( '@stdlib/math/strided/special/binet-by' ) )
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/cbrt}
 */
-setReadOnly( ns, 'cbrt', require( '@stdlib/math/strided/special/cbrt' ) );
+setReadOnly( ns, 'cbrt', require( './../../../strided/special/cbrt' ) );
 
 /**
 * @name ceil
@@ -259,7 +259,7 @@ setReadOnly( ns, 'cbrt', require( '@stdlib/math/strided/special/cbrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/ceil}
 */
-setReadOnly( ns, 'ceil', require( '@stdlib/math/strided/special/ceil' ) );
+setReadOnly( ns, 'ceil', require( './../../../strided/special/ceil' ) );
 
 /**
 * @name dabs
@@ -268,7 +268,7 @@ setReadOnly( ns, 'ceil', require( '@stdlib/math/strided/special/ceil' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dabs}
 */
-setReadOnly( ns, 'dabs', require( '@stdlib/math/strided/special/dabs' ) );
+setReadOnly( ns, 'dabs', require( './../../../strided/special/dabs' ) );
 
 /**
 * @name dabs2
@@ -277,7 +277,7 @@ setReadOnly( ns, 'dabs', require( '@stdlib/math/strided/special/dabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dabs2}
 */
-setReadOnly( ns, 'dabs2', require( '@stdlib/math/strided/special/dabs2' ) );
+setReadOnly( ns, 'dabs2', require( './../../../strided/special/dabs2' ) );
 
 /**
 * @name dcbrt
@@ -286,7 +286,7 @@ setReadOnly( ns, 'dabs2', require( '@stdlib/math/strided/special/dabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dcbrt}
 */
-setReadOnly( ns, 'dcbrt', require( '@stdlib/math/strided/special/dcbrt' ) );
+setReadOnly( ns, 'dcbrt', require( './../../../strided/special/dcbrt' ) );
 
 /**
 * @name dceil
@@ -295,7 +295,7 @@ setReadOnly( ns, 'dcbrt', require( '@stdlib/math/strided/special/dcbrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dceil}
 */
-setReadOnly( ns, 'dceil', require( '@stdlib/math/strided/special/dceil' ) );
+setReadOnly( ns, 'dceil', require( './../../../strided/special/dceil' ) );
 
 /**
 * @name ddeg2rad
@@ -304,7 +304,7 @@ setReadOnly( ns, 'dceil', require( '@stdlib/math/strided/special/dceil' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/ddeg2rad}
 */
-setReadOnly( ns, 'ddeg2rad', require( '@stdlib/math/strided/special/ddeg2rad' ) );
+setReadOnly( ns, 'ddeg2rad', require( './../../../strided/special/ddeg2rad' ) );
 
 /**
 * @name deg2rad
@@ -313,7 +313,7 @@ setReadOnly( ns, 'ddeg2rad', require( '@stdlib/math/strided/special/ddeg2rad' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/deg2rad}
 */
-setReadOnly( ns, 'deg2rad', require( '@stdlib/math/strided/special/deg2rad' ) );
+setReadOnly( ns, 'deg2rad', require( './../../../strided/special/deg2rad' ) );
 
 /**
 * @name dfloor
@@ -322,7 +322,7 @@ setReadOnly( ns, 'deg2rad', require( '@stdlib/math/strided/special/deg2rad' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dfloor}
 */
-setReadOnly( ns, 'dfloor', require( '@stdlib/math/strided/special/dfloor' ) );
+setReadOnly( ns, 'dfloor', require( './../../../strided/special/dfloor' ) );
 
 /**
 * @name dinv
@@ -331,7 +331,7 @@ setReadOnly( ns, 'dfloor', require( '@stdlib/math/strided/special/dfloor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dinv}
 */
-setReadOnly( ns, 'dinv', require( '@stdlib/math/strided/special/dinv' ) );
+setReadOnly( ns, 'dinv', require( './../../../strided/special/dinv' ) );
 
 /**
 * @name dmskabs
@@ -340,7 +340,7 @@ setReadOnly( ns, 'dinv', require( '@stdlib/math/strided/special/dinv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskabs}
 */
-setReadOnly( ns, 'dmskabs', require( '@stdlib/math/strided/special/dmskabs' ) );
+setReadOnly( ns, 'dmskabs', require( './../../../strided/special/dmskabs' ) );
 
 /**
 * @name dmskabs2
@@ -349,7 +349,7 @@ setReadOnly( ns, 'dmskabs', require( '@stdlib/math/strided/special/dmskabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskabs2}
 */
-setReadOnly( ns, 'dmskabs2', require( '@stdlib/math/strided/special/dmskabs2' ) );
+setReadOnly( ns, 'dmskabs2', require( './../../../strided/special/dmskabs2' ) );
 
 /**
 * @name dmskcbrt
@@ -358,7 +358,7 @@ setReadOnly( ns, 'dmskabs2', require( '@stdlib/math/strided/special/dmskabs2' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskcbrt}
 */
-setReadOnly( ns, 'dmskcbrt', require( '@stdlib/math/strided/special/dmskcbrt' ) );
+setReadOnly( ns, 'dmskcbrt', require( './../../../strided/special/dmskcbrt' ) );
 
 /**
 * @name dmskceil
@@ -367,7 +367,7 @@ setReadOnly( ns, 'dmskcbrt', require( '@stdlib/math/strided/special/dmskcbrt' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskceil}
 */
-setReadOnly( ns, 'dmskceil', require( '@stdlib/math/strided/special/dmskceil' ) );
+setReadOnly( ns, 'dmskceil', require( './../../../strided/special/dmskceil' ) );
 
 /**
 * @name dmskdeg2rad
@@ -376,7 +376,7 @@ setReadOnly( ns, 'dmskceil', require( '@stdlib/math/strided/special/dmskceil' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskdeg2rad}
 */
-setReadOnly( ns, 'dmskdeg2rad', require( '@stdlib/math/strided/special/dmskdeg2rad' ) );
+setReadOnly( ns, 'dmskdeg2rad', require( './../../../strided/special/dmskdeg2rad' ) );
 
 /**
 * @name dmskfloor
@@ -385,7 +385,7 @@ setReadOnly( ns, 'dmskdeg2rad', require( '@stdlib/math/strided/special/dmskdeg2r
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskfloor}
 */
-setReadOnly( ns, 'dmskfloor', require( '@stdlib/math/strided/special/dmskfloor' ) );
+setReadOnly( ns, 'dmskfloor', require( './../../../strided/special/dmskfloor' ) );
 
 /**
 * @name dmskinv
@@ -394,7 +394,7 @@ setReadOnly( ns, 'dmskfloor', require( '@stdlib/math/strided/special/dmskfloor' 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskinv}
 */
-setReadOnly( ns, 'dmskinv', require( '@stdlib/math/strided/special/dmskinv' ) );
+setReadOnly( ns, 'dmskinv', require( './../../../strided/special/dmskinv' ) );
 
 /**
 * @name dmskramp
@@ -403,7 +403,7 @@ setReadOnly( ns, 'dmskinv', require( '@stdlib/math/strided/special/dmskinv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskramp}
 */
-setReadOnly( ns, 'dmskramp', require( '@stdlib/math/strided/special/dmskramp' ) );
+setReadOnly( ns, 'dmskramp', require( './../../../strided/special/dmskramp' ) );
 
 /**
 * @name dmskrsqrt
@@ -412,7 +412,7 @@ setReadOnly( ns, 'dmskramp', require( '@stdlib/math/strided/special/dmskramp' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmskrsqrt}
 */
-setReadOnly( ns, 'dmskrsqrt', require( '@stdlib/math/strided/special/dmskrsqrt' ) );
+setReadOnly( ns, 'dmskrsqrt', require( './../../../strided/special/dmskrsqrt' ) );
 
 /**
 * @name dmsksqrt
@@ -421,7 +421,7 @@ setReadOnly( ns, 'dmskrsqrt', require( '@stdlib/math/strided/special/dmskrsqrt' 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmsksqrt}
 */
-setReadOnly( ns, 'dmsksqrt', require( '@stdlib/math/strided/special/dmsksqrt' ) );
+setReadOnly( ns, 'dmsksqrt', require( './../../../strided/special/dmsksqrt' ) );
 
 /**
 * @name dmsktrunc
@@ -430,7 +430,7 @@ setReadOnly( ns, 'dmsksqrt', require( '@stdlib/math/strided/special/dmsksqrt' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dmsktrunc}
 */
-setReadOnly( ns, 'dmsktrunc', require( '@stdlib/math/strided/special/dmsktrunc' ) );
+setReadOnly( ns, 'dmsktrunc', require( './../../../strided/special/dmsktrunc' ) );
 
 /**
 * @name dramp
@@ -439,7 +439,7 @@ setReadOnly( ns, 'dmsktrunc', require( '@stdlib/math/strided/special/dmsktrunc' 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dramp}
 */
-setReadOnly( ns, 'dramp', require( '@stdlib/math/strided/special/dramp' ) );
+setReadOnly( ns, 'dramp', require( './../../../strided/special/dramp' ) );
 
 /**
 * @name drsqrt
@@ -448,7 +448,7 @@ setReadOnly( ns, 'dramp', require( '@stdlib/math/strided/special/dramp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/drsqrt}
 */
-setReadOnly( ns, 'drsqrt', require( '@stdlib/math/strided/special/drsqrt' ) );
+setReadOnly( ns, 'drsqrt', require( './../../../strided/special/drsqrt' ) );
 
 /**
 * @name dsqrt
@@ -457,7 +457,7 @@ setReadOnly( ns, 'drsqrt', require( '@stdlib/math/strided/special/drsqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dsqrt}
 */
-setReadOnly( ns, 'dsqrt', require( '@stdlib/math/strided/special/dsqrt' ) );
+setReadOnly( ns, 'dsqrt', require( './../../../strided/special/dsqrt' ) );
 
 /**
 * @name dtrunc
@@ -466,7 +466,7 @@ setReadOnly( ns, 'dsqrt', require( '@stdlib/math/strided/special/dsqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/dtrunc}
 */
-setReadOnly( ns, 'dtrunc', require( '@stdlib/math/strided/special/dtrunc' ) );
+setReadOnly( ns, 'dtrunc', require( './../../../strided/special/dtrunc' ) );
 
 /**
 * @name floor
@@ -475,7 +475,7 @@ setReadOnly( ns, 'dtrunc', require( '@stdlib/math/strided/special/dtrunc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/floor}
 */
-setReadOnly( ns, 'floor', require( '@stdlib/math/strided/special/floor' ) );
+setReadOnly( ns, 'floor', require( './../../../strided/special/floor' ) );
 
 /**
 * @name inv
@@ -484,7 +484,7 @@ setReadOnly( ns, 'floor', require( '@stdlib/math/strided/special/floor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/inv}
 */
-setReadOnly( ns, 'inv', require( '@stdlib/math/strided/special/inv' ) );
+setReadOnly( ns, 'inv', require( './../../../strided/special/inv' ) );
 
 /**
 * @name ramp
@@ -493,7 +493,7 @@ setReadOnly( ns, 'inv', require( '@stdlib/math/strided/special/inv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/ramp}
 */
-setReadOnly( ns, 'ramp', require( '@stdlib/math/strided/special/ramp' ) );
+setReadOnly( ns, 'ramp', require( './../../../strided/special/ramp' ) );
 
 /**
 * @name rsqrt
@@ -502,7 +502,7 @@ setReadOnly( ns, 'ramp', require( '@stdlib/math/strided/special/ramp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/rsqrt}
 */
-setReadOnly( ns, 'rsqrt', require( '@stdlib/math/strided/special/rsqrt' ) );
+setReadOnly( ns, 'rsqrt', require( './../../../strided/special/rsqrt' ) );
 
 /**
 * @name sabs
@@ -511,7 +511,7 @@ setReadOnly( ns, 'rsqrt', require( '@stdlib/math/strided/special/rsqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sabs}
 */
-setReadOnly( ns, 'sabs', require( '@stdlib/math/strided/special/sabs' ) );
+setReadOnly( ns, 'sabs', require( './../../../strided/special/sabs' ) );
 
 /**
 * @name sabs2
@@ -520,7 +520,7 @@ setReadOnly( ns, 'sabs', require( '@stdlib/math/strided/special/sabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sabs2}
 */
-setReadOnly( ns, 'sabs2', require( '@stdlib/math/strided/special/sabs2' ) );
+setReadOnly( ns, 'sabs2', require( './../../../strided/special/sabs2' ) );
 
 /**
 * @name scbrt
@@ -529,7 +529,7 @@ setReadOnly( ns, 'sabs2', require( '@stdlib/math/strided/special/sabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/scbrt}
 */
-setReadOnly( ns, 'scbrt', require( '@stdlib/math/strided/special/scbrt' ) );
+setReadOnly( ns, 'scbrt', require( './../../../strided/special/scbrt' ) );
 
 /**
 * @name sceil
@@ -538,7 +538,7 @@ setReadOnly( ns, 'scbrt', require( '@stdlib/math/strided/special/scbrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sceil}
 */
-setReadOnly( ns, 'sceil', require( '@stdlib/math/strided/special/sceil' ) );
+setReadOnly( ns, 'sceil', require( './../../../strided/special/sceil' ) );
 
 /**
 * @name sdeg2rad
@@ -547,7 +547,7 @@ setReadOnly( ns, 'sceil', require( '@stdlib/math/strided/special/sceil' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sdeg2rad}
 */
-setReadOnly( ns, 'sdeg2rad', require( '@stdlib/math/strided/special/sdeg2rad' ) );
+setReadOnly( ns, 'sdeg2rad', require( './../../../strided/special/sdeg2rad' ) );
 
 /**
 * @name sfloor
@@ -556,7 +556,7 @@ setReadOnly( ns, 'sdeg2rad', require( '@stdlib/math/strided/special/sdeg2rad' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sfloor}
 */
-setReadOnly( ns, 'sfloor', require( '@stdlib/math/strided/special/sfloor' ) );
+setReadOnly( ns, 'sfloor', require( './../../../strided/special/sfloor' ) );
 
 /**
 * @name sinv
@@ -565,7 +565,7 @@ setReadOnly( ns, 'sfloor', require( '@stdlib/math/strided/special/sfloor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sinv}
 */
-setReadOnly( ns, 'sinv', require( '@stdlib/math/strided/special/sinv' ) );
+setReadOnly( ns, 'sinv', require( './../../../strided/special/sinv' ) );
 
 /**
 * @name smskabs
@@ -574,7 +574,7 @@ setReadOnly( ns, 'sinv', require( '@stdlib/math/strided/special/sinv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskabs}
 */
-setReadOnly( ns, 'smskabs', require( '@stdlib/math/strided/special/smskabs' ) );
+setReadOnly( ns, 'smskabs', require( './../../../strided/special/smskabs' ) );
 
 /**
 * @name smskabs2
@@ -583,7 +583,7 @@ setReadOnly( ns, 'smskabs', require( '@stdlib/math/strided/special/smskabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskabs2}
 */
-setReadOnly( ns, 'smskabs2', require( '@stdlib/math/strided/special/smskabs2' ) );
+setReadOnly( ns, 'smskabs2', require( './../../../strided/special/smskabs2' ) );
 
 /**
 * @name smskcbrt
@@ -592,7 +592,7 @@ setReadOnly( ns, 'smskabs2', require( '@stdlib/math/strided/special/smskabs2' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskcbrt}
 */
-setReadOnly( ns, 'smskcbrt', require( '@stdlib/math/strided/special/smskcbrt' ) );
+setReadOnly( ns, 'smskcbrt', require( './../../../strided/special/smskcbrt' ) );
 
 /**
 * @name smskceil
@@ -601,7 +601,7 @@ setReadOnly( ns, 'smskcbrt', require( '@stdlib/math/strided/special/smskcbrt' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskceil}
 */
-setReadOnly( ns, 'smskceil', require( '@stdlib/math/strided/special/smskceil' ) );
+setReadOnly( ns, 'smskceil', require( './../../../strided/special/smskceil' ) );
 
 /**
 * @name smskdeg2rad
@@ -610,7 +610,7 @@ setReadOnly( ns, 'smskceil', require( '@stdlib/math/strided/special/smskceil' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskdeg2rad}
 */
-setReadOnly( ns, 'smskdeg2rad', require( '@stdlib/math/strided/special/smskdeg2rad' ) );
+setReadOnly( ns, 'smskdeg2rad', require( './../../../strided/special/smskdeg2rad' ) );
 
 /**
 * @name smskfloor
@@ -619,7 +619,7 @@ setReadOnly( ns, 'smskdeg2rad', require( '@stdlib/math/strided/special/smskdeg2r
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskfloor}
 */
-setReadOnly( ns, 'smskfloor', require( '@stdlib/math/strided/special/smskfloor' ) );
+setReadOnly( ns, 'smskfloor', require( './../../../strided/special/smskfloor' ) );
 
 /**
 * @name smskinv
@@ -628,7 +628,7 @@ setReadOnly( ns, 'smskfloor', require( '@stdlib/math/strided/special/smskfloor' 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskinv}
 */
-setReadOnly( ns, 'smskinv', require( '@stdlib/math/strided/special/smskinv' ) );
+setReadOnly( ns, 'smskinv', require( './../../../strided/special/smskinv' ) );
 
 /**
 * @name smskramp
@@ -637,7 +637,7 @@ setReadOnly( ns, 'smskinv', require( '@stdlib/math/strided/special/smskinv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskramp}
 */
-setReadOnly( ns, 'smskramp', require( '@stdlib/math/strided/special/smskramp' ) );
+setReadOnly( ns, 'smskramp', require( './../../../strided/special/smskramp' ) );
 
 /**
 * @name smskrsqrt
@@ -646,7 +646,7 @@ setReadOnly( ns, 'smskramp', require( '@stdlib/math/strided/special/smskramp' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smskrsqrt}
 */
-setReadOnly( ns, 'smskrsqrt', require( '@stdlib/math/strided/special/smskrsqrt' ) );
+setReadOnly( ns, 'smskrsqrt', require( './../../../strided/special/smskrsqrt' ) );
 
 /**
 * @name smsksqrt
@@ -655,7 +655,7 @@ setReadOnly( ns, 'smskrsqrt', require( '@stdlib/math/strided/special/smskrsqrt' 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smsksqrt}
 */
-setReadOnly( ns, 'smsksqrt', require( '@stdlib/math/strided/special/smsksqrt' ) );
+setReadOnly( ns, 'smsksqrt', require( './../../../strided/special/smsksqrt' ) );
 
 /**
 * @name smsktrunc
@@ -664,7 +664,7 @@ setReadOnly( ns, 'smsksqrt', require( '@stdlib/math/strided/special/smsksqrt' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/smsktrunc}
 */
-setReadOnly( ns, 'smsktrunc', require( '@stdlib/math/strided/special/smsktrunc' ) );
+setReadOnly( ns, 'smsktrunc', require( './../../../strided/special/smsktrunc' ) );
 
 /**
 * @name sqrt
@@ -673,7 +673,7 @@ setReadOnly( ns, 'smsktrunc', require( '@stdlib/math/strided/special/smsktrunc' 
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sqrt}
 */
-setReadOnly( ns, 'sqrt', require( '@stdlib/math/strided/special/sqrt' ) );
+setReadOnly( ns, 'sqrt', require( './../../../strided/special/sqrt' ) );
 
 /**
 * @name sramp
@@ -682,7 +682,7 @@ setReadOnly( ns, 'sqrt', require( '@stdlib/math/strided/special/sqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/sramp}
 */
-setReadOnly( ns, 'sramp', require( '@stdlib/math/strided/special/sramp' ) );
+setReadOnly( ns, 'sramp', require( './../../../strided/special/sramp' ) );
 
 /**
 * @name srsqrt
@@ -691,7 +691,7 @@ setReadOnly( ns, 'sramp', require( '@stdlib/math/strided/special/sramp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/srsqrt}
 */
-setReadOnly( ns, 'srsqrt', require( '@stdlib/math/strided/special/srsqrt' ) );
+setReadOnly( ns, 'srsqrt', require( './../../../strided/special/srsqrt' ) );
 
 /**
 * @name ssqrt
@@ -700,7 +700,7 @@ setReadOnly( ns, 'srsqrt', require( '@stdlib/math/strided/special/srsqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/ssqrt}
 */
-setReadOnly( ns, 'ssqrt', require( '@stdlib/math/strided/special/ssqrt' ) );
+setReadOnly( ns, 'ssqrt', require( './../../../strided/special/ssqrt' ) );
 
 /**
 * @name strunc
@@ -709,7 +709,7 @@ setReadOnly( ns, 'ssqrt', require( '@stdlib/math/strided/special/ssqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/strunc}
 */
-setReadOnly( ns, 'strunc', require( '@stdlib/math/strided/special/strunc' ) );
+setReadOnly( ns, 'strunc', require( './../../../strided/special/strunc' ) );
 
 /**
 * @name trunc
@@ -718,7 +718,7 @@ setReadOnly( ns, 'strunc', require( '@stdlib/math/strided/special/strunc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/strided/special/trunc}
 */
-setReadOnly( ns, 'trunc', require( '@stdlib/math/strided/special/trunc' ) );
+setReadOnly( ns, 'trunc', require( './../../../strided/special/trunc' ) );
 
 
 // EXPORTS //

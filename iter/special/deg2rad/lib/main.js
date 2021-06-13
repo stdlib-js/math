@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var deg2rad = require( '@stdlib/math/base/special/deg2rad' );
+var iterMap = require( './../../../../iter/tools/map' );
+var deg2rad = require( './../../../../base/special/deg2rad' );
 
 
 // MAIN //

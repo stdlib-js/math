@@ -43,7 +43,7 @@ var special = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/abs}
 */
-setReadOnly( special, 'abs', require( '@stdlib/math/base/special/abs' ) );
+setReadOnly( special, 'abs', require( './../../../base/special/abs' ) );
 
 /**
 * @name abs2
@@ -52,7 +52,7 @@ setReadOnly( special, 'abs', require( '@stdlib/math/base/special/abs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/abs2}
 */
-setReadOnly( special, 'abs2', require( '@stdlib/math/base/special/abs2' ) );
+setReadOnly( special, 'abs2', require( './../../../base/special/abs2' ) );
 
 /**
 * @name abs2f
@@ -61,7 +61,7 @@ setReadOnly( special, 'abs2', require( '@stdlib/math/base/special/abs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/abs2f}
 */
-setReadOnly( special, 'abs2f', require( '@stdlib/math/base/special/abs2f' ) );
+setReadOnly( special, 'abs2f', require( './../../../base/special/abs2f' ) );
 
 /**
 * @name absf
@@ -70,7 +70,7 @@ setReadOnly( special, 'abs2f', require( '@stdlib/math/base/special/abs2f' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/absf}
 */
-setReadOnly( special, 'absf', require( '@stdlib/math/base/special/absf' ) );
+setReadOnly( special, 'absf', require( './../../../base/special/absf' ) );
 
 /**
 * @name acos
@@ -79,7 +79,7 @@ setReadOnly( special, 'absf', require( '@stdlib/math/base/special/absf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/acos}
 */
-setReadOnly( special, 'acos', require( '@stdlib/math/base/special/acos' ) );
+setReadOnly( special, 'acos', require( './../../../base/special/acos' ) );
 
 /**
 * @name acosh
@@ -88,7 +88,7 @@ setReadOnly( special, 'acos', require( '@stdlib/math/base/special/acos' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/acosh}
 */
-setReadOnly( special, 'acosh', require( '@stdlib/math/base/special/acosh' ) );
+setReadOnly( special, 'acosh', require( './../../../base/special/acosh' ) );
 
 /**
 * @name acot
@@ -97,7 +97,7 @@ setReadOnly( special, 'acosh', require( '@stdlib/math/base/special/acosh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/acot}
 */
-setReadOnly( special, 'acot', require( '@stdlib/math/base/special/acot' ) );
+setReadOnly( special, 'acot', require( './../../../base/special/acot' ) );
 
 /**
 * @name acoth
@@ -106,7 +106,7 @@ setReadOnly( special, 'acot', require( '@stdlib/math/base/special/acot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/acoth}
 */
-setReadOnly( special, 'acoth', require( '@stdlib/math/base/special/acoth' ) );
+setReadOnly( special, 'acoth', require( './../../../base/special/acoth' ) );
 
 /**
 * @name acovercos
@@ -115,7 +115,7 @@ setReadOnly( special, 'acoth', require( '@stdlib/math/base/special/acoth' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/acovercos}
 */
-setReadOnly( special, 'acovercos', require( '@stdlib/math/base/special/acovercos' ) );
+setReadOnly( special, 'acovercos', require( './../../../base/special/acovercos' ) );
 
 /**
 * @name acoversin
@@ -124,7 +124,7 @@ setReadOnly( special, 'acovercos', require( '@stdlib/math/base/special/acovercos
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/acoversin}
 */
-setReadOnly( special, 'acoversin', require( '@stdlib/math/base/special/acoversin' ) );
+setReadOnly( special, 'acoversin', require( './../../../base/special/acoversin' ) );
 
 /**
 * @name ahavercos
@@ -133,7 +133,7 @@ setReadOnly( special, 'acoversin', require( '@stdlib/math/base/special/acoversin
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ahavercos}
 */
-setReadOnly( special, 'ahavercos', require( '@stdlib/math/base/special/ahavercos' ) );
+setReadOnly( special, 'ahavercos', require( './../../../base/special/ahavercos' ) );
 
 /**
 * @name ahaversin
@@ -142,7 +142,7 @@ setReadOnly( special, 'ahavercos', require( '@stdlib/math/base/special/ahavercos
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ahaversin}
 */
-setReadOnly( special, 'ahaversin', require( '@stdlib/math/base/special/ahaversin' ) );
+setReadOnly( special, 'ahaversin', require( './../../../base/special/ahaversin' ) );
 
 /**
 * @name asin
@@ -151,7 +151,7 @@ setReadOnly( special, 'ahaversin', require( '@stdlib/math/base/special/ahaversin
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/asin}
 */
-setReadOnly( special, 'asin', require( '@stdlib/math/base/special/asin' ) );
+setReadOnly( special, 'asin', require( './../../../base/special/asin' ) );
 
 /**
 * @name asinh
@@ -160,7 +160,7 @@ setReadOnly( special, 'asin', require( '@stdlib/math/base/special/asin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/asinh}
 */
-setReadOnly( special, 'asinh', require( '@stdlib/math/base/special/asinh' ) );
+setReadOnly( special, 'asinh', require( './../../../base/special/asinh' ) );
 
 /**
 * @name atan
@@ -169,7 +169,7 @@ setReadOnly( special, 'asinh', require( '@stdlib/math/base/special/asinh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/atan}
 */
-setReadOnly( special, 'atan', require( '@stdlib/math/base/special/atan' ) );
+setReadOnly( special, 'atan', require( './../../../base/special/atan' ) );
 
 /**
 * @name atan2
@@ -178,7 +178,7 @@ setReadOnly( special, 'atan', require( '@stdlib/math/base/special/atan' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/atan2}
 */
-setReadOnly( special, 'atan2', require( '@stdlib/math/base/special/atan2' ) );
+setReadOnly( special, 'atan2', require( './../../../base/special/atan2' ) );
 
 /**
 * @name atanh
@@ -187,7 +187,7 @@ setReadOnly( special, 'atan2', require( '@stdlib/math/base/special/atan2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/atanh}
 */
-setReadOnly( special, 'atanh', require( '@stdlib/math/base/special/atanh' ) );
+setReadOnly( special, 'atanh', require( './../../../base/special/atanh' ) );
 
 /**
 * @name avercos
@@ -196,7 +196,7 @@ setReadOnly( special, 'atanh', require( '@stdlib/math/base/special/atanh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/avercos}
 */
-setReadOnly( special, 'avercos', require( '@stdlib/math/base/special/avercos' ) );
+setReadOnly( special, 'avercos', require( './../../../base/special/avercos' ) );
 
 /**
 * @name aversin
@@ -205,7 +205,7 @@ setReadOnly( special, 'avercos', require( '@stdlib/math/base/special/avercos' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/aversin}
 */
-setReadOnly( special, 'aversin', require( '@stdlib/math/base/special/aversin' ) );
+setReadOnly( special, 'aversin', require( './../../../base/special/aversin' ) );
 
 /**
 * @name bernoulli
@@ -214,7 +214,7 @@ setReadOnly( special, 'aversin', require( '@stdlib/math/base/special/aversin' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/bernoulli}
 */
-setReadOnly( special, 'bernoulli', require( '@stdlib/math/base/special/bernoulli' ) );
+setReadOnly( special, 'bernoulli', require( './../../../base/special/bernoulli' ) );
 
 /**
 * @name besselj0
@@ -223,7 +223,7 @@ setReadOnly( special, 'bernoulli', require( '@stdlib/math/base/special/bernoulli
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/besselj0}
 */
-setReadOnly( special, 'besselj0', require( '@stdlib/math/base/special/besselj0' ) );
+setReadOnly( special, 'besselj0', require( './../../../base/special/besselj0' ) );
 
 /**
 * @name besselj1
@@ -232,7 +232,7 @@ setReadOnly( special, 'besselj0', require( '@stdlib/math/base/special/besselj0' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/besselj1}
 */
-setReadOnly( special, 'besselj1', require( '@stdlib/math/base/special/besselj1' ) );
+setReadOnly( special, 'besselj1', require( './../../../base/special/besselj1' ) );
 
 /**
 * @name bessely0
@@ -241,7 +241,7 @@ setReadOnly( special, 'besselj1', require( '@stdlib/math/base/special/besselj1' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/bessely0}
 */
-setReadOnly( special, 'bessely0', require( '@stdlib/math/base/special/bessely0' ) );
+setReadOnly( special, 'bessely0', require( './../../../base/special/bessely0' ) );
 
 /**
 * @name bessely1
@@ -250,7 +250,7 @@ setReadOnly( special, 'bessely0', require( '@stdlib/math/base/special/bessely0' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/bessely1}
 */
-setReadOnly( special, 'bessely1', require( '@stdlib/math/base/special/bessely1' ) );
+setReadOnly( special, 'bessely1', require( './../../../base/special/bessely1' ) );
 
 /**
 * @name beta
@@ -259,7 +259,7 @@ setReadOnly( special, 'bessely1', require( '@stdlib/math/base/special/bessely1' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/beta}
 */
-setReadOnly( special, 'beta', require( '@stdlib/math/base/special/beta' ) );
+setReadOnly( special, 'beta', require( './../../../base/special/beta' ) );
 
 /**
 * @name betainc
@@ -268,7 +268,7 @@ setReadOnly( special, 'beta', require( '@stdlib/math/base/special/beta' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/betainc}
 */
-setReadOnly( special, 'betainc', require( '@stdlib/math/base/special/betainc' ) );
+setReadOnly( special, 'betainc', require( './../../../base/special/betainc' ) );
 
 /**
 * @name betaincinv
@@ -277,7 +277,7 @@ setReadOnly( special, 'betainc', require( '@stdlib/math/base/special/betainc' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/betaincinv}
 */
-setReadOnly( special, 'betaincinv', require( '@stdlib/math/base/special/betaincinv' ) );
+setReadOnly( special, 'betaincinv', require( './../../../base/special/betaincinv' ) );
 
 /**
 * @name betaln
@@ -286,7 +286,7 @@ setReadOnly( special, 'betaincinv', require( '@stdlib/math/base/special/betainci
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/betaln}
 */
-setReadOnly( special, 'betaln', require( '@stdlib/math/base/special/betaln' ) );
+setReadOnly( special, 'betaln', require( './../../../base/special/betaln' ) );
 
 /**
 * @name binet
@@ -295,7 +295,7 @@ setReadOnly( special, 'betaln', require( '@stdlib/math/base/special/betaln' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/binet}
 */
-setReadOnly( special, 'binet', require( '@stdlib/math/base/special/binet' ) );
+setReadOnly( special, 'binet', require( './../../../base/special/binet' ) );
 
 /**
 * @name binomcoef
@@ -304,7 +304,7 @@ setReadOnly( special, 'binet', require( '@stdlib/math/base/special/binet' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/binomcoef}
 */
-setReadOnly( special, 'binomcoef', require( '@stdlib/math/base/special/binomcoef' ) );
+setReadOnly( special, 'binomcoef', require( './../../../base/special/binomcoef' ) );
 
 /**
 * @name binomcoefln
@@ -313,7 +313,7 @@ setReadOnly( special, 'binomcoef', require( '@stdlib/math/base/special/binomcoef
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/binomcoefln}
 */
-setReadOnly( special, 'binomcoefln', require( '@stdlib/math/base/special/binomcoefln' ) );
+setReadOnly( special, 'binomcoefln', require( './../../../base/special/binomcoefln' ) );
 
 /**
 * @name boxcox
@@ -322,7 +322,7 @@ setReadOnly( special, 'binomcoefln', require( '@stdlib/math/base/special/binomco
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/boxcox}
 */
-setReadOnly( special, 'boxcox', require( '@stdlib/math/base/special/boxcox' ) );
+setReadOnly( special, 'boxcox', require( './../../../base/special/boxcox' ) );
 
 /**
 * @name boxcox1p
@@ -331,7 +331,7 @@ setReadOnly( special, 'boxcox', require( '@stdlib/math/base/special/boxcox' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/boxcox1p}
 */
-setReadOnly( special, 'boxcox1p', require( '@stdlib/math/base/special/boxcox1p' ) );
+setReadOnly( special, 'boxcox1p', require( './../../../base/special/boxcox1p' ) );
 
 /**
 * @name boxcox1pinv
@@ -340,7 +340,7 @@ setReadOnly( special, 'boxcox1p', require( '@stdlib/math/base/special/boxcox1p' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/boxcox1pinv}
 */
-setReadOnly( special, 'boxcox1pinv', require( '@stdlib/math/base/special/boxcox1pinv' ) );
+setReadOnly( special, 'boxcox1pinv', require( './../../../base/special/boxcox1pinv' ) );
 
 /**
 * @name boxcoxinv
@@ -349,7 +349,7 @@ setReadOnly( special, 'boxcox1pinv', require( '@stdlib/math/base/special/boxcox1
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/boxcoxinv}
 */
-setReadOnly( special, 'boxcoxinv', require( '@stdlib/math/base/special/boxcoxinv' ) );
+setReadOnly( special, 'boxcoxinv', require( './../../../base/special/boxcoxinv' ) );
 
 /**
 * @name cabs
@@ -358,7 +358,7 @@ setReadOnly( special, 'boxcoxinv', require( '@stdlib/math/base/special/boxcoxinv
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cabs}
 */
-setReadOnly( special, 'cabs', require( '@stdlib/math/base/special/cabs' ) );
+setReadOnly( special, 'cabs', require( './../../../base/special/cabs' ) );
 
 /**
 * @name cabs2
@@ -367,7 +367,7 @@ setReadOnly( special, 'cabs', require( '@stdlib/math/base/special/cabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cabs2}
 */
-setReadOnly( special, 'cabs2', require( '@stdlib/math/base/special/cabs2' ) );
+setReadOnly( special, 'cabs2', require( './../../../base/special/cabs2' ) );
 
 /**
 * @name cbrt
@@ -376,7 +376,7 @@ setReadOnly( special, 'cabs2', require( '@stdlib/math/base/special/cabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cbrt}
 */
-setReadOnly( special, 'cbrt', require( '@stdlib/math/base/special/cbrt' ) );
+setReadOnly( special, 'cbrt', require( './../../../base/special/cbrt' ) );
 
 /**
 * @name cbrtf
@@ -385,7 +385,7 @@ setReadOnly( special, 'cbrt', require( '@stdlib/math/base/special/cbrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cbrtf}
 */
-setReadOnly( special, 'cbrtf', require( '@stdlib/math/base/special/cbrtf' ) );
+setReadOnly( special, 'cbrtf', require( './../../../base/special/cbrtf' ) );
 
 /**
 * @name cceil
@@ -394,7 +394,7 @@ setReadOnly( special, 'cbrtf', require( '@stdlib/math/base/special/cbrtf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cceil}
 */
-setReadOnly( special, 'cceil', require( '@stdlib/math/base/special/cceil' ) );
+setReadOnly( special, 'cceil', require( './../../../base/special/cceil' ) );
 
 /**
 * @name cceiln
@@ -403,7 +403,7 @@ setReadOnly( special, 'cceil', require( '@stdlib/math/base/special/cceil' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cceiln}
 */
-setReadOnly( special, 'cceiln', require( '@stdlib/math/base/special/cceiln' ) );
+setReadOnly( special, 'cceiln', require( './../../../base/special/cceiln' ) );
 
 /**
 * @name ccis
@@ -412,7 +412,7 @@ setReadOnly( special, 'cceiln', require( '@stdlib/math/base/special/cceiln' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ccis}
 */
-setReadOnly( special, 'ccis', require( '@stdlib/math/base/special/ccis' ) );
+setReadOnly( special, 'ccis', require( './../../../base/special/ccis' ) );
 
 /**
 * @name ceil
@@ -421,7 +421,7 @@ setReadOnly( special, 'ccis', require( '@stdlib/math/base/special/ccis' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ceil}
 */
-setReadOnly( special, 'ceil', require( '@stdlib/math/base/special/ceil' ) );
+setReadOnly( special, 'ceil', require( './../../../base/special/ceil' ) );
 
 /**
 * @name ceil2
@@ -430,7 +430,7 @@ setReadOnly( special, 'ceil', require( '@stdlib/math/base/special/ceil' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ceil2}
 */
-setReadOnly( special, 'ceil2', require( '@stdlib/math/base/special/ceil2' ) );
+setReadOnly( special, 'ceil2', require( './../../../base/special/ceil2' ) );
 
 /**
 * @name ceil10
@@ -439,7 +439,7 @@ setReadOnly( special, 'ceil2', require( '@stdlib/math/base/special/ceil2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ceil10}
 */
-setReadOnly( special, 'ceil10', require( '@stdlib/math/base/special/ceil10' ) );
+setReadOnly( special, 'ceil10', require( './../../../base/special/ceil10' ) );
 
 /**
 * @name ceilb
@@ -448,7 +448,7 @@ setReadOnly( special, 'ceil10', require( '@stdlib/math/base/special/ceil10' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ceilb}
 */
-setReadOnly( special, 'ceilb', require( '@stdlib/math/base/special/ceilb' ) );
+setReadOnly( special, 'ceilb', require( './../../../base/special/ceilb' ) );
 
 /**
 * @name ceilf
@@ -457,7 +457,7 @@ setReadOnly( special, 'ceilb', require( '@stdlib/math/base/special/ceilb' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ceilf}
 */
-setReadOnly( special, 'ceilf', require( '@stdlib/math/base/special/ceilf' ) );
+setReadOnly( special, 'ceilf', require( './../../../base/special/ceilf' ) );
 
 /**
 * @name ceiln
@@ -466,7 +466,7 @@ setReadOnly( special, 'ceilf', require( '@stdlib/math/base/special/ceilf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ceiln}
 */
-setReadOnly( special, 'ceiln', require( '@stdlib/math/base/special/ceiln' ) );
+setReadOnly( special, 'ceiln', require( './../../../base/special/ceiln' ) );
 
 /**
 * @name ceilsd
@@ -475,7 +475,7 @@ setReadOnly( special, 'ceiln', require( '@stdlib/math/base/special/ceiln' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ceilsd}
 */
-setReadOnly( special, 'ceilsd', require( '@stdlib/math/base/special/ceilsd' ) );
+setReadOnly( special, 'ceilsd', require( './../../../base/special/ceilsd' ) );
 
 /**
 * @name cexp
@@ -484,7 +484,7 @@ setReadOnly( special, 'ceilsd', require( '@stdlib/math/base/special/ceilsd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cexp}
 */
-setReadOnly( special, 'cexp', require( '@stdlib/math/base/special/cexp' ) );
+setReadOnly( special, 'cexp', require( './../../../base/special/cexp' ) );
 
 /**
 * @name cflipsign
@@ -493,7 +493,7 @@ setReadOnly( special, 'cexp', require( '@stdlib/math/base/special/cexp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cflipsign}
 */
-setReadOnly( special, 'cflipsign', require( '@stdlib/math/base/special/cflipsign' ) );
+setReadOnly( special, 'cflipsign', require( './../../../base/special/cflipsign' ) );
 
 /**
 * @name cfloor
@@ -502,7 +502,7 @@ setReadOnly( special, 'cflipsign', require( '@stdlib/math/base/special/cflipsign
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cfloor}
 */
-setReadOnly( special, 'cfloor', require( '@stdlib/math/base/special/cfloor' ) );
+setReadOnly( special, 'cfloor', require( './../../../base/special/cfloor' ) );
 
 /**
 * @name cfloorn
@@ -511,7 +511,7 @@ setReadOnly( special, 'cfloor', require( '@stdlib/math/base/special/cfloor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cfloorn}
 */
-setReadOnly( special, 'cfloorn', require( '@stdlib/math/base/special/cfloorn' ) );
+setReadOnly( special, 'cfloorn', require( './../../../base/special/cfloorn' ) );
 
 /**
 * @name cinv
@@ -520,7 +520,7 @@ setReadOnly( special, 'cfloorn', require( '@stdlib/math/base/special/cfloorn' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cinv}
 */
-setReadOnly( special, 'cinv', require( '@stdlib/math/base/special/cinv' ) );
+setReadOnly( special, 'cinv', require( './../../../base/special/cinv' ) );
 
 /**
 * @name clamp
@@ -529,7 +529,7 @@ setReadOnly( special, 'cinv', require( '@stdlib/math/base/special/cinv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/clamp}
 */
-setReadOnly( special, 'clamp', require( '@stdlib/math/base/special/clamp' ) );
+setReadOnly( special, 'clamp', require( './../../../base/special/clamp' ) );
 
 /**
 * @name clampf
@@ -538,7 +538,7 @@ setReadOnly( special, 'clamp', require( '@stdlib/math/base/special/clamp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/clampf}
 */
-setReadOnly( special, 'clampf', require( '@stdlib/math/base/special/clampf' ) );
+setReadOnly( special, 'clampf', require( './../../../base/special/clampf' ) );
 
 /**
 * @name copysign
@@ -547,7 +547,7 @@ setReadOnly( special, 'clampf', require( '@stdlib/math/base/special/clampf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/copysign}
 */
-setReadOnly( special, 'copysign', require( '@stdlib/math/base/special/copysign' ) );
+setReadOnly( special, 'copysign', require( './../../../base/special/copysign' ) );
 
 /**
 * @name cos
@@ -556,7 +556,7 @@ setReadOnly( special, 'copysign', require( '@stdlib/math/base/special/copysign' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cos}
 */
-setReadOnly( special, 'cos', require( '@stdlib/math/base/special/cos' ) );
+setReadOnly( special, 'cos', require( './../../../base/special/cos' ) );
 
 /**
 * @name cosh
@@ -565,7 +565,7 @@ setReadOnly( special, 'cos', require( '@stdlib/math/base/special/cos' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cosh}
 */
-setReadOnly( special, 'cosh', require( '@stdlib/math/base/special/cosh' ) );
+setReadOnly( special, 'cosh', require( './../../../base/special/cosh' ) );
 
 /**
 * @name cosm1
@@ -574,7 +574,7 @@ setReadOnly( special, 'cosh', require( '@stdlib/math/base/special/cosh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cosm1}
 */
-setReadOnly( special, 'cosm1', require( '@stdlib/math/base/special/cosm1' ) );
+setReadOnly( special, 'cosm1', require( './../../../base/special/cosm1' ) );
 
 /**
 * @name cospi
@@ -583,7 +583,7 @@ setReadOnly( special, 'cosm1', require( '@stdlib/math/base/special/cosm1' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cospi}
 */
-setReadOnly( special, 'cospi', require( '@stdlib/math/base/special/cospi' ) );
+setReadOnly( special, 'cospi', require( './../../../base/special/cospi' ) );
 
 /**
 * @name covercos
@@ -592,7 +592,7 @@ setReadOnly( special, 'cospi', require( '@stdlib/math/base/special/cospi' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/covercos}
 */
-setReadOnly( special, 'covercos', require( '@stdlib/math/base/special/covercos' ) );
+setReadOnly( special, 'covercos', require( './../../../base/special/covercos' ) );
 
 /**
 * @name coversin
@@ -601,7 +601,7 @@ setReadOnly( special, 'covercos', require( '@stdlib/math/base/special/covercos' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/coversin}
 */
-setReadOnly( special, 'coversin', require( '@stdlib/math/base/special/coversin' ) );
+setReadOnly( special, 'coversin', require( './../../../base/special/coversin' ) );
 
 /**
 * @name cphase
@@ -610,7 +610,7 @@ setReadOnly( special, 'coversin', require( '@stdlib/math/base/special/coversin' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cphase}
 */
-setReadOnly( special, 'cphase', require( '@stdlib/math/base/special/cphase' ) );
+setReadOnly( special, 'cphase', require( './../../../base/special/cphase' ) );
 
 /**
 * @name cpolar
@@ -619,7 +619,7 @@ setReadOnly( special, 'cphase', require( '@stdlib/math/base/special/cphase' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cpolar}
 */
-setReadOnly( special, 'cpolar', require( '@stdlib/math/base/special/cpolar' ) );
+setReadOnly( special, 'cpolar', require( './../../../base/special/cpolar' ) );
 
 /**
 * @name cround
@@ -628,7 +628,7 @@ setReadOnly( special, 'cpolar', require( '@stdlib/math/base/special/cpolar' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/cround}
 */
-setReadOnly( special, 'cround', require( '@stdlib/math/base/special/cround' ) );
+setReadOnly( special, 'cround', require( './../../../base/special/cround' ) );
 
 /**
 * @name croundn
@@ -637,7 +637,7 @@ setReadOnly( special, 'cround', require( '@stdlib/math/base/special/cround' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/croundn}
 */
-setReadOnly( special, 'croundn', require( '@stdlib/math/base/special/croundn' ) );
+setReadOnly( special, 'croundn', require( './../../../base/special/croundn' ) );
 
 /**
 * @name csignum
@@ -646,7 +646,7 @@ setReadOnly( special, 'croundn', require( '@stdlib/math/base/special/croundn' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/csignum}
 */
-setReadOnly( special, 'csignum', require( '@stdlib/math/base/special/csignum' ) );
+setReadOnly( special, 'csignum', require( './../../../base/special/csignum' ) );
 
 /**
 * @name deg2rad
@@ -655,7 +655,7 @@ setReadOnly( special, 'csignum', require( '@stdlib/math/base/special/csignum' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/deg2rad}
 */
-setReadOnly( special, 'deg2rad', require( '@stdlib/math/base/special/deg2rad' ) );
+setReadOnly( special, 'deg2rad', require( './../../../base/special/deg2rad' ) );
 
 /**
 * @name deg2radf
@@ -664,7 +664,7 @@ setReadOnly( special, 'deg2rad', require( '@stdlib/math/base/special/deg2rad' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/deg2radf}
 */
-setReadOnly( special, 'deg2radf', require( '@stdlib/math/base/special/deg2radf' ) );
+setReadOnly( special, 'deg2radf', require( './../../../base/special/deg2radf' ) );
 
 /**
 * @name digamma
@@ -673,7 +673,7 @@ setReadOnly( special, 'deg2radf', require( '@stdlib/math/base/special/deg2radf' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/digamma}
 */
-setReadOnly( special, 'digamma', require( '@stdlib/math/base/special/digamma' ) );
+setReadOnly( special, 'digamma', require( './../../../base/special/digamma' ) );
 
 /**
 * @name diracDelta
@@ -682,7 +682,7 @@ setReadOnly( special, 'digamma', require( '@stdlib/math/base/special/digamma' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/dirac-delta}
 */
-setReadOnly( special, 'diracDelta', require( '@stdlib/math/base/special/dirac-delta' ) );
+setReadOnly( special, 'diracDelta', require( './../../../base/special/dirac-delta' ) );
 
 /**
 * @name eta
@@ -691,7 +691,7 @@ setReadOnly( special, 'diracDelta', require( '@stdlib/math/base/special/dirac-de
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/dirichlet-eta}
 */
-setReadOnly( special, 'eta', require( '@stdlib/math/base/special/dirichlet-eta' ) );
+setReadOnly( special, 'eta', require( './../../../base/special/dirichlet-eta' ) );
 
 /**
 * @name ellipe
@@ -700,7 +700,7 @@ setReadOnly( special, 'eta', require( '@stdlib/math/base/special/dirichlet-eta' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ellipe}
 */
-setReadOnly( special, 'ellipe', require( '@stdlib/math/base/special/ellipe' ) );
+setReadOnly( special, 'ellipe', require( './../../../base/special/ellipe' ) );
 
 /**
 * @name ellipk
@@ -709,7 +709,7 @@ setReadOnly( special, 'ellipe', require( '@stdlib/math/base/special/ellipe' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ellipk}
 */
-setReadOnly( special, 'ellipk', require( '@stdlib/math/base/special/ellipk' ) );
+setReadOnly( special, 'ellipk', require( './../../../base/special/ellipk' ) );
 
 /**
 * @name erf
@@ -718,7 +718,7 @@ setReadOnly( special, 'ellipk', require( '@stdlib/math/base/special/ellipk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/erf}
 */
-setReadOnly( special, 'erf', require( '@stdlib/math/base/special/erf' ) );
+setReadOnly( special, 'erf', require( './../../../base/special/erf' ) );
 
 /**
 * @name erfc
@@ -727,7 +727,7 @@ setReadOnly( special, 'erf', require( '@stdlib/math/base/special/erf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/erfc}
 */
-setReadOnly( special, 'erfc', require( '@stdlib/math/base/special/erfc' ) );
+setReadOnly( special, 'erfc', require( './../../../base/special/erfc' ) );
 
 /**
 * @name erfcinv
@@ -736,7 +736,7 @@ setReadOnly( special, 'erfc', require( '@stdlib/math/base/special/erfc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/erfcinv}
 */
-setReadOnly( special, 'erfcinv', require( '@stdlib/math/base/special/erfcinv' ) );
+setReadOnly( special, 'erfcinv', require( './../../../base/special/erfcinv' ) );
 
 /**
 * @name erfinv
@@ -745,7 +745,7 @@ setReadOnly( special, 'erfcinv', require( '@stdlib/math/base/special/erfcinv' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/erfinv}
 */
-setReadOnly( special, 'erfinv', require( '@stdlib/math/base/special/erfinv' ) );
+setReadOnly( special, 'erfinv', require( './../../../base/special/erfinv' ) );
 
 /**
 * @name exp
@@ -754,7 +754,7 @@ setReadOnly( special, 'erfinv', require( '@stdlib/math/base/special/erfinv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/exp}
 */
-setReadOnly( special, 'exp', require( '@stdlib/math/base/special/exp' ) );
+setReadOnly( special, 'exp', require( './../../../base/special/exp' ) );
 
 /**
 * @name exp2
@@ -763,7 +763,7 @@ setReadOnly( special, 'exp', require( '@stdlib/math/base/special/exp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/exp2}
 */
-setReadOnly( special, 'exp2', require( '@stdlib/math/base/special/exp2' ) );
+setReadOnly( special, 'exp2', require( './../../../base/special/exp2' ) );
 
 /**
 * @name exp10
@@ -772,7 +772,7 @@ setReadOnly( special, 'exp2', require( '@stdlib/math/base/special/exp2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/exp10}
 */
-setReadOnly( special, 'exp10', require( '@stdlib/math/base/special/exp10' ) );
+setReadOnly( special, 'exp10', require( './../../../base/special/exp10' ) );
 
 /**
 * @name expit
@@ -781,7 +781,7 @@ setReadOnly( special, 'exp10', require( '@stdlib/math/base/special/exp10' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/expit}
 */
-setReadOnly( special, 'expit', require( '@stdlib/math/base/special/expit' ) );
+setReadOnly( special, 'expit', require( './../../../base/special/expit' ) );
 
 /**
 * @name expm1
@@ -790,7 +790,7 @@ setReadOnly( special, 'expit', require( '@stdlib/math/base/special/expit' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/expm1}
 */
-setReadOnly( special, 'expm1', require( '@stdlib/math/base/special/expm1' ) );
+setReadOnly( special, 'expm1', require( './../../../base/special/expm1' ) );
 
 /**
 * @name expm1rel
@@ -799,7 +799,7 @@ setReadOnly( special, 'expm1', require( '@stdlib/math/base/special/expm1' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/expm1rel}
 */
-setReadOnly( special, 'expm1rel', require( '@stdlib/math/base/special/expm1rel' ) );
+setReadOnly( special, 'expm1rel', require( './../../../base/special/expm1rel' ) );
 
 /**
 * @name factorial
@@ -808,7 +808,7 @@ setReadOnly( special, 'expm1rel', require( '@stdlib/math/base/special/expm1rel' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/factorial}
 */
-setReadOnly( special, 'factorial', require( '@stdlib/math/base/special/factorial' ) );
+setReadOnly( special, 'factorial', require( './../../../base/special/factorial' ) );
 
 /**
 * @name factorialln
@@ -817,7 +817,7 @@ setReadOnly( special, 'factorial', require( '@stdlib/math/base/special/factorial
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/factorialln}
 */
-setReadOnly( special, 'factorialln', require( '@stdlib/math/base/special/factorialln' ) );
+setReadOnly( special, 'factorialln', require( './../../../base/special/factorialln' ) );
 
 /**
 * @name fallingFactorial
@@ -826,7 +826,7 @@ setReadOnly( special, 'factorialln', require( '@stdlib/math/base/special/factori
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/falling-factorial}
 */
-setReadOnly( special, 'fallingFactorial', require( '@stdlib/math/base/special/falling-factorial' ) );
+setReadOnly( special, 'fallingFactorial', require( './../../../base/special/falling-factorial' ) );
 
 /**
 * @name fast
@@ -835,7 +835,7 @@ setReadOnly( special, 'fallingFactorial', require( '@stdlib/math/base/special/fa
 * @type {Namespace}
 * @see {@link module:@stdlib/math/base/special/fast}
 */
-setReadOnly( special, 'fast', require( '@stdlib/math/base/special/fast' ) );
+setReadOnly( special, 'fast', require( './../../../base/special/fast' ) );
 
 /**
 * @name fibonacci
@@ -844,7 +844,7 @@ setReadOnly( special, 'fast', require( '@stdlib/math/base/special/fast' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fibonacci}
 */
-setReadOnly( special, 'fibonacci', require( '@stdlib/math/base/special/fibonacci' ) );
+setReadOnly( special, 'fibonacci', require( './../../../base/special/fibonacci' ) );
 
 /**
 * @name fibonacciIndex
@@ -853,7 +853,7 @@ setReadOnly( special, 'fibonacci', require( '@stdlib/math/base/special/fibonacci
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fibonacci-index}
 */
-setReadOnly( special, 'fibonacciIndex', require( '@stdlib/math/base/special/fibonacci-index' ) );
+setReadOnly( special, 'fibonacciIndex', require( './../../../base/special/fibonacci-index' ) );
 
 /**
 * @name flipsign
@@ -862,7 +862,7 @@ setReadOnly( special, 'fibonacciIndex', require( '@stdlib/math/base/special/fibo
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/flipsign}
 */
-setReadOnly( special, 'flipsign', require( '@stdlib/math/base/special/flipsign' ) );
+setReadOnly( special, 'flipsign', require( './../../../base/special/flipsign' ) );
 
 /**
 * @name floor
@@ -871,7 +871,7 @@ setReadOnly( special, 'flipsign', require( '@stdlib/math/base/special/flipsign' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/floor}
 */
-setReadOnly( special, 'floor', require( '@stdlib/math/base/special/floor' ) );
+setReadOnly( special, 'floor', require( './../../../base/special/floor' ) );
 
 /**
 * @name floor2
@@ -880,7 +880,7 @@ setReadOnly( special, 'floor', require( '@stdlib/math/base/special/floor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/floor2}
 */
-setReadOnly( special, 'floor2', require( '@stdlib/math/base/special/floor2' ) );
+setReadOnly( special, 'floor2', require( './../../../base/special/floor2' ) );
 
 /**
 * @name floor10
@@ -889,7 +889,7 @@ setReadOnly( special, 'floor2', require( '@stdlib/math/base/special/floor2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/floor10}
 */
-setReadOnly( special, 'floor10', require( '@stdlib/math/base/special/floor10' ) );
+setReadOnly( special, 'floor10', require( './../../../base/special/floor10' ) );
 
 /**
 * @name floorb
@@ -898,7 +898,7 @@ setReadOnly( special, 'floor10', require( '@stdlib/math/base/special/floor10' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/floorb}
 */
-setReadOnly( special, 'floorb', require( '@stdlib/math/base/special/floorb' ) );
+setReadOnly( special, 'floorb', require( './../../../base/special/floorb' ) );
 
 /**
 * @name floorf
@@ -907,7 +907,7 @@ setReadOnly( special, 'floorb', require( '@stdlib/math/base/special/floorb' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/floorf}
 */
-setReadOnly( special, 'floorf', require( '@stdlib/math/base/special/floorf' ) );
+setReadOnly( special, 'floorf', require( './../../../base/special/floorf' ) );
 
 /**
 * @name floorn
@@ -916,7 +916,7 @@ setReadOnly( special, 'floorf', require( '@stdlib/math/base/special/floorf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/floorn}
 */
-setReadOnly( special, 'floorn', require( '@stdlib/math/base/special/floorn' ) );
+setReadOnly( special, 'floorn', require( './../../../base/special/floorn' ) );
 
 /**
 * @name floorsd
@@ -925,7 +925,7 @@ setReadOnly( special, 'floorn', require( '@stdlib/math/base/special/floorn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/floorsd}
 */
-setReadOnly( special, 'floorsd', require( '@stdlib/math/base/special/floorsd' ) );
+setReadOnly( special, 'floorsd', require( './../../../base/special/floorsd' ) );
 
 /**
 * @name fresnel
@@ -934,7 +934,7 @@ setReadOnly( special, 'floorsd', require( '@stdlib/math/base/special/floorsd' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fresnel}
 */
-setReadOnly( special, 'fresnel', require( '@stdlib/math/base/special/fresnel' ) );
+setReadOnly( special, 'fresnel', require( './../../../base/special/fresnel' ) );
 
 /**
 * @name fresnelc
@@ -943,7 +943,7 @@ setReadOnly( special, 'fresnel', require( '@stdlib/math/base/special/fresnel' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fresnelc}
 */
-setReadOnly( special, 'fresnelc', require( '@stdlib/math/base/special/fresnelc' ) );
+setReadOnly( special, 'fresnelc', require( './../../../base/special/fresnelc' ) );
 
 /**
 * @name fresnels
@@ -952,7 +952,7 @@ setReadOnly( special, 'fresnelc', require( '@stdlib/math/base/special/fresnelc' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/fresnels}
 */
-setReadOnly( special, 'fresnels', require( '@stdlib/math/base/special/fresnels' ) );
+setReadOnly( special, 'fresnels', require( './../../../base/special/fresnels' ) );
 
 /**
 * @name frexp
@@ -961,7 +961,7 @@ setReadOnly( special, 'fresnels', require( '@stdlib/math/base/special/fresnels' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/frexp}
 */
-setReadOnly( special, 'frexp', require( '@stdlib/math/base/special/frexp' ) );
+setReadOnly( special, 'frexp', require( './../../../base/special/frexp' ) );
 
 /**
 * @name gamma
@@ -970,7 +970,7 @@ setReadOnly( special, 'frexp', require( '@stdlib/math/base/special/frexp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gamma}
 */
-setReadOnly( special, 'gamma', require( '@stdlib/math/base/special/gamma' ) );
+setReadOnly( special, 'gamma', require( './../../../base/special/gamma' ) );
 
 /**
 * @name gammaDeltaRatio
@@ -979,7 +979,7 @@ setReadOnly( special, 'gamma', require( '@stdlib/math/base/special/gamma' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gamma-delta-ratio}
 */
-setReadOnly( special, 'gammaDeltaRatio', require( '@stdlib/math/base/special/gamma-delta-ratio' ) );
+setReadOnly( special, 'gammaDeltaRatio', require( './../../../base/special/gamma-delta-ratio' ) );
 
 /**
 * @name gammaLanczosSum
@@ -988,7 +988,7 @@ setReadOnly( special, 'gammaDeltaRatio', require( '@stdlib/math/base/special/gam
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gamma-lanczos-sum}
 */
-setReadOnly( special, 'gammaLanczosSum', require( '@stdlib/math/base/special/gamma-lanczos-sum' ) );
+setReadOnly( special, 'gammaLanczosSum', require( './../../../base/special/gamma-lanczos-sum' ) );
 
 /**
 * @name gammaLanczosSumExpGScaled
@@ -997,7 +997,7 @@ setReadOnly( special, 'gammaLanczosSum', require( '@stdlib/math/base/special/gam
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled}
 */
-setReadOnly( special, 'gammaLanczosSumExpGScaled', require( '@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled' ) );
+setReadOnly( special, 'gammaLanczosSumExpGScaled', require( './../../../base/special/gamma-lanczos-sum-expg-scaled' ) );
 
 /**
 * @name gamma1pm1
@@ -1006,7 +1006,7 @@ setReadOnly( special, 'gammaLanczosSumExpGScaled', require( '@stdlib/math/base/s
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gamma1pm1}
 */
-setReadOnly( special, 'gamma1pm1', require( '@stdlib/math/base/special/gamma1pm1' ) );
+setReadOnly( special, 'gamma1pm1', require( './../../../base/special/gamma1pm1' ) );
 
 /**
 * @name gammainc
@@ -1015,7 +1015,7 @@ setReadOnly( special, 'gamma1pm1', require( '@stdlib/math/base/special/gamma1pm1
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gammainc}
 */
-setReadOnly( special, 'gammainc', require( '@stdlib/math/base/special/gammainc' ) );
+setReadOnly( special, 'gammainc', require( './../../../base/special/gammainc' ) );
 
 /**
 * @name gammaincinv
@@ -1024,7 +1024,7 @@ setReadOnly( special, 'gammainc', require( '@stdlib/math/base/special/gammainc' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gammaincinv}
 */
-setReadOnly( special, 'gammaincinv', require( '@stdlib/math/base/special/gammaincinv' ) );
+setReadOnly( special, 'gammaincinv', require( './../../../base/special/gammaincinv' ) );
 
 /**
 * @name gammaln
@@ -1033,7 +1033,7 @@ setReadOnly( special, 'gammaincinv', require( '@stdlib/math/base/special/gammain
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gammaln}
 */
-setReadOnly( special, 'gammaln', require( '@stdlib/math/base/special/gammaln' ) );
+setReadOnly( special, 'gammaln', require( './../../../base/special/gammaln' ) );
 
 /**
 * @name gcd
@@ -1042,7 +1042,7 @@ setReadOnly( special, 'gammaln', require( '@stdlib/math/base/special/gammaln' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/gcd}
 */
-setReadOnly( special, 'gcd', require( '@stdlib/math/base/special/gcd' ) );
+setReadOnly( special, 'gcd', require( './../../../base/special/gcd' ) );
 
 /**
 * @name hacovercos
@@ -1051,7 +1051,7 @@ setReadOnly( special, 'gcd', require( '@stdlib/math/base/special/gcd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/hacovercos}
 */
-setReadOnly( special, 'hacovercos', require( '@stdlib/math/base/special/hacovercos' ) );
+setReadOnly( special, 'hacovercos', require( './../../../base/special/hacovercos' ) );
 
 /**
 * @name hacoversin
@@ -1060,7 +1060,7 @@ setReadOnly( special, 'hacovercos', require( '@stdlib/math/base/special/hacoverc
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/hacoversin}
 */
-setReadOnly( special, 'hacoversin', require( '@stdlib/math/base/special/hacoversin' ) );
+setReadOnly( special, 'hacoversin', require( './../../../base/special/hacoversin' ) );
 
 /**
 * @name havercos
@@ -1069,7 +1069,7 @@ setReadOnly( special, 'hacoversin', require( '@stdlib/math/base/special/hacovers
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/havercos}
 */
-setReadOnly( special, 'havercos', require( '@stdlib/math/base/special/havercos' ) );
+setReadOnly( special, 'havercos', require( './../../../base/special/havercos' ) );
 
 /**
 * @name haversin
@@ -1078,7 +1078,7 @@ setReadOnly( special, 'havercos', require( '@stdlib/math/base/special/havercos' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/haversin}
 */
-setReadOnly( special, 'haversin', require( '@stdlib/math/base/special/haversin' ) );
+setReadOnly( special, 'haversin', require( './../../../base/special/haversin' ) );
 
 /**
 * @name heaviside
@@ -1087,7 +1087,7 @@ setReadOnly( special, 'haversin', require( '@stdlib/math/base/special/haversin' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/heaviside}
 */
-setReadOnly( special, 'heaviside', require( '@stdlib/math/base/special/heaviside' ) );
+setReadOnly( special, 'heaviside', require( './../../../base/special/heaviside' ) );
 
 /**
 * @name hypot
@@ -1096,7 +1096,7 @@ setReadOnly( special, 'heaviside', require( '@stdlib/math/base/special/heaviside
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/hypot}
 */
-setReadOnly( special, 'hypot', require( '@stdlib/math/base/special/hypot' ) );
+setReadOnly( special, 'hypot', require( './../../../base/special/hypot' ) );
 
 /**
 * @name hypotf
@@ -1105,7 +1105,7 @@ setReadOnly( special, 'hypot', require( '@stdlib/math/base/special/hypot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/hypotf}
 */
-setReadOnly( special, 'hypotf', require( '@stdlib/math/base/special/hypotf' ) );
+setReadOnly( special, 'hypotf', require( './../../../base/special/hypotf' ) );
 
 /**
 * @name identity
@@ -1114,7 +1114,7 @@ setReadOnly( special, 'hypotf', require( '@stdlib/math/base/special/hypotf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/identity}
 */
-setReadOnly( special, 'identity', require( '@stdlib/math/base/special/identity' ) );
+setReadOnly( special, 'identity', require( './../../../base/special/identity' ) );
 
 /**
 * @name identityf
@@ -1123,7 +1123,7 @@ setReadOnly( special, 'identity', require( '@stdlib/math/base/special/identity' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/identityf}
 */
-setReadOnly( special, 'identityf', require( '@stdlib/math/base/special/identityf' ) );
+setReadOnly( special, 'identityf', require( './../../../base/special/identityf' ) );
 
 /**
 * @name imul
@@ -1132,7 +1132,7 @@ setReadOnly( special, 'identityf', require( '@stdlib/math/base/special/identityf
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/imul}
 */
-setReadOnly( special, 'imul', require( '@stdlib/math/base/special/imul' ) );
+setReadOnly( special, 'imul', require( './../../../base/special/imul' ) );
 
 /**
 * @name imuldw
@@ -1141,7 +1141,7 @@ setReadOnly( special, 'imul', require( '@stdlib/math/base/special/imul' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/imuldw}
 */
-setReadOnly( special, 'imuldw', require( '@stdlib/math/base/special/imuldw' ) );
+setReadOnly( special, 'imuldw', require( './../../../base/special/imuldw' ) );
 
 /**
 * @name inv
@@ -1150,7 +1150,7 @@ setReadOnly( special, 'imuldw', require( '@stdlib/math/base/special/imuldw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/inv}
 */
-setReadOnly( special, 'inv', require( '@stdlib/math/base/special/inv' ) );
+setReadOnly( special, 'inv', require( './../../../base/special/inv' ) );
 
 /**
 * @name invf
@@ -1159,7 +1159,7 @@ setReadOnly( special, 'inv', require( '@stdlib/math/base/special/inv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/invf}
 */
-setReadOnly( special, 'invf', require( '@stdlib/math/base/special/invf' ) );
+setReadOnly( special, 'invf', require( './../../../base/special/invf' ) );
 
 /**
 * @name kernelBetainc
@@ -1168,7 +1168,7 @@ setReadOnly( special, 'invf', require( '@stdlib/math/base/special/invf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/kernel-betainc}
 */
-setReadOnly( special, 'kernelBetainc', require( '@stdlib/math/base/special/kernel-betainc' ) );
+setReadOnly( special, 'kernelBetainc', require( './../../../base/special/kernel-betainc' ) );
 
 /**
 * @name kernelBetaincinv
@@ -1177,7 +1177,7 @@ setReadOnly( special, 'kernelBetainc', require( '@stdlib/math/base/special/kerne
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/kernel-betaincinv}
 */
-setReadOnly( special, 'kernelBetaincinv', require( '@stdlib/math/base/special/kernel-betaincinv' ) );
+setReadOnly( special, 'kernelBetaincinv', require( './../../../base/special/kernel-betaincinv' ) );
 
 /**
 * @name kernelCos
@@ -1186,7 +1186,7 @@ setReadOnly( special, 'kernelBetaincinv', require( '@stdlib/math/base/special/ke
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/kernel-cos}
 */
-setReadOnly( special, 'kernelCos', require( '@stdlib/math/base/special/kernel-cos' ) );
+setReadOnly( special, 'kernelCos', require( './../../../base/special/kernel-cos' ) );
 
 /**
 * @name kernelSin
@@ -1195,7 +1195,7 @@ setReadOnly( special, 'kernelCos', require( '@stdlib/math/base/special/kernel-co
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/kernel-sin}
 */
-setReadOnly( special, 'kernelSin', require( '@stdlib/math/base/special/kernel-sin' ) );
+setReadOnly( special, 'kernelSin', require( './../../../base/special/kernel-sin' ) );
 
 /**
 * @name kernelTan
@@ -1204,7 +1204,7 @@ setReadOnly( special, 'kernelSin', require( '@stdlib/math/base/special/kernel-si
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/kernel-tan}
 */
-setReadOnly( special, 'kernelTan', require( '@stdlib/math/base/special/kernel-tan' ) );
+setReadOnly( special, 'kernelTan', require( './../../../base/special/kernel-tan' ) );
 
 /**
 * @name kroneckerDelta
@@ -1213,7 +1213,7 @@ setReadOnly( special, 'kernelTan', require( '@stdlib/math/base/special/kernel-ta
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/kronecker-delta}
 */
-setReadOnly( special, 'kroneckerDelta', require( '@stdlib/math/base/special/kronecker-delta' ) );
+setReadOnly( special, 'kroneckerDelta', require( './../../../base/special/kronecker-delta' ) );
 
 /**
 * @name kroneckerDeltaf
@@ -1222,7 +1222,7 @@ setReadOnly( special, 'kroneckerDelta', require( '@stdlib/math/base/special/kron
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/kronecker-deltaf}
 */
-setReadOnly( special, 'kroneckerDeltaf', require( '@stdlib/math/base/special/kronecker-deltaf' ) );
+setReadOnly( special, 'kroneckerDeltaf', require( './../../../base/special/kronecker-deltaf' ) );
 
 /**
 * @name labs
@@ -1231,7 +1231,7 @@ setReadOnly( special, 'kroneckerDeltaf', require( '@stdlib/math/base/special/kro
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/labs}
 */
-setReadOnly( special, 'labs', require( '@stdlib/math/base/special/labs' ) );
+setReadOnly( special, 'labs', require( './../../../base/special/labs' ) );
 
 /**
 * @name lcm
@@ -1240,7 +1240,7 @@ setReadOnly( special, 'labs', require( '@stdlib/math/base/special/labs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/lcm}
 */
-setReadOnly( special, 'lcm', require( '@stdlib/math/base/special/lcm' ) );
+setReadOnly( special, 'lcm', require( './../../../base/special/lcm' ) );
 
 /**
 * @name ldexp
@@ -1249,7 +1249,7 @@ setReadOnly( special, 'lcm', require( '@stdlib/math/base/special/lcm' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ldexp}
 */
-setReadOnly( special, 'ldexp', require( '@stdlib/math/base/special/ldexp' ) );
+setReadOnly( special, 'ldexp', require( './../../../base/special/ldexp' ) );
 
 /**
 * @name ln
@@ -1258,7 +1258,7 @@ setReadOnly( special, 'ldexp', require( '@stdlib/math/base/special/ldexp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ln}
 */
-setReadOnly( special, 'ln', require( '@stdlib/math/base/special/ln' ) );
+setReadOnly( special, 'ln', require( './../../../base/special/ln' ) );
 
 /**
 * @name log
@@ -1267,7 +1267,7 @@ setReadOnly( special, 'ln', require( '@stdlib/math/base/special/ln' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/log}
 */
-setReadOnly( special, 'log', require( '@stdlib/math/base/special/log' ) );
+setReadOnly( special, 'log', require( './../../../base/special/log' ) );
 
 /**
 * @name log1mexp
@@ -1276,7 +1276,7 @@ setReadOnly( special, 'log', require( '@stdlib/math/base/special/log' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/log1mexp}
 */
-setReadOnly( special, 'log1mexp', require( '@stdlib/math/base/special/log1mexp' ) );
+setReadOnly( special, 'log1mexp', require( './../../../base/special/log1mexp' ) );
 
 /**
 * @name log1p
@@ -1285,7 +1285,7 @@ setReadOnly( special, 'log1mexp', require( '@stdlib/math/base/special/log1mexp' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/log1p}
 */
-setReadOnly( special, 'log1p', require( '@stdlib/math/base/special/log1p' ) );
+setReadOnly( special, 'log1p', require( './../../../base/special/log1p' ) );
 
 /**
 * @name log1pexp
@@ -1294,7 +1294,7 @@ setReadOnly( special, 'log1p', require( '@stdlib/math/base/special/log1p' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/log1pexp}
 */
-setReadOnly( special, 'log1pexp', require( '@stdlib/math/base/special/log1pexp' ) );
+setReadOnly( special, 'log1pexp', require( './../../../base/special/log1pexp' ) );
 
 /**
 * @name log2
@@ -1303,7 +1303,7 @@ setReadOnly( special, 'log1pexp', require( '@stdlib/math/base/special/log1pexp' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/log2}
 */
-setReadOnly( special, 'log2', require( '@stdlib/math/base/special/log2' ) );
+setReadOnly( special, 'log2', require( './../../../base/special/log2' ) );
 
 /**
 * @name log10
@@ -1312,7 +1312,7 @@ setReadOnly( special, 'log2', require( '@stdlib/math/base/special/log2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/log10}
 */
-setReadOnly( special, 'log10', require( '@stdlib/math/base/special/log10' ) );
+setReadOnly( special, 'log10', require( './../../../base/special/log10' ) );
 
 /**
 * @name logaddexp
@@ -1321,7 +1321,7 @@ setReadOnly( special, 'log10', require( '@stdlib/math/base/special/log10' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/logaddexp}
 */
-setReadOnly( special, 'logaddexp', require( '@stdlib/math/base/special/logaddexp' ) );
+setReadOnly( special, 'logaddexp', require( './../../../base/special/logaddexp' ) );
 
 /**
 * @name logit
@@ -1330,7 +1330,7 @@ setReadOnly( special, 'logaddexp', require( '@stdlib/math/base/special/logaddexp
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/logit}
 */
-setReadOnly( special, 'logit', require( '@stdlib/math/base/special/logit' ) );
+setReadOnly( special, 'logit', require( './../../../base/special/logit' ) );
 
 /**
 * @name lucas
@@ -1339,7 +1339,7 @@ setReadOnly( special, 'logit', require( '@stdlib/math/base/special/logit' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/lucas}
 */
-setReadOnly( special, 'lucas', require( '@stdlib/math/base/special/lucas' ) );
+setReadOnly( special, 'lucas', require( './../../../base/special/lucas' ) );
 
 /**
 * @name max
@@ -1348,7 +1348,7 @@ setReadOnly( special, 'lucas', require( '@stdlib/math/base/special/lucas' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/max}
 */
-setReadOnly( special, 'max', require( '@stdlib/math/base/special/max' ) );
+setReadOnly( special, 'max', require( './../../../base/special/max' ) );
 
 /**
 * @name maxabs
@@ -1357,7 +1357,7 @@ setReadOnly( special, 'max', require( '@stdlib/math/base/special/max' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/maxabs}
 */
-setReadOnly( special, 'maxabs', require( '@stdlib/math/base/special/maxabs' ) );
+setReadOnly( special, 'maxabs', require( './../../../base/special/maxabs' ) );
 
 /**
 * @name min
@@ -1366,7 +1366,7 @@ setReadOnly( special, 'maxabs', require( '@stdlib/math/base/special/maxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/min}
 */
-setReadOnly( special, 'min', require( '@stdlib/math/base/special/min' ) );
+setReadOnly( special, 'min', require( './../../../base/special/min' ) );
 
 /**
 * @name minabs
@@ -1375,7 +1375,7 @@ setReadOnly( special, 'min', require( '@stdlib/math/base/special/min' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/minabs}
 */
-setReadOnly( special, 'minabs', require( '@stdlib/math/base/special/minabs' ) );
+setReadOnly( special, 'minabs', require( './../../../base/special/minabs' ) );
 
 /**
 * @name minmax
@@ -1384,7 +1384,7 @@ setReadOnly( special, 'minabs', require( '@stdlib/math/base/special/minabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/minmax}
 */
-setReadOnly( special, 'minmax', require( '@stdlib/math/base/special/minmax' ) );
+setReadOnly( special, 'minmax', require( './../../../base/special/minmax' ) );
 
 /**
 * @name minmaxabs
@@ -1393,7 +1393,7 @@ setReadOnly( special, 'minmax', require( '@stdlib/math/base/special/minmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/minmaxabs}
 */
-setReadOnly( special, 'minmaxabs', require( '@stdlib/math/base/special/minmaxabs' ) );
+setReadOnly( special, 'minmaxabs', require( './../../../base/special/minmaxabs' ) );
 
 /**
 * @name modf
@@ -1402,7 +1402,7 @@ setReadOnly( special, 'minmaxabs', require( '@stdlib/math/base/special/minmaxabs
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/modf}
 */
-setReadOnly( special, 'modf', require( '@stdlib/math/base/special/modf' ) );
+setReadOnly( special, 'modf', require( './../../../base/special/modf' ) );
 
 /**
 * @name negafibonacci
@@ -1411,7 +1411,7 @@ setReadOnly( special, 'modf', require( '@stdlib/math/base/special/modf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/negafibonacci}
 */
-setReadOnly( special, 'negafibonacci', require( '@stdlib/math/base/special/negafibonacci' ) );
+setReadOnly( special, 'negafibonacci', require( './../../../base/special/negafibonacci' ) );
 
 /**
 * @name negalucas
@@ -1420,7 +1420,7 @@ setReadOnly( special, 'negafibonacci', require( '@stdlib/math/base/special/negaf
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/negalucas}
 */
-setReadOnly( special, 'negalucas', require( '@stdlib/math/base/special/negalucas' ) );
+setReadOnly( special, 'negalucas', require( './../../../base/special/negalucas' ) );
 
 /**
 * @name nonfibonacci
@@ -1429,7 +1429,7 @@ setReadOnly( special, 'negalucas', require( '@stdlib/math/base/special/negalucas
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/nonfibonacci}
 */
-setReadOnly( special, 'nonfibonacci', require( '@stdlib/math/base/special/nonfibonacci' ) );
+setReadOnly( special, 'nonfibonacci', require( './../../../base/special/nonfibonacci' ) );
 
 /**
 * @name pdiff
@@ -1438,7 +1438,7 @@ setReadOnly( special, 'nonfibonacci', require( '@stdlib/math/base/special/nonfib
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/pdiff}
 */
-setReadOnly( special, 'pdiff', require( '@stdlib/math/base/special/pdiff' ) );
+setReadOnly( special, 'pdiff', require( './../../../base/special/pdiff' ) );
 
 /**
 * @name pdifff
@@ -1447,7 +1447,7 @@ setReadOnly( special, 'pdiff', require( '@stdlib/math/base/special/pdiff' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/pdifff}
 */
-setReadOnly( special, 'pdifff', require( '@stdlib/math/base/special/pdifff' ) );
+setReadOnly( special, 'pdifff', require( './../../../base/special/pdifff' ) );
 
 /**
 * @name polygamma
@@ -1456,7 +1456,7 @@ setReadOnly( special, 'pdifff', require( '@stdlib/math/base/special/pdifff' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/polygamma}
 */
-setReadOnly( special, 'polygamma', require( '@stdlib/math/base/special/polygamma' ) );
+setReadOnly( special, 'polygamma', require( './../../../base/special/polygamma' ) );
 
 /**
 * @name pow
@@ -1465,7 +1465,7 @@ setReadOnly( special, 'polygamma', require( '@stdlib/math/base/special/polygamma
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/pow}
 */
-setReadOnly( special, 'pow', require( '@stdlib/math/base/special/pow' ) );
+setReadOnly( special, 'pow', require( './../../../base/special/pow' ) );
 
 /**
 * @name powm1
@@ -1474,7 +1474,7 @@ setReadOnly( special, 'pow', require( '@stdlib/math/base/special/pow' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/powm1}
 */
-setReadOnly( special, 'powm1', require( '@stdlib/math/base/special/powm1' ) );
+setReadOnly( special, 'powm1', require( './../../../base/special/powm1' ) );
 
 /**
 * @name rad2deg
@@ -1483,7 +1483,7 @@ setReadOnly( special, 'powm1', require( '@stdlib/math/base/special/powm1' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/rad2deg}
 */
-setReadOnly( special, 'rad2deg', require( '@stdlib/math/base/special/rad2deg' ) );
+setReadOnly( special, 'rad2deg', require( './../../../base/special/rad2deg' ) );
 
 /**
 * @name ramp
@@ -1492,7 +1492,7 @@ setReadOnly( special, 'rad2deg', require( '@stdlib/math/base/special/rad2deg' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/ramp}
 */
-setReadOnly( special, 'ramp', require( '@stdlib/math/base/special/ramp' ) );
+setReadOnly( special, 'ramp', require( './../../../base/special/ramp' ) );
 
 /**
 * @name rampf
@@ -1501,7 +1501,7 @@ setReadOnly( special, 'ramp', require( '@stdlib/math/base/special/ramp' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/rampf}
 */
-setReadOnly( special, 'rampf', require( '@stdlib/math/base/special/rampf' ) );
+setReadOnly( special, 'rampf', require( './../../../base/special/rampf' ) );
 
 /**
 * @name rempio2
@@ -1510,7 +1510,7 @@ setReadOnly( special, 'rampf', require( '@stdlib/math/base/special/rampf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/rempio2}
 */
-setReadOnly( special, 'rempio2', require( '@stdlib/math/base/special/rempio2' ) );
+setReadOnly( special, 'rempio2', require( './../../../base/special/rempio2' ) );
 
 /**
 * @name zeta
@@ -1519,7 +1519,7 @@ setReadOnly( special, 'rempio2', require( '@stdlib/math/base/special/rempio2' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/riemann-zeta}
 */
-setReadOnly( special, 'zeta', require( '@stdlib/math/base/special/riemann-zeta' ) );
+setReadOnly( special, 'zeta', require( './../../../base/special/riemann-zeta' ) );
 
 /**
 * @name risingFactorial
@@ -1528,7 +1528,7 @@ setReadOnly( special, 'zeta', require( '@stdlib/math/base/special/riemann-zeta' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/rising-factorial}
 */
-setReadOnly( special, 'risingFactorial', require( '@stdlib/math/base/special/rising-factorial' ) );
+setReadOnly( special, 'risingFactorial', require( './../../../base/special/rising-factorial' ) );
 
 /**
 * @name round
@@ -1537,7 +1537,7 @@ setReadOnly( special, 'risingFactorial', require( '@stdlib/math/base/special/ris
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/round}
 */
-setReadOnly( special, 'round', require( '@stdlib/math/base/special/round' ) );
+setReadOnly( special, 'round', require( './../../../base/special/round' ) );
 
 /**
 * @name round2
@@ -1546,7 +1546,7 @@ setReadOnly( special, 'round', require( '@stdlib/math/base/special/round' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/round2}
 */
-setReadOnly( special, 'round2', require( '@stdlib/math/base/special/round2' ) );
+setReadOnly( special, 'round2', require( './../../../base/special/round2' ) );
 
 /**
 * @name round10
@@ -1555,7 +1555,7 @@ setReadOnly( special, 'round2', require( '@stdlib/math/base/special/round2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/round10}
 */
-setReadOnly( special, 'round10', require( '@stdlib/math/base/special/round10' ) );
+setReadOnly( special, 'round10', require( './../../../base/special/round10' ) );
 
 /**
 * @name roundb
@@ -1564,7 +1564,7 @@ setReadOnly( special, 'round10', require( '@stdlib/math/base/special/round10' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/roundb}
 */
-setReadOnly( special, 'roundb', require( '@stdlib/math/base/special/roundb' ) );
+setReadOnly( special, 'roundb', require( './../../../base/special/roundb' ) );
 
 /**
 * @name roundn
@@ -1573,7 +1573,7 @@ setReadOnly( special, 'roundb', require( '@stdlib/math/base/special/roundb' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/roundn}
 */
-setReadOnly( special, 'roundn', require( '@stdlib/math/base/special/roundn' ) );
+setReadOnly( special, 'roundn', require( './../../../base/special/roundn' ) );
 
 /**
 * @name roundsd
@@ -1582,7 +1582,7 @@ setReadOnly( special, 'roundn', require( '@stdlib/math/base/special/roundn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/roundsd}
 */
-setReadOnly( special, 'roundsd', require( '@stdlib/math/base/special/roundsd' ) );
+setReadOnly( special, 'roundsd', require( './../../../base/special/roundsd' ) );
 
 /**
 * @name rsqrt
@@ -1591,7 +1591,7 @@ setReadOnly( special, 'roundsd', require( '@stdlib/math/base/special/roundsd' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/rsqrt}
 */
-setReadOnly( special, 'rsqrt', require( '@stdlib/math/base/special/rsqrt' ) );
+setReadOnly( special, 'rsqrt', require( './../../../base/special/rsqrt' ) );
 
 /**
 * @name rsqrtf
@@ -1600,7 +1600,7 @@ setReadOnly( special, 'rsqrt', require( '@stdlib/math/base/special/rsqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/rsqrtf}
 */
-setReadOnly( special, 'rsqrtf', require( '@stdlib/math/base/special/rsqrtf' ) );
+setReadOnly( special, 'rsqrtf', require( './../../../base/special/rsqrtf' ) );
 
 /**
 * @name sici
@@ -1609,7 +1609,7 @@ setReadOnly( special, 'rsqrtf', require( '@stdlib/math/base/special/rsqrtf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sici}
 */
-setReadOnly( special, 'sici', require( '@stdlib/math/base/special/sici' ) );
+setReadOnly( special, 'sici', require( './../../../base/special/sici' ) );
 
 /**
 * @name signum
@@ -1618,7 +1618,7 @@ setReadOnly( special, 'sici', require( '@stdlib/math/base/special/sici' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/signum}
 */
-setReadOnly( special, 'signum', require( '@stdlib/math/base/special/signum' ) );
+setReadOnly( special, 'signum', require( './../../../base/special/signum' ) );
 
 /**
 * @name signumf
@@ -1627,7 +1627,7 @@ setReadOnly( special, 'signum', require( '@stdlib/math/base/special/signum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/signumf}
 */
-setReadOnly( special, 'signumf', require( '@stdlib/math/base/special/signumf' ) );
+setReadOnly( special, 'signumf', require( './../../../base/special/signumf' ) );
 
 /**
 * @name sin
@@ -1636,7 +1636,7 @@ setReadOnly( special, 'signumf', require( '@stdlib/math/base/special/signumf' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sin}
 */
-setReadOnly( special, 'sin', require( '@stdlib/math/base/special/sin' ) );
+setReadOnly( special, 'sin', require( './../../../base/special/sin' ) );
 
 /**
 * @name sinc
@@ -1645,7 +1645,7 @@ setReadOnly( special, 'sin', require( '@stdlib/math/base/special/sin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sinc}
 */
-setReadOnly( special, 'sinc', require( '@stdlib/math/base/special/sinc' ) );
+setReadOnly( special, 'sinc', require( './../../../base/special/sinc' ) );
 
 /**
 * @name sincos
@@ -1654,7 +1654,7 @@ setReadOnly( special, 'sinc', require( '@stdlib/math/base/special/sinc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sincos}
 */
-setReadOnly( special, 'sincos', require( '@stdlib/math/base/special/sincos' ) );
+setReadOnly( special, 'sincos', require( './../../../base/special/sincos' ) );
 
 /**
 * @name sincospi
@@ -1663,7 +1663,7 @@ setReadOnly( special, 'sincos', require( '@stdlib/math/base/special/sincos' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sincospi}
 */
-setReadOnly( special, 'sincospi', require( '@stdlib/math/base/special/sincospi' ) );
+setReadOnly( special, 'sincospi', require( './../../../base/special/sincospi' ) );
 
 /**
 * @name sinh
@@ -1672,7 +1672,7 @@ setReadOnly( special, 'sincospi', require( '@stdlib/math/base/special/sincospi' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sinh}
 */
-setReadOnly( special, 'sinh', require( '@stdlib/math/base/special/sinh' ) );
+setReadOnly( special, 'sinh', require( './../../../base/special/sinh' ) );
 
 /**
 * @name sinpi
@@ -1681,7 +1681,7 @@ setReadOnly( special, 'sinh', require( '@stdlib/math/base/special/sinh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sinpi}
 */
-setReadOnly( special, 'sinpi', require( '@stdlib/math/base/special/sinpi' ) );
+setReadOnly( special, 'sinpi', require( './../../../base/special/sinpi' ) );
 
 /**
 * @name spence
@@ -1690,7 +1690,7 @@ setReadOnly( special, 'sinpi', require( '@stdlib/math/base/special/sinpi' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/spence}
 */
-setReadOnly( special, 'spence', require( '@stdlib/math/base/special/spence' ) );
+setReadOnly( special, 'spence', require( './../../../base/special/spence' ) );
 
 /**
 * @name sqrt
@@ -1699,7 +1699,7 @@ setReadOnly( special, 'spence', require( '@stdlib/math/base/special/spence' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sqrt}
 */
-setReadOnly( special, 'sqrt', require( '@stdlib/math/base/special/sqrt' ) );
+setReadOnly( special, 'sqrt', require( './../../../base/special/sqrt' ) );
 
 /**
 * @name sqrt1pm1
@@ -1708,7 +1708,7 @@ setReadOnly( special, 'sqrt', require( '@stdlib/math/base/special/sqrt' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sqrt1pm1}
 */
-setReadOnly( special, 'sqrt1pm1', require( '@stdlib/math/base/special/sqrt1pm1' ) );
+setReadOnly( special, 'sqrt1pm1', require( './../../../base/special/sqrt1pm1' ) );
 
 /**
 * @name sqrtf
@@ -1717,7 +1717,7 @@ setReadOnly( special, 'sqrt1pm1', require( '@stdlib/math/base/special/sqrt1pm1' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/sqrtf}
 */
-setReadOnly( special, 'sqrtf', require( '@stdlib/math/base/special/sqrtf' ) );
+setReadOnly( special, 'sqrtf', require( './../../../base/special/sqrtf' ) );
 
 /**
 * @name tan
@@ -1726,7 +1726,7 @@ setReadOnly( special, 'sqrtf', require( '@stdlib/math/base/special/sqrtf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/tan}
 */
-setReadOnly( special, 'tan', require( '@stdlib/math/base/special/tan' ) );
+setReadOnly( special, 'tan', require( './../../../base/special/tan' ) );
 
 /**
 * @name tanh
@@ -1735,7 +1735,7 @@ setReadOnly( special, 'tan', require( '@stdlib/math/base/special/tan' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/tanh}
 */
-setReadOnly( special, 'tanh', require( '@stdlib/math/base/special/tanh' ) );
+setReadOnly( special, 'tanh', require( './../../../base/special/tanh' ) );
 
 /**
 * @name tribonacci
@@ -1744,7 +1744,7 @@ setReadOnly( special, 'tanh', require( '@stdlib/math/base/special/tanh' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/tribonacci}
 */
-setReadOnly( special, 'tribonacci', require( '@stdlib/math/base/special/tribonacci' ) );
+setReadOnly( special, 'tribonacci', require( './../../../base/special/tribonacci' ) );
 
 /**
 * @name trigamma
@@ -1753,7 +1753,7 @@ setReadOnly( special, 'tribonacci', require( '@stdlib/math/base/special/tribonac
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/trigamma}
 */
-setReadOnly( special, 'trigamma', require( '@stdlib/math/base/special/trigamma' ) );
+setReadOnly( special, 'trigamma', require( './../../../base/special/trigamma' ) );
 
 /**
 * @name trunc
@@ -1762,7 +1762,7 @@ setReadOnly( special, 'trigamma', require( '@stdlib/math/base/special/trigamma' 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/trunc}
 */
-setReadOnly( special, 'trunc', require( '@stdlib/math/base/special/trunc' ) );
+setReadOnly( special, 'trunc', require( './../../../base/special/trunc' ) );
 
 /**
 * @name trunc2
@@ -1771,7 +1771,7 @@ setReadOnly( special, 'trunc', require( '@stdlib/math/base/special/trunc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/trunc2}
 */
-setReadOnly( special, 'trunc2', require( '@stdlib/math/base/special/trunc2' ) );
+setReadOnly( special, 'trunc2', require( './../../../base/special/trunc2' ) );
 
 /**
 * @name trunc10
@@ -1780,7 +1780,7 @@ setReadOnly( special, 'trunc2', require( '@stdlib/math/base/special/trunc2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/trunc10}
 */
-setReadOnly( special, 'trunc10', require( '@stdlib/math/base/special/trunc10' ) );
+setReadOnly( special, 'trunc10', require( './../../../base/special/trunc10' ) );
 
 /**
 * @name truncb
@@ -1789,7 +1789,7 @@ setReadOnly( special, 'trunc10', require( '@stdlib/math/base/special/trunc10' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/truncb}
 */
-setReadOnly( special, 'truncb', require( '@stdlib/math/base/special/truncb' ) );
+setReadOnly( special, 'truncb', require( './../../../base/special/truncb' ) );
 
 /**
 * @name truncf
@@ -1798,7 +1798,7 @@ setReadOnly( special, 'truncb', require( '@stdlib/math/base/special/truncb' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/truncf}
 */
-setReadOnly( special, 'truncf', require( '@stdlib/math/base/special/truncf' ) );
+setReadOnly( special, 'truncf', require( './../../../base/special/truncf' ) );
 
 /**
 * @name truncn
@@ -1807,7 +1807,7 @@ setReadOnly( special, 'truncf', require( '@stdlib/math/base/special/truncf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/truncn}
 */
-setReadOnly( special, 'truncn', require( '@stdlib/math/base/special/truncn' ) );
+setReadOnly( special, 'truncn', require( './../../../base/special/truncn' ) );
 
 /**
 * @name truncsd
@@ -1816,7 +1816,7 @@ setReadOnly( special, 'truncn', require( '@stdlib/math/base/special/truncn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/truncsd}
 */
-setReadOnly( special, 'truncsd', require( '@stdlib/math/base/special/truncsd' ) );
+setReadOnly( special, 'truncsd', require( './../../../base/special/truncsd' ) );
 
 /**
 * @name uimul
@@ -1825,7 +1825,7 @@ setReadOnly( special, 'truncsd', require( '@stdlib/math/base/special/truncsd' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/uimul}
 */
-setReadOnly( special, 'uimul', require( '@stdlib/math/base/special/uimul' ) );
+setReadOnly( special, 'uimul', require( './../../../base/special/uimul' ) );
 
 /**
 * @name uimuldw
@@ -1834,7 +1834,7 @@ setReadOnly( special, 'uimul', require( '@stdlib/math/base/special/uimul' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/uimuldw}
 */
-setReadOnly( special, 'uimuldw', require( '@stdlib/math/base/special/uimuldw' ) );
+setReadOnly( special, 'uimuldw', require( './../../../base/special/uimuldw' ) );
 
 /**
 * @name vercos
@@ -1843,7 +1843,7 @@ setReadOnly( special, 'uimuldw', require( '@stdlib/math/base/special/uimuldw' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/vercos}
 */
-setReadOnly( special, 'vercos', require( '@stdlib/math/base/special/vercos' ) );
+setReadOnly( special, 'vercos', require( './../../../base/special/vercos' ) );
 
 /**
 * @name versin
@@ -1852,7 +1852,7 @@ setReadOnly( special, 'vercos', require( '@stdlib/math/base/special/vercos' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/versin}
 */
-setReadOnly( special, 'versin', require( '@stdlib/math/base/special/versin' ) );
+setReadOnly( special, 'versin', require( './../../../base/special/versin' ) );
 
 /**
 * @name wrap
@@ -1861,7 +1861,7 @@ setReadOnly( special, 'versin', require( '@stdlib/math/base/special/versin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/wrap}
 */
-setReadOnly( special, 'wrap', require( '@stdlib/math/base/special/wrap' ) );
+setReadOnly( special, 'wrap', require( './../../../base/special/wrap' ) );
 
 /**
 * @name xlog1py
@@ -1870,7 +1870,7 @@ setReadOnly( special, 'wrap', require( '@stdlib/math/base/special/wrap' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/xlog1py}
 */
-setReadOnly( special, 'xlog1py', require( '@stdlib/math/base/special/xlog1py' ) );
+setReadOnly( special, 'xlog1py', require( './../../../base/special/xlog1py' ) );
 
 /**
 * @name xlogy
@@ -1879,7 +1879,7 @@ setReadOnly( special, 'xlog1py', require( '@stdlib/math/base/special/xlog1py' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/special/xlogy}
 */
-setReadOnly( special, 'xlogy', require( '@stdlib/math/base/special/xlogy' ) );
+setReadOnly( special, 'xlogy', require( './../../../base/special/xlogy' ) );
 
 
 // EXPORTS //

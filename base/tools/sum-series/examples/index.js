@@ -19,7 +19,7 @@
 'use strict';
 
 var hasGeneratorsSupport = require( '@stdlib/assert/has-generator-support' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
+var log1p = require( './../../../../base/special/log1p' );
 var evil = require( '@stdlib/utils/eval' );
 var sumSeries = require( './../lib' );
 

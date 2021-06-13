@@ -23,10 +23,10 @@
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var tryRequire = require( '@stdlib/utils/try-require' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var floor = require( './../../../../base/special/floor' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var cbrt = require( '@stdlib/math/base/special/cbrt' );
-var cbrtf = require( '@stdlib/math/base/special/cbrtf' );
+var cbrt = require( './../../../../base/special/cbrt' );
+var cbrtf = require( './../../../../base/special/cbrtf' );
 var filledarray = require( '@stdlib/array/filled' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Uint8Array = require( '@stdlib/array/uint8' );

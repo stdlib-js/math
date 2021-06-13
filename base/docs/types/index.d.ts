@@ -21,11 +21,11 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import assert = require( '@stdlib/math/base/assert' );
-import complex = require( '@stdlib/math/base/complex' );
-import special = require( '@stdlib/math/base/special' );
-import tools = require( '@stdlib/math/base/tools' );
-import utils = require( '@stdlib/math/base/utils' );
+import assert = require( './../../../base/assert' );
+import complex = require( './../../../base/complex' );
+import special = require( './../../../base/special' );
+import tools = require( './../../../base/tools' );
+import utils = require( './../../../base/utils' );
 
 /**
 * Interface describing the `base` namespace.

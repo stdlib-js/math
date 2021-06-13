@@ -34,7 +34,7 @@
 
 // MODULES //
 
-var sumSeries = require( '@stdlib/math/base/tools/sum-series' );
+var sumSeries = require( './../../../../base/tools/sum-series' );
 var lowerIncompleteGammaSeries = require( './lower_incomplete_gamma_series.js' );
 
 

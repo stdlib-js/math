@@ -22,8 +22,8 @@
 
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/base/randu' ).factory;
-var abs = require( '@stdlib/math/base/special/abs' );
-var hypot = require( '@stdlib/math/base/special/hypot' );
+var abs = require( './../../../../../base/special/abs' );
+var hypot = require( './../../../../../base/special/hypot' );
 var approx = require( './../lib' );
 
 

@@ -22,8 +22,8 @@
 
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var floor = require( './../../../../base/special/floor' );
+var abs = require( './../../../../base/special/abs' );
 var Float64Array = require( '@stdlib/array/float64' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 

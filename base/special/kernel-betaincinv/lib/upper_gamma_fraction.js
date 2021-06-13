@@ -34,7 +34,7 @@
 
 // MODULES //
 
-var continuedFraction = require( '@stdlib/math/base/tools/continued-fraction' );
+var continuedFraction = require( './../../../../base/tools/continued-fraction' );
 var upperIncompleteGammaFract = require( './upper_incomplete_gamma_fract.js' );
 
 

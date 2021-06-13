@@ -21,14 +21,14 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import continuedFraction = require( '@stdlib/math/base/tools/continued-fraction' );
-import evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-import evalrational = require( '@stdlib/math/base/tools/evalrational' );
-import fibpoly = require( '@stdlib/math/base/tools/fibpoly' );
-import hermitepoly = require( '@stdlib/math/base/tools/hermitepoly' );
-import lucaspoly = require( '@stdlib/math/base/tools/lucaspoly' );
-import normhermitepoly = require( '@stdlib/math/base/tools/normhermitepoly' );
-import sumSeries = require( '@stdlib/math/base/tools/sum-series' );
+import continuedFraction = require( './../../../../base/tools/continued-fraction' );
+import evalpoly = require( './../../../../base/tools/evalpoly' );
+import evalrational = require( './../../../../base/tools/evalrational' );
+import fibpoly = require( './../../../../base/tools/fibpoly' );
+import hermitepoly = require( './../../../../base/tools/hermitepoly' );
+import lucaspoly = require( './../../../../base/tools/lucaspoly' );
+import normhermitepoly = require( './../../../../base/tools/normhermitepoly' );
+import sumSeries = require( './../../../../base/tools/sum-series' );
 
 /**
 * Interface describing the `tools` namespace.

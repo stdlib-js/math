@@ -34,12 +34,12 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var trunc = require( '@stdlib/math/base/special/trunc' );
-var sinpi = require( '@stdlib/math/base/special/sinpi' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var abs = require( './../../../../base/special/abs' );
+var ln = require( './../../../../base/special/ln' );
+var trunc = require( './../../../../base/special/trunc' );
+var sinpi = require( './../../../../base/special/sinpi' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var polyvalA1 = require( './polyval_a1.js' );

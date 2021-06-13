@@ -22,7 +22,7 @@
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var isComposite = require( '@stdlib/math/base/assert/is-composite' );
+var isComposite = require( './../../../../base/assert/is-composite' );
 var validate = require( './validate.js' );
 
 

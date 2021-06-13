@@ -39,10 +39,10 @@
 var FLOAT64_SMALLEST_NORMAL = require( '@stdlib/constants/float64/smallest-normal' );
 var getHighWord = require( '@stdlib/number/float64/base/get-high-word' );
 var setHighWord = require( '@stdlib/number/float64/base/set-high-word' );
-var isinfinite = require( '@stdlib/math/base/assert/is-infinite' );
+var isinfinite = require( './../../../../base/assert/is-infinite' );
 var fromWords = require( '@stdlib/number/float64/base/from-words' );
 var toWords = require( '@stdlib/number/float64/base/to-words' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var polyval = require( './polyval_p.js' );
 
 

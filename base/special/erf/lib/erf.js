@@ -34,8 +34,8 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var exp = require( './../../../../base/special/exp' );
 var setLowWord = require( '@stdlib/number/float64/base/set-low-word' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );

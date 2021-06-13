@@ -21,7 +21,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' );
-var acos = require( '@stdlib/math/base/special/acos' );
+var acos = require( './../../../../base/special/acos' );
 
 
 // MAIN //

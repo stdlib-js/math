@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var abs = require( './../lib/main.js' );
 

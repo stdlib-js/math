@@ -34,9 +34,9 @@
 
 // MODULES //
 
-var powm1 = require( '@stdlib/math/base/special/powm1' );
-var sumSeries = require( '@stdlib/math/base/tools/sum-series' );
-var gamma1pm1 = require( '@stdlib/math/base/special/gamma1pm1' );
+var powm1 = require( './../../../../base/special/powm1' );
+var sumSeries = require( './../../../../base/tools/sum-series' );
+var gamma1pm1 = require( './../../../../base/special/gamma1pm1' );
 var smallGamma2Series = require( './small_gamma2_series.js' );
 
 

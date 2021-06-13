@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var round = require( '@stdlib/math/base/special/round' );
+var round = require( './../../../../base/special/round' );
 
 
 // MAIN //

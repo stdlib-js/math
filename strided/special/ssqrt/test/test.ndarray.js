@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var sqrtf = require( '@stdlib/math/base/special/sqrtf' );
+var sqrtf = require( './../../../../base/special/sqrtf' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var Float32Array = require( '@stdlib/array/float32' );
 var ssqrt = require( './../lib/ndarray.js' );

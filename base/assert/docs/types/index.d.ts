@@ -21,31 +21,31 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import isEvenInt32 = require( '@stdlib/math/base/assert/int32-is-even' );
-import isOddInt32 = require( '@stdlib/math/base/assert/int32-is-odd' );
-import isComposite = require( '@stdlib/math/base/assert/is-composite' );
-import isCoprime = require( '@stdlib/math/base/assert/is-coprime' );
-import isEven = require( '@stdlib/math/base/assert/is-even' );
-import isFinite = require( '@stdlib/math/base/assert/is-finite' );
-import isFinitef = require( '@stdlib/math/base/assert/is-finitef' );
-import isInfinite = require( '@stdlib/math/base/assert/is-infinite' );
-import isInfinitef = require( '@stdlib/math/base/assert/is-infinitef' );
-import isInteger = require( '@stdlib/math/base/assert/is-integer' );
-import isnan = require( '@stdlib/math/base/assert/is-nan' );
-import isnanf = require( '@stdlib/math/base/assert/is-nanf' );
-import isNegativeInteger = require( '@stdlib/math/base/assert/is-negative-integer' );
-import isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-import isNegativeZerof = require( '@stdlib/math/base/assert/is-negative-zerof' );
-import isNonNegativeInteger = require( '@stdlib/math/base/assert/is-nonnegative-integer' );
-import isNonPositiveInteger = require( '@stdlib/math/base/assert/is-nonpositive-integer' );
-import isOdd = require( '@stdlib/math/base/assert/is-odd' );
-import isPositiveInteger = require( '@stdlib/math/base/assert/is-positive-integer' );
-import isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
-import isPositiveZerof = require( '@stdlib/math/base/assert/is-positive-zerof' );
-import isPrime = require( '@stdlib/math/base/assert/is-prime' );
-import isProbability = require( '@stdlib/math/base/assert/is-probability' );
-import isSafeInteger = require( '@stdlib/math/base/assert/is-safe-integer' );
-import isPow2Uint32 = require( '@stdlib/math/base/assert/uint32-is-pow2' );
+import isEvenInt32 = require( './../../../../base/assert/int32-is-even' );
+import isOddInt32 = require( './../../../../base/assert/int32-is-odd' );
+import isComposite = require( './../../../../base/assert/is-composite' );
+import isCoprime = require( './../../../../base/assert/is-coprime' );
+import isEven = require( './../../../../base/assert/is-even' );
+import isFinite = require( './../../../../base/assert/is-finite' );
+import isFinitef = require( './../../../../base/assert/is-finitef' );
+import isInfinite = require( './../../../../base/assert/is-infinite' );
+import isInfinitef = require( './../../../../base/assert/is-infinitef' );
+import isInteger = require( './../../../../base/assert/is-integer' );
+import isnan = require( './../../../../base/assert/is-nan' );
+import isnanf = require( './../../../../base/assert/is-nanf' );
+import isNegativeInteger = require( './../../../../base/assert/is-negative-integer' );
+import isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+import isNegativeZerof = require( './../../../../base/assert/is-negative-zerof' );
+import isNonNegativeInteger = require( './../../../../base/assert/is-nonnegative-integer' );
+import isNonPositiveInteger = require( './../../../../base/assert/is-nonpositive-integer' );
+import isOdd = require( './../../../../base/assert/is-odd' );
+import isPositiveInteger = require( './../../../../base/assert/is-positive-integer' );
+import isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
+import isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
+import isPrime = require( './../../../../base/assert/is-prime' );
+import isProbability = require( './../../../../base/assert/is-probability' );
+import isSafeInteger = require( './../../../../base/assert/is-safe-integer' );
+import isPow2Uint32 = require( './../../../../base/assert/uint32-is-pow2' );
 
 /**
 * Interface describing the `assert` namespace.

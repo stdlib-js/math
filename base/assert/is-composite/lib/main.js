@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isPrime = require( '@stdlib/math/base/assert/is-prime' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
+var isPrime = require( './../../../../base/assert/is-prime' );
+var isInteger = require( './../../../../base/assert/is-integer' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
 

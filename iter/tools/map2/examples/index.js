@@ -20,7 +20,7 @@
 
 var randu = require( '@stdlib/random/iter/randu' );
 var uniform = require( '@stdlib/random/iter/uniform' );
-var copysign = require( '@stdlib/math/base/special/copysign' );
+var copysign = require( './../../../../base/special/copysign' );
 var iterMap2 = require( './../lib' );
 
 // Create seeded iterators for generating pseudorandom numbers:

@@ -25,7 +25,7 @@ var proxyquire = require( 'proxyquire' );
 var randu = require( '@stdlib/random/iter/randu' );
 var map = require( '@stdlib/iter/map' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var sin = require( '@stdlib/math/base/special/sin' );
+var sin = require( './../../../../base/special/sin' );
 var iterMap = require( './../lib' );
 
 

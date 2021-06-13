@@ -43,7 +43,7 @@ var tools = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/continued-fraction}
 */
-setReadOnly( tools, 'continuedFraction', require( '@stdlib/math/base/tools/continued-fraction' ) );
+setReadOnly( tools, 'continuedFraction', require( './../../../base/tools/continued-fraction' ) );
 
 /**
 * @name evalpoly
@@ -52,7 +52,7 @@ setReadOnly( tools, 'continuedFraction', require( '@stdlib/math/base/tools/conti
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/evalpoly}
 */
-setReadOnly( tools, 'evalpoly', require( '@stdlib/math/base/tools/evalpoly' ) );
+setReadOnly( tools, 'evalpoly', require( './../../../base/tools/evalpoly' ) );
 
 /**
 * @name evalrational
@@ -61,7 +61,7 @@ setReadOnly( tools, 'evalpoly', require( '@stdlib/math/base/tools/evalpoly' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/evalrational}
 */
-setReadOnly( tools, 'evalrational', require( '@stdlib/math/base/tools/evalrational' ) );
+setReadOnly( tools, 'evalrational', require( './../../../base/tools/evalrational' ) );
 
 /**
 * @name fibpoly
@@ -70,7 +70,7 @@ setReadOnly( tools, 'evalrational', require( '@stdlib/math/base/tools/evalration
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/fibpoly}
 */
-setReadOnly( tools, 'fibpoly', require( '@stdlib/math/base/tools/fibpoly' ) );
+setReadOnly( tools, 'fibpoly', require( './../../../base/tools/fibpoly' ) );
 
 /**
 * @name hermitepoly
@@ -79,7 +79,7 @@ setReadOnly( tools, 'fibpoly', require( '@stdlib/math/base/tools/fibpoly' ) );
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/hermitepoly}
 */
-setReadOnly( tools, 'hermitepoly', require( '@stdlib/math/base/tools/hermitepoly' ) );
+setReadOnly( tools, 'hermitepoly', require( './../../../base/tools/hermitepoly' ) );
 
 /**
 * @name lucaspoly
@@ -88,7 +88,7 @@ setReadOnly( tools, 'hermitepoly', require( '@stdlib/math/base/tools/hermitepoly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/lucaspoly}
 */
-setReadOnly( tools, 'lucaspoly', require( '@stdlib/math/base/tools/lucaspoly' ) );
+setReadOnly( tools, 'lucaspoly', require( './../../../base/tools/lucaspoly' ) );
 
 /**
 * @name normhermitepoly
@@ -97,7 +97,7 @@ setReadOnly( tools, 'lucaspoly', require( '@stdlib/math/base/tools/lucaspoly' ) 
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/normhermitepoly}
 */
-setReadOnly( tools, 'normhermitepoly', require( '@stdlib/math/base/tools/normhermitepoly' ) );
+setReadOnly( tools, 'normhermitepoly', require( './../../../base/tools/normhermitepoly' ) );
 
 /**
 * @name sumSeries
@@ -106,7 +106,7 @@ setReadOnly( tools, 'normhermitepoly', require( '@stdlib/math/base/tools/normher
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/sum-series}
 */
-setReadOnly( tools, 'sumSeries', require( '@stdlib/math/base/tools/sum-series' ) );
+setReadOnly( tools, 'sumSeries', require( './../../../base/tools/sum-series' ) );
 
 
 // EXPORTS //

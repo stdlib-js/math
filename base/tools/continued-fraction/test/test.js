@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var detectGeneratorSupport = require( '@stdlib/assert/has-generator-support' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var abs = require( './../../../../base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var continuedFraction = require( './../lib/' );
 var continuedFractionBasic = proxyquire( './../lib', {

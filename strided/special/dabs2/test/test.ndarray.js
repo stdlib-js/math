@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var abs2 = require( '@stdlib/math/base/special/abs2' );
+var abs2 = require( './../../../../base/special/abs2' );
 var Float64Array = require( '@stdlib/array/float64' );
 var dabs2 = require( './../lib/ndarray.js' );
 

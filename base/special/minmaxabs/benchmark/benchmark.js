@@ -23,8 +23,8 @@
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var isArray = require( '@stdlib/assert/is-array' );
-var minabs = require( '@stdlib/math/base/special/minabs' );
-var maxabs = require( '@stdlib/math/base/special/maxabs' );
+var minabs = require( './../../../../base/special/minabs' );
+var maxabs = require( './../../../../base/special/maxabs' );
 var pkg = require( './../package.json' ).name;
 var minmaxabs = require( './../lib' );
 

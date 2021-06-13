@@ -33,8 +33,8 @@
 
 // MODULES //
 
-var floor = require( '@stdlib/math/base/special/floor' );
-var sinpi = require( '@stdlib/math/base/special/sinpi' );
+var floor = require( './../../../../base/special/floor' );
+var sinpi = require( './../../../../base/special/sinpi' );
 var PI_SQUARED = require( '@stdlib/constants/float64/pi-squared' );
 var rateval12 = require( './rational_p12q12.js' );
 var rateval24 = require( './rational_p24q24.js' );

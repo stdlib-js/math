@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var round = require( '@stdlib/math/base/special/round' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var ln = require( './../../../../base/special/ln' );
+var round = require( './../../../../base/special/round' );
 var PHI = require( '@stdlib/constants/float64/phi' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 

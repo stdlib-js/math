@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/math/special/abs}
 */
-setReadOnly( ns, 'abs', require( '@stdlib/math/special/abs' ) );
+setReadOnly( ns, 'abs', require( './../../special/abs' ) );
 
 
 // EXPORTS //

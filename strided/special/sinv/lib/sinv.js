@@ -21,7 +21,7 @@
 // MODULES //
 
 var smap = require( '@stdlib/strided/base/smap' );
-var invf = require( '@stdlib/math/base/special/invf' );
+var invf = require( './../../../../base/special/invf' );
 
 
 // MAIN //

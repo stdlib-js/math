@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var randu = require( '@stdlib/random/iter/randu' );
-var diracDelta = require( '@stdlib/math/base/special/dirac-delta' );
+var diracDelta = require( './../../../../base/special/dirac-delta' );
 var linspace = require( '@stdlib/iter/linspace' );
 var iterDiracDelta = require( './../lib' );
 

@@ -21,8 +21,8 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var factorial = require( './../../../../base/special/factorial' );
+var pow = require( './../../../../base/special/pow' );
 var atinfinityplus = require( './../lib/atinfinityplus.js' );
 
 

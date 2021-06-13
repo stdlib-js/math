@@ -21,7 +21,7 @@
 // MODULES //
 
 var smskmap = require( '@stdlib/strided/base/smskmap' ).ndarray;
-var invf = require( '@stdlib/math/base/special/invf' );
+var invf = require( './../../../../base/special/invf' );
 
 
 // MAIN //

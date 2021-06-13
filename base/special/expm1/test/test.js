@@ -21,12 +21,12 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
+var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
+var abs = require( './../../../../base/special/abs' );
+var pow = require( './../../../../base/special/pow' );
+var exp = require( './../../../../base/special/exp' );
 var incrspace = require( '@stdlib/array/incrspace' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );

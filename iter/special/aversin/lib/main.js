@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var aversin = require( '@stdlib/math/base/special/aversin' );
+var iterMap = require( './../../../../iter/tools/map' );
+var aversin = require( './../../../../base/special/aversin' );
 
 
 // MAIN //

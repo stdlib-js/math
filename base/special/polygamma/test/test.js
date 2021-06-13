@@ -21,12 +21,12 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var factorial = require( '@stdlib/math/base/special/factorial' );
+var factorial = require( './../../../../base/special/factorial' );
 var incrspace = require( '@stdlib/array/incrspace' );
 var isnan = require( '@stdlib/assert/is-nan' );
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
-var zeta = require( '@stdlib/math/base/special/riemann-zeta' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var ldexp = require( './../../../../base/special/ldexp' );
+var zeta = require( './../../../../base/special/riemann-zeta' );
+var abs = require( './../../../../base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var polygamma = require( './../lib' );

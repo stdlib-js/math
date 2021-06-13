@@ -23,16 +23,16 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
-var gammaln = require( '@stdlib/math/base/special/gammaln' );
-var erfcinv = require( '@stdlib/math/base/special/erfcinv' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var min = require( '@stdlib/math/base/special/min' );
-var pow = require( '@stdlib/math/base/special/pow' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var evalpoly = require( './../../../../base/tools/evalpoly' );
+var gammaln = require( './../../../../base/special/gammaln' );
+var erfcinv = require( './../../../../base/special/erfcinv' );
+var gamma = require( './../../../../base/special/gamma' );
+var sqrt = require( './../../../../base/special/sqrt' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var min = require( './../../../../base/special/min' );
+var pow = require( './../../../../base/special/pow' );
+var ln = require( './../../../../base/special/ln' );
 var SQRT_TWO_PI = require( '@stdlib/constants/float64/sqrt-two-pi' );
 var MAX_FLOAT32 = require( '@stdlib/constants/float32/max' );
 var TWO_PI = require( '@stdlib/constants/float64/two-pi' );

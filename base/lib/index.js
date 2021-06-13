@@ -43,7 +43,7 @@ var ns = {};
 * @type {Namespace}
 * @see {@link module:@stdlib/math/base/assert}
 */
-setReadOnly( ns, 'assert', require( '@stdlib/math/base/assert' ) );
+setReadOnly( ns, 'assert', require( './../../base/assert' ) );
 
 /**
 * @name ops
@@ -52,7 +52,7 @@ setReadOnly( ns, 'assert', require( '@stdlib/math/base/assert' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/math/base/ops}
 */
-setReadOnly( ns, 'ops', require( '@stdlib/math/base/ops' ) );
+setReadOnly( ns, 'ops', require( './../../base/ops' ) );
 
 /**
 * @name special
@@ -61,7 +61,7 @@ setReadOnly( ns, 'ops', require( '@stdlib/math/base/ops' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/math/base/special}
 */
-setReadOnly( ns, 'special', require( '@stdlib/math/base/special' ) );
+setReadOnly( ns, 'special', require( './../../base/special' ) );
 
 /**
 * @name tools
@@ -70,7 +70,7 @@ setReadOnly( ns, 'special', require( '@stdlib/math/base/special' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/math/base/tools}
 */
-setReadOnly( ns, 'tools', require( '@stdlib/math/base/tools' ) );
+setReadOnly( ns, 'tools', require( './../../base/tools' ) );
 
 /**
 * @name utils
@@ -79,7 +79,7 @@ setReadOnly( ns, 'tools', require( '@stdlib/math/base/tools' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/math/base/utils}
 */
-setReadOnly( ns, 'utils', require( '@stdlib/math/base/utils' ) );
+setReadOnly( ns, 'utils', require( './../../base/utils' ) );
 
 
 // EXPORTS //

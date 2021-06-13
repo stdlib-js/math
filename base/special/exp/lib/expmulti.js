@@ -34,7 +34,7 @@
 
 // MODULES //
 
-var ldexp = require( '@stdlib/math/base/special/ldexp' );
+var ldexp = require( './../../../../base/special/ldexp' );
 var polyvalP = require( './polyval_p.js' );
 
 

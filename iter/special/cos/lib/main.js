@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var iterMap = require( '@stdlib/math/iter/tools/map' );
-var cos = require( '@stdlib/math/base/special/cos' );
+var iterMap = require( './../../../../iter/tools/map' );
+var cos = require( './../../../../base/special/cos' );
 
 
 // MAIN //

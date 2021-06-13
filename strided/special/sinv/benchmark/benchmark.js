@@ -22,8 +22,8 @@
 
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var pow = require( './../../../../base/special/pow' );
 var Float32Array = require( '@stdlib/array/float32' );
 var pkg = require( './../package.json' ).name;
 var sinv = require( './../lib/main.js' );

@@ -36,12 +36,12 @@
 
 // MODULES //
 
-var lanczosSum = require( '@stdlib/math/base/special/gamma-lanczos-sum' );
-var gamma = require( '@stdlib/math/base/special/gamma' );
-var log1p = require( '@stdlib/math/base/special/log1p' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var exp = require( '@stdlib/math/base/special/exp' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var lanczosSum = require( './../../../../base/special/gamma-lanczos-sum' );
+var gamma = require( './../../../../base/special/gamma' );
+var log1p = require( './../../../../base/special/log1p' );
+var abs = require( './../../../../base/special/abs' );
+var exp = require( './../../../../base/special/exp' );
+var pow = require( './../../../../base/special/pow' );
 var EPSILON = require( '@stdlib/constants/float64/eps' );
 var E = require( '@stdlib/constants/float64/e' );
 var G = require( '@stdlib/constants/float64/gamma-lanczos-g' );

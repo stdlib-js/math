@@ -22,10 +22,10 @@
 
 // MODULES //
 
-var abs = require( '@stdlib/math/base/special/abs' );
-var absf = require( '@stdlib/math/base/special/absf' );
-var labs = require( '@stdlib/math/base/special/labs' );
-var identity = require( '@stdlib/math/base/special/identity' );
+var abs = require( './../../../../base/special/abs' );
+var absf = require( './../../../../base/special/absf' );
+var labs = require( './../../../../base/special/labs' );
+var identity = require( './../../../../base/special/identity' );
 
 
 // MAIN //

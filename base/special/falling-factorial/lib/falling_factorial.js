@@ -33,12 +33,12 @@
 
 // MODULES //
 
-var isNonNegativeInteger = require( '@stdlib/math/base/assert/is-nonnegative-integer' );
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var gammaDeltaRatio = require( '@stdlib/math/base/special/gamma-delta-ratio' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var isNonNegativeInteger = require( './../../../../base/assert/is-nonnegative-integer' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var gammaDeltaRatio = require( './../../../../base/special/gamma-delta-ratio' );
+var floor = require( './../../../../base/special/floor' );
+var abs = require( './../../../../base/special/abs' );
 var FLOAT64_MAX = require( '@stdlib/constants/float64/max' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 

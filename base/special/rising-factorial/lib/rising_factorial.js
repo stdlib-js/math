@@ -33,10 +33,10 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/math/base/assert/is-integer' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var gammaDeltaRatio = require( '@stdlib/math/base/special/gamma-delta-ratio' );
-var fallingFactorial = require( '@stdlib/math/base/special/falling-factorial' );
+var isInteger = require( './../../../../base/assert/is-integer' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var gammaDeltaRatio = require( './../../../../base/special/gamma-delta-ratio' );
+var fallingFactorial = require( './../../../../base/special/falling-factorial' );
 
 
 // MAIN //

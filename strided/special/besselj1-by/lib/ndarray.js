@@ -23,7 +23,7 @@
 // MODULES //
 
 var mapBy = require( '@stdlib/strided/base/map-by' ).ndarray;
-var besselj1 = require( '@stdlib/math/base/special/besselj1' );
+var besselj1 = require( './../../../../base/special/besselj1' );
 
 
 // MAIN //

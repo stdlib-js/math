@@ -33,7 +33,7 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var FLOAT32_SMALLEST = require( '@stdlib/constants/float32/smallest-normal' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var compute = require( './compute.js' );

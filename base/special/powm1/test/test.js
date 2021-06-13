@@ -21,11 +21,11 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var isnan = require( './../../../../base/assert/is-nan' );
 var randu = require( '@stdlib/random/base/randu' );
-var abs = require( '@stdlib/math/base/special/abs' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var ln = require( '@stdlib/math/base/special/ln' );
+var abs = require( './../../../../base/special/abs' );
+var expm1 = require( './../../../../base/special/expm1' );
+var ln = require( './../../../../base/special/ln' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var powm1 = require( './../lib' );
 

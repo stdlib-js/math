@@ -19,8 +19,8 @@
 'use strict';
 
 var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
-var pow = require( '@stdlib/math/base/special/pow' );
+var round = require( './../../../../base/special/round' );
+var pow = require( './../../../../base/special/pow' );
 var floorb = require( './../lib' );
 
 var x;
