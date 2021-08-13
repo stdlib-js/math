@@ -22,7 +22,7 @@
 /* tslint:disable:max-file-line-count */
 
 import assert = require( './../../../base/assert' );
-import complex = require( './../../../base/complex' );
+import ops = require( './../../../base/ops' );
 import special = require( './../../../base/special' );
 import tools = require( './../../../base/tools' );
 import utils = require( './../../../base/utils' );
@@ -37,9 +37,9 @@ interface Namespace {
 	assert: typeof assert;
 
 	/**
-	* Standard library base complex number math functions.
+	* Standard library base math operators.
 	*/
-	complex: typeof complex;
+	ops: typeof ops;
 
 	/**
 	* Standard library base special math functions.
