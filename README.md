@@ -58,6 +58,9 @@ The namespace contains the following sub-namespaces:
 <div class="namespace-toc">
 
 -   <span class="signature">[`base`][@stdlib/math/base]</span><span class="delimiter">: </span><span class="description">standard library math base implementations.</span>
+-   <span class="signature">[`iter`][@stdlib/math/iter]</span><span class="delimiter">: </span><span class="description">standard library math iterators.</span>
+-   <span class="signature">[`special`][@stdlib/math/special]</span><span class="delimiter">: </span><span class="description">standard library special math functions.</span>
+-   <span class="signature">[`strided`][@stdlib/math/strided]</span><span class="delimiter">: </span><span class="description">standard library strided math functions.</span>
 
 </div>
 
@@ -144,6 +147,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/math/base]: https://github.com/stdlib-js/math/tree/main/base
+
+[@stdlib/math/iter]: https://github.com/stdlib-js/math/tree/main/iter
+
+[@stdlib/math/special]: https://github.com/stdlib-js/math/tree/main/special
+
+[@stdlib/math/strided]: https://github.com/stdlib-js/math/tree/main/strided
 
 <!-- </toc-links> -->
 
