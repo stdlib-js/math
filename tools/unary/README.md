@@ -316,9 +316,9 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="links">
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
 </section>
 
