@@ -36,14 +36,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert": "github:stdlib-js/assert",
-    "@stdlib/constants": "github:stdlib-js/constants",
-    "@stdlib/ndarray": "github:stdlib-js/ndarray",
-    "@stdlib/number": "github:stdlib-js/number",
-    "@stdlib/strided": "github:stdlib-js/strided",
-    "@stdlib/symbol": "github:stdlib-js/symbol",
-    "@stdlib/types": "github:stdlib-js/types",
-    "@stdlib/utils": "github:stdlib-js/utils",
+    "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/constants": "github:stdlib-js/constants#main",
+    "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
+    "@stdlib/number": "github:stdlib-js/number#main",
+    "@stdlib/strided": "github:stdlib-js/strided#main",
+    "@stdlib/symbol": "github:stdlib-js/symbol#main",
+    "@stdlib/types": "github:stdlib-js/types#main",
+    "@stdlib/utils": "github:stdlib-js/utils#main",
     "debug": "^2.6.9"
   },
   "devDependencies": {
