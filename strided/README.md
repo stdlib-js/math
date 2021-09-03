@@ -43,6 +43,12 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`special`][@stdlib/math/strided/special]</span><span class="delimiter">: </span><span class="description">standard library strided array special math functions.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -71,6 +77,8 @@ console.log( objectKeys( ns ) );
 <section class="links">
 
 <!-- <toc-links> -->
+
+[@stdlib/math/strided/special]: https://github.com/stdlib-js/math/tree/main/strided/special
 
 <!-- </toc-links> -->
 
