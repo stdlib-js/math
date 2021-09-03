@@ -63,6 +63,15 @@ setReadOnly( ns, 'sequences', require( './../../iter/sequences' ) );
 */
 setReadOnly( ns, 'special', require( './../../iter/special' ) );
 
+/**
+* @name tools
+* @memberof ns
+* @readonly
+* @type {Namespace}
+* @see {@link module:@stdlib/math/iter/tools}
+*/
+setReadOnly( ns, 'tools', require( './../../iter/tools' ) );
+
 
 // EXPORTS //
 
