@@ -100,9 +100,40 @@ bool = isPositiveInteger( NaN );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/assert/is-integer`][@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-integer`][@stdlib/math/base/assert/is-integer
+-   [`@stdlib/math/base/assert/is-negative-integer`][@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-negative-integer`][@stdlib/math/base/assert/is-negative-integer
+-   [`@stdlib/math/base/assert/is-nonnegative-integer`][@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-nonnegative-integer`][@stdlib/math/base/assert/is-nonnegative-integer
+-   [`@stdlib/math/base/assert/is-nonpositive-integer`][@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-nonpositive-integer`][@stdlib/math/base/assert/is-nonpositive-integer
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-integer
+
+[@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-negative-integer
+
+[@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-nonnegative-integer
+
+[@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math/tree/main/base/assert/is-nonpositive-integer
+
+<!-- </related-links> -->
 
 </section>
 

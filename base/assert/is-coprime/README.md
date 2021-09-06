@@ -83,9 +83,37 @@ bool = isCoprime( NaN, NaN );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/assert/is-composite`][@stdlib/math/base/assert/is-composite]: https://github.com/stdlib-js/math/tree/main/base/assert/is-composite`][@stdlib/math/base/assert/is-composite
+-   [`@stdlib/math/base/assert/is-prime`][@stdlib/math/base/assert/is-prime]: https://github.com/stdlib-js/math/tree/main/base/assert/is-prime`][@stdlib/math/base/assert/is-prime
+-   [`@stdlib/math/base/special/gcd`][@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math/tree/main/base/special/gcd`][@stdlib/math/base/special/gcd
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [coprime-integers]: https://en.wikipedia.org/wiki/Coprime_integers
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/assert/is-composite]: https://github.com/stdlib-js/math/tree/main/base/assert/is-composite
+
+[@stdlib/math/base/assert/is-prime]: https://github.com/stdlib-js/math/tree/main/base/assert/is-prime
+
+[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math/tree/main/base/special/gcd
+
+<!-- </related-links> -->
 
 </section>
 

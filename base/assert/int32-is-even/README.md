@@ -81,7 +81,32 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/assert/is-even`][@stdlib/math/base/assert/is-even]: https://github.com/stdlib-js/math/tree/main/base/assert/is-even`][@stdlib/math/base/assert/is-even
+-   [`@stdlib/math/base/assert/int32-is-odd`][@stdlib/math/base/assert/int32-is-odd]: https://github.com/stdlib-js/math/tree/main/base/assert/int32-is-odd`][@stdlib/math/base/assert/int32-is-odd
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/assert/is-even]: https://github.com/stdlib-js/math/tree/main/base/assert/is-even
+
+[@stdlib/math/base/assert/int32-is-odd]: https://github.com/stdlib-js/math/tree/main/base/assert/int32-is-odd
+
+<!-- </related-links> -->
 
 </section>
 
