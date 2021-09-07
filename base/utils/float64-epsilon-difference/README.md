@@ -165,6 +165,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference
+-   [`@stdlib/math/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference
+
 </section>
 
 <!-- /.related -->
@@ -179,9 +186,13 @@ for ( i = 0; i < 100; i++ ) {
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math/tree/main/base/special/abs
 
+<!-- <related-links> -->
+
 [@stdlib/math/base/utils/absolute-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/absolute-difference
 
 [@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/relative-difference
+
+<!-- </related-links> -->
 
 </section>
 

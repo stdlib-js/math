@@ -118,6 +118,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference
+-   [`@stdlib/math/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference
+
 </section>
 
 <!-- /.related -->
@@ -127,6 +134,14 @@ for ( i = 0; i < 100; i++ ) {
 <section class="links">
 
 [absolute-difference]: https://en.wikipedia.org/wiki/Absolute_difference
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/relative-difference
+
+[@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/float64-epsilon-difference
+
+<!-- </related-links> -->
 
 </section>
 

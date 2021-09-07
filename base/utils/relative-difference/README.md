@@ -229,6 +229,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference
+-   [`@stdlib/math/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference
+
 </section>
 
 <!-- /.related -->
@@ -239,9 +246,15 @@ for ( i = 0; i < 100; i++ ) {
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math/tree/main/base/special/abs
 
+[relative-difference]: https://en.wikipedia.org/wiki/Relative_change_and_difference
+
+<!-- <related-links> -->
+
 [@stdlib/math/base/utils/absolute-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/absolute-difference
 
-[relative-difference]: https://en.wikipedia.org/wiki/Relative_change_and_difference
+[@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/float64-epsilon-difference
+
+<!-- </related-links> -->
 
 </section>
 
