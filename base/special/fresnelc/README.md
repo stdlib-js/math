@@ -100,6 +100,13 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/fresnel`][@stdlib/math/base/special/fresnel]: compute the Fresnel integrals S(x) and C(x).
+-   [`@stdlib/math/base/special/fresnels`][@stdlib/math/base/special/fresnels]: compute the Fresnel integral S(x).
+
 </section>
 
 <!-- /.related -->
@@ -109,6 +116,14 @@ for ( i = 0; i < x.length; i++ ) {
 <section class="links">
 
 [fresnel-integral]: https://en.wikipedia.org/wiki/Fresnel_integral
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/fresnel]: https://github.com/stdlib-js/math/tree/main/base/special/fresnel
+
+[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math/tree/main/base/special/fresnels
+
+<!-- </related-links> -->
 
 </section>
 

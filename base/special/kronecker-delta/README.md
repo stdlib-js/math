@@ -184,6 +184,12 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/dirac-delta`][@stdlib/math/base/special/dirac-delta]: evaluate the Dirac delta function.
+
 </section>
 
 <!-- /.related -->
@@ -193,6 +199,12 @@ int main() {
 <section class="links">
 
 [kronecker-delta]: https://en.wikipedia.org/wiki/Kronecker_delta
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math/tree/main/base/special/dirac-delta
+
+<!-- </related-links> -->
 
 </section>
 

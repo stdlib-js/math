@@ -269,6 +269,13 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/strided/special/dinv`][@stdlib/math/strided/special/dinv]: compute the multiplicative inverse for each element in a double-precision floating-point strided array.
+-   [`@stdlib/math/strided/special/inv`][@stdlib/math/strided/special/inv]: compute the multiplicative inverse for each element in a strided array.
+
 </section>
 
 <!-- /.related -->
@@ -280,6 +287,14 @@ int main() {
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [@stdlib/math/base/special/invf]: https://github.com/stdlib-js/math/tree/main/base/special/invf
+
+<!-- <related-links> -->
+
+[@stdlib/math/strided/special/dinv]: https://github.com/stdlib-js/math/tree/main/strided/special/dinv
+
+[@stdlib/math/strided/special/inv]: https://github.com/stdlib-js/math/tree/main/strided/special/inv
+
+<!-- </related-links> -->
 
 </section>
 

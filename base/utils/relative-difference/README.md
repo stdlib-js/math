@@ -233,8 +233,8 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   [`@stdlib/math/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference
--   [`@stdlib/math/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference
+-   [`@stdlib/math/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference]: compute the absolute difference of two real numbers.
+-   [`@stdlib/math/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference]: compute the relative difference of two real numbers in units of double-precision floating-point epsilon.
 
 </section>
 

@@ -132,6 +132,12 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/dirac-delta`][@stdlib/math/base/special/dirac-delta]: evaluate the Dirac delta function.
+
 </section>
 
 <!-- /.related -->
@@ -142,7 +148,11 @@ while ( true ) {
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math/tree/main/base/special/dirac-delta
+
+<!-- </related-links> -->
 
 </section>
 

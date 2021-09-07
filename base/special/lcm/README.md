@@ -134,6 +134,12 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/gcd`][@stdlib/math/base/special/gcd]: compute the greatest common divisor (gcd).
+
 </section>
 
 <!-- /.related -->
@@ -143,6 +149,12 @@ for ( i = 0; i < 100; i++ ) {
 <section class="links">
 
 [lcm]: https://en.wikipedia.org/wiki/Least_common_multiple
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math/tree/main/base/special/gcd
+
+<!-- </related-links> -->
 
 </section>
 

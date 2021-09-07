@@ -78,6 +78,12 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/cos`][@stdlib/math/base/special/cos]: compute the cosine of a number.
+
 </section>
 
 <!-- /.related -->
@@ -86,9 +92,13 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="links">
 
+[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi
+
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math/tree/main/base/special/cos
 
-[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi
+<!-- </related-links> -->
 
 </section>
 

@@ -188,6 +188,12 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/heaviside`][@stdlib/math/base/special/heaviside]: evaluate the Heaviside function.
+
 </section>
 
 <!-- /.related -->
@@ -197,6 +203,12 @@ int main() {
 <section class="links">
 
 [ramp-function]: https://en.wikipedia.org/wiki/Ramp_function
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/heaviside]: https://github.com/stdlib-js/math/tree/main/base/special/heaviside
+
+<!-- </related-links> -->
 
 </section>
 

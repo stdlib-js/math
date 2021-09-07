@@ -97,6 +97,12 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/sin`][@stdlib/math/base/special/sin]: compute the sine of a number.
+
 </section>
 
 <!-- /.related -->
@@ -106,6 +112,12 @@ for ( i = 0; i < x.length; i++ ) {
 <section class="links">
 
 [sinc]: https://en.wikipedia.org/wiki/Sinc_function
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math/tree/main/base/special/sin
+
+<!-- </related-links> -->
 
 </section>
 

@@ -82,7 +82,7 @@ bool = isInfinite( NaN );
 
 ## See Also
 
--   [`@stdlib/math/base/assert/is-finite`][@stdlib/math/base/assert/is-finite]: https://github.com/stdlib-js/math/tree/main/base/assert/is-finite`][@stdlib/math/base/assert/is-finite
+-   [`@stdlib/math/base/assert/is-finite`][@stdlib/math/base/assert/is-finite]: test if a double-precision floating-point numeric value is finite.
 
 </section>
 

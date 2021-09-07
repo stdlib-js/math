@@ -154,6 +154,14 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/iter/sequences/cubes`][@stdlib/math/iter/sequences/cubes]: create an iterator which generates a sequence of cubes.
+-   [`@stdlib/math/iter/sequences/fourth-powers`][@stdlib/math/iter/sequences/fourth-powers]: create an iterator which generates a sequence of fourth powers.
+-   [`@stdlib/math/iter/sequences/squares`][@stdlib/math/iter/sequences/squares]: create an iterator which generates a sequence of squares.
+
 </section>
 
 <!-- /.related -->
@@ -163,6 +171,16 @@ while ( true ) {
 <section class="links">
 
 [oeis-a000584]: https://oeis.org/A000584
+
+<!-- <related-links> -->
+
+[@stdlib/math/iter/sequences/cubes]: https://github.com/stdlib-js/math/tree/main/iter/sequences/cubes
+
+[@stdlib/math/iter/sequences/fourth-powers]: https://github.com/stdlib-js/math/tree/main/iter/sequences/fourth-powers
+
+[@stdlib/math/iter/sequences/squares]: https://github.com/stdlib-js/math/tree/main/iter/sequences/squares
+
+<!-- </related-links> -->
 
 </section>
 

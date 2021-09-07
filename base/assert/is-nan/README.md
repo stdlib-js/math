@@ -71,7 +71,7 @@ bool = isnan( 5.0 );
 
 ## See Also
 
--   [`@stdlib/math/base/assert/is-nanf`][@stdlib/math/base/assert/is-nanf]: https://github.com/stdlib-js/math/tree/main/base/assert/is-nanf`][@stdlib/math/base/assert/is-nanf
+-   [`@stdlib/math/base/assert/is-nanf`][@stdlib/math/base/assert/is-nanf]: test if a single-precision floating-point numeric value is NaN.
 
 </section>
 

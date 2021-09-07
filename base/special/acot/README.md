@@ -72,6 +72,13 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/acoth`][@stdlib/math/base/special/acoth]: compute the inverse hyperbolic cotangent.
+-   [`@stdlib/math/base/special/atan`][@stdlib/math/base/special/atan]: compute the arctangent of a number.
+
 </section>
 
 <!-- /.related -->
@@ -81,6 +88,14 @@ for ( i = 0; i < x.length; i++ ) {
 <section class="links">
 
 [arccotangent]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math/tree/main/base/special/acoth
+
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math/tree/main/base/special/atan
+
+<!-- </related-links> -->
 
 </section>
 

@@ -279,6 +279,14 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/strided/special/abs`][@stdlib/math/strided/special/abs]: compute the absolute value for each element in a strided array.
+-   [`@stdlib/math/strided/special/dabs2`][@stdlib/math/strided/special/dabs2]: compute the squared absolute value for each element in a double-precision floating-point strided array.
+-   [`@stdlib/math/strided/special/sabs`][@stdlib/math/strided/special/sabs]: compute the absolute value for each element in a single-precision floating-point strided array.
+
 </section>
 
 <!-- /.related -->
@@ -290,6 +298,16 @@ int main() {
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math/tree/main/base/special/abs
+
+<!-- <related-links> -->
+
+[@stdlib/math/strided/special/abs]: https://github.com/stdlib-js/math/tree/main/strided/special/abs
+
+[@stdlib/math/strided/special/dabs2]: https://github.com/stdlib-js/math/tree/main/strided/special/dabs2
+
+[@stdlib/math/strided/special/sabs]: https://github.com/stdlib-js/math/tree/main/strided/special/sabs
+
+<!-- </related-links> -->
 
 </section>
 

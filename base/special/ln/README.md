@@ -87,6 +87,15 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/exp`][@stdlib/math/base/special/exp]: natural exponential function.
+-   [`@stdlib/math/base/special/log10`][@stdlib/math/base/special/log10]: common logarithm (base ten).
+-   [`@stdlib/math/base/special/log1p`][@stdlib/math/base/special/log1p]: evaluate the natural logarithm of 1+x.
+-   [`@stdlib/math/base/special/log2`][@stdlib/math/base/special/log2]: binary logarithm (base 2).
+
 </section>
 
 <!-- /.related -->
@@ -96,6 +105,18 @@ for ( i = 0; i < 100; i++ ) {
 <section class="links">
 
 [natural-logarithm]: https://en.wikipedia.org/wiki/Natural_logarithm
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math/tree/main/base/special/exp
+
+[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math/tree/main/base/special/log10
+
+[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math/tree/main/base/special/log1p
+
+[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math/tree/main/base/special/log2
+
+<!-- </related-links> -->
 
 </section>
 

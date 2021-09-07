@@ -153,6 +153,12 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/factorial`][@stdlib/math/base/special/factorial]: evaluate a factorial.
+
 </section>
 
 <!-- /.related -->
@@ -166,6 +172,12 @@ for ( i = 0; i < x.length; i++ ) {
 [factorial-function]: https://en.wikipedia.org/wiki/Factorial
 
 [empty-product]: https://en.wikipedia.org/wiki/Empty_product
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math/tree/main/base/special/factorial
+
+<!-- </related-links> -->
 
 </section>
 

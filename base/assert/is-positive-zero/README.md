@@ -83,7 +83,7 @@ bool = isPositiveZero( NaN );
 
 ## See Also
 
--   [`@stdlib/math/base/assert/is-negative-zero`][@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math/tree/main/base/assert/is-negative-zero`][@stdlib/math/base/assert/is-negative-zero
+-   [`@stdlib/math/base/assert/is-negative-zero`][@stdlib/math/base/assert/is-negative-zero]: test if a double-precision floating-point numeric value is negative zero.
 
 </section>
 

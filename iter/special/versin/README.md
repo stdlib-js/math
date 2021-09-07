@@ -129,6 +129,15 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/versin`][@stdlib/math/base/special/versin]: compute the versed sine.
+-   [`@stdlib/math/iter/special/cos`][@stdlib/math/iter/special/cos]: create an iterator which computes the cosine of each iterated value.
+-   [`@stdlib/math/iter/special/sin`][@stdlib/math/iter/special/sin]: create an iterator which computes the sine of each iterated value.
+-   [`@stdlib/math/iter/special/vercos`][@stdlib/math/iter/special/vercos]: create an iterator which computes the versed cosine for each iterated value.
+
 </section>
 
 <!-- /.related -->
@@ -139,7 +148,17 @@ while ( true ) {
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math/tree/main/base/special/versin
+
+[@stdlib/math/iter/special/cos]: https://github.com/stdlib-js/math/tree/main/iter/special/cos
+
+[@stdlib/math/iter/special/sin]: https://github.com/stdlib-js/math/tree/main/iter/special/sin
+
+[@stdlib/math/iter/special/vercos]: https://github.com/stdlib-js/math/tree/main/iter/special/vercos
+
+<!-- </related-links> -->
 
 </section>
 

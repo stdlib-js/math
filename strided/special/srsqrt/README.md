@@ -269,6 +269,14 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/strided/special/drsqrt`][@stdlib/math/strided/special/drsqrt]: compute the reciprocal square root for each element in a double-precision floating-point strided array.
+-   [`@stdlib/math/strided/special/rsqrt`][@stdlib/math/strided/special/rsqrt]: compute the reciprocal square root for each element in a strided array.
+-   [`@stdlib/math/strided/special/ssqrt`][@stdlib/math/strided/special/ssqrt]: compute the principal square root for each element in a single-precision floating-point strided array.
+
 </section>
 
 <!-- /.related -->
@@ -280,6 +288,16 @@ int main() {
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [@stdlib/math/base/special/rsqrtf]: https://github.com/stdlib-js/math/tree/main/base/special/rsqrtf
+
+<!-- <related-links> -->
+
+[@stdlib/math/strided/special/drsqrt]: https://github.com/stdlib-js/math/tree/main/strided/special/drsqrt
+
+[@stdlib/math/strided/special/rsqrt]: https://github.com/stdlib-js/math/tree/main/strided/special/rsqrt
+
+[@stdlib/math/strided/special/ssqrt]: https://github.com/stdlib-js/math/tree/main/strided/special/ssqrt
+
+<!-- </related-links> -->
 
 </section>
 

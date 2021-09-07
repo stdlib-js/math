@@ -296,6 +296,15 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/strided/special/dmskceil`][@stdlib/math/strided/special/dmskceil]: round each element in a double-precision floating-point strided array toward positive infinity according to a strided mask array.
+-   [`@stdlib/math/strided/special/dmskfloor`][@stdlib/math/strided/special/dmskfloor]: round each element in a double-precision floating-point strided array toward negative infinity according to a strided mask array.
+-   [`@stdlib/math/strided/special/dtrunc`][@stdlib/math/strided/special/dtrunc]: round each element in a double-precision floating-point strided array toward zero.
+-   [`@stdlib/math/strided/special/smsktrunc`][@stdlib/math/strided/special/smsktrunc]: round each element in a single-precision floating-point strided array toward zero according to a strided mask array.
+
 </section>
 
 <!-- /.related -->
@@ -307,6 +316,18 @@ int main() {
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
+
+<!-- <related-links> -->
+
+[@stdlib/math/strided/special/dmskceil]: https://github.com/stdlib-js/math/tree/main/strided/special/dmskceil
+
+[@stdlib/math/strided/special/dmskfloor]: https://github.com/stdlib-js/math/tree/main/strided/special/dmskfloor
+
+[@stdlib/math/strided/special/dtrunc]: https://github.com/stdlib-js/math/tree/main/strided/special/dtrunc
+
+[@stdlib/math/strided/special/smsktrunc]: https://github.com/stdlib-js/math/tree/main/strided/special/smsktrunc
+
+<!-- </related-links> -->
 
 </section>
 

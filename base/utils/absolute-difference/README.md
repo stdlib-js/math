@@ -122,8 +122,8 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   [`@stdlib/math/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference
--   [`@stdlib/math/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math/tree/main/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference
+-   [`@stdlib/math/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference]: compute the relative difference of two real numbers.
+-   [`@stdlib/math/base/utils/float64-epsilon-difference`][@stdlib/math/base/utils/float64-epsilon-difference]: compute the relative difference of two real numbers in units of double-precision floating-point epsilon.
 
 </section>
 

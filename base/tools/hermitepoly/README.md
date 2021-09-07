@@ -137,6 +137,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/tools/evalpoly`][@stdlib/math/base/tools/evalpoly]: evaluate a polynomial.
+-   [`@stdlib/math/base/tools/normhermitepoly`][@stdlib/math/base/tools/normhermitepoly]: evaluate a normalized Hermite polynomial.
+
 </section>
 
 <!-- /.related -->
@@ -146,6 +153,14 @@ for ( i = 0; i < 100; i++ ) {
 <section class="links">
 
 [hermite-polynomial]: https://en.wikipedia.org/wiki/Hermite_polynomials
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/tools/evalpoly]: https://github.com/stdlib-js/math/tree/main/base/tools/evalpoly
+
+[@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math/tree/main/base/tools/normhermitepoly
+
+<!-- </related-links> -->
 
 </section>
 

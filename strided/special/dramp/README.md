@@ -269,6 +269,13 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/strided/special/ramp`][@stdlib/math/strided/special/ramp]: evaluate the ramp function for each element in a strided array.
+-   [`@stdlib/math/strided/special/sramp`][@stdlib/math/strided/special/sramp]: evaluate the ramp function for each element in a single-precision floating-point strided array.
+
 </section>
 
 <!-- /.related -->
@@ -280,6 +287,14 @@ int main() {
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math/tree/main/base/special/ramp
+
+<!-- <related-links> -->
+
+[@stdlib/math/strided/special/ramp]: https://github.com/stdlib-js/math/tree/main/strided/special/ramp
+
+[@stdlib/math/strided/special/sramp]: https://github.com/stdlib-js/math/tree/main/strided/special/sramp
+
+<!-- </related-links> -->
 
 </section>
 

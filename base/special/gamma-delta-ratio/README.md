@@ -78,6 +78,12 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/gamma`][@stdlib/math/base/special/gamma]: gamma function.
+
 </section>
 
 <!-- /.related -->
@@ -86,7 +92,11 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="links">
 
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math/tree/main/base/special/gamma
+
+<!-- </related-links> -->
 
 </section>
 

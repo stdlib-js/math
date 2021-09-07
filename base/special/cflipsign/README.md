@@ -131,6 +131,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/ops/cneg`][@stdlib/math/base/ops/cneg]: negate a complex number.
+-   [`@stdlib/math/base/special/csignum`][@stdlib/math/base/special/csignum]: evaluate the signum function of a complex number.
+
 </section>
 
 <!-- /.related -->
@@ -138,6 +145,14 @@ for ( i = 0; i < 100; i++ ) {
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/ops/cneg]: https://github.com/stdlib-js/math/tree/main/base/ops/cneg
+
+[@stdlib/math/base/special/csignum]: https://github.com/stdlib-js/math/tree/main/base/special/csignum
+
+<!-- </related-links> -->
 
 </section>
 

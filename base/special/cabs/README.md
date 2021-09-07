@@ -97,6 +97,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/cabs2`][@stdlib/math/base/special/cabs2]: compute the squared absolute value of a complex number.
+-   [`@stdlib/math/base/special/abs`][@stdlib/math/base/special/abs]: compute the absolute value of a double-precision floating-point number.
+
 </section>
 
 <!-- /.related -->
@@ -106,6 +113,14 @@ for ( i = 0; i < 100; i++ ) {
 <section class="links">
 
 [absolute-value]: https://en.wikipedia.org/wiki/Absolute_value
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math/tree/main/base/special/cabs2
+
+[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math/tree/main/base/special/abs
+
+<!-- </related-links> -->
 
 </section>
 

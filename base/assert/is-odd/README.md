@@ -112,7 +112,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   [`@stdlib/math/base/assert/is-even`][@stdlib/math/base/assert/is-even]: https://github.com/stdlib-js/math/tree/main/base/assert/is-even`][@stdlib/math/base/assert/is-even
+-   [`@stdlib/math/base/assert/is-even`][@stdlib/math/base/assert/is-even]: test if a finite numeric value is an even number.
 
 </section>
 

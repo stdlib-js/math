@@ -105,6 +105,13 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/avercos`][@stdlib/math/base/special/avercos]: compute the inverse versed cosine.
+-   [`@stdlib/math/base/special/vercos`][@stdlib/math/base/special/vercos]: compute the versed cosine.
+
 </section>
 
 <!-- /.related -->
@@ -114,6 +121,14 @@ for ( i = 0; i < x.length; i++ ) {
 <section class="links">
 
 [inverse-versed-sine]: https://en.wikipedia.org/wiki/Versine
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math/tree/main/base/special/avercos
+
+[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math/tree/main/base/special/vercos
+
+<!-- </related-links> -->
 
 </section>
 

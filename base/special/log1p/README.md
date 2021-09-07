@@ -93,6 +93,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/ln`][@stdlib/math/base/special/ln]: natural logarithm.
+-   [`@stdlib/math/base/special/log`][@stdlib/math/base/special/log]: base `b` logarithm.
+
 </section>
 
 <!-- /.related -->
@@ -101,7 +108,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="links">
 
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math/tree/main/base/special/ln
+
+[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math/tree/main/base/special/log
+
+<!-- </related-links> -->
 
 </section>
 

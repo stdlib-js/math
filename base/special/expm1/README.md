@@ -79,6 +79,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/exp`][@stdlib/math/base/special/exp]: natural exponential function.
+-   [`@stdlib/math/base/special/expm1rel`][@stdlib/math/base/special/expm1rel]: relative error exponential.
+
 </section>
 
 <!-- /.related -->
@@ -88,6 +95,14 @@ for ( i = 0; i < 100; i++ ) {
 <section class="links">
 
 [exponential-function]: https://en.wikipedia.org/wiki/Exponential_function
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math/tree/main/base/special/exp
+
+[@stdlib/math/base/special/expm1rel]: https://github.com/stdlib-js/math/tree/main/base/special/expm1rel
+
+<!-- </related-links> -->
 
 </section>
 
