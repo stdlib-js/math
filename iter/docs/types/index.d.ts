@@ -24,6 +24,7 @@
 import ops = require( './../../../iter/ops' );
 import sequences = require( './../../../iter/sequences' );
 import special = require( './../../../iter/special' );
+import tools = require( './../../../iter/tools' );
 
 /**
 * Interface describing the `iter` namespace.
@@ -43,6 +44,11 @@ interface Namespace {
 	* Standard library math iterators for special functions.
 	*/
 	special: typeof special;
+
+	/**
+	* Standard library math iterator tooling.
+	*/
+	tools: typeof tools;
 }
 
 /**

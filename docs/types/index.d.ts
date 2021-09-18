@@ -25,6 +25,7 @@ import base = require( './../../base' );
 import iter = require( './../../iter' );
 import special = require( './../../special' );
 import strided = require( './../../strided' );
+import tools = require( './../../tools' );
 
 /**
 * Interface describing the `math` namespace.
@@ -49,6 +50,11 @@ interface Namespace {
 	* Standard library strided math functions.
 	*/
 	strided: typeof strided;
+
+	/**
+	* Standard library math tools.
+	*/
+	tools: typeof tools;
 }
 
 /**
