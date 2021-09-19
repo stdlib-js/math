@@ -61,6 +61,7 @@ The namespace contains the following sub-namespaces:
 -   <span class="signature">[`iter`][@stdlib/math/iter]</span><span class="delimiter">: </span><span class="description">standard library math iterators.</span>
 -   <span class="signature">[`special`][@stdlib/math/special]</span><span class="delimiter">: </span><span class="description">standard library special math functions.</span>
 -   <span class="signature">[`strided`][@stdlib/math/strided]</span><span class="delimiter">: </span><span class="description">standard library strided math functions.</span>
+-   <span class="signature">[`tools`][@stdlib/math/tools]</span><span class="delimiter">: </span><span class="description">standard library math tools.</span>
 
 </div>
 
@@ -163,6 +164,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/special]: https://github.com/stdlib-js/math/tree/main/special
 
 [@stdlib/math/strided]: https://github.com/stdlib-js/math/tree/main/strided
+
+[@stdlib/math/tools]: https://github.com/stdlib-js/math/tree/main/tools
 
 <!-- </toc-links> -->
 
