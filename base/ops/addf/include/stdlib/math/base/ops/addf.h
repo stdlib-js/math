@@ -16,8 +16,26 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/add.h"
-#include "stdlib/math/base/napi/binary.h"
+/**
+* Header file containing function declarations.
+*/
+#ifndef STDLIB_MATH_BASE_OPS_ADDF_H
+#define STDLIB_MATH_BASE_OPS_ADDF_H
 
-// cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_add )
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/**
+* Computes the sum of two single-precision floating-point numbers.
+*/
+float stdlib_base_addf( const float x, const float y );
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // !STDLIB_MATH_BASE_OPS_ADDF_H

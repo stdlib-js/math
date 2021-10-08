@@ -16,8 +16,17 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/add.h"
-#include "stdlib/math/base/napi/binary.h"
+#include "stdlib/math/base/ops/addf.h"
+#include <stdio.h>
 
-// cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_add )
+int main() {
+	float x[] = { 3.14f, -3.14f, 0.0f, 0.0f/0.0f };
+	float y[] = { 3.14f, -3.14f, -0.0f, 0.0f/0.0f };
+
+	float z;
+	int i;
+	for ( i = 0; i < 4; i++ ) {
+		z = stdlib_base_addf( x[ i ], y[ i ] );
+		printf( "%f + %f = %f\n", x[ i ], y[ i ], z );
+	}
+}

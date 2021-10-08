@@ -16,8 +16,17 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/add.h"
-#include "stdlib/math/base/napi/binary.h"
+'use strict';
 
-// cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_add )
+var rand = require( '@stdlib/random/base/discrete-uniform' );
+var addf = require( './../lib' );
+
+var x;
+var y;
+var i;
+
+for ( i = 0; i < 100; i++ ) {
+	x = rand( -50, 50 );
+	y = rand( -50, 50 );
+	console.log( '%d + %d = %d', x, y, addf( x, y ) );
+}

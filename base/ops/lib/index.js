@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'add', require( './../../../base/ops/add' ) );
 
 /**
+* @name addf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/addf}
+*/
+setReadOnly( ns, 'addf', require( './../../../base/ops/addf' ) );
+
+/**
 * @name cadd
 * @memberof ns
 * @readonly

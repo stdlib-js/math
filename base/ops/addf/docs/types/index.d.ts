@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,8 +16,38 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/add.h"
-#include "stdlib/math/base/napi/binary.h"
+// TypeScript Version: 2.0
 
-// cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_add )
+/**
+* Computes the sum of two single-precision floating-point numbers `x` and `y`.
+*
+* @param x - first input value
+* @param y - second input value
+* @returns sum
+*
+* @example
+* var v = add( -1.0, 5.0 );
+* // returns 4.0
+*
+* @example
+* var v = add( 2.0, 5.0 );
+* // returns 7.0
+*
+* @example
+* var v = add( 0.0, 5.0 );
+* // returns 5.0
+*
+* @example
+* var v = add( -0.0, 0.0 );
+* // returns 0.0
+*
+* @example
+* var v = add( NaN, NaN );
+* // returns NaN
+*/
+declare function add( x: number, y: number ): number;
+
+
+// EXPORTS //
+
+export = add;

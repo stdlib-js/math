@@ -16,8 +16,42 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/add.h"
-#include "stdlib/math/base/napi/binary.h"
+'use strict';
 
-// cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_add )
+// MAIN //
+
+/**
+* Computes the sum of two single-precision floating-point numbers `x` and `y`.
+*
+* @param {number} x - first input value
+* @param {number} y - second input value
+* @returns {number} sum
+*
+* @example
+* var v = addf( -1.0, 5.0 );
+* // returns 4.0
+*
+* @example
+* var v = addf( 2.0, 5.0 );
+* // returns 7.0
+*
+* @example
+* var v = addf( 0.0, 5.0 );
+* // returns 5.0
+*
+* @example
+* var v = addf( -0.0, 0.0 );
+* // returns 0.0
+*
+* @example
+* var v = addf( NaN, NaN );
+* // returns NaN
+*/
+function addf( x, y ) {
+	return x + y;
+}
+
+
+// EXPORTS //
+
+module.exports = addf;

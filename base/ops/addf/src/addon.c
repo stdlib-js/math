@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/add.h"
+#include "stdlib/math/base/ops/addf.h"
 #include "stdlib/math/base/napi/binary.h"
 
 // cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_add )
+STDLIB_MATH_BASE_NAPI_MODULE_FF_F( stdlib_base_addf )
