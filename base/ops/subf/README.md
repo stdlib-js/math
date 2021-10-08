@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# sub
+# subf
 
-> Subtract two double-precision floating-point numbers.
+> Subtract two single-precision floating-point numbers.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -37,27 +37,27 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var sub = require( '@stdlib/math/base/ops/sub' );
+var subf = require( '@stdlib/math/base/ops/subf' );
 ```
 
-#### sub( x, y )
+#### subf( x, y )
 
-Subtracts two double-precision floating-point numbers.
+Subtracts two single-precision floating-point numbers.
 
 ```javascript
-var v = sub( -1.0, 5.0 );
+var v = subf( -1.0, 5.0 );
 // returns -6.0
 
-v = sub( 2.0, 5.0 );
+v = subf( 2.0, 5.0 );
 // returns -3.0
 
-v = sub( 0.0, 5.0 );
+v = subf( 0.0, 5.0 );
 // returns -5.0
 
-v = sub( -0.0, 0.0 );
+v = subf( -0.0, 0.0 );
 // returns -0.0
 
-v = sub( NaN, NaN );
+v = subf( NaN, NaN );
 // returns NaN
 ```
 
@@ -83,7 +83,7 @@ v = sub( NaN, NaN );
 
 ```javascript
 var rand = require( '@stdlib/random/base/discrete-uniform' );
-var sub = require( '@stdlib/math/base/ops/sub' );
+var subf = require( '@stdlib/math/base/ops/subf' );
 
 var x;
 var y;
@@ -92,7 +92,7 @@ var i;
 for ( i = 0; i < 100; i++ ) {
     x = rand( -50, 50 );
     y = rand( -50, 50 );
-    console.log( '%d - %d = %d', x, y, sub( x, y ) );
+    console.log( '%d - %d = %d', x, y, subf( x, y ) );
 }
 ```
 
@@ -123,25 +123,25 @@ for ( i = 0; i < 100; i++ ) {
 ### Usage
 
 ```c
-#include "stdlib/math/base/ops/sub.h"
+#include "stdlib/math/base/ops/subf.h"
 ```
 
-#### stdlib_base_sub( x, y )
+#### stdlib_base_subf( x, y )
 
-Subtracts two double-precision floating-point numbers.
+Subtracts two single-precision floating-point numbers.
 
 ```c
-double v = stdlib_base_sub( -5.0, 2.0 );
-// returns -7.0
+float v = stdlib_base_sub( -5.0f, 2.0f );
+// returns -7.0f
 ```
 
 The function accepts the following arguments:
 
--   **x**: `[in] double` first input value.
--   **y**: `[in] double` second input value.
+-   **x**: `[in] float` first input value.
+-   **y**: `[in] float` second input value.
 
 ```c
-double stdlib_base_sub( const double x, const double y );
+float stdlib_base_sub( const float x, const float y );
 ```
 
 </section>
@@ -163,18 +163,18 @@ double stdlib_base_sub( const double x, const double y );
 ### Examples
 
 ```c
-#include "stdlib/math/base/ops/sub.h"
+#include "stdlib/math/base/ops/subf.h"
 #include <stdio.h>
 
 int main() {
-    double x[] = { 3.14, -3.14, 0.0, 0.0/0.0 };
-    double y[] = { 3.14, -3.14, -0.0, 0.0/0.0 };
+    float x[] = { 3.14f, -3.14f, 0.0f, 0.0f/0.0f };
+    float y[] = { 3.14f, -3.14f, -0.0f, 0.0f/0.0f };
 
-    double z;
+    float z;
     int i;
     for ( i = 0; i < 4; i++ ) {
-        z = stdlib_base_sub( x[ i ], y[ i ] );
-        printf( "%lf - %lf = %lf\n", x[ i ], y[ i ], z );
+        z = stdlib_base_subf( x[ i ], y[ i ] );
+        printf( "%f - %f = %f\n", x[ i ], y[ i ], z );
     }
 }
 ```

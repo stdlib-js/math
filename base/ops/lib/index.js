@@ -108,6 +108,15 @@ setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 */
 setReadOnly( ns, 'sub', require( './../../../base/ops/sub' ) );
 
+/**
+* @name subf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/subf}
+*/
+setReadOnly( ns, 'subf', require( './../../../base/ops/subf' ) );
+
 
 // EXPORTS //
 
