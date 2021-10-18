@@ -20,8 +20,7 @@
 
 // MODULES //
 
-var isTypedArrayLike = require( '@stdlib/assert/is-typed-array-like' );
-var enumerate = require( '@stdlib/strided/dtypes' ).enumerate;
+var dispatch = require( '@stdlib/strided/base/unary-addon-dispatch' );
 var addon = require( './../src/addon.node' );
 var js = require( './abs2.js' );
 
@@ -31,18 +30,18 @@ var js = require( './abs2.js' );
 /**
 * Computes the squared absolute value for each element in a strided array `x` and assigns the results to elements in a strided array `y`.
 *
+* @name abs2
+* @type {Function}
 * @param {integer} N - number of indexed elements
-* @param {string} dtypeX - `x` data type
+* @param {*} dtypeX - `x` data type
 * @param {Collection} x - input array
 * @param {integer} strideX - `x` stride length
-* @param {string} dtypeY - `y` data type
+* @param {*} dtypeY - `y` data type
 * @param {Collection} y - destination array
 * @param {integer} strideY - `y` stride length
 * @throws {TypeError} first argument must be an integer
-* @throws {TypeError} second argument must be a string
 * @throws {TypeError} third argument must be an array-like object
 * @throws {TypeError} fourth argument must be an integer
-* @throws {TypeError} fifth argument must be a string
 * @throws {TypeError} sixth argument must be an array-like object
 * @throws {TypeError} seventh argument must be an integer
 * @throws {Error} insufficient arguments
@@ -61,17 +60,7 @@ var js = require( './abs2.js' );
 * abs2( x.length, 'float64', x, 1, 'float64', y, 1 );
 * // y => <Float64Array>[ 4.0, 1.0, 9.0, 25.0, 16.0 ]
 */
-function abs2( N, dtypeX, x, strideX, dtypeY, y, strideY ) {
-	var t1 = enumerate( dtypeX );
-	var t2 = enumerate( dtypeY );
-
-	// WARNING: we assume that, if we're provided something resembling a typed array, we're provided a typed array; however, this can lead to potential unintended errors as the native add-on cannot work with non-typed array objects (e.g., generic arrays)...
-	if ( t1 === void 0 || t2 === void 0 || !isTypedArrayLike( x ) || !isTypedArrayLike( y ) ) { // eslint-disable-line max-len
-		return js( N, dtypeX, x, strideX, dtypeY, y, strideY );
-	}
-	addon( N, t1, x, strideX, t2, y, strideY );
-	return y;
-}
+var abs2 = dispatch( addon, js );
 
 
 // EXPORTS //

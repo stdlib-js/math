@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library math.
+> Math functions.
 
 <section class="installation">
 
@@ -44,14 +44,14 @@ var math = require( '@stdlib/math' );
 
 #### math
 
-Standard library math.
+Namespace containing math functions.
 
 ```javascript
 var m = math;
 // returns {...}
 ```
 
-The namespace contains the following sub-namespaces:
+The namespace consists of the following sub-namespaces:
 
 <!-- <toc pattern="*"> -->
 
