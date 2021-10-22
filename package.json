@@ -49,7 +49,6 @@
   "devDependencies": {
     "@stdlib/array": "github:stdlib-js/array",
     "@stdlib/bench": "github:stdlib-js/bench",
-    "@stdlib/blas": "github:stdlib-js/blas",
     "@stdlib/complex": "github:stdlib-js/complex",
     "@stdlib/datasets": "github:stdlib-js/datasets",
     "@stdlib/fs": "github:stdlib-js/fs",
