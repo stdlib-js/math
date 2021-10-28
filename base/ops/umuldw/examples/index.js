@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,19 +16,18 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+'use strict';
 
-/**
-* Subtracts two double-precision floating-point numbers.
-*
-* @param x       first number
-* @param y       second number
-* @return        result
-*
-* @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
-*/
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
+var lpad = require( '@stdlib/string/left-pad' );
+var umuldw = require( './../lib' );
+
+var i;
+var j;
+var y;
+
+for ( i = 0xFFFFFFF0; i < 0xFFFFFFFF; i++ ) {
+	for ( j = i; j < 0xFFFFFFFF; j++) {
+		y = umuldw( i, j );
+		console.log( '%d x %d = 0x%s%s', i, j, lpad( y[0].toString( 16 ), 8, '0' ), lpad( y[1].toString( 16 ), 8, '0' ) );
+	}
 }

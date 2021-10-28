@@ -16,19 +16,17 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+#include "stdlib/math/base/ops/mul.h"
+#include <stdio.h>
 
-/**
-* Subtracts two double-precision floating-point numbers.
-*
-* @param x       first number
-* @param y       second number
-* @return        result
-*
-* @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
-*/
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
+int main() {
+	double x[] = { 3.14, -3.14, 0.0, 0.0/0.0 };
+	double y[] = { 3.14, -3.14, -0.0, 0.0/0.0 };
+
+	double z;
+	int i;
+	for ( i = 0; i < 4; i++ ) {
+		z = stdlib_base_mul( x[ i ], y[ i ] );
+		printf( "%lf x %lf = %lf\n", x[ i ], y[ i ], z );
+	}
 }

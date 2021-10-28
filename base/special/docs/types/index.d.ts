@@ -142,8 +142,6 @@ import hypot = require( './../../../../base/special/hypot' );
 import hypotf = require( './../../../../base/special/hypotf' );
 import identity = require( './../../../../base/special/identity' );
 import identityf = require( './../../../../base/special/identityf' );
-import imul = require( './../../../../base/special/imul' );
-import imuldw = require( './../../../../base/special/imuldw' );
 import inv = require( './../../../../base/special/inv' );
 import invf = require( './../../../../base/special/invf' );
 import kernelBetainc = require( './../../../../base/special/kernel-betainc' );
@@ -219,8 +217,6 @@ import truncb = require( './../../../../base/special/truncb' );
 import truncf = require( './../../../../base/special/truncf' );
 import truncn = require( './../../../../base/special/truncn' );
 import truncsd = require( './../../../../base/special/truncsd' );
-import uimul = require( './../../../../base/special/uimul' );
-import uimuldw = require( './../../../../base/special/uimuldw' );
 import vercos = require( './../../../../base/special/vercos' );
 import versin = require( './../../../../base/special/versin' );
 import wrap = require( './../../../../base/special/wrap' );
@@ -3534,36 +3530,6 @@ interface Namespace {
 	identityf: typeof identityf;
 
 	/**
-	* Performs C-like multiplication of two signed 32-bit integers.
-	*
-	* @param a - signed 32-bit integer
-	* @param b - signed 32-bit integer
-	* @returns product
-	*
-	* @example
-	* var v = ns.imul( -10|0, 4|0 );
-	* // returns -40
-	*/
-	imul: typeof imul;
-
-	/**
-	* Performs multiplication of two signed 32-bit integers and returns an array of two signed 32-bit integers which represents the signed 64-bit integer product.
-	*
-	* ## Notes
-	*
-	* -   When computing the product of 32-bit integer values in double-precision floating-point format (the default JavaScript numeric data type), computing the double word product is necessary in order to avoid exceeding the maximum safe double-precision floating-point integer value.
-	*
-	* @param a - integer
-	* @param b - integer
-	* @returns output array
-	*
-	* @example
-	* var v = ns.imuldw( 0xAAAAAAAA, 0x55555555 );
-	* // returns [ -477218589, 1908874354 ]
-	*/
-	imuldw: typeof imuldw;
-
-	/**
 	* Computes the multiplicative inverse of a double-precision floating-point number `x`.
 	*
 	* ## Notes
@@ -5875,36 +5841,6 @@ interface Namespace {
 	* // returns 0.03125
 	*/
 	truncsd: typeof truncsd;
-
-	/**
-	* Performs C-like multiplication of two unsigned 32-bit integers.
-	*
-	* @param a - unsigned 32-bit integer
-	* @param b - Unsigned 32-bit integer
-	* @returns product
-	*
-	* @example
-	* var v = ns.uimul( 10>>>0, 4>>>0 );
-	* // returns 40
-	*/
-	uimul: typeof uimul;
-
-	/**
-	* Performs multiplication of two unsigned 32-bit integers and returns an array of two unsigned 32-bit integers which represents the unsigned 64-bit integer product.
-	*
-	* ## Notes
-	*
-	* -   When computing the product of 32-bit integer values in double-precision floating-point format (the default JavaScript numeric data type), computing the double word product is necessary in order to avoid exceeding the maximum safe double-precision floating-point integer value.
-	*
-	* @param a - integer
-	* @param b - integer
-	* @returns double word product (in big endian order; i.e., the first element corresponds to the most significant bits and the second element to the least significant bits)
-	*
-	* @example
-	* var v = ns.uimuldw( 0xAAAAAAAA, 0x55555555 );
-	* // returns [ 954437176, 1908874354 ]
-	*/
-	uimuldw: typeof uimuldw;
 
 	/**
 	* Computes the versed cosine.

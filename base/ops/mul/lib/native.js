@@ -16,19 +16,48 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+'use strict';
+
+// MODULES //
+
+var addon = require( './../src/addon.node' );
+
+
+// MAIN //
 
 /**
-* Subtracts two double-precision floating-point numbers.
+* Multiplies two double-precision floating-point numbers `x` and `y`.
 *
-* @param x       first number
-* @param y       second number
-* @return        result
+* @private
+* @param {number} x - first input value
+* @param {number} y - second input value
+* @returns {number} result
 *
 * @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
+* var v = mul( -1.0, 5.0 );
+* // returns -5.0
+*
+* @example
+* var v = mul( 2.0, 5.0 );
+* // returns 10.0
+*
+* @example
+* var v = mul( 0.0, 5.0 );
+* // returns 0.0
+*
+* @example
+* var v = mul( -0.0, 0.0 );
+* // returns -0.0
+*
+* @example
+* var v = mul( NaN, NaN );
+* // returns NaN
 */
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
+function mul( x, y ) {
+	return addon( x, y );
 }
+
+
+// EXPORTS //
+
+module.exports = mul;

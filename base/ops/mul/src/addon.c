@@ -16,19 +16,8 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+#include "stdlib/math/base/ops/mul.h"
+#include "stdlib/math/base/napi/binary.h"
 
-/**
-* Subtracts two double-precision floating-point numbers.
-*
-* @param x       first number
-* @param y       second number
-* @return        result
-*
-* @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
-*/
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
-}
+// cppcheck-suppress shadowFunction
+STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_mul )

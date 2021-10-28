@@ -1126,24 +1126,6 @@ setReadOnly( special, 'identity', require( './../../../base/special/identity' ) 
 setReadOnly( special, 'identityf', require( './../../../base/special/identityf' ) );
 
 /**
-* @name imul
-* @memberof special
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/special/imul}
-*/
-setReadOnly( special, 'imul', require( './../../../base/special/imul' ) );
-
-/**
-* @name imuldw
-* @memberof special
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/special/imuldw}
-*/
-setReadOnly( special, 'imuldw', require( './../../../base/special/imuldw' ) );
-
-/**
 * @name inv
 * @memberof special
 * @readonly
@@ -1817,24 +1799,6 @@ setReadOnly( special, 'truncn', require( './../../../base/special/truncn' ) );
 * @see {@link module:@stdlib/math/base/special/truncsd}
 */
 setReadOnly( special, 'truncsd', require( './../../../base/special/truncsd' ) );
-
-/**
-* @name uimul
-* @memberof special
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/special/uimul}
-*/
-setReadOnly( special, 'uimul', require( './../../../base/special/uimul' ) );
-
-/**
-* @name uimuldw
-* @memberof special
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/special/uimuldw}
-*/
-setReadOnly( special, 'uimuldw', require( './../../../base/special/uimuldw' ) );
 
 /**
 * @name vercos

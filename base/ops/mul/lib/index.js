@@ -16,19 +16,37 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+'use strict';
 
 /**
-* Subtracts two double-precision floating-point numbers.
+* Multiply two double-precision floating-point numbers.
 *
-* @param x       first number
-* @param y       second number
-* @return        result
+* @module @stdlib/math/base/ops/mul
 *
 * @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
+* var mul = require( '@stdlib/math/base/ops/mul' );
+*
+* var v = mul( -1.0, 5.0 );
+* // returns -5.0
+*
+* v = mul( 2.0, 5.0 );
+* // returns 10.0
+*
+* v = mul( 0.0, 5.0 );
+* // returns 0.0
+*
+* v = mul( -0.0, 0.0 );
+* // returns -0.0
+*
+* v = mul( NaN, NaN );
+* // returns NaN
 */
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
-}
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;

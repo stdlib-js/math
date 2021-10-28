@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,19 +16,25 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+'use strict';
 
 /**
-* Subtracts two double-precision floating-point numbers.
+* Perform multiplication of two unsigned 32-bit integers and return an array of two unsigned 32-bit integers which represents the unsigned 64-bit integer product.
 *
-* @param x       first number
-* @param y       second number
-* @return        result
+* @module @stdlib/math/base/ops/umuldw
 *
 * @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
+* var umuldw = require( '@stdlib/math/base/ops/umuldw' );
+*
+* var v = umuldw( 0xAAAAAAAA, 0x55555555 );
+* // returns [ 954437176, 1908874354 ]
 */
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
-}
+
+// MODULES //
+
+var umuldw = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = umuldw;

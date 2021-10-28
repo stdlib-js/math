@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,19 +16,23 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+'use strict';
 
-/**
-* Subtracts two double-precision floating-point numbers.
-*
-* @param x       first number
-* @param y       second number
-* @return        result
-*
-* @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
-*/
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
+var discreteUniform = require( '@stdlib/random/base/discrete-uniform' ).factory;
+var UINT32_MAX = require( '@stdlib/constants/uint32/max' );
+var umul = require( './../lib' );
+
+var randi;
+var a;
+var b;
+var y;
+var i;
+
+randi = discreteUniform( 0, UINT32_MAX );
+
+for ( i = 0; i < 100; i++ ) {
+	a = randi()>>>0;
+	b = randi()>>>0;
+	y = umul( a, b );
+	console.log( '%d x %d = %d', a, b, y );
 }

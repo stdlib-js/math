@@ -100,6 +100,33 @@ setReadOnly( ns, 'cneg', require( './../../../base/ops/cneg' ) );
 setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 
 /**
+* @name imul
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/imul}
+*/
+setReadOnly( ns, 'imul', require( './../../../base/ops/imul' ) );
+
+/**
+* @name imuldw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/imuldw}
+*/
+setReadOnly( ns, 'imuldw', require( './../../../base/ops/imuldw' ) );
+
+/**
+* @name mul
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/mul}
+*/
+setReadOnly( ns, 'mul', require( './../../../base/ops/mul' ) );
+
+/**
 * @name sub
 * @memberof ns
 * @readonly
@@ -116,6 +143,24 @@ setReadOnly( ns, 'sub', require( './../../../base/ops/sub' ) );
 * @see {@link module:@stdlib/math/base/ops/subf}
 */
 setReadOnly( ns, 'subf', require( './../../../base/ops/subf' ) );
+
+/**
+* @name umul
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/umul}
+*/
+setReadOnly( ns, 'umul', require( './../../../base/ops/umul' ) );
+
+/**
+* @name umuldw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/umuldw}
+*/
+setReadOnly( ns, 'umuldw', require( './../../../base/ops/umuldw' ) );
 
 
 // EXPORTS //

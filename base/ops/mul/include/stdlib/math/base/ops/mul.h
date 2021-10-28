@@ -16,19 +16,26 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+/**
+* Header file containing function declarations.
+*/
+#ifndef STDLIB_MATH_BASE_OPS_MUL_H
+#define STDLIB_MATH_BASE_OPS_MUL_H
+
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
-* Subtracts two double-precision floating-point numbers.
-*
-* @param x       first number
-* @param y       second number
-* @return        result
-*
-* @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
+* Multiplies two double-precision floating-point numbers.
 */
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
+double stdlib_base_mul( const double x, const double y );
+
+#ifdef __cplusplus
 }
+#endif
+
+#endif // !STDLIB_MATH_BASE_OPS_MUL_H

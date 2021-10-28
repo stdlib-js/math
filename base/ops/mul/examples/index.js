@@ -16,19 +16,17 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/ops/sub.h"
+'use strict';
 
-/**
-* Subtracts two double-precision floating-point numbers.
-*
-* @param x       first number
-* @param y       second number
-* @return        result
-*
-* @example
-* double z = stdlib_base_sub( -5.0, 3.0 );
-* // returns -8.0
-*/
-double stdlib_base_sub( const double x, const double y ) {
-	return x - y;
+var rand = require( '@stdlib/random/base/discrete-uniform' );
+var mul = require( './../lib' );
+
+var x;
+var y;
+var i;
+
+for ( i = 0; i < 100; i++ ) {
+	x = rand( -50, 50 );
+	y = rand( -50, 50 );
+	console.log( '%d x %d = %d', x, y, mul( x, y ) );
 }
