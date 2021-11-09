@@ -20,7 +20,7 @@ limitations under the License.
 
 # Math
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Math functions.
 
@@ -57,11 +57,11 @@ The namespace consists of the following sub-namespaces:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`base`][@stdlib/math/base]</span><span class="delimiter">: </span><span class="description">standard library math base implementations.</span>
--   <span class="signature">[`iter`][@stdlib/math/iter]</span><span class="delimiter">: </span><span class="description">standard library math iterators.</span>
--   <span class="signature">[`special`][@stdlib/math/special]</span><span class="delimiter">: </span><span class="description">standard library special math functions.</span>
--   <span class="signature">[`strided`][@stdlib/math/strided]</span><span class="delimiter">: </span><span class="description">standard library strided math functions.</span>
--   <span class="signature">[`tools`][@stdlib/math/tools]</span><span class="delimiter">: </span><span class="description">standard library math tools.</span>
+-   <span class="signature">[`base`][@stdlib/math/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) math functions.</span>
+-   <span class="signature">[`iter`][@stdlib/math/iter]</span><span class="delimiter">: </span><span class="description">math iterators.</span>
+-   <span class="signature">[`special`][@stdlib/math/special]</span><span class="delimiter">: </span><span class="description">special math functions.</span>
+-   <span class="signature">[`strided`][@stdlib/math/strided]</span><span class="delimiter">: </span><span class="description">strided array math functions.</span>
+-   <span class="signature">[`tools`][@stdlib/math/tools]</span><span class="delimiter">: </span><span class="description">math tools.</span>
 
 </div>
 
@@ -143,8 +143,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
