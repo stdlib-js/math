@@ -57,11 +57,11 @@ The namespace consists of the following sub-namespaces:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`base`][@stdlib/math/base]</span><span class="delimiter">: </span><span class="description">standard library math base implementations.</span>
--   <span class="signature">[`iter`][@stdlib/math/iter]</span><span class="delimiter">: </span><span class="description">standard library math iterators.</span>
--   <span class="signature">[`special`][@stdlib/math/special]</span><span class="delimiter">: </span><span class="description">standard library special math functions.</span>
--   <span class="signature">[`strided`][@stdlib/math/strided]</span><span class="delimiter">: </span><span class="description">standard library strided math functions.</span>
--   <span class="signature">[`tools`][@stdlib/math/tools]</span><span class="delimiter">: </span><span class="description">standard library math tools.</span>
+-   <span class="signature">[`base`][@stdlib/math/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) math functions.</span>
+-   <span class="signature">[`iter`][@stdlib/math/iter]</span><span class="delimiter">: </span><span class="description">math iterators.</span>
+-   <span class="signature">[`special`][@stdlib/math/special]</span><span class="delimiter">: </span><span class="description">special math functions.</span>
+-   <span class="signature">[`strided`][@stdlib/math/strided]</span><span class="delimiter">: </span><span class="description">strided array math functions.</span>
+-   <span class="signature">[`tools`][@stdlib/math/tools]</span><span class="delimiter">: </span><span class="description">math tools.</span>
 
 </div>
 
@@ -117,6 +117,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
@@ -151,6 +156,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math/main/LICENSE
 
 <!-- <toc-links> -->
 
