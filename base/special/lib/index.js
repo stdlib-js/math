@@ -397,6 +397,15 @@ setReadOnly( special, 'cbrtf', require( './../../../base/special/cbrtf' ) );
 setReadOnly( special, 'cceil', require( './../../../base/special/cceil' ) );
 
 /**
+* @name cceilf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cceilf}
+*/
+setReadOnly( special, 'cceilf', require( './../../../base/special/cceilf' ) );
+
+/**
 * @name cceiln
 * @memberof special
 * @readonly
@@ -512,6 +521,24 @@ setReadOnly( special, 'cfloor', require( './../../../base/special/cfloor' ) );
 * @see {@link module:@stdlib/math/base/special/cfloorn}
 */
 setReadOnly( special, 'cfloorn', require( './../../../base/special/cfloorn' ) );
+
+/**
+* @name cidentity
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cidentity}
+*/
+setReadOnly( special, 'cidentity', require( './../../../base/special/cidentity' ) );
+
+/**
+* @name cidentityf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cidentityf}
+*/
+setReadOnly( special, 'cidentityf', require( './../../../base/special/cidentityf' ) );
 
 /**
 * @name cinv

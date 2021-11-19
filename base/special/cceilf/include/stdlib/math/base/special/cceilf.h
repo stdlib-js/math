@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,31 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_MATH_BASE_SPECIAL_CCEILF_H
+#define STDLIB_MATH_BASE_SPECIAL_CCEILF_H
 
-// MAIN //
+#include <complex.h>
+
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
-* Computes the squared absolute value of a complex number.
-*
-* ## Notes
-*
-* -   Be careful of overflow and underflow.
-*
-*
-* @param {number} re - real component
-* @param {number} im - imaginary component
-* @returns {number} squared absolute value
-*
-* @example
-* var v = cabs2( 5.0, 3.0 );
-* // returns 34.0
+* Rounds a single-precision complex floating-point number toward positive infinity.
 */
-function cabs2( re, im ) {
-	return (re*re) + (im*im);
+float complex stdlib_base_cceilf( const float complex z );
+
+#ifdef __cplusplus
 }
+#endif
 
-
-// EXPORTS //
-
-module.exports = cabs2;
+#endif // !STDLIB_MATH_BASE_SPECIAL_CCEILF_H

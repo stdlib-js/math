@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,29 +18,33 @@
 
 'use strict';
 
-// MODULES //
-
-var hypot = require( './../../../../base/special/hypot' );
-
-
 // MAIN //
 
 /**
-* Computes the absolute value of a complex number.
+* Evaluates the identity function for a single-precision complex floating-point number.
 *
-* @param {number} re - real component
-* @param {number} im - imaginary component
-* @returns {number} absolute value
+* @param {ComplexLike} z - input value
+* @returns {ComplexLike} input value
 *
 * @example
-* var v = cabs( 5.0, 3.0 );
-* // returns ~5.83
+* var Complex64 = require( '@stdlib/complex/float32' );
+* var real = require( '@stdlib/complex/real' );
+* var imag = require( '@stdlib/complex/imag' );
+*
+* var v = cidentityf( new Complex64( -1.0, 2.0 ) );
+* // returns <Complex64>
+*
+* var re = real( v );
+* // returns -1.0
+*
+* var im = imag( v );
+* // returns 2.0
 */
-function cabs( re, im ) {
-	return hypot( re, im );
+function cidentityf( z ) {
+	return z;
 }
 
 
 // EXPORTS //
 
-module.exports = cabs;
+module.exports = cidentityf;

@@ -18,24 +18,13 @@
 
 'use strict';
 
+var uniform = require( '@stdlib/random/base/uniform' );
 var Complex128 = require( '@stdlib/complex/float64' );
-var randu = require( '@stdlib/random/base/randu' );
-var real = require( '@stdlib/complex/real' );
-var imag = require( '@stdlib/complex/imag' );
 var cceil = require( './../lib' );
 
-var re;
-var im;
 var z;
-var o;
-var w;
 var i;
-
 for ( i = 0; i < 100; i++ ) {
-	re = ( randu()*100.0 ) - 50.0;
-	im = ( randu()*100.0 ) - 50.0;
-	z = new Complex128( re, im );
-	o = cceil( real(z), imag(z) );
-	w = new Complex128( o[ 0 ], o[ 1 ] );
-	console.log( 'ceil(%s) = %s', z.toString(), w.toString() );
+	z = new Complex128( uniform( -50.0, 50.0 ), uniform( -50.0, 50.0 ) );
+	console.log( 'ceil(%s) = %s', z, cceil( z ) );
 }
