@@ -25,14 +25,14 @@ var tape = require( 'tape' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var add = require( './../../../../base/ops/add' );
-var filledarray = require( '@stdlib/array/filled' );
-var filledarrayBy = require( '@stdlib/array/filled-by' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 var resolveStr = require( '@stdlib/strided/base/dtype-resolve-str' );
 var toFloat32 = require( '@stdlib/number/float64/base/to-float32' );
 var types = require( './../lib/types.js' );
 var data = require( './../lib/data.js' );
+var filledBy = require( './fixtures/filled_by.js' );
+var filled = require( './fixtures/filled.js' );
 
 
 // VARIABLES //
@@ -488,6 +488,7 @@ tape( 'the function adds strided array elements', opts, function test( t ) {
 	var x;
 	var y;
 	var z;
+	var v;
 	var i;
 	var j;
 
@@ -497,17 +498,22 @@ tape( 'the function adds strided array elements', opts, function test( t ) {
 		t2 = resolveStr( types[ i+1 ] );
 		t3 = resolveStr( types[ i+2 ] );
 
-		x = filledarrayBy( len, t1, rand );
-		y = filledarrayBy( len, t2, rand );
-		z = filledarray( 0.0, len, t3 );
+		x = filledBy( len, t1, rand );
+		y = filledBy( len, t2, rand );
+		z = filled( len, t3, 0.0 );
 
 		strided( len, t1, x, 1, t2, y, 1, t3, z, 1 );
 		for ( j = 0; j < len; j++ ) {
-			expected = data[ i/3 ]( x[ j ], y[ j ] );
 			if ( t3 === 'float32' ) {
-				expected = toFloat32( expected );
+				expected = toFloat32( data[ i/3 ]( x[ j ], y[ j ] ) );
 				t.strictEqual( z[ j ], expected, 'returns expected value. x: '+x[j]+'. y: '+y[j]+'. expected: '+expected+'. actual: '+z[j]+'. dtypes: '+t1+','+t2+','+t3+'.' );
+			} else if ( t3 === 'complex64' || t3 === 'complex128' ) {
+				expected = data[ i/3 ]( x.get( j ), y.get( j ) );
+				expected = expected.toString();
+				v = z.get( j ).toString();
+				t.strictEqual( v, expected, 'returns expected value. x: '+x.get( j ).toString()+'. y: '+y.get( j ).toString()+'. expected: '+expected+'. actual: '+v+'. dtypes: '+t1+','+t2+','+t3+'.' );
 			} else {
+				expected = data[ i/3 ]( x[ j ], y[ j ] );
 				t.strictEqual( z[ j ], expected, 'returns expected value. x: '+x[j]+'. y: '+y[j]+'. expected: '+expected+'. actual: '+z[j]+'. dtypes: '+t1+','+t2+','+t3+'.' );
 			}
 		}
