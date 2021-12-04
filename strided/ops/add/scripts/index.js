@@ -31,9 +31,10 @@ var tryRequire = require( '@stdlib/utils/try-require' );
 // VARIABLES //
 
 var SCRIPTS = [
-	'addon.js',
+	// Note: order matters!
 	'dtypes.js',
-	'types.js'
+	'types.js',
+	'addon.js'
 ];
 
 

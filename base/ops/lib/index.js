@@ -64,6 +64,15 @@ setReadOnly( ns, 'addf', require( './../../../base/ops/addf' ) );
 setReadOnly( ns, 'cadd', require( './../../../base/ops/cadd' ) );
 
 /**
+* @name caddf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/caddf}
+*/
+setReadOnly( ns, 'caddf', require( './../../../base/ops/caddf' ) );
+
+/**
 * @name cdiv
 * @memberof ns
 * @readonly

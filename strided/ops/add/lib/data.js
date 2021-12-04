@@ -22,210 +22,62 @@
 
 var add = require( './../../../../base/ops/add' );
 var cadd = require( './../../../../base/ops/cadd' );
+var caddf = require( './../../../../base/ops/caddf' );
 var resolve = require( '@stdlib/strided/base/dtype-resolve-str' );
 var Complex64 = require( '@stdlib/complex/float32' );
 var Complex128 = require( '@stdlib/complex/float64' );
+var wrap = require( '@stdlib/complex/base/wrap-function' );
 var types = require( './types.js' );
 
 
 // VARIABLES //
 
-var T = 'number';
+var C64 = 'complex64';
+var C128 = 'complex128';
+var CTORS = {
+	'complex64': Complex64,
+	'complex128': Complex128
+};
 
 
 // FUNCTIONS //
 
 /**
-* Wraps a function accepting complex number arguments to support providing both real and complex numbers.
-*
-* ## Notes
-*
-* -   The returned function **assumes** that, if an input argument is non-numeric (i.e., not of type `number`), then the input argument is a complex number. The returned function does **not** verify that non-numeric input arguments are, in fact, complex number objects. The returned function passes non-numeric input arguments to the wrapped function without modification.
+* Resolves a callback based on provided dtypes.
 *
 * @private
-* @param {Function} fcn - function to wrap
-* @param {NonNegativeInteger} nargs - number of arguments
-* @param {Function} ctor - complex number constructor
-* @throws {TypeError} first argument must be a function
-* @throws {TypeError} second argument must be a nonnegative integer
-* @throws {TypeError} third argument must be a constructor function
-* @returns {Function} wrapped function
-*
-* @example
-* var Complex64 = require( '@stdlib/complex/float32' );
-* var cadd = require( '@stdlib/math/base/ops/cadd' );
-* var real = require( '@stdlib/complex/real' );
-* var imag = require( '@stdlib/complex/imag' );
-*
-* var f = wrap( cadd, 2, Complex64 );
-*
-* // ...
-*
-* var z = f( 3.0, 4.0 );
-* // returns <Complex64>
-*
-* var re = real( z );
-* // returns 7.0
-*
-* var im = imag( z );
-* // returns 0.0
+* @param {Object} table - callback table
+* @param {Function} table.default - default callback
+* @param {Function} table.complex64 - callback for single-precision complex floating-point numbers
+* @param {Function} table.complex128 - callback for double-precision complex floating-point numbers
+* @param {string} t1 - dtype for first argument
+* @param {string} t2 - dtype for second argument
+* @param {string} t3 - dtype for return value
+* @returns {Function} callback
 */
-function wrap( fcn, nargs, ctor ) { /* eslint-disable valid-typeof */
-	var fcns;
-	if ( typeof fcn !== 'function' ) {
-		throw new TypeError( 'invalid argument. First argument must be a function. Value: `' + fcn + '`.' );
+function resolveCallback( table, t1, t2, t3 ) {
+	if ( t3 === C64 || t3 === C128 ) {
+		if ( t1 === t2 && t2 === t3 ) {
+			return table[ t3 ];
+		}
+		return wrap( table[ t3 ], 2, CTORS[ t3 ] );
 	}
-	if ( typeof nargs !== 'number' ) {
-		throw new TypeError( 'invalid argument. Second argument must be a nonnegative integer. Value: `' + nargs + '`.' );
-	}
-	if ( typeof ctor !== 'function' ) {
-		throw new TypeError( 'invalid argument. Third argument must be a constructor function. Value: `' + ctor + '`.' );
-	}
-	fcns = [ fcn0, fcn1, fcn2, fcn3, fcn4, fcn5 ];
-	return ( nargs <= 5 ) ? fcns[ nargs ] : fcnN;
-
-	/**
-	* Invokes a nullary function.
-	*
-	* @private
-	* @returns {Complex} result
-	*/
-	function fcn0() {
-		return fcn();
-	}
-
-	/**
-	* Invokes a unary function.
-	*
-	* @private
-	* @param {(number|Complex)} x - input value
-	* @returns {Complex} result
-	*/
-	function fcn1( x ) {
-		if ( typeof x === T ) {
-			x = new ctor( x, 0.0 );
-		}
-		return fcn( x );
-	}
-
-	/**
-	* Invokes a binary function.
-	*
-	* @private
-	* @param {(number|Complex)} x - input value
-	* @param {(number|Complex)} y - input value
-	* @returns {Complex} result
-	*/
-	function fcn2( x, y ) {
-		if ( typeof x === T ) {
-			x = new ctor( x, 0.0 );
-		}
-		if ( typeof y === T ) {
-			y = new ctor( y, 0.0 );
-		}
-		return fcn( x, y );
-	}
-
-	/**
-	* Invokes a ternary function.
-	*
-	* @private
-	* @param {(number|Complex)} x - input value
-	* @param {(number|Complex)} y - input value
-	* @param {(number|Complex)} z - input value
-	* @returns {Complex} result
-	*/
-	function fcn3( x, y, z ) {
-		if ( typeof x === T ) {
-			x = new ctor( x, 0.0 );
-		}
-		if ( typeof y === T ) {
-			y = new ctor( y, 0.0 );
-		}
-		if ( typeof z === T ) {
-			z = new ctor( z, 0.0 );
-		}
-		return fcn( x, y, z );
-	}
-
-	/**
-	* Invokes a quaternary function.
-	*
-	* @private
-	* @param {(number|Complex)} x - input value
-	* @param {(number|Complex)} y - input value
-	* @param {(number|Complex)} z - input value
-	* @param {(number|Complex)} w - input value
-	* @returns {Complex} result
-	*/
-	function fcn4( x, y, z, w ) {
-		if ( typeof x === T ) {
-			x = new ctor( x, 0.0 );
-		}
-		if ( typeof y === T ) {
-			y = new ctor( y, 0.0 );
-		}
-		if ( typeof z === T ) {
-			z = new ctor( z, 0.0 );
-		}
-		if ( typeof w === T ) {
-			w = new ctor( w, 0.0 );
-		}
-		return fcn( x, y, z, w );
-	}
-
-	/**
-	* Invokes a quinary function.
-	*
-	* @private
-	* @param {(number|Complex)} x - input value
-	* @param {(number|Complex)} y - input value
-	* @param {(number|Complex)} z - input value
-	* @param {(number|Complex)} w - input value
-	* @param {(number|Complex)} v - input value
-	* @returns {Complex} result
-	*/
-	function fcn5( x, y, z, w, v ) {
-		if ( typeof x === T ) {
-			x = new ctor( x, 0.0 );
-		}
-		if ( typeof y === T ) {
-			y = new ctor( y, 0.0 );
-		}
-		if ( typeof z === T ) {
-			z = new ctor( z, 0.0 );
-		}
-		if ( typeof w === T ) {
-			w = new ctor( w, 0.0 );
-		}
-		if ( typeof v === T ) {
-			v = new ctor( v, 0.0 );
-		}
-		return fcn( x, y, z, w, v );
-	}
-
-	/**
-	* Invokes a function accepting an arbitrary number of input arguments.
-	*
-	* @private
-	* @param {...(number|Complex)} args - input values
-	* @returns {Complex} result
-	*/
-	function fcnN() {
-		var args;
-		var v;
-		var i;
-
-		args = [];
-		for ( i = 0; i < arguments.length; i++ ) {
-			v = arguments[ i ];
-			if ( typeof v === T ) {
-				v = new ctor( v, 0.0 );
+	if ( t3 === 'generic' ) {
+		if ( t1 === C128 || t2 === C128 ) {
+			if ( t1 === t2 ) {
+				return table[ t1 ];
 			}
-			args.push( v );
+			return wrap( table[ C128 ], 2, CTORS[ C128 ] );
 		}
-		return fcn.apply( null, args );
+		if ( t1 === C64 || t2 === C64 ) {
+			if ( t1 === t2 ) {
+				return table[ t1 ];
+			}
+			return wrap( table[ C64 ], 2, CTORS[ C64 ] );
+		}
+		// Fall-through...
 	}
+	return table.default;
 }
 
 /**
@@ -233,41 +85,31 @@ function wrap( fcn, nargs, ctor ) { /* eslint-disable valid-typeof */
 *
 * ## Notes
 *
-* -   For now, we can simply use the callback for `float64`, even for `float32`, as we shouldn't need to explicitly downcast strided array values (e.g., the only time we need to return `float32` values is when input arrays are already `float32` or of a type which can be safely represented in `float32` without concern for truncation).
+* -   For now, we can simply use the callback for `float64` for all interfaces not involving complex numbers, even for `float32`, as we shouldn't need to explicitly downcast strided array values. The only time we need to return `float32` values is when input arrays are already `float32` or of a type which can be safely represented in `float32` without concern for truncation.
 *
 * @private
 * @param {Array} dtypes - list of dtype signatures
 * @returns {Array} list of callbacks
 */
 function callbacks( dtypes ) {
+	var table;
 	var out;
 	var t1;
 	var t2;
 	var t3;
-	var f;
 	var i;
+
+	table = {};
+	table.default = add;
+	table[ C64 ] = caddf;
+	table[ C128 ] = cadd;
 
 	out = [];
 	for ( i = 0; i < dtypes.length; i += 3 ) {
 		t1 = resolve( dtypes[ i ] );
 		t2 = resolve( dtypes[ i+1 ] );
 		t3 = resolve( dtypes[ i+2 ] );
-		if ( t3 === 'complex64' ) {
-			if ( t1 === t2 && t2 === t3 ) {
-				f = cadd;
-			} else {
-				f = wrap( cadd, 2, Complex64 );
-			}
-		} else if ( t3 === 'complex128' ) {
-			if ( t1 === t2 && t2 === t3 ) {
-				f = cadd; // FIXME: zadd
-			} else {
-				f = wrap( cadd, 2, Complex128 ); // FIXME: zadd
-			}
-		} else {
-			f = add;
-		}
-		out.push( f );
+		out.push( resolveCallback( table, t1, t2, t3 ) );
 	}
 	return out;
 }

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,28 +21,21 @@
 // MAIN //
 
 /**
-* Adds two complex numbers.
+* Returns an array element.
 *
 * @private
-* @param {(Array|TypedArray|Object)} out - output array
-* @param {number} re1 - real component
-* @param {number} im1 - imaginary component
-* @param {number} re2 - real component
-* @param {number} im2 - imaginary component
-* @returns {(Array|TypedArray|Object)} output array
-*
-* @example
-* var out = new Float64Array( 2 );
-* var v = cadd( out, 5.0, 3.0, -2.0, 1.0 );
-* // returns <Float64Array>[ 3.0, 4.0 ]
+* @param {ArrayLike} x - input array
+* @param {NonNegativeInteger} idx - element index
+* @returns {*} array element
 */
-function cadd( out, re1, im1, re2, im2 ) {
-	out[ 0 ] = re1 + re2;
-	out[ 1 ] = im1 + im2;
-	return out;
+function getter( x, idx ) {
+	if ( typeof x.get === 'function' ) {
+		return x.get( idx );
+	}
+	return x[ idx ];
 }
 
 
 // EXPORTS //
 
-module.exports = cadd;
+module.exports = getter;
