@@ -20,25 +20,16 @@
 
 // MODULES //
 
-var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
-var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-
-
-// VARIABLES //
-
-var addf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
-var opts = {
-	'skip': ( addf instanceof Error )
-};
+var mulf = require( './../lib' );
 
 
 // MAIN //
 
-bench( pkg+'::native', opts, function benchmark( b ) {
+bench( pkg, function benchmark( b ) {
 	var x;
 	var y;
 	var i;
@@ -46,7 +37,28 @@ bench( pkg+'::native', opts, function benchmark( b ) {
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
 		x = ( randu()*1000.0 ) - 500.0;
-		y = addf( x, 5.0 );
+		y = mulf( x, 5.0 );
+		if ( isnanf( y ) ) {
+			b.fail( 'should not return NaN' );
+		}
+	}
+	b.toc();
+	if ( isnanf( y ) ) {
+		b.fail( 'should not return NaN' );
+	}
+	b.pass( 'benchmark finished' );
+	b.end();
+});
+
+bench( pkg+'::inline', function benchmark( b ) {
+	var x;
+	var y;
+	var i;
+
+	b.tic();
+	for ( i = 0; i < b.iterations; i++ ) {
+		x = ( randu()*1000.0 ) - 500.0;
+		y = x * 5.0;
 		if ( isnanf( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

@@ -30,9 +30,9 @@ var pkg = require( './../package.json' ).name;
 
 // VARIABLES //
 
-var addf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var mulf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
 var opts = {
-	'skip': ( addf instanceof Error )
+	'skip': ( mulf instanceof Error )
 };
 
 
@@ -46,7 +46,7 @@ bench( pkg+'::native', opts, function benchmark( b ) {
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
 		x = ( randu()*1000.0 ) - 500.0;
-		y = addf( x, 5.0 );
+		y = mulf( x, 5.0 );
 		if ( isnanf( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

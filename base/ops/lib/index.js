@@ -145,6 +145,15 @@ setReadOnly( ns, 'imuldw', require( './../../../base/ops/imuldw' ) );
 setReadOnly( ns, 'mul', require( './../../../base/ops/mul' ) );
 
 /**
+* @name mulf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/mulf}
+*/
+setReadOnly( ns, 'mulf', require( './../../../base/ops/mulf' ) );
+
+/**
 * @name sub
 * @memberof ns
 * @readonly

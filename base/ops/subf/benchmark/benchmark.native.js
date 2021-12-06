@@ -23,7 +23,7 @@
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( './../../../../base/assert/is-nan' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
 
@@ -47,12 +47,12 @@ bench( pkg+'::native', opts, function benchmark( b ) {
 	for ( i = 0; i < b.iterations; i++ ) {
 		x = ( randu()*1000.0 ) - 500.0;
 		y = subf( x, 5.0 );
-		if ( isnan( y ) ) {
+		if ( isnanf( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
 	}
 	b.toc();
-	if ( isnan( y ) ) {
+	if ( isnanf( y ) ) {
 		b.fail( 'should not return NaN' );
 	}
 	b.pass( 'benchmark finished' );
