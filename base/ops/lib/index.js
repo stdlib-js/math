@@ -91,6 +91,15 @@ setReadOnly( ns, 'cdiv', require( './../../../base/ops/cdiv' ) );
 setReadOnly( ns, 'cmul', require( './../../../base/ops/cmul' ) );
 
 /**
+* @name cmulf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/cmulf}
+*/
+setReadOnly( ns, 'cmulf', require( './../../../base/ops/cmulf' ) );
+
+/**
 * @name cneg
 * @memberof ns
 * @readonly
