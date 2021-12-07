@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/math/base/special/cabs",
+  "name": "@stdlib/math/base/special/cabsf",
   "version": "0.0.0",
-  "description": "Compute the absolute value of a double-precision complex floating-point number.",
+  "description": "Compute the absolute value of a single-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -56,6 +56,7 @@
     "mathematics",
     "math",
     "math.abs",
+    "cabsf",
     "cabs",
     "abs",
     "absolute",

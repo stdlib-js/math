@@ -22,10 +22,10 @@
 
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/base/uniform' );
-var isnan = require( './../../../../base/assert/is-nan' );
-var Complex128 = require( '@stdlib/complex/float64' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var pkg = require( './../package.json' ).name;
-var cabs = require( './../lib' );
+var cabsf = require( './../lib' );
 
 
 // MAIN //
@@ -36,19 +36,19 @@ bench( pkg, function benchmark( b ) {
 	var i;
 
 	values = [
-		new Complex128( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) ),
-		new Complex128( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) )
+		new Complex64( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) ),
+		new Complex64( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) )
 	];
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = cabs( values[ i%values.length ] );
-		if ( isnan( y ) ) {
+		y = cabsf( values[ i%values.length ] );
+		if ( isnanf( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
 	}
 	b.toc();
-	if ( isnan( y ) ) {
+	if ( isnanf( y ) ) {
 		b.fail( 'should not return NaN' );
 	}
 	b.pass( 'benchmark finished' );

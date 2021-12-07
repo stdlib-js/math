@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,24 +18,32 @@
 
 'use strict';
 
-/**
-* Compute the absolute value of a double-precision complex floating-point number.
-*
-* @module @stdlib/math/base/special/cabs
-*
-* @example
-* var Complex128 = require( '@stdlib/complex/float64' );
-* var cabs = require( '@stdlib/math/base/special/cabs' );
-*
-* var v = cabs( new Complex128( 5.0, 3.0 ) );
-* // returns ~5.83
-*/
-
 // MODULES //
 
-var main = require( './main.js' );
+var hypotf = require( './../../../../base/special/hypotf' );
+var real = require( '@stdlib/complex/real' );
+var imag = require( '@stdlib/complex/imag' );
+
+
+// MAIN //
+
+/**
+* Computes the absolute value of a single-precision complex floating-point number.
+*
+* @param {ComplexLike} z - complex number
+* @returns {number} absolute value
+*
+* @example
+* var Complex64 = require( '@stdlib/complex/float32' );
+*
+* var v = cabsf( new Complex64( 5.0, 3.0 ) );
+* // returns ~5.83
+*/
+function cabsf( z ) {
+	return hypotf( real( z ), imag( z ) );
+}
 
 
 // EXPORTS //
 
-module.exports = main;
+module.exports = cabsf;

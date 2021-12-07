@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@
 
 'use strict';
 
-var Complex128 = require( '@stdlib/complex/float64' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' ).factory;
-var cabs = require( './../lib' );
+var cabsf = require( './../lib' );
 
 // Create a PRNG to generate uniformly distributed pseudorandom integers:
 var rand = discreteUniform( -50, 50 );
@@ -29,6 +29,6 @@ var rand = discreteUniform( -50, 50 );
 var z;
 var i;
 for ( i = 0; i < 100; i++ ) {
-	z = new Complex128( rand(), rand() );
-	console.log( 'cabs(%s) = %d', z.toString(), cabs( z ) );
+	z = new Complex64( rand(), rand() );
+	console.log( 'cabsf(%s) = %d', z.toString(), cabsf( z ) );
 }
