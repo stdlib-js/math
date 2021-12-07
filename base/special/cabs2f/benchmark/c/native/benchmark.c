@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -17,15 +17,17 @@
 */
 
 /**
-* Benchmark `cabs2`.
+* Benchmark `cabs2f`.
 */
+#include "stdlib/math/base/special/cabs2f.h"
+#include <complex.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include <complex.h>
+#include <time.h>
 #include <sys/time.h>
 
-#define NAME "cabs2"
+#define NAME "cabs2f"
 #define ITERATIONS 1000000
 #define REPEATS 3
 
@@ -81,19 +83,9 @@ double tic() {
 *
 * @return random number
 */
-double rand_double() {
+float rand_float() {
 	int r = rand();
-	return (double)r / ( (double)RAND_MAX + 1.0 );
-}
-
-/**
-* Computes the squared absolute value of a complex number.
-*
-* @param z  input value
-* @return squared absolute value
-*/
-double cabs2( double complex z ) {
-	return ( creal(z)*creal(z) ) + ( cimag(z)*cimag(z) );
+	return (float)r / ( (float)RAND_MAX + 1.0f );
 }
 
 /**
@@ -102,20 +94,20 @@ double cabs2( double complex z ) {
 * @return elapsed time in seconds
 */
 double benchmark() {
-	double complex z;
+	float complex z;
 	double elapsed;
-	double re;
-	double im;
-	double y;
 	double t;
+	float re;
+	float im;
+	float y;
 	int i;
 
 	t = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		re = ( 1000.0*rand_double() ) - 500.0;
-		im = ( 1000.0*rand_double() ) - 500.0;
+		re = ( 1000.0f*rand_float() ) - 500.0f;
+		im = ( 1000.0f*rand_float() ) - 500.0f;
 		z = re + im*I;
-		y = cabs2( z );
+		y = stdlib_base_cabs2f( z );
 		if ( y != y ) {
 			printf( "should not return NaN\n" );
 			break;
@@ -140,7 +132,7 @@ int main( void ) {
 
 	print_version();
 	for ( i = 0; i < REPEATS; i++ ) {
-		printf( "# c::%s\n", NAME );
+		printf( "# c::native::%s\n", NAME );
 		elapsed = benchmark();
 		print_results( elapsed );
 		printf( "ok %d benchmark finished\n", i+1 );

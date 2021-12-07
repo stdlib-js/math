@@ -370,6 +370,15 @@ setReadOnly( special, 'cabs', require( './../../../base/special/cabs' ) );
 setReadOnly( special, 'cabs2', require( './../../../base/special/cabs2' ) );
 
 /**
+* @name cabs2f
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cabs2f}
+*/
+setReadOnly( special, 'cabs2f', require( './../../../base/special/cabs2f' ) );
+
+/**
 * @name cabsf
 * @memberof special
 * @readonly

@@ -16,33 +16,39 @@
 * limitations under the License.
 */
 
-/* This is a generated file. Do not edit directly. */
 'use strict';
+
+// MODULES //
+
+var real = require( '@stdlib/complex/real' );
+var imag = require( '@stdlib/complex/imag' );
+
 
 // MAIN //
 
 /**
-* Evaluates a polynomial.
+* Computes the squared absolute value of a single-precision complex floating-point number.
 *
 * ## Notes
 *
-* -   The implementation uses [Horner's rule][horners-method] for efficient computation.
+* -   Be careful of overflow and underflow.
 *
-* [horners-method]: https://en.wikipedia.org/wiki/Horner%27s_method
+* @param {ComplexLike} z - complex number
+* @returns {number} squared absolute value
 *
+* @example
+* var Complex64 = require( '@stdlib/complex/float32' );
 *
-* @private
-* @param {number} x - value at which to evaluate the polynomial
-* @returns {number} evaluated polynomial
+* var v = cabs2f( new Complex64( 5.0, 3.0 ) );
+* // returns 34.0
 */
-function evalpoly( x ) {
-	if ( x === 0.0 ) {
-		return 0.16666666666666602;
-	}
-	return 0.16666666666666602 + (x * (-0.0027777777777015593 + (x * (0.00006613756321437934 + (x * (-0.0000016533902205465252 + (x * 4.1381367970572385e-8))))))); // eslint-disable-line max-len
+function cabs2f( z ) {
+	var re = real( z );
+	var im = imag( z );
+	return (re*re) + (im*im);
 }
 
 
 // EXPORTS //
 
-module.exports = evalpoly;
+module.exports = cabs2f;

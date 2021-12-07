@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2018 The Stdlib Authors.
+Copyright (c) 2021 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -20,16 +20,16 @@ limitations under the License.
 
 # abs2
 
-> Compute the squared [absolute value][absolute-value] of a double-precision [complex][@stdlib/complex/float64] floating-point number.
+> Compute the squared [absolute value][absolute-value] of a single-precision [complex][@stdlib/complex/float32] floating-point number.
 
 <section class="intro">
 
-The [absolute value][absolute-value] of a [complex][@stdlib/complex/float64] number is defined as
+The [absolute value][absolute-value] of a [complex][@stdlib/complex/float32] number is defined as
 
 <!-- <equation class="equation" label="eq:absolute_value_complex" align="center" raw="|a + bi| = \sqrt{a^2 + b^2}" alt="Absolute value"> -->
 
 <div class="equation" align="center" data-raw-text="|a + bi| = \sqrt{a^2 + b^2}" data-equation="eq:absolute_value_complex">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d4edb68b52a6c646be5683023c5a24890300727f/lib/node_modules/@stdlib/math/base/special/cabs2/docs/img/equation_absolute_value_complex.svg" alt="Absolute value">
+    <img src="" alt="Absolute value">
     <br>
 </div>
 
@@ -46,17 +46,17 @@ which corresponds to the length of a vector from the origin to a complex value p
 ## Usage
 
 ```javascript
-var cabs2 = require( '@stdlib/math/base/special/cabs2' );
+var cabs2f = require( '@stdlib/math/base/special/cabs2f' );
 ```
 
-#### cabs2( z )
+#### cabs2f( z )
 
-Computes the squared [absolute value][absolute-value] of a double-precision [complex][@stdlib/complex/float64] floating-point number.
+Computes the squared [absolute value][absolute-value] of a single-precision [complex][@stdlib/complex/float32] floating-point number.
 
 ```javascript
-var Complex128 = require( '@stdlib/complex/float64' );
+var Complex64 = require( '@stdlib/complex/float32' );
 
-var y = cabs2( new Complex128( 5.0, 3.0 ) );
+var y = cabs2f( new Complex64( 5.0, 3.0 ) );
 // returns 34.0
 ```
 
@@ -69,7 +69,7 @@ var y = cabs2( new Complex128( 5.0, 3.0 ) );
 ## Notes
 
 -   Be careful to avoid overflow and underflow.
--   Depending on the environment, this function _may_ have better performance than computing the [absolute value][absolute-value] of a [complex][@stdlib/complex/float64] number and then squaring. Hence, where appropriate, consider using `cabs2()` over [`cabs()`][@stdlib/math/base/special/cabs].
+-   Depending on the environment, this function _may_ have better performance than computing the [absolute value][absolute-value] of a [complex][@stdlib/complex/float32] number and then squaring. Hence, where appropriate, consider using `cabs2f()` over [`cabsf()`][@stdlib/math/base/special/cabsf].
 
 </section>
 
@@ -84,9 +84,9 @@ var y = cabs2( new Complex128( 5.0, 3.0 ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Complex128 = require( '@stdlib/complex/float64' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' ).factory;
-var cabs2 = require( '@stdlib/math/base/special/cabs2' );
+var cabs2f = require( '@stdlib/math/base/special/cabs2f' );
 
 // Create a PRNG to generate uniformly distributed pseudorandom integers:
 var rand = discreteUniform( -50, 50 );
@@ -95,8 +95,8 @@ var rand = discreteUniform( -50, 50 );
 var z;
 var i;
 for ( i = 0; i < 100; i++ ) {
-    z = new Complex128( rand(), rand() );
-    console.log( 'cabs2(%s) = %d', z.toString(), cabs2( z ) );
+    z = new Complex64( rand(), rand() );
+    console.log( 'cabs2f(%s) = %d', z.toString(), cabs2f( z ) );
 }
 ```
 
@@ -127,26 +127,26 @@ for ( i = 0; i < 100; i++ ) {
 ### Usage
 
 ```c
-#include "stdlib/math/base/special/cabs2.h"
+#include "stdlib/math/base/special/cabs2f.h"
 ```
 
-#### stdlib_base_cabs2( z )
+#### stdlib_base_cabs2f( z )
 
-Computes the squared [absolute value][absolute-value] of a double-precision complex floating-point number.
+Computes the squared [absolute value][absolute-value] of a single-precision complex floating-point number.
 
 ```c
 #include <complex.h>
 
-double y = stdlib_base_cabs2( 5.0+3.0*I );
-// returns 34.0
+float y = stdlib_base_cabs2f( 5.0+3.0*I );
+// returns 34.0f
 ```
 
 The function accepts the following arguments:
 
--   **z**: `[in] double complex` input value.
+-   **z**: `[in] float complex` input value.
 
 ```c
-double stdlib_base_cabs2( const double complex z );
+float stdlib_base_cabs2f( const float complex z );
 ```
 
 </section>
@@ -168,20 +168,20 @@ double stdlib_base_cabs2( const double complex z );
 ### Examples
 
 ```c
-#include "stdlib/math/base/special/cabs2.h"
+#include "stdlib/math/base/special/cabs2f.h"
 #include <stdio.h>
 #include <complex.h>
 
 int main() {
-    double complex x[] = { 3.14+1.0*I, -3.14-1.0*I, 0.0+0.0*I, 0.0/0.0+0.0/0.0*I };
+    float complex x[] = { 3.14f+1.0f*I, -3.14f-1.0f*I, 0.0f+0.0f*I, 0.0f/0.0f+0.0f/0.0f*I };
 
-    double complex v;
-    double y;
+    float complex v;
+    float y;
     int i;
     for ( i = 0; i < 4; i++ ) {
         v = x[ i ];
-        y = stdlib_base_cabs2( v );
-        printf( "f(%lf + %lf) = %lf\n", creal( v ), cimag( v ), y );
+        y = stdlib_base_cabs2f( v );
+        printf( "f(%f + %f) = %f\n", crealf( v ), cimagf( v ), y );
     }
 }
 ```
@@ -198,13 +198,6 @@ int main() {
 
 <section class="related">
 
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/math/base/special/cabs`][@stdlib/math/base/special/cabs]</span><span class="delimiter">: </span><span class="description">compute an absolute value of a complex number.</span>
--   <span class="package-name">[`@stdlib/math/base/special/abs2`][@stdlib/math/base/special/abs2]</span><span class="delimiter">: </span><span class="description">compute the squared absolute value of a double-precision floating-point number.</span>
-
 </section>
 
 <!-- /.related -->
@@ -215,15 +208,9 @@ int main() {
 
 [absolute-value]: https://en.wikipedia.org/wiki/Absolute_value
 
-[@stdlib/math/base/special/cabs]: https://github.com/stdlib-js/math/tree/main/base/special/cabs
+[@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math/tree/main/base/special/cabsf
 
-[@stdlib/complex/float64]: https://github.com/stdlib-js/complex-float64
-
-<!-- <related-links> -->
-
-[@stdlib/math/base/special/abs2]: https://github.com/stdlib-js/math/tree/main/base/special/abs2
-
-<!-- </related-links> -->
+[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32
 
 </section>
 

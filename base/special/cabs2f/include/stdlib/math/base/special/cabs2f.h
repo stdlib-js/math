@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,19 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_MATH_BASE_SPECIAL_CABS2F_H
+#define STDLIB_MATH_BASE_SPECIAL_CABS2F_H
 
-var Complex128 = require( '@stdlib/complex/float64' );
-var discreteUniform = require( '@stdlib/random/base/discrete-uniform' ).factory;
-var cabs2 = require( './../lib' );
+#include <complex.h>
 
-// Create a PRNG to generate uniformly distributed pseudorandom integers:
-var rand = discreteUniform( -50, 50 );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-// Compute the squared absolute value for a set of random numbers...
-var z;
-var i;
-for ( i = 0; i < 100; i++ ) {
-	z = new Complex128( rand(), rand() );
-	console.log( 'cabs2(%s) = %d', z.toString(), cabs2( z ) );
+/**
+* Computes the squared absolute value of a single-precision complex floating-point number.
+*/
+float stdlib_base_cabs2f( const float complex z );
+
+#ifdef __cplusplus
 }
+#endif
+
+#endif // !STDLIB_MATH_BASE_SPECIAL_CABS2F_H
