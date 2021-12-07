@@ -54,6 +54,15 @@ setReadOnly( ns, 'add', require( './../../../strided/ops/add' ) );
 */
 setReadOnly( ns, 'mul', require( './../../../strided/ops/mul' ) );
 
+/**
+* @name sub
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/strided/ops/sub}
+*/
+setReadOnly( ns, 'sub', require( './../../../strided/ops/sub' ) );
+
 
 // EXPORTS //
 
