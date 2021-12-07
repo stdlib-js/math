@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,18 +21,18 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( './../../../../base/assert/is-nan' );
-var Complex128 = require( '@stdlib/complex/float64' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var real = require( '@stdlib/complex/real' );
 var imag = require( '@stdlib/complex/imag' );
-var csub = require( './../lib' );
+var csubf = require( './../lib' );
 
 
 // TESTS //
 
 tape( 'main export is a function', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof csub, 'function', 'main export is a function' );
+	t.strictEqual( typeof csubf, 'function', 'main export is a function' );
 	t.end();
 });
 
@@ -41,10 +41,10 @@ tape( 'the function subtracts two complex numbers', function test( t ) {
 	var z2;
 	var v;
 
-	z1 = new Complex128( 5.0, 3.0 );
-	z2 = new Complex128( -2.0, 1.0 );
+	z1 = new Complex64( 5.0, 3.0 );
+	z2 = new Complex64( -2.0, 1.0 );
 
-	v = csub( z1, z2 );
+	v = csubf( z1, z2 );
 
 	t.strictEqual( real( v ), 7.0, 'returns expected value' );
 	t.strictEqual( imag( v ), 2.0, 'returns expected value' );
@@ -57,54 +57,54 @@ tape( 'if a real or imaginary component is `NaN`, the resulting component is `Na
 	var z2;
 	var v;
 
-	z1 = new Complex128( NaN, 3.0 );
-	z2 = new Complex128( -2.0, 1.0 );
+	z1 = new Complex64( NaN, 3.0 );
+	z2 = new Complex64( -2.0, 1.0 );
 
-	v = csub( z1, z2 );
-	t.strictEqual( isnan( real( v ) ), true, 'returns expected value' );
+	v = csubf( z1, z2 );
+	t.strictEqual( isnanf( real( v ) ), true, 'returns expected value' );
 	t.strictEqual( imag( v ), 2.0, 'returns expected value' );
 
-	z1 = new Complex128( 5.0, 3.0 );
-	z2 = new Complex128( NaN, 1.0 );
+	z1 = new Complex64( 5.0, 3.0 );
+	z2 = new Complex64( NaN, 1.0 );
 
-	v = csub( z1, z2 );
-	t.strictEqual( isnan( real( v ) ), true, 'returns expected value' );
+	v = csubf( z1, z2 );
+	t.strictEqual( isnanf( real( v ) ), true, 'returns expected value' );
 	t.strictEqual( imag( v ), 2.0, 'returns expected value' );
 
-	z1 = new Complex128( NaN, 3.0 );
-	z2 = new Complex128( NaN, 1.0 );
+	z1 = new Complex64( NaN, 3.0 );
+	z2 = new Complex64( NaN, 1.0 );
 
-	v = csub( z1, z2 );
-	t.strictEqual( isnan( real( v ) ), true, 'returns expected value' );
+	v = csubf( z1, z2 );
+	t.strictEqual( isnanf( real( v ) ), true, 'returns expected value' );
 	t.strictEqual( imag( v ), 2.0, 'returns expected value' );
 
-	z1 = new Complex128( 5.0, NaN );
-	z2 = new Complex128( -2.0, 1.0 );
+	z1 = new Complex64( 5.0, NaN );
+	z2 = new Complex64( -2.0, 1.0 );
 
-	v = csub( z1, z2 );
+	v = csubf( z1, z2 );
 	t.strictEqual( real( v ), 7.0, 'returns expected value' );
-	t.strictEqual( isnan( imag( v ) ), true, 'returns expected value' );
+	t.strictEqual( isnanf( imag( v ) ), true, 'returns expected value' );
 
-	z1 = new Complex128( 5.0, 3.0 );
-	z2 = new Complex128( -2.0, NaN );
+	z1 = new Complex64( 5.0, 3.0 );
+	z2 = new Complex64( -2.0, NaN );
 
-	v = csub( z1, z2 );
+	v = csubf( z1, z2 );
 	t.strictEqual( real( v ), 7.0, 'returns expected value' );
-	t.strictEqual( isnan( imag( v ) ), true, 'returns expected value' );
+	t.strictEqual( isnanf( imag( v ) ), true, 'returns expected value' );
 
-	z1 = new Complex128( 5.0, NaN );
-	z2 = new Complex128( -2.0, NaN );
+	z1 = new Complex64( 5.0, NaN );
+	z2 = new Complex64( -2.0, NaN );
 
-	v = csub( z1, z2 );
+	v = csubf( z1, z2 );
 	t.strictEqual( real( v ), 7.0, 'returns expected value' );
-	t.strictEqual( isnan( imag( v ) ), true, 'returns expected value' );
+	t.strictEqual( isnanf( imag( v ) ), true, 'returns expected value' );
 
-	z1 = new Complex128( NaN, NaN );
-	z2 = new Complex128( NaN, NaN );
+	z1 = new Complex64( NaN, NaN );
+	z2 = new Complex64( NaN, NaN );
 
-	v = csub( z1, z2 );
-	t.strictEqual( isnan( real( v ) ), true, 'returns expected value' );
-	t.strictEqual( isnan( imag( v ) ), true, 'returns expected value' );
+	v = csubf( z1, z2 );
+	t.strictEqual( isnanf( real( v ) ), true, 'returns expected value' );
+	t.strictEqual( isnanf( imag( v ) ), true, 'returns expected value' );
 
 	t.end();
 });

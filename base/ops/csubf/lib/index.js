@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,35 +18,25 @@
 
 'use strict';
 
-// MODULES //
-
-var Complex128 = require( '@stdlib/complex/float64' );
-var real = require( '@stdlib/complex/real' );
-var imag = require( '@stdlib/complex/imag' );
-
-
-// MAIN //
-
 /**
-* Subtracts two double-precision complex floating-point numbers.
+* Subtract two single-precision complex floating-point numbers.
 *
-* @param {ComplexLike} z1 - complex number
-* @param {ComplexLike} z2 - complex number
-* @returns {Complex128} result
+* @module @stdlib/math/base/ops/csubf
 *
 * @example
-* var Complex128 = require( '@stdlib/complex/float64' );
+* var Complex64 = require( '@stdlib/complex/float32' );
 * var real = require( '@stdlib/complex/real' );
 * var imag = require( '@stdlib/complex/imag' );
+* var csubf = require( '@stdlib/math/base/ops/csubf' );
 *
-* var z1 = new Complex128( 5.0, 3.0 );
-* // returns <Complex128>
+* var z1 = new Complex64( 5.0, 3.0 );
+* // returns <Complex64>
 *
-* var z2 = new Complex128( -2.0, 1.0 );
-* // returns <Complex128>
+* var z2 = new Complex64( -2.0, 1.0 );
+* // returns <Complex64>
 *
-* var out = csub( z1, z2 );
-* // returns <Complex128>
+* var out = csubf( z1, z2 );
+* // returns <Complex64>
 *
 * var re = real( out );
 * // returns 7.0
@@ -54,13 +44,12 @@ var imag = require( '@stdlib/complex/imag' );
 * var im = imag( out );
 * // returns 2.0
 */
-function csub( z1, z2 ) {
-	var re = real( z1 ) - real( z2 );
-	var im = imag( z1 ) - imag( z2 );
-	return new Complex128( re, im );
-}
+
+// MODULES //
+
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-module.exports = csub;
+module.exports = main;

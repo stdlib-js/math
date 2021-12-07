@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -22,12 +22,12 @@
 
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/base/uniform' );
-var isnan = require( './../../../../base/assert/is-nan' );
-var Complex128 = require( '@stdlib/complex/float64' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var real = require( '@stdlib/complex/real' );
 var imag = require( '@stdlib/complex/imag' );
 var pkg = require( './../package.json' ).name;
-var csub = require( './../lib' );
+var csubf = require( './../lib' );
 
 
 // MAIN //
@@ -39,20 +39,20 @@ bench( pkg, function benchmark( b ) {
 	var i;
 
 	values = [
-		new Complex128( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) ),
-		new Complex128( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) )
+		new Complex64( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) ),
+		new Complex64( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) )
 	];
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
 		z = values[ i%values.length ];
-		out = csub( z, z );
+		out = csubf( z, z );
 		if ( typeof out !== 'object' ) {
 			b.fail( 'should return an object' );
 		}
 	}
 	b.toc();
-	if ( isnan( real( out ) ) || isnan( imag( out ) ) ) {
+	if ( isnanf( real( out ) ) || isnanf( imag( out ) ) ) {
 		b.fail( 'should not return NaN' );
 	}
 	b.pass( 'benchmark finished' );

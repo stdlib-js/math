@@ -23,25 +23,25 @@
 import { ComplexLike } from '@stdlib/types/object';
 
 /**
-* Subtracts two double-precision complex floating-point numbers.
+* Subtracts two single-precision complex floating-point numbers.
 *
 * @param z1 - complex number
 * @param z2 - complex number
 * @returns result
 *
 * @example
-* var Complex128 = require( `@stdlib/complex/float64` );
+* var Complex64 = require( `@stdlib/complex/float32` );
 * var real = require( `@stdlib/complex/real` );
 * var imag = require( `@stdlib/complex/imag` );
 *
-* var z1 = new Complex128( 5.0, 3.0 );
-* // returns <Complex128>
+* var z1 = new Complex64( 5.0, 3.0 );
+* // returns <Complex64>
 *
-* var z2 = new Complex128( -2.0, 1.0 );
-* // returns <Complex128>
+* var z2 = new Complex64( -2.0, 1.0 );
+* // returns <Complex64>
 *
-* var out = csub( z1, z2 );
-* // returns <Complex128>
+* var out = csubf( z1, z2 );
+* // returns <Complex64>
 *
 * var re = real( out );
 * // returns 7.0
@@ -49,9 +49,9 @@ import { ComplexLike } from '@stdlib/types/object';
 * var im = imag( out );
 * // returns 2.0
 */
-declare function csub( z1: ComplexLike, z2: ComplexLike ): ComplexLike;
+declare function csubf( z1: ComplexLike, z2: ComplexLike ): ComplexLike;
 
 
 // EXPORTS //
 
-export = csub;
+export = csubf;

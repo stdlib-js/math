@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 */
 
 /**
-* Benchmark `csub`.
+* Benchmark `csubf`.
 */
 #include <stdlib.h>
 #include <stdio.h>
@@ -25,7 +25,7 @@
 #include <complex.h>
 #include <sys/time.h>
 
-#define NAME "csub"
+#define NAME "csubf"
 #define ITERATIONS 1000000
 #define REPEATS 3
 
@@ -81,9 +81,9 @@ double tic() {
 *
 * @return random number
 */
-double rand_double() {
+float rand_float() {
 	int r = rand();
-	return (double)r / ( (double)RAND_MAX + 1.0 );
+	return (float)r / ( (float)RAND_MAX + 1.0f );
 }
 
 /**
@@ -93,26 +93,26 @@ double rand_double() {
 */
 double benchmark() {
 	double elapsed;
-	double re;
-	double im;
+	float re;
+	float im;
 	double t;
 	int i;
 
-	double complex z1;
-	double complex z2;
-	double complex z3;
+	float complex z1;
+	float complex z2;
+	float complex z3;
 
 	t = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		re = ( 1000.0*rand_double() ) - 500.0;
-		im = ( 1000.0*rand_double() ) - 500.0;
+		re = ( 1000.0f*rand_float() ) - 500.0f;
+		im = ( 1000.0f*rand_float() ) - 500.0f;
 		z1 = re + im*I;
 
-		re = ( 1000.0*rand_double() ) - 500.0;
-		im = ( 1000.0*rand_double() ) - 500.0;
+		re = ( 1000.0f*rand_float() ) - 500.0f;
+		im = ( 1000.0f*rand_float() ) - 500.0f;
 		z2 = re + im*I;
 
-		z3 = (creal(z1)-creal(z2)) + (cimag(z1)-cimag(z2))*I;
+		z3 = (crealf(z1)-crealf(z2)) + (cimagf(z1)-cimagf(z2))*I;
 		if ( z3 != z3 ) {
 			printf( "should not return NaN\n" );
 			break;

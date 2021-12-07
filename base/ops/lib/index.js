@@ -118,6 +118,15 @@ setReadOnly( ns, 'cneg', require( './../../../base/ops/cneg' ) );
 setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 
 /**
+* @name csubf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/csubf}
+*/
+setReadOnly( ns, 'csubf', require( './../../../base/ops/csubf' ) );
+
+/**
 * @name imul
 * @memberof ns
 * @readonly

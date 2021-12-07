@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,19 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/math/base/ops/csubf.h"
+#include <stdio.h>
+#include <complex.h>
 
-var Complex128 = require( '@stdlib/complex/float64' );
-var discreteUniform = require( '@stdlib/random/base/discrete-uniform' ).factory;
-var csub = require( './../lib' );
+int main() {
+	float complex x[] = { 3.14f+1.5f*I, -3.14f-1.5f*I, 0.0f+0.0f*I, 0.0f/0.0f+0.0f/0.0f*I };
 
-var rand;
-var z1;
-var z2;
-var z3;
-var i;
-
-rand = discreteUniform( -50, 50 );
-for ( i = 0; i < 100; i++ ) {
-	z1 = new Complex128( rand(), rand() );
-	z2 = new Complex128( rand(), rand() );
-	z3 = csub( z1, z2 );
-	console.log( '(%s) - (%s) = %s', z1.toString(), z2.toString(), z3.toString() );
+	float complex v;
+	float complex y;
+	int i;
+	for ( i = 0; i < 4; i++ ) {
+		v = x[ i ];
+		y = stdlib_base_csubf( v, v );
+		printf( "z = %f + %fi\ncsubf(z, z) = %f + %fi\n", crealf( v ), cimagf( v ), crealf( y ), cimagf( y ) );
+	}
 }

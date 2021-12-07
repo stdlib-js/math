@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/math/base/ops/csub",
+  "name": "@stdlib/math/base/ops/csubf",
   "version": "0.0.0",
-  "description": "Subtract two double-precision complex floating-point numbers.",
+  "description": "Subtract two single-precision complex floating-point numbers.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -57,6 +57,7 @@
     "subtract",
     "sub",
     "csub",
+    "csubf",
     "subtraction",
     "difference",
     "sum",

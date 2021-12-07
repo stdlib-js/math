@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2018 The Stdlib Authors.
+Copyright (c) 2021 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# csub
+# csubf
 
-> Subtract two double-precision complex floating-point numbers.
+> Subtract two single-precision complex floating-point numbers.
 
 <section class="intro">
 
@@ -33,23 +33,23 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var csub = require( '@stdlib/math/base/ops/csub' );
+var csubf = require( '@stdlib/math/base/ops/csubf' );
 ```
 
-#### csub( z1, z2 )
+#### csubf( z1, z2 )
 
-Subtracts two double-precision complex floating-point numbers.
+Subtracts two single-precision complex floating-point numbers.
 
 ```javascript
-var Complex128 = require( '@stdlib/complex/float64' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var real = require( '@stdlib/complex/real' );
 var imag = require( '@stdlib/complex/imag' );
 
-var z1 = new Complex128( 5.0, 3.0 );
-var z2 = new Complex128( -2.0, 1.0 );
+var z1 = new Complex64( 5.0, 3.0 );
+var z2 = new Complex64( -2.0, 1.0 );
 
-var v = csub( z1, z2 );
-// returns <Complex128>
+var v = csubf( z1, z2 );
+// returns <Complex64>
 
 var re = real( v );
 // returns 7.0
@@ -69,9 +69,9 @@ var im = imag( v );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Complex128 = require( '@stdlib/complex/float64' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' ).factory;
-var csub = require( '@stdlib/math/base/ops/csub' );
+var csubf = require( '@stdlib/math/base/ops/csubf' );
 
 var rand;
 var z1;
@@ -81,9 +81,9 @@ var i;
 
 rand = discreteUniform( -50, 50 );
 for ( i = 0; i < 100; i++ ) {
-    z1 = new Complex128( rand(), rand() );
-    z2 = new Complex128( rand(), rand() );
-    z3 = csub( z1, z2 );
+    z1 = new Complex64( rand(), rand() );
+    z2 = new Complex64( rand(), rand() );
+    z3 = csubf( z1, z2 );
     console.log( '(%s) - (%s) = %s', z1.toString(), z2.toString(), z3.toString() );
 }
 ```
@@ -115,30 +115,30 @@ for ( i = 0; i < 100; i++ ) {
 ### Usage
 
 ```c
-#include "stdlib/math/base/ops/csub.h"
+#include "stdlib/math/base/ops/csubf.h"
 ```
 
-#### stdlib_base_csub( z1, z2 )
+#### stdlib_base_csubf( z1, z2 )
 
-Subtracts two double-precision complex floating-point numbers.
+Subtracts two single-precision complex floating-point numbers.
 
 ```c
 #include <complex.h>
 
-double complex z1 = 5.0 + 3.0*I;
-double complex z2 = -2.0 + 1.0*I;
+float complex z1 = 5.0f + 3.0f*I;
+float complex z2 = -2.0f + 1.0f*I;
 
-double complex out = stdlib_base_csub( z1, z2 );
-// returns 7.0+2.0*I
+float complex out = stdlib_base_csubf( z1, z2 );
+// returns 7.0f+2.0f*I
 ```
 
 The function accepts the following arguments:
 
--   **z1**: `[in] double complex` input value.
--   **z2**: `[in] double complex` input value.
+-   **z1**: `[in] float complex` input value.
+-   **z2**: `[in] float complex` input value.
 
 ```c
-double complex stdlib_base_csub( const double complex z1, const double complex z2 );
+float complex stdlib_base_csubf( const float complex z1, const float complex z2 );
 ```
 
 </section>
@@ -160,20 +160,20 @@ double complex stdlib_base_csub( const double complex z1, const double complex z
 ### Examples
 
 ```c
-#include "stdlib/math/base/ops/csub.h"
+#include "stdlib/math/base/ops/csubf.h"
 #include <stdio.h>
 #include <complex.h>
 
 int main() {
-    double complex x[] = { 3.14+1.5*I, -3.14-1.5*I, 0.0+0.0*I, 0.0/0.0+0.0/0.0*I };
+    float complex x[] = { 3.14f+1.5f*I, -3.14f-1.5f*I, 0.0f+0.0f*I, 0.0f/0.0f+0.0f/0.0f*I };
 
-    double complex v;
-    double complex y;
+    float complex v;
+    float complex y;
     int i;
     for ( i = 0; i < 4; i++ ) {
         v = x[ i ];
-        y = stdlib_base_csub( v, v );
-        printf( "z = %lf + %lfi\ncsub(z, z) = %lf + %lfi\n", creal( v ), cimag( v ), creal( y ), cimag( y ) );
+        y = stdlib_base_csubf( v, v );
+        printf( "z = %f + %fi\ncsubf(z, z) = %f + %fi\n", crealf( v ), cimagf( v ), crealf( y ), cimagf( y ) );
     }
 }
 ```

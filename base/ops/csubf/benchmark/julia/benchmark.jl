@@ -2,7 +2,7 @@
 #
 # @license Apache-2.0
 #
-# Copyright (c) 2018 The Stdlib Authors.
+# Copyright (c) 2021 The Stdlib Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import BenchmarkTools
 using Printf
 
 # Benchmark variables:
-name = "csub";
+name = "csubf";
 repeats = 3;
 
 """
@@ -107,7 +107,7 @@ julia> out = benchmark();
 ```
 """
 function benchmark()
-	t = BenchmarkTools.@benchmark ComplexF64( (rand()*1000.0)-500.0, (rand()*1000.0)-500.0 ) - ComplexF64( (rand()*1000.0)-500.0, (rand()*1000.0)-500.0 ) samples=1e6
+	t = BenchmarkTools.@benchmark ComplexF32( (rand()*1000.0)-500.0, (rand()*1000.0)-500.0 ) - ComplexF32( (rand()*1000.0)-500.0, (rand()*1000.0)-500.0 ) samples=1e6
 
 	# Compute the total "elapsed" time and convert from nanoseconds to seconds:
 	s = sum( t.times ) / 1.0e9;

@@ -16,52 +16,52 @@
 * limitations under the License.
 */
 
-import Complex128 = require( '@stdlib/complex/float64' );
-import csub = require( './index' );
+import Complex64 = require( '@stdlib/complex/float32' );
+import csubf = require( './index' );
 
 
 // TESTS //
 
 // The function returns a complex number...
 {
-	const z = new Complex128( 1.0, 1.0 );
+	const z = new Complex64( 1.0, 1.0 );
 
-	csub( z, z ); // $ExpectType ComplexLike
+	csubf( z, z ); // $ExpectType ComplexLike
 }
 
 // The compiler throws an error if the function is provided a first argument which is not a complex number...
 {
-	const z = new Complex128( 1.0, 1.0 );
+	const z = new Complex64( 1.0, 1.0 );
 
-	csub( true, z ); // $ExpectError
-	csub( false, z ); // $ExpectError
-	csub( null, z ); // $ExpectError
-	csub( undefined, z ); // $ExpectError
-	csub( '5', z ); // $ExpectError
-	csub( [], z ); // $ExpectError
-	csub( {}, z ); // $ExpectError
-	csub( ( x: number ): number => x, z ); // $ExpectError
+	csubf( true, z ); // $ExpectError
+	csubf( false, z ); // $ExpectError
+	csubf( null, z ); // $ExpectError
+	csubf( undefined, z ); // $ExpectError
+	csubf( '5', z ); // $ExpectError
+	csubf( [], z ); // $ExpectError
+	csubf( {}, z ); // $ExpectError
+	csubf( ( x: number ): number => x, z ); // $ExpectError
 }
 
 // The compiler throws an error if the function is provided a second argument which is not a complex number...
 {
-	const z = new Complex128( 1.0, 1.0 );
+	const z = new Complex64( 1.0, 1.0 );
 
-	csub( z, true ); // $ExpectError
-	csub( z, false ); // $ExpectError
-	csub( z, null ); // $ExpectError
-	csub( z, undefined ); // $ExpectError
-	csub( z, '5' ); // $ExpectError
-	csub( z, [] ); // $ExpectError
-	csub( z, {} ); // $ExpectError
-	csub( z, ( x: number ): number => x ); // $ExpectError
+	csubf( z, true ); // $ExpectError
+	csubf( z, false ); // $ExpectError
+	csubf( z, null ); // $ExpectError
+	csubf( z, undefined ); // $ExpectError
+	csubf( z, '5' ); // $ExpectError
+	csubf( z, [] ); // $ExpectError
+	csubf( z, {} ); // $ExpectError
+	csubf( z, ( x: number ): number => x ); // $ExpectError
 }
 
 // The compiler throws an error if the function is provided an unsupported number of arguments...
 {
-	const z = new Complex128( 1.0, 1.0 );
+	const z = new Complex64( 1.0, 1.0 );
 
-	csub(); // $ExpectError
-	csub( z ); // $ExpectError
-	csub( z, z, z ); // $ExpectError
+	csubf(); // $ExpectError
+	csubf( z ); // $ExpectError
+	csubf( z, z, z ); // $ExpectError
 }
