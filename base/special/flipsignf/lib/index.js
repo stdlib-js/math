@@ -18,46 +18,38 @@
 
 'use strict';
 
-// MODULES //
-
-var addon = require( './../src/addon.node' );
-
-
-// MAIN //
-
 /**
-* Returns a single-precision floating-point number with the magnitude of `x` and the sign of `y`.
+* Return a single-precision floating-point number with the magnitude of `x` and the sign of `x*y`.
 *
-* @private
-* @param {number} x - number from which to derive a magnitude
-* @param {number} y - number from which to derive a sign
-* @returns {number} a single-precision floating-point number
+* @module @stdlib/math/base/special/flipsignf
 *
 * @example
-* var z = copysignf( -3.0, 10.0 );
+* var flipsignf = require( '@stdlib/math/base/special/flipsignf' );
+*
+* var z = flipsignf( -3.0, 10.0 );
+* // returns -3.0
+*
+* z = flipsignf( -3.0, -1.0 );
 * // returns 3.0
 *
-* @example
-* var z = copysignf( 3.0, -1.0 );
-* // returns -3.0
-*
-* @example
-* var z = copysignf( 1.0, -0.0 );
+* z = flipsignf( 1.0, -0.0 );
 * // returns -1.0
 *
-* @example
-* var z = copysignf( -3.0, -0.0 );
-* // returns -3.0
+* z = flipsignf( -3.0, -0.0 );
+* // returns 3.0
 *
-* @example
-* var z = copysignf( -0.0, 1.0 );
-* // returns 0.0
+* z = flipsignf( -0.0, 1.0 );
+* // returns -0.0
+*
+* z = flipsignf( 0.0, -1.0 );
+* // returns -0.0
 */
-function copysignf( x, y ) {
-	return addon( x, y );
-}
+
+// MODULES //
+
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-module.exports = copysignf;
+module.exports = main;

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,20 +16,16 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/math/base/special/flipsignf.h"
+#include <stdio.h>
 
-var randu = require( '@stdlib/random/base/randu' );
-var flipsign = require( './../lib' );
+int main() {
+	float x[] = { 3.0f, -3.0f, 0.0f, 0.0f/0.0f };
 
-var x;
-var y;
-var z;
-var i;
-
-// Generate random numbers `x` and `y` and flip the sign of `x` only if `y` is negative...
-for ( i = 0; i < 100; i++ ) {
-	x = (randu()*100.0) - 50.0;
-	y = (randu()*10.0) - 5.0;
-	z = flipsign( x, y );
-	console.log( 'x: %d, y: %d => %d', x, y, z );
+	float y;
+	int i;
+	for ( i = 0; i < 4; i++ ) {
+		y = stdlib_base_flipsignf( x[ i ], -3.0f );
+		printf( "flipsignf(%f, %f) = %f\n", x[ i ], -3.0f, y );
+	}
 }

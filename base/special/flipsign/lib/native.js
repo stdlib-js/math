@@ -26,38 +26,41 @@ var addon = require( './../src/addon.node' );
 // MAIN //
 
 /**
-* Returns a single-precision floating-point number with the magnitude of `x` and the sign of `y`.
+* Returns a double-precision floating-point number with the magnitude of `x` and the sign of `x*y`.
 *
-* @private
 * @param {number} x - number from which to derive a magnitude
 * @param {number} y - number from which to derive a sign
-* @returns {number} a single-precision floating-point number
+* @returns {number} a double-precision floating-point number
 *
 * @example
-* var z = copysignf( -3.0, 10.0 );
+* var z = flipsign( -3.0, 10.0 );
+* // returns -3.0
+*
+* @example
+* var z = flipsign( -3.0, -1.0 );
 * // returns 3.0
 *
 * @example
-* var z = copysignf( 3.0, -1.0 );
-* // returns -3.0
-*
-* @example
-* var z = copysignf( 1.0, -0.0 );
+* var z = flipsign( 1.0, -0.0 );
 * // returns -1.0
 *
 * @example
-* var z = copysignf( -3.0, -0.0 );
-* // returns -3.0
+* var z = flipsign( -3.0, -0.0 );
+* // returns 3.0
 *
 * @example
-* var z = copysignf( -0.0, 1.0 );
-* // returns 0.0
+* var z = flipsign( -0.0, 1.0 );
+* // returns -0.0
+*
+* @example
+* var z = flipsign( 0.0, -1.0 );
+* // returns -0.0
 */
-function copysignf( x, y ) {
+function flipsign( x, y ) {
 	return addon( x, y );
 }
 
 
 // EXPORTS //
 
-module.exports = copysignf;
+module.exports = flipsign;

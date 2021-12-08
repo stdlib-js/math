@@ -18,37 +18,40 @@ limitations under the License.
 
 -->
 
-# copysignf
+# flipsignf
 
-> Return a [single-precision floating-point number][ieee754] with the magnitude of `x` and the sign of `y`.
+> Return a [single-precision floating-point number][ieee754] with the magnitude of `x` and the sign of `x*y`.
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var copysignf = require( '@stdlib/math/base/special/copysignf' );
+var flipsignf = require( '@stdlib/math/base/special/flipsignf' );
 ```
 
-#### copysignf( x, y )
+#### flipsignf( x, y )
 
-Returns a [single-precision floating-point number][ieee754] with the magnitude of `x` and the sign of `y`.
+Returns a [single-precision floating-point number][ieee754] with the magnitude of `x` and the sign of `x*y` (i.e., only return `-x` when `y` is a negative number).
 
 ```javascript
-var z = copysignf( -3.0, 10.0 );
+var z = flipsignf( -3.0, 10.0 );
+// returns -3.0
+
+z = flipsignf( -3.0, -1.0 );
 // returns 3.0
 
-z = copysignf( 3.0, -1.0 );
-// returns -3.0
-
-z = copysignf( 1.0, -0.0 );
+z = flipsignf( 1.0, -0.0 );
 // returns -1.0
 
-z = copysignf( -3.0, -0.0 );
-// returns -3.0
+z = flipsignf( -3.0, -0.0 );
+// returns 3.0
 
-z = copysignf( -0.0, 1.0 );
-// returns 0.0
+z = flipsignf( -0.0, 1.0 );
+// returns -0.0
+
+z = flipsignf( 0.0, -1.0 );
+// returns -0.0
 ```
 
 </section>
@@ -59,7 +62,7 @@ z = copysignf( -0.0, 1.0 );
 
 ## Notes
 
--   According to the [IEEE754][ieee754] standard, a `NaN` has a biased exponent equal to `255`, a significand greater than `0`, and a sign bit equal to **either** `1` **or** `0`. In which case, `NaN` may not correspond to just one but many binary representations. Accordingly, care should be taken to ensure that `y` is **not** `NaN`; otherwise, behavior may be indeterminate.
+-   According to the [IEEE 754][ieee754] standard, a `NaN` has a biased exponent equal to `255`, a significand greater than `0`, and a sign bit equal to **either** `1` **or** `0`. In which case, `NaN` may not correspond to just one but many binary representations. Accordingly, care should be taken to ensure that `y` is **not** `NaN`; otherwise, behavior may be indeterminate.
 
 </section>
 
@@ -73,18 +76,18 @@ z = copysignf( -0.0, 1.0 );
 
 ```javascript
 var randu = require( '@stdlib/random/base/randu' );
-var copysignf = require( '@stdlib/math/base/special/copysignf' );
+var flipsignf = require( '@stdlib/math/base/special/flipsignf' );
 
 var x;
 var y;
 var z;
 var i;
 
-// Generate random numbers `x` and `y` and copy the sign of `y` to `x`...
+// Generate random numbers `x` and `y` and flip the sign of `x` only if `y` is negative...
 for ( i = 0; i < 100; i++ ) {
     x = (randu()*100.0) - 50.0;
     y = (randu()*10.0) - 5.0;
-    z = copysignf( x, y );
+    z = flipsignf( x, y );
     console.log( 'x: %d, y: %d => %d', x, y, z );
 }
 ```
@@ -116,19 +119,19 @@ for ( i = 0; i < 100; i++ ) {
 ### Usage
 
 ```c
-#include "stdlib/math/base/special/copysignf.h"
+#include "stdlib/math/base/special/flipsignf.h"
 ```
 
-#### stdlib_base_copysignf( x, y )
+#### stdlib_base_flipsignf( x, y )
 
-Returns a [single-precision floating-point number][ieee754] with the magnitude of `x` and the sign of `y`.
+Returns a [single-precision floating-point number][ieee754] with the magnitude of `x` and the sign of `x*y`.
 
 ```c
-float v = stdlib_base_copysignf( -3.0f, 10.0f );
-// returns 3.0f
-
-float v = stdlib_base_copysignf( 3.0f, -1.0f );
+float v = stdlib_base_flipsignf( -3.0f, 10.0f );
 // returns -3.0f
+
+float v = stdlib_base_flipsignf( -3.0f, -1.0f );
+// returns 3.0f
 ```
 
 The function accepts the following arguments:
@@ -137,7 +140,7 @@ The function accepts the following arguments:
 -   **y**: `[in] float` number from which to derive a sign.
 
 ```c
-float stdlib_base_copysignf( const float x, const float y );
+float stdlib_base_flipsignf( const float x, const float y );
 ```
 
 </section>
@@ -159,7 +162,7 @@ float stdlib_base_copysignf( const float x, const float y );
 ### Examples
 
 ```c
-#include "stdlib/math/base/special/copysignf.h"
+#include "stdlib/math/base/special/flipsignf.h"
 #include <stdio.h>
 
 int main() {
@@ -168,8 +171,8 @@ int main() {
     float y;
     int i;
     for ( i = 0; i < 4; i++ ) {
-        y = stdlib_base_copysignf( x[ i ], -3.0f );
-        printf( "copysignf(%f, %f) = %f\n", x[ i ], -3.0f, y );
+        y = stdlib_base_flipsignf( x[ i ], -3.0f );
+        printf( "flipsignf(%f, %f) = %f\n", x[ i ], -3.0f, y );
     }
 }
 ```

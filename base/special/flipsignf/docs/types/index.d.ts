@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,48 +16,42 @@
 * limitations under the License.
 */
 
-'use strict';
-
-// MODULES //
-
-var addon = require( './../src/addon.node' );
-
-
-// MAIN //
+// TypeScript Version: 2.0
 
 /**
-* Returns a single-precision floating-point number with the magnitude of `x` and the sign of `y`.
+* Returns a single-precision floating-point number with the magnitude of `x` and the sign of `x*y`.
 *
-* @private
-* @param {number} x - number from which to derive a magnitude
-* @param {number} y - number from which to derive a sign
-* @returns {number} a single-precision floating-point number
+* @param x - number from which to derive a magnitude
+* @param y - number from which to derive a sign
+* @returns a single-precision floating-point number
 *
 * @example
-* var z = copysignf( -3.0, 10.0 );
+* var z = flipsignf( -3.0, 10.0 );
+* // returns -3.0
+*
+* @example
+* var z = flipsignf( -3.0, -1.0 );
 * // returns 3.0
 *
 * @example
-* var z = copysignf( 3.0, -1.0 );
-* // returns -3.0
-*
-* @example
-* var z = copysignf( 1.0, -0.0 );
+* var z = flipsignf( 1.0, -0.0 );
 * // returns -1.0
 *
 * @example
-* var z = copysignf( -3.0, -0.0 );
-* // returns -3.0
+* var z = flipsignf( -3.0, -0.0 );
+* // returns 3.0
 *
 * @example
-* var z = copysignf( -0.0, 1.0 );
-* // returns 0.0
+* var z = flipsignf( -0.0, 1.0 );
+* // returns -0.0
+*
+* @example
+* var z = flipsignf( 0.0, -1.0 );
+* // returns -0.0
 */
-function copysignf( x, y ) {
-	return addon( x, y );
-}
+declare function flipsignf( x: number, y: number ): number;
 
 
 // EXPORTS //
 
-module.exports = copysignf;
+export = flipsignf;

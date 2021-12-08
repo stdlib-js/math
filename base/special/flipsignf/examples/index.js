@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
 'use strict';
 
 var randu = require( '@stdlib/random/base/randu' );
-var flipsign = require( './../lib' );
+var flipsignf = require( './../lib' );
 
 var x;
 var y;
@@ -30,6 +30,6 @@ var i;
 for ( i = 0; i < 100; i++ ) {
 	x = (randu()*100.0) - 50.0;
 	y = (randu()*10.0) - 5.0;
-	z = flipsign( x, y );
+	z = flipsignf( x, y );
 	console.log( 'x: %d, y: %d => %d', x, y, z );
 }

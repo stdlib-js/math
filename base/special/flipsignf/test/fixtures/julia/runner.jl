@@ -2,7 +2,7 @@
 #
 # @license Apache-2.0
 #
-# Copyright (c) 2018 The Stdlib Authors.
+# Copyright (c) 2021 The Stdlib Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,15 +31,15 @@ Generate fixture data and write to file.
 # Examples
 
 ``` julia
-julia> exp = range( 0, stop = 308, length = 5001 );
+julia> exp = range( 0, stop = 38, length = 5001 );
 julia> gen( exp, \"./data.json\" );
 ```
 """
 function gen( exp, filepath )
 	len = length( exp );
 
-	x = Array{Float64}( undef, len );
-	y = Array{Float64}( undef, len );
+	x = Array{Float32}( undef, len );
+	y = Array{Float32}( undef, len );
 	z = Array{Float64}( undef, len );
 	for i in eachindex(x)
 		x[i] = (rand()-0.5) * 10^exp[i];
@@ -64,7 +64,7 @@ file = @__FILE__;
 # Extract the directory in which this file resides:
 dir = dirname( file );
 
-# Generate fixture data from 0 to 10**308:
-exp = range( 0, stop = 308, length = 5001 );
+# Generate fixture data from 0 to 10**38:
+exp = range( 0, stop = 38, length = 5001 );
 out = joinpath( dir, "data.json" );
 gen( exp, out );

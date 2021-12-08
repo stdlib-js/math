@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/math/base/special/flipsign",
+  "name": "@stdlib/math/base/special/flipsignf",
   "version": "0.0.0",
-  "description": "Return a double-precision floating-point number with the magnitude of x and the sign of x*y.",
+  "description": "Return a single-precision floating-point number with the magnitude of x and the sign of x*y.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -56,17 +56,17 @@
     "stdmath",
     "math",
     "mathematics",
-    "float64",
+    "float32",
     "float",
     "floating-point",
     "ieee754",
-    "double",
+    "flipsignf",
     "flipsign",
     "flip",
     "sign",
     "bits",
     "number",
-    "dbl",
+    "flt",
     "special",
     "function"
   ]
