@@ -16,17 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_MATH_BASE_SPECIAL_CFLIPSIGN_H
+#define STDLIB_MATH_BASE_SPECIAL_CFLIPSIGN_H
 
-var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var Complex64 = require( '@stdlib/complex/float32' );
-var cceilf = require( './../lib' );
+#include <complex.h>
 
-var rand = uniform( -50.0, 50.0 );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-var z;
-var i;
-for ( i = 0; i < 100; i++ ) {
-	z = new Complex64( rand(), rand() );
-	console.log( 'cceilf(%s) = %s', z, cceilf( z ) );
+/**
+* Returns a double-precision complex floating-point number with the same magnitude as `z` and the sign of `y*z`.
+*/
+double complex stdlib_base_cflipsign( const double complex z, const double y );
+
+#ifdef __cplusplus
 }
+#endif
+
+#endif // !STDLIB_MATH_BASE_SPECIAL_CFLIPSIGN_H
