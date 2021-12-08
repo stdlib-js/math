@@ -604,6 +604,15 @@ setReadOnly( special, 'clampf', require( './../../../base/special/clampf' ) );
 setReadOnly( special, 'copysign', require( './../../../base/special/copysign' ) );
 
 /**
+* @name copysignf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/copysignf}
+*/
+setReadOnly( special, 'copysignf', require( './../../../base/special/copysignf' ) );
+
+/**
 * @name cos
 * @memberof special
 * @readonly

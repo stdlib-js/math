@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var toWords = require( '@stdlib/number/float64/base/to-words' );
-var getHighWord = require( '@stdlib/number/float64/base/get-high-word' );
-var fromWords = require( '@stdlib/number/float64/base/from-words' );
+var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
+var toWord = require( '@stdlib/number/float32/base/to-word' );
+var fromWord = require( '@stdlib/number/float32/base/from-word' );
 
 
 // VARIABLES //
@@ -33,64 +33,63 @@ var SIGN_MASK = 0x80000000>>>0; // asm type annotation
 // 01111111111111111111111111111111 => 2147483647 => 0x7fffffff
 var MAGNITUDE_MASK = 0x7fffffff|0; // asm type annotation
 
-// High/low words workspace:
-var WORDS = [ 0, 0 ];
-
 
 // MAIN //
 
 /**
-* Returns a double-precision floating-point number with the magnitude of `x` and the sign of `y`.
+* Returns a single-precision floating-point number with the magnitude of `x` and the sign of `y`.
 *
 * @param {number} x - number from which to derive a magnitude
 * @param {number} y - number from which to derive a sign
-* @returns {number} a double-precision floating-point number
+* @returns {number} a single-precision floating-point number
 *
 * @example
-* var z = copysign( -3.14, 10.0 );
-* // returns 3.14
+* var z = copysignf( -3.0, 10.0 );
+* // returns 3.0
 *
 * @example
-* var z = copysign( 3.14, -1.0 );
-* // returns -3.14
+* var z = copysignf( 3.0, -1.0 );
+* // returns -3.0
 *
 * @example
-* var z = copysign( 1.0, -0.0 );
+* var z = copysignf( 1.0, -0.0 );
 * // returns -1.0
 *
 * @example
-* var z = copysign( -3.14, -0.0 );
-* // returns -3.14
+* var z = copysignf( -3.0, -0.0 );
+* // returns -3.0
 *
 * @example
-* var z = copysign( -0.0, 1.0 );
+* var z = copysignf( -0.0, 1.0 );
 * // returns 0.0
 */
-function copysign( x, y ) {
-	var hx;
-	var hy;
+function copysignf( x, y ) {
+	var wx;
+	var wy;
 
-	// Split `x` into higher and lower order words:
-	toWords( WORDS, x );
-	hx = WORDS[ 0 ];
+	x = float64ToFloat32( x );
+	y = float64ToFloat32( y );
+
+	// Convert `x` to an unsigned integer:
+	wx = toWord( x );
 
 	// Turn off the sign bit of `x`:
-	hx &= MAGNITUDE_MASK;
+	wx &= MAGNITUDE_MASK;
 
-	// Extract the higher order word from `y`:
-	hy = getHighWord( y );
+	// Convert `y` to an unsigned integer:
+	wy = toWord( y );
 
 	// Leave only the sign bit of `y` turned on:
-	hy &= SIGN_MASK;
+	wy &= SIGN_MASK;
 
 	// Copy the sign bit of `y` to `x`:
-	hx |= hy;
+	wx |= wy;
 
 	// Return a new value having the same magnitude as `x`, but with the sign of `y`:
-	return fromWords( hx, WORDS[ 1 ] );
+	return fromWord( wx );
 }
 
 
 // EXPORTS //
 
-module.exports = copysign;
+module.exports = copysignf;
