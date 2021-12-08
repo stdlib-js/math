@@ -523,6 +523,15 @@ setReadOnly( special, 'cexp', require( './../../../base/special/cexp' ) );
 setReadOnly( special, 'cflipsign', require( './../../../base/special/cflipsign' ) );
 
 /**
+* @name cflipsignf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cflipsignf}
+*/
+setReadOnly( special, 'cflipsignf', require( './../../../base/special/cflipsignf' ) );
+
+/**
 * @name cfloor
 * @memberof special
 * @readonly
