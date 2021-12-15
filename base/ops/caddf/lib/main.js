@@ -20,6 +20,8 @@
 
 // MODULES //
 
+var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
+var Complex64 = require( '@stdlib/complex/float32' );
 var realf = require( '@stdlib/complex/realf' );
 var imagf = require( '@stdlib/complex/imagf' );
 
@@ -51,9 +53,9 @@ var imagf = require( '@stdlib/complex/imagf' );
 * // returns 6.0
 */
 function caddf( z1, z2 ) {
-	var re = realf( z1 ) + realf( z2 );
-	var im = imagf( z1 ) + imagf( z2 );
-	return new z1.constructor( re, im );
+	var re = float64ToFloat32( realf( z1 ) + realf( z2 ) );
+	var im = float64ToFloat32( imagf( z1 ) + imagf( z2 ) );
+	return new Complex64( re, im );
 }
 
 
