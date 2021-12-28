@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array": "github:stdlib-js/array#main",
     "@stdlib/assert": "github:stdlib-js/assert#main",
     "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
@@ -48,7 +49,6 @@
     "debug": "^2.6.9"
   },
   "devDependencies": {
-    "@stdlib/array": "github:stdlib-js/array",
     "@stdlib/bench": "github:stdlib-js/bench",
     "@stdlib/datasets": "github:stdlib-js/datasets",
     "@stdlib/fs": "github:stdlib-js/fs",

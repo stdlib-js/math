@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var linspace = require( '@stdlib/array/linspace' );
+var linspace = require( '@stdlib/array/base/linspace' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var abs = require( './../../../../base/special/abs' );
 var cos = require( './../../../../base/special/cos' );
