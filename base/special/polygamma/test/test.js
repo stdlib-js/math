@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var factorial = require( './../../../../base/special/factorial' );
-var incrspace = require( '@stdlib/array/incrspace' );
+var incrspace = require( '@stdlib/array/base/incrspace' );
 var isnan = require( '@stdlib/assert/is-nan' );
 var ldexp = require( './../../../../base/special/ldexp' );
 var zeta = require( './../../../../base/special/riemann-zeta' );

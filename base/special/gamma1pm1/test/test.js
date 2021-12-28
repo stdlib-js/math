@@ -24,7 +24,7 @@ var tape = require( 'tape' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var gamma = require( './../../../../base/special/gamma' );
 var abs = require( './../../../../base/special/abs' );
-var incrspace = require( '@stdlib/array/incrspace' );
+var incrspace = require( '@stdlib/array/base/incrspace' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var gamma1pm1 = require( './../lib' );
 

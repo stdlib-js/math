@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var factorial = require( './../../../../base/special/factorial' );
-var incrspace = require( '@stdlib/array/incrspace' );
+var incrspace = require( '@stdlib/array/base/incrspace' );
 var abs = require( './../../../../base/special/abs' );
 var ln = require( './../../../../base/special/ln' );
 var NINF = require( '@stdlib/constants/float64/ninf' );

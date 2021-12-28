@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var incrspace = require( '@stdlib/array/incrspace' );
+var incrspace = require( '@stdlib/array/base/incrspace' );
 var isfinite = require( './../../../../base/assert/is-finite' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var abs = require( './../../../../base/special/abs' );
