@@ -154,6 +154,15 @@ setReadOnly( special, 'ahavercos', require( './../../../base/special/ahavercos' 
 setReadOnly( special, 'ahaversin', require( './../../../base/special/ahaversin' ) );
 
 /**
+* @name asech
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/asech}
+*/
+setReadOnly( special, 'asech', require( './../../../base/special/asech' ) );
+
+/**
 * @name asin
 * @memberof special
 * @readonly
