@@ -20,32 +20,42 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
-var randu = require( '@stdlib/random/base/randu' );
-var isnan = require( './../../../../base/assert/is-nan' );
-var pkg = require( './../package.json' ).name;
-var cot = require( './../lib' );
+var tan = require( './../../../../base/special/tan' );
 
 
 // MAIN //
 
-bench( pkg, function benchmark( b ) {
-	var x;
-	var y;
-	var i;
+/**
+ * Evaluates the cotangent of a number.
+ *
+ * @param {number} x - input value (in radians)
+ * @returns {number} cotangent
+ *
+ * @example
+ * var v = cot( 0.0 );
+ * // returns Infinity
+ *
+ * @example
+ * var v = cot( 3.141592653589793/2.0 );
+ * // returns ~0.0
+ *
+ * @example
+ * var v = cot( -3.141592653589793/4.0 );
+ * // returns ~-1.0
+ *
+ * @example
+ * var v = cot( 3.141592653589793/4.0 );
+ * // returns ~1.0
+ *
+ * @example
+ * var v = cot( NaN );
+ * // returns NaN
+ */
+function cot( x ) {
+	return 1.0 / tan( x );
+}
 
-	b.tic();
-	for ( i = 0; i < b.iterations; i++ ) {
-		x = ( randu()*10.0 ) - 5.0;
-		y = cot( x );
-		if ( isnan( y ) ) {
-			b.fail( 'should not return NaN' );
-		}
-	}
-	b.toc();
-	if ( isnan( y ) ) {
-		b.fail( 'should not return NaN' );
-	}
-	b.pass( 'benchmark finished' );
-	b.end();
-});
+
+// EXPORTS //
+
+module.exports = cot;

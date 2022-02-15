@@ -2,7 +2,7 @@
 #
 # @license Apache-2.0
 #
-# Copyright (c) 2021 The Stdlib Authors.
+# Copyright (c) 2022 The Stdlib Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import Pkg; Pkg.add("JSON")
 import JSON
 
 """
@@ -32,7 +31,7 @@ Generate fixture data and write to file.
 # Examples
 
 ``` julia
-julia> x = range( -1000.0, stop = 1000.0, length = 2001 );
+julia> x = range( -1000.0, stop = 1000.0, length = 2022 );
 julia> gen( x, \"data.json\" );
 ```
 """
@@ -61,10 +60,6 @@ file = @__FILE__;
 # Extract the directory in which this file resides:
 dir = dirname( file );
 
-# Subnormal values:
-x = range( 1.0e-309, stop = 1.0e-324, length = 500 );
-gen( x, "subnormal.json" );
-
 # Negative tiny values:
 x = range( -1.0e-300, stop = -1.0e-308, length = 500 );
 gen( x, "tiny_negative.json" );
@@ -74,45 +69,45 @@ x = range( 1.0e-300, stop = 1.0e-308, length = 500 );
 gen( x, "tiny_positive.json" );
 
 # Small(er) values:
-x = range( -pi, stop = pi, length = 2000 );
+x = range( -pi, stop = pi, length = 2022 );
 gen( x, "smaller.json" );
 
 # Negative small values:
-x = range( -4.0 * pi, stop = -pi, length = 1000 );
+x = range( -4.0*pi, stop = -pi, length = 1000 );
 gen( x, "small_negative.json" );
 
 # Positive small values:
-x = range( pi, stop = 4.0 * pi, length = 1000 );
+x = range( pi, stop = 4.0*pi, length = 1000 );
 gen( x, "small_positive.json" );
 
 # Negative medium values:
-x = range( -4.0 * pi, stop = 12.0 * pi, length = 1000 );
+x = range( -4.0*pi, stop = -12.0*pi, length = 1000 );
 gen( x, "medium_negative.json" );
 
 # Positive medium values:
-x = range( 4.0 * pi, stop = 12.0 * pi, length = 1000 );
+x = range( 4.0*pi, stop = 12.0*pi, length = 1000 );
 gen( x, "medium_positive.json" );
 
 # Large negative values:
-x = range( -12.0 * pi, stop = -256.0 * pi, length = 1000 );
+x = range( -12.0*pi, stop = -256.0*pi, length = 1000 );
 gen( x, "large_negative.json" );
 
 # Large positive values:
-x = range( 12.0 * pi, stop = 256.0 * pi, length = 1000 );
+x = range( 12.0*pi, stop = 256.0*pi, length = 1000 );
 gen( x, "large_positive.json" );
 
 # Very large negative values:
-x = range( -2.0^20 * (pi / 2.0), stop = -2.0^60 * (pi / 2.0), length = 500 );
+x = range( -2.0^20*(pi/2.0), stop = -2.0^60*(pi/2.0), length = 500 );
 gen( x, "very_large_negative.json" );
 
 # Very large positive values:
-x = range( 2.0^20 * (pi / 2.0), stop = 2.0^60 * (pi / 2.0), length = 500 );
+x = range( 2.0^20*(pi/2.0), stop = 2.0^60*(pi/2.0), length = 500 );
 gen( x, "very_large_positive.json" );
 
 # Huge negative values:
-x = range( -2.0^60 * (pi / 2.0), stop = -2.0^1000 * (pi / 2.0), length = 1000 )
+x = range( -2.0^60*(pi/2.0), stop = -2.0^1000*(pi/2.0), length = 1000 )
 gen( x, "huge_negative.json" );
 
 # Huge positive values:
-x = range( 2.0^20 * (pi / 2.0), stop = 2.0^60 * (pi / 2.0), length = 1000 )
+x = range( 2.0^20*(pi/2.0), stop = 2.0^60*(pi/2.0), length = 1000 )
 gen( x, "huge_positive.json" );

@@ -51,7 +51,7 @@ var acosh = require( './../../../../base/special/acosh' );
 * // returns NaN
 */
 function asech( x ) {
-	return acosh( 1 / x );
+	return acosh( 1.0 / x );
 }
 
 
