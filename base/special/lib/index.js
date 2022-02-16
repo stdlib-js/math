@@ -676,6 +676,15 @@ setReadOnly( special, 'cospi', require( './../../../base/special/cospi' ) );
 setReadOnly( special, 'cot', require( './../../../base/special/cot' ) );
 
 /**
+* @name coth
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/coth}
+*/
+setReadOnly( special, 'coth', require( './../../../base/special/coth' ) );
+
+/**
 * @name covercos
 * @memberof special
 * @readonly
