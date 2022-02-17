@@ -739,6 +739,15 @@ setReadOnly( special, 'cround', require( './../../../base/special/cround' ) );
 setReadOnly( special, 'croundn', require( './../../../base/special/croundn' ) );
 
 /**
+* @name csch
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/csch}
+*/
+setReadOnly( special, 'csch', require( './../../../base/special/csch' ) );
+
+/**
 * @name csignum
 * @memberof special
 * @readonly

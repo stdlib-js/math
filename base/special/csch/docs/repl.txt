@@ -1,27 +1,31 @@
 
 {{alias}}( x )
-    Computes the hyperbolic tangent of a number.
+    Computes the hyperbolic cosecant of a number.
 
     Parameters
     ----------
     x: number
-        Input value.
+        Input value (in radians).
 
     Returns
     -------
     y: number
-        Hyperbolic tangent.
+        Hyperbolic cosecant.
 
     Examples
     --------
-    > var y = {{alias}}( 0.0 )
-    0.0
+    > var y = {{alias}}( +0.0 )
+    +Infinity
     > var y = {{alias}}( -0.0 )
+    -Infinity
+    > var y = {{alias}}( +Infinity )
+    +0.0
+    > var y = {{alias}}( -Infinity )
     -0.0
     > y = {{alias}}( 2.0 )
-    ~0.964
+    ~0.2757
     > y = {{alias}}( -2.0 )
-    ~-0.964
+    ~-0.2757
     > y = {{alias}}( NaN )
     NaN
 

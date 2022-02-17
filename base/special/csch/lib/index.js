@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2022 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,33 +16,34 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 2.0
+'use strict';
 
 /**
-* Computes the hyperbolic cosine of a number.
+* Compute the hyperbolic cosecant of a number.
 *
-* @param x - input value
-* @returns hyperbolic cosine
-*
-* @example
-* var v = cosh( 0.0 );
-* // returns 1.0
+* @module @stdlib/math/base/special/csch
 *
 * @example
-* var v = cosh( 2.0 );
-* // returns ~3.762
-*
-* @example
-* var v = cosh( -2.0 );
-* // returns ~3.762
-*
-* @example
-* var v = cosh( NaN );
-* // returns NaN
+* var csch = require( '@stdlib/math/base/special/csch' );
+ *
+ * var v = csch( 0.0 );
+ * // returns Infinity
+ *
+ * v = csch( 2.0 );
+ * // returns ~0.2757
+ *
+ * v = csch( -2.0 );
+ * // returns ~-0.2757
+ *
+ * v = csch( NaN );
+ * // returns NaN
 */
-declare function cosh( x: number ): number;
+
+// MODULES //
+
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-export = cosh;
+module.exports = main;
