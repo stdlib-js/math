@@ -136,6 +136,15 @@ setReadOnly( special, 'acoversin', require( './../../../base/special/acoversin' 
 setReadOnly( special, 'acsc', require( './../../../base/special/acsc' ) );
 
 /**
+* @name acsch
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/acsch}
+*/
+setReadOnly( special, 'acsch', require( './../../../base/special/acsch' ) );
+
+/**
 * @name ahavercos
 * @memberof special
 * @readonly
