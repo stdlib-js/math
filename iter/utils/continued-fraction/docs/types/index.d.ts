@@ -20,10 +20,7 @@
 
 /// <reference types="@stdlib/types"/>
 
-import { Iterator as Iter, IterableIterator } from '@stdlib/types/iter';
-
-// Define a union type representing both iterable and non-iterable iterators:
-type Iterator = Iter | IterableIterator;
+import { Iterator } from '@stdlib/types/iter';
 
 /**
 * Interface describing function options.
@@ -41,41 +38,29 @@ interface Options {
 }
 
 /**
-* Returns an iterator which generates a list of all continued fraction terms which can be obtained given the precision of `x`.
+* Evaluates the terms of a continued fraction.
 *
-* ## Notes
-*
-* -   If an environment supports `Symbol.iterator`, the returned iterator is iterable.
-*
-* @param x - input value
+* @param iterator - input iterator
 * @param options - function options
 * @param options.iter - maximum number of iterations (default: 1e308)
 * @param options.tol - tolerance at which to terminate further evaluation of the continued fraction (default: floating-point epsilon)
 * @throws `iter` option must be a nonnegative integer
 * @throws `tol` option must be a positive finite number
-* @returns iterator
+* @returns result
 *
 * @example
-* var iter = iterContinuedFractionSeq( 3.245 );
+* var iterContinuedFractionSeq = require( `@stdlib/math/iter/sequences/continued-fraction` );
 *
-* var v = iter.next().value;
-* // returns 3
+* // Create an iterator for generating continued fraction terms:
+* var it = iterContinuedFractionSeq( 3.245 );
 *
-* v = iter.next().value;
-* // returns 4
-*
-* v = iter.next().value;
-* // returns 12
-*
-* v = iter.next().value;
-* // returns 4
-*
-* var bool = iter.next().done;
-* // returns true
+* // Reconstruct the original value from the terms:
+* var v = iterContinuedFraction( it );
+* // returns ~3.245
 */
-declare function iterContinuedFractionSeq( x: number, options?: Options ): Iterator; // tslint:disable-line:max-line-length
+declare function iterContinuedFraction( iterator: Iterator, options?: Options ): number | null; // tslint:disable-line:max-line-length
 
 
 // EXPORTS //
 
-export = iterContinuedFractionSeq;
+export = iterContinuedFraction;

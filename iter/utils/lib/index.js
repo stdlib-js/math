@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2022 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -37,49 +37,13 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
-* @name ops
+* @name iterContinuedFraction
 * @memberof ns
 * @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/iter/ops}
+* @type {Function}
+* @see {@link module:@stdlib/math/iter/utils/continued-fraction}
 */
-setReadOnly( ns, 'ops', require( './../../iter/ops' ) );
-
-/**
-* @name sequences
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/iter/sequences}
-*/
-setReadOnly( ns, 'sequences', require( './../../iter/sequences' ) );
-
-/**
-* @name special
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/iter/special}
-*/
-setReadOnly( ns, 'special', require( './../../iter/special' ) );
-
-/**
-* @name tools
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/iter/tools}
-*/
-setReadOnly( ns, 'tools', require( './../../iter/tools' ) );
-
-/**
-* @name utils
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/iter/utils}
-*/
-setReadOnly( ns, 'utils', require( './../../iter/utils' ) );
+setReadOnly( ns, 'iterContinuedFraction', require( './../../../iter/utils/continued-fraction' ) );
 
 
 // EXPORTS //
