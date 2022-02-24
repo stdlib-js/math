@@ -26,6 +26,15 @@ var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' ).is
 var isFinite = require( '@stdlib/assert/is-finite' ).isPrimitive; // eslint-disable-line stdlib/no-redeclare
 
 
+// VARIABLES //
+
+var returns = [
+	'terms',
+	'convergents',
+	'*'
+];
+
+
 // MAIN //
 
 /**
@@ -34,8 +43,9 @@ var isFinite = require( '@stdlib/assert/is-finite' ).isPrimitive; // eslint-disa
 * @private
 * @param {Object} opts - destination object
 * @param {Options} options - function options
-* @param {NonNegativeInteger} [options.iter] - number of iterations
+* @param {NonNegativeInteger} [options.iter] - maximum number of iterations
 * @param {PositiveNumber} [options.tol] - tolerance at which to terminate further evaluation of the continued fraction
+* @param {string} [options.returns] - specifies the type of result to return (must be one of `'terms'`, `'convergents'`, or `'*'`)
 * @returns {(Error|null)} null or an error object
 *
 * @example
@@ -62,6 +72,12 @@ function validate( opts, options ) {
 		opts.tol = options.tol;
 		if ( !isFinite( options.tol ) || options.tol <= 0.0 ) {
 			return new TypeError( 'invalid option. `tol` option must be a positive finite number. Option: `' + options.tol + '`.' );
+		}
+	}
+	if ( hasOwnProp( options, 'returns' ) ) {
+		opts.returns = options.returns;
+		if ( returns.indexOf( options.returns ) === -1 ) {
+			return new TypeError( 'invalid option. `returns` option must be one of the following: '+returns.join( ', ' )+'. Option: `' + options.returns + '`.' );
 		}
 	}
 	return null;
