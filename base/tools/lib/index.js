@@ -22,6 +22,10 @@
 * When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
 */
 
+/*
+* The following modules are intentionally not exported: evalpoly-compile, evalrational-compile
+*/
+
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
@@ -32,18 +36,18 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 /**
 * Top-level namespace.
 *
-* @namespace tools
+* @namespace ns
 */
-var tools = {};
+var ns = {};
 
 /**
 * @name continuedFraction
-* @memberof tools
+* @memberof ns
 * @readonly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/continued-fraction}
 */
-setReadOnly( tools, 'continuedFraction', require( './../../../base/tools/continued-fraction' ) );
+setReadOnly( ns, 'continuedFraction', require( './../../../base/tools/continued-fraction' ) );
 
 /**
 * @name evalpoly
@@ -52,63 +56,63 @@ setReadOnly( tools, 'continuedFraction', require( './../../../base/tools/continu
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/evalpoly}
 */
-setReadOnly( tools, 'evalpoly', require( './../../../base/tools/evalpoly' ) );
+setReadOnly( ns, 'evalpoly', require( './../../../base/tools/evalpoly' ) );
 
 /**
 * @name evalrational
-* @memberof tools
+* @memberof ns
 * @readonly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/evalrational}
 */
-setReadOnly( tools, 'evalrational', require( './../../../base/tools/evalrational' ) );
+setReadOnly( ns, 'evalrational', require( './../../../base/tools/evalrational' ) );
 
 /**
 * @name fibpoly
-* @memberof tools
+* @memberof ns
 * @readonly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/fibpoly}
 */
-setReadOnly( tools, 'fibpoly', require( './../../../base/tools/fibpoly' ) );
+setReadOnly( ns, 'fibpoly', require( './../../../base/tools/fibpoly' ) );
 
 /**
 * @name hermitepoly
-* @memberof tools
+* @memberof ns
 * @readonly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/hermitepoly}
 */
-setReadOnly( tools, 'hermitepoly', require( './../../../base/tools/hermitepoly' ) );
+setReadOnly( ns, 'hermitepoly', require( './../../../base/tools/hermitepoly' ) );
 
 /**
 * @name lucaspoly
-* @memberof tools
+* @memberof ns
 * @readonly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/lucaspoly}
 */
-setReadOnly( tools, 'lucaspoly', require( './../../../base/tools/lucaspoly' ) );
+setReadOnly( ns, 'lucaspoly', require( './../../../base/tools/lucaspoly' ) );
 
 /**
 * @name normhermitepoly
-* @memberof tools
+* @memberof ns
 * @readonly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/normhermitepoly}
 */
-setReadOnly( tools, 'normhermitepoly', require( './../../../base/tools/normhermitepoly' ) );
+setReadOnly( ns, 'normhermitepoly', require( './../../../base/tools/normhermitepoly' ) );
 
 /**
 * @name sumSeries
-* @memberof tools
+* @memberof ns
 * @readonly
 * @type {Function}
 * @see {@link module:@stdlib/math/base/tools/sum-series}
 */
-setReadOnly( tools, 'sumSeries', require( './../../../base/tools/sum-series' ) );
+setReadOnly( ns, 'sumSeries', require( './../../../base/tools/sum-series' ) );
 
 
 // EXPORTS //
 
-module.exports = tools;
+module.exports = ns;
