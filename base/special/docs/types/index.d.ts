@@ -31,8 +31,11 @@ import acot = require( './../../../../base/special/acot' );
 import acoth = require( './../../../../base/special/acoth' );
 import acovercos = require( './../../../../base/special/acovercos' );
 import acoversin = require( './../../../../base/special/acoversin' );
+import acsc = require( './../../../../base/special/acsc' );
+import acsch = require( './../../../../base/special/acsch' );
 import ahavercos = require( './../../../../base/special/ahavercos' );
 import ahaversin = require( './../../../../base/special/ahaversin' );
+import asech = require( './../../../../base/special/asech' );
 import asin = require( './../../../../base/special/asin' );
 import asinh = require( './../../../../base/special/asinh' );
 import atan = require( './../../../../base/special/atan' );
@@ -58,9 +61,12 @@ import boxcox1pinv = require( './../../../../base/special/boxcox1pinv' );
 import boxcoxinv = require( './../../../../base/special/boxcoxinv' );
 import cabs = require( './../../../../base/special/cabs' );
 import cabs2 = require( './../../../../base/special/cabs2' );
+import cabs2f = require( './../../../../base/special/cabs2f' );
+import cabsf = require( './../../../../base/special/cabsf' );
 import cbrt = require( './../../../../base/special/cbrt' );
 import cbrtf = require( './../../../../base/special/cbrtf' );
 import cceil = require( './../../../../base/special/cceil' );
+import cceilf = require( './../../../../base/special/cceilf' );
 import cceiln = require( './../../../../base/special/cceiln' );
 import ccis = require( './../../../../base/special/ccis' );
 import ceil = require( './../../../../base/special/ceil' );
@@ -72,22 +78,29 @@ import ceiln = require( './../../../../base/special/ceiln' );
 import ceilsd = require( './../../../../base/special/ceilsd' );
 import cexp = require( './../../../../base/special/cexp' );
 import cflipsign = require( './../../../../base/special/cflipsign' );
+import cflipsignf = require( './../../../../base/special/cflipsignf' );
 import cfloor = require( './../../../../base/special/cfloor' );
 import cfloorn = require( './../../../../base/special/cfloorn' );
+import cidentity = require( './../../../../base/special/cidentity' );
+import cidentityf = require( './../../../../base/special/cidentityf' );
 import cinv = require( './../../../../base/special/cinv' );
 import clamp = require( './../../../../base/special/clamp' );
 import clampf = require( './../../../../base/special/clampf' );
 import copysign = require( './../../../../base/special/copysign' );
+import copysignf = require( './../../../../base/special/copysignf' );
 import cos = require( './../../../../base/special/cos' );
 import cosh = require( './../../../../base/special/cosh' );
 import cosm1 = require( './../../../../base/special/cosm1' );
 import cospi = require( './../../../../base/special/cospi' );
+import cot = require( './../../../../base/special/cot' );
+import coth = require( './../../../../base/special/coth' );
 import covercos = require( './../../../../base/special/covercos' );
 import coversin = require( './../../../../base/special/coversin' );
 import cphase = require( './../../../../base/special/cphase' );
 import cpolar = require( './../../../../base/special/cpolar' );
 import cround = require( './../../../../base/special/cround' );
 import croundn = require( './../../../../base/special/croundn' );
+import csch = require( './../../../../base/special/csch' );
 import csignum = require( './../../../../base/special/csignum' );
 import deg2rad = require( './../../../../base/special/deg2rad' );
 import deg2radf = require( './../../../../base/special/deg2radf' );
@@ -113,6 +126,7 @@ import fast = require( './../../../../base/special/fast' );
 import fibonacci = require( './../../../../base/special/fibonacci' );
 import fibonacciIndex = require( './../../../../base/special/fibonacci-index' );
 import flipsign = require( './../../../../base/special/flipsign' );
+import flipsignf = require( './../../../../base/special/flipsignf' );
 import floor = require( './../../../../base/special/floor' );
 import floor2 = require( './../../../../base/special/floor2' );
 import floor10 = require( './../../../../base/special/floor10' );
@@ -363,7 +377,7 @@ interface Namespace {
 	* Computes the hyperbolic arccosine of a number.
 	*
 	* @param x - input value
-	* @returns hyperbolic arccosine (in radians)
+	* @returns hyperbolic arccosine
 	*
 	* @example
 	* var v = ns.acosh( 1.0 );
@@ -415,7 +429,7 @@ interface Namespace {
 	* Computes the inverse hyperbolic cotangent of a number.
 	*
 	* @param x - input value
-	* @returns inverse hyperbolic cotangent (in radians)
+	* @returns inverse hyperbolic cotangent
 	*
 	* @example
 	* var v = ns.acoth( 2.0 );
@@ -488,6 +502,50 @@ interface Namespace {
 	acoversin: typeof acoversin;
 
 	/**
+	* Computes the arccosecant of a number.
+	*
+	* @param x - input value
+	* @returns arccosecant (in radians)
+	*
+	* @example
+	* var v = ns.acsc( 1.0 );
+	* // returns ~1.57
+	*
+	* @example
+	* var v = ns.acsc( 3.141592653589793 );
+	* // returns ~0.32
+	*
+	* @example
+	* var v = ns.acsc( -3.141592653589793 );
+	* // returns ~-0.32
+	*
+	* @example
+	* var v = ns.acsc( NaN );
+	* // returns NaN
+	*/
+	acsc: typeof acsc;
+
+	/**
+	* Computes the hyperbolic arccosecant of a number.
+	*
+	* @param x - input value
+	* @returns hyperbolic arccosecant
+	*
+	* @example
+	* var v = ns.acsch( 0 );
+	* // returns NaN
+	*
+	* @example
+	* var v = ns.acsch( -1.0 );
+	* // returns ~-0.881
+	*
+	* @example
+	* var v = ns.acsch( 1.0 );
+	* // returns ~0.881
+	*/
+	acsch: typeof acsch;
+
+	/**
 	* Computes the inverse half-value versed cosine.
 	*
 	* @param x - input value
@@ -536,6 +594,26 @@ interface Namespace {
 	ahaversin: typeof ahaversin;
 
 	/**
+	* Computes the hyperbolic arcsecant of a number.
+	*
+	* @param x - input value
+	* @returns hyperbolic arcsecant
+	*
+	* @example
+	* var v = ns.asech( 1.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asech( 0.5 );
+	* // returns ~1.317
+	*
+	* @example
+	* var v = ns.asech( NaN );
+	* // returns NaN
+	*/
+	asech: typeof asech;
+
+	/**
 	* Computes the arcsine of a number.
 	*
 	* @param x - input value
@@ -563,7 +641,7 @@ interface Namespace {
 	* Computes the hyperbolic arcsine of a number.
 	*
 	* @param x - input value
-	* @returns hyperbolic arcsine (in radians)
+	* @returns hyperbolic arcsine
 	*
 	* @example
 	* var v = ns.asinh( 0.0 );
@@ -656,7 +734,7 @@ interface Namespace {
 	* Computes the hyperbolic arctangent of a number.
 	*
 	* @param x - input value
-	* @returns hyperbolic arctangent (in radians)
+	* @returns hyperbolic arctangent
 	*
 	* @example
 	* var v = ns.atanh( 0.0 );
@@ -1301,38 +1379,76 @@ interface Namespace {
 	boxcoxinv: typeof boxcoxinv;
 
 	/**
-	* Computes the absolute value of a complex number.
+	* Computes the absolute value of a double-precision complex floating-point number.
 	*
 	* ## Notes
 	*
 	* -   The absolute value of a complex number is its distance from zero.
 	*
-	* @param re - real component
-	* @param im - imaginary component
+	* @param z - complex number
 	* @returns absolute value
 	*
 	* @example
-	* var v = ns.cabs( 5.0, 3.0 );
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	*
+	* var v = ns.cabs( new Complex128( 5.0, 3.0 ) );
 	* // returns ~5.83
 	*/
 	cabs: typeof cabs;
 
 	/**
-	* Computes the squared absolute value of a complex number.
+	* Computes the squared absolute value of a double-precision complex floating-point number.
 	*
 	* ## Notes
 	*
 	* -   The absolute value of a complex number is its distance from zero.
 	*
-	* @param re - real component
-	* @param im - imaginary component
+	* @param z - complex number
 	* @returns squared absolute value
 	*
 	* @example
-	* var v = ns.cabs2( 5.0, 3.0 );
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	*
+	* var v = ns.cabs2( new Complex128( 5.0, 3.0 ) );
 	* // returns 34.0
 	*/
 	cabs2: typeof cabs2;
+
+	/**
+	* Computes the squared absolute value of a single-precision complex floating-point number.
+	*
+	* ## Notes
+	*
+	* -   The absolute value of a complex number is its distance from zero.
+	*
+	* @param z - complex number
+	* @returns squared absolute value
+	*
+	* @example
+	* var Complex64 = require( `@stdlib/complex/float32` );
+	*
+	* var v = ns.cabs2f( new Complex64( 5.0, 3.0 ) );
+	* // returns 34.0
+	*/
+	cabs2f: typeof cabs2f;
+
+	/**
+	* Computes the absolute value of a single-precision complex floating-point number.
+	*
+	* ## Notes
+	*
+	* -   The absolute value of a complex number is its distance from zero.
+	*
+	* @param z - complex number
+	* @returns absolute value
+	*
+	* @example
+	* var Complex64 = require( `@stdlib/complex/float32` );
+	*
+	* var v = ns.cabsf( new Complex64( 5.0, 3.0 ) );
+	* // returns ~5.83
+	*/
+	cabsf: typeof cabsf;
 
 	/**
 	* Computes the cube root of a double-precision floating-point number.
@@ -1391,17 +1507,48 @@ interface Namespace {
 	cbrtf: typeof cbrtf;
 
 	/**
-	* Rounds a complex number toward positive infinity.
+	* Rounds a double-precision complex floating-point number toward positive infinity.
 	*
-	* @param re - real component
-	* @param im - imaginary component
-	* @returns real and imaginary components
+	* @param z - input value
+	* @returns result
 	*
 	* @example
-	* var out = ns.cceil( 5.5, 3.3 );
-	* // returns [ 6.0, 4.0 ]
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = ns.cceil( new Complex128( -1.5, 2.5 ) );
+	* // returns <Complex128>
+	*
+	* var re = real( v );
+	* // returns -1.0
+	*
+	* var im = imag( v );
+	* // returns 3.0
 	*/
 	cceil: typeof cceil;
+
+	/**
+	* Rounds a single-precision complex floating-point number toward positive infinity.
+	*
+	* @param z - input value
+	* @returns result
+	*
+	* @example
+	* var Complex64 = require( `@stdlib/complex/float32` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = ns.cceilf( new Complex64( -1.5, 2.5 ) );
+	* // returns <Complex64>
+	*
+	* var re = real( v );
+	* // returns -1.0
+	*
+	* var im = imag( v );
+	* // returns 3.0
+	*/
+	cceilf: typeof cceilf;
 
 	/**
 	* Rounds a complex number to the nearest multiple of `10^n` toward positive infinity.
@@ -1623,26 +1770,50 @@ interface Namespace {
 	cexp: typeof cexp;
 
 	/**
-	* Returns a complex number with the same magnitude as `z` and the sign of `y*z`.
+	* Returns a double-precision complex floating-point number with the same magnitude as `z` and the sign of `y*z`.
 	*
-	* @param re - real component
-	* @param im - imaginary component
+	* @param z - input value
 	* @param y - number from which to derive the sign
-	* @returns function result
+	* @returns result
 	*
 	* @example
-	* var v = ns.cflipsign( -4.2, 5.5, 66 );
-	* // returns [ -4.2, 5.5 ]
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
 	*
-	* @example
-	* var v = ns.cflipsign( 0.0, 0.0, -8 );
-	* // returns [ -0.0, -0.0 ]
+	* var v = ns.cflipsign( new Complex128( -4.2, 5.5 ), -55.0 );
+	* // returns <Complex128>
 	*
-	* @example
-	* var v = ns.cflipsign( NaN, NaN, -9 );
-	* // returns [ NaN, NaN ]
+	* var re = real( v );
+	* // returns 4.2
+	*
+	* var im = imag( v );
+	* // returns -5.5
 	*/
 	cflipsign: typeof cflipsign;
+
+	/**
+	* Returns a single-precision complex floating-point number with the same magnitude as `z` and the sign of `y*z`.
+	*
+	* @param z - input value
+	* @param y - number from which to derive the sign
+	* @returns result
+	*
+	* @example
+	* var Complex64 = require( `@stdlib/complex/float32` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = ns.cflipsignf( new Complex64( -4.0, 5.0 ), -55.0 );
+	* // returns <Complex64>
+	*
+	* var re = real( v );
+	* // returns 4.0
+	*
+	* var im = imag( v );
+	* // returns -5.0
+	*/
+	cflipsignf: typeof cflipsignf;
 
 	/**
 	* Rounds a complex number toward negative infinity.
@@ -1670,6 +1841,50 @@ interface Namespace {
 	* // returns [ 5.55, -3.34 ]
 	*/
 	cfloorn: typeof cfloorn;
+
+	/**
+	* Evaluates the identity function for double-precision complex floating-point number.
+	*
+	* @param z - input value
+	* @returns input value
+	*
+	* @example
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = ns.cidentity( new Complex128( -1.0, 2.0 ) );
+	* // returns <Complex128>
+	*
+	* var re = real( v );
+	* // returns -1.0
+	*
+	* var im = imag( v );
+	* // returns 2.0
+	*/
+	cidentity: typeof cidentity;
+
+	/**
+	* Evaluates the identity function for single-precision complex floating-point number.
+	*
+	* @param z - input value
+	* @returns input value
+	*
+	* @example
+	* var Complex64 = require( `@stdlib/complex/float32` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = ns.cidentityf( new Complex64( -1.0, 2.0 ) );
+	* // returns <Complex64>
+	*
+	* var re = real( v );
+	* // returns -1.0
+	*
+	* var im = imag( v );
+	* // returns 2.0
+	*/
+	cidentityf: typeof cidentityf;
 
 	/**
 	* Computes the inverse of a complex number.
@@ -1784,6 +1999,35 @@ interface Namespace {
 	copysign: typeof copysign;
 
 	/**
+	* Returns a single-precision floating-point number with the magnitude of `x` and the sign of `y`.
+	*
+	* @param x - number from which to derive a magnitude
+	* @param y - number from which to derive a sign
+	* @returns a single-precision floating-point number
+	*
+	* @example
+	* var z = ns.copysignf( -3.0, 10.0 );
+	* // returns 3.0
+	*
+	* @example
+	* var z = ns.copysignf( 3.0, -1.0 );
+	* // returns -3.0
+	*
+	* @example
+	* var z = ns.copysignf( 1.0, -0.0 );
+	* // returns -1.0
+	*
+	* @example
+	* var z = ns.copysignf( -3.0, -0.0 );
+	* // returns -3.0
+	*
+	* @example
+	* var z = ns.copysignf( -0.0, 1.0 );
+	* // returns 0.0
+	*/
+	copysignf: typeof copysignf;
+
+	/**
 	* Computes the cosine of a number.
 	*
 	* @param x - input value (in radians)
@@ -1810,7 +2054,7 @@ interface Namespace {
 	/**
 	* Computes the hyperbolic cosine of a number.
 	*
-	* @param x - input value (in radians)
+	* @param x - input value
 	* @returns hyperbolic cosine
 	*
 	* @example
@@ -1878,6 +2122,58 @@ interface Namespace {
 	* // returns NaN
 	*/
 	cospi: typeof cospi;
+
+	/**
+	* Evaluates the cotangent of a number.
+	*
+	* @param x - input value (in radians)
+	* @returns cotangent
+	 *
+	 * @example
+	 * var v = ns.cot( 0.0 );
+	 * // returns Infinity
+	 *
+	 * @example
+	 * var v = ns.cot( 3.141592653589793/2.0 );
+	 * // returns ~0.0
+	 *
+	 * @example
+	 * var v = ns.cot( -3.141592653589793/4.0 );
+	 * // returns ~-1.0
+	 *
+	 * @example
+	 * var v = ns.cot( 3.141592653589793/4.0 );
+	 * // returns ~1.0
+	 *
+	 * @example
+	 * var v = ns.cot( NaN );
+	 * // returns NaN
+	*/
+	cot: typeof cot;
+
+	/**
+	* Computes the hyperbolic cotangent of a number.
+	*
+	* @param x - input value
+	* @returns hyperbolic cotangent
+	*
+	* @example
+	* var v = ns.coth( 0.0 );
+	* // returns Infinity
+	*
+	* @example
+	* var v = ns.coth( 2.0 );
+	* // returns ~1.0373
+	*
+	* @example
+	* var v = ns.coth( -2.0 );
+	* // returns ~-1.0373
+	*
+	* @example
+	* var v = ns.coth( NaN );
+	* // returns NaN
+	*/
+	coth: typeof coth;
 
 	/**
 	* Computes the coversed cosine.
@@ -1987,6 +2283,30 @@ interface Namespace {
 	* // returns [ 5.56, -3.34 ]
 	*/
 	croundn: typeof croundn;
+
+	/**
+	* Computes the hyperbolic cosecant of a number.
+	*
+	* @param x - input value
+	* @returns hyperbolic cosecant
+	*
+	* @example
+	* var v = ns.csch( 0.0 );
+	* // returns Infinity
+	*
+	* @example
+	* var v = ns.csch( 2.0 );
+	* // returns ~0.2757
+	*
+	* @example
+	* var v = ns.csch( -2.0 );
+	* // returns ~-0.2757
+	*
+	* @example
+	* var v = ns.csch( NaN );
+	* // returns NaN
+	*/
+	csch: typeof csch;
 
 	/**
 	* Evaluates the signum function of a complex number.
@@ -2673,20 +2993,20 @@ interface Namespace {
 	* @returns a double-precision floating-point number
 	*
 	* @example
-	* var z = ns.flipsign( -3.14, 10.0 );
-	* // returns -3.14
+	* var z = ns.flipsign( -3.0, 10.0 );
+	* // returns -3.0
 	*
 	* @example
-	* var z = ns.flipsign( -3.14, -1.0 );
-	* // returns 3.14
+	* var z = ns.flipsign( -3.0, -1.0 );
+	* // returns 3.0
 	*
 	* @example
 	* var z = ns.flipsign( 1.0, -0.0 );
 	* // returns -1.0
 	*
 	* @example
-	* var z = ns.flipsign( -3.14, -0.0 );
-	* // returns 3.14
+	* var z = ns.flipsign( -3.0, -0.0 );
+	* // returns 3.0
 	*
 	* @example
 	* var z = ns.flipsign( -0.0, 1.0 );
@@ -2697,6 +3017,39 @@ interface Namespace {
 	* // returns -0.0
 	*/
 	flipsign: typeof flipsign;
+
+	/**
+	* Returns a single-precision floating-point number with the magnitude of `x` and the sign of `x*y`.
+	*
+	* @param x - number from which to derive a magnitude
+	* @param y - number from which to derive a sign
+	* @returns a single-precision floating-point number
+	*
+	* @example
+	* var z = ns.flipsignf( -3.0, 10.0 );
+	* // returns -3.0
+	*
+	* @example
+	* var z = ns.flipsignf( -3.0, -1.0 );
+	* // returns 3.0
+	*
+	* @example
+	* var z = ns.flipsignf( 1.0, -0.0 );
+	* // returns -1.0
+	*
+	* @example
+	* var z = ns.flipsignf( -3.0, -0.0 );
+	* // returns 3.0
+	*
+	* @example
+	* var z = ns.flipsignf( -0.0, 1.0 );
+	* // returns -0.0
+	*
+	* @example
+	* var z = ns.flipsignf( 0.0, -1.0 );
+	* // returns -0.0
+	*/
+	flipsignf: typeof flipsignf;
 
 	/**
 	* Rounds a double-precision floating-point number toward negative infinity.
@@ -5345,7 +5698,7 @@ interface Namespace {
 	/**
 	* Computes the hyperbolic sine of a number.
 	*
-	* @param x - input value (in radians)
+	* @param x - input value
 	* @returns hyperbolic sine
 	*
 	* @example
@@ -5541,7 +5894,7 @@ interface Namespace {
 	/**
 	* Computes the hyperbolic tangent of a number.
 	*
-	* @param x - input value (in radians)
+	* @param x - input value
 	* @returns hyperbolic tangent
 	*
 	* @example
