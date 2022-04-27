@@ -62,7 +62,7 @@ function validate( out, table ) {
 	var i;
 
 	if ( !isPlainObject( table ) ) {
-		return new TypeError( format( 'invalid argument. Resolution table must be a plain object. Value: `%s`.', table ) );
+		return new TypeError( format( 'invalid argument. Resolution table must be an object. Value: `%s`.', table ) );
 	}
 	fields = objectKeys( out );
 	for ( i = 0; i < fields.length; i++ ) {
@@ -70,7 +70,7 @@ function validate( out, table ) {
 		if ( hasOwnProp( table, key ) ) {
 			tmp = table[ key ];
 			if ( !isFunction( tmp ) && !isNull( tmp ) ) {
-				return new TypeError( format( 'invalid argument. Resolution table `%s` field value must be either a function or `null`. Value: `%s`.', key, tmp ) );
+				return new TypeError( format( 'invalid argument. Resolution table `%s` field value must be either a function or null. Value: `%s`.', key, tmp ) );
 			}
 			out[ key ] = tmp;
 		}
