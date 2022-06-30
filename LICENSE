@@ -181,14 +181,18 @@ The library links against the following external libraries or contains
 implementations from the following external libraries, which have their own
 licenses:
 
-* FreeBSD <https://svnweb.freebsd.org/>
+* Cephes <http://www.netlib.org/cephes/readme>
 
-Copyright (C) 1993-2004 by Sun Microsystems, Inc. All rights reserved.
+Copyright (c) 1984-2000 Stephen L. Moshier
 
-Developed at SunPro, a Sun Microsystems, Inc. business.
-Permission to use, copy, modify, and distribute this
-software is freely granted, provided that this notice
-is preserved.
+Some software in this archive may be from the book _Methods and Programs for
+Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989)
+or from the Cephes Mathematical Library, a commercial product. In either event,
+it is copyrighted by the author. What you see here may be used freely but it
+comes with no support or guarantee.
+
+Stephen L. Moshier
+moshier@na-net.ornl.gov
 
 * Boost <http://www.boost.org/LICENSE_1_0.txt>
 
@@ -216,22 +220,14 @@ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
-* SLATEC Common Mathematical Library <http://www.netlib.no/netlib/slatec/>
+* FreeBSD <https://svnweb.freebsd.org/>
 
-Public domain.
+Copyright (C) 1993-2004 by Sun Microsystems, Inc. All rights reserved.
 
-* Cephes <http://www.netlib.org/cephes/readme>
-
-Copyright (c) 1984-2000 Stephen L. Moshier
-
-Some software in this archive may be from the book _Methods and Programs for
-Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989)
-or from the Cephes Mathematical Library, a commercial product. In either event,
-it is copyrighted by the author. What you see here may be used freely but it
-comes with no support or guarantee.
-
-Stephen L. Moshier
-moshier@na-net.ornl.gov
+Developed at SunPro, a Sun Microsystems, Inc. business.
+Permission to use, copy, modify, and distribute this
+software is freely granted, provided that this notice
+is preserved.
 
 * Go <https://raw.githubusercontent.com/golang/go/master/LICENSE>
 
@@ -263,10 +259,6 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-* FDLIBM <http://www.netlib.org/fdlibm/>
-
-Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
-
 * SpecialFunctions.jl <https://raw.githubusercontent.com/JuliaMath/
 SpecialFunctions.jl/02a173fbe24a61c4b392aec17a9764ac5727feb1/LICENSE>
 
@@ -294,14 +286,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
-SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
-FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
+Developed at SunPro, a Sun Microsystems, Inc. business.
+Permission to use, copy, modify, and distribute this
+software is freely granted, provided that this notice
+is preserved.
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
+
+* FDLIBM <http://www.netlib.org/fdlibm/>
+
+Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
+
+* SLATEC Common Mathematical Library <http://www.netlib.no/netlib/slatec/>
+
+Public domain.
 
