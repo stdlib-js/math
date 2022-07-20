@@ -181,6 +181,15 @@ The library links against the following external libraries or contains
 implementations from the following external libraries, which have their own
 licenses:
 
+* FreeBSD <https://svnweb.freebsd.org/>
+
+Copyright (C) 1993-2004 by Sun Microsystems, Inc. All rights reserved.
+
+Developed at SunPro, a Sun Microsystems, Inc. business.
+Permission to use, copy, modify, and distribute this
+software is freely granted, provided that this notice
+is preserved.
+
 * Cephes <http://www.netlib.org/cephes/readme>
 
 Copyright (c) 1984-2000 Stephen L. Moshier
@@ -220,14 +229,36 @@ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
-* FreeBSD <https://svnweb.freebsd.org/>
+* SpecialFunctions.jl <https://raw.githubusercontent.com/JuliaMath/
+SpecialFunctions.jl/02a173fbe24a61c4b392aec17a9764ac5727feb1/LICENSE>
 
-Copyright (C) 1993-2004 by Sun Microsystems, Inc. All rights reserved.
+The MIT License (MIT)
 
-Developed at SunPro, a Sun Microsystems, Inc. business.
-Permission to use, copy, modify, and distribute this
-software is freely granted, provided that this notice
-is preserved.
+Copyright (c) 2017 Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and others:
+
+https://github.com/JuliaMath/SpecialFunctions.jl/graphs/contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+* SLATEC Common Mathematical Library <http://www.netlib.no/netlib/slatec/>
+
+Public domain.
 
 * Go <https://raw.githubusercontent.com/golang/go/master/LICENSE>
 
@@ -259,46 +290,13 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-* SpecialFunctions.jl <https://raw.githubusercontent.com/JuliaMath/
-SpecialFunctions.jl/02a173fbe24a61c4b392aec17a9764ac5727feb1/LICENSE>
-
-The MIT License (MIT)
-
-Copyright (c) 2017 Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and others:
-
-https://github.com/JuliaMath/SpecialFunctions.jl/graphs/contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-Developed at SunPro, a Sun Microsystems, Inc. business.
-Permission to use, copy, modify, and distribute this
-software is freely granted, provided that this notice
-is preserved.
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
-
 * FDLIBM <http://www.netlib.org/fdlibm/>
 
 Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
 
-* SLATEC Common Mathematical Library <http://www.netlib.no/netlib/slatec/>
-
-Public domain.
+Stephen L. Moshier
+moshier@na-net.ornl.gov
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
 
