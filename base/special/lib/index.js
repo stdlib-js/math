@@ -856,6 +856,15 @@ setReadOnly( special, 'erfc', require( './../../../base/special/erfc' ) );
 setReadOnly( special, 'erfcinv', require( './../../../base/special/erfcinv' ) );
 
 /**
+* @name erfcx
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/erfcx}
+*/
+setReadOnly( special, 'erfcx', require( './../../../base/special/erfcx' ) );
+
+/**
 * @name erfinv
 * @memberof special
 * @readonly
@@ -1610,6 +1619,15 @@ setReadOnly( special, 'ramp', require( './../../../base/special/ramp' ) );
 * @see {@link module:@stdlib/math/base/special/rampf}
 */
 setReadOnly( special, 'rampf', require( './../../../base/special/rampf' ) );
+
+/**
+* @name rcbrt
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/rcbrt}
+*/
+setReadOnly( special, 'rcbrt', require( './../../../base/special/rcbrt' ) );
 
 /**
 * @name rempio2
