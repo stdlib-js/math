@@ -100,6 +100,9 @@ var INV_SQRT_PI = 0.56418958354775628694807945156; // 1 / sqrt(pi)
 */
 function erfcx( x ) {
 	var x2;
+	if ( x !== x ) {
+		return NaN;
+	}
 	if ( x >= 0.0 ) {
 		if ( x > 50.0 ) { // continued-fraction expansion is faster
 			if ( x > 5.0e7 ) { // 1-term expansion, important to avoid overflow
@@ -108,8 +111,7 @@ function erfcx( x ) {
 			x2 = x * x;
 
 			// 5-term expansion (rely on compiler for CSE), simplified from: INV_SQRT_PI / (x+0.5/(x+1/(x+1.5/(x+2/x))))
-			return INV_SQRT_PI * ( ( x2 * (x2+4.5) ) + 2.0 ) /
-				( x * ( ( x2*(x2+5.0) ) + 3.75 ) );
+			return INV_SQRT_PI * ( ( x2 * (x2+4.5) ) + 2.0 ) / ( x * ( ( x2*(x2+5.0) ) + 3.75 ) ); // eslint-disable-line max-len
 		}
 		return erfcxY100( 400.0/(4.0+x) );
 	}
