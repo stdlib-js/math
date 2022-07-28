@@ -112,6 +112,7 @@ import ellipk = require( './../../../../base/special/ellipk' );
 import erf = require( './../../../../base/special/erf' );
 import erfc = require( './../../../../base/special/erfc' );
 import erfcinv = require( './../../../../base/special/erfcinv' );
+import erfcx = require( './../../../../base/special/erfcx' );
 import erfinv = require( './../../../../base/special/erfinv' );
 import exp = require( './../../../../base/special/exp' );
 import exp2 = require( './../../../../base/special/exp2' );
@@ -196,6 +197,7 @@ import powm1 = require( './../../../../base/special/powm1' );
 import rad2deg = require( './../../../../base/special/rad2deg' );
 import ramp = require( './../../../../base/special/ramp' );
 import rampf = require( './../../../../base/special/rampf' );
+import rcbrt = require( './../../../../base/special/rcbrt' );
 import rempio2 = require( './../../../../base/special/rempio2' );
 import zeta = require( './../../../../base/special/riemann-zeta' );
 import risingFactorial = require( './../../../../base/special/rising-factorial' );
@@ -2594,6 +2596,38 @@ interface Namespace {
 	* // returns NaN
 	*/
 	erfcinv: typeof erfcinv;
+
+	/**
+	* Evaluates the scaled complementary error function.
+	*
+	* @param x - input value
+	* @returns function value
+	*
+	* @example
+	* var y = ns.erfcx( 0.0 );
+	* // returns 1.0
+	*
+	* @example
+	* var y = ns.erfcx( 1.0 );
+	* // returns ~0.4276
+	*
+	* @example
+	* var y = ns.erfcx( -1.0 );
+	* // returns ~5.01
+	*
+	* @example
+	* var y = ns.erfcx( 50.0 );
+	* // returns ~0.011
+	*
+	* @example
+	* var y = ns.erfcx( -50.0 );
+	* // returns +Infinity
+	*
+	* @example
+	* var y = ns.erfcx( NaN );
+	* // returns NaN
+	*/
+	erfcx: typeof erfcx;
 
 	/**
 	* Evaluates the inverse error function.
@@ -5150,6 +5184,38 @@ interface Namespace {
 	* // returns NaN
 	*/
 	rampf: typeof rampf;
+
+	/**
+	* Computes the reciprocal cube root of a double-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns reciprocal cube root of `x`
+	*
+	* @example
+	* var v = ns.rcbrt( 8.0 );
+	* // returns 0.5
+	*
+	* @example
+	* var v = ns.rcbrt( 1000.0 );
+	* // returns 0.1
+	*
+	* @example
+	* var v = ns.rcbrt( 0.0 );
+	* // returns Infinity
+	*
+	* @example
+	* var v = ns.rcbrt( Infinity );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.rcbrt( -8.0 );
+	* // returns -2.0
+	*
+	* @example
+	* var v = ns.rcbrt( NaN );
+	* // returns NaN
+	*/
+	rcbrt: typeof rcbrt;
 
 	/**
 	* Computes `x - nπ/2 = r`.
