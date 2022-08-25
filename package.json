@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench",
+    "@stdlib/boolean": "github:stdlib-js/boolean",
     "@stdlib/datasets": "github:stdlib-js/datasets",
     "@stdlib/fs": "github:stdlib-js/fs",
     "@stdlib/iter": "github:stdlib-js/iter",
