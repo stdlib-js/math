@@ -163,6 +163,15 @@ setReadOnly( special, 'ahavercos', require( './../../../base/special/ahavercos' 
 setReadOnly( special, 'ahaversin', require( './../../../base/special/ahaversin' ) );
 
 /**
+* @name asec
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/asec}
+*/
+setReadOnly( special, 'asec', require( './../../../base/special/asec' ) );
+
+/**
 * @name asech
 * @memberof special
 * @readonly
@@ -1844,6 +1853,15 @@ setReadOnly( special, 'sqrt1pm1', require( './../../../base/special/sqrt1pm1' ) 
 * @see {@link module:@stdlib/math/base/special/sqrtf}
 */
 setReadOnly( special, 'sqrtf', require( './../../../base/special/sqrtf' ) );
+
+/**
+* @name sqrtpi
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sqrtpi}
+*/
+setReadOnly( special, 'sqrtpi', require( './../../../base/special/sqrtpi' ) );
 
 /**
 * @name tan
