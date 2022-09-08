@@ -1,4 +1,4 @@
-/*
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -18,22 +18,29 @@
 
 'use strict';
 
-var isPositiveFinite = require( './../lib' );
+/**
+* Tests if a double-precision floating-point numeric value is a nonpositive finite number.
+*
+* @module @stdlib/math/base/assert/is-nonpositive-finite
+*
+* @example
+* var isNonPositiveFinite = require( '@stdlib/math/base/assert/is-nonpositive-finite' );
+*
+* var bool = isNonPositiveFinite( -3.14 );
+* // returns true
+*
+* bool = isNonPositiveFinite( 0.0 );
+* // returns true
+*
+* bool = isNonPositiveFinite( -Infinity );
+* // returns false
+*/
 
-console.log( isPositiveFinite( 5.0 ) );
-// => true
+// MODULES //
 
-console.log( isPositiveFinite( 3.14 ) );
-// => true
+var isNonPositiveFinite = require( './main.js' );
 
-console.log( isPositiveFinite( 0.0 ) );
-// => false
 
-console.log( isPositiveFinite( Infinity ) );
-// => false
+// EXPORTS //
 
-console.log( isPositiveFinite( -3.14 ) );
-// => false
-
-console.log( isPositiveFinite( NaN ) );
-// => false
+module.exports = isNonPositiveFinite;
