@@ -35,6 +35,7 @@ import acsc = require( './../../../../base/special/acsc' );
 import acsch = require( './../../../../base/special/acsch' );
 import ahavercos = require( './../../../../base/special/ahavercos' );
 import ahaversin = require( './../../../../base/special/ahaversin' );
+import asec = require( './../../../../base/special/asec' );
 import asech = require( './../../../../base/special/asech' );
 import asin = require( './../../../../base/special/asin' );
 import asinh = require( './../../../../base/special/asinh' );
@@ -222,6 +223,7 @@ import spence = require( './../../../../base/special/spence' );
 import sqrt = require( './../../../../base/special/sqrt' );
 import sqrt1pm1 = require( './../../../../base/special/sqrt1pm1' );
 import sqrtf = require( './../../../../base/special/sqrtf' );
+import sqrtpi = require( './../../../../base/special/sqrtpi' );
 import tan = require( './../../../../base/special/tan' );
 import tanh = require( './../../../../base/special/tanh' );
 import tribonacci = require( './../../../../base/special/tribonacci' );
@@ -594,6 +596,26 @@ interface Namespace {
 	* // returns NaN
 	*/
 	ahaversin: typeof ahaversin;
+
+	/**
+	* Computes the inverse (arc) secant of a number.
+	*
+	* @param x - input value
+	* @returns inverse (arc) secant
+	*
+	* @example
+	* var v = ns.asec( 1.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asec( 2.0 );
+	* // returns ~1.0472
+	*
+	* @example
+	* var v = ns.asec( NaN );
+	* // returns NaN
+	*/
+	asec: typeof asec;
 
 	/**
 	* Computes the hyperbolic arcsecant of a number.
@@ -5932,6 +5954,38 @@ interface Namespace {
 	* // returns NaN
 	*/
 	sqrtf: typeof sqrtf;
+
+	/**
+	* Computes the principal square root of the product of π and a positive number.
+	*
+	* ## Notes
+	*
+	* -   For `x < 0`, the principal square root is not defined.
+	*
+	* @param x - input value
+	* @returns result
+	*
+	* @example
+	* var v = ns.sqrtpi( 4.0 );
+	* // returns ~3.5449
+	*
+	* @example
+	* var v = ns.sqrtpi( 10.0 );
+	* // returns ~5.60499
+	*
+	* @example
+	* var v = ns.sqrtpi( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.sqrtpi( -4.0 );
+	* // returns NaN
+	*
+	* @example
+	* var v = ns.sqrtpi( NaN );
+	* // returns NaN
+	*/
+	sqrtpi: typeof sqrtpi;
 
 	/**
 	* Evaluates the tangent of a number.
