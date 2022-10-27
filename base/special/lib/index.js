@@ -1180,6 +1180,15 @@ setReadOnly( special, 'gammaincinv', require( './../../../base/special/gammainci
 setReadOnly( special, 'gammaln', require( './../../../base/special/gammaln' ) );
 
 /**
+* @name gammasgn
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/gammasgn}
+*/
+setReadOnly( special, 'gammasgn', require( './../../../base/special/gammasgn' ) );
+
+/**
 * @name gcd
 * @memberof special
 * @readonly

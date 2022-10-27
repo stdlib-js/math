@@ -145,6 +145,15 @@ setReadOnly( ns, 'isnan', require( './../../../base/assert/is-nan' ) );
 setReadOnly( ns, 'isnanf', require( './../../../base/assert/is-nanf' ) );
 
 /**
+* @name isNegativeFinite
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-negative-finite}
+*/
+setReadOnly( ns, 'isNegativeFinite', require( './../../../base/assert/is-negative-finite' ) );
+
+/**
 * @name isNegativeInteger
 * @memberof ns
 * @readonly
@@ -172,6 +181,15 @@ setReadOnly( ns, 'isNegativeZero', require( './../../../base/assert/is-negative-
 setReadOnly( ns, 'isNegativeZerof', require( './../../../base/assert/is-negative-zerof' ) );
 
 /**
+* @name isNonNegativeFinite
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-nonnegative-finite}
+*/
+setReadOnly( ns, 'isNonNegativeFinite', require( './../../../base/assert/is-nonnegative-finite' ) );
+
+/**
 * @name isNonNegativeInteger
 * @memberof ns
 * @readonly
@@ -179,6 +197,15 @@ setReadOnly( ns, 'isNegativeZerof', require( './../../../base/assert/is-negative
 * @see {@link module:@stdlib/math/base/assert/is-nonnegative-integer}
 */
 setReadOnly( ns, 'isNonNegativeInteger', require( './../../../base/assert/is-nonnegative-integer' ) );
+
+/**
+* @name isNonPositiveFinite
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-nonpositive-finite}
+*/
+setReadOnly( ns, 'isNonPositiveFinite', require( './../../../base/assert/is-nonpositive-finite' ) );
 
 /**
 * @name isNonPositiveInteger
@@ -197,6 +224,15 @@ setReadOnly( ns, 'isNonPositiveInteger', require( './../../../base/assert/is-non
 * @see {@link module:@stdlib/math/base/assert/is-odd}
 */
 setReadOnly( ns, 'isOdd', require( './../../../base/assert/is-odd' ) );
+
+/**
+* @name isPositiveFinite
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-positive-finite}
+*/
+setReadOnly( ns, 'isPositiveFinite', require( './../../../base/assert/is-positive-finite' ) );
 
 /**
 * @name isPositiveInteger
