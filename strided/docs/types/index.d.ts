@@ -21,12 +21,18 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
+import ops = require( './../../../strided/ops' );
 import special = require( './../../../strided/special' );
 
 /**
 * Interface describing the `strided` namespace.
 */
 interface Namespace {
+	/**
+	* Strided array math operations.
+	*/
+	ops: typeof ops;
+
 	/**
 	* Strided array special math functions.
 	*/
