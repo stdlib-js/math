@@ -21,7 +21,7 @@
 // MODULES //
 
 var copysign = require( './../../../../base/special/copysign' );
-var sincos = require( './../../../../base/special/sincos' );
+var sincos = require( './../../../../base/special/sincos' ).assign;
 var isnan = require( './../../../../base/assert/is-nan' );
 var isInfinite = require( './../../../../base/assert/is-infinite' );
 var exp = require( './../../../../base/special/exp' );
@@ -72,7 +72,7 @@ function cexp( out, re, im ) {
 			out[ 0 ] = e;
 			out[ 1 ] = im;
 		} else {
-			sincos( out, im );
+			sincos( im, out, 1, 0 );
 			tmp = out[ 0 ];
 			out[ 0 ] = out[ 1 ] * e;
 			out[ 1 ] = tmp * e;
