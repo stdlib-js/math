@@ -253,15 +253,6 @@ setReadOnly( ns, 'binetBy', require( './../../../strided/special/binet-by' ) );
 setReadOnly( ns, 'cbrt', require( './../../../strided/special/cbrt' ) );
 
 /**
-* @name cbrtBy
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/strided/special/cbrt-by}
-*/
-setReadOnly( ns, 'cbrtBy', require( './../../../strided/special/cbrt-by' ) );
-
-/**
 * @name ceil
 * @memberof ns
 * @readonly
@@ -269,15 +260,6 @@ setReadOnly( ns, 'cbrtBy', require( './../../../strided/special/cbrt-by' ) );
 * @see {@link module:@stdlib/math/strided/special/ceil}
 */
 setReadOnly( ns, 'ceil', require( './../../../strided/special/ceil' ) );
-
-/**
-* @name cosBy
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/strided/special/cos-by}
-*/
-setReadOnly( ns, 'cosBy', require( './../../../strided/special/cos-by' ) );
 
 /**
 * @name dabs
@@ -577,15 +559,6 @@ setReadOnly( ns, 'sdeg2rad', require( './../../../strided/special/sdeg2rad' ) );
 setReadOnly( ns, 'sfloor', require( './../../../strided/special/sfloor' ) );
 
 /**
-* @name sinBy
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/strided/special/sin-by}
-*/
-setReadOnly( ns, 'sinBy', require( './../../../strided/special/sin-by' ) );
-
-/**
 * @name sinv
 * @memberof ns
 * @readonly
@@ -701,15 +674,6 @@ setReadOnly( ns, 'smsktrunc', require( './../../../strided/special/smsktrunc' ) 
 * @see {@link module:@stdlib/math/strided/special/sqrt}
 */
 setReadOnly( ns, 'sqrt', require( './../../../strided/special/sqrt' ) );
-
-/**
-* @name sqrtBy
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/strided/special/sqrt-by}
-*/
-setReadOnly( ns, 'sqrtBy', require( './../../../strided/special/sqrt-by' ) );
 
 /**
 * @name sramp
