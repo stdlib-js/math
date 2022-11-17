@@ -45,7 +45,9 @@ import bessely0By = require( './../../../../strided/special/bessely0-by' );
 import bessely1By = require( './../../../../strided/special/bessely1-by' );
 import binetBy = require( './../../../../strided/special/binet-by' );
 import cbrt = require( './../../../../strided/special/cbrt' );
+import cbrtBy = require( './../../../../strided/special/cbrt-by' );
 import ceil = require( './../../../../strided/special/ceil' );
+import cosBy = require( './../../../../strided/special/cos-by' );
 import dabs = require( './../../../../strided/special/dabs' );
 import dabs2 = require( './../../../../strided/special/dabs2' );
 import dcbrt = require( './../../../../strided/special/dcbrt' );
@@ -79,6 +81,7 @@ import scbrt = require( './../../../../strided/special/scbrt' );
 import sceil = require( './../../../../strided/special/sceil' );
 import sdeg2rad = require( './../../../../strided/special/sdeg2rad' );
 import sfloor = require( './../../../../strided/special/sfloor' );
+import sinBy = require( './../../../../strided/special/sin-by' );
 import sinv = require( './../../../../strided/special/sinv' );
 import smskabs = require( './../../../../strided/special/smskabs' );
 import smskabs2 = require( './../../../../strided/special/smskabs2' );
@@ -92,6 +95,7 @@ import smskrsqrt = require( './../../../../strided/special/smskrsqrt' );
 import smsksqrt = require( './../../../../strided/special/smsksqrt' );
 import smsktrunc = require( './../../../../strided/special/smsktrunc' );
 import sqrt = require( './../../../../strided/special/sqrt' );
+import sqrtBy = require( './../../../../strided/special/sqrt-by' );
 import sramp = require( './../../../../strided/special/sramp' );
 import srsqrt = require( './../../../../strided/special/srsqrt' );
 import ssqrt = require( './../../../../strided/special/ssqrt' );
@@ -964,6 +968,42 @@ interface Namespace {
 	cbrt: typeof cbrt;
 
 	/**
+	* Computes the cube root of each element retrieved from an input strided array `x` via a callback function and assigns each result to an element in an output strided array `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - destination array
+	* @param strideY - `y` stride length
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns `y`
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 1.0, 9.0, -27.0, 81.0, -125.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.cbrtBy( x.length, x, 1, y, 1, accessor );
+	* // y => [ 1.0, ~2.08, -3.0, ~4.327, -5.0 ]
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 1.0, 9.0, -27.0, 81.0, -125.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.cbrtBy.ndarray( x.length, x, 1, 0, y, 1, 0, accessor );
+	* // y => [ 1.0, ~2.08, -3.0, ~4.327, -5.0 ]
+	*/
+	cbrtBy: typeof cbrtBy;
+
+	/**
 	* Rounds each element in a strided array `x` toward positive infinity and assigns the results to elements in a strided array `y`.
 	*
 	* @param N - number of indexed elements
@@ -997,6 +1037,42 @@ interface Namespace {
 	* // y => <Float64Array>[ 2.0, 3.0, -3.0, 4.0, -5.0 ]
 	*/
 	ceil: typeof ceil;
+
+	/**
+	* Computes the cosine for each element retrieved from an input strided array `x` via a callback function and assigns each result to an element in an output strided array `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - destination array
+	* @param strideY - `y` stride length
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns `y`
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 0.0, 3.14, -3.14, 10.0, -15.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.cosBy( x.length, x, 1, y, 1, accessor );
+	* // y => [ 1.0, ~-1.0, ~-1.0, ~-0.839, ~-0.76 ]
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 0.0, 3.14, -3.14, 10.0, -15.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.cosBy.ndarray( x.length, x, 1, 0, y, 1, 0, accessor );
+	* // y => [ 1.0, ~-1.0, ~-1.0, ~-0.839, ~-0.76 ]
+	*/
+	cosBy: typeof cosBy;
 
 	/**
 	* Computes the absolute value for each element in a double-precision floating-point strided array `x` and assigns the results to elements in a double-precision floating-point strided array `y`.
@@ -2080,6 +2156,42 @@ interface Namespace {
 	sfloor: typeof sfloor;
 
 	/**
+	* Computes the sine of each element retrieved from an input strided array `x` via a callback function and assigns each result to an element in an output strided array `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - destination array
+	* @param strideY - `y` stride length
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns `y`
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 0.0, 3.14, -3.14, 10.0, -15.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.sinBy( x.length, x, 1, y, 1, accessor );
+	* // y => [ 0.0, ~0.002, ~-0.002, ~-0.544, ~-0.65 ]
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 0.0, 3.14, -3.14, 10.0, -15.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.sinBy.ndarray( x.length, x, 1, 0, y, 1, 0, accessor );
+	* // y => [ 0.0, ~0.002, ~-0.002, ~-0.544, ~-0.65 ]
+	*/
+	sinBy: typeof sinBy;
+
+	/**
 	* Computes the multiplicative inverse for each element in a single-precision floating-point strided array `x` and assigns the results to elements in a single-precision floating-point strided array `y`.
 	*
 	* @param N - number of indexed elements
@@ -2539,6 +2651,42 @@ interface Namespace {
 	* // y => <Float64Array>[ 0.0, 2.0, 3.0, ~3.464, ~4.899 ]
 	*/
 	sqrt: typeof sqrt;
+
+	/**
+	* Computes the principal square root for each element retrieved from an input strided array `x` via a callback function and assigns each result to an element in an output strided array `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - destination array
+	* @param strideY - `y` stride length
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns `y`
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 0.0, 1.0, 122.0, 50.0, 80.7 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.sqrtBy( x.length, x, 1, y, 1, accessor );
+	* // y => [ 0.0, 1.0, ~11.045, ~7.071, ~8.983 ]
+	*
+	* @example
+	* function accessor( v ) {
+	*     return v;
+	* }
+	*
+	* var x = [ 0.0, 1.0, 122.0, 50.0, 80.7 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.sqrtBy.ndarray( x.length, x, 1, 0, y, 1, 0, accessor );
+	* // y => [ 0.0, 1.0, ~11.045, ~7.071, ~8.983 ]
+	*/
+	sqrtBy: typeof sqrtBy;
 
 	/**
 	* Evaluates the ramp function for each element in a single-precision floating-point strided array `x` and assigns the results to elements in a single-precision floating-point strided array `y`.
