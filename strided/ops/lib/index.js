@@ -64,6 +64,15 @@ setReadOnly( ns, 'addBy', require( './../../../strided/ops/add-by' ) );
 setReadOnly( ns, 'mul', require( './../../../strided/ops/mul' ) );
 
 /**
+* @name mulBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/strided/ops/mul-by}
+*/
+setReadOnly( ns, 'mulBy', require( './../../../strided/ops/mul-by' ) );
+
+/**
 * @name sub
 * @memberof ns
 * @readonly
@@ -71,6 +80,15 @@ setReadOnly( ns, 'mul', require( './../../../strided/ops/mul' ) );
 * @see {@link module:@stdlib/math/strided/ops/sub}
 */
 setReadOnly( ns, 'sub', require( './../../../strided/ops/sub' ) );
+
+/**
+* @name subBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/strided/ops/sub-by}
+*/
+setReadOnly( ns, 'subBy', require( './../../../strided/ops/sub-by' ) );
 
 
 // EXPORTS //

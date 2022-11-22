@@ -21,13 +21,13 @@
 // MODULES //
 
 var mapBy2 = require( '@stdlib/strided/base/map-by2' );
-var add = require( './../../../../base/ops/add' );
+var mul = require( './../../../../base/ops/mul' );
 
 
 // MAIN //
 
 /**
-* Performs element-wise addition of two strided arrays via a callback function and assigns each result to an element in an output strided array.
+* Performs element-wise multiplication of two strided arrays via a callback function and assigns each result to an element in an output strided array.
 *
 * @param {NonNegativeInteger} N - number of indexed elements
 * @param {Collection} x - input array/collection
@@ -49,16 +49,16 @@ var add = require( './../../../../base/ops/add' );
 * var y = [ 11.0, 12.0, 13.0, 14.0, 15.0 ];
 * var z = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
 *
-* addBy( x.length, x, 1, y, 1, z, 1, accessor );
+* mulBy( x.length, x, 1, y, 1, z, 1, accessor );
 *
 * console.log( z );
-* // => [ 12.0, 14.0, 16.0, 18.0, 20.0 ]
+* // => [ 11.0, 24.0, 39.0, 56.0, 75.0 ]
 */
-function addBy( N, x, sx, y, sy, z, sz, clbk, thisArg ) {
-	return mapBy2( N, x, sx, y, sy, z, sz, add, clbk, thisArg );
+function mulBy( N, x, sx, y, sy, z, sz, clbk, thisArg ) {
+	return mapBy2( N, x, sx, y, sy, z, sz, mul, clbk, thisArg );
 }
 
 
 // EXPORTS //
 
-module.exports = addBy;
+module.exports = mulBy;
