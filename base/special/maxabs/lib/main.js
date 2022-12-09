@@ -21,7 +21,7 @@
 // MODULES //
 
 var abs = require( './../../../../base/special/abs' );
-var max = require( './../../../../base/special/max' );
+var max = require( './../../../../base/special/maxn' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
 
