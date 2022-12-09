@@ -1495,6 +1495,15 @@ setReadOnly( special, 'max', require( './../../../base/special/max' ) );
 setReadOnly( special, 'maxabs', require( './../../../base/special/maxabs' ) );
 
 /**
+* @name maxn
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/maxn}
+*/
+setReadOnly( special, 'maxn', require( './../../../base/special/maxn' ) );
+
+/**
 * @name min
 * @memberof special
 * @readonly
@@ -1529,6 +1538,15 @@ setReadOnly( special, 'minmax', require( './../../../base/special/minmax' ) );
 * @see {@link module:@stdlib/math/base/special/minmaxabs}
 */
 setReadOnly( special, 'minmaxabs', require( './../../../base/special/minmaxabs' ) );
+
+/**
+* @name minn
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/minn}
+*/
+setReadOnly( special, 'minn', require( './../../../base/special/minn' ) );
 
 /**
 * @name modf
