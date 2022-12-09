@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var abs = require( './../../../../base/special/abs' );
-var max = require( './../../../../base/special/max' );
+var max = require( './../../../../base/special/maxn' );
 var ln = require( './../../../../base/special/ln' );
 var pow = require( './../../../../base/special/pow' );
 var PINF = require( '@stdlib/constants/float64/pinf' );

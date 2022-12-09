@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# max
+# maxn
 
 > Return the maximum value.
 
@@ -37,29 +37,39 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var max = require( '@stdlib/math/base/special/max' );
+var maxn = require( '@stdlib/math/base/special/maxn' );
 ```
 
-#### max( x, y )
+#### maxn( \[x\[, y\[, ...args]]] )
 
 Returns the maximum value.
 
 ```javascript
-var v = max( 4.2, 3.14 );
+var v = maxn( 4.2, 3.14 );
 // returns 4.2
 
-v = max( +0.0, -0.0 );
+v = maxn( +0.0, -0.0 );
 // returns +0.0
+
+v = maxn( 4.2, 3.14, -1.0, 6.8 );
+// returns 6.8
 ```
 
 If any argument is `NaN`, the function returns `NaN`.
 
 ```javascript
-var v = max( 4.2, NaN );
+var v = maxn( 4.2, NaN );
 // returns NaN
 
-v = max( NaN, 3.14 );
+v = maxn( NaN, 3.14 );
 // returns NaN
+```
+
+If not provided any arguments, the function returns `-infinity`.
+
+```javascript
+var v = maxn();
+// returns -Infinity
 ```
 
 </section>
@@ -69,6 +79,10 @@ v = max( NaN, 3.14 );
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
+
+## Notes
+
+-   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), negative infinity is the least upper bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, negative infinity is the identity element for the maximum, and thus, the maximum is `-infinity`.
 
 </section>
 
@@ -84,7 +98,7 @@ v = max( NaN, 3.14 );
 
 ```javascript
 var minstd = require( '@stdlib/random/base/minstd-shuffle' );
-var max = require( '@stdlib/math/base/special/max' );
+var maxn = require( '@stdlib/math/base/special/maxn' );
 
 var x;
 var y;
@@ -94,7 +108,7 @@ var i;
 for ( i = 0; i < 100; i++ ) {
     x = minstd();
     y = minstd();
-    v = max( x, y );
+    v = maxn( x, y );
     console.log( 'max(%d,%d) = %d', x, y, v );
 }
 ```

@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,34 +16,34 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 2.0
+'use strict';
 
 /**
-* Returns the maximum value.
+* Return the maximum value.
 *
-* @param x - first number
-* @param y - second number
-* @returns maximum value
+* @module @stdlib/math/base/special/maxn
 *
 * @example
-* var v = max( 3.14, 4.2 );
+* var maxn = require( '@stdlib/math/base/special/maxn' );
+*
+* var v = maxn( 3.14, 4.2 );
 * // returns 4.2
 *
-* @example
-* var v = max( 5.9, 3.14 );
+* v = maxn( 5.9, 3.14, 4.2 );
 * // returns 5.9
 *
-* @example
-* var v = max( 3.14, NaN );
+* v = maxn( 3.14, NaN );
 * // returns NaN
 *
-* @example
-* var v = max( +0.0, -0.0 );
+* v = maxn( +0.0, -0.0 );
 * // returns +0.0
 */
-declare function max( x: number, y: number ): number;
+
+// MODULES //
+
+var maxn = require( './main.js' );
 
 
 // EXPORTS //
 
-export = max;
+module.exports = maxn;

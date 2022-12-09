@@ -22,6 +22,7 @@
 
 var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var isnan = require( './../../../../base/assert/is-nan' );
+var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
 
@@ -30,42 +31,72 @@ var PINF = require( '@stdlib/constants/float64/pinf' );
 /**
 * Returns the maximum value.
 *
-* @param {number} x - first number
-* @param {number} y - second number
+* @param {number} [x] - first number
+* @param {number} [y] - second number
+* @param {...number} [args] - numbers
 * @returns {number} maximum value
 *
 * @example
-* var v = max( 3.14, 4.2 );
+* var v = maxn( 3.14, 4.2 );
 * // returns 4.2
 *
 * @example
-* var v = max( 3.14, NaN );
+* var v = maxn( 5.9, 3.14, 4.2 );
+* // returns 5.9
+*
+* @example
+* var v = maxn( 3.14, NaN );
 * // returns NaN
 *
 * @example
-* var v = max( +0.0, -0.0 );
+* var v = maxn( +0.0, -0.0 );
 * // returns +0.0
 */
-function max( x, y ) {
-	if ( isnan( x ) || isnan( y ) ) {
-		return NaN;
-	}
-	if ( x === PINF || y === PINF ) {
-		return PINF;
-	}
-	if ( x === y && x === 0.0 ) {
-		if ( isPositiveZero( x ) ) {
+function maxn( x, y ) {
+	var len;
+	var m;
+	var v;
+	var i;
+
+	len = arguments.length;
+	if ( len === 2 ) {
+		if ( isnan( x ) || isnan( y ) ) {
+			return NaN;
+		}
+		if ( x === PINF || y === PINF ) {
+			return PINF;
+		}
+		if ( x === y && x === 0.0 ) {
+			if ( isPositiveZero( x ) ) {
+				return x;
+			}
+			return y;
+		}
+		if ( x > y ) {
 			return x;
 		}
 		return y;
 	}
-	if ( x > y ) {
-		return x;
+	m = NINF;
+	for ( i = 0; i < len; i++ ) {
+		v = arguments[ i ];
+		if ( isnan( v ) || v === PINF ) {
+			return v;
+		}
+		if ( v > m ) {
+			m = v;
+		} else if (
+			v === m &&
+			v === 0.0 &&
+			isPositiveZero( v )
+		) {
+			m = v;
+		}
 	}
-	return y;
+	return m;
 }
 
 
 // EXPORTS //
 
-module.exports = max;
+module.exports = maxn;

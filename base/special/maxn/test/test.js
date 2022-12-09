@@ -25,24 +25,31 @@ var isnan = require( './../../../../base/assert/is-nan' );
 var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
-var max = require( './../lib' );
+var NINF = require( '@stdlib/constants/float64/ninf' );
+var maxn = require( './../lib' );
 
 
 // TESTS //
 
 tape( 'main export is a function', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof max, 'function', 'main export is a function' );
+	t.strictEqual( typeof maxn, 'function', 'main export is a function' );
 	t.end();
 });
 
 tape( 'the function returns `NaN` if provided a `NaN`', function test( t ) {
 	var v;
 
-	v = max( NaN, 3.14 );
+	v = maxn( NaN, 3.14 );
 	t.strictEqual( isnan( v ), true, 'returns NaN' );
 
-	v = max( 3.14, NaN );
+	v = maxn( 3.14, NaN );
+	t.strictEqual( isnan( v ), true, 'returns NaN' );
+
+	v = maxn( NaN );
+	t.strictEqual( isnan( v ), true, 'returns NaN' );
+
+	v = maxn( 3.14, 4.2, NaN );
 	t.strictEqual( isnan( v ), true, 'returns NaN' );
 
 	t.end();
@@ -51,28 +58,49 @@ tape( 'the function returns `NaN` if provided a `NaN`', function test( t ) {
 tape( 'the function returns `+Infinity` if provided `+Infinity`', function test( t ) {
 	var v;
 
-	v = max( PINF, 3.14 );
+	v = maxn( PINF, 3.14 );
 	t.strictEqual( v, PINF, 'returns +infinity' );
 
-	v = max( 3.14, PINF );
+	v = maxn( 3.14, PINF );
 	t.strictEqual( v, PINF, 'returns +infinity' );
 
+	v = maxn( PINF );
+	t.strictEqual( v, PINF, 'returns +infinity' );
+
+	v = maxn( 3.14, 4.2, PINF );
+	t.strictEqual( v, PINF, 'returns +infinity' );
+
+	t.end();
+});
+
+tape( 'the function returns `-infinity` if not provided any arguments', function test( t ) {
+	var v = maxn();
+	t.strictEqual( v, NINF, 'returns -infinity' );
 	t.end();
 });
 
 tape( 'the function returns a correctly signed zero', function test( t ) {
 	var v;
 
-	v = max( +0.0, -0.0 );
+	v = maxn( +0.0, -0.0 );
 	t.strictEqual( isPositiveZero( v ), true, 'returns +0' );
 
-	v = max( -0.0, +0.0 );
+	v = maxn( -0.0, +0.0 );
 	t.strictEqual( isPositiveZero( v ), true, 'returns +0' );
 
-	v = max( -0.0, -0.0 );
+	v = maxn( -0.0, -0.0 );
 	t.strictEqual( isNegativeZero( v ), true, 'returns -0' );
 
-	v = max( +0.0, +0.0 );
+	v = maxn( +0.0, +0.0 );
+	t.strictEqual( isPositiveZero( v ), true, 'returns +0' );
+
+	v = maxn( -0.0 );
+	t.strictEqual( isNegativeZero( v ), true, 'returns -0' );
+
+	v = maxn( +0.0 );
+	t.strictEqual( isPositiveZero( v ), true, 'returns +0' );
+
+	v = maxn( +0.0, -0.0, +0.0 );
 	t.strictEqual( isPositiveZero( v ), true, 'returns +0' );
 
 	t.end();
@@ -81,11 +109,23 @@ tape( 'the function returns a correctly signed zero', function test( t ) {
 tape( 'the function returns the maximum value', function test( t ) {
 	var v;
 
-	v = max( 4.2, 3.14 );
+	v = maxn( 4.2, 3.14 );
 	t.strictEqual( v, 4.2, 'returns max value' );
 
-	v = max( -4.2, 3.14 );
+	v = maxn( -4.2, 3.14 );
 	t.strictEqual( v, 3.14, 'returns max value' );
+
+	v = maxn( 3.14 );
+	t.strictEqual( v, 3.14, 'returns max value' );
+
+	v = maxn( NINF );
+	t.strictEqual( v, NINF, 'returns max value' );
+
+	v = maxn( 4.2, 3.14, -1.0 );
+	t.strictEqual( v, 4.2, 'returns max value' );
+
+	v = maxn( 3.14, 4.2, -1.0, -3.14 );
+	t.strictEqual( v, 4.2, 'returns max value' );
 
 	t.end();
 });
