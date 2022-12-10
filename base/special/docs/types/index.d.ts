@@ -183,10 +183,12 @@ import logit = require( './../../../../base/special/logit' );
 import lucas = require( './../../../../base/special/lucas' );
 import max = require( './../../../../base/special/max' );
 import maxabs = require( './../../../../base/special/maxabs' );
+import maxn = require( './../../../../base/special/maxn' );
 import min = require( './../../../../base/special/min' );
 import minabs = require( './../../../../base/special/minabs' );
 import minmax = require( './../../../../base/special/minmax' );
 import minmaxabs = require( './../../../../base/special/minmaxabs' );
+import minn = require( './../../../../base/special/minn' );
 import modf = require( './../../../../base/special/modf' );
 import negafibonacci = require( './../../../../base/special/negafibonacci' );
 import negalucas = require( './../../../../base/special/negalucas' );
@@ -4723,6 +4725,36 @@ interface Namespace {
 	maxabs: typeof maxabs;
 
 	/**
+	* Returns the maximum value.
+	*
+	* ## Notes
+	*
+	* -   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), negative infinity is the least upper bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, negative infinity is the identity element for the maximum, and thus, if not provided any arguments, the function returns negative infinity.
+	*
+	* @param x - first number
+	* @param y - second number
+	* @param args - numbers
+	* @returns maximum value
+	*
+	* @example
+	* var v = ns.maxn( 3.14, 4.2 );
+	* // returns 4.2
+	*
+	* @example
+	* var v = ns.maxn( 5.9, 3.14, 4.2 );
+	* // returns 5.9
+	*
+	* @example
+	* var v = ns.maxn( 3.14, NaN );
+	* // returns NaN
+	*
+	* @example
+	* var v = ns.maxn( +0.0, -0.0 );
+	* // returns +0.0
+	*/
+	maxn: typeof maxn;
+
+	/**
 	* Returns the minimum value.
 	*
 	* @param x - first number
@@ -4815,6 +4847,36 @@ interface Namespace {
 	* // returns [ 0.0, 0.0 ]
 	*/
 	minmaxabs: typeof minmaxabs;
+
+	/**
+	* Returns the minimum value.
+	*
+	* ## Notes
+	*
+	* -   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), positive infinity is the greatest lower bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, positive infinity is the identity element for the minimum, and thus, if not provided any arguments, the function returns positive infinity.
+	*
+	* @param x - first number
+	* @param y - second number
+	* @param args - numbers
+	* @returns minimum value
+	*
+	* @example
+	* var v = ns.minn( 3.14, 4.2 );
+	* // returns 3.14
+	*
+	* @example
+	* var v = ns.minn( 5.9, 3.14, 4.2 );
+	* // returns 3.14
+	*
+	* @example
+	* var v = ns.minn( 3.14, NaN );
+	* // returns NaN
+	*
+	* @example
+	* var v = ns.minn( +0.0, -0.0 );
+	* // returns -0.0
+	*/
+	minn: typeof minn;
 
 	/**
 	* Decomposes a double-precision floating-point number into integral and fractional parts, each having the same type and sign as the input value.
