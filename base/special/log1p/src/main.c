@@ -37,6 +37,7 @@
 #include "stdlib/constants/float64/ninf.h"
 #include "stdlib/constants/float64/pinf.h"
 #include "stdlib/constants/float64/exponent_bias.h"
+#include <stdint.h>
 
 // High and low words of ln(2):
 static const double LN2_HI = 6.93147180369123816490e-01; // 0x3fe62e42 0xfee00000
@@ -235,6 +236,7 @@ static double polyval_lp( const double x ) {
 double stdlib_base_log1p( const double x ) {
 	double hfsq;
 	uint32_t hu;
+	int32_t k;
 	double y;
 	double f;
 	double c;
@@ -242,7 +244,6 @@ double stdlib_base_log1p( const double x ) {
 	double z;
 	double R;
 	double u;
-	int k;
 
 	if ( x < -1.0 || stdlib_base_is_nan( x ) ) {
 		return 0.0 / 0.0; // NaN
