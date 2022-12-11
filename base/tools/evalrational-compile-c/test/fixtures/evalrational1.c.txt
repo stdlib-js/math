@@ -1,7 +1,3 @@
-'use strict';
-
-// MAIN //
-
 /**
 * Evaluates a rational function (i.e., the ratio of two polynomials described by the coefficients stored in \\(P\\) and \\(Q\\)).
 *
@@ -12,16 +8,14 @@
 *
 * [horners-method]: https://en.wikipedia.org/wiki/Horner%27s_method
 *
-*
-* @private
-* @param {number} x - value at which to evaluate the rational function
-* @returns {number} evaluated rational function
+* @param x    value at which to evaluate the rational function
+* @return     evaluated rational function
 */
-function evalrational( x ) {
-	var ax;
-	var s1;
-	var s2;
-	if ( x === 0.0 ) {
+static double evalrational( const double x ) {
+	double ax;
+	double s1;
+	double s2;
+	if ( x == 0.0 ) {
 		return 0.25;
 	}
 	if ( x < 0.0 ) {
@@ -39,8 +33,3 @@ function evalrational( x ) {
 	}
 	return s1 / s2;
 }
-
-
-// EXPORTS //
-
-module.exports = evalrational;
