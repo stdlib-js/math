@@ -18,7 +18,7 @@
 *
 * ## Notice
 *
-* The original C code, long comment, copyright, license, and constants are from [Cephes]{@link http://www.netlib.org/cephes}. The implementation follows the original, but has been modified for JavaScript.
+* The original C code, long comment, copyright, license, and constants are from [Cephes]{@link http://www.netlib.org/cephes}. The implementation follows the original, but has been modified according to project conventions.
 *
 * ```text
 * Copyright 1984, 1995, 2000 by Stephen L. Moshier
@@ -57,6 +57,7 @@ static const double MOREBITS = 6.123233995736765886130e-17; // pi/2 = PIO2 + MOR
 */
 static double rational_pq( const double x ) {
 	double ax;
+	double ix;
 	double s1;
 	double s2;
 	if ( x == 0.0 ) {
@@ -71,9 +72,9 @@ static double rational_pq( const double x ) {
 		s1 = -8.198089802484825 + (x * (19.562619833175948 + (x * (-16.262479672107002 + (x * (5.444622390564711 + (x * (-0.6019598008014124 + (x * 0.004253011369004428)))))))));
 		s2 = -49.18853881490881 + (x * (139.51056146574857 + (x * (-147.1791292232726 + (x * (70.49610280856842 + (x * (-14.740913729888538 + (x * 1.0)))))))));
 	} else {
-		x = 1.0 / x;
-		s1 = 0.004253011369004428 + (x * (-0.6019598008014124 + (x * (5.444622390564711 + (x * (-16.262479672107002 + (x * (19.562619833175948 + (x * -8.198089802484825)))))))));
-		s2 = 1.0 + (x * (-14.740913729888538 + (x * (70.49610280856842 + (x * (-147.1791292232726 + (x * (139.51056146574857 + (x * -49.18853881490881)))))))));
+		ix = 1.0 / x;
+		s1 = 0.004253011369004428 + (ix * (-0.6019598008014124 + (ix * (5.444622390564711 + (ix * (-16.262479672107002 + (ix * (19.562619833175948 + (ix * -8.198089802484825)))))))));
+		s2 = 1.0 + (ix * (-14.740913729888538 + (ix * (70.49610280856842 + (ix * (-147.1791292232726 + (ix * (139.51056146574857 + (ix * -49.18853881490881)))))))));
 	}
 	return s1 / s2;
 }
@@ -97,6 +98,7 @@ static double rational_pq( const double x ) {
 */
 static double rational_rs( const double x ) {
 	double ax;
+	double ix;
 	double s1;
 	double s2;
 	if ( x == 0.0 ) {
@@ -111,9 +113,9 @@ static double rational_rs( const double x ) {
 		s1 = 28.536655482610616 + (x * (-25.56901049652825 + (x * (6.968710824104713 + (x * (-0.5634242780008963 + (x * 0.002967721961301243)))))));
 		s2 = 342.43986579130785 + (x * (-383.8770957603691 + (x * (147.0656354026815 + (x * (-21.947795316429207 + (x * 1.0)))))));
 	} else {
-		x = 1.0 / x;
-		s1 = 0.002967721961301243 + (x * (-0.5634242780008963 + (x * (6.968710824104713 + (x * (-25.56901049652825 + (x * 28.536655482610616)))))));
-		s2 = 1.0 + (x * (-21.947795316429207 + (x * (147.0656354026815 + (x * (-383.8770957603691 + (x * 342.43986579130785)))))));
+		ix = 1.0 / x;
+		s1 = 0.002967721961301243 + (ix * (-0.5634242780008963 + (ix * (6.968710824104713 + (ix * (-25.56901049652825 + (ix * 28.536655482610616)))))));
+		s2 = 1.0 + (ix * (-21.947795316429207 + (ix * (147.0656354026815 + (ix * (-383.8770957603691 + (ix * 342.43986579130785)))))));
 	}
 	return s1 / s2;
 }
@@ -123,17 +125,40 @@ static double rational_rs( const double x ) {
 /* End auto-generated functions. */
 
 /**
-* Computes the arcsine of a number.
+* Computes the arcsine of a double-precision floating-point number.
 *
-* @param x    input value ( in radians )
-* @return	  output value
+* ## Method
+*
+* -   A rational function of the form
+*
+*     ```tex
+*     x + x^3 \frac{P(x^2)}{Q(x^2)}
+*     ```
+*
+*     is used for \\(\|x\|\\) in the interval \\(\[0, 0.5\]\\). If \\(\|x\| > 0.5\\), it is transformed by the identity
+*
+*     ```tex
+*     \operatorname{asin}(x) = \frac{\pi}{2} - 2 \operatorname{asin}( \sqrt{ (1-x)/2 } )
+*     ```
+*
+* ## Notes
+*
+* -   Relative error:
+*
+*     | arithmetic | domain | # trials | peak    | rms     |
+*     |:-----------|:-------|:---------|:--------|:--------|
+*     | DEC        | -1, 1  | 40000    | 2.6e-17 | 7.1e-18 |
+*     | IEEE       | -1, 1  | 10^6     | 1.9e-16 | 5.4e-17 |
+*
+* @param x    input value
+* @return	  output value (in radians)
 *
 * @example
 * double out = stdlib_base_asin( 0.0 );
 * // returns 0.0
 */
 double stdlib_base_asin( const double x ) {
-	int32_t sgn = 0;
+	int32_t sgn;
 	double zz;
 	double a;
 	double p;
@@ -143,6 +168,7 @@ double stdlib_base_asin( const double x ) {
 		return 0.0 / 0.0; // NaN
 	}
 	if ( x > 0.0 ) {
+		sgn = 0;
 		a = x;
 	} else {
 		sgn = 1;
