@@ -26,7 +26,7 @@ var atanh = require( './../../../../base/special/atanh' );
 // MAIN //
 
 /**
-* Computes the inverse hyperbolic cotangent of a number.
+* Computes the inverse hyperbolic cotangent of a double-precision floating-point number.
 *
 * @param {number} x - input value
 * @returns {number} inverse hyperbolic cotangent

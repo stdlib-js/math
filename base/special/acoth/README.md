@@ -20,7 +20,7 @@ limitations under the License.
 
 # acoth
 
-> Compute the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a number.
+> Compute the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a double-precision floating-point number.
 
 <section class="usage">
 
@@ -32,7 +32,7 @@ var acoth = require( '@stdlib/math/base/special/acoth' );
 
 #### acoth( x )
 
-Computes the [inverse hyperbolic cotangent][hyperbolic-arctangent] of `x`.
+Computes the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a double-precision floating-point number.
 
 ```javascript
 var v = acoth( 2.0 );
@@ -106,14 +106,11 @@ for ( i = 0; i < x.length; i++ ) {
 
 #### stdlib_base_acoth( x )
 
-Computes the [inverse hyperbolic cotangent][hyperbolic-arctangent] of `x`.
+Computes the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a double-precision floating-point number.
 
 ```c
 double out = stdlib_base_acoth( 2.0 );
 // returns ~0.5493
-
-out = stdlib_base_acoth( 1.0 );
-// returns Infinity
 ```
 
 The function accepts the following arguments:
@@ -144,7 +141,6 @@ double stdlib_base_acoth( const double x );
 
 ```c
 #include "stdlib/math/base/special/acoth.h"
-#include <stdlib.h>
 #include <stdio.h>
 
 int main() {
