@@ -829,6 +829,15 @@ setReadOnly( special, 'eta', require( './../../../base/special/dirichlet-eta' ) 
 setReadOnly( special, 'ellipe', require( './../../../base/special/ellipe' ) );
 
 /**
+* @name ellipj
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/ellipj}
+*/
+setReadOnly( special, 'ellipj', require( './../../../base/special/ellipj' ) );
+
+/**
 * @name ellipk
 * @memberof special
 * @readonly
@@ -1556,6 +1565,15 @@ setReadOnly( special, 'minmax', require( './../../../base/special/minmax' ) );
 * @see {@link module:@stdlib/math/base/special/minmaxabs}
 */
 setReadOnly( special, 'minmaxabs', require( './../../../base/special/minmaxabs' ) );
+
+/**
+* @name minmaxabsn
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/minmaxabsn}
+*/
+setReadOnly( special, 'minmaxabsn', require( './../../../base/special/minmaxabsn' ) );
 
 /**
 * @name minmaxn
