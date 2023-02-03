@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,23 +20,32 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
 var Complex64 = require( '@stdlib/complex/float32' );
 var realf = require( '@stdlib/complex/realf' );
 var imagf = require( '@stdlib/complex/imagf' );
-var csubf = require( './../lib' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// VARIABLES //
+
+var csubf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( csubf instanceof Error )
+};
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof csubf, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function subtracts two complex numbers', function test( t ) {
+tape( 'the function subtracts two complex numbers', opts, function test( t ) {
 	var z1;
 	var z2;
 	var v;
@@ -52,7 +61,7 @@ tape( 'the function subtracts two complex numbers', function test( t ) {
 	t.end();
 });
 
-tape( 'if a real or imaginary component is `NaN`, the resulting component is `NaN`', function test( t ) {
+tape( 'if a real or imaginary component is `NaN`, the resulting component is `NaN`', opts, function test( t ) {
 	var z1;
 	var z2;
 	var v;
