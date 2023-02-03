@@ -109,6 +109,7 @@ import digamma = require( './../../../../base/special/digamma' );
 import diracDelta = require( './../../../../base/special/dirac-delta' );
 import eta = require( './../../../../base/special/dirichlet-eta' );
 import ellipe = require( './../../../../base/special/ellipe' );
+import ellipj = require( './../../../../base/special/ellipj' );
 import ellipk = require( './../../../../base/special/ellipk' );
 import erf = require( './../../../../base/special/erf' );
 import erfc = require( './../../../../base/special/erfc' );
@@ -190,6 +191,7 @@ import minabs = require( './../../../../base/special/minabs' );
 import minabsn = require( './../../../../base/special/minabsn' );
 import minmax = require( './../../../../base/special/minmax' );
 import minmaxabs = require( './../../../../base/special/minmaxabs' );
+import minmaxabsn = require( './../../../../base/special/minmaxabsn' );
 import minmaxn = require( './../../../../base/special/minmaxn' );
 import minn = require( './../../../../base/special/minn' );
 import modf = require( './../../../../base/special/modf' );
@@ -2505,6 +2507,53 @@ interface Namespace {
 	* // returns NaN
 	*/
 	ellipe: typeof ellipe;
+
+	/**
+	* Computes the Jacobi elliptic functions sn, cn, and dn.
+	*
+	* ## Notes
+	*
+	* -   The functions are evaluated using the [complete elliptic integral of the first kind](https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_first_kind) `K`.
+	*
+	* -   The `x` argument is converted to double-precision floating-point format.
+	*
+	* -   The returned values are exact for `m` values where `|m| < 2**-24`.
+	*
+	* -   The functions return `NaN` for `m >= 1`.
+	*
+	* -   When `m < 1`, the following relations hold
+	*
+	*     ```tex
+	*     \operatorname{sn}(x+x) = 2\operatorname{sn}(x)\operatorname{cn}(x)
+	*     \operatorname{cn}(x+x) = 1 - 2\operatorname{sn}(x)^{2}
+	*     \operatorname{dn}(x+x) = 1 - 2\operatorname{sn}(x)^{2}\operatorname{dn}(x)
+	*     ```
+	*
+	* @param m - parameter
+	* @param x - argument
+	* @returns array containing four elements corresponding to the Jacobi elliptic functions and the Jacobi amplitude `am`.
+	*
+	* @example
+	* var v = ns.ellipj( 0.5, 0 );
+	* // returns [ ~0.479, ~0.878, 1 ]
+	*
+	* @example
+	* var v = ns.ellipj( 0.5, -1.0 );
+	* // returns [ ~0.497, ~0.868, ~1.117 ]
+	*
+	* @example
+	* var v = ns.ellipj( Infinity, 0.5 );
+	* // returns [ NaN, NaN, NaN ]
+	*
+	* @example
+	* var v = ns.ellipj( -Infinity );
+	* // returns [ NaN, NaN, NaN ]
+	*
+	* @example
+	* var v = ns.ellipj( NaN );
+	* // returns [ NaN, NaN, NaN ]
+	*/
+	ellipj: typeof ellipj;
 
 	/**
 	* Computes the complete elliptic integral of the first kind.
@@ -4899,6 +4948,28 @@ interface Namespace {
 	* // returns [ 0.0, 0.0 ]
 	*/
 	minmaxabs: typeof minmaxabs;
+
+	/**
+	* Returns the minimum and maximum absolute values.
+	*
+	* @param x - first number
+	* @param y - second number
+	* @param args - numbers
+	* @returns minimum and maximum absolute values
+	*
+	* @example
+	* var v = ns.minmaxabsn( 3.14, 4.2 );
+	* // returns [ 3.14, 4.2 ]
+	*
+	* @example
+	* var v = ns.minmaxabsn( 3.14, NaN );
+	* // returns [ NaN, NaN ]
+	*
+	* @example
+	* var v = ns.minmaxabsn( +0.0, -0.0 );
+	* // returns [ 0.0, 0.0 ]
+	*/
+	minmaxabsn: typeof minmaxabsn;
 
 	/**
 	* Returns the minimum and maximum values.
