@@ -28,9 +28,9 @@ var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var tryRequire = require( '@stdlib/utils/try-require' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var abs = require( './../../../../base/special/abs' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 
 
 // FIXTURES //
