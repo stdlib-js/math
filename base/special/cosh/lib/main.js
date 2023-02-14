@@ -41,7 +41,7 @@ var exp = require( './../../../../base/special/exp' );
 // MAIN //
 
 /**
-* Computes the hyperbolic cosine of a number.
+* Computes the hyperbolic cosine of a double-precision floating-point number.
 *
 * ## Method
 *
