@@ -26,8 +26,8 @@ var isnan = require( './../../../../base/assert/is-nan' );
 var abs = require( './../../../../base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var tryRequire = require( '@stdlib/utils/try-require' );
 var EPS = require( '@stdlib/constants/float64/eps' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 
 
 // FIXTURES //
