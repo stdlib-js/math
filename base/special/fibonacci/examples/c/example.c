@@ -17,14 +17,13 @@
 */
 
 #include "stdlib/math/base/special/fibonacci.h"
-#include <stdint.h>
 
 int main() {
-    int32_t i;
     double v;
+    int i;
 
     for ( i = 0; i < 79; i++ ) {
         v = stdlib_base_fibonacci( i );
-        printf( "fibonacci(%d) = %lf\n", i, v );
+        printf( "fibonacci(%i) = %lf\n", i, v );
     }
 }
