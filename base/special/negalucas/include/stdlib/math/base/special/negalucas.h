@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_MATH_BASE_SPECIAL_CCEIL_H
-#define STDLIB_MATH_BASE_SPECIAL_CCEIL_H
+#ifndef STDLIB_MATH_BASE_SPECIAL_NEGALUCAS_H
+#define STDLIB_MATH_BASE_SPECIAL_NEGALUCAS_H
 
-#include "stdlib/complex/float64.h"
+#include <stdint.h>
 
 /*
 * If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
@@ -29,12 +29,12 @@ extern "C" {
 #endif
 
 /**
-* Rounds a double-precision complex floating-point number toward positive infinity.
+* Computes the nth negaLucas number.
 */
-stdlib_complex128_t stdlib_base_cceil( const stdlib_complex128_t z );
+double stdlib_base_negalucas( const int32_t n );
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // !STDLIB_MATH_BASE_SPECIAL_CCEIL_H
+#endif // !STDLIB_MATH_BASE_SPECIAL_NEGALUCAS_H
