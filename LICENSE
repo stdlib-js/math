@@ -181,6 +181,19 @@ The library links against the following external libraries or contains
 implementations from the following external libraries, which have their own
 licenses:
 
+* Cephes <http://www.netlib.org/cephes/readme>
+
+Copyright (c) 1984-2000 Stephen L. Moshier
+
+Some software in this archive may be from the book _Methods and Programs for
+Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989)
+or from the Cephes Mathematical Library, a commercial product. In either event,
+it is copyrighted by the author. What you see here may be used freely but it
+comes with no support or guarantee.
+
+Stephen L. Moshier
+moshier@na-net.ornl.gov
+
 * Boost <http://www.boost.org/LICENSE_1_0.txt>
 
 Boost Software License - Version 1.0 - August 17th, 2003
@@ -216,27 +229,6 @@ Permission to use, copy, modify, and distribute this
 software is freely granted, provided that this notice
 is preserved.
 
-* Cephes <http://www.netlib.org/cephes/readme>
-
-Copyright (c) 1984-2000 Stephen L. Moshier
-
-Some software in this archive may be from the book _Methods and Programs for
-Mathematical Functions_ (Prentice-Hall or Simon & Schuster International, 1989)
-or from the Cephes Mathematical Library, a commercial product. In either event,
-it is copyrighted by the author. What you see here may be used freely but it
-comes with no support or guarantee.
-
-Stephen L. Moshier
-moshier@na-net.ornl.gov
-
-* FDLIBM <http://www.netlib.org/fdlibm/>
-
-Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
-
-* SLATEC Common Mathematical Library <http://www.netlib.no/netlib/slatec/>
-
-Public domain.
-
 * Go <https://raw.githubusercontent.com/golang/go/master/LICENSE>
 
 Copyright (c) 2009 The Go Authors. All rights reserved.
@@ -266,14 +258,6 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Developed at SunPro, a Sun Microsystems, Inc. business.
-Permission to use, copy, modify, and distribute this
-software is freely granted, provided that this notice
-is preserved.
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
 
 * Faddeeva <http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package#License>
 
@@ -324,4 +308,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+* FDLIBM <http://www.netlib.org/fdlibm/>
+
+Copyright (C) 2004 by Sun Microsystems, Inc. All rights reserved.
+
+* SLATEC Common Mathematical Library <http://www.netlib.no/netlib/slatec/>
+
+Public domain.
+
+Stephen L. Moshier
+moshier@na-net.ornl.gov
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
 
