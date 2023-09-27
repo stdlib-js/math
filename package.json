@@ -41,6 +41,7 @@
     "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
     "@stdlib/function": "github:stdlib-js/function#main",
+    "@stdlib/napi": "github:stdlib-js/napi#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
     "@stdlib/number": "github:stdlib-js/number#main",
     "@stdlib/strided": "github:stdlib-js/strided#main",

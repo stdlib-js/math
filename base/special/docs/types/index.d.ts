@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 2.0
+// TypeScript Version: 4.1
 
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
@@ -177,6 +177,7 @@ import log = require( './../../../../base/special/log' );
 import log1mexp = require( './../../../../base/special/log1mexp' );
 import log1p = require( './../../../../base/special/log1p' );
 import log1pexp = require( './../../../../base/special/log1pexp' );
+import log1pmx = require( './../../../../base/special/log1pmx' );
 import log2 = require( './../../../../base/special/log2' );
 import log10 = require( './../../../../base/special/log10' );
 import logaddexp = require( './../../../../base/special/logaddexp' );
@@ -1583,16 +1584,25 @@ interface Namespace {
 	cceilf: typeof cceilf;
 
 	/**
-	* Rounds a complex number to the nearest multiple of `10^n` toward positive infinity.
+	* Rounds each component of a double-precision complex number to the nearest multiple of `10^n` toward positive infinity.
 	*
-	* @param re - real component
-	* @param im - imaginary component
+	* @param z - input value
 	* @param n - integer power of 10
-	* @returns real and imaginary components
+	* @returns result
 	*
 	* @example
-	* var out = ns.cceiln( 5.555, -3.333, -2 );
-	* // returns [ 5.56, -3.33 ]
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = ns.cceiln( new Complex128( 5.555, -3.333 ), -2 );
+	* // returns <Complex128>
+	*
+	* var re = real( v );
+	* // returns 5.56
+	*
+	* var im = imag( v );
+	* // returns -3.33
 	*/
 	cceiln: typeof cceiln;
 
@@ -1913,16 +1923,25 @@ interface Namespace {
 	cfloor: typeof cfloor;
 
 	/**
-	* Rounds a complex number to the nearest multiple of `10^n` toward negative infinity.
+	* Rounds each component of a double-precision complex floating-point number to the nearest multiple of `10^n` toward negative infinity.
 	*
-	* @param re - real component
-	* @param im - imaginary component
+	* @param z - input value
 	* @param n - integer power of 10
-	* @returns real and imaginary components
+	* @returns result
 	*
 	* @example
-	* var out = ns.cfloorn( 5.555, -3.333, -2 );
-	* // returns [ 5.55, -3.34 ]
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = cfloor( new Complex128( 5.555, -3.333 ), -2 );
+	* // returns <Complex128>
+	*
+	* var re = real( v );
+	* // returns 5.55
+	*
+	* var im = imag( v );
+	* // returns -3.34
 	*/
 	cfloorn: typeof cfloorn;
 
@@ -2335,14 +2354,15 @@ interface Namespace {
 	cphase: typeof cphase;
 
 	/**
-	* Computes the absolute value and the phase of a complex number.
+	* Computes the absolute value and the phase of a double-precision complex floating-point number.
 	*
-	* @param re - real component
-	* @param im - imaginary component
+	* @param z - complex number
 	* @returns absolute value and phase, respectively
 	*
 	* @example
-	* var v = ns.cpolar( 5.0, 3.0 );
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	*
+	* var v = ns.cpolar( new Complex128( 5.0, 3.0 ) );
 	* // returns [ ~5.83, ~0.5404 ]
 	*/
 	cpolar: typeof cpolar;
@@ -2370,20 +2390,29 @@ interface Namespace {
 	cround: typeof cround;
 
 	/**
-	* Rounds a complex number to the nearest multiple of `10^n`.
+	* Rounds each component of a double-precision complex floating-point number to the nearest multiple of `10^n`.
 	*
 	* ## Notes
 	*
 	* - When operating on floating-point numbers in bases other than `2`, rounding to specified digits can be inexact.
 	*
-	* @param re - real component
-	* @param im - imaginary component
+	* @param z - input value
 	* @param n - integer power of 10
-	* @returns real and imaginary components
+	* @returns result
 	*
 	* @example
-	* var out = ns.croundn( 5.555, -3.333, -2 );
-	* // returns [ 5.56, -3.34 ]
+	* var Complex128 = require( `@stdlib/complex/float64` );
+	* var real = require( `@stdlib/complex/real` );
+	* var imag = require( `@stdlib/complex/imag` );
+	*
+	* var v = cceil( new Complex128( 5.555, -3.333 ) );
+	* // returns <Complex128>
+	*
+	* var re = real( v );
+	* // returns 5.56
+	*
+	* var im = imag( v );
+	* // returns -3.34
 	*/
 	croundn: typeof croundn;
 
@@ -3352,7 +3381,7 @@ interface Namespace {
 	floorf: typeof floorf;
 
 	/**
-	* Rounds a numeric value to the nearest multiple of `10^n` toward negative infinity.
+	* Rounds a double-precision floating-point number to the nearest multiple of `10^n` toward negative infinity.
 	*
 	* ## Notes
 	*
@@ -4612,6 +4641,34 @@ interface Namespace {
 	* // returns NaN
 	*/
 	log1pexp: typeof log1pexp;
+
+	/**
+	* Evaluates \\( \operatorname{log1pmx}(x) = \ln(1+x) - x \\).
+	*
+	* @param x - input value
+	* @returns function value
+	*
+	* @example
+	* var v = ns.log1pmx( 1.1 );
+	* // returns ~-0.358
+	*
+	* @example
+	* var v = ns.log1pmx( 0.99 );
+	* // returns ~-0.302
+	*
+	* @example
+	* var v = ns.log1pmx( -0.99 );
+	* // returns ~-3.615
+	*
+	* @example
+	* var v = ns.log1pmx( -1.1 );
+	* // returns NaN
+	*
+	* @example
+	* var v = ns.log1pmx( NaN );
+	* // returns NaN
+	*/
+	log1pmx: typeof log1pmx;
 
 	/**
 	* Evaluates the binary logarithm (base two).

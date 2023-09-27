@@ -1441,6 +1441,15 @@ setReadOnly( special, 'log1p', require( './../../../base/special/log1p' ) );
 setReadOnly( special, 'log1pexp', require( './../../../base/special/log1pexp' ) );
 
 /**
+* @name log1pmx
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/log1pmx}
+*/
+setReadOnly( special, 'log1pmx', require( './../../../base/special/log1pmx' ) );
+
+/**
 * @name log2
 * @memberof special
 * @readonly
