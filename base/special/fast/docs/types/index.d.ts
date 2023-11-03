@@ -18,8 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* tslint:disable:max-line-length */
-/* tslint:disable:max-file-line-count */
+/* eslint-disable max-lines */
 
 import abs = require( './../../../../../base/special/fast/abs' );
 import acosh = require( './../../../../../base/special/fast/acosh' );

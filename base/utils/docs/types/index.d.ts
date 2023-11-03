@@ -18,8 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* tslint:disable:max-line-length */
-/* tslint:disable:max-file-line-count */
+/* eslint-disable max-lines */
 
 import absdiff = require( './../../../../base/utils/absolute-difference' );
 import epsdiff = require( './../../../../base/utils/float64-epsilon-difference' );

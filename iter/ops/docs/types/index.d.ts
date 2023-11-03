@@ -18,8 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* tslint:disable:max-line-length */
-/* tslint:disable:max-file-line-count */
+/* eslint-disable max-lines */
 
 import iterAdd = require( './../../../../iter/ops/add' );
 import iterDivide = require( './../../../../iter/ops/divide' );

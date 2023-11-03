@@ -18,8 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* tslint:disable:max-line-length */
-/* tslint:disable:max-file-line-count */
+/* eslint-disable max-lines */
 
 import add = require( './../../../../strided/ops/add' );
 import addBy = require( './../../../../strided/ops/add-by' );
