@@ -202,6 +202,14 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math/base/special/cabs2`][@stdlib/math/base/special/cabs2]</span><span class="delimiter">: </span><span class="description">compute the squared absolute value of a double-precision complex floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math/base/special/cabsf`][@stdlib/math/base/special/cabsf]</span><span class="delimiter">: </span><span class="description">compute the absolute value of a single-precision complex floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math/base/special/abs2f`][@stdlib/math/base/special/abs2f]</span><span class="delimiter">: </span><span class="description">compute the squared absolute value of a single-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -215,6 +223,14 @@ int main( void ) {
 [@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math/tree/main/base/special/cabsf
 
 [@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math/tree/main/base/special/cabs2
+
+[@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math/tree/main/base/special/abs2f
+
+<!-- </related-links> -->
 
 </section>
 

@@ -215,6 +215,13 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math/base/special/cidentityf`][@stdlib/math/base/special/cidentityf]</span><span class="delimiter">: </span><span class="description">evaluate the identity function for a single-precision complex floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math/base/special/identity`][@stdlib/math/base/special/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function for a double-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -226,6 +233,14 @@ int main() {
 [identity-function]: https://en.wikipedia.org/wiki/Identity_function
 
 [@stdlib/complex/float64]: https://github.com/stdlib-js/complex-float64
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/cidentityf]: https://github.com/stdlib-js/math/tree/main/base/special/cidentityf
+
+[@stdlib/math/base/special/identity]: https://github.com/stdlib-js/math/tree/main/base/special/identity
+
+<!-- </related-links> -->
 
 </section>
 
