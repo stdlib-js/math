@@ -247,7 +247,7 @@ console.log( out );
 
 <section class="links">
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math/tree/main/base/special/cbrt
 
