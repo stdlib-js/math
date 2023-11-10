@@ -18,7 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* eslint-disable max-len */
+/* eslint-disable max-lines */
 
 import abs = require( './../../../../base/special/abs' );
 import abs2 = require( './../../../../base/special/abs2' );
