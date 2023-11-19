@@ -109,6 +109,15 @@ setReadOnly( ns, 'cmulf', require( './../../../base/ops/cmulf' ) );
 setReadOnly( ns, 'cneg', require( './../../../base/ops/cneg' ) );
 
 /**
+* @name cnegf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/cnegf}
+*/
+setReadOnly( ns, 'cnegf', require( './../../../base/ops/cnegf' ) );
+
+/**
 * @name csub
 * @memberof ns
 * @readonly
@@ -125,6 +134,24 @@ setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 * @see {@link module:@stdlib/math/base/ops/csubf}
 */
 setReadOnly( ns, 'csubf', require( './../../../base/ops/csubf' ) );
+
+/**
+* @name div
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/div}
+*/
+setReadOnly( ns, 'div', require( './../../../base/ops/div' ) );
+
+/**
+* @name divf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/divf}
+*/
+setReadOnly( ns, 'divf', require( './../../../base/ops/divf' ) );
 
 /**
 * @name imul
