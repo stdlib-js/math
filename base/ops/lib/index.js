@@ -55,6 +55,24 @@ setReadOnly( ns, 'add', require( './../../../base/ops/add' ) );
 setReadOnly( ns, 'add3', require( './../../../base/ops/add3' ) );
 
 /**
+* @name add4
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/add4}
+*/
+setReadOnly( ns, 'add4', require( './../../../base/ops/add4' ) );
+
+/**
+* @name add5
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/ops/add5}
+*/
+setReadOnly( ns, 'add5', require( './../../../base/ops/add5' ) );
+
+/**
 * @name addf
 * @memberof ns
 * @readonly

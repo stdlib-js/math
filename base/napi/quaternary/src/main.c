@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,13 +16,13 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/napi/ternary.h"
+#include "stdlib/math/base/napi/quaternary.h"
 #include <node_api.h>
 #include <stdint.h>
 #include <assert.h>
 
 /**
-* Invokes a ternary function accepting and returning double-precision floating-point numbers.
+* Invokes a quaternary function accepting and returning double-precision floating-point numbers.
 *
 * ## Notes
 *
@@ -31,22 +31,23 @@
 *     -   `x`: input value.
 *     -   `y`: input value.
 *     -   `z`: input value.
+*     -   `w`: input value.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @param fcn    ternary function
+* @param fcn    quaternary function
 * @return       function return value as a Node-API double-precision floating-point number
 */
-napi_value stdlib_math_base_napi_ddd_d( napi_env env, napi_callback_info info, double (*fcn)( double, double, double ) ) {
+napi_value stdlib_math_base_napi_dddd_d( napi_env env, napi_callback_info info, double (*fcn)( double, double, double, double ) ) {
 	napi_status status;
 
-	size_t argc = 3;
-	napi_value argv[ 3 ];
+	size_t argc = 4;
+	napi_value argv[ 4 ];
 	status = napi_get_cb_info( env, info, &argc, argv, NULL, NULL );
 	assert( status == napi_ok );
 
-	if ( argc < 3 ) {
-		status = napi_throw_error( env, NULL, "invalid invocation. Must provide three numbers." );
+	if ( argc < 4 ) {
+		status = napi_throw_error( env, NULL, "invalid invocation. Must provide four numbers." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -78,6 +79,15 @@ napi_value stdlib_math_base_napi_ddd_d( napi_env env, napi_callback_info info, d
 		return NULL;
 	}
 
+	napi_valuetype vtype3;
+	status = napi_typeof( env, argv[ 3 ], &vtype3 );
+	assert( status == napi_ok );
+	if ( vtype3 != napi_number ) {
+		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must be a number." );
+		assert( status == napi_ok );
+		return NULL;
+	}
+
 	double x;
 	status = napi_get_value_double( env, argv[ 0 ], &x );
 	assert( status == napi_ok );
@@ -90,15 +100,19 @@ napi_value stdlib_math_base_napi_ddd_d( napi_env env, napi_callback_info info, d
 	status = napi_get_value_double( env, argv[ 2 ], &z );
 	assert( status == napi_ok );
 
+	double w;
+	status = napi_get_value_double( env, argv[ 3 ], &w );
+	assert( status == napi_ok );
+
 	napi_value v;
-	status = napi_create_double( env, fcn( x, y, z ), &v );
+	status = napi_create_double( env, fcn( x, y, z, w ), &v );
 	assert( status == napi_ok );
 
 	return v;
 }
 
 /**
-* Invokes a ternary function accepting and returning single-precision floating-point numbers.
+* Invokes a quaternary function accepting and returning single-precision floating-point numbers.
 *
 * ## Notes
 *
@@ -107,22 +121,23 @@ napi_value stdlib_math_base_napi_ddd_d( napi_env env, napi_callback_info info, d
 *     -   `x`: input value.
 *     -   `y`: input value.
 *     -   `z`: input value.
+*     -   `w`: input value.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @param fcn    ternary function
+* @param fcn    quaternary function
 * @return       function return value as a Node-API double-precision floating-point number
 */
-napi_value stdlib_math_base_napi_fff_f( napi_env env, napi_callback_info info, float (*fcn)( float, float, float ) ) {
+napi_value stdlib_math_base_napi_ffff_f( napi_env env, napi_callback_info info, float (*fcn)( float, float, float, float ) ) {
 	napi_status status;
 
-	size_t argc = 3;
-	napi_value argv[ 3 ];
+	size_t argc = 4;
+	napi_value argv[ 4 ];
 	status = napi_get_cb_info( env, info, &argc, argv, NULL, NULL );
 	assert( status == napi_ok );
 
-	if ( argc < 3 ) {
-		status = napi_throw_error( env, NULL, "invalid invocation. Must provide three numbers." );
+	if ( argc < 4 ) {
+		status = napi_throw_error( env, NULL, "invalid invocation. Must provide four numbers." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -154,6 +169,15 @@ napi_value stdlib_math_base_napi_fff_f( napi_env env, napi_callback_info info, f
 		return NULL;
 	}
 
+	napi_valuetype vtype3;
+	status = napi_typeof( env, argv[ 3 ], &vtype3 );
+	assert( status == napi_ok );
+	if ( vtype3 != napi_number ) {
+		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must be a number." );
+		assert( status == napi_ok );
+		return NULL;
+	}
+
 	double x;
 	status = napi_get_value_double( env, argv[ 0 ], &x );
 	assert( status == napi_ok );
@@ -166,8 +190,12 @@ napi_value stdlib_math_base_napi_fff_f( napi_env env, napi_callback_info info, f
 	status = napi_get_value_double( env, argv[ 2 ], &z );
 	assert( status == napi_ok );
 
+	double w;
+	status = napi_get_value_double( env, argv[ 3 ], &w );
+	assert( status == napi_ok );
+
 	napi_value v;
-	status = napi_create_double( env, (double)fcn( (float)x, (float)y, (float)z ), &v );
+	status = napi_create_double( env, (double)fcn( (float)x, (float)y, (float)z, (float)w ), &v );
 	assert( status == napi_ok );
 
 	return v;
