@@ -171,7 +171,7 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math/tree/main/base/special/hypot
+
 
 <!-- </related-links> -->
 
