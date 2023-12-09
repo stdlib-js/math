@@ -22,6 +22,8 @@
 
 import add = require( './../../../../base/ops/add' );
 import add3 = require( './../../../../base/ops/add3' );
+import add4 = require( './../../../../base/ops/add4' );
+import add5 = require( './../../../../base/ops/add5' );
 import addf = require( './../../../../base/ops/addf' );
 import cadd = require( './../../../../base/ops/cadd' );
 import caddf = require( './../../../../base/ops/caddf' );
@@ -105,6 +107,69 @@ interface Namespace {
 	* // returns NaN
 	*/
 	add3: typeof add3;
+
+	/**
+	* Computes the sum of four double-precision floating-point numbers.
+	*
+	* @param x - first input value
+	* @param y - second input value
+	* @param z - third input value
+	* @param w - fourth input value
+	* @returns sum
+	*
+	* @example
+	* var v = ns.add4( -1.0, 5.0, 2.0, -3.0 );
+	* // returns 3.0
+	*
+	* @example
+	* var v = ns.add4( 2.0, 5.0, 2.0, -3.0 );
+	* // returns 6.0
+	*
+	* @example
+	* var v = ns.add4( 0.0, 5.0, 2.0, -3.0 );
+	* // returns 4.0
+	*
+	* @example
+	* var v = ns.add4( -0.0, 0.0, -0.0, -0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.add4( NaN, NaN, NaN, NaN );
+	* // returns NaN
+	*/
+	add4: typeof add4;
+
+	/**
+	* Computes the sum of five double-precision floating-point numbers.
+	*
+	* @param x - first input value
+	* @param y - second input value
+	* @param z - third input value
+	* @param w - fourth input value
+	* @param u - fifth input value
+	* @returns sum
+	*
+	* @example
+	* var v = ns.add5( -1.0, 5.0, 2.0, -3.0, 4.0 );
+	* // returns 7.0
+	*
+	* @example
+	* var v = ns.add5( 2.0, 5.0, 2.0, -3.0, 4.0 );
+	* // returns 10.0
+	*
+	* @example
+	* var v = ns.add5( 0.0, 5.0, 2.0, -3.0, 4.0 );
+	* // returns 8.0
+	*
+	* @example
+	* var v = ns.add5( -0.0, 0.0, -0.0, -0.0, -0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.add5( NaN, NaN, NaN, NaN, NaN );
+	* // returns NaN
+	*/
+	add5: typeof add5;
 
 	/**
 	* Computes the sum of two single-precision floating-point numbers `x` and `y`.

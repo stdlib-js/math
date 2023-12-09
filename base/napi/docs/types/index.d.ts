@@ -21,6 +21,8 @@
 /* eslint-disable max-lines */
 
 import binary = require( './../../../../base/napi/binary' );
+import quaternary = require( './../../../../base/napi/quaternary' );
+import quinary = require( './../../../../base/napi/quinary' );
 import ternary = require( './../../../../base/napi/ternary' );
 import unary = require( './../../../../base/napi/unary' );
 
@@ -36,6 +38,24 @@ interface Namespace {
 	* // returns <string>
 	*/
 	binary: typeof binary;
+
+	/**
+	* Absolute file path for the directory containing header files for C APIs.
+	*
+	* @example
+	* var dir = ns.quaternary;
+	* // returns <string>
+	*/
+	quaternary: typeof quaternary;
+
+	/**
+	* Absolute file path for the directory containing header files for C APIs.
+	*
+	* @example
+	* var dir = ns.quinary;
+	* // returns <string>
+	*/
+	quinary: typeof quinary;
 
 	/**
 	* Absolute file path for the directory containing header files for C APIs.
