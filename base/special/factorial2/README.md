@@ -97,6 +97,12 @@ for ( i = 0; i < values.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math/base/special/factorial`][@stdlib/math/base/special/factorial]</span><span class="delimiter">: </span><span class="description">evaluate a factorial.</span>
+
 </section>
 
 <!-- /.related -->
@@ -106,6 +112,12 @@ for ( i = 0; i < values.length; i++ ) {
 <section class="links">
 
 [double-factorial]: https://en.wikipedia.org/wiki/Double_factorial
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math/tree/main/base/special/factorial
+
+<!-- </related-links> -->
 
 </section>
 
