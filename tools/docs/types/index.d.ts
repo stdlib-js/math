@@ -36,11 +36,11 @@ interface Namespace {
 	* @returns dispatch function
 	*
 	* @example
-	* var nabs = require( `@stdlib/math/base/special/abs` );
-	* var dabs = require( `@stdlib/math/strided/special/dabs` );
-	* var sabs = require( `@stdlib/math/strided/special/sabs` );
-	* var gabs = require( `@stdlib/math/strided/special/abs` );
-	* var Float64Array = require( `@stdlib/array/float64` );
+	* var nabs = require( './../../../base/special/abs' );
+	* var dabs = require( './../../../strided/special/dabs' );
+	* var sabs = require( './../../../strided/special/sabs' );
+	* var gabs = require( './../../../strided/special/abs' );
+	* var Float64Array = require( '@stdlib/array/float64' );
 	*
 	* var table = {
 	*     'scalar': [
