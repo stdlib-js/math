@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,46 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_MATH_BASE_ASSERT_IS_ODD_H
+#define STDLIB_MATH_BASE_ASSERT_IS_ODD_H
 
-// MODULES //
+#include <stdbool.h>
 
-var isEven = require( './../../../../base/assert/is-even' );
-
-
-// MAIN //
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
 * Tests if a finite double-precision floating-point number is an odd number.
-*
-* @param {number} x - value to test
-* @returns {boolean} boolean indicating whether the value is an odd number
-*
-* @example
-* var bool = isOdd( 5.0 );
-* // returns true
-*
-* @example
-* var bool = isOdd( -2.0 );
-* // returns false
-*
-* @example
-* var bool = isOdd( 0.0 );
-* // returns false
-*
-* @example
-* var bool = isOdd( NaN );
-* // returns false
 */
-function isOdd( x ) {
-	// Check sign to prevent overflow...
-	if ( x > 0.0 ) {
-		return isEven( x-1.0 );
-	}
-	return isEven( x+1.0 );
+bool stdlib_base_is_odd( const double x );
+
+#ifdef __cplusplus
 }
+#endif
 
-
-// EXPORTS //
-
-module.exports = isOdd;
+#endif // !STDLIB_MATH_BASE_ASSERT_IS_ODD_H

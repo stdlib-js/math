@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,7 +20,8 @@
 
 // MODULES //
 
-var isEven = require( './../../../../base/assert/is-even' );
+var Boolean = require( '@stdlib/boolean/ctor' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -28,31 +29,20 @@ var isEven = require( './../../../../base/assert/is-even' );
 /**
 * Tests if a finite double-precision floating-point number is an odd number.
 *
+* @private
 * @param {number} x - value to test
-* @returns {boolean} boolean indicating whether the value is an odd number
+* @returns {boolean} boolean indicating whether the number is odd
+*
+* @example
+* var bool = isOdd( 2.0 );
+* // returns false
 *
 * @example
 * var bool = isOdd( 5.0 );
 * // returns true
-*
-* @example
-* var bool = isOdd( -2.0 );
-* // returns false
-*
-* @example
-* var bool = isOdd( 0.0 );
-* // returns false
-*
-* @example
-* var bool = isOdd( NaN );
-* // returns false
 */
 function isOdd( x ) {
-	// Check sign to prevent overflow...
-	if ( x > 0.0 ) {
-		return isEven( x-1.0 );
-	}
-	return isEven( x+1.0 );
+	return Boolean( addon( x ) );
 }
 
 
