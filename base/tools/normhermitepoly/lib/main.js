@@ -27,7 +27,7 @@ var isint = require( './../../../../base/assert/is-integer' );
 // MAIN //
 
 /**
-* Evaluates a normalized Hermite polynomial.
+* Evaluates a normalized Hermite polynomial using double-precision floating-point arithmetic.
 *
 * @param {NonNegativeInteger} n - nonnegative polynomial degree
 * @param {number} x - evaluation point
