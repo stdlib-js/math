@@ -77,6 +77,15 @@ setReadOnly( ns, 'evalpolyf', require( './../../../base/tools/evalpolyf' ) );
 setReadOnly( ns, 'evalrational', require( './../../../base/tools/evalrational' ) );
 
 /**
+* @name evalrationalf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/tools/evalrationalf}
+*/
+setReadOnly( ns, 'evalrationalf', require( './../../../base/tools/evalrationalf' ) );
+
+/**
 * @name fibpoly
 * @memberof ns
 * @readonly
