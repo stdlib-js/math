@@ -1,6 +1,6 @@
 
 {{alias}}( c, x )
-    Evaluates a polynomial using double-precision floating-point arithmetic.
+    Evaluates a polynomial using single-precision floating-point arithmetic.
 
     Parameters
     ----------
@@ -17,7 +17,7 @@
 
     Examples
     --------
-    > var arr = [ 3.0, 2.0, 1.0 ];
+    > var arr = new {{alias:@stdlib/array/float32}}( [ 3.0, 2.0, 1.0 ] );
 
     // 3*10^0 + 2*10^1 + 1*10^2
     > var v = {{alias}}( arr, 10.0 )
@@ -25,7 +25,7 @@
 
 
 {{alias}}.factory( c )
-    Returns a function for evaluating a polynomial using double-precision
+    Returns a function for evaluating a polynomial using single-precision
     floating-point arithmetic.
 
     Parameters
@@ -40,7 +40,8 @@
 
     Examples
     --------
-    > var f = {{alias}}.factory( [ 3.0, 2.0, 1.0 ] );
+    > var c = new {{alias:@stdlib/array/float32}}( [ 3.0, 2.0, 1.0 ] );
+    > var f = {{alias}}.factory( c );
 
     // 3*10^0 + 2*10^1 + 1*10^2
     > var v = f( 10.0 )

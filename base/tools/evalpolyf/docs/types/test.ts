@@ -1,7 +1,7 @@
 /*
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,78 +16,78 @@
 * limitations under the License.
 */
 
-import evalpoly = require( './index' );
+import evalpolyf = require( './index' );
 
 
 // TESTS //
 
 // The function returns a number...
 {
-	evalpoly( [ 3.0, 2.0, 1.0 ], 10.0 ); // $ExpectType number
+	evalpolyf( [ 3.0, 2.0, 1.0 ], 10.0 ); // $ExpectType number
 }
 
 // The compiler throws an error if the function is provided a first argument which is not an array of numbers...
 {
-	evalpoly( true, 10.0 ); // $ExpectError
-	evalpoly( false, 10.0 ); // $ExpectError
-	evalpoly( 'abc', 10.0 ); // $ExpectError
-	evalpoly( 123, 10.0 ); // $ExpectError
-	evalpoly( {}, 10.0 ); // $ExpectError
-	evalpoly( ( x: number ): number => x, 10.0 ); // $ExpectError
+	evalpolyf( true, 10.0 ); // $ExpectError
+	evalpolyf( false, 10.0 ); // $ExpectError
+	evalpolyf( 'abc', 10.0 ); // $ExpectError
+	evalpolyf( 123, 10.0 ); // $ExpectError
+	evalpolyf( {}, 10.0 ); // $ExpectError
+	evalpolyf( ( x: number ): number => x, 10.0 ); // $ExpectError
 }
 
 // The compiler throws an error if the function is provided a second argument which is not a number...
 {
 	const c = [ 3.0, 2.0, 1.0 ];
-	evalpoly( c, true ); // $ExpectError
-	evalpoly( c, false ); // $ExpectError
-	evalpoly( c, 'abc' ); // $ExpectError
-	evalpoly( c, [] ); // $ExpectError
-	evalpoly( c, {} ); // $ExpectError
-	evalpoly( c, ( x: number ): number => x ); // $ExpectError
+	evalpolyf( c, true ); // $ExpectError
+	evalpolyf( c, false ); // $ExpectError
+	evalpolyf( c, 'abc' ); // $ExpectError
+	evalpolyf( c, [] ); // $ExpectError
+	evalpolyf( c, {} ); // $ExpectError
+	evalpolyf( c, ( x: number ): number => x ); // $ExpectError
 }
 
 // The compiler throws an error if the function is provided an insufficient number of arguments...
 {
 	const c = [ 3.0, 2.0, 1.0 ];
-	evalpoly(); // $ExpectError
-	evalpoly( c ); // $ExpectError
+	evalpolyf(); // $ExpectError
+	evalpolyf( c ); // $ExpectError
 }
 
 // Attached to main export is a `factory` method which returns a function...
 {
 	const c = [ 3.0, 2.0, 1.0 ];
-	evalpoly.factory( c ); // $ExpectType PolynomialFunction
+	evalpolyf.factory( c ); // $ExpectType PolynomialFunction
 }
 
 // The compiler throws an error if the `factory` method is provided a first argument which is not an array of numbers...
 {
-	evalpoly.factory( true ); // $ExpectError
-	evalpoly.factory( false ); // $ExpectError
-	evalpoly.factory( 'abc' ); // $ExpectError
-	evalpoly.factory( 123 ); // $ExpectError
-	evalpoly.factory( {} ); // $ExpectError
-	evalpoly.factory( ( x: number ): number => x ); // $ExpectError
+	evalpolyf.factory( true ); // $ExpectError
+	evalpolyf.factory( false ); // $ExpectError
+	evalpolyf.factory( 'abc' ); // $ExpectError
+	evalpolyf.factory( 123 ); // $ExpectError
+	evalpolyf.factory( {} ); // $ExpectError
+	evalpolyf.factory( ( x: number ): number => x ); // $ExpectError
 }
 
 // The compiler throws an error if the `factory` method is provided an unsupported number of arguments...
 {
 	const c = [ 3.0, 2.0, 1.0 ];
-	evalpoly.factory(); // $ExpectError
-	evalpoly.factory( c, 2.0 ); // $ExpectError
+	evalpolyf.factory(); // $ExpectError
+	evalpolyf.factory( c, 2.0 ); // $ExpectError
 }
 
 // The `factory` method returns a function which returns a number...
 {
 	const c = [ 3.0, 2.0, 1.0 ];
-	const polyval = evalpoly.factory( c );
+	const polyval = evalpolyf.factory( c );
 	polyval( 1.0 ); // $ExpectType number
 }
 
 // The compiler throws an error if the function returned by the `factory` method is provided a first argument which is not a number...
 {
 	const c = [ 3.0, 2.0, 1.0 ];
-	const polyval = evalpoly.factory( c );
+	const polyval = evalpolyf.factory( c );
 	polyval( true ); // $ExpectError
 	polyval( false ); // $ExpectError
 	polyval( 'abc' ); // $ExpectError

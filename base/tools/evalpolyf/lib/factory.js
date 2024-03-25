@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,14 +20,16 @@
 
 // MODULES //
 
+var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
+var Float32Array = require( '@stdlib/array/float32' );
 var Fcn = require( '@stdlib/function/ctor' );
-var evalpoly = require( './main.js' );
+var evalpolyf = require( './main.js' );
 
 
 // MAIN //
 
 /**
-* Generates a function for evaluating a polynomial using double-precision floating-point arithmetic.
+* Generates a function for evaluating a polynomial using single-precision floating-point arithmetic.
 *
 * ## Notes
 *
@@ -39,7 +41,9 @@ var evalpoly = require( './main.js' );
 * @returns {Function} function for evaluating a polynomial
 *
 * @example
-* var polyval = factory( [ 3.0, 2.0, 1.0 ] );
+* var Float32Array = require( '@stdlib/array/float32' );
+*
+* var polyval = factory( new Float32Array( [ 3.0, 2.0, 1.0 ] ) );
 *
 * var v = polyval( 10.0 ); // => 3*10^0 + 2*10^1 + 1*10^2
 * // returns 123.0
@@ -53,12 +57,15 @@ function factory( c ) {
 	var m;
 	var i;
 
+	// Explicitly copy in order to ensure single-precision:
+	c = new Float32Array( c );
+
 	// Avoid exceeding the maximum stack size on V8 :(. Note that the choice of `500` was empirically determined...
 	if ( c.length > 500 ) {
 		return polyval;
 	}
 	// Code generation. Start with the function definition...
-	f = 'return function evalpoly(x){';
+	f = 'return function evalpolyf(x){';
 
 	// Create the function body...
 	n = c.length;
@@ -77,17 +84,17 @@ function factory( c ) {
 		f += 'if(x===0.0){return ' + c[ 0 ] + ';}';
 
 		// Otherwise, evaluate the polynomial...
-		f += 'return ' + c[ 0 ];
+		f += 'return f64_to_f32(' + c[ 0 ];
 		m = n - 1;
 		for ( i = 1; i < n; i++ ) {
-			f += '+x*';
+			f += '+f64_to_f32(x*';
 			if ( i < m ) {
-				f += '(';
+				f += 'f64_to_f32(';
 			}
 			f += c[ i ];
 		}
 		// Close all the parentheses...
-		for ( i = 0; i < m-1; i++ ) {
+		for ( i = 0; i < 2*m; i++ ) {
 			f += ')';
 		}
 		f += ';';
@@ -96,17 +103,17 @@ function factory( c ) {
 	f += '}';
 
 	// Add a source directive for debugging:
-	f += '//# sourceURL=evalpoly.factory.js';
+	f += '//# sourceURL=evalpolyf.factory.js';
 
 	// Create the function in the global scope:
-	return ( new Fcn( f ) )();
+	return ( new Fcn( 'f64_to_f32', f ) )( float64ToFloat32 );
 
 	/*
-	*    function evalpoly( x ) {
+	*    function evalpolyf( x ) {
 	*        if ( x === 0.0 ) {
 	*            return c[ 0 ];
 	*        }
-	*        return c[0]+x*(c[1]+x*(c[2]+x*(c[3]+...+x*(c[n-2]+x*c[n-1]))));
+	*        return f64_to_f32(c[0]+f64_to_f32(x*f64_to_f32(c[1]+f64_to_f32(x*f64_to_f32(c[2]+f64_to_f32(x*f64_to_f32(c[3]+...+f64_to_f32(x*f64_to_f32(c[n-2]+f64_to_f32(x*c[n-1]))))))))));
 	*    }
 	*/
 
@@ -118,7 +125,7 @@ function factory( c ) {
 	* @returns {number} evaluated polynomial
 	*/
 	function polyval( x ) {
-		return evalpoly( c, x );
+		return evalpolyf( c, x );
 	}
 }
 

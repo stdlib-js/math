@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,10 +18,15 @@
 
 'use strict';
 
+// MODULES //
+
+var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
+
+
 // MAIN //
 
 /**
-* Evaluates a polynomial using double-precision floating-point arithmetic.
+* Evaluates a polynomial using single-precision floating-point arithmetic.
 *
 * ## Notes
 *
@@ -34,10 +39,12 @@
 * @returns {number} evaluated polynomial
 *
 * @example
-* var v = evalpoly( [ 3.0, 2.0, 1.0 ], 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
+* var Float32Array = require( '@stdlib/array/float32' );
+*
+* var v = evalpolyf( new Float32Array( [ 3.0, 2.0, 1.0 ] ), 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
 * // returns 123.0
 */
-function evalpoly( c, x ) {
+function evalpolyf( c, x ) {
 	var p;
 	var i;
 
@@ -49,10 +56,10 @@ function evalpoly( c, x ) {
 		return c[ 0 ];
 	}
 	i -= 1;
-	p = ( c[ i ] * x ) + c[ i-1 ];
+	p = float64ToFloat32( float64ToFloat32( c[ i ] * x ) + c[ i-1 ] );
 	i -= 2;
 	while ( i >= 0 ) {
-		p = ( p * x ) + c[ i ];
+		p = float64ToFloat32( float64ToFloat32( p * x ) + c[ i ] );
 		i -= 1;
 	}
 	return p;
@@ -61,4 +68,4 @@ function evalpoly( c, x ) {
 
 // EXPORTS //
 
-module.exports = evalpoly;
+module.exports = evalpolyf;

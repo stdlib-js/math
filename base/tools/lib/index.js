@@ -59,6 +59,15 @@ setReadOnly( ns, 'continuedFraction', require( './../../../base/tools/continued-
 setReadOnly( ns, 'evalpoly', require( './../../../base/tools/evalpoly' ) );
 
 /**
+* @name evalpolyf
+* @memberof tools
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/tools/evalpolyf}
+*/
+setReadOnly( ns, 'evalpolyf', require( './../../../base/tools/evalpolyf' ) );
+
+/**
 * @name evalrational
 * @memberof ns
 * @readonly

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -31,13 +31,17 @@ var factory = require( './../lib/factory.js' );
 
 bench( pkg+'::create:factory', function benchmark( b ) {
 	var values;
+	var opts;
 	var f;
 	var i;
 
+	opts = {
+		'dtype': 'float32'
+	};
 	values = [
-		uniform( 10, 0.0, 100.0 ),
-		uniform( 10, 0.0, 100.0 ),
-		uniform( 10, 0.0, 100.0 )
+		uniform( 10, 0.0, 100.0, opts ),
+		uniform( 10, 0.0, 100.0, opts ),
+		uniform( 10, 0.0, 100.0, opts )
 	];
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
@@ -56,12 +60,16 @@ bench( pkg+'::create:factory', function benchmark( b ) {
 
 bench( pkg+'::evaluate:factory', function benchmark( b ) {
 	var values;
+	var opts;
 	var v;
 	var f;
 	var i;
 
-	f = factory( uniform( 10, 0.0, 100.0 ) );
-	values = uniform( 10, 0.0, 100.0 );
+	opts = {
+		'dtype': 'float32'
+	};
+	f = factory( uniform( 10, 0.0, 100.0, opts ) );
+	values = uniform( 10, 0.0, 100.0, opts );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {

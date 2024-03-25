@@ -1,7 +1,7 @@
 /*
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@
 import { Collection } from '@stdlib/types/array';
 
 /**
-* Evaluates a polynomial using double-precision floating-point arithmetic.
+* Evaluates a polynomial using single-precision floating-point arithmetic.
 *
 * @param x - value at which to evaluate a polynomial
 * @returns evaluated polynomial
@@ -35,7 +35,7 @@ type PolynomialFunction = ( x: number ) => number;
 */
 interface EvalPoly {
 	/**
-	* Evaluates a polynomial using double-precision floating-point arithmetic.
+	* Evaluates a polynomial using single-precision floating-point arithmetic.
 	*
 	* ## Notes
 	*
@@ -49,13 +49,15 @@ interface EvalPoly {
 	* @returns evaluated polynomial
 	*
 	* @example
-	* var v = evalpoly( [ 3.0, 2.0, 1.0 ], 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var v = evalpolyf( new Float32Array( [ 3.0, 2.0, 1.0 ] ), 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
 	* // returns 123.0
 	*/
 	( c: Collection<number>, x: number ): number;
 
 	/**
-	* Generates a function for evaluating a polynomial using double-precision floating-point arithmetic.
+	* Generates a function for evaluating a polynomial using single-precision floating-point arithmetic.
 	*
 	* ## Notes
 	*
@@ -68,7 +70,9 @@ interface EvalPoly {
 	* @returns function for evaluating a polynomial
 	*
 	* @example
-	* var polyval = evalpoly.factory( [ 3.0, 2.0, 1.0 ] );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var polyval = evalpolyf.factory( new Float32Array( [ 3.0, 2.0, 1.0 ] ) );
 	*
 	* var v = polyval( 10.0 ); // => 3*10^0 + 2*10^1 + 1*10^2
 	* // returns 123.0
@@ -80,7 +84,7 @@ interface EvalPoly {
 }
 
 /**
-* Evaluates a polynomial using double-precision floating-point arithmetic.
+* Evaluates a polynomial using single-precision floating-point arithmetic.
 *
 * ## Notes
 *
@@ -94,11 +98,15 @@ interface EvalPoly {
 * @returns evaluated polynomial
 *
 * @example
-* var v = evalpoly( [ 3.0, 2.0, 1.0 ], 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
+* var Float32Array = require( '@stdlib/array/float32' );
+*
+* var v = evalpolyf( new Float32Array( [ 3.0, 2.0, 1.0 ] ), 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
 * // returns 123.0
 *
 * @example
-* var polyval = evalpoly.factory( [ 3.0, 2.0, 1.0 ] );
+* var Float32Array = require( '@stdlib/array/float32' );
+*
+* var polyval = evalpolyf.factory( new Float32Array( [ 3.0, 2.0, 1.0 ] ) );
 *
 * var v = polyval( 10.0 ); // => 3*10^0 + 2*10^1 + 1*10^2
 * // returns 123.0
@@ -106,9 +114,9 @@ interface EvalPoly {
 * v = polyval( 5.0 ); // => 3*5^0 + 2*5^1 + 1*5^2
 * // returns 38.0
 */
-declare var evalpoly: EvalPoly;
+declare var evalpolyf: EvalPoly;
 
 
 // EXPORTS //
 
-export = evalpoly;
+export = evalpolyf;

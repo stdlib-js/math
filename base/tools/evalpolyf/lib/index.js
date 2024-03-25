@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -19,20 +19,22 @@
 'use strict';
 
 /**
-* Evaluate a polynomial using double-precision floating-point arithmetic.
+* Evaluate a polynomial using single-precision floating-point arithmetic.
 *
-* @module @stdlib/math/base/tools/evalpoly
+* @module @stdlib/math/base/tools/evalpolyf
 *
 * @example
-* var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
+* var Float32Array = require( '@stdlib/array/float32' );
+* var evalpolyf = require( '@stdlib/math/base/tools/evalpolyf' );
 *
-* var v = evalpoly( [ 3.0, 2.0, 1.0 ], 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
+* var v = evalpolyf( new Float32Array( [ 3.0, 2.0, 1.0 ] ), 10.0 ); // 3*10^0 + 2*10^1 + 1*10^2
 * // returns 123.0
 *
 * @example
-* var evalpoly = require( '@stdlib/math/base/tools/evalpoly' );
+* var Float32Array = require( '@stdlib/array/float32' );
+* var evalpolyf = require( '@stdlib/math/base/tools/evalpolyf' );
 *
-* var polyval = evalpoly.factory( [ 3.0, 2.0, 1.0 ] );
+* var polyval = evalpolyf.factory( new Float32Array( [ 3.0, 2.0, 1.0 ] ) );
 *
 * var v = polyval( 10.0 ); // => 3*10^0 + 2*10^1 + 1*10^2
 * // returns 123.0

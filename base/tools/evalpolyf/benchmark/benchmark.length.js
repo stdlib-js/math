@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ var pow = require( './../../../../base/special/pow' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
-var evalpoly = require( './../lib' );
+var evalpolyf = require( './../lib' );
 
 
 // FUNCTIONS //
@@ -38,7 +38,13 @@ var evalpoly = require( './../lib' );
 * @returns {Function} benchmark function
 */
 function createBenchmark( len ) {
-	var c = uniform( len, 0.0, 100.0 );
+	var opts;
+	var c;
+
+	opts = {
+		'dtype': 'float32'
+	};
+	c = uniform( len, 0.0, 100.0, opts );
 	return benchmark;
 
 	/**
@@ -52,11 +58,11 @@ function createBenchmark( len ) {
 		var v;
 		var i;
 
-		x = uniform( 10, 0.0, 100.0 );
+		x = uniform( 10, 0.0, 100.0, opts );
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			v = evalpoly( c, x[ i%x.length ] );
+			v = evalpolyf( c, x[ i%x.length ] );
 			if ( isnan( v ) ) {
 				b.fail( 'should not return NaN' );
 			}
