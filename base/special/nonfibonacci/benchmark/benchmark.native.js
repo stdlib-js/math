@@ -23,10 +23,10 @@
 var resolve = require( 'path' ).resolve;
 var floor = require( './../../../../base/special/floor' );
 var isnan = require( './../../../../base/assert/is-nan' );
-var pkg = require( './../../../../base/special/nonfibonacci/package.json' ).name;
 var randu = require( '@stdlib/random/base/randu' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var bench = require( '@stdlib/bench' );
+var pkg = require( './../package.json' ).name;
 
 
 // VARIABLES //

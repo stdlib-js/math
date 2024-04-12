@@ -30,14 +30,14 @@ var tryRequire = require( '@stdlib/utils/try-require' );
 
 // FIXTURES //
 
-var largerNegative = require( './../../../../base/special/asec/test/fixtures/julia/larger_negative.json' );
-var largerPositive = require( './../../../../base/special/asec/test/fixtures/julia/larger_positive.json' );
-var largeNegative = require( './../../../../base/special/asec/test/fixtures/julia/large_negative.json' );
-var largePositive = require( './../../../../base/special/asec/test/fixtures/julia/large_positive.json' );
-var mediumNegative = require( './../../../../base/special/asec/test/fixtures/julia/medium_negative.json' );
-var mediumPositive = require( './../../../../base/special/asec/test/fixtures/julia/medium_positive.json' );
-var hugeNegative = require( './../../../../base/special/asec/test/fixtures/julia/huge_negative.json' );
-var hugePositive = require( './../../../../base/special/asec/test/fixtures/julia/huge_positive.json' );
+var largerNegative = require( './fixtures/julia/larger_negative.json' );
+var largerPositive = require( './fixtures/julia/larger_positive.json' );
+var largeNegative = require( './fixtures/julia/large_negative.json' );
+var largePositive = require( './fixtures/julia/large_positive.json' );
+var mediumNegative = require( './fixtures/julia/medium_negative.json' );
+var mediumPositive = require( './fixtures/julia/medium_positive.json' );
+var hugeNegative = require( './fixtures/julia/huge_negative.json' );
+var hugePositive = require( './fixtures/julia/huge_positive.json' );
 
 
 // VARIABLES //
