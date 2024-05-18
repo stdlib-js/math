@@ -25,21 +25,36 @@ import abs2 = require( './../../../../base/special/abs2' );
 import abs2f = require( './../../../../base/special/abs2f' );
 import absf = require( './../../../../base/special/absf' );
 import acos = require( './../../../../base/special/acos' );
+import acosd = require( './../../../../base/special/acosd' );
+import acosf = require( './../../../../base/special/acosf' );
 import acosh = require( './../../../../base/special/acosh' );
 import acot = require( './../../../../base/special/acot' );
+import acotd = require( './../../../../base/special/acotd' );
+import acotf = require( './../../../../base/special/acotf' );
 import acoth = require( './../../../../base/special/acoth' );
 import acovercos = require( './../../../../base/special/acovercos' );
 import acoversin = require( './../../../../base/special/acoversin' );
 import acsc = require( './../../../../base/special/acsc' );
+import acscd = require( './../../../../base/special/acscd' );
+import acscdf = require( './../../../../base/special/acscdf' );
+import acscf = require( './../../../../base/special/acscf' );
 import acsch = require( './../../../../base/special/acsch' );
 import ahavercos = require( './../../../../base/special/ahavercos' );
 import ahaversin = require( './../../../../base/special/ahaversin' );
 import asec = require( './../../../../base/special/asec' );
+import asecd = require( './../../../../base/special/asecd' );
+import asecdf = require( './../../../../base/special/asecdf' );
+import asecf = require( './../../../../base/special/asecf' );
 import asech = require( './../../../../base/special/asech' );
 import asin = require( './../../../../base/special/asin' );
+import asind = require( './../../../../base/special/asind' );
+import asindf = require( './../../../../base/special/asindf' );
+import asinf = require( './../../../../base/special/asinf' );
 import asinh = require( './../../../../base/special/asinh' );
 import atan = require( './../../../../base/special/atan' );
 import atan2 = require( './../../../../base/special/atan2' );
+import atand = require( './../../../../base/special/atand' );
+import atanf = require( './../../../../base/special/atanf' );
 import atanh = require( './../../../../base/special/atanh' );
 import avercos = require( './../../../../base/special/avercos' );
 import aversin = require( './../../../../base/special/aversin' );
@@ -89,10 +104,12 @@ import clampf = require( './../../../../base/special/clampf' );
 import copysign = require( './../../../../base/special/copysign' );
 import copysignf = require( './../../../../base/special/copysignf' );
 import cos = require( './../../../../base/special/cos' );
+import cosd = require( './../../../../base/special/cosd' );
 import cosh = require( './../../../../base/special/cosh' );
 import cosm1 = require( './../../../../base/special/cosm1' );
 import cospi = require( './../../../../base/special/cospi' );
 import cot = require( './../../../../base/special/cot' );
+import cotd = require( './../../../../base/special/cotd' );
 import coth = require( './../../../../base/special/coth' );
 import covercos = require( './../../../../base/special/covercos' );
 import coversin = require( './../../../../base/special/coversin' );
@@ -100,6 +117,8 @@ import cphase = require( './../../../../base/special/cphase' );
 import cpolar = require( './../../../../base/special/cpolar' );
 import cround = require( './../../../../base/special/cround' );
 import croundn = require( './../../../../base/special/croundn' );
+import csc = require( './../../../../base/special/csc' );
+import cscd = require( './../../../../base/special/cscd' );
 import csch = require( './../../../../base/special/csch' );
 import csignum = require( './../../../../base/special/csignum' );
 import deg2rad = require( './../../../../base/special/deg2rad' );
@@ -165,6 +184,7 @@ import invf = require( './../../../../base/special/invf' );
 import kernelBetainc = require( './../../../../base/special/kernel-betainc' );
 import kernelBetaincinv = require( './../../../../base/special/kernel-betaincinv' );
 import kernelCos = require( './../../../../base/special/kernel-cos' );
+import kernelLog1p = require( './../../../../base/special/kernel-log1p' );
 import kernelSin = require( './../../../../base/special/kernel-sin' );
 import kernelTan = require( './../../../../base/special/kernel-tan' );
 import kroneckerDelta = require( './../../../../base/special/kronecker-delta' );
@@ -205,9 +225,11 @@ import polygamma = require( './../../../../base/special/polygamma' );
 import pow = require( './../../../../base/special/pow' );
 import powm1 = require( './../../../../base/special/powm1' );
 import rad2deg = require( './../../../../base/special/rad2deg' );
+import rad2degf = require( './../../../../base/special/rad2degf' );
 import ramp = require( './../../../../base/special/ramp' );
 import rampf = require( './../../../../base/special/rampf' );
 import rcbrt = require( './../../../../base/special/rcbrt' );
+import rcbrtf = require( './../../../../base/special/rcbrtf' );
 import rempio2 = require( './../../../../base/special/rempio2' );
 import zeta = require( './../../../../base/special/riemann-zeta' );
 import risingFactorial = require( './../../../../base/special/rising-factorial' );
@@ -219,6 +241,7 @@ import roundn = require( './../../../../base/special/roundn' );
 import roundsd = require( './../../../../base/special/roundsd' );
 import rsqrt = require( './../../../../base/special/rsqrt' );
 import rsqrtf = require( './../../../../base/special/rsqrtf' );
+import secd = require( './../../../../base/special/secd' );
 import sici = require( './../../../../base/special/sici' );
 import signum = require( './../../../../base/special/signum' );
 import signumf = require( './../../../../base/special/signumf' );
@@ -234,6 +257,7 @@ import sqrt1pm1 = require( './../../../../base/special/sqrt1pm1' );
 import sqrtf = require( './../../../../base/special/sqrtf' );
 import sqrtpi = require( './../../../../base/special/sqrtpi' );
 import tan = require( './../../../../base/special/tan' );
+import tand = require( './../../../../base/special/tand' );
 import tanh = require( './../../../../base/special/tanh' );
 import tribonacci = require( './../../../../base/special/tribonacci' );
 import trigamma = require( './../../../../base/special/trigamma' );
@@ -387,6 +411,54 @@ interface Namespace {
 	acos: typeof acos;
 
 	/**
+	* Computes the arccosine (in degrees) of a double-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arccosine (in degrees)
+	*
+	* @example
+	* var v = ns.acosd( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.acosd( 0.5 );
+	* // returns ~60.0
+	*
+	* @example
+	* var v = ns.acosd( Math.sqrt( 2 ) / 2 );
+	* // returns ~45.0
+	*
+	* @example
+	* var v = ns.acosd( Math.sqrt( 3 ) / 2 );
+	* // returns ~30.0
+	*
+	* @example
+	* var v = ns.acosd( NaN );
+	* // returns NaN
+	*/
+	acosd: typeof acosd;
+
+	/**
+	* Computes the arccosine of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arccosine (in radians)
+	*
+	* @example
+	* var v = ns.acosf( 1.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.acosf( 0.707 ); // ~pi/4
+	* // returns ~0.7855
+	*
+	* @example
+	* var v = ns.acosf( NaN );
+	* // returns NaN
+	*/
+	acosf: typeof acosf;
+
+	/**
 	* Computes the hyperbolic arccosine of a double-precision floating-point number.
 	*
 	* @param x - input value
@@ -437,6 +509,66 @@ interface Namespace {
 	* // returns 0.0
 	*/
 	acot: typeof acot;
+
+	/**
+	* Computes the arccotangent (in degrees) of a double-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arccotangent (in degrees)
+	*
+	* @example
+	* var v = ns.acotd( 0.0 );
+	* // returns 90.0
+	*
+	* @example
+	* var v = ns.acotd( Math.sqrt(3) );
+	* // returns ~30.0
+	*
+	* @example
+	* var v = ns.acotd( 1 );
+	* // returns 45.0
+	*
+	* @example
+	* var v = ns.acotd( Math.sqrt(3) / 3 );
+	* // returns ~60.0
+	*
+	* @example
+	* var v = ns.acotd( NaN );
+	* // returns NaN
+	*/
+	acotd: typeof acotd;
+
+	/**
+	* Computes the inverse cotangent of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns inverse cotangent (in radians)
+	*
+	* @example
+	* var v = ns.acotf( 2.0 );
+	* // returns ~0.4636
+	*
+	* @example
+	* var v = ns.acotf( 0.0 );
+	* // returns ~1.5708
+	*
+	* @example
+	* var v = ns.acotf( 0.5 );
+	* // returns ~1.1071
+	*
+	* @example
+	* var v = ns.acotf( 1.0 );
+	* // returns ~0.7854
+	*
+	* @example
+	* var v = ns.acotf( NaN );
+	* // returns NaN
+	*
+	* @example
+	* var v = ns.acotf( Infinity );
+	* // returns 0.0
+	*/
+	acotf: typeof acotf;
 
 	/**
 	* Computes the inverse hyperbolic cotangent of a double-precision floating-point number.
@@ -539,6 +671,98 @@ interface Namespace {
 	acsc: typeof acsc;
 
 	/**
+	* Computes the arccosecant (in degrees) of a double-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arccosecant (in degrees)
+	*
+	* @example
+	* var v = ns.acscd( Infinity );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.acscd( 2 * Math.sqrt( 3 ) / 3 );
+	* // returns ~60.0
+	*
+	* @example
+	* var v = ns.acscd( Math.sqrt( 2 ) );
+	* // returns ~45.0
+	*
+	* @example
+	* var v = ns.acscd( 2 );
+	* // returns ~30.0
+	*
+	* @example
+	* var v = ns.acscd( 1 );
+	* // returns 90.0
+	*
+	* @example
+	* var v = ns.acscd( NaN );
+	* // returns NaN
+	*/
+	acscd: typeof acscd;
+
+	/**
+	* Computes the arccosecant (in degrees) of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arccosecant (in degrees)
+	*
+	* @example
+	* var v = ns.acscdf( Infinity );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.acscdf( 2.0 );
+	* // returns ~30.0
+	*
+	* @example
+	* var sqrtf = require( './../../../../base/special/sqrtf' );
+	*
+	* var v = ns.acscdf( 2.0 * sqrtf( 3.0 ) / 3.0 );
+	* // returns ~60.0
+	*
+	* @example
+	* var sqrtf = require( './../../../../base/special/sqrtf' );
+	*
+	** var v = ns.acscdf( sqrtf( 2.0 ) );
+	* // returns ~45.0
+	*
+	* @example
+	* var v = ns.acscdf( 1.0 );
+	* // returns 90.0
+	*
+	* @example
+	* var v = ns.acscdf( NaN );
+	* // returns NaN
+	*/
+	acscdf: typeof acscdf;
+
+	/**
+	* Computes the arccosecant of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arccosecant (in radians)
+	*
+	* @example
+	* var v = ns.acscf( 1.0 );
+	* // returns ~1.57
+	*
+	* @example
+	* var v = ns.acscf( 3.141592653589793 );
+	* // returns ~0.32
+	*
+	* @example
+	* var v = ns.acscf( -3.141592653589793 );
+	* // returns ~-0.32
+	*
+	* @example
+	* var v = ns.acscf( NaN );
+	* // returns NaN
+	*/
+	acscf: typeof acscf;
+
+	/**
 	* Computes the hyperbolic arccosecant of a number.
 	*
 	* @param x - input value
@@ -627,6 +851,94 @@ interface Namespace {
 	asec: typeof asec;
 
 	/**
+	* Computes the arcsecant (in degrees) of a double-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arcsecant (in degrees)
+	*
+	* @example
+	* var v = ns.asecd( 1 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asecd( 2 * Math.sqrt( 3 ) / 3 );
+	* // returns ~30.0
+	*
+	* @example
+	* var v = ns.asecd( Math.sqrt( 2 ) );
+	* // returns ~45.0
+	*
+	* @example
+	* var v = ns.asecd( 2 );
+	* // returns ~60.0
+	*
+	* @example
+	* var v = ns.asecd( Infinity );
+	* // returns 90.0
+	*
+	* @example
+	* var v = ns.asecd( NaN );
+	* // returns NaN
+	*/
+	asecd: typeof asecd;
+
+	/**
+	* Computes the arcsecant (in degrees) of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arcsecant (in degrees)
+	*
+	* @example
+	* var v = ns.asecdf( 1.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asecdf( 2.0 );
+	* // returns ~60.0
+	*
+	* @example
+	* var sqrtf = require( './../../../../base/special/sqrtf' );
+	*
+	* var v = ns.asecdf( 2.0 * sqrtf( 3.0 ) / 3.0 );
+	* // returns ~30.0
+	*
+	* @example
+	* var sqrtf = require( './../../../../base/special/sqrtf' );
+	*
+	** var v = ns.asecdf( sqrtf( 2.0 ) );
+	* // returns 45.0
+	*
+	* @example
+	* var v = ns.asecdf( Infinity );
+	* // returns 90.0
+	*
+	* @example
+	* var v = ns.asecdf( NaN );
+	* // returns NaN
+	*/
+	asecdf: typeof asecdf;
+
+	/**
+	* Computes the inverse (arc) secant of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns inverse (arc) secant
+	*
+	* @example
+	* var v = ns.asecf( 1.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asecf( 2.0 );
+	* // returns ~1.0472
+	*
+	* @example
+	* var v = ns.asecf( NaN );
+	* // returns NaN
+	*/
+	asecf: typeof asecf;
+
+	/**
 	* Computes the hyperbolic arcsecant of a number.
 	*
 	* @param x - input value
@@ -669,6 +981,94 @@ interface Namespace {
 	* // returns NaN
 	*/
 	asin: typeof asin;
+
+	/**
+	* Computes the arcsine (in degrees) of a double-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arcsine (in degrees)
+	*
+	* @example
+	* var v = ns.asind( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asind( 0.5 );
+	* // returns ~30.0
+	*
+	* @example
+	* var sqrt = require( './../../../../base/special/sqrt' );
+	*
+	* var v = ns.asindf( sqrt( 2.0 ) / 2.0 );
+	* // returns ~45.0
+	*
+	* @example
+	* var sqrt = require( './../../../../base/special/sqrt' );
+	*
+	** var v = ns.asindf( sqrt( 3.0 ) / 2.0 );
+	* // returns ~60.0
+	*
+	* @example
+	* var v = ns.asind( NaN );
+	* // returns NaN
+	*/
+	asind: typeof asind;
+
+	/**
+	* Computes the arcsine (in degrees) of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arcsine (in degrees)
+	*
+	* @example
+	* var v = ns.asindf( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asindf( 0.5 );
+	* // returns ~30.0
+	*
+	* @example
+	* var sqrtf = require( './../../../../base/special/sqrtf' );
+	*
+	* var v = ns.asindf( sqrtf( 2.0 ) / 2.0 );
+	* // returns ~45.0
+	*
+	* @example
+	* var sqrtf = require( './../../../../base/special/sqrtf' );
+	*
+	** var v = ns.asindf( sqrtf( 3.0 ) / 2.0 );
+	* // returns ~60.0
+	*
+	* @example
+	* var v = ns.asindf( NaN );
+	* // returns NaN
+	*/
+	asindf: typeof asindf;
+
+	/**
+	* Computes the arcsine of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arcsine (in radians)
+	*
+	* @example
+	* var v = ns.asinf( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.asinf( 3.14/4.0 );
+	* // returns ~0.903
+	*
+	* @example
+	* var v = ns.asinf( -3.14/6.0 );
+	* // returns ~-0.551
+	*
+	* @example
+	* var v = ns.asinf( NaN );
+	* // returns NaN
+	*/
+	asinf: typeof asinf;
 
 	/**
 	* Computes the hyperbolic arcsine of a double-precision floating-point number.
@@ -762,6 +1162,66 @@ interface Namespace {
 	* // returns NaN
 	*/
 	atan2: typeof atan2;
+
+	/**
+	* Computes the arctangent (in degrees) of a double-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arctangent (in degrees)
+	*
+	* @example
+	* var v = ns.atand( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.atand( 0.5 );
+	* // returns ~26.57
+	*
+	* @example
+	* var v = ns.atand( 1 / Math.sqrt( 3 ) );
+	* // returns ~30.0
+	*
+	* @example
+	* var v = ns.atand( 1 );
+	* // returns 45.0
+	*
+	* @example
+	* var v = ns.atand( Infinity );
+	* // returns 90.0
+	*
+	* @example
+	* var v = ns.atand( NaN );
+	* // returns NaN
+	*/
+	atand: typeof atand;
+
+	/**
+	* Computes the arctangent of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns arctangent (in radians)
+	*
+	* @example
+	* var v = ns.atanf( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var FLOAT32_PI = require( '@stdlib/constants/float32/pi' );
+	*
+	* var v = ns.atanf( FLOAT32_PI/4.0 );
+	* // returns ~0.666
+	*
+	* @example
+	* var FLOAT32_PI = require( '@stdlib/constants/float32/pi' );
+	*
+	* var v = ns.atanf( -FLOAT32_PI/4.0 );
+	* // returns ~-0.666
+	*
+	* @example
+	* var v = ns.atanf( NaN );
+	* // returns NaN
+	*/
+	atanf: typeof atanf;
 
 	/**
 	* Computes the hyperbolic arctangent of a double-precision floating-point number.
@@ -2164,6 +2624,30 @@ interface Namespace {
 	cos: typeof cos;
 
 	/**
+	* Computes the cosine of an angle measured in degrees.
+	*
+	* @param x - input value (in degrees)
+	* @returns cosine
+	 *
+	 * @example
+	 * var v = ns.cosd( 0.0 );
+	 * // returns 1.0
+	 *
+	 * @example
+	 * var v = ns.cosd( 60.0 );
+	 * // returns ~0.5
+	 *
+	 * @example
+	 * var v = ns.cosd( 90.0);
+	 * // returns 0
+	 *
+	 * @example
+	 * var v = ns.cosd( NaN );
+	 * // returns NaN
+	*/
+	cosd: typeof cosd;
+
+	/**
 	* Computes the hyperbolic cosine of a double-precision floating-point number.
 	*
 	* @param x - input value
@@ -2262,6 +2746,30 @@ interface Namespace {
 	 * // returns NaN
 	*/
 	cot: typeof cot;
+
+	/**
+	* Computes the cotangent of an angle measured in degrees
+	*
+	* @param x - input value (in degrees)
+	* @returns cotangent
+	 *
+	 * @example
+	 * var v = ns.cotd( 0.0 );
+	 * // returns Infinity
+	 *
+	 * @example
+	 * var v = ns.cotd( 60.0 );
+	 * // returns ~0.58
+	 *
+	 * @example
+	 * var v = ns.cotd( 90.0 );
+	 * // returns 0.0
+	 *
+	 * @example
+	 * var v = ns.cotd( NaN );
+	 * // returns NaN
+	*/
+	cotd: typeof cotd;
 
 	/**
 	* Computes the hyperbolic cotangent of a number.
@@ -2415,6 +2923,62 @@ interface Namespace {
 	* // returns -3.34
 	*/
 	croundn: typeof croundn;
+
+	/**
+	* Computes the cosecant of a number.
+	*
+	* @param x - input value (in radians)
+	* @returns cosecant
+	*
+	* @example
+	* var v = ns.csc( 0.0 );
+	* // returns Infinity
+	*
+	* @example
+	* var v = ns.csc( 3.141592653589793/2.0 );
+	* // returns ~1.0
+	*
+	* @example
+	* var v = ns.csc( -3.141592653589793/6.0 );
+	* // returns ~-2.0
+	*
+	* @example
+	* var v = ns.csc( NaN );
+	* // returns NaN
+	*/
+	csc: typeof csc;
+
+	/**
+	* Computes the cosecant of a degree.
+	*
+	* @param x - input value (in degrees)
+	* @returns cosecant
+	*
+	* @example
+	* var v = ns.cscd( 30 );
+	* // returns ~2.0
+	*
+	* @example
+	* var v = ns.cscd( 45 );
+	* // returns ~1.41
+	*
+	* @example
+	* var v = ns.cscd( 60 );
+	* // returns ~1.15
+	*
+	* @example
+	* var v = ns.cscd( 90 );
+	* // returns 1.0
+	*
+	* @example
+	* var v = ns.cscd( 0 );
+	* // returns Infinity
+	*
+	* @example
+	* var v = ns.cscd( NaN );
+	* // returns NaN
+	*/
+	cscd: typeof cscd;
 
 	/**
 	* Computes the hyperbolic cosecant of a number.
@@ -3045,7 +3609,7 @@ interface Namespace {
 	* @example
 	* var v = ns.factorial2( 4 );
 	* // returns 8
-	* 
+	*
 	* @example
 	* var v = ns.factorial2( -10 );
 	* // returns NaN
@@ -4303,6 +4867,32 @@ interface Namespace {
 	kernelCos: typeof kernelCos;
 
 	/**
+	* Computes `log(1+f) - f` for `1+f` in `~[sqrt(2)/2, sqrt(2)]`.
+	*
+	* ## Notes
+	*
+	* -   This function provides a common means for computing logarithms in base `e`. Argument reduction and adding the final term of the polynomial must be done by the caller for increased accuracy when different bases are used.
+	*
+	* @param f - input value
+	* @returns function value
+	*
+	* @example
+	* var v = ns.kernelLog1p( 1.0 );
+	* // returns ~0.1931
+	*
+	* @example
+	* var sqrt = require( './../../../../base/special/sqrt' );
+	*
+	* var v = ns.kernelLog1p( sqrt( 2.0 ) );
+	* // returns ~0.4672
+	*
+	* @example
+	* var v = ns.kernelLog1p( NaN );
+	* // returns NaN
+	*/
+	kernelLog1p: typeof kernelLog1p;
+
+	/**
 	* Computes the sine of a double-precision floating-point number on `[-π/4, π/4]`.
 	*
 	* ## Notes
@@ -5534,6 +6124,26 @@ interface Namespace {
 	rad2deg: typeof rad2deg;
 
 	/**
+	* Converts an angle from radians to degrees (single-precision).
+	*
+	* @param x - angle in radians
+	* @returns angle in degrees
+	*
+	* @example
+	* var d = ns.rad2degf( 3.141592653589793 / 2.0 );
+	* // returns 90.0
+	*
+	* @example
+	* var d = ns.rad2degf( -3.141592653589793 / 4.0 );
+	* // returns -45.0
+	*
+	* @example
+	* var d = ns.rad2degf( NaN );
+	* // returns NaN
+	*/
+	rad2degf: typeof rad2degf;
+
+	/**
 	* Evaluates the ramp function.
 	*
 	* ## Notes
@@ -5612,6 +6222,38 @@ interface Namespace {
 	* // returns NaN
 	*/
 	rcbrt: typeof rcbrt;
+
+	/**
+	* Computes the reciprocal cube root of a single-precision floating-point number.
+	*
+	* @param x - input value
+	* @returns reciprocal cube root of `x`
+	*
+	* @example
+	* var v = ns.rcbrtf( 8.0 );
+	* // returns 0.5
+	*
+	* @example
+	* var v = ns.rcbrtf( 1000.0 );
+	* // returns ~0.1
+	*
+	* @example
+	* var v = ns.rcbrtf( 0.0 );
+	* // returns Infinity
+	*
+	* @example
+	* var v = ns.rcbrtf( Infinity );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.rcbrtf( -8.0 );
+	* // returns -0.5
+	*
+	* @example
+	* var v = ns.rcbrtf( NaN );
+	* // returns NaN
+	*/
+	rcbrtf: typeof rcbrtf;
 
 	/**
 	* Computes `x - nπ/2 = r`.
@@ -5956,6 +6598,38 @@ interface Namespace {
 	* // returns NaN
 	*/
 	rsqrtf: typeof rsqrtf;
+
+	/**
+	* Computes the secant of an angle measured in degrees.
+	*
+	* @param x - input value (in degrees)
+	* @returns secant
+	*
+	* @example
+	* var v = ns.secd( 30 );
+	* // returns ~1.15
+	*
+	* @example
+	* var v = ns.secd( 45 );
+	* // returns ~1.41
+	*
+	* @example
+	* var v = ns.secd( 60 );
+	* // returns ~2.0
+	*
+	* @example
+	* var v = ns.secd( 90 );
+	* // returns 16331239353195370.0
+	*
+	* @example
+	* var v = ns.secd( 0 );
+	* // returns 1.0
+	*
+	* @example
+	* var v = ns.secd( NaN );
+	* // returns NaN
+	*/
+	secd: typeof secd;
 
 	/**
 	* Computes the sine and cosine integrals.
@@ -6384,6 +7058,30 @@ interface Namespace {
 	* // returns NaN
 	*/
 	tan: typeof tan;
+
+	/**
+	* Computes the tangent of an angle measured in degrees
+	*
+	* @param x - input value (in degrees)
+	* @returns tangent
+	*
+	* @example
+	* var v = ns.tand( 0.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.tand( 60.0 );
+	* // returns ~1.73
+	*
+	* @example
+	* var v = ns.tand( 90.0 );
+	* // returns Infinity
+	*
+	* @example
+	* var v = ns.tand( NaN );
+	* // returns NaN
+	*/
+	tand: typeof tand;
 
 	/**
 	* Computes the hyperbolic tangent of a double-precision floating-point number.
