@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var cabs = require( './../../../../base/special/cabs' );
-var Complex128 = require( '@stdlib/complex/float64' );
+var Complex128 = require( '@stdlib/complex/float64/ctor' );
 var cphase = require( './../../../../base/special/cphase' );
 var cpolar = require( './../lib/main.js' );
 

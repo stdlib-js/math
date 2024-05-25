@@ -19,7 +19,7 @@
 'use strict';
 
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var Complex128 = require( '@stdlib/complex/float64' );
+var Complex128 = require( '@stdlib/complex/float64/ctor' );
 var floor = require( './../../../../base/special/floor' );
 var croundn = require( './../lib' );
 

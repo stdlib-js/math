@@ -24,7 +24,7 @@ var tape = require( 'tape' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
 var EPS = require( '@stdlib/constants/float32/eps' );
 var abs = require( './../../../../base/special/abs' );
-var Complex64 = require( '@stdlib/complex/float32' );
+var Complex64 = require( '@stdlib/complex/float32/ctor' );
 var cabs2f = require( './../lib' );
 
 
