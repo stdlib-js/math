@@ -4352,6 +4352,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`95cd4ef`](https://github.com/stdlib-js/stdlib/commit/95cd4ef83e181ffbf50aeef1a6e44e14338d1261) - **docs:** update namespace TypeScript declarations [(#2312)](https://github.com/stdlib-js/stdlib/pull/2312) _(by stdlib-bot, Athan Reines)_
 -   [`e382574`](https://github.com/stdlib-js/stdlib/commit/e3825741e7ba30619c392ce88c5236d3b6454899) - **feat:** add C implementation for `math/base/special/spence` [(#2298)](https://github.com/stdlib-js/stdlib/pull/2298) _(by Gunj Joshi, Athan Reines, Philipp Burckhardt)_
 -   [`7acb708`](https://github.com/stdlib-js/stdlib/commit/7acb708696e5e8f7199fde4b9a20079cb60d41a5) - **style:** fix spacing and line breaks [(#2296)](https://github.com/stdlib-js/stdlib/pull/2296) _(by Gunj Joshi)_
 -   [`65619f9`](https://github.com/stdlib-js/stdlib/commit/65619f9450eaca20d834543f494d5f312e692810) - **refactor:** use signed integers for `math/base/special/log2` [(#2295)](https://github.com/stdlib-js/stdlib/pull/2295) _(by Gunj Joshi)_
