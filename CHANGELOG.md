@@ -3774,6 +3774,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-rempio2-unreleased">
+
+#### [@stdlib/math/base/special/rempio2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rempio2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - add C implementation for `math/base/special/rempio2`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-round-unreleased">
 
 #### [@stdlib/math/base/special/round](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round)
@@ -4352,6 +4374,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - **feat:** add C implementation for `math/base/special/rempio2` _(by Gunj Joshi, Philipp Burckhardt, Athan Reines)_
 -   [`1b5abe6`](https://github.com/stdlib-js/stdlib/commit/1b5abe6cb97ca371aeeae5ef5e39e9ef20898e52) - **chore:** update package meta data [(#2344)](https://github.com/stdlib-js/stdlib/pull/2344) _(by stdlib-bot, Athan Reines)_
 -   [`e612af5`](https://github.com/stdlib-js/stdlib/commit/e612af58d0e5374e3ed17f0278d2538aec9b37e1) - **docs:** update namespace table of contents [(#2314)](https://github.com/stdlib-js/stdlib/pull/2314) _(by stdlib-bot, Athan Reines)_
 -   [`95cd4ef`](https://github.com/stdlib-js/stdlib/commit/95cd4ef83e181ffbf50aeef1a6e44e14338d1261) - **docs:** update namespace TypeScript declarations [(#2312)](https://github.com/stdlib-js/stdlib/pull/2312) _(by stdlib-bot, Athan Reines)_
