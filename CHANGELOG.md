@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-07)
+## Unreleased (2024-06-09)
 
 <section class="packages">
 
@@ -4352,6 +4352,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1b5abe6`](https://github.com/stdlib-js/stdlib/commit/1b5abe6cb97ca371aeeae5ef5e39e9ef20898e52) - **chore:** update package meta data [(#2344)](https://github.com/stdlib-js/stdlib/pull/2344) _(by stdlib-bot, Athan Reines)_
 -   [`e612af5`](https://github.com/stdlib-js/stdlib/commit/e612af58d0e5374e3ed17f0278d2538aec9b37e1) - **docs:** update namespace table of contents [(#2314)](https://github.com/stdlib-js/stdlib/pull/2314) _(by stdlib-bot, Athan Reines)_
 -   [`95cd4ef`](https://github.com/stdlib-js/stdlib/commit/95cd4ef83e181ffbf50aeef1a6e44e14338d1261) - **docs:** update namespace TypeScript declarations [(#2312)](https://github.com/stdlib-js/stdlib/pull/2312) _(by stdlib-bot, Athan Reines)_
 -   [`e382574`](https://github.com/stdlib-js/stdlib/commit/e3825741e7ba30619c392ce88c5236d3b6454899) - **feat:** add C implementation for `math/base/special/spence` [(#2298)](https://github.com/stdlib-js/stdlib/pull/2298) _(by Gunj Joshi, Athan Reines, Philipp Burckhardt)_
