@@ -2011,6 +2011,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cos-unreleased">
+
+#### [@stdlib/math/base/special/cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`343da6f`](https://github.com/stdlib-js/stdlib/commit/343da6faa466294331be4befd603fde2faa83503) - add C implementation for `math/base/special/cos`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cosd-unreleased">
 
 #### [@stdlib/math/base/special/cosd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosd)
@@ -4442,6 +4464,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`343da6f`](https://github.com/stdlib-js/stdlib/commit/343da6faa466294331be4befd603fde2faa83503) - **feat:** add C implementation for `math/base/special/cos` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`a985cc2`](https://github.com/stdlib-js/stdlib/commit/a985cc224aa74759783c5c4d9577769a36ed818f) - **feat:** add `math/base/special/nanmin` _(by Ridam Garg, RidamGarg, stdlib-bot, Philipp Burckhardt)_
 -   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - **feat:** add C implementation for `math/base/special/sin` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b6edfd8`](https://github.com/stdlib-js/stdlib/commit/b6edfd8f1953792320b89f18ff4d059dceec3631) - **feat:** add `math/base/special/lnf` _(by Gunj Joshi, Philipp Burckhardt)_
