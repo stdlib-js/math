@@ -3674,6 +3674,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanmin-unreleased">
+
+#### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a985cc2`](https://github.com/stdlib-js/stdlib/commit/a985cc224aa74759783c5c4d9577769a36ed818f) - add `math/base/special/nanmin`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-negafibonacci-unreleased">
 
 #### [@stdlib/math/base/special/negafibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/negafibonacci)
@@ -4381,7 +4403,7 @@ A total of 28 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 26 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
@@ -4401,6 +4423,8 @@ A total of 24 people contributed to this release. Thank you to the following con
 -   Praneki
 -   Pushpendra Chandravanshi
 -   Rejoan Sardar
+-   Ridam Garg
+-   RidamGarg
 -   Rutam
 -   Sai Srikar Dumpeti
 -   Shashank Shekhar Singh
@@ -4418,6 +4442,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a985cc2`](https://github.com/stdlib-js/stdlib/commit/a985cc224aa74759783c5c4d9577769a36ed818f) - **feat:** add `math/base/special/nanmin` _(by Ridam Garg, RidamGarg, stdlib-bot, Philipp Burckhardt)_
 -   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - **feat:** add C implementation for `math/base/special/sin` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b6edfd8`](https://github.com/stdlib-js/stdlib/commit/b6edfd8f1953792320b89f18ff4d059dceec3631) - **feat:** add `math/base/special/lnf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - **feat:** add C implementation for `math/base/special/rempio2` _(by Gunj Joshi, Philipp Burckhardt, Athan Reines)_
