@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-09)
+## Unreleased (2024-06-10)
 
 <section class="packages">
 
@@ -3236,6 +3236,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-lnf-unreleased">
+
+#### [@stdlib/math/base/special/lnf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lnf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b6edfd8`](https://github.com/stdlib-js/stdlib/commit/b6edfd8f1953792320b89f18ff4d059dceec3631) - add `math/base/special/lnf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-log-unreleased">
 
 #### [@stdlib/math/base/special/log](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log)
@@ -4374,6 +4396,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b6edfd8`](https://github.com/stdlib-js/stdlib/commit/b6edfd8f1953792320b89f18ff4d059dceec3631) - **feat:** add `math/base/special/lnf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - **feat:** add C implementation for `math/base/special/rempio2` _(by Gunj Joshi, Philipp Burckhardt, Athan Reines)_
 -   [`1b5abe6`](https://github.com/stdlib-js/stdlib/commit/1b5abe6cb97ca371aeeae5ef5e39e9ef20898e52) - **chore:** update package meta data [(#2344)](https://github.com/stdlib-js/stdlib/pull/2344) _(by stdlib-bot, Athan Reines)_
 -   [`e612af5`](https://github.com/stdlib-js/stdlib/commit/e612af58d0e5374e3ed17f0278d2538aec9b37e1) - **docs:** update namespace table of contents [(#2314)](https://github.com/stdlib-js/stdlib/pull/2314) _(by stdlib-bot, Athan Reines)_
