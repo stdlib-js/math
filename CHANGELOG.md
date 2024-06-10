@@ -4464,6 +4464,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ced30b0`](https://github.com/stdlib-js/stdlib/commit/ced30b0e285117ad5bcdf6cc940329aadc826e21) - **refactor:** use constant packages and remove unused include [(#2355)](https://github.com/stdlib-js/stdlib/pull/2355) _(by Gunj Joshi)_
 -   [`343da6f`](https://github.com/stdlib-js/stdlib/commit/343da6faa466294331be4befd603fde2faa83503) - **feat:** add C implementation for `math/base/special/cos` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`a985cc2`](https://github.com/stdlib-js/stdlib/commit/a985cc224aa74759783c5c4d9577769a36ed818f) - **feat:** add `math/base/special/nanmin` _(by Ridam Garg, RidamGarg, stdlib-bot, Philipp Burckhardt)_
 -   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - **feat:** add C implementation for `math/base/special/sin` _(by Gunj Joshi, Philipp Burckhardt)_
