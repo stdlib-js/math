@@ -3894,6 +3894,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sin-unreleased">
+
+#### [@stdlib/math/base/special/sin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - add C implementation for `math/base/special/sin`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-sinh-unreleased">
 
 #### [@stdlib/math/base/special/sinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinh)
@@ -4396,6 +4418,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - **feat:** add C implementation for `math/base/special/sin` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b6edfd8`](https://github.com/stdlib-js/stdlib/commit/b6edfd8f1953792320b89f18ff4d059dceec3631) - **feat:** add `math/base/special/lnf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - **feat:** add C implementation for `math/base/special/rempio2` _(by Gunj Joshi, Philipp Burckhardt, Athan Reines)_
 -   [`1b5abe6`](https://github.com/stdlib-js/stdlib/commit/1b5abe6cb97ca371aeeae5ef5e39e9ef20898e52) - **chore:** update package meta data [(#2344)](https://github.com/stdlib-js/stdlib/pull/2344) _(by stdlib-bot, Athan Reines)_
