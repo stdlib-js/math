@@ -3696,6 +3696,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanmax-unreleased">
+
+#### [@stdlib/math/base/special/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bffee89`](https://github.com/stdlib-js/stdlib/commit/bffee891fd783eebc475e8ecefa035025df7f2dd) - add `math/base/special/nanmax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-nanmin-unreleased">
 
 #### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
@@ -4464,6 +4486,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bffee89`](https://github.com/stdlib-js/stdlib/commit/bffee891fd783eebc475e8ecefa035025df7f2dd) - **feat:** add `math/base/special/nanmax` _(by Ridam Garg, stdlib-bot, Philipp Burckhardt)_
 -   [`46ff6c1`](https://github.com/stdlib-js/stdlib/commit/46ff6c17fe80cb1a7e153ac1fc728d6dab2195cf) - **docs:** update description per conventions _(by Philipp Burckhardt)_
 -   [`29fbbb6`](https://github.com/stdlib-js/stdlib/commit/29fbbb62d94cb2af1d8856004b75c03daf942053) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`fb04f19`](https://github.com/stdlib-js/stdlib/commit/fb04f1968006f8bee36735f9b71d857f478bb6c1) - **refactor:** reduce test tolerance and fix casting [(#2356)](https://github.com/stdlib-js/stdlib/pull/2356) _(by Gunj Joshi)_
