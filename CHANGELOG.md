@@ -2143,6 +2143,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-coversin-unreleased">
+
+#### [@stdlib/math/base/special/coversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/coversin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - add C implementation for `math/base/special/coversin` [(##2361)](#2361)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cphase-unreleased">
 
 #### [@stdlib/math/base/special/cphase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cphase)
@@ -4496,6 +4518,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - **feat:** add C implementation for `math/base/special/coversin` [(##2361)](#2361) _(by Gunj Joshi)_
 -   [`34bc79c`](https://github.com/stdlib-js/stdlib/commit/34bc79cf154e0c82320c4a60c2cc805434a4b6e6) - **chore:** delete extra repl.txt file _(by Philipp Burckhardt)_
 -   [`a4dee7d`](https://github.com/stdlib-js/stdlib/commit/a4dee7d62df7875184dfc8fc3212afe086587353) - **fix:** move repl.txt file and address feedback _(by Philipp Burckhardt)_
 -   [`a7e5bb3`](https://github.com/stdlib-js/stdlib/commit/a7e5bb34eb13a2f774dd4e6840854266215b1264) - **chore:** update line endings _(by Philipp Burckhardt)_
