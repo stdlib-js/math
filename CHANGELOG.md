@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-10)
+## Unreleased (2024-06-12)
 
 <section class="packages">
 
@@ -4464,6 +4464,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`29fbbb6`](https://github.com/stdlib-js/stdlib/commit/29fbbb62d94cb2af1d8856004b75c03daf942053) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`fb04f19`](https://github.com/stdlib-js/stdlib/commit/fb04f1968006f8bee36735f9b71d857f478bb6c1) - **refactor:** reduce test tolerance and fix casting [(#2356)](https://github.com/stdlib-js/stdlib/pull/2356) _(by Gunj Joshi)_
 -   [`ced30b0`](https://github.com/stdlib-js/stdlib/commit/ced30b0e285117ad5bcdf6cc940329aadc826e21) - **refactor:** use constant packages and remove unused include [(#2355)](https://github.com/stdlib-js/stdlib/pull/2355) _(by Gunj Joshi)_
 -   [`343da6f`](https://github.com/stdlib-js/stdlib/commit/343da6faa466294331be4befd603fde2faa83503) - **feat:** add C implementation for `math/base/special/cos` _(by Gunj Joshi, Philipp Burckhardt)_
