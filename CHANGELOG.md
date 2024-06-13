@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-12)
+## Unreleased (2024-06-13)
 
 <section class="packages">
 
@@ -4518,6 +4518,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9df1610`](https://github.com/stdlib-js/stdlib/commit/9df16105aa2d89808d3395c610334ca9cce35b3c) - **docs:** remove long comment [(##2634)](#2634) _(by Gunj Joshi)_
 -   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - **feat:** add C implementation for `math/base/special/coversin` [(##2361)](#2361) _(by Gunj Joshi)_
 -   [`34bc79c`](https://github.com/stdlib-js/stdlib/commit/34bc79cf154e0c82320c4a60c2cc805434a4b6e6) - **chore:** delete extra repl.txt file _(by Philipp Burckhardt)_
 -   [`a4dee7d`](https://github.com/stdlib-js/stdlib/commit/a4dee7d62df7875184dfc8fc3212afe086587353) - **fix:** move repl.txt file and address feedback _(by Philipp Burckhardt)_
