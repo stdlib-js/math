@@ -4529,6 +4529,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(##2371)](#2371 ) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - **feat:** add C implementation for `math/base/special/csc` [(##2367)](#2367 ) _(by Gunj Joshi)_
 -   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - **fix:** use significand mask in `math/base/special/rempio2` [(##2366)](#2366) _(by Gunj Joshi)_
 -   [`9df1610`](https://github.com/stdlib-js/stdlib/commit/9df16105aa2d89808d3395c610334ca9cce35b3c) - **docs:** remove long comment [(##2634)](#2634) _(by Gunj Joshi)_
