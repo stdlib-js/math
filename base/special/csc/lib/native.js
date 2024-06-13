@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sin = require('./../../../../base/special/sin');
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -28,6 +28,7 @@ var sin = require('./../../../../base/special/sin');
 /**
 * Evaluates the cosecant of a number.
 *
+* @private
 * @param {number} x - input value (in radians)
 * @returns {number} cosecant
 *
@@ -36,15 +37,15 @@ var sin = require('./../../../../base/special/sin');
 * // returns Infinity
 *
 * @example
-* var v = csc( 3.141592653589793/2.0 );
+* var v = csc( 3.141592653589793 / 2.0 );
 * // returns 1.0
 *
 * @example
-* var v = csc( -3.141592653589793/6.0 );
+* var v = csc( -3.141592653589793 / 6.0 );
 * // returns ~-2.0
 *
 * @example
-* var v = csc( 3.141592653589793/6.0 );
+* var v = csc( 3.141592653589793 / 6.0 );
 * // returns ~2.0
 *
 * @example
@@ -52,7 +53,7 @@ var sin = require('./../../../../base/special/sin');
 * // returns NaN
 */
 function csc( x ) {
-	return 1.0 / sin(x);
+	return addon( x );
 }
 
 

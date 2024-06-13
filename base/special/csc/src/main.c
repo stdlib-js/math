@@ -16,46 +16,19 @@
 * limitations under the License.
 */
 
-'use strict';
-
-// MODULES //
-
-var sin = require('./../../../../base/special/sin');
-
-
-// MAIN //
+#include "stdlib/math/base/special/csc.h"
+#include "stdlib/math/base/special/sin.h"
 
 /**
 * Evaluates the cosecant of a number.
 *
-* @param {number} x - input value (in radians)
-* @returns {number} cosecant
+* @param x    input value (in radians)
+* @return     cosecant
 *
 * @example
-* var v = csc( 0.0 );
-* // returns Infinity
-*
-* @example
-* var v = csc( 3.141592653589793/2.0 );
+* double y = stdlib_base_cos( 3.141592653589793 / 2.0 );
 * // returns 1.0
-*
-* @example
-* var v = csc( -3.141592653589793/6.0 );
-* // returns ~-2.0
-*
-* @example
-* var v = csc( 3.141592653589793/6.0 );
-* // returns ~2.0
-*
-* @example
-* var v = csc( NaN );
-* // returns NaN
 */
-function csc( x ) {
-	return 1.0 / sin(x);
+double stdlib_base_csc( const double x ) {
+	return 1.0 / stdlib_base_sin( x );
 }
-
-
-// EXPORTS //
-
-module.exports = csc;

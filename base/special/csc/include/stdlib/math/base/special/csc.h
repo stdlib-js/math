@@ -16,46 +16,26 @@
 * limitations under the License.
 */
 
-'use strict';
+/**
+* Header file containing function declarations.
+*/
+#ifndef STDLIB_MATH_BASE_SPECIAL_CSC_H
+#define STDLIB_MATH_BASE_SPECIAL_CSC_H
 
-// MODULES //
-
-var sin = require('./../../../../base/special/sin');
-
-
-// MAIN //
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
 * Evaluates the cosecant of a number.
-*
-* @param {number} x - input value (in radians)
-* @returns {number} cosecant
-*
-* @example
-* var v = csc( 0.0 );
-* // returns Infinity
-*
-* @example
-* var v = csc( 3.141592653589793/2.0 );
-* // returns 1.0
-*
-* @example
-* var v = csc( -3.141592653589793/6.0 );
-* // returns ~-2.0
-*
-* @example
-* var v = csc( 3.141592653589793/6.0 );
-* // returns ~2.0
-*
-* @example
-* var v = csc( NaN );
-* // returns NaN
 */
-function csc( x ) {
-	return 1.0 / sin(x);
+double stdlib_base_csc( const double x );
+
+#ifdef __cplusplus
 }
+#endif
 
-
-// EXPORTS //
-
-module.exports = csc;
+#endif // !STDLIB_MATH_BASE_SPECIAL_CSC_H
