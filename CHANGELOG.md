@@ -4512,7 +4512,7 @@ A total of 28 issues were closed in this release:
 
 ### Contributors
 
-A total of 26 people contributed to this release. Thank you to the following contributors:
+A total of 27 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
@@ -4525,6 +4525,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 -   Gunj Joshi
 -   Lovelin
 -   Mihir Pandit
+-   Philipp Burckhardt
 -   Philipp Burckhardt
 -   Pranav
 -   Pranav Goswami
@@ -4551,6 +4552,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c1ef722`](https://github.com/stdlib-js/stdlib/commit/c1ef722991b1743b02c897332d0e2b3005a97494) - **docs:** update return annotation value [(##2370)](#2370) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`6199f14`](https://github.com/stdlib-js/stdlib/commit/6199f14235f3aff23b57504bd62923ebf45555e0) - **feat:** add C implementation for `math/base/special/tan` _(by Gunj Joshi)_
 -   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(##2371)](#2371 ) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - **feat:** add C implementation for `math/base/special/csc` [(##2367)](#2367 ) _(by Gunj Joshi)_
