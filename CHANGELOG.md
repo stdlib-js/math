@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-13)
+## Unreleased (2024-06-14)
 
 <section class="packages">
 
@@ -4125,6 +4125,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-tan-unreleased">
+
+#### [@stdlib/math/base/special/tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tan)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6199f14`](https://github.com/stdlib-js/stdlib/commit/6199f14235f3aff23b57504bd62923ebf45555e0) - add C implementation for `math/base/special/tan`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-tand-unreleased">
 
 #### [@stdlib/math/base/special/tand](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tand)
@@ -4529,6 +4551,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6199f14`](https://github.com/stdlib-js/stdlib/commit/6199f14235f3aff23b57504bd62923ebf45555e0) - **feat:** add C implementation for `math/base/special/tan` _(by Gunj Joshi)_
 -   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(##2371)](#2371 ) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - **feat:** add C implementation for `math/base/special/csc` [(##2367)](#2367 ) _(by Gunj Joshi)_
 -   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - **fix:** use significand mask in `math/base/special/rempio2` [(##2366)](#2366) _(by Gunj Joshi)_
