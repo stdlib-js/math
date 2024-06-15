@@ -2308,6 +2308,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - add C implementation for `math/base/special/cscd` [(##2378)](#2378)
 -   [`bb6ac7e`](https://github.com/stdlib-js/stdlib/commit/bb6ac7ec68ee6a78cffd9527e477a2bc0fdcdf17) - add `math/base/special/cscd`
 
 </section>
@@ -4574,6 +4575,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - **feat:** add C implementation for `math/base/special/cscd` [(##2378)](#2378) _(by Gunj Joshi)_
 -   [`8304a04`](https://github.com/stdlib-js/stdlib/commit/8304a041c10450a797c64c2fffafc6b0e4bd1a04) - **feat:** add C implementation for `math/base/special/cot` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`4c95c5a`](https://github.com/stdlib-js/stdlib/commit/4c95c5ac1cc58e3ed3db0b13a653ad7680a0393a) - **docs:** use descriptive variable names [(##2373)](#2373) _(by Gunj Joshi)_
 -   [`c1ef722`](https://github.com/stdlib-js/stdlib/commit/c1ef722991b1743b02c897332d0e2b3005a97494) - **docs:** update return annotation value [(##2370)](#2370) _(by stdlib-bot, Philipp Burckhardt)_
