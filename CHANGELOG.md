@@ -560,6 +560,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`53cf211`](https://github.com/stdlib-js/stdlib/commit/53cf211f341dc87077710b30ac41a0938e83b773) - use correct assignment and adjust test tolerances
 -   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - update include paths
 
 </section>
@@ -4598,6 +4599,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`53cf211`](https://github.com/stdlib-js/stdlib/commit/53cf211f341dc87077710b30ac41a0938e83b773) - **fix:** use correct assignment and adjust test tolerances _(by Athan Reines)_
 -   [`11c882d`](https://github.com/stdlib-js/stdlib/commit/11c882dcc261abe6a898a3061b45af7f0d4a41cd) - **chore:** update package meta data [(##2379)](#2379) _(by stdlib-bot, Athan Reines)_
 -   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - **feat:** add C implementation for `math/base/special/covercos` [(##2377)](#2377) _(by Gunj Joshi)_
 -   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - **feat:** add C implementation for `math/base/special/cscd` [(##2378)](#2378) _(by Gunj Joshi)_
@@ -4637,6 +4639,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 -   [`1bc3682`](https://github.com/stdlib-js/stdlib/commit/1bc36829f1d4a1508acd17f0ffcdc31167a30f20) - **feat:** add C implementation for `math/base/special/negafibonacci` _(by Gunj Joshi, Pranav Goswami, Philipp Burckhardt)_
 -   [`1ba660a`](https://github.com/stdlib-js/stdlib/commit/1ba660abde970312ef52b49b3bf0cf3af4200f3d) - **feat:** add C implementation for `math/base/special/fibonacci-index` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`3a3b1e0`](https://github.com/stdlib-js/stdlib/commit/3a3b1e08f73a54c5ee46d73045805aee0bb1196d) - **docs:** update package URLs [(##2269)](#2269) _(by stdlib-bot)_
+-   [`44aa02f`](https://github.com/stdlib-js/stdlib/commit/44aa02fd4339364a4717ccfac6fc7c1b1ce616bc) - **refactor:** ensure variables are static _(by Athan Reines)_
 -   [`8089b88`](https://github.com/stdlib-js/stdlib/commit/8089b886a4d7d89f15abb068b1021d93f9c4f64e) - **docs:** update paths _(by Athan Reines)_
 -   [`038b199`](https://github.com/stdlib-js/stdlib/commit/038b199c32842c02cf678e3ae8305a17aacda05e) - **docs:** update paths _(by Athan Reines)_
 -   [`e7ebe20`](https://github.com/stdlib-js/stdlib/commit/e7ebe201dea1be826f89b997538638b07f26a960) - **fix:** update implementation to use correct constants _(by Athan Reines)_
