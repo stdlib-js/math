@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-15)
+## Unreleased (2024-06-16)
 
 <section class="packages">
 
@@ -4557,10 +4557,11 @@ A total of 28 issues were closed in this release:
 
 ### Contributors
 
-A total of 27 people contributed to this release. Thank you to the following contributors:
+A total of 28 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
+-   Athan Reines
 -   Athan Reines
 -   Athan Reines
 -   Athan Reines
@@ -4597,6 +4598,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`11c882d`](https://github.com/stdlib-js/stdlib/commit/11c882dcc261abe6a898a3061b45af7f0d4a41cd) - **chore:** update package meta data [(##2379)](#2379) _(by stdlib-bot, Athan Reines)_
 -   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - **feat:** add C implementation for `math/base/special/covercos` [(##2377)](#2377) _(by Gunj Joshi)_
 -   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - **feat:** add C implementation for `math/base/special/cscd` [(##2378)](#2378) _(by Gunj Joshi)_
 -   [`8304a04`](https://github.com/stdlib-js/stdlib/commit/8304a041c10450a797c64c2fffafc6b0e4bd1a04) - **feat:** add C implementation for `math/base/special/cot` _(by Gunj Joshi, Philipp Burckhardt)_
