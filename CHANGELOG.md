@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-16)
+## Unreleased (2024-06-17)
 
 <section class="packages">
 
@@ -3173,6 +3173,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-hacovercos-unreleased">
+
+#### [@stdlib/math/base/special/hacovercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hacovercos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - add C implementation for `math/base/special/hacovercos` [(##2388)](#2388)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-kernel-cos-unreleased">
 
 #### [@stdlib/math/base/special/kernel-cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-cos)
@@ -4599,6 +4621,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - **feat:** add C implementation for `math/base/special/hacovercos` [(##2388)](#2388) _(by Gunj Joshi)_
 -   [`53cf211`](https://github.com/stdlib-js/stdlib/commit/53cf211f341dc87077710b30ac41a0938e83b773) - **fix:** use correct assignment and adjust test tolerances _(by Athan Reines)_
 -   [`11c882d`](https://github.com/stdlib-js/stdlib/commit/11c882dcc261abe6a898a3061b45af7f0d4a41cd) - **chore:** update package meta data [(##2379)](#2379) _(by stdlib-bot, Athan Reines)_
 -   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - **feat:** add C implementation for `math/base/special/covercos` [(##2377)](#2377) _(by Gunj Joshi)_
