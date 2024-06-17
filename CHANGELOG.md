@@ -2044,6 +2044,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - add C implementation for `math/base/special/cosd` [(##2393)](#2393)
 -   [`0b0e240`](https://github.com/stdlib-js/stdlib/commit/0b0e240f6959ac1dae3bc00fe42b9930eb887e93) - add `math/base/special/cosd`
 
 </section>
@@ -4643,6 +4644,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - **feat:** add C implementation for `math/base/special/cosd` [(##2393)](#2393) _(by Gunj Joshi)_
 -   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - **feat:** add C implementation for `math/base/special/hacoversin` [(##2387)](#2387) _(by Gunj Joshi)_
 -   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - **feat:** add C implementation for `math/base/special/hacovercos` [(##2388)](#2388) _(by Gunj Joshi)_
 -   [`53cf211`](https://github.com/stdlib-js/stdlib/commit/53cf211f341dc87077710b30ac41a0938e83b773) - **fix:** use correct assignment and adjust test tolerances _(by Athan Reines)_
