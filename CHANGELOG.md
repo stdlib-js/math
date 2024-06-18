@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-17)
+## Unreleased (2024-06-18)
 
 <section class="packages">
 
@@ -4282,6 +4282,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-versin-unreleased">
+
+#### [@stdlib/math/base/special/versin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/versin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - add C implementation for `math/base/special/versin` [(##2398)](#2398 )
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-wrap-unreleased">
 
 #### [@stdlib/math/base/special/wrap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/wrap)
@@ -4644,6 +4666,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - **feat:** add C implementation for `math/base/special/versin` [(##2398)](#2398 ) _(by Gunj Joshi)_
 -   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - **feat:** add C implementation for `math/base/special/cosd` [(##2393)](#2393) _(by Gunj Joshi)_
 -   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - **feat:** add C implementation for `math/base/special/hacoversin` [(##2387)](#2387) _(by Gunj Joshi)_
 -   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - **feat:** add C implementation for `math/base/special/hacovercos` [(##2388)](#2388) _(by Gunj Joshi)_
