@@ -26,6 +26,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - update function name to match examples
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4711,6 +4721,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - **fix:** update function name to match examples _(by Philipp Burckhardt)_
 -   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(##2406)](#2406) _(by Gunj Joshi)_
 -   [`a8ce905`](https://github.com/stdlib-js/stdlib/commit/a8ce905a5ab79798b2dea0a97aef3bdaa65bb0c5) - **feat:** add C implementation for  `math/base/assert/int32-is-even` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`a4b2764`](https://github.com/stdlib-js/stdlib/commit/a4b276428bdc454a9412550375813f92bd242540) - **feat:** add C implementation for `math/base/special/vercos` [(##2397)](#2397 ) _(by Gunj Joshi)_
