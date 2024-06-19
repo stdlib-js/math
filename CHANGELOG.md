@@ -3940,6 +3940,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-pow-unreleased">
+
+#### [@stdlib/math/base/special/pow](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/pow)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - add C implementation for `math/base/special/pow`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-rad2deg-unreleased">
 
 #### [@stdlib/math/base/special/rad2deg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rad2deg)
@@ -4680,10 +4702,11 @@ A total of 28 issues were closed in this release:
 
 ### Contributors
 
-A total of 28 people contributed to this release. Thank you to the following contributors:
+A total of 29 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
+-   Athan
 -   Athan Reines
 -   Athan Reines
 -   Athan Reines
@@ -4721,6 +4744,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - **feat:** add C implementation for `math/base/special/pow` _(by Aman Bhansali, Athan, Philipp Burckhardt)_
 -   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - **fix:** update function name to match examples _(by Philipp Burckhardt)_
 -   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(##2406)](#2406) _(by Gunj Joshi)_
 -   [`a8ce905`](https://github.com/stdlib-js/stdlib/commit/a8ce905a5ab79798b2dea0a97aef3bdaa65bb0c5) - **feat:** add C implementation for  `math/base/assert/int32-is-even` _(by Rejoan Sardar, Philipp Burckhardt)_
