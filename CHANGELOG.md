@@ -2588,6 +2588,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-erfinv-unreleased">
+
+#### [@stdlib/math/base/special/erfinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfinv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7ddca8e`](https://github.com/stdlib-js/stdlib/commit/7ddca8e7270b9d325d8047524a62381fb56dfc5e) - add C implementation for `math/base/special/erfinv`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-exp-unreleased">
 
 #### [@stdlib/math/base/special/exp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/exp)
@@ -4744,6 +4766,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7ddca8e`](https://github.com/stdlib-js/stdlib/commit/7ddca8e7270b9d325d8047524a62381fb56dfc5e) - **feat:** add C implementation for `math/base/special/erfinv` _(by Pranav Goswami, Philipp Burckhardt)_
 -   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - **feat:** add C implementation for `math/base/special/pow` _(by Aman Bhansali, Athan, Philipp Burckhardt)_
 -   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - **fix:** update function name to match examples _(by Philipp Burckhardt)_
 -   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(##2406)](#2406) _(by Gunj Joshi)_
