@@ -3272,6 +3272,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-havercos-unreleased">
+
+#### [@stdlib/math/base/special/havercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/havercos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - add C implementation for `math/base/special/havercos` [(##2410)](#2410 )
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-kernel-cos-unreleased">
 
 #### [@stdlib/math/base/special/kernel-cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-cos)
@@ -4767,6 +4789,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - **feat:** add C implementation for `math/base/special/havercos` [(##2410)](#2410 ) _(by Gunj Joshi)_
 -   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - **feat:** add C implementation for `math/base/special/tand` [(##2411)](#2411 ) _(by Gunj Joshi)_
 -   [`7ddca8e`](https://github.com/stdlib-js/stdlib/commit/7ddca8e7270b9d325d8047524a62381fb56dfc5e) - **feat:** add C implementation for `math/base/special/erfinv` _(by Pranav Goswami, Philipp Burckhardt)_
 -   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - **feat:** add C implementation for `math/base/special/pow` _(by Aman Bhansali, Athan, Philipp Burckhardt)_
