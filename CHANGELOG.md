@@ -3294,6 +3294,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-haversin-unreleased">
+
+#### [@stdlib/math/base/special/haversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/haversin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - add C implementation for `math/base/special/haversin` [(##2408)](#2408)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-kernel-cos-unreleased">
 
 #### [@stdlib/math/base/special/kernel-cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-cos)
@@ -4789,6 +4811,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - **feat:** add C implementation for `math/base/special/haversin` [(##2408)](#2408) _(by Gunj Joshi)_
 -   [`1ea46e9`](https://github.com/stdlib-js/stdlib/commit/1ea46e990236941d977d6dc872ba0475eab366e8) - **docs:** use correct function name in example in `math/base/special/hacoversin` [(##2409)](#2409 ) _(by Gunj Joshi)_
 -   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - **feat:** add C implementation for `math/base/special/havercos` [(##2410)](#2410 ) _(by Gunj Joshi)_
 -   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - **feat:** add C implementation for `math/base/special/tand` [(##2411)](#2411 ) _(by Gunj Joshi)_
