@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-19)
+## Unreleased (2024-06-20)
 
 <section class="packages">
 
@@ -4325,6 +4325,7 @@ A total of 2 issues were closed in this release:
 
 ##### Features
 
+-   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - add C implementation for `math/base/special/tand` [(##2411)](#2411 )
 -   [`025c2c1`](https://github.com/stdlib-js/stdlib/commit/025c2c164f6d51a2192399d0c237d78a139ff772) - add `math/base/special/tand`
 
 </section>
@@ -4766,6 +4767,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - **feat:** add C implementation for `math/base/special/tand` [(##2411)](#2411 ) _(by Gunj Joshi)_
 -   [`7ddca8e`](https://github.com/stdlib-js/stdlib/commit/7ddca8e7270b9d325d8047524a62381fb56dfc5e) - **feat:** add C implementation for `math/base/special/erfinv` _(by Pranav Goswami, Philipp Burckhardt)_
 -   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - **feat:** add C implementation for `math/base/special/pow` _(by Aman Bhansali, Athan, Philipp Burckhardt)_
 -   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - **fix:** update function name to match examples _(by Philipp Burckhardt)_
