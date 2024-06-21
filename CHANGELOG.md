@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-20)
+## Unreleased (2024-06-21)
 
 <section class="packages">
 
@@ -4811,6 +4811,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c88dbaa`](https://github.com/stdlib-js/stdlib/commit/c88dbaaf68dd67dc5bdd7bb71ef9ed4ad01ef42a) - **test:** add missing tests for `math/base/special/tand` [(#2417)](https://github.com/stdlib-js/stdlib/pull/2417) _(by Gunj Joshi)_
 -   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - **feat:** add C implementation for `math/base/special/haversin` [(##2408)](#2408) _(by Gunj Joshi)_
 -   [`1ea46e9`](https://github.com/stdlib-js/stdlib/commit/1ea46e990236941d977d6dc872ba0475eab366e8) - **docs:** use correct function name in example in `math/base/special/hacoversin` [(##2409)](#2409 ) _(by Gunj Joshi)_
 -   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - **feat:** add C implementation for `math/base/special/havercos` [(##2410)](#2410 ) _(by Gunj Joshi)_
