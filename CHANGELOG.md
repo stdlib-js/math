@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-21)
+## Unreleased (2024-06-23)
 
 <section class="packages">
 
@@ -4811,6 +4811,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e26363d`](https://github.com/stdlib-js/stdlib/commit/e26363d5a9df20243c6be186bbf63017517c5839) - **chore:** update package meta data [(#2439)](https://github.com/stdlib-js/stdlib/pull/2439) _(by stdlib-bot, Athan Reines)_
 -   [`377403b`](https://github.com/stdlib-js/stdlib/commit/377403b1ecb696a54e038b8750efd09481fe3ba0) - **test:** add missing tests for `math/base/special/cosd` [(#2418)](https://github.com/stdlib-js/stdlib/pull/2418) _(by Gunj Joshi)_
 -   [`c88dbaa`](https://github.com/stdlib-js/stdlib/commit/c88dbaaf68dd67dc5bdd7bb71ef9ed4ad01ef42a) - **test:** add missing tests for `math/base/special/tand` [(#2417)](https://github.com/stdlib-js/stdlib/pull/2417) _(by Gunj Joshi)_
 -   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - **feat:** add C implementation for `math/base/special/haversin` [(##2408)](#2408) _(by Gunj Joshi)_
