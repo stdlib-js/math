@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-23)
+## Unreleased (2024-06-24)
 
 <section class="packages">
 
@@ -4404,6 +4404,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-trunc2-unreleased">
+
+#### [@stdlib/math/base/special/trunc2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trunc2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - add C implementation for `math/base/special/trunc2` [(##2436)](#2436)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-vercos-unreleased">
 
 #### [@stdlib/math/base/special/vercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/vercos)
@@ -4811,6 +4833,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - **feat:** add C implementation for `math/base/special/trunc2` [(##2436)](#2436) _(by Gunj Joshi)_
 -   [`e26363d`](https://github.com/stdlib-js/stdlib/commit/e26363d5a9df20243c6be186bbf63017517c5839) - **chore:** update package meta data [(#2439)](https://github.com/stdlib-js/stdlib/pull/2439) _(by stdlib-bot, Athan Reines)_
 -   [`377403b`](https://github.com/stdlib-js/stdlib/commit/377403b1ecb696a54e038b8750efd09481fe3ba0) - **test:** add missing tests for `math/base/special/cosd` [(#2418)](https://github.com/stdlib-js/stdlib/pull/2418) _(by Gunj Joshi)_
 -   [`c88dbaa`](https://github.com/stdlib-js/stdlib/commit/c88dbaaf68dd67dc5bdd7bb71ef9ed4ad01ef42a) - **test:** add missing tests for `math/base/special/tand` [(#2417)](https://github.com/stdlib-js/stdlib/pull/2417) _(by Gunj Joshi)_
