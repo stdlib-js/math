@@ -2143,6 +2143,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - add C implementation for `math/base/special/cotd` [(##2443)](#2443)
 -   [`c5e01bf`](https://github.com/stdlib-js/stdlib/commit/c5e01bf5b7718ded999fa1f4841407ed27bfdfc1) - add `math/base/special/cotd`
 
 </section>
@@ -4833,6 +4834,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - **feat:** add C implementation for `math/base/special/cotd` [(##2443)](#2443) _(by Gunj Joshi)_
 -   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - **feat:** add C implementation for `math/base/special/trunc2` [(##2436)](#2436) _(by Gunj Joshi)_
 -   [`e26363d`](https://github.com/stdlib-js/stdlib/commit/e26363d5a9df20243c6be186bbf63017517c5839) - **chore:** update package meta data [(#2439)](https://github.com/stdlib-js/stdlib/pull/2439) _(by stdlib-bot, Athan Reines)_
 -   [`377403b`](https://github.com/stdlib-js/stdlib/commit/377403b1ecb696a54e038b8750efd09481fe3ba0) - **test:** add missing tests for `math/base/special/cosd` [(#2418)](https://github.com/stdlib-js/stdlib/pull/2418) _(by Gunj Joshi)_
