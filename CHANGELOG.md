@@ -4834,6 +4834,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9e56edf`](https://github.com/stdlib-js/stdlib/commit/9e56edf06218960bb5a3b1c22a5a2198f2dc0cb9) - **chore:** minor clean-up of `math/base/special/acsc` _(by Pranav Goswami, Athan Reines, Philipp Burckhardt)_
 -   [`50d806d`](https://github.com/stdlib-js/stdlib/commit/50d806dd22dd25a6f6f2900bb5a8ccc0ed7ef232) - **test:** add missing test for `math/base/special/cotd` [(#2449)](https://github.com/stdlib-js/stdlib/pull/2449) _(by Gunj Joshi)_
 -   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - **feat:** add C implementation for `math/base/special/cotd` [(##2443)](#2443) _(by Gunj Joshi)_
 -   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - **feat:** add C implementation for `math/base/special/trunc2` [(##2436)](#2436) _(by Gunj Joshi)_
