@@ -4878,6 +4878,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2789eff`](https://github.com/stdlib-js/stdlib/commit/2789eff674a6832e11cb4ec0f8f4090bf05554b2) - **docs:** fix function name in README example [(#2506)](https://github.com/stdlib-js/stdlib/pull/2506) _(by Gunj Joshi)_
 -   [`82c8ae0`](https://github.com/stdlib-js/stdlib/commit/82c8ae03edea7886ce0f67ca6e1c2a3028ef8fd9) - **feat:** add C implementation for `math/base/special/floor2` _(by Gunj Joshi)_
 -   [`2f62c39`](https://github.com/stdlib-js/stdlib/commit/2f62c39e03c5445f3cc3b91226453c2eed366013) - **chore:** update package meta data [(##2481)](#2481) _(by stdlib-bot)_
 -   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - **feat:** add C implementation for `math/base/special/trunc10` [(##2451)](#2451) _(by Gunj Joshi)_
