@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-30)
+## Unreleased (2024-07-04)
 
 <section class="packages">
 
@@ -3095,6 +3095,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-floor2-unreleased">
+
+#### [@stdlib/math/base/special/floor2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floor2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`82c8ae0`](https://github.com/stdlib-js/stdlib/commit/82c8ae03edea7886ce0f67ca6e1c2a3028ef8fd9) - add C implementation for `math/base/special/floor2`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-frexp-unreleased">
 
 #### [@stdlib/math/base/special/frexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/frexp)
@@ -4856,6 +4878,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`82c8ae0`](https://github.com/stdlib-js/stdlib/commit/82c8ae03edea7886ce0f67ca6e1c2a3028ef8fd9) - **feat:** add C implementation for `math/base/special/floor2` _(by Gunj Joshi)_
 -   [`2f62c39`](https://github.com/stdlib-js/stdlib/commit/2f62c39e03c5445f3cc3b91226453c2eed366013) - **chore:** update package meta data [(##2481)](#2481) _(by stdlib-bot)_
 -   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - **feat:** add C implementation for `math/base/special/trunc10` [(##2451)](#2451) _(by Gunj Joshi)_
 -   [`9e56edf`](https://github.com/stdlib-js/stdlib/commit/9e56edf06218960bb5a3b1c22a5a2198f2dc0cb9) - **chore:** minor clean-up of `math/base/special/acsc` _(by Pranav Goswami, Athan Reines, Philipp Burckhardt)_
