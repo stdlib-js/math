@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-04)
+## Unreleased (2024-07-05)
 
 <section class="packages">
 
@@ -4878,6 +4878,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`457662c`](https://github.com/stdlib-js/stdlib/commit/457662c8e8bcd3ff74edc7d820d882119b40cfbe) - **style:** add linebreak _(by Athan Reines)_
 -   [`2789eff`](https://github.com/stdlib-js/stdlib/commit/2789eff674a6832e11cb4ec0f8f4090bf05554b2) - **docs:** fix function name in README example [(#2506)](https://github.com/stdlib-js/stdlib/pull/2506) _(by Gunj Joshi)_
 -   [`82c8ae0`](https://github.com/stdlib-js/stdlib/commit/82c8ae03edea7886ce0f67ca6e1c2a3028ef8fd9) - **feat:** add C implementation for `math/base/special/floor2` _(by Gunj Joshi)_
 -   [`2f62c39`](https://github.com/stdlib-js/stdlib/commit/2f62c39e03c5445f3cc3b91226453c2eed366013) - **chore:** update package meta data [(##2481)](#2481) _(by stdlib-bot)_
