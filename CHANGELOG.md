@@ -1714,6 +1714,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-beta-unreleased">
+
+#### [@stdlib/math/base/special/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/beta)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - add C implementation for `math/base/special/beta`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-boxcox-unreleased">
 
 #### [@stdlib/math/base/special/boxcox](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/boxcox)
@@ -4878,6 +4900,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - **feat:** add C implementation for `math/base/special/beta` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`39ecc03`](https://github.com/stdlib-js/stdlib/commit/39ecc037f60bef2fa539739fa3ad4556b09f3918) - **chore:** update package meta data [(#2530)](https://github.com/stdlib-js/stdlib/pull/2530) _(by stdlib-bot, Athan Reines)_
 -   [`457662c`](https://github.com/stdlib-js/stdlib/commit/457662c8e8bcd3ff74edc7d820d882119b40cfbe) - **style:** add linebreak _(by Athan Reines)_
 -   [`2789eff`](https://github.com/stdlib-js/stdlib/commit/2789eff674a6832e11cb4ec0f8f4090bf05554b2) - **docs:** fix function name in README example [(#2506)](https://github.com/stdlib-js/stdlib/pull/2506) _(by Gunj Joshi)_
