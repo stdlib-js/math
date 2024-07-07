@@ -53,8 +53,8 @@ var acot = require( './../../../../base/special/acot' );
 * // returns NaN
 */
 function acotd( x ) {
-	var rad = acot(x);
-	return rad2deg(rad);
+	var rad = acot( x );
+	return rad2deg( rad );
 }
 
 

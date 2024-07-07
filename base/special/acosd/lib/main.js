@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var rad2deg = require('./../../../../base/special/rad2deg');
-var acos = require('./../../../../base/special/acos');
+var rad2deg = require( './../../../../base/special/rad2deg' );
+var acos = require( './../../../../base/special/acos' );
 
 
 // MAIN //

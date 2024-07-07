@@ -23,9 +23,9 @@
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var isnan = require( './../../../../base/assert/is-nan' );
-var abs = require('./../../../../base/special/abs');
+var abs = require( './../../../../base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var randu = require('@stdlib/random/base/randu');
+var randu = require( '@stdlib/random/base/randu' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 

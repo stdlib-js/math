@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var Complex128 = require('@stdlib/complex/float64/ctor');
+var Complex128 = require( '@stdlib/complex/float64/ctor' );
 var copysign = require( './../../../../base/special/copysign' );
 var sincos = require( './../../../../base/special/sincos' );
 var isnan = require( './../../../../base/assert/is-nan' );

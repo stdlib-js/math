@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var min = require( './../../../../base/special/min');
-var isnan = require( './../../../../base/assert/is-nan');
+var min = require( './../../../../base/special/min' );
+var isnan = require( './../../../../base/assert/is-nan' );
 
 
 // MAIN //
@@ -42,7 +42,7 @@ var isnan = require( './../../../../base/assert/is-nan');
 * // returns 4.14
 *
 * @example
-* var v = nanmin( NaN, NaN);
+* var v = nanmin( NaN, NaN );
 * // returns NaN
 */
 function nanmin( x, y ) {

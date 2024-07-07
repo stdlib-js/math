@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var max = require( './../../../../base/special/max');
-var isnan = require( './../../../../base/assert/is-nan');
+var max = require( './../../../../base/special/max' );
+var isnan = require( './../../../../base/assert/is-nan' );
 
 
 // MAIN //
@@ -42,7 +42,7 @@ var isnan = require( './../../../../base/assert/is-nan');
 * // returns 4.14
 *
 * @example
-* var v = nanmax( NaN, NaN);
+* var v = nanmax( NaN, NaN );
 * // returns NaN
 */
 function nanmax( x, y ) {

@@ -4900,6 +4900,8 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - **feat:** add C implementation for `math/base/special/beta` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`39ecc03`](https://github.com/stdlib-js/stdlib/commit/39ecc037f60bef2fa539739fa3ad4556b09f3918) - **chore:** update package meta data [(#2530)](https://github.com/stdlib-js/stdlib/pull/2530) _(by stdlib-bot, Athan Reines)_
 -   [`457662c`](https://github.com/stdlib-js/stdlib/commit/457662c8e8bcd3ff74edc7d820d882119b40cfbe) - **style:** add linebreak _(by Athan Reines)_
