@@ -4215,6 +4215,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-round2-unreleased">
+
+#### [@stdlib/math/base/special/round2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - add C implementation for `math/base/special/round2` [(##2537)](#2537)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-roundn-unreleased">
 
 #### [@stdlib/math/base/special/roundn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundn)
@@ -4900,6 +4922,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - **feat:** add C implementation for `math/base/special/round2` [(##2537)](#2537) _(by Gunj Joshi)_
 -   [`62e703a`](https://github.com/stdlib-js/stdlib/commit/62e703a5eb7df95a40b3592366da89c5ff42a1b1) - **docs:** add missing `@private` in `math/base/special/round/lib/native.js` [(##2536)](#2536) _(by Gunj Joshi)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
