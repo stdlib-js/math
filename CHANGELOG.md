@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-07)
+## Unreleased (2024-07-08)
 
 <section class="packages">
 
@@ -4900,6 +4900,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`62e703a`](https://github.com/stdlib-js/stdlib/commit/62e703a5eb7df95a40b3592366da89c5ff42a1b1) - **docs:** add missing `@private` in `math/base/special/round/lib/native.js` [(##2536)](#2536) _(by Gunj Joshi)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - **feat:** add C implementation for `math/base/special/beta` _(by Gunj Joshi, Philipp Burckhardt)_
