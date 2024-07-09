@@ -4237,6 +4237,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-round10-unreleased">
+
+#### [@stdlib/math/base/special/round10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round10)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`dbef328`](https://github.com/stdlib-js/stdlib/commit/dbef3280431240b7a2cc358a54923481115adb24) - add C implementation for `math/base/special/round10`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-round2-unreleased">
 
 #### [@stdlib/math/base/special/round2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round2)
@@ -4944,6 +4966,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dbef328`](https://github.com/stdlib-js/stdlib/commit/dbef3280431240b7a2cc358a54923481115adb24) - **feat:** add C implementation for `math/base/special/round10` _(by Gunj Joshi)_
 -   [`74f3c08`](https://github.com/stdlib-js/stdlib/commit/74f3c08113fa7555d9010d3cb814f7a8ea7ea47e) - **feat:** add `dii_d` in `math/base/napi/ternary` [(#2546)](https://github.com/stdlib-js/stdlib/pull/2546) _(by Gunj Joshi, Athan Reines)_
 -   [`ca18359`](https://github.com/stdlib-js/stdlib/commit/ca18359c4b18000828a214bc52a32db7ac6c1121) - **refactor:** update to use stdlib `pow` [(#2539)](https://github.com/stdlib-js/stdlib/pull/2539) _(by Gunj Joshi)_
 -   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - **feat:** add C implementation for `math/base/special/round2` [(##2537)](#2537) _(by Gunj Joshi)_
