@@ -4581,6 +4581,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-truncn-unreleased">
+
+#### [@stdlib/math/base/special/truncn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e8932ee`](https://github.com/stdlib-js/stdlib/commit/e8932ee36e54cf9fd4594abfedc91b5ff718f2fd) - add C implementation for `math/base/special/truncn`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-vercos-unreleased">
 
 #### [@stdlib/math/base/special/vercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/vercos)
@@ -4988,6 +5010,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e8932ee`](https://github.com/stdlib-js/stdlib/commit/e8932ee36e54cf9fd4594abfedc91b5ff718f2fd) - **feat:** add C implementation for `math/base/special/truncn` _(by Gunj Joshi)_
 -   [`ed638e3`](https://github.com/stdlib-js/stdlib/commit/ed638e392f7425c899abda488b943d0ffbd37f78) - **docs:** update Boost version and fix C function name in README.md [(##2577)](#2577) _(by Gunj Joshi)_
 -   [`53eb98c`](https://github.com/stdlib-js/stdlib/commit/53eb98c30fe092a4871e92001be36318626fd68f) - **docs:** fix function name [(#2579)](https://github.com/stdlib-js/stdlib/pull/2579) _(by Gunj Joshi)_
 -   [`b4cde28`](https://github.com/stdlib-js/stdlib/commit/b4cde28b465725e0d2f2e84757a4a533834503c7) - **docs:** fix function name [(#2580)](https://github.com/stdlib-js/stdlib/pull/2580) _(by Gunj Joshi)_
