@@ -4988,6 +4988,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ed638e3`](https://github.com/stdlib-js/stdlib/commit/ed638e392f7425c899abda488b943d0ffbd37f78) - **docs:** update Boost version and fix C function name in README.md [(##2577)](#2577) _(by Gunj Joshi)_
 -   [`53eb98c`](https://github.com/stdlib-js/stdlib/commit/53eb98c30fe092a4871e92001be36318626fd68f) - **docs:** fix function name [(#2579)](https://github.com/stdlib-js/stdlib/pull/2579) _(by Gunj Joshi)_
 -   [`b4cde28`](https://github.com/stdlib-js/stdlib/commit/b4cde28b465725e0d2f2e84757a4a533834503c7) - **docs:** fix function name [(#2580)](https://github.com/stdlib-js/stdlib/pull/2580) _(by Gunj Joshi)_
 -   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - **feat:** add C implementation for `math/base/special/digamma` [(##2533)](#2533 ) _(by Gunj Joshi)_
