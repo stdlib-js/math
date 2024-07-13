@@ -4988,6 +4988,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b4cde28`](https://github.com/stdlib-js/stdlib/commit/b4cde28b465725e0d2f2e84757a4a533834503c7) - **docs:** fix function name [(#2580)](https://github.com/stdlib-js/stdlib/pull/2580) _(by Gunj Joshi)_
 -   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - **feat:** add C implementation for `math/base/special/digamma` [(##2533)](#2533 ) _(by Gunj Joshi)_
 -   [`dbef328`](https://github.com/stdlib-js/stdlib/commit/dbef3280431240b7a2cc358a54923481115adb24) - **feat:** add C implementation for `math/base/special/round10` _(by Gunj Joshi)_
 -   [`74f3c08`](https://github.com/stdlib-js/stdlib/commit/74f3c08113fa7555d9010d3cb814f7a8ea7ea47e) - **feat:** add `dii_d` in `math/base/napi/ternary` [(#2546)](https://github.com/stdlib-js/stdlib/pull/2546) _(by Gunj Joshi, Athan Reines)_
