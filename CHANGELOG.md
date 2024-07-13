@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-09)
+## Unreleased (2024-07-13)
 
 <section class="packages">
 
@@ -2471,6 +2471,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-digamma-unreleased">
+
+#### [@stdlib/math/base/special/digamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/digamma)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - add C implementation for `math/base/special/digamma` [(##2533)](#2533 )
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -4966,6 +4988,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - **feat:** add C implementation for `math/base/special/digamma` [(##2533)](#2533 ) _(by Gunj Joshi)_
 -   [`dbef328`](https://github.com/stdlib-js/stdlib/commit/dbef3280431240b7a2cc358a54923481115adb24) - **feat:** add C implementation for `math/base/special/round10` _(by Gunj Joshi)_
 -   [`74f3c08`](https://github.com/stdlib-js/stdlib/commit/74f3c08113fa7555d9010d3cb814f7a8ea7ea47e) - **feat:** add `dii_d` in `math/base/napi/ternary` [(#2546)](https://github.com/stdlib-js/stdlib/pull/2546) _(by Gunj Joshi, Athan Reines)_
 -   [`ca18359`](https://github.com/stdlib-js/stdlib/commit/ca18359c4b18000828a214bc52a32db7ac6c1121) - **refactor:** update to use stdlib `pow` [(#2539)](https://github.com/stdlib-js/stdlib/pull/2539) _(by Gunj Joshi)_
