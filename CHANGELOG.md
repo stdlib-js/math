@@ -3183,6 +3183,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-fmod-unreleased">
+
+#### [@stdlib/math/base/special/fmod](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmod)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - add `math/base/special/fmod` [(##2562)](#2562)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[##2405](#2405)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-frexp-unreleased">
 
 #### [@stdlib/math/base/special/frexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/frexp)
@@ -4978,9 +5012,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 28 issues were closed in this release:
+A total of 29 issues were closed in this release:
 
-[#733](https://github.com/stdlib-js/stdlib/issues/733), [#772](https://github.com/stdlib-js/stdlib/issues/772), [#860](https://github.com/stdlib-js/stdlib/issues/860), [#894](https://github.com/stdlib-js/stdlib/issues/894), [#968](https://github.com/stdlib-js/stdlib/pull/968), [#1701](https://github.com/stdlib-js/stdlib/issues/1701), [#1718](https://github.com/stdlib-js/stdlib/issues/1718), [#1723](https://github.com/stdlib-js/stdlib/issues/1723), [#1764](https://github.com/stdlib-js/stdlib/issues/1764), [#1822](https://github.com/stdlib-js/stdlib/issues/1822), [#2029](https://github.com/stdlib-js/stdlib/issues/2029), [##2170 ](#2170 ), [##2150](#2150), [#1668](https://github.com/stdlib-js/stdlib/issues/1668), [#1931 ](https://github.com/stdlib-js/stdlib/issues/1931 ), [#1938](https://github.com/stdlib-js/stdlib/issues/1938), [#1944](https://github.com/stdlib-js/stdlib/issues/1944), [#2035](https://github.com/stdlib-js/stdlib/issues/2035), [#2081](https://github.com/stdlib-js/stdlib/issues/2081), [#2109](https://github.com/stdlib-js/stdlib/issues/2109), [#2113](https://github.com/stdlib-js/stdlib/issues/2113), [#2118](https://github.com/stdlib-js/stdlib/issues/2118), [#2124](https://github.com/stdlib-js/stdlib/issues/2124), [##1828](#1828), [#todo#2113](stdlib-js/todo#2113), [##1816](#1816), [##776](#776), [##1331](#1331)
+[##2405](#2405), [#733](https://github.com/stdlib-js/stdlib/issues/733), [#772](https://github.com/stdlib-js/stdlib/issues/772), [#860](https://github.com/stdlib-js/stdlib/issues/860), [#894](https://github.com/stdlib-js/stdlib/issues/894), [#968](https://github.com/stdlib-js/stdlib/pull/968), [#1668](https://github.com/stdlib-js/stdlib/issues/1668), [#1701](https://github.com/stdlib-js/stdlib/issues/1701), [#2029](https://github.com/stdlib-js/stdlib/issues/2029), [##2170 ](#2170 ), [##2150](#2150), [#1718](https://github.com/stdlib-js/stdlib/issues/1718), [#1723](https://github.com/stdlib-js/stdlib/issues/1723), [#1764](https://github.com/stdlib-js/stdlib/issues/1764), [#1822](https://github.com/stdlib-js/stdlib/issues/1822), [#1931 ](https://github.com/stdlib-js/stdlib/issues/1931 ), [#1938](https://github.com/stdlib-js/stdlib/issues/1938), [#1944](https://github.com/stdlib-js/stdlib/issues/1944), [#2035](https://github.com/stdlib-js/stdlib/issues/2035), [#2081](https://github.com/stdlib-js/stdlib/issues/2081), [#2109](https://github.com/stdlib-js/stdlib/issues/2109), [#2113](https://github.com/stdlib-js/stdlib/issues/2113), [#2118](https://github.com/stdlib-js/stdlib/issues/2118), [#2124](https://github.com/stdlib-js/stdlib/issues/2124), [##1828](#1828), [#todo#2113](stdlib-js/todo#2113), [##1816](#1816), [##776](#776), [##1331](#1331)
 
 </section>
 
@@ -5032,6 +5066,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - **feat:** add `math/base/special/fmod` [(##2562)](#2562) _(by Gunj Joshi)_
 -   [`e9d0de8`](https://github.com/stdlib-js/stdlib/commit/e9d0de8077f47e49ff703c1b106e262454e5d15d) - **chore:** update package meta data [(#2596)](https://github.com/stdlib-js/stdlib/pull/2596) _(by stdlib-bot, Athan Reines)_
 -   [`2e723fb`](https://github.com/stdlib-js/stdlib/commit/2e723fbb6e3acfca2d0d413c26c96a207a616636) - **feat:** add C implementation for `math/base/special/roundb` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`e8932ee`](https://github.com/stdlib-js/stdlib/commit/e8932ee36e54cf9fd4594abfedc91b5ff718f2fd) - **feat:** add C implementation for `math/base/special/truncn` _(by Gunj Joshi)_
