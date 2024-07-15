@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-14)
+## Unreleased (2024-07-15)
 
 <section class="packages">
 
@@ -5088,6 +5088,8 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`08dbbe5`](https://github.com/stdlib-js/stdlib/commit/08dbbe5a6fa6a3b82c049ef03deaa6eb8daaaee9) - **test:** add tests for negative values in `math/base/special/fmod` [(#2600)](https://github.com/stdlib-js/stdlib/pull/2600) _(by Gunj Joshi)_
+-   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`35af244`](https://github.com/stdlib-js/stdlib/commit/35af24442f634296da8248552f307229b1214c08) - **feat:** add C implementation for `math/base/special/gamma` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`26337e1`](https://github.com/stdlib-js/stdlib/commit/26337e1644c963b8006e38c4b5e2ee74eac8e33f) - **docs:** fix return annotation tag in C comments _(by Philipp Burckhardt)_
 -   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - **feat:** add `math/base/special/fmod` [(##2562)](#2562) _(by Gunj Joshi)_
