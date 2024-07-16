@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-15)
+## Unreleased (2024-07-16)
 
 <section class="packages">
 
@@ -3183,6 +3183,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-floorsd-unreleased">
+
+#### [@stdlib/math/base/special/floorsd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floorsd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - add C implementation for `math/base/special/floorsd` [(##2603)](#2603)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-fmod-unreleased">
 
 #### [@stdlib/math/base/special/fmod](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmod)
@@ -5088,6 +5110,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - **feat:** add C implementation for `math/base/special/floorsd` [(##2603)](#2603) _(by Gunj Joshi)_
 -   [`08dbbe5`](https://github.com/stdlib-js/stdlib/commit/08dbbe5a6fa6a3b82c049ef03deaa6eb8daaaee9) - **test:** add tests for negative values in `math/base/special/fmod` [(#2600)](https://github.com/stdlib-js/stdlib/pull/2600) _(by Gunj Joshi)_
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`35af244`](https://github.com/stdlib-js/stdlib/commit/35af24442f634296da8248552f307229b1214c08) - **feat:** add C implementation for `math/base/special/gamma` _(by Gunj Joshi, Philipp Burckhardt)_
