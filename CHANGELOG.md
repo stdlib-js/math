@@ -1956,6 +1956,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-ceil2-unreleased">
+
+#### [@stdlib/math/base/special/ceil2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceil2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - add C implementation for `math/base/special/ceil2` [(##2602)](#2602)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cexp-unreleased">
 
 #### [@stdlib/math/base/special/cexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cexp)
@@ -5110,6 +5132,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - **feat:** add C implementation for `math/base/special/ceil2` [(##2602)](#2602) _(by Gunj Joshi)_
 -   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - **feat:** add C implementation for `math/base/special/floorsd` [(##2603)](#2603) _(by Gunj Joshi)_
 -   [`08dbbe5`](https://github.com/stdlib-js/stdlib/commit/08dbbe5a6fa6a3b82c049ef03deaa6eb8daaaee9) - **test:** add tests for negative values in `math/base/special/fmod` [(#2600)](https://github.com/stdlib-js/stdlib/pull/2600) _(by Gunj Joshi)_
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
