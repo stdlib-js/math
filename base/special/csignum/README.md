@@ -46,8 +46,8 @@ Evaluates the [signum][signum] function of a double-precision complex floating-p
 
 ```javascript
 var Complex128 = require( '@stdlib/complex/float64/ctor' );
-var real = require( '@stdlib/complex/real' );
-var imag = require( '@stdlib/complex/imag' );
+var real = require( '@stdlib/complex/float64/real' );
+var imag = require( '@stdlib/complex/float64/imag' );
 
 var v = csignum( new Complex128( -4.2, 5.5 ) );
 // returns <Complex128>
@@ -148,17 +148,17 @@ Evaluates the [signum][signum] function of a double-precision complex floating-p
 
 ```c
 #include "stdlib/complex/float64/ctor.h"
-#include "stdlib/complex/real.h"
-#include "stdlib/complex/imag.h"
+#include "stdlib/complex/float64/real.h"
+#include "stdlib/complex/float64/imag.h"
 
 stdlib_complex128_t z = stdlib_complex128( -4.2, 5.5 );
 
 stdlib_complex128_t out = stdlib_base_csignum( z );
 
-double re = stdlib_real( out );
+double re = stdlib_complex128_real( out );
 // returns -0.6069136033622302
 
-double im = stdlib_imag( out );
+double im = stdlib_complex128_imag( out );
 // returns 0.79476781392673
 ```
 

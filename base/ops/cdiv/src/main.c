@@ -94,18 +94,18 @@ static void robustInternal( const double re1, const double im1, const double re2
 *
 * @example
 * #include "stdlib/complex/float64/ctor.h"
-* #include "stdlib/complex/real.h"
-* #include "stdlib/complex/imag.h"
+* #include "stdlib/complex/float64/real.h"
+* #include "stdlib/complex/float64/imag.h"
 *
 * stdlib_complex128_t z1 = stdlib_complex128( -13.0, -1.0 );
 * stdlib_complex128_t z2 = stdlib_complex128( -2.0, 1.0 );
 *
 * stdlib_complex128_t out = stdlib_base_cdiv( z1, z2 );
 *
-* double re = stdlib_real( out );
+* double re = stdlib_complex128_real( out );
 * // returns 5.0
 *
-* double im = stdlib_imag( out );
+* double im = stdlib_complex128_imag( out );
 * // returns 3.0
 */
 stdlib_complex128_t stdlib_base_cdiv( const stdlib_complex128_t z1, const stdlib_complex128_t z2 ) {

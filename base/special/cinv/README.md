@@ -53,8 +53,8 @@ Computes the inverse of a double-precision complex floating-point number.
 
 ```javascript
 var Complex128 = require( '@stdlib/complex/float64/ctor' );
-var real = require( '@stdlib/complex/real' );
-var imag = require( '@stdlib/complex/imag' );
+var real = require( '@stdlib/complex/float64/real' );
+var imag = require( '@stdlib/complex/float64/imag' );
 
 var v = cinv( new Complex128( 2.0, 4.0 ) );
 // returns <Complex128>
@@ -129,17 +129,17 @@ Computes the inverse of a double-precision complex floating-point number.
 
 ```c
 #include "stdlib/complex/float64/ctor.h"
-#include "stdlib/complex/real.h"
-#include "stdlib/complex/imag.h"
+#include "stdlib/complex/float64/real.h"
+#include "stdlib/complex/float64/imag.h"
 
 stdlib_complex128_t z = stdlib_complex128( 2.0, 4.0 );
 
 stdlib_complex128_t out = stdlib_base_cinv( z );
 
-double re = stdlib_real( out );
+double re = stdlib_complex128_real( out );
 // returns 0.1
 
-double im = stdlib_imag( out );
+double im = stdlib_complex128_imag( out );
 // returns -0.2
 ```
 

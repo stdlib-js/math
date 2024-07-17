@@ -30,8 +30,8 @@ var abs = require( './../../../../base/special/abs' );
 var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var Complex128 = require( '@stdlib/complex/float64/ctor' );
-var real = require( '@stdlib/complex/real' );
-var imag = require( '@stdlib/complex/imag' );
+var real = require( '@stdlib/complex/float64/real' );
+var imag = require( '@stdlib/complex/float64/imag' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 

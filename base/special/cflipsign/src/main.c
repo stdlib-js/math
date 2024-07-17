@@ -30,17 +30,17 @@
 *
 * @example
 * #include "stdlib/complex/float64/ctor.h"
-* #include "stdlib/complex/real.h"
-* #include "stdlib/complex/imag.h"
+* #include "stdlib/complex/float64/real.h"
+* #include "stdlib/complex/float64/imag.h"
 *
 * stdlib_complex128_t z = stdlib_complex128( 3.5, -2.5 );
 *
 * stdlib_complex128_t out = stdlib_base_cflipsign( z, -1.0 );
 *
-* double re = stdlib_real( out );
+* double re = stdlib_complex128_real( out );
 * // returns -3.5
 *
-* double im = stdlib_imag( out );
+* double im = stdlib_complex128_imag( out );
 * // returns 2.5
 */
 stdlib_complex128_t stdlib_base_cflipsign( const stdlib_complex128_t z, const double y ) {

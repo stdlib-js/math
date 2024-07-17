@@ -36,8 +36,8 @@ Rounds a double-precision complex floating-point number toward positive infinity
 
 ```javascript
 var Complex128 = require( '@stdlib/complex/float64/ctor' );
-var real = require( '@stdlib/complex/real' );
-var imag = require( '@stdlib/complex/imag' );
+var real = require( '@stdlib/complex/float64/real' );
+var imag = require( '@stdlib/complex/float64/imag' );
 
 var v = cceil( new Complex128( -1.5, 2.5 ) );
 // returns <Complex128>
@@ -110,17 +110,17 @@ Rounds a double-precision complex floating-point number toward positive infinity
 
 ```c
 #include "stdlib/complex/float64/ctor.h"
-#include "stdlib/complex/real.h"
-#include "stdlib/complex/imag.h"
+#include "stdlib/complex/float64/real.h"
+#include "stdlib/complex/float64/imag.h"
 
 stdlib_complex128_t z = stdlib_complex128( 2.5, -1.5 );
 
 stdlib_complex128_t out = stdlib_base_cceil( z );
 
-double re = stdlib_real( out );
+double re = stdlib_complex128_real( out );
 // returns 3.0
 
-double im = stdlib_imag( out );
+double im = stdlib_complex128_imag( out );
 // returns -1.0
 ```
 

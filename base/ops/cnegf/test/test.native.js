@@ -28,8 +28,8 @@ var isnanf = require( './../../../../base/assert/is-nanf' );
 var isNegativeZerof = require( './../../../../base/assert/is-negative-zerof' );
 var isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var realf = require( '@stdlib/complex/realf' );
-var imagf = require( '@stdlib/complex/imagf' );
+var realf = require( '@stdlib/complex/float32/real' );
+var imagf = require( '@stdlib/complex/float32/imag' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 

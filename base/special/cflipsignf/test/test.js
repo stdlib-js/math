@@ -29,8 +29,8 @@ var abs = require( './../../../../base/special/abs' );
 var isNegativeZerof = require( './../../../../base/assert/is-negative-zerof' );
 var isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var real = require( '@stdlib/complex/real' );
-var imag = require( '@stdlib/complex/imag' );
+var real = require( '@stdlib/complex/float32/real' );
+var imag = require( '@stdlib/complex/float32/imag' );
 var cflipsignf = require( './../lib' );
 
 
