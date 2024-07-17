@@ -4536,6 +4536,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sinpi-unreleased">
+
+#### [@stdlib/math/base/special/sinpi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinpi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - add C implementation for `math/base/special/sinpi` [(##2610)](#2610)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-spence-unreleased">
 
 #### [@stdlib/math/base/special/spence](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/spence)
@@ -5154,6 +5176,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - **feat:** add C implementation for `math/base/special/sinpi` [(##2610)](#2610) _(by Gunj Joshi)_
 -   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - **feat:** add C implementation for `math/base/special/cospi` [(##2612)](#2612) _(by Gunj Joshi)_
 -   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
 -   [`5072206`](https://github.com/stdlib-js/stdlib/commit/50722067d1c17e17be721982e5a99ed65868d9ae) - **refactor:** fix function name _(by Athan Reines)_
