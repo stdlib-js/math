@@ -2177,6 +2177,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cospi-unreleased">
+
+#### [@stdlib/math/base/special/cospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cospi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - add C implementation for `math/base/special/cospi` [(##2612)](#2612)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cot-unreleased">
 
 #### [@stdlib/math/base/special/cot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cot)
@@ -5132,6 +5154,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - **feat:** add C implementation for `math/base/special/cospi` [(##2612)](#2612) _(by Gunj Joshi)_
 -   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
 -   [`5072206`](https://github.com/stdlib-js/stdlib/commit/50722067d1c17e17be721982e5a99ed65868d9ae) - **refactor:** fix function name _(by Athan Reines)_
 -   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
