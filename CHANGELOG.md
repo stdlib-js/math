@@ -5329,6 +5329,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`310150f`](https://github.com/stdlib-js/stdlib/commit/310150f9e910eb0b202ef2cefcf6a99d1ee0c1ed) - **docs:** fix notes [(#2623)](https://github.com/stdlib-js/stdlib/pull/2623) _(by Gunj Joshi)_
 -   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - **feat:** update namespace TypeScript declarations [(##2621)](#2621) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
 -   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea) - **remove:** remove `math/base/ops/cadd` _(by Athan Reines)_
