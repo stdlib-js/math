@@ -671,6 +671,20 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303): remove `math/base/ops/cmul` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float64/base/mul` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -692,6 +706,20 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784): remove `math/base/ops/cmulf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float32/base/mul` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -5240,6 +5268,18 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303): remove `math/base/ops/cmul` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float64/base/mul` which provides the same API and
+    implementation.
+
+-   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784): remove `math/base/ops/cmulf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float32/base/mul` which provides the same API and
+    implementation.
+
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): make base parameter compulsory in `math/base/special/floorsd`
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): The base parameter must now be provided explicitly.  
 
@@ -5329,6 +5369,10 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303) - **remove:** remove `math/base/ops/cmul` _(by Athan Reines)_
+-   [`e3a3679`](https://github.com/stdlib-js/stdlib/commit/e3a3679f1e733cf02ce47cdc4bd0137bd37bef41) - **refactor:** update paths _(by Athan Reines)_
+-   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784) - **remove:** remove `math/base/ops/cmulf` _(by Athan Reines)_
+-   [`ddd4403`](https://github.com/stdlib-js/stdlib/commit/ddd44032f9d8a6d318c80e3b239ff72280ffc599) - **refactor:** update paths _(by Athan Reines)_
 -   [`310150f`](https://github.com/stdlib-js/stdlib/commit/310150f9e910eb0b202ef2cefcf6a99d1ee0c1ed) - **docs:** fix notes [(#2623)](https://github.com/stdlib-js/stdlib/pull/2623) _(by Gunj Joshi)_
 -   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - **feat:** update namespace TypeScript declarations [(##2621)](#2621) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_

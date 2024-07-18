@@ -21,8 +21,8 @@
 // MODULES //
 
 var mul = require( './../../../../base/ops/mul' );
-var cmul = require( './../../../../base/ops/cmul' );
-var cmulf = require( './../../../../base/ops/cmulf' );
+var cmul = require( '@stdlib/complex/float64/base/mul' );
+var cmulf = require( '@stdlib/complex/float32/base/mul' );
 var callbacks = require( '@stdlib/strided/base/binary-signature-callbacks' );
 var types = require( './types.js' );
 
