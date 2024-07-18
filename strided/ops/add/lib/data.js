@@ -21,8 +21,8 @@
 // MODULES //
 
 var add = require( './../../../../base/ops/add' );
-var cadd = require( './../../../../base/ops/cadd' );
-var caddf = require( './../../../../base/ops/caddf' );
+var cadd = require( '@stdlib/complex/float64/base/add' );
+var caddf = require( '@stdlib/complex/float32/base/add' );
 var callbacks = require( '@stdlib/strided/base/binary-signature-callbacks' );
 var types = require( './types.js' );
 

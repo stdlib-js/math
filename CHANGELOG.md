@@ -576,6 +576,20 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea): remove `math/base/ops/cadd` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float64/base/add` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -597,6 +611,20 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b): remove `math/base/ops/caddf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float32/base/add` which provides the same API and
+    implementation.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -5227,6 +5255,18 @@ This release closes the following issue:
     // returns 3.1415
     ```
 
+-   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea): remove `math/base/ops/cadd` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float64/base/add` which provides the same API and
+    implementation.
+
+-   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b): remove `math/base/ops/caddf` 
+
+    -   To migrate, users should update their require/import paths to use
+    `@stdlib/complex/float32/base/add` which provides the same API and
+    implementation.
+
 </section>
 
 <!-- /.breaking-changes -->
@@ -5291,7 +5331,11 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 -   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - **feat:** update namespace TypeScript declarations [(##2621)](#2621) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
+-   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea) - **remove:** remove `math/base/ops/cadd` _(by Athan Reines)_
+-   [`0406147`](https://github.com/stdlib-js/stdlib/commit/04061476d1036e1b8b786736b1ba1653eddff1ef) - **refactor:** update paths _(by Athan Reines)_
+-   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b) - **remove:** remove `math/base/ops/caddf` _(by Athan Reines)_
 -   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - **feat:** add C implementation for `math/base/special/floorb` [(##2620)](#2620) _(by Gunj Joshi)_
+-   [`b9703b5`](https://github.com/stdlib-js/stdlib/commit/b9703b569dc2f0a67e604e388a0d188b08138b48) - **refactor:** update paths _(by Athan Reines)_
 -   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - **feat:** add C implementation for `math/base/special/factorial` [(##2618)](#2618 ) _(by Gunj Joshi)_
 -   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - **feat:** add C implementation for `math/base/special/floor10` [(##2619)](#2619) _(by Gunj Joshi)_
 -   [`0d796b2`](https://github.com/stdlib-js/stdlib/commit/0d796b2a86fe0a08d1f3ed1827aaf2ce355f9b4f) - **refactor:** use stdlib APIs and adjust test tolerances _(by Athan Reines)_
