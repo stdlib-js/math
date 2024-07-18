@@ -769,6 +769,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - update namespace TypeScript declarations [(##2621)](#2621)
 -   [`09618b7`](https://github.com/stdlib-js/stdlib/commit/09618b7064d674d3e4afd1f67d877b1388098784) - update namespace TypeScript declarations
 -   [`44d752e`](https://github.com/stdlib-js/stdlib/commit/44d752efc62e7aa8cd05690a117c58de029aafc8) - add new special functions to `math/base/special` namespace
 
@@ -5288,6 +5289,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - **feat:** update namespace TypeScript declarations [(##2621)](#2621) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
 -   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - **feat:** add C implementation for `math/base/special/floorb` [(##2620)](#2620) _(by Gunj Joshi)_
 -   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - **feat:** add C implementation for `math/base/special/factorial` [(##2618)](#2618 ) _(by Gunj Joshi)_
