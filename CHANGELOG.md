@@ -2926,6 +2926,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`5822206`](https://github.com/stdlib-js/stdlib/commit/5822206c2a023cb097ec057ed99b155383db909d) - remove unused include in header file [(#2624)](https://github.com/stdlib-js/stdlib/pull/2624)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5369,6 +5379,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5822206`](https://github.com/stdlib-js/stdlib/commit/5822206c2a023cb097ec057ed99b155383db909d) - **fix:** remove unused include in header file [(#2624)](https://github.com/stdlib-js/stdlib/pull/2624) _(by Gunj Joshi)_
 -   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303) - **remove:** remove `math/base/ops/cmul` _(by Athan Reines)_
 -   [`e3a3679`](https://github.com/stdlib-js/stdlib/commit/e3a3679f1e733cf02ce47cdc4bd0137bd37bef41) - **refactor:** update paths _(by Athan Reines)_
 -   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784) - **remove:** remove `math/base/ops/cmulf` _(by Athan Reines)_
