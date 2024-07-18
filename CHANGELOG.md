@@ -3309,6 +3309,29 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): make base parameter compulsory in `math/base/special/floorsd`
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): The base parameter must now be provided explicitly.  
+
+    -   Previously, the base parameter had a default value of 10. Now it has to be supplied explicitly.
+    Before:
+    ```
+    var v = floorsd( 3.141592653589793, 5 );
+    // returns 3.1415
+    ```
+    After:
+    ```
+    var v = floorsd( 3.141592653589793, 5, 10 );
+    // returns 3.1415
+    ```
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -5184,6 +5207,29 @@ This release closes the following issue:
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): make base parameter compulsory in `math/base/special/floorsd`
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): The base parameter must now be provided explicitly.  
+
+    -   Previously, the base parameter had a default value of 10. Now it has to be supplied explicitly.
+    Before:
+    ```
+    var v = floorsd( 3.141592653589793, 5 );
+    // returns 3.1415
+    ```
+    After:
+    ```
+    var v = floorsd( 3.141592653589793, 5, 10 );
+    // returns 3.1415
+    ```
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ### Closed Issues
@@ -5242,6 +5288,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
 -   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - **feat:** add C implementation for `math/base/special/floorb` [(##2620)](#2620) _(by Gunj Joshi)_
 -   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - **feat:** add C implementation for `math/base/special/factorial` [(##2618)](#2618 ) _(by Gunj Joshi)_
 -   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - **feat:** add C implementation for `math/base/special/floor10` [(##2619)](#2619) _(by Gunj Joshi)_
