@@ -2853,6 +2853,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-factorial-unreleased">
+
+#### [@stdlib/math/base/special/factorial](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/factorial)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - add C implementation for `math/base/special/factorial` [(##2618)](#2618 )
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-factorial2-unreleased">
 
 #### [@stdlib/math/base/special/factorial2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/factorial2)
@@ -5198,6 +5220,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - **feat:** add C implementation for `math/base/special/factorial` [(##2618)](#2618 ) _(by Gunj Joshi)_
 -   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - **feat:** add C implementation for `math/base/special/floor10` [(##2619)](#2619) _(by Gunj Joshi)_
 -   [`0d796b2`](https://github.com/stdlib-js/stdlib/commit/0d796b2a86fe0a08d1f3ed1827aaf2ce355f9b4f) - **refactor:** use stdlib APIs and adjust test tolerances _(by Athan Reines)_
 -   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - **feat:** add C implementation for `math/base/special/sinpi` [(##2610)](#2610) _(by Gunj Joshi)_
