@@ -2057,6 +2057,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-ceilb-unreleased">
+
+#### [@stdlib/math/base/special/ceilb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceilb)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - add C implementation for `math/base/special/ceilb` [(##2627)](#2627)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cexp-unreleased">
 
 #### [@stdlib/math/base/special/cexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cexp)
@@ -5401,6 +5423,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - **feat:** add C implementation for `math/base/special/ceilb` [(##2627)](#2627) _(by Gunj Joshi)_
 -   [`d4db8a9`](https://github.com/stdlib-js/stdlib/commit/d4db8a93b0c93cb3392b59ee031ce188399b90a5) - **feat:** add C implementation for `math/base/special/ceil10` [(##2626)](#2626) _(by Gunj Joshi)_
 -   [`5822206`](https://github.com/stdlib-js/stdlib/commit/5822206c2a023cb097ec057ed99b155383db909d) - **fix:** remove unused include in header file [(#2624)](https://github.com/stdlib-js/stdlib/pull/2624) _(by Gunj Joshi)_
 -   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303) - **remove:** remove `math/base/ops/cmul` _(by Athan Reines)_
