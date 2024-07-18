@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-17)
+## Unreleased (2024-07-18)
 
 <section class="packages">
 
@@ -3205,6 +3205,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-floor10-unreleased">
+
+#### [@stdlib/math/base/special/floor10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floor10)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - add C implementation for `math/base/special/floor10` [(##2619)](#2619)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-floor2-unreleased">
 
 #### [@stdlib/math/base/special/floor2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floor2)
@@ -5176,6 +5198,8 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - **feat:** add C implementation for `math/base/special/floor10` [(##2619)](#2619) _(by Gunj Joshi)_
+-   [`0d796b2`](https://github.com/stdlib-js/stdlib/commit/0d796b2a86fe0a08d1f3ed1827aaf2ce355f9b4f) - **refactor:** use stdlib APIs and adjust test tolerances _(by Athan Reines)_
 -   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - **feat:** add C implementation for `math/base/special/sinpi` [(##2610)](#2610) _(by Gunj Joshi)_
 -   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - **feat:** add C implementation for `math/base/special/cospi` [(##2612)](#2612) _(by Gunj Joshi)_
 -   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
