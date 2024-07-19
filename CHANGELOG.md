@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-18)
+## Unreleased (2024-07-19)
 
 <section class="packages">
 
@@ -553,6 +553,41 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-unreleased">
+
+#### [@stdlib/math/base/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+
+    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -5322,6 +5357,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+
+    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
+
 -   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303): remove `math/base/ops/cmul` 
 
     -   To migrate, users should update their require/import paths to use
@@ -5423,6 +5463,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
 -   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - **feat:** add C implementation for `math/base/special/ceilb` [(##2627)](#2627) _(by Gunj Joshi)_
 -   [`d4db8a9`](https://github.com/stdlib-js/stdlib/commit/d4db8a93b0c93cb3392b59ee031ce188399b90a5) - **feat:** add C implementation for `math/base/special/ceil10` [(##2626)](#2626) _(by Gunj Joshi)_
 -   [`5822206`](https://github.com/stdlib-js/stdlib/commit/5822206c2a023cb097ec057ed99b155383db909d) - **fix:** remove unused include in header file [(#2624)](https://github.com/stdlib-js/stdlib/pull/2624) _(by Gunj Joshi)_
