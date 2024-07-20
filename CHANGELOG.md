@@ -2114,6 +2114,38 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-ceilsd-unreleased">
+
+#### [@stdlib/math/base/special/ceilsd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceilsd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb) - add C implementation for `math/base/special/ceilsd`
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb): add C implementation for `math/base/special/ceilsd`
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cexp-unreleased">
 
 #### [@stdlib/math/base/special/cexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cexp)
@@ -5357,6 +5389,7 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb): add C implementation for `math/base/special/ceilsd`
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
 
@@ -5463,6 +5496,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb) - **feat:** add C implementation for `math/base/special/ceilsd` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b063947`](https://github.com/stdlib-js/stdlib/commit/b0639472175808254213fd35d2902e52b998b4cc) - **refactor:** reduce code complexity [(#2632)](https://github.com/stdlib-js/stdlib/pull/2632) _(by Gunj Joshi, Athan Reines)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
 -   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - **feat:** add C implementation for `math/base/special/ceilb` [(##2627)](#2627) _(by Gunj Joshi)_
