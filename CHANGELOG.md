@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-19)
+## Unreleased (2024-07-20)
 
 <section class="packages">
 
@@ -5463,6 +5463,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b063947`](https://github.com/stdlib-js/stdlib/commit/b0639472175808254213fd35d2902e52b998b4cc) - **refactor:** reduce code complexity [(#2632)](https://github.com/stdlib-js/stdlib/pull/2632) _(by Gunj Joshi, Athan Reines)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
 -   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - **feat:** add C implementation for `math/base/special/ceilb` [(##2627)](#2627) _(by Gunj Joshi)_
 -   [`d4db8a9`](https://github.com/stdlib-js/stdlib/commit/d4db8a93b0c93cb3392b59ee031ce188399b90a5) - **feat:** add C implementation for `math/base/special/ceil10` [(##2626)](#2626) _(by Gunj Joshi)_
