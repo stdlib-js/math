@@ -5515,6 +5515,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`8de8d90`](https://github.com/stdlib-js/stdlib/commit/8de8d90b8a5d72f7c2e57ae21593be5f5f1eb8e7) - **refactor:** perform explicit cast [(#2642)](https://github.com/stdlib-js/stdlib/pull/2642) _(by Gunj Joshi)_
 -   [`6a0cbd9`](https://github.com/stdlib-js/stdlib/commit/6a0cbd9c10f0895d795be449fe1ea2a456f2683a) - **test:** fix tests for native implementation [(#2641)](https://github.com/stdlib-js/stdlib/pull/2641) _(by Gunj Joshi)_
 -   [`ead1c3b`](https://github.com/stdlib-js/stdlib/commit/ead1c3b780527d8068d9c076e85688be94d53775) - **chore:** update package meta data [(#2640)](https://github.com/stdlib-js/stdlib/pull/2640) _(by stdlib-bot, Athan Reines)_
