@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-20)
+## Unreleased (2024-07-21)
 
 <section class="packages">
 
@@ -860,6 +860,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b) - update namespace TypeScript declarations [(#2637)](https://github.com/stdlib-js/stdlib/pull/2637)
 -   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - update namespace TypeScript declarations [(##2621)](#2621)
 -   [`09618b7`](https://github.com/stdlib-js/stdlib/commit/09618b7064d674d3e4afd1f67d877b1388098784) - update namespace TypeScript declarations
 -   [`44d752e`](https://github.com/stdlib-js/stdlib/commit/44d752efc62e7aa8cd05690a117c58de029aafc8) - add new special functions to `math/base/special` namespace
@@ -877,6 +878,19 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b): update namespace TypeScript declarations
+-   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b): base parameter is no longer optional 
+
+    -   To migrate, users should always provide a base argument. To preserve previous behavior, users should be a third argument equal to `10`.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -5389,6 +5403,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b): update namespace TypeScript declarations
+-   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b): base parameter is no longer optional 
+
+    -   To migrate, users should always provide a base argument. To preserve previous behavior, users should be a third argument equal to `10`.
+
 -   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb): add C implementation for `math/base/special/ceilsd`
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
@@ -5496,6 +5515,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b) - **feat:** update namespace TypeScript declarations [(#2637)](https://github.com/stdlib-js/stdlib/pull/2637) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb) - **feat:** add C implementation for `math/base/special/ceilsd` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b063947`](https://github.com/stdlib-js/stdlib/commit/b0639472175808254213fd35d2902e52b998b4cc) - **refactor:** reduce code complexity [(#2632)](https://github.com/stdlib-js/stdlib/pull/2632) _(by Gunj Joshi, Athan Reines)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
