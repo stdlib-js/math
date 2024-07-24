@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-21)
+## Unreleased (2024-07-24)
 
 <section class="packages">
 
@@ -860,6 +860,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - add C implementation for `math/base/special/binet` [(##2653)](#2653)
 -   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b) - update namespace TypeScript declarations [(#2637)](https://github.com/stdlib-js/stdlib/pull/2637)
 -   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - update namespace TypeScript declarations [(##2621)](#2621)
 -   [`09618b7`](https://github.com/stdlib-js/stdlib/commit/09618b7064d674d3e4afd1f67d877b1388098784) - update namespace TypeScript declarations
@@ -5515,6 +5516,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - **feat:** add C implementation for `math/base/special/binet` [(##2653)](#2653) _(by Gunj Joshi)_
 -   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`8de8d90`](https://github.com/stdlib-js/stdlib/commit/8de8d90b8a5d72f7c2e57ae21593be5f5f1eb8e7) - **refactor:** perform explicit cast [(#2642)](https://github.com/stdlib-js/stdlib/pull/2642) _(by Gunj Joshi)_
 -   [`6a0cbd9`](https://github.com/stdlib-js/stdlib/commit/6a0cbd9c10f0895d795be449fe1ea2a456f2683a) - **test:** fix tests for native implementation [(#2641)](https://github.com/stdlib-js/stdlib/pull/2641) _(by Gunj Joshi)_
@@ -5610,7 +5612,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(##2371)](#2371 ) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - **feat:** add C implementation for `math/base/special/csc` [(##2367)](#2367 ) _(by Gunj Joshi)_
 -   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - **fix:** use significand mask in `math/base/special/rempio2` [(##2366)](#2366) _(by Gunj Joshi)_
--   [`9df1610`](https://github.com/stdlib-js/stdlib/commit/9df16105aa2d89808d3395c610334ca9cce35b3c) - **docs:** remove long comment [(##2634)](#2634) _(by Gunj Joshi)_
+-   [`9df1610`](https://github.com/stdlib-js/stdlib/commit/9df16105aa2d89808d3395c610334ca9cce35b3c) - **docs:** remove long comment [(##2364)](#2364) _(by Gunj Joshi)_
 -   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - **feat:** add C implementation for `math/base/special/coversin` [(##2361)](#2361) _(by Gunj Joshi)_
 -   [`34bc79c`](https://github.com/stdlib-js/stdlib/commit/34bc79cf154e0c82320c4a60c2cc805434a4b6e6) - **chore:** delete extra repl.txt file _(by Philipp Burckhardt)_
 -   [`a4dee7d`](https://github.com/stdlib-js/stdlib/commit/a4dee7d62df7875184dfc8fc3212afe086587353) - **fix:** move repl.txt file and address feedback _(by Philipp Burckhardt)_
