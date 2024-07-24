@@ -2360,6 +2360,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cosm1-unreleased">
+
+#### [@stdlib/math/base/special/cosm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosm1)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - add C implementation for `math/base/special/cosm1` [(##2651)](#2651)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cospi-unreleased">
 
 #### [@stdlib/math/base/special/cospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cospi)
@@ -5516,6 +5538,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - **feat:** add C implementation for `math/base/special/cosm1` [(##2651)](#2651) _(by Gunj Joshi)_
 -   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - **feat:** add C implementation for `math/base/special/binet` [(##2653)](#2653) _(by Gunj Joshi)_
 -   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`8de8d90`](https://github.com/stdlib-js/stdlib/commit/8de8d90b8a5d72f7c2e57ae21593be5f5f1eb8e7) - **refactor:** perform explicit cast [(#2642)](https://github.com/stdlib-js/stdlib/pull/2642) _(by Gunj Joshi)_
