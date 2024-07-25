@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-24)
+## Unreleased (2024-07-25)
 
 <section class="packages">
 
@@ -5538,6 +5538,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7b7a3e6`](https://github.com/stdlib-js/stdlib/commit/7b7a3e634113685c2b6ed1fdb076d40f6e5e4b7a) - **docs:** fix typos in source comments [(#2657)](https://github.com/stdlib-js/stdlib/pull/2657) _(by Gunj Joshi)_
 -   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - **feat:** add C implementation for `math/base/special/cosm1` [(##2651)](#2651) _(by Gunj Joshi)_
 -   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - **feat:** add C implementation for `math/base/special/binet` [(##2653)](#2653) _(by Gunj Joshi)_
 -   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
