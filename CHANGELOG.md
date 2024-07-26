@@ -5073,6 +5073,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-truncb-unreleased">
+
+#### [@stdlib/math/base/special/truncb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncb)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c6dc95a`](https://github.com/stdlib-js/stdlib/commit/c6dc95aa33843100a7ba3918931eea934ed8caa8) - add C implementation for `math/base/special/truncb`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-truncn-unreleased">
 
 #### [@stdlib/math/base/special/truncn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncn)
@@ -5560,6 +5582,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c6dc95a`](https://github.com/stdlib-js/stdlib/commit/c6dc95aa33843100a7ba3918931eea934ed8caa8) - **feat:** add C implementation for `math/base/special/truncb` _(by Gunj Joshi)_
 -   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - **feat:** add C implementation for `math/base/special/sincos` [(##2646)](#2646) _(by Gunj Joshi)_
 -   [`7b7a3e6`](https://github.com/stdlib-js/stdlib/commit/7b7a3e634113685c2b6ed1fdb076d40f6e5e4b7a) - **docs:** fix typos in source comments [(#2657)](https://github.com/stdlib-js/stdlib/pull/2657) _(by Gunj Joshi)_
 -   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - **feat:** add C implementation for `math/base/special/cosm1` [(##2651)](#2651) _(by Gunj Joshi)_
