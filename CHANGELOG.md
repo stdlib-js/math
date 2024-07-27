@@ -860,6 +860,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`6e4b9eb`](https://github.com/stdlib-js/stdlib/commit/6e4b9ebc31d9629446019e37e31bfe9b180b675c) - update namespace TypeScript declarations [(#2681)](https://github.com/stdlib-js/stdlib/pull/2681)
 -   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - add C implementation for `math/base/special/binet` [(#2653)](https://github.com/stdlib-js/stdlib/pull/2653)
 -   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b) - update namespace TypeScript declarations [(#2637)](https://github.com/stdlib-js/stdlib/pull/2637)
 -   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - update namespace TypeScript declarations [(#2621)](https://github.com/stdlib-js/stdlib/pull/2621)
@@ -5661,6 +5662,8 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1655420`](https://github.com/stdlib-js/stdlib/commit/1655420e7a06617d5b454886c2be025e00bad74b) - **docs:** update namespace table of contents [(#2683)](https://github.com/stdlib-js/stdlib/pull/2683) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`6e4b9eb`](https://github.com/stdlib-js/stdlib/commit/6e4b9ebc31d9629446019e37e31bfe9b180b675c) - **feat:** update namespace TypeScript declarations [(#2681)](https://github.com/stdlib-js/stdlib/pull/2681) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3) - **feat:** add C implementation for `math/base/special/truncsd` [(#2666)](https://github.com/stdlib-js/stdlib/pull/2666) _(by Gunj Joshi)_
 -   [`4a2534a`](https://github.com/stdlib-js/stdlib/commit/4a2534a22c2ead42a6318bed2fce221286f9f7a8) - **feat:** add C implementation for `math/base/special/fresnelc` [(#2680)](https://github.com/stdlib-js/stdlib/pull/2680) _(by Gunj Joshi)_
 -   [`c476e32`](https://github.com/stdlib-js/stdlib/commit/c476e32e617de04644d9fbf399a34f80661778ea) - **feat:** add C implementation for `math/base/special/fresnels` [(#2675)](https://github.com/stdlib-js/stdlib/pull/2675) _(by Gunj Joshi)_
