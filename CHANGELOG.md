@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-26)
+## Unreleased (2024-07-27)
 
 <section class="packages">
 
@@ -62,7 +62,7 @@
 
 ##### Bug Fixes
 
--   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - update variable type declarations in `math/base/assert/int32-is-odd` [(##1935)](#1935)
+-   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935)
 
 </section>
 
@@ -204,7 +204,7 @@
 
 ##### Features
 
--   [`229be91`](https://github.com/stdlib-js/stdlib/commit/229be9196d3571c40e5a6cc07ac0d4d680a8a00d) - add `math/base/assert/is-nonnegative-finite` [(##1829)](#1829)
+-   [`229be91`](https://github.com/stdlib-js/stdlib/commit/229be9196d3571c40e5a6cc07ac0d4d680a8a00d) - add `math/base/assert/is-nonnegative-finite` [(#1829)](https://github.com/stdlib-js/stdlib/pull/1829)
 
 </section>
 
@@ -216,7 +216,7 @@
 
 This release closes the following issue:
 
-[##1828](#1828)
+[#1828](https://github.com/stdlib-js/stdlib/issues/1828)
 
 </section>
 
@@ -860,9 +860,9 @@ This release closes the following issue:
 
 ##### Features
 
--   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - add C implementation for `math/base/special/binet` [(##2653)](#2653)
+-   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - add C implementation for `math/base/special/binet` [(#2653)](https://github.com/stdlib-js/stdlib/pull/2653)
 -   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b) - update namespace TypeScript declarations [(#2637)](https://github.com/stdlib-js/stdlib/pull/2637)
--   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - update namespace TypeScript declarations [(##2621)](#2621)
+-   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - update namespace TypeScript declarations [(#2621)](https://github.com/stdlib-js/stdlib/pull/2621)
 -   [`09618b7`](https://github.com/stdlib-js/stdlib/commit/09618b7064d674d3e4afd1f67d877b1388098784) - update namespace TypeScript declarations
 -   [`44d752e`](https://github.com/stdlib-js/stdlib/commit/44d752efc62e7aa8cd05690a117c58de029aafc8) - add new special functions to `math/base/special` namespace
 
@@ -899,7 +899,7 @@ This release closes the following issue:
 
 This release closes the following issue:
 
-[##2150](#2150)
+[#2150](https://github.com/stdlib-js/stdlib/issues/2150)
 
 </section>
 
@@ -1165,7 +1165,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`1096686`](https://github.com/stdlib-js/stdlib/commit/1096686e16dd4515a7aaa5bdc35ff5803ec0349f) - add C implementation for `math/base/special/acoversin` [(##142)](#142)
+-   [`1096686`](https://github.com/stdlib-js/stdlib/commit/1096686e16dd4515a7aaa5bdc35ff5803ec0349f) - add C implementation for `math/base/special/acoversin` [(#142)](https://github.com/stdlib-js/stdlib/pull/142)
 
 </section>
 
@@ -1187,7 +1187,7 @@ This release closes the following issue:
 
 This release closes the following issue:
 
-[##776](#776)
+[#776](https://github.com/stdlib-js/stdlib/issues/776)
 
 </section>
 
@@ -1254,7 +1254,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`077a5e6`](https://github.com/stdlib-js/stdlib/commit/077a5e68dbabba3a92bf0163de06564759b57257) - add `math/base/special/acscdf` [(##2148)](#2148)
+-   [`077a5e6`](https://github.com/stdlib-js/stdlib/commit/077a5e68dbabba3a92bf0163de06564759b57257) - add `math/base/special/acscdf` [(#2148)](https://github.com/stdlib-js/stdlib/pull/2148)
 
 </section>
 
@@ -1344,7 +1344,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`eace8f3`](https://github.com/stdlib-js/stdlib/commit/eace8f39f945f8b330fdfdd9bd71a45555e521c4) - add C implementation for `math/base/special/ahavercos` [(##1419)](#1419)
+-   [`eace8f3`](https://github.com/stdlib-js/stdlib/commit/eace8f39f945f8b330fdfdd9bd71a45555e521c4) - add C implementation for `math/base/special/ahavercos` [(#1419)](https://github.com/stdlib-js/stdlib/pull/1419)
 
 </section>
 
@@ -2073,7 +2073,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`d4db8a9`](https://github.com/stdlib-js/stdlib/commit/d4db8a93b0c93cb3392b59ee031ce188399b90a5) - add C implementation for `math/base/special/ceil10` [(##2626)](#2626)
+-   [`d4db8a9`](https://github.com/stdlib-js/stdlib/commit/d4db8a93b0c93cb3392b59ee031ce188399b90a5) - add C implementation for `math/base/special/ceil10` [(#2626)](https://github.com/stdlib-js/stdlib/pull/2626)
 
 </section>
 
@@ -2095,7 +2095,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - add C implementation for `math/base/special/ceil2` [(##2602)](#2602)
+-   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - add C implementation for `math/base/special/ceil2` [(#2602)](https://github.com/stdlib-js/stdlib/pull/2602)
 
 </section>
 
@@ -2117,7 +2117,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - add C implementation for `math/base/special/ceilb` [(##2627)](#2627)
+-   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - add C implementation for `math/base/special/ceilb` [(#2627)](https://github.com/stdlib-js/stdlib/pull/2627)
 
 </section>
 
@@ -2325,7 +2325,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - add C implementation for `math/base/special/cosd` [(##2393)](#2393)
+-   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - add C implementation for `math/base/special/cosd` [(#2393)](https://github.com/stdlib-js/stdlib/pull/2393)
 -   [`0b0e240`](https://github.com/stdlib-js/stdlib/commit/0b0e240f6959ac1dae3bc00fe42b9930eb887e93) - add `math/base/special/cosd`
 
 </section>
@@ -2370,7 +2370,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - add C implementation for `math/base/special/cosm1` [(##2651)](#2651)
+-   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - add C implementation for `math/base/special/cosm1` [(#2651)](https://github.com/stdlib-js/stdlib/pull/2651)
 
 </section>
 
@@ -2392,7 +2392,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - add C implementation for `math/base/special/cospi` [(##2612)](#2612)
+-   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - add C implementation for `math/base/special/cospi` [(#2612)](https://github.com/stdlib-js/stdlib/pull/2612)
 
 </section>
 
@@ -2436,7 +2436,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - add C implementation for `math/base/special/cotd` [(##2443)](#2443)
+-   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - add C implementation for `math/base/special/cotd` [(#2443)](https://github.com/stdlib-js/stdlib/pull/2443)
 -   [`c5e01bf`](https://github.com/stdlib-js/stdlib/commit/c5e01bf5b7718ded999fa1f4841407ed27bfdfc1) - add `math/base/special/cotd`
 
 </section>
@@ -2503,7 +2503,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - add C implementation for `math/base/special/covercos` [(##2377)](#2377)
+-   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - add C implementation for `math/base/special/covercos` [(#2377)](https://github.com/stdlib-js/stdlib/pull/2377)
 
 </section>
 
@@ -2525,7 +2525,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - add C implementation for `math/base/special/coversin` [(##2361)](#2361)
+-   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - add C implementation for `math/base/special/coversin` [(#2361)](https://github.com/stdlib-js/stdlib/pull/2361)
 
 </section>
 
@@ -2635,7 +2635,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - add C implementation for `math/base/special/csc` [(##2367)](#2367 )
+-   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - add C implementation for `math/base/special/csc` [(#2367)](https://github.com/stdlib-js/stdlib/pull/2367 )
 -   [`b60ef62`](https://github.com/stdlib-js/stdlib/commit/b60ef6245ac44dbef3076f1122e91f4aa8406e6c) - add `math/base/special/csc`
 
 </section>
@@ -2658,7 +2658,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - add C implementation for `math/base/special/cscd` [(##2378)](#2378)
+-   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - add C implementation for `math/base/special/cscd` [(#2378)](https://github.com/stdlib-js/stdlib/pull/2378)
 -   [`bb6ac7e`](https://github.com/stdlib-js/stdlib/commit/bb6ac7ec68ee6a78cffd9527e477a2bc0fdcdf17) - add `math/base/special/cscd`
 
 </section>
@@ -2681,7 +2681,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`9d915c8`](https://github.com/stdlib-js/stdlib/commit/9d915c8cb1ff07e1d894429ea8e6b022ea53f415) - add C implementation for @stdlib/math/base/special/csch [(##1819)](#1819)
+-   [`9d915c8`](https://github.com/stdlib-js/stdlib/commit/9d915c8cb1ff07e1d894429ea8e6b022ea53f415) - add C implementation for @stdlib/math/base/special/csch [(#1819)](https://github.com/stdlib-js/stdlib/pull/1819)
 
 </section>
 
@@ -2693,7 +2693,7 @@ This release closes the following issue:
 
 This release closes the following issue:
 
-[##1816](#1816)
+[#1816](https://github.com/stdlib-js/stdlib/issues/1816)
 
 </section>
 
@@ -2737,7 +2737,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - add C implementation for `math/base/special/digamma` [(##2533)](#2533 )
+-   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - add C implementation for `math/base/special/digamma` [(#2533)](https://github.com/stdlib-js/stdlib/pull/2533 )
 
 </section>
 
@@ -2980,7 +2980,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`1414d1a`](https://github.com/stdlib-js/stdlib/commit/1414d1a55baaa6549510b679ea64dfa846b000fb) - add C implementation for `math/base/special/exp2` [(##2277)](#2277)
+-   [`1414d1a`](https://github.com/stdlib-js/stdlib/commit/1414d1a55baaa6549510b679ea64dfa846b000fb) - add C implementation for `math/base/special/exp2` [(#2277)](https://github.com/stdlib-js/stdlib/pull/2277)
 
 </section>
 
@@ -3068,7 +3068,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - add C implementation for `math/base/special/factorial` [(##2618)](#2618 )
+-   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - add C implementation for `math/base/special/factorial` [(#2618)](https://github.com/stdlib-js/stdlib/pull/2618 )
 
 </section>
 
@@ -3452,7 +3452,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - add C implementation for `math/base/special/floor10` [(##2619)](#2619)
+-   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - add C implementation for `math/base/special/floor10` [(#2619)](https://github.com/stdlib-js/stdlib/pull/2619)
 
 </section>
 
@@ -3496,7 +3496,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - add C implementation for `math/base/special/floorb` [(##2620)](#2620)
+-   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - add C implementation for `math/base/special/floorb` [(#2620)](https://github.com/stdlib-js/stdlib/pull/2620)
 
 </section>
 
@@ -3518,7 +3518,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - add C implementation for `math/base/special/floorsd` [(##2603)](#2603)
+-   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - add C implementation for `math/base/special/floorsd` [(#2603)](https://github.com/stdlib-js/stdlib/pull/2603)
 
 </section>
 
@@ -3563,7 +3563,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - add `math/base/special/fmod` [(##2562)](#2562)
+-   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - add `math/base/special/fmod` [(#2562)](https://github.com/stdlib-js/stdlib/pull/2562)
 
 </section>
 
@@ -3575,7 +3575,7 @@ This release closes the following issue:
 
 This release closes the following issue:
 
-[##2405](#2405)
+[#2405](https://github.com/stdlib-js/stdlib/issues/2405)
 
 </section>
 
@@ -3753,7 +3753,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - add C implementation for `math/base/special/hacovercos` [(##2388)](#2388)
+-   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - add C implementation for `math/base/special/hacovercos` [(#2388)](https://github.com/stdlib-js/stdlib/pull/2388)
 
 </section>
 
@@ -3775,7 +3775,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - add C implementation for `math/base/special/hacoversin` [(##2387)](#2387)
+-   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - add C implementation for `math/base/special/hacoversin` [(#2387)](https://github.com/stdlib-js/stdlib/pull/2387)
 
 </section>
 
@@ -3797,7 +3797,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - add C implementation for `math/base/special/havercos` [(##2410)](#2410 )
+-   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - add C implementation for `math/base/special/havercos` [(#2410)](https://github.com/stdlib-js/stdlib/pull/2410 )
 
 </section>
 
@@ -3819,7 +3819,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - add C implementation for `math/base/special/haversin` [(##2408)](#2408)
+-   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - add C implementation for `math/base/special/haversin` [(#2408)](https://github.com/stdlib-js/stdlib/pull/2408)
 
 </section>
 
@@ -3929,7 +3929,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`28e1548`](https://github.com/stdlib-js/stdlib/commit/28e154885ef536ebbd62471a4b7f18f4c5e1eec5) - add C implementation for `math/base/special/lcm` [(##2276)](#2276)
+-   [`28e1548`](https://github.com/stdlib-js/stdlib/commit/28e154885ef536ebbd62471a4b7f18f4c5e1eec5) - add C implementation for `math/base/special/lcm` [(#2276)](https://github.com/stdlib-js/stdlib/pull/2276)
 
 </section>
 
@@ -4183,7 +4183,7 @@ This release closes the following issue:
 
 This release closes the following issue:
 
-[##2170 ](#2170 )
+[#2170 ](https://github.com/stdlib-js/stdlib/issues/2170 )
 
 </section>
 
@@ -4313,7 +4313,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
--   [`e25fbc3`](https://github.com/stdlib-js/stdlib/commit/e25fbc33d4fb30525fa277c65758083ce16924ba) - resolve failing addon build in `math/base/special/maxabs` [(##1826)](#1826)
+-   [`e25fbc3`](https://github.com/stdlib-js/stdlib/commit/e25fbc33d4fb30525fa277c65758083ce16924ba) - resolve failing addon build in `math/base/special/maxabs` [(#1826)](https://github.com/stdlib-js/stdlib/pull/1826)
 
 </section>
 
@@ -4325,7 +4325,7 @@ This release closes the following issue:
 
 This release closes the following issue:
 
-[#todo#2113](stdlib-js/todo#2113)
+[#stdlib-js/todo#2113](https://github.com/stdlib-js/stdlib/issues/stdlib-js/todo#2113)
 
 </section>
 
@@ -4641,7 +4641,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
--   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - use significand mask in `math/base/special/rempio2` [(##2366)](#2366)
+-   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - use significand mask in `math/base/special/rempio2` [(#2366)](https://github.com/stdlib-js/stdlib/pull/2366)
 
 </section>
 
@@ -4717,7 +4717,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - add C implementation for `math/base/special/round2` [(##2537)](#2537)
+-   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - add C implementation for `math/base/special/round2` [(#2537)](https://github.com/stdlib-js/stdlib/pull/2537)
 
 </section>
 
@@ -4783,7 +4783,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - add C implementation for `math/base/special/secd` [(##2406)](#2406)
+-   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - add C implementation for `math/base/special/secd` [(#2406)](https://github.com/stdlib-js/stdlib/pull/2406)
 -   [`58e8c9a`](https://github.com/stdlib-js/stdlib/commit/58e8c9a6ceb0573af6906d96b49327802fec4604) - add `math/base/special/secd`
 
 </section>
@@ -4828,7 +4828,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - add C implementation for `math/base/special/sincos` [(##2646)](#2646)
+-   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - add C implementation for `math/base/special/sincos` [(#2646)](https://github.com/stdlib-js/stdlib/pull/2646)
 
 </section>
 
@@ -4872,7 +4872,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - add C implementation for `math/base/special/sinpi` [(##2610)](#2610)
+-   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - add C implementation for `math/base/special/sinpi` [(#2610)](https://github.com/stdlib-js/stdlib/pull/2610)
 
 </section>
 
@@ -4994,7 +4994,7 @@ A total of 2 issues were closed in this release:
 
 ##### Features
 
--   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - add C implementation for `math/base/special/tand` [(##2411)](#2411 )
+-   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - add C implementation for `math/base/special/tand` [(#2411)](https://github.com/stdlib-js/stdlib/pull/2411 )
 -   [`025c2c1`](https://github.com/stdlib-js/stdlib/commit/025c2c164f6d51a2192399d0c237d78a139ff772) - add `math/base/special/tand`
 
 </section>
@@ -5039,7 +5039,7 @@ A total of 2 issues were closed in this release:
 
 ##### Features
 
--   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - add C implementation for `math/base/special/trunc10` [(##2451)](#2451)
+-   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - add C implementation for `math/base/special/trunc10` [(#2451)](https://github.com/stdlib-js/stdlib/pull/2451)
 
 </section>
 
@@ -5061,7 +5061,7 @@ A total of 2 issues were closed in this release:
 
 ##### Features
 
--   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - add C implementation for `math/base/special/trunc2` [(##2436)](#2436)
+-   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - add C implementation for `math/base/special/trunc2` [(#2436)](https://github.com/stdlib-js/stdlib/pull/2436)
 
 </section>
 
@@ -5127,7 +5127,7 @@ A total of 2 issues were closed in this release:
 
 ##### Features
 
--   [`a4b2764`](https://github.com/stdlib-js/stdlib/commit/a4b276428bdc454a9412550375813f92bd242540) - add C implementation for `math/base/special/vercos` [(##2397)](#2397 )
+-   [`a4b2764`](https://github.com/stdlib-js/stdlib/commit/a4b276428bdc454a9412550375813f92bd242540) - add C implementation for `math/base/special/vercos` [(#2397)](https://github.com/stdlib-js/stdlib/pull/2397 )
 
 </section>
 
@@ -5149,7 +5149,7 @@ A total of 2 issues were closed in this release:
 
 ##### Features
 
--   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - add C implementation for `math/base/special/versin` [(##2398)](#2398 )
+-   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - add C implementation for `math/base/special/versin` [(#2398)](https://github.com/stdlib-js/stdlib/pull/2398 )
 
 </section>
 
@@ -5438,7 +5438,7 @@ This release closes the following issue:
 
 ##### Features
 
--   [`fa2359f`](https://github.com/stdlib-js/stdlib/commit/fa2359fd3d650e53a959d5e9a3084bfe041a96a0) - add `math/iter/sequences/tribonacci` [(##1393)](#1393)
+-   [`fa2359f`](https://github.com/stdlib-js/stdlib/commit/fa2359fd3d650e53a959d5e9a3084bfe041a96a0) - add `math/iter/sequences/tribonacci` [(#1393)](https://github.com/stdlib-js/stdlib/pull/1393)
 
 </section>
 
@@ -5450,7 +5450,7 @@ This release closes the following issue:
 
 This release closes the following issue:
 
-[##1331](#1331)
+[#1331](https://github.com/stdlib-js/stdlib/issues/1331)
 
 </section>
 
@@ -5530,7 +5530,7 @@ This release closes the following issue:
 
 A total of 29 issues were closed in this release:
 
-[##2405](#2405), [#733](https://github.com/stdlib-js/stdlib/issues/733), [#772](https://github.com/stdlib-js/stdlib/issues/772), [#860](https://github.com/stdlib-js/stdlib/issues/860), [#894](https://github.com/stdlib-js/stdlib/issues/894), [#968](https://github.com/stdlib-js/stdlib/pull/968), [#1668](https://github.com/stdlib-js/stdlib/issues/1668), [#1701](https://github.com/stdlib-js/stdlib/issues/1701), [#2029](https://github.com/stdlib-js/stdlib/issues/2029), [##2170 ](#2170 ), [##2150](#2150), [#1718](https://github.com/stdlib-js/stdlib/issues/1718), [#1723](https://github.com/stdlib-js/stdlib/issues/1723), [#1764](https://github.com/stdlib-js/stdlib/issues/1764), [#1822](https://github.com/stdlib-js/stdlib/issues/1822), [#1931 ](https://github.com/stdlib-js/stdlib/issues/1931 ), [#1938](https://github.com/stdlib-js/stdlib/issues/1938), [#1944](https://github.com/stdlib-js/stdlib/issues/1944), [#2035](https://github.com/stdlib-js/stdlib/issues/2035), [#2081](https://github.com/stdlib-js/stdlib/issues/2081), [#2109](https://github.com/stdlib-js/stdlib/issues/2109), [#2113](https://github.com/stdlib-js/stdlib/issues/2113), [#2118](https://github.com/stdlib-js/stdlib/issues/2118), [#2124](https://github.com/stdlib-js/stdlib/issues/2124), [##1828](#1828), [#todo#2113](stdlib-js/todo#2113), [##1816](#1816), [##776](#776), [##1331](#1331)
+[#733](https://github.com/stdlib-js/stdlib/issues/733), [#772](https://github.com/stdlib-js/stdlib/issues/772), [#776](https://github.com/stdlib-js/stdlib/issues/776), [#860](https://github.com/stdlib-js/stdlib/issues/860), [#894](https://github.com/stdlib-js/stdlib/issues/894), [#968](https://github.com/stdlib-js/stdlib/pull/968), [#1331](https://github.com/stdlib-js/stdlib/issues/1331), [#1668](https://github.com/stdlib-js/stdlib/issues/1668), [#1701](https://github.com/stdlib-js/stdlib/issues/1701), [#1718](https://github.com/stdlib-js/stdlib/issues/1718), [#1723](https://github.com/stdlib-js/stdlib/issues/1723), [#1764](https://github.com/stdlib-js/stdlib/issues/1764), [#1816](https://github.com/stdlib-js/stdlib/issues/1816), [#1822](https://github.com/stdlib-js/stdlib/issues/1822), [#1828](https://github.com/stdlib-js/stdlib/issues/1828), [#1931 ](https://github.com/stdlib-js/stdlib/issues/1931 ), [#1938](https://github.com/stdlib-js/stdlib/issues/1938), [#1944](https://github.com/stdlib-js/stdlib/issues/1944), [#2029](https://github.com/stdlib-js/stdlib/issues/2029), [#2035](https://github.com/stdlib-js/stdlib/issues/2035), [#2081](https://github.com/stdlib-js/stdlib/issues/2081), [#2109](https://github.com/stdlib-js/stdlib/issues/2109), [#2113](https://github.com/stdlib-js/stdlib/issues/2113), [#2118](https://github.com/stdlib-js/stdlib/issues/2118), [#2124](https://github.com/stdlib-js/stdlib/issues/2124), [#2150](https://github.com/stdlib-js/stdlib/issues/2150), [#2170 ](https://github.com/stdlib-js/stdlib/issues/2170 ), [#2405](https://github.com/stdlib-js/stdlib/issues/2405), [#stdlib-js/todo#2113](https://github.com/stdlib-js/stdlib/issues/stdlib-js/todo#2113)
 
 </section>
 
@@ -5582,11 +5582,12 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`26e46d5`](https://github.com/stdlib-js/stdlib/commit/26e46d57474904e02d69b98d8e06052333522257) - **docs:** fix missing `@private` tag [(#2672)](https://github.com/stdlib-js/stdlib/pull/2672) _(by Gunj Joshi)_
 -   [`c6dc95a`](https://github.com/stdlib-js/stdlib/commit/c6dc95aa33843100a7ba3918931eea934ed8caa8) - **feat:** add C implementation for `math/base/special/truncb` _(by Gunj Joshi)_
--   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - **feat:** add C implementation for `math/base/special/sincos` [(##2646)](#2646) _(by Gunj Joshi)_
+-   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - **feat:** add C implementation for `math/base/special/sincos` [(#2646)](https://github.com/stdlib-js/stdlib/pull/2646) _(by Gunj Joshi)_
 -   [`7b7a3e6`](https://github.com/stdlib-js/stdlib/commit/7b7a3e634113685c2b6ed1fdb076d40f6e5e4b7a) - **docs:** fix typos in source comments [(#2657)](https://github.com/stdlib-js/stdlib/pull/2657) _(by Gunj Joshi)_
--   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - **feat:** add C implementation for `math/base/special/cosm1` [(##2651)](#2651) _(by Gunj Joshi)_
--   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - **feat:** add C implementation for `math/base/special/binet` [(##2653)](#2653) _(by Gunj Joshi)_
+-   [`143e88d`](https://github.com/stdlib-js/stdlib/commit/143e88d8089ee484eeb54df1d8739f3e146c4cae) - **feat:** add C implementation for `math/base/special/cosm1` [(#2651)](https://github.com/stdlib-js/stdlib/pull/2651) _(by Gunj Joshi)_
+-   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - **feat:** add C implementation for `math/base/special/binet` [(#2653)](https://github.com/stdlib-js/stdlib/pull/2653) _(by Gunj Joshi)_
 -   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`8de8d90`](https://github.com/stdlib-js/stdlib/commit/8de8d90b8a5d72f7c2e57ae21593be5f5f1eb8e7) - **refactor:** perform explicit cast [(#2642)](https://github.com/stdlib-js/stdlib/pull/2642) _(by Gunj Joshi)_
 -   [`6a0cbd9`](https://github.com/stdlib-js/stdlib/commit/6a0cbd9c10f0895d795be449fe1ea2a456f2683a) - **test:** fix tests for native implementation [(#2641)](https://github.com/stdlib-js/stdlib/pull/2641) _(by Gunj Joshi)_
@@ -5595,26 +5596,26 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`854b793`](https://github.com/stdlib-js/stdlib/commit/854b793ecdcc540067d9989f4c14e34fb9b736bb) - **feat:** add C implementation for `math/base/special/ceilsd` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b063947`](https://github.com/stdlib-js/stdlib/commit/b0639472175808254213fd35d2902e52b998b4cc) - **refactor:** reduce code complexity [(#2632)](https://github.com/stdlib-js/stdlib/pull/2632) _(by Gunj Joshi, Athan Reines)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
--   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - **feat:** add C implementation for `math/base/special/ceilb` [(##2627)](#2627) _(by Gunj Joshi)_
--   [`d4db8a9`](https://github.com/stdlib-js/stdlib/commit/d4db8a93b0c93cb3392b59ee031ce188399b90a5) - **feat:** add C implementation for `math/base/special/ceil10` [(##2626)](#2626) _(by Gunj Joshi)_
+-   [`607135f`](https://github.com/stdlib-js/stdlib/commit/607135f297a48a24d8d312a61ddfe98a332b1ca5) - **feat:** add C implementation for `math/base/special/ceilb` [(#2627)](https://github.com/stdlib-js/stdlib/pull/2627) _(by Gunj Joshi)_
+-   [`d4db8a9`](https://github.com/stdlib-js/stdlib/commit/d4db8a93b0c93cb3392b59ee031ce188399b90a5) - **feat:** add C implementation for `math/base/special/ceil10` [(#2626)](https://github.com/stdlib-js/stdlib/pull/2626) _(by Gunj Joshi)_
 -   [`5822206`](https://github.com/stdlib-js/stdlib/commit/5822206c2a023cb097ec057ed99b155383db909d) - **fix:** remove unused include in header file [(#2624)](https://github.com/stdlib-js/stdlib/pull/2624) _(by Gunj Joshi)_
 -   [`b82c6f0`](https://github.com/stdlib-js/stdlib/commit/b82c6f020ef6fe6b045fc71ccf773bb18c451303) - **remove:** remove `math/base/ops/cmul` _(by Athan Reines)_
 -   [`e3a3679`](https://github.com/stdlib-js/stdlib/commit/e3a3679f1e733cf02ce47cdc4bd0137bd37bef41) - **refactor:** update paths _(by Athan Reines)_
 -   [`4aa299e`](https://github.com/stdlib-js/stdlib/commit/4aa299e35880a36de22c0c483bb128057b6e3784) - **remove:** remove `math/base/ops/cmulf` _(by Athan Reines)_
 -   [`ddd4403`](https://github.com/stdlib-js/stdlib/commit/ddd44032f9d8a6d318c80e3b239ff72280ffc599) - **refactor:** update paths _(by Athan Reines)_
 -   [`310150f`](https://github.com/stdlib-js/stdlib/commit/310150f9e910eb0b202ef2cefcf6a99d1ee0c1ed) - **docs:** fix notes [(#2623)](https://github.com/stdlib-js/stdlib/pull/2623) _(by Gunj Joshi)_
--   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - **feat:** update namespace TypeScript declarations [(##2621)](#2621) _(by stdlib-bot, Philipp Burckhardt)_
--   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
+-   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - **feat:** update namespace TypeScript declarations [(#2621)](https://github.com/stdlib-js/stdlib/pull/2621) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(#2617)](https://github.com/stdlib-js/stdlib/pull/2617) _(by Gunj Joshi)_
 -   [`60c4a36`](https://github.com/stdlib-js/stdlib/commit/60c4a36e189ddaf4aba2d9f4096e7a066d5dcbea) - **remove:** remove `math/base/ops/cadd` _(by Athan Reines)_
 -   [`0406147`](https://github.com/stdlib-js/stdlib/commit/04061476d1036e1b8b786736b1ba1653eddff1ef) - **refactor:** update paths _(by Athan Reines)_
 -   [`3e09994`](https://github.com/stdlib-js/stdlib/commit/3e099945fc7bb4e638c7ed407b26cc51d849657b) - **remove:** remove `math/base/ops/caddf` _(by Athan Reines)_
--   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - **feat:** add C implementation for `math/base/special/floorb` [(##2620)](#2620) _(by Gunj Joshi)_
+-   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - **feat:** add C implementation for `math/base/special/floorb` [(#2620)](https://github.com/stdlib-js/stdlib/pull/2620) _(by Gunj Joshi)_
 -   [`b9703b5`](https://github.com/stdlib-js/stdlib/commit/b9703b569dc2f0a67e604e388a0d188b08138b48) - **refactor:** update paths _(by Athan Reines)_
--   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - **feat:** add C implementation for `math/base/special/factorial` [(##2618)](#2618 ) _(by Gunj Joshi)_
--   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - **feat:** add C implementation for `math/base/special/floor10` [(##2619)](#2619) _(by Gunj Joshi)_
+-   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - **feat:** add C implementation for `math/base/special/factorial` [(#2618)](https://github.com/stdlib-js/stdlib/pull/2618 ) _(by Gunj Joshi)_
+-   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - **feat:** add C implementation for `math/base/special/floor10` [(#2619)](https://github.com/stdlib-js/stdlib/pull/2619) _(by Gunj Joshi)_
 -   [`0d796b2`](https://github.com/stdlib-js/stdlib/commit/0d796b2a86fe0a08d1f3ed1827aaf2ce355f9b4f) - **refactor:** use stdlib APIs and adjust test tolerances _(by Athan Reines)_
--   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - **feat:** add C implementation for `math/base/special/sinpi` [(##2610)](#2610) _(by Gunj Joshi)_
--   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - **feat:** add C implementation for `math/base/special/cospi` [(##2612)](#2612) _(by Gunj Joshi)_
+-   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - **feat:** add C implementation for `math/base/special/sinpi` [(#2610)](https://github.com/stdlib-js/stdlib/pull/2610) _(by Gunj Joshi)_
+-   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - **feat:** add C implementation for `math/base/special/cospi` [(#2612)](https://github.com/stdlib-js/stdlib/pull/2612) _(by Gunj Joshi)_
 -   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
 -   [`5072206`](https://github.com/stdlib-js/stdlib/commit/50722067d1c17e17be721982e5a99ed65868d9ae) - **refactor:** fix function name _(by Athan Reines)_
 -   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
@@ -5622,25 +5623,25 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`18b3c79`](https://github.com/stdlib-js/stdlib/commit/18b3c79c5035c7082618b7379cd6576e64393a96) - **refactor:** update paths _(by Athan Reines)_
 -   [`8908bda`](https://github.com/stdlib-js/stdlib/commit/8908bda11588f80edf375466ae9e84a3d70cf7d3) - **refactor:** update paths _(by Athan Reines)_
 -   [`ad760a9`](https://github.com/stdlib-js/stdlib/commit/ad760a922086631226d8f759a0d467c707fbc0fb) - **refactor:** update paths _(by Athan Reines)_
--   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - **feat:** add C implementation for `math/base/special/ceil2` [(##2602)](#2602) _(by Gunj Joshi)_
--   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - **feat:** add C implementation for `math/base/special/floorsd` [(##2603)](#2603) _(by Gunj Joshi)_
+-   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - **feat:** add C implementation for `math/base/special/ceil2` [(#2602)](https://github.com/stdlib-js/stdlib/pull/2602) _(by Gunj Joshi)_
+-   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - **feat:** add C implementation for `math/base/special/floorsd` [(#2603)](https://github.com/stdlib-js/stdlib/pull/2603) _(by Gunj Joshi)_
 -   [`08dbbe5`](https://github.com/stdlib-js/stdlib/commit/08dbbe5a6fa6a3b82c049ef03deaa6eb8daaaee9) - **test:** add tests for negative values in `math/base/special/fmod` [(#2600)](https://github.com/stdlib-js/stdlib/pull/2600) _(by Gunj Joshi)_
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`35af244`](https://github.com/stdlib-js/stdlib/commit/35af24442f634296da8248552f307229b1214c08) - **feat:** add C implementation for `math/base/special/gamma` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`26337e1`](https://github.com/stdlib-js/stdlib/commit/26337e1644c963b8006e38c4b5e2ee74eac8e33f) - **docs:** fix return annotation tag in C comments _(by Philipp Burckhardt)_
--   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - **feat:** add `math/base/special/fmod` [(##2562)](#2562) _(by Gunj Joshi)_
+-   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - **feat:** add `math/base/special/fmod` [(#2562)](https://github.com/stdlib-js/stdlib/pull/2562) _(by Gunj Joshi)_
 -   [`e9d0de8`](https://github.com/stdlib-js/stdlib/commit/e9d0de8077f47e49ff703c1b106e262454e5d15d) - **chore:** update package meta data [(#2596)](https://github.com/stdlib-js/stdlib/pull/2596) _(by stdlib-bot, Athan Reines)_
 -   [`2e723fb`](https://github.com/stdlib-js/stdlib/commit/2e723fbb6e3acfca2d0d413c26c96a207a616636) - **feat:** add C implementation for `math/base/special/roundb` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`e8932ee`](https://github.com/stdlib-js/stdlib/commit/e8932ee36e54cf9fd4594abfedc91b5ff718f2fd) - **feat:** add C implementation for `math/base/special/truncn` _(by Gunj Joshi)_
--   [`ed638e3`](https://github.com/stdlib-js/stdlib/commit/ed638e392f7425c899abda488b943d0ffbd37f78) - **docs:** update Boost version and fix C function name in README.md [(##2577)](#2577) _(by Gunj Joshi)_
+-   [`ed638e3`](https://github.com/stdlib-js/stdlib/commit/ed638e392f7425c899abda488b943d0ffbd37f78) - **docs:** update Boost version and fix C function name in README.md [(#2577)](https://github.com/stdlib-js/stdlib/pull/2577) _(by Gunj Joshi)_
 -   [`53eb98c`](https://github.com/stdlib-js/stdlib/commit/53eb98c30fe092a4871e92001be36318626fd68f) - **docs:** fix function name [(#2579)](https://github.com/stdlib-js/stdlib/pull/2579) _(by Gunj Joshi)_
 -   [`b4cde28`](https://github.com/stdlib-js/stdlib/commit/b4cde28b465725e0d2f2e84757a4a533834503c7) - **docs:** fix function name [(#2580)](https://github.com/stdlib-js/stdlib/pull/2580) _(by Gunj Joshi)_
--   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - **feat:** add C implementation for `math/base/special/digamma` [(##2533)](#2533 ) _(by Gunj Joshi)_
+-   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - **feat:** add C implementation for `math/base/special/digamma` [(#2533)](https://github.com/stdlib-js/stdlib/pull/2533 ) _(by Gunj Joshi)_
 -   [`dbef328`](https://github.com/stdlib-js/stdlib/commit/dbef3280431240b7a2cc358a54923481115adb24) - **feat:** add C implementation for `math/base/special/round10` _(by Gunj Joshi)_
 -   [`74f3c08`](https://github.com/stdlib-js/stdlib/commit/74f3c08113fa7555d9010d3cb814f7a8ea7ea47e) - **feat:** add `dii_d` in `math/base/napi/ternary` [(#2546)](https://github.com/stdlib-js/stdlib/pull/2546) _(by Gunj Joshi, Athan Reines)_
 -   [`ca18359`](https://github.com/stdlib-js/stdlib/commit/ca18359c4b18000828a214bc52a32db7ac6c1121) - **refactor:** update to use stdlib `pow` [(#2539)](https://github.com/stdlib-js/stdlib/pull/2539) _(by Gunj Joshi)_
--   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - **feat:** add C implementation for `math/base/special/round2` [(##2537)](#2537) _(by Gunj Joshi)_
--   [`62e703a`](https://github.com/stdlib-js/stdlib/commit/62e703a5eb7df95a40b3592366da89c5ff42a1b1) - **docs:** add missing `@private` in `math/base/special/round/lib/native.js` [(##2536)](#2536) _(by Gunj Joshi)_
+-   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - **feat:** add C implementation for `math/base/special/round2` [(#2537)](https://github.com/stdlib-js/stdlib/pull/2537) _(by Gunj Joshi)_
+-   [`62e703a`](https://github.com/stdlib-js/stdlib/commit/62e703a5eb7df95a40b3592366da89c5ff42a1b1) - **docs:** add missing `@private` in `math/base/special/round/lib/native.js` [(#2536)](https://github.com/stdlib-js/stdlib/pull/2536) _(by Gunj Joshi)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - **feat:** add C implementation for `math/base/special/beta` _(by Gunj Joshi, Philipp Burckhardt)_
@@ -5648,42 +5649,42 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`457662c`](https://github.com/stdlib-js/stdlib/commit/457662c8e8bcd3ff74edc7d820d882119b40cfbe) - **style:** add linebreak _(by Athan Reines)_
 -   [`2789eff`](https://github.com/stdlib-js/stdlib/commit/2789eff674a6832e11cb4ec0f8f4090bf05554b2) - **docs:** fix function name in README example [(#2506)](https://github.com/stdlib-js/stdlib/pull/2506) _(by Gunj Joshi)_
 -   [`82c8ae0`](https://github.com/stdlib-js/stdlib/commit/82c8ae03edea7886ce0f67ca6e1c2a3028ef8fd9) - **feat:** add C implementation for `math/base/special/floor2` _(by Gunj Joshi)_
--   [`2f62c39`](https://github.com/stdlib-js/stdlib/commit/2f62c39e03c5445f3cc3b91226453c2eed366013) - **chore:** update package meta data [(##2481)](#2481) _(by stdlib-bot)_
--   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - **feat:** add C implementation for `math/base/special/trunc10` [(##2451)](#2451) _(by Gunj Joshi)_
+-   [`2f62c39`](https://github.com/stdlib-js/stdlib/commit/2f62c39e03c5445f3cc3b91226453c2eed366013) - **chore:** update package meta data [(#2481)](https://github.com/stdlib-js/stdlib/pull/2481) _(by stdlib-bot)_
+-   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - **feat:** add C implementation for `math/base/special/trunc10` [(#2451)](https://github.com/stdlib-js/stdlib/pull/2451) _(by Gunj Joshi)_
 -   [`9e56edf`](https://github.com/stdlib-js/stdlib/commit/9e56edf06218960bb5a3b1c22a5a2198f2dc0cb9) - **chore:** minor clean-up of `math/base/special/acsc` _(by Pranav Goswami, Athan Reines, Philipp Burckhardt)_
 -   [`50d806d`](https://github.com/stdlib-js/stdlib/commit/50d806dd22dd25a6f6f2900bb5a8ccc0ed7ef232) - **test:** add missing test for `math/base/special/cotd` [(#2449)](https://github.com/stdlib-js/stdlib/pull/2449) _(by Gunj Joshi)_
--   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - **feat:** add C implementation for `math/base/special/cotd` [(##2443)](#2443) _(by Gunj Joshi)_
--   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - **feat:** add C implementation for `math/base/special/trunc2` [(##2436)](#2436) _(by Gunj Joshi)_
+-   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - **feat:** add C implementation for `math/base/special/cotd` [(#2443)](https://github.com/stdlib-js/stdlib/pull/2443) _(by Gunj Joshi)_
+-   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - **feat:** add C implementation for `math/base/special/trunc2` [(#2436)](https://github.com/stdlib-js/stdlib/pull/2436) _(by Gunj Joshi)_
 -   [`e26363d`](https://github.com/stdlib-js/stdlib/commit/e26363d5a9df20243c6be186bbf63017517c5839) - **chore:** update package meta data [(#2439)](https://github.com/stdlib-js/stdlib/pull/2439) _(by stdlib-bot, Athan Reines)_
 -   [`377403b`](https://github.com/stdlib-js/stdlib/commit/377403b1ecb696a54e038b8750efd09481fe3ba0) - **test:** add missing tests for `math/base/special/cosd` [(#2418)](https://github.com/stdlib-js/stdlib/pull/2418) _(by Gunj Joshi)_
 -   [`c88dbaa`](https://github.com/stdlib-js/stdlib/commit/c88dbaaf68dd67dc5bdd7bb71ef9ed4ad01ef42a) - **test:** add missing tests for `math/base/special/tand` [(#2417)](https://github.com/stdlib-js/stdlib/pull/2417) _(by Gunj Joshi)_
--   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - **feat:** add C implementation for `math/base/special/haversin` [(##2408)](#2408) _(by Gunj Joshi)_
--   [`1ea46e9`](https://github.com/stdlib-js/stdlib/commit/1ea46e990236941d977d6dc872ba0475eab366e8) - **docs:** use correct function name in example in `math/base/special/hacoversin` [(##2409)](#2409 ) _(by Gunj Joshi)_
--   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - **feat:** add C implementation for `math/base/special/havercos` [(##2410)](#2410 ) _(by Gunj Joshi)_
--   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - **feat:** add C implementation for `math/base/special/tand` [(##2411)](#2411 ) _(by Gunj Joshi)_
+-   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - **feat:** add C implementation for `math/base/special/haversin` [(#2408)](https://github.com/stdlib-js/stdlib/pull/2408) _(by Gunj Joshi)_
+-   [`1ea46e9`](https://github.com/stdlib-js/stdlib/commit/1ea46e990236941d977d6dc872ba0475eab366e8) - **docs:** use correct function name in example in `math/base/special/hacoversin` [(#2409)](https://github.com/stdlib-js/stdlib/pull/2409 ) _(by Gunj Joshi)_
+-   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - **feat:** add C implementation for `math/base/special/havercos` [(#2410)](https://github.com/stdlib-js/stdlib/pull/2410 ) _(by Gunj Joshi)_
+-   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - **feat:** add C implementation for `math/base/special/tand` [(#2411)](https://github.com/stdlib-js/stdlib/pull/2411 ) _(by Gunj Joshi)_
 -   [`7ddca8e`](https://github.com/stdlib-js/stdlib/commit/7ddca8e7270b9d325d8047524a62381fb56dfc5e) - **feat:** add C implementation for `math/base/special/erfinv` _(by Pranav Goswami, Philipp Burckhardt)_
 -   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - **feat:** add C implementation for `math/base/special/pow` _(by Aman Bhansali, Athan, Philipp Burckhardt)_
 -   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - **fix:** update function name to match examples _(by Philipp Burckhardt)_
--   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(##2406)](#2406) _(by Gunj Joshi)_
+-   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(#2406)](https://github.com/stdlib-js/stdlib/pull/2406) _(by Gunj Joshi)_
 -   [`a8ce905`](https://github.com/stdlib-js/stdlib/commit/a8ce905a5ab79798b2dea0a97aef3bdaa65bb0c5) - **feat:** add C implementation for  `math/base/assert/int32-is-even` _(by Rejoan Sardar, Philipp Burckhardt)_
--   [`a4b2764`](https://github.com/stdlib-js/stdlib/commit/a4b276428bdc454a9412550375813f92bd242540) - **feat:** add C implementation for `math/base/special/vercos` [(##2397)](#2397 ) _(by Gunj Joshi)_
--   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - **feat:** add C implementation for `math/base/special/versin` [(##2398)](#2398 ) _(by Gunj Joshi)_
--   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - **feat:** add C implementation for `math/base/special/cosd` [(##2393)](#2393) _(by Gunj Joshi)_
--   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - **feat:** add C implementation for `math/base/special/hacoversin` [(##2387)](#2387) _(by Gunj Joshi)_
--   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - **feat:** add C implementation for `math/base/special/hacovercos` [(##2388)](#2388) _(by Gunj Joshi)_
+-   [`a4b2764`](https://github.com/stdlib-js/stdlib/commit/a4b276428bdc454a9412550375813f92bd242540) - **feat:** add C implementation for `math/base/special/vercos` [(#2397)](https://github.com/stdlib-js/stdlib/pull/2397 ) _(by Gunj Joshi)_
+-   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - **feat:** add C implementation for `math/base/special/versin` [(#2398)](https://github.com/stdlib-js/stdlib/pull/2398 ) _(by Gunj Joshi)_
+-   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - **feat:** add C implementation for `math/base/special/cosd` [(#2393)](https://github.com/stdlib-js/stdlib/pull/2393) _(by Gunj Joshi)_
+-   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - **feat:** add C implementation for `math/base/special/hacoversin` [(#2387)](https://github.com/stdlib-js/stdlib/pull/2387) _(by Gunj Joshi)_
+-   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - **feat:** add C implementation for `math/base/special/hacovercos` [(#2388)](https://github.com/stdlib-js/stdlib/pull/2388) _(by Gunj Joshi)_
 -   [`53cf211`](https://github.com/stdlib-js/stdlib/commit/53cf211f341dc87077710b30ac41a0938e83b773) - **fix:** use correct assignment and adjust test tolerances _(by Athan Reines)_
--   [`11c882d`](https://github.com/stdlib-js/stdlib/commit/11c882dcc261abe6a898a3061b45af7f0d4a41cd) - **chore:** update package meta data [(##2379)](#2379) _(by stdlib-bot, Athan Reines)_
--   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - **feat:** add C implementation for `math/base/special/covercos` [(##2377)](#2377) _(by Gunj Joshi)_
--   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - **feat:** add C implementation for `math/base/special/cscd` [(##2378)](#2378) _(by Gunj Joshi)_
+-   [`11c882d`](https://github.com/stdlib-js/stdlib/commit/11c882dcc261abe6a898a3061b45af7f0d4a41cd) - **chore:** update package meta data [(#2379)](https://github.com/stdlib-js/stdlib/pull/2379) _(by stdlib-bot, Athan Reines)_
+-   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - **feat:** add C implementation for `math/base/special/covercos` [(#2377)](https://github.com/stdlib-js/stdlib/pull/2377) _(by Gunj Joshi)_
+-   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - **feat:** add C implementation for `math/base/special/cscd` [(#2378)](https://github.com/stdlib-js/stdlib/pull/2378) _(by Gunj Joshi)_
 -   [`8304a04`](https://github.com/stdlib-js/stdlib/commit/8304a041c10450a797c64c2fffafc6b0e4bd1a04) - **feat:** add C implementation for `math/base/special/cot` _(by Gunj Joshi, Philipp Burckhardt)_
--   [`4c95c5a`](https://github.com/stdlib-js/stdlib/commit/4c95c5ac1cc58e3ed3db0b13a653ad7680a0393a) - **docs:** use descriptive variable names [(##2373)](#2373) _(by Gunj Joshi)_
--   [`c1ef722`](https://github.com/stdlib-js/stdlib/commit/c1ef722991b1743b02c897332d0e2b3005a97494) - **docs:** update return annotation value [(##2370)](#2370) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`4c95c5a`](https://github.com/stdlib-js/stdlib/commit/4c95c5ac1cc58e3ed3db0b13a653ad7680a0393a) - **docs:** use descriptive variable names [(#2373)](https://github.com/stdlib-js/stdlib/pull/2373) _(by Gunj Joshi)_
+-   [`c1ef722`](https://github.com/stdlib-js/stdlib/commit/c1ef722991b1743b02c897332d0e2b3005a97494) - **docs:** update return annotation value [(#2370)](https://github.com/stdlib-js/stdlib/pull/2370) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`6199f14`](https://github.com/stdlib-js/stdlib/commit/6199f14235f3aff23b57504bd62923ebf45555e0) - **feat:** add C implementation for `math/base/special/tan` _(by Gunj Joshi)_
--   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(##2371)](#2371 ) _(by stdlib-bot, Philipp Burckhardt)_
--   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - **feat:** add C implementation for `math/base/special/csc` [(##2367)](#2367 ) _(by Gunj Joshi)_
--   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - **fix:** use significand mask in `math/base/special/rempio2` [(##2366)](#2366) _(by Gunj Joshi)_
--   [`9df1610`](https://github.com/stdlib-js/stdlib/commit/9df16105aa2d89808d3395c610334ca9cce35b3c) - **docs:** remove long comment [(##2364)](#2364) _(by Gunj Joshi)_
--   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - **feat:** add C implementation for `math/base/special/coversin` [(##2361)](#2361) _(by Gunj Joshi)_
+-   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(#2371)](https://github.com/stdlib-js/stdlib/pull/2371 ) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - **feat:** add C implementation for `math/base/special/csc` [(#2367)](https://github.com/stdlib-js/stdlib/pull/2367 ) _(by Gunj Joshi)_
+-   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - **fix:** use significand mask in `math/base/special/rempio2` [(#2366)](https://github.com/stdlib-js/stdlib/pull/2366) _(by Gunj Joshi)_
+-   [`9df1610`](https://github.com/stdlib-js/stdlib/commit/9df16105aa2d89808d3395c610334ca9cce35b3c) - **docs:** remove long comment [(#2364)](https://github.com/stdlib-js/stdlib/pull/2364) _(by Gunj Joshi)_
+-   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - **feat:** add C implementation for `math/base/special/coversin` [(#2361)](https://github.com/stdlib-js/stdlib/pull/2361) _(by Gunj Joshi)_
 -   [`34bc79c`](https://github.com/stdlib-js/stdlib/commit/34bc79cf154e0c82320c4a60c2cc805434a4b6e6) - **chore:** delete extra repl.txt file _(by Philipp Burckhardt)_
 -   [`a4dee7d`](https://github.com/stdlib-js/stdlib/commit/a4dee7d62df7875184dfc8fc3212afe086587353) - **fix:** move repl.txt file and address feedback _(by Philipp Burckhardt)_
 -   [`a7e5bb3`](https://github.com/stdlib-js/stdlib/commit/a7e5bb34eb13a2f774dd4e6840854266215b1264) - **chore:** update line endings _(by Philipp Burckhardt)_
@@ -5704,13 +5705,13 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`7acb708`](https://github.com/stdlib-js/stdlib/commit/7acb708696e5e8f7199fde4b9a20079cb60d41a5) - **style:** fix spacing and line breaks [(#2296)](https://github.com/stdlib-js/stdlib/pull/2296) _(by Gunj Joshi)_
 -   [`65619f9`](https://github.com/stdlib-js/stdlib/commit/65619f9450eaca20d834543f494d5f312e692810) - **refactor:** use signed integers for `math/base/special/log2` [(#2295)](https://github.com/stdlib-js/stdlib/pull/2295) _(by Gunj Joshi)_
 -   [`8dceccc`](https://github.com/stdlib-js/stdlib/commit/8dceccc2c68a5a0beabd8a90329d7172bb33e8b9) - **refactor:** use signed integers for `math/base/special/log10` [(#2294)](https://github.com/stdlib-js/stdlib/pull/2294) _(by Gunj Joshi, Athan Reines)_
--   [`133dd8b`](https://github.com/stdlib-js/stdlib/commit/133dd8bdce3709d5aeda84906b79882f86d9989d) - **chore:** update package meta data [(##2251)](#2251) _(by stdlib-bot)_
--   [`d3215eb`](https://github.com/stdlib-js/stdlib/commit/d3215eb50a3837122325f8db0415797f81d46128) - **refactor:** update `math/base/special/log10` to follow FreeBSD version `12.2.0` [(##2215)](#2215) _(by Gunj Joshi)_
--   [`1414d1a`](https://github.com/stdlib-js/stdlib/commit/1414d1a55baaa6549510b679ea64dfa846b000fb) - **feat:** add C implementation for `math/base/special/exp2` [(##2277)](#2277) _(by Gunj Joshi)_
--   [`28e1548`](https://github.com/stdlib-js/stdlib/commit/28e154885ef536ebbd62471a4b7f18f4c5e1eec5) - **feat:** add C implementation for `math/base/special/lcm` [(##2276)](#2276) _(by Gunj Joshi)_
+-   [`133dd8b`](https://github.com/stdlib-js/stdlib/commit/133dd8bdce3709d5aeda84906b79882f86d9989d) - **chore:** update package meta data [(#2251)](https://github.com/stdlib-js/stdlib/pull/2251) _(by stdlib-bot)_
+-   [`d3215eb`](https://github.com/stdlib-js/stdlib/commit/d3215eb50a3837122325f8db0415797f81d46128) - **refactor:** update `math/base/special/log10` to follow FreeBSD version `12.2.0` [(#2215)](https://github.com/stdlib-js/stdlib/pull/2215) _(by Gunj Joshi)_
+-   [`1414d1a`](https://github.com/stdlib-js/stdlib/commit/1414d1a55baaa6549510b679ea64dfa846b000fb) - **feat:** add C implementation for `math/base/special/exp2` [(#2277)](https://github.com/stdlib-js/stdlib/pull/2277) _(by Gunj Joshi)_
+-   [`28e1548`](https://github.com/stdlib-js/stdlib/commit/28e154885ef536ebbd62471a4b7f18f4c5e1eec5) - **feat:** add C implementation for `math/base/special/lcm` [(#2276)](https://github.com/stdlib-js/stdlib/pull/2276) _(by Gunj Joshi)_
 -   [`1bc3682`](https://github.com/stdlib-js/stdlib/commit/1bc36829f1d4a1508acd17f0ffcdc31167a30f20) - **feat:** add C implementation for `math/base/special/negafibonacci` _(by Gunj Joshi, Pranav Goswami, Philipp Burckhardt)_
 -   [`1ba660a`](https://github.com/stdlib-js/stdlib/commit/1ba660abde970312ef52b49b3bf0cf3af4200f3d) - **feat:** add C implementation for `math/base/special/fibonacci-index` _(by Gunj Joshi, Philipp Burckhardt)_
--   [`3a3b1e0`](https://github.com/stdlib-js/stdlib/commit/3a3b1e08f73a54c5ee46d73045805aee0bb1196d) - **docs:** update package URLs [(##2269)](#2269) _(by stdlib-bot)_
+-   [`3a3b1e0`](https://github.com/stdlib-js/stdlib/commit/3a3b1e08f73a54c5ee46d73045805aee0bb1196d) - **docs:** update package URLs [(#2269)](https://github.com/stdlib-js/stdlib/pull/2269) _(by stdlib-bot)_
 -   [`44aa02f`](https://github.com/stdlib-js/stdlib/commit/44aa02fd4339364a4717ccfac6fc7c1b1ce616bc) - **refactor:** ensure variables are static _(by Athan Reines)_
 -   [`8089b88`](https://github.com/stdlib-js/stdlib/commit/8089b886a4d7d89f15abb068b1021d93f9c4f64e) - **docs:** update paths _(by Athan Reines)_
 -   [`038b199`](https://github.com/stdlib-js/stdlib/commit/038b199c32842c02cf678e3ae8305a17aacda05e) - **docs:** update paths _(by Athan Reines)_
@@ -5719,23 +5720,23 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - **fix:** update include paths _(by Athan Reines)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
 -   [`c37109b`](https://github.com/stdlib-js/stdlib/commit/c37109b3c683878107df935c393a9301cb38d5a7) - **test:** fix missing argument _(by Athan Reines)_
--   [`f626b3d`](https://github.com/stdlib-js/stdlib/commit/f626b3d45c5fc4b55ff08dc53da094173a719732) - **docs:** update related packages sections [(##2255)](#2255) _(by stdlib-bot)_
+-   [`f626b3d`](https://github.com/stdlib-js/stdlib/commit/f626b3d45c5fc4b55ff08dc53da094173a719732) - **docs:** update related packages sections [(#2255)](https://github.com/stdlib-js/stdlib/pull/2255) _(by stdlib-bot)_
 -   [`947e77f`](https://github.com/stdlib-js/stdlib/commit/947e77f645e36d13cacfd68b97c6311a5524195a) - **fix:** handle large numbers correctly and revert to Math.round for JS _(by Philipp Burckhardt)_
 -   [`0227bf0`](https://github.com/stdlib-js/stdlib/commit/0227bf0cbf95d5168bfa8efaf9f0286869f753fe) - **feat:** add C implementation for `math/base/special/round` _(by Pranav Goswami, Philipp Burckhardt)_
--   [`9ef09e2`](https://github.com/stdlib-js/stdlib/commit/9ef09e2cb6c9e777edcccaacd9d2ff681b0b4381) - **docs:** update related packages sections  [(##2248)](#2248) _(by stdlib-bot)_
+-   [`9ef09e2`](https://github.com/stdlib-js/stdlib/commit/9ef09e2cb6c9e777edcccaacd9d2ff681b0b4381) - **docs:** update related packages sections  [(#2248)](https://github.com/stdlib-js/stdlib/pull/2248) _(by stdlib-bot)_
 -   [`40bf4fa`](https://github.com/stdlib-js/stdlib/commit/40bf4fa7b188024cd0f0a98bfeb1e7f4c2ff3ec0) - **chore:** remove trailing space _(by Philipp Burckhardt)_
 -   [`09618b7`](https://github.com/stdlib-js/stdlib/commit/09618b7064d674d3e4afd1f67d877b1388098784) - **feat:** update namespace TypeScript declarations _(by stdlib-bot, Philipp Burckhardt)_
--   [`fad5efb`](https://github.com/stdlib-js/stdlib/commit/fad5efbeba4c9a051dd8a99eb3501f71f7847892) - **docs:** update namespace table of contents [(##2244)](#2244) _(by stdlib-bot, Philipp Burckhardt)_
--   [`ec98887`](https://github.com/stdlib-js/stdlib/commit/ec9888724c28aa7218d88ff62b91b71c0089c559) - **docs:** update related packages sections [(##2241)](#2241) _(by stdlib-bot)_
--   [`53fd65d`](https://github.com/stdlib-js/stdlib/commit/53fd65de03a466f6cf3ca0752c0908a57ef151b1) - **docs:** update related packages sections [(##2240)](#2240) _(by stdlib-bot)_
+-   [`fad5efb`](https://github.com/stdlib-js/stdlib/commit/fad5efbeba4c9a051dd8a99eb3501f71f7847892) - **docs:** update namespace table of contents [(#2244)](https://github.com/stdlib-js/stdlib/pull/2244) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`ec98887`](https://github.com/stdlib-js/stdlib/commit/ec9888724c28aa7218d88ff62b91b71c0089c559) - **docs:** update related packages sections [(#2241)](https://github.com/stdlib-js/stdlib/pull/2241) _(by stdlib-bot)_
+-   [`53fd65d`](https://github.com/stdlib-js/stdlib/commit/53fd65de03a466f6cf3ca0752c0908a57ef151b1) - **docs:** update related packages sections [(#2240)](https://github.com/stdlib-js/stdlib/pull/2240) _(by stdlib-bot)_
 -   [`44d752e`](https://github.com/stdlib-js/stdlib/commit/44d752efc62e7aa8cd05690a117c58de029aafc8) - **feat:** add new special functions to `math/base/special` namespace _(by Philipp Burckhardt)_
 -   [`4c5b60e`](https://github.com/stdlib-js/stdlib/commit/4c5b60e5137fac4f946d80d6b7055e8bd23b5d97) - **chore:** resolve lint errors and fix typos _(by Philipp Burckhardt)_
 -   [`7f9b5ef`](https://github.com/stdlib-js/stdlib/commit/7f9b5ef18df92bfb856d8f466dad0ef0419e00c7) - **chore:** update package meta data [(#2213)](https://github.com/stdlib-js/stdlib/pull/2213) _(by stdlib-bot, Athan Reines)_
 -   [`ededcf6`](https://github.com/stdlib-js/stdlib/commit/ededcf66b226854367a99cb63f0f2d755f255114) - **feat:** add C implementation for `math/base/special/log10` [(#743)](https://github.com/stdlib-js/stdlib/pull/743) _(by Pranav Goswami, Athan Reines)_
 -   [`cf964b1`](https://github.com/stdlib-js/stdlib/commit/cf964b1cb63245d2105e0bab40e0cfaaee29a7bf) - **feat:** add `math/base/special/asecdf` [(#2199)](https://github.com/stdlib-js/stdlib/pull/2199) _(by Gunj Joshi, Athan Reines)_
 -   [`88e6f8a`](https://github.com/stdlib-js/stdlib/commit/88e6f8ad5d532c7b0729bd52fe1e67c3966a4bc9) - **docs:** update related packages sections [(#2197)](https://github.com/stdlib-js/stdlib/pull/2197) _(by stdlib-bot)_
--   [`0d3be2c`](https://github.com/stdlib-js/stdlib/commit/0d3be2ccda2d5490178836ea968e48dda9c0746d) - **chore:** update package meta data [(##2192)](#2192) _(by stdlib-bot, Athan Reines)_
--   [`189c569`](https://github.com/stdlib-js/stdlib/commit/189c5691b88b36a2fd1ff53368e6d44b90e40535) - **docs:** update related packages sections [(##2194)](#2194) _(by stdlib-bot)_
+-   [`0d3be2c`](https://github.com/stdlib-js/stdlib/commit/0d3be2ccda2d5490178836ea968e48dda9c0746d) - **chore:** update package meta data [(#2192)](https://github.com/stdlib-js/stdlib/pull/2192) _(by stdlib-bot, Athan Reines)_
+-   [`189c569`](https://github.com/stdlib-js/stdlib/commit/189c5691b88b36a2fd1ff53368e6d44b90e40535) - **docs:** update related packages sections [(#2194)](https://github.com/stdlib-js/stdlib/pull/2194) _(by stdlib-bot)_
 -   [`3c7bd5e`](https://github.com/stdlib-js/stdlib/commit/3c7bd5ef541483eb743a07be4b320a126f4189e8) - **feat:** add `math/base/tools/normhermitepolyf` [(#2151)](https://github.com/stdlib-js/stdlib/pull/2151) _(by Daniel Yu, Athan Reines)_
 -   [`753fbf2`](https://github.com/stdlib-js/stdlib/commit/753fbf256eeb5aef27427dcec12cb8798e50e485) - **feat:** add C implementation for `math/base/special/gcd` [(#1703)](https://github.com/stdlib-js/stdlib/pull/1703) _(by Aman Bhansali, Athan Reines)_
 -   [`5d37de2`](https://github.com/stdlib-js/stdlib/commit/5d37de2476ae2eb3e0f4fd196a092f26120a5478) - **docs:** update style and examples [(#2189)](https://github.com/stdlib-js/stdlib/pull/2189) _(by Gunj Joshi)_
@@ -5746,8 +5747,8 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`65c3b27`](https://github.com/stdlib-js/stdlib/commit/65c3b274457f44d4fabc5fe48c63a7c17f3b5711) - **refactor:** update `math/base/special/log10` implementation [(#2176)](https://github.com/stdlib-js/stdlib/pull/2176) _(by Gunj Joshi, Athan Reines)_
 -   [`be5ece8`](https://github.com/stdlib-js/stdlib/commit/be5ece8057f8f4ce6895df69a71abffd9b80733d) - **refactor:** update `math/base/special/log2` implementation [(#2172)](https://github.com/stdlib-js/stdlib/pull/2172) _(by Gunj Joshi, Athan Reines)_
 -   [`dc2cd24`](https://github.com/stdlib-js/stdlib/commit/dc2cd2489fc809b2e5cc690f35839f9d35a5c27f) - **feat:** add `math/base/special/kernel-log1p` [(#2144)](https://github.com/stdlib-js/stdlib/pull/2144) _(by Gunj Joshi, Athan Reines)_
--   [`077a5e6`](https://github.com/stdlib-js/stdlib/commit/077a5e68dbabba3a92bf0163de06564759b57257) - **feat:** add `math/base/special/acscdf` [(##2148)](#2148) _(by Gunj Joshi)_
--   [`c43bb58`](https://github.com/stdlib-js/stdlib/commit/c43bb5824767f2def1b1bfa18297ac37a5ec5f9e) - **docs:** update related packages sections  [(##2157)](#2157) _(by stdlib-bot)_
+-   [`077a5e6`](https://github.com/stdlib-js/stdlib/commit/077a5e68dbabba3a92bf0163de06564759b57257) - **feat:** add `math/base/special/acscdf` [(#2148)](https://github.com/stdlib-js/stdlib/pull/2148) _(by Gunj Joshi)_
+-   [`c43bb58`](https://github.com/stdlib-js/stdlib/commit/c43bb5824767f2def1b1bfa18297ac37a5ec5f9e) - **docs:** update related packages sections  [(#2157)](https://github.com/stdlib-js/stdlib/pull/2157) _(by stdlib-bot)_
 -   [`41d41e9`](https://github.com/stdlib-js/stdlib/commit/41d41e959b4eaad3c631e6898e3144a4015a5458) - **test:** include trailing newlines in Julia-generated JSON fixtures _(by Philipp Burckhardt)_
 -   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
 -   [`0244027`](https://github.com/stdlib-js/stdlib/commit/0244027e1e2c0ceb1cd8ae1808196c24fa77b142) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
@@ -5773,7 +5774,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`bcf0e37`](https://github.com/stdlib-js/stdlib/commit/bcf0e3709a20f304c024838e51fba1e99293517f) - **feat:** add `math/base/special/acscf` [(#2111)](https://github.com/stdlib-js/stdlib/pull/2111) _(by Gunj Joshi, Athan Reines)_
 -   [`7686d40`](https://github.com/stdlib-js/stdlib/commit/7686d40cf90100caf7ba4c4585d357a66042208a) - **refactor:** ensure order of operations is the same as in C _(by Athan Reines)_
 -   [`03e9400`](https://github.com/stdlib-js/stdlib/commit/03e940069ef08b4664a59e40a26bba49cb4a07b5) - **feat:** add `math/base/special/acosf` [(#2083)](https://github.com/stdlib-js/stdlib/pull/2083) _(by Gunj Joshi, Athan Reines)_
--   [`a258a50`](https://github.com/stdlib-js/stdlib/commit/a258a5070f9cbd83ecc4abecf4f81ead083e2bda) - **chore:** update package meta data [(##2087)](#2087) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`a258a50`](https://github.com/stdlib-js/stdlib/commit/a258a5070f9cbd83ecc4abecf4f81ead083e2bda) - **chore:** update package meta data [(#2087)](https://github.com/stdlib-js/stdlib/pull/2087) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`f141a9b`](https://github.com/stdlib-js/stdlib/commit/f141a9be42258c5c51ce0a75594ef59a30a125f1) - **feat:** add `math/base/special/atanf` [(#2054)](https://github.com/stdlib-js/stdlib/pull/2054) _(by Gunj Joshi, Athan Reines)_
 -   [`1cf574b`](https://github.com/stdlib-js/stdlib/commit/1cf574bb29355855c8d86594c0133b4812ac78b3) - **feat:** add C implementation for `math/base/special/atan2` _(by Pushpendra Chandravanshi, stdlib-bot, Philipp Burckhardt, Pranav Goswami)_
 -   [`113b4fe`](https://github.com/stdlib-js/stdlib/commit/113b4feb3902f939de8986e7983e35414242d6e4) - **docs:** update namespace table of contents [(#2034)](https://github.com/stdlib-js/stdlib/pull/2034) _(by stdlib-bot, Athan Reines)_
@@ -5808,7 +5809,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`c4ccb4b`](https://github.com/stdlib-js/stdlib/commit/c4ccb4bae71645f82afa736a9efe81806ffa97d1) - **feat:** add support for single-precision floating-point arithmetic emulation _(by Athan Reines)_
 -   [`b6968e0`](https://github.com/stdlib-js/stdlib/commit/b6968e0432693ea50e4cc0de9d9a26873ab4dedc) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`e8f94d2`](https://github.com/stdlib-js/stdlib/commit/e8f94d2e0efb84921f871550ca7e49d514a6a519) - **feat:** add C implementation for `math/base/special/gamma-lanczos-sum-expg-scaled` _(by Gunj Joshi, Philipp Burckhardt)_
--   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(##2014)](#2014) _(by stdlib-bot)_
+-   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
 -   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - **feat:** add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946) _(by Rutam, Athan Reines, Pranav Goswami)_
 -   [`abf4652`](https://github.com/stdlib-js/stdlib/commit/abf4652e755a88031ee35c182b34d48effe25e43) - **feat:** add C implementation of `math/base/special/fast/alpha-max-plus-beta-min` [(#1947)](https://github.com/stdlib-js/stdlib/pull/1947) _(by Ayaka, Athan Reines)_
 -   [`c39cc72`](https://github.com/stdlib-js/stdlib/commit/c39cc7222bf86a5217a4fc5333b007f90f1709cd) - **feat:** add C implementation for `math/base/special/nonfibonacci` _(by Tirtadwipa Manunggal, stdlib-bot, Philipp Burckhardt)_
@@ -5816,16 +5817,16 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`5c8ab25`](https://github.com/stdlib-js/stdlib/commit/5c8ab250e07d8f3cf603522c1d354a2f983e354b) - **feat:** add C implementation for `math/base/special/gamma-lanczos-sum` [(#1834)](https://github.com/stdlib-js/stdlib/pull/1834) _(by Gunj Joshi, Athan Reines)_
 -   [`f36b80d`](https://github.com/stdlib-js/stdlib/commit/f36b80d61e0e3b083672453d7e783d5e69551540) - **refactor:** add support for ratios evaluating as infinity in `math/base/tools/evalrational-compile-c` [(#1970)](https://github.com/stdlib-js/stdlib/pull/1970) _(by Gunj Joshi, Athan Reines)_
 -   [`7c8d0ce`](https://github.com/stdlib-js/stdlib/commit/7c8d0ced2596cd1ed9e4dec0a40915dd91f59537) - **fix:** missing headers in C examples [(#1958)](https://github.com/stdlib-js/stdlib/pull/1958) _(by Rutam)_
--   [`2c3c709`](https://github.com/stdlib-js/stdlib/commit/2c3c709353a0821a187ff63251a296f558f951a1) - **docs:** update related packages sections [(##1941)](#1941) _(by stdlib-bot)_
+-   [`2c3c709`](https://github.com/stdlib-js/stdlib/commit/2c3c709353a0821a187ff63251a296f558f951a1) - **docs:** update related packages sections [(#1941)](https://github.com/stdlib-js/stdlib/pull/1941) _(by stdlib-bot)_
 -   [`8dffd8f`](https://github.com/stdlib-js/stdlib/commit/8dffd8fa583fee296d10091ca9323b17dc8a76f0) - **feat:** add C implementation for `math/base/assert/is-composite` _(by Rutam, Pranav, Philipp Burckhardt)_
 -   [`7556fd8`](https://github.com/stdlib-js/stdlib/commit/7556fd8455fa74cea1e9d3b5cf6df203801c962e) - **feat:** add C implementation for `math/base/special/fast/atanh` _(by Rejoan Sardar, Pranav Goswami)_
 -   [`0b0e240`](https://github.com/stdlib-js/stdlib/commit/0b0e240f6959ac1dae3bc00fe42b9930eb887e93) - **feat:** add `math/base/special/cosd` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
 -   [`5b5ce15`](https://github.com/stdlib-js/stdlib/commit/5b5ce15628dac972c3f842b1b0233b3b9913f04e) - **feat:** add C implementation for `math/base/special/fast/pow-int` _(by Gunj Joshi, Pranav Goswami)_
 -   [`19f6f59`](https://github.com/stdlib-js/stdlib/commit/19f6f59482f92d40cfc1fd310664f6980dca1725) - **feat:** add C implementation for `math/base/special/modf` _(by Gunj Joshi, Pranav Goswami)_
--   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(##1935)](#1935) _(by Rutam)_
+-   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935) _(by Rutam)_
 -   [`5a81f05`](https://github.com/stdlib-js/stdlib/commit/5a81f050b2467e6ebf8d3f242511428cc0a3b49e) - **feat:** add C implementation for `math/base/special/fast/min` _(by Rejoan Sardar, Pranav Goswami, Philipp Burckhardt)_
 -   [`67e90ff`](https://github.com/stdlib-js/stdlib/commit/67e90fff25e4e33de75e060ea2fa9ee25df3b433) - **feat:** add C implementation for `math/base/special/fast/max` _(by Rejoan Sardar, Pranav Goswami, Philipp Burckhardt)_
--   [`d27da5d`](https://github.com/stdlib-js/stdlib/commit/d27da5ddf7d6acb8da8c4f7bdee5a05df139329e) - **chore:** update package meta data [(##1926)](#1926) _(by stdlib-bot, Athan Reines)_
+-   [`d27da5d`](https://github.com/stdlib-js/stdlib/commit/d27da5ddf7d6acb8da8c4f7bdee5a05df139329e) - **chore:** update package meta data [(#1926)](https://github.com/stdlib-js/stdlib/pull/1926) _(by stdlib-bot, Athan Reines)_
 -   [`e247f31`](https://github.com/stdlib-js/stdlib/commit/e247f3177902ef222b387d21d99c1ed0de5a4ccb) - **docs:** fix function names in C example code _(by Philipp Burckhardt)_
 -   [`28433d6`](https://github.com/stdlib-js/stdlib/commit/28433d637a39abec34dddc51d88c59fdc7c38f3a) - **docs:** clean-up C function parameter and return annotations _(by Philipp Burckhardt)_
 -   [`433bb99`](https://github.com/stdlib-js/stdlib/commit/433bb998206acd124e8856b4e1b6f84803c26b47) - **fix:** move addition by one into the sqrt invocation _(by Philipp Burckhardt)_
@@ -5853,9 +5854,9 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`f0e398f`](https://github.com/stdlib-js/stdlib/commit/f0e398f2a5eca05bfe904a3f4b34146040fd320b) - **feat:** add C implementation for `math/base/assert/is-safe-integer` _(by Aman Bhansali, Pranav)_
 -   [`d14500f`](https://github.com/stdlib-js/stdlib/commit/d14500f3d9053d0fcd34fa19cdb8d4355bf72af7) - **feat:** add C implementation for `math/base/assert/int32-is-odd` _(by Rejoan Sardar, Pranav, Philipp Burckhardt)_
 -   [`0c78f2f`](https://github.com/stdlib-js/stdlib/commit/0c78f2f502062c3d5bd6c8ac857cb2203fd17f7f) - **feat:** add C implementation for `math/base/special/bernoulli` _(by Gunj Joshi, Pranav)_
--   [`a3fbf67`](https://github.com/stdlib-js/stdlib/commit/a3fbf67720b3d1963b27c1097bd8144397ac0ec1) - **docs:** update related packages sections [(##1857)](#1857) _(by stdlib-bot)_
--   [`6ea8070`](https://github.com/stdlib-js/stdlib/commit/6ea8070523d0007c15da8f81191fcf0b65645e27) - **docs:** fix JSDoc description in `math/base/special/acoversin` [(##1853)](#1853) _(by Rejoan Sardar)_
--   [`dc20da0`](https://github.com/stdlib-js/stdlib/commit/dc20da0604fe2798e20e757277072fefc876da3c) - **chore:** update package meta data [(##1856)](#1856) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`a3fbf67`](https://github.com/stdlib-js/stdlib/commit/a3fbf67720b3d1963b27c1097bd8144397ac0ec1) - **docs:** update related packages sections [(#1857)](https://github.com/stdlib-js/stdlib/pull/1857) _(by stdlib-bot)_
+-   [`6ea8070`](https://github.com/stdlib-js/stdlib/commit/6ea8070523d0007c15da8f81191fcf0b65645e27) - **docs:** fix JSDoc description in `math/base/special/acoversin` [(#1853)](https://github.com/stdlib-js/stdlib/pull/1853) _(by Rejoan Sardar)_
+-   [`dc20da0`](https://github.com/stdlib-js/stdlib/commit/dc20da0604fe2798e20e757277072fefc876da3c) - **chore:** update package meta data [(#1856)](https://github.com/stdlib-js/stdlib/pull/1856) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7d855d1`](https://github.com/stdlib-js/stdlib/commit/7d855d19453e4b94b70dd4a25e9b291590e50fa2) - **feat:** add `math/base/special/asind` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
 -   [`e45ee33`](https://github.com/stdlib-js/stdlib/commit/e45ee3358489e27fdb8fac2b265fb7bbfd9935b9) - **feat:** add `math/base/special/atand` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
 -   [`f01384c`](https://github.com/stdlib-js/stdlib/commit/f01384c7b893418d152588d02d96a1594a9d9b92) - **feat:** add `math/base/special/acosd` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
@@ -5868,15 +5869,15 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`e59d704`](https://github.com/stdlib-js/stdlib/commit/e59d704f754153cce428151f19bd716e0f4f3465) - **feat:** add C implementation for `math/base/special/gammasgn` _(by Gunj Joshi, Pranav)_
 -   [`d8f6700`](https://github.com/stdlib-js/stdlib/commit/d8f6700f923c16fb626c3c2259152475706b340a) - **feat:** add C implementation for `math/base/special/log2` _(by Aman Bhansali, Pranav, Athan Reines)_
 -   [`5b72836`](https://github.com/stdlib-js/stdlib/commit/5b72836b09a88874c85ac6e72ae150a89fa1d104) - **feat:** add `math/base/special/asecd` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
--   [`229be91`](https://github.com/stdlib-js/stdlib/commit/229be9196d3571c40e5a6cc07ac0d4d680a8a00d) - **feat:** add `math/base/assert/is-nonnegative-finite` [(##1829)](#1829) _(by Rejoan Sardar)_
+-   [`229be91`](https://github.com/stdlib-js/stdlib/commit/229be9196d3571c40e5a6cc07ac0d4d680a8a00d) - **feat:** add `math/base/assert/is-nonnegative-finite` [(#1829)](https://github.com/stdlib-js/stdlib/pull/1829) _(by Rejoan Sardar)_
 -   [`6e31e73`](https://github.com/stdlib-js/stdlib/commit/6e31e7364b677a18cb4294b0820ba1ebe68cb47f) - **feat:** add C implementation for `math/base/special/acsch` [(#1833)](https://github.com/stdlib-js/stdlib/pull/1833) _(by Snehil Shah, Athan Reines)_
--   [`e25fbc3`](https://github.com/stdlib-js/stdlib/commit/e25fbc33d4fb30525fa277c65758083ce16924ba) - **fix:** resolve failing addon build in `math/base/special/maxabs` [(##1826)](#1826) _(by Pranav Goswami)_
--   [`9d915c8`](https://github.com/stdlib-js/stdlib/commit/9d915c8cb1ff07e1d894429ea8e6b022ea53f415) - **feat:** add C implementation for @stdlib/math/base/special/csch [(##1819)](#1819) _(by Gunj Joshi)_
+-   [`e25fbc3`](https://github.com/stdlib-js/stdlib/commit/e25fbc33d4fb30525fa277c65758083ce16924ba) - **fix:** resolve failing addon build in `math/base/special/maxabs` [(#1826)](https://github.com/stdlib-js/stdlib/pull/1826) _(by Pranav Goswami)_
+-   [`9d915c8`](https://github.com/stdlib-js/stdlib/commit/9d915c8cb1ff07e1d894429ea8e6b022ea53f415) - **feat:** add C implementation for @stdlib/math/base/special/csch [(#1819)](https://github.com/stdlib-js/stdlib/pull/1819) _(by Gunj Joshi)_
 -   [`c66d855`](https://github.com/stdlib-js/stdlib/commit/c66d8554e6709f98128943835e3a354d155eb3b2) - **feat:** add C implementation for `math/base/assert/is-negative-integer` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`b56c697`](https://github.com/stdlib-js/stdlib/commit/b56c6979cca60119d6ebd79ffabb1c3d9b9d1d99) - **feat:** add C implementation for `math/base/special/asech` _(by Rejoan Sardar, Pranav, Philipp Burckhardt)_
 -   [`fa68dfe`](https://github.com/stdlib-js/stdlib/commit/fa68dfe9a77bae534851850921a5374a9b2860e2) - **feat:** add C implementation for `math/base/special/maxabs` _(by Shashank Shekhar Singh, Pranav)_
 -   [`5108869`](https://github.com/stdlib-js/stdlib/commit/5108869248f78854546359b8ce35916c612a90cb) - **fix:** remove invalid examples [(#1814)](https://github.com/stdlib-js/stdlib/pull/1814) _(by Gunj Joshi, Athan Reines)_
--   [`d40dbaf`](https://github.com/stdlib-js/stdlib/commit/d40dbafc25e3e10c8fa83f5b4203db97c289823c) - **chore:** update package meta data [(##1812)](#1812) _(by stdlib-bot)_
+-   [`d40dbaf`](https://github.com/stdlib-js/stdlib/commit/d40dbafc25e3e10c8fa83f5b4203db97c289823c) - **chore:** update package meta data [(#1812)](https://github.com/stdlib-js/stdlib/pull/1812) _(by stdlib-bot)_
 -   [`6831521`](https://github.com/stdlib-js/stdlib/commit/68315216677e3d2d21b009537dafd703ef4d9a91) - **feat:** add C implementation for `math/base/special/max` _(by Shashank Shekhar Singh, Philipp Burckhardt)_
 -   [`b86d26e`](https://github.com/stdlib-js/stdlib/commit/b86d26e2a205fad885130b417654044d9d7a8d49) - **feat:** add C implementation for `math/base/special/asec` _(by Rejoan Sardar, Philipp Burckhardt, Pranav)_
 -   [`3c795b3`](https://github.com/stdlib-js/stdlib/commit/3c795b3f102eabd8df616dee6018c0c18f28b00b) - **feat:** add C implementation for `math/base/assert/is-nonpositive-integer` _(by Aman Bhansali, Pranav)_
@@ -5902,19 +5903,19 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   [`d48f616`](https://github.com/stdlib-js/stdlib/commit/d48f616e55919d1912c2eb95eb29a35e43ec2c18) - **feat:** Add C implementation for `math/base/assert/is-even` _(by Aman Bhansali, Pranav)_
 -   [`c86db95`](https://github.com/stdlib-js/stdlib/commit/c86db9526dbc39bc2fc97fdb5fde9f97d73a1133) - **feat:** add C implementation for `math/base/special/log` _(by Aman Bhansali, Pranav)_
 -   [`b06e5c7`](https://github.com/stdlib-js/stdlib/commit/b06e5c78b63b7ae91de2911de4f057da7c2fccc8) - **feat:** add C implementation for `math/base/special/minabs` _(by Aman Bhansali, Pranav)_
--   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(##1462)](#1462) _(by stdlib-bot)_
+-   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(#1462)](https://github.com/stdlib-js/stdlib/pull/1462) _(by stdlib-bot)_
 -   [`a2ed2a5`](https://github.com/stdlib-js/stdlib/commit/a2ed2a57008a88e74e94185443d3634b1f194223) - **feat:** add C implementation for `math/base/special/logaddexp` _(by Aman Bhansali, Pranav)_
 -   [`234c6c3`](https://github.com/stdlib-js/stdlib/commit/234c6c3261313ab8f60c3211bc77fa21741664f7) - **feat:** add C implementation for `math/base/special/acovercos` _(by Adarsh Palaskar, Pranav)_
 -   [`0fc216a`](https://github.com/stdlib-js/stdlib/commit/0fc216a874f6501dac5086e4923cee5eb0df57d7) - **feat:** add C implementation for `math/base/special/min` _(by Aman Bhansali, Pranav)_
--   [`615bcf1`](https://github.com/stdlib-js/stdlib/commit/615bcf165b0a9a9aad5f6591024e2dd1655c8914) - **docs:** update related packages sections [(##1441)](#1441) _(by stdlib-bot)_
--   [`1096686`](https://github.com/stdlib-js/stdlib/commit/1096686e16dd4515a7aaa5bdc35ff5803ec0349f) - **feat:** add C implementation for `math/base/special/acoversin` [(##142)](#142) _(by Aman Bhansali)_
--   [`eace8f3`](https://github.com/stdlib-js/stdlib/commit/eace8f39f945f8b330fdfdd9bd71a45555e521c4) - **feat:** add C implementation for `math/base/special/ahavercos` [(##1419)](#1419) _(by Aman Bhansali, Pranav)_
--   [`663969e`](https://github.com/stdlib-js/stdlib/commit/663969ecb281636f3257068168322de88fab725a) - **docs:** update package URLs [(##1422)](#1422) _(by stdlib-bot)_
+-   [`615bcf1`](https://github.com/stdlib-js/stdlib/commit/615bcf165b0a9a9aad5f6591024e2dd1655c8914) - **docs:** update related packages sections [(#1441)](https://github.com/stdlib-js/stdlib/pull/1441) _(by stdlib-bot)_
+-   [`1096686`](https://github.com/stdlib-js/stdlib/commit/1096686e16dd4515a7aaa5bdc35ff5803ec0349f) - **feat:** add C implementation for `math/base/special/acoversin` [(#142)](https://github.com/stdlib-js/stdlib/pull/142) _(by Aman Bhansali)_
+-   [`eace8f3`](https://github.com/stdlib-js/stdlib/commit/eace8f39f945f8b330fdfdd9bd71a45555e521c4) - **feat:** add C implementation for `math/base/special/ahavercos` [(#1419)](https://github.com/stdlib-js/stdlib/pull/1419) _(by Aman Bhansali, Pranav)_
+-   [`663969e`](https://github.com/stdlib-js/stdlib/commit/663969ecb281636f3257068168322de88fab725a) - **docs:** update package URLs [(#1422)](https://github.com/stdlib-js/stdlib/pull/1422) _(by stdlib-bot)_
 -   [`b60ef62`](https://github.com/stdlib-js/stdlib/commit/b60ef6245ac44dbef3076f1122e91f4aa8406e6c) - **feat:** add `math/base/special/csc` _(by Mihir Pandit, stdlib-bot, Philipp Burckhardt)_
--   [`fa2359f`](https://github.com/stdlib-js/stdlib/commit/fa2359fd3d650e53a959d5e9a3084bfe041a96a0) - **feat:** add `math/iter/sequences/tribonacci` [(##1393)](#1393) _(by Praneki)_
+-   [`fa2359f`](https://github.com/stdlib-js/stdlib/commit/fa2359fd3d650e53a959d5e9a3084bfe041a96a0) - **feat:** add `math/iter/sequences/tribonacci` [(#1393)](https://github.com/stdlib-js/stdlib/pull/1393) _(by Praneki)_
 -   [`b5b85ba`](https://github.com/stdlib-js/stdlib/commit/b5b85ba272b5e8756bca434d5e3e00e697db9d4d) - **test:** update fixture files _(by Athan Reines)_
--   [`4315e33`](https://github.com/stdlib-js/stdlib/commit/4315e33177a67ff0ca097e7dcf91c40f90380e91) - **docs:** update related packages sections  [(##1320)](#1320) _(by stdlib-bot)_
--   [`71ee29b`](https://github.com/stdlib-js/stdlib/commit/71ee29b7d30436e5ccbb78bf1367b1b576c2b386) - **docs:** update related packages sections [(##1314)](#1314) _(by stdlib-bot)_
+-   [`4315e33`](https://github.com/stdlib-js/stdlib/commit/4315e33177a67ff0ca097e7dcf91c40f90380e91) - **docs:** update related packages sections  [(#1320)](https://github.com/stdlib-js/stdlib/pull/1320) _(by stdlib-bot)_
+-   [`71ee29b`](https://github.com/stdlib-js/stdlib/commit/71ee29b7d30436e5ccbb78bf1367b1b576c2b386) - **docs:** update related packages sections [(#1314)](https://github.com/stdlib-js/stdlib/pull/1314) _(by stdlib-bot)_
 
 </details>
 
@@ -5935,16 +5936,6 @@ A total of 29 people contributed to this release. Thank you to the following con
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -10229,15 +10220,15 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`5284362`](https://github.com/stdlib-js/stdlib/commit/5284362368db3dcaae9a50dacd9caab56485a7e9) - **docs:** update related packages sections [(##1299)](#1299) _(by stdlib-bot)_
--   [`ed8a998`](https://github.com/stdlib-js/stdlib/commit/ed8a998f95cebd180f2a974548379a6335988970) - **docs:** update related packages sections [(##1296)](#1296) _(by stdlib-bot)_
+-   [`5284362`](https://github.com/stdlib-js/stdlib/commit/5284362368db3dcaae9a50dacd9caab56485a7e9) - **docs:** update related packages sections [(#1299)](https://github.com/stdlib-js/stdlib/pull/1299) _(by stdlib-bot)_
+-   [`ed8a998`](https://github.com/stdlib-js/stdlib/commit/ed8a998f95cebd180f2a974548379a6335988970) - **docs:** update related packages sections [(#1296)](https://github.com/stdlib-js/stdlib/pull/1296) _(by stdlib-bot)_
 -   [`d2d2b70`](https://github.com/stdlib-js/stdlib/commit/d2d2b707e954b400b72b7b9f158164d026d09636) - **docs:** update related packages sections [(#1261)](https://github.com/stdlib-js/stdlib/pull/1261) _(by stdlib-bot)_
--   [`96489fa`](https://github.com/stdlib-js/stdlib/commit/96489fa603a2920bef92fb38b49ca9468851714d) - **docs:** update namespace table of contents [(##1251)](#1251) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`96489fa`](https://github.com/stdlib-js/stdlib/commit/96489fa603a2920bef92fb38b49ca9468851714d) - **docs:** update namespace table of contents [(#1251)](https://github.com/stdlib-js/stdlib/pull/1251) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
 -   [`8affb20`](https://github.com/stdlib-js/stdlib/commit/8affb20402cfd15cf33663a601541b36cc7edb56) - **docs:** update related packages sections [(#1248)](https://github.com/stdlib-js/stdlib/pull/1248) _(by stdlib-bot)_
 -   [`9b87012`](https://github.com/stdlib-js/stdlib/commit/9b87012e598bd0d2692af5d59332cb0e2231e9e8) - **docs:** update related packages sections [(#1243)](https://github.com/stdlib-js/stdlib/pull/1243) _(by stdlib-bot)_
 -   [`8ef1f9e`](https://github.com/stdlib-js/stdlib/commit/8ef1f9eb45527886ba9b0c341704c8ffe6cffbb3) - **docs:** update related packages sections [(#1233)](https://github.com/stdlib-js/stdlib/pull/1233) _(by stdlib-bot)_
--   [`fe1a276`](https://github.com/stdlib-js/stdlib/commit/fe1a2764c983ee7adc61e5f383dd91dd262ddfc2) - **docs:** update related packages sections [(##1220)](#1220) _(by stdlib-bot)_
+-   [`fe1a276`](https://github.com/stdlib-js/stdlib/commit/fe1a2764c983ee7adc61e5f383dd91dd262ddfc2) - **docs:** update related packages sections [(#1220)](https://github.com/stdlib-js/stdlib/pull/1220) _(by stdlib-bot)_
 -   [`504795c`](https://github.com/stdlib-js/stdlib/commit/504795ca2b3eb120db344e51b27493b3da696ebf) - **docs:** update related packages sections [(#1214)](https://github.com/stdlib-js/stdlib/pull/1214) _(by stdlib-bot)_
 -   [`9782026`](https://github.com/stdlib-js/stdlib/commit/9782026baac4239e8fabd217952b77bd633bce75) - **test:** fix failing tests due to increased accuracy in binomcoef _(by Athan Reines)_
 -   [`1256a95`](https://github.com/stdlib-js/stdlib/commit/1256a9588a52fe50e1ba363dbb47b614b82f4db0) - **style:** remove decimal for consistency with rest of implementation _(by Athan Reines)_
@@ -10245,18 +10236,18 @@ A total of 5 people contributed to this release. Thank you to the following cont
 -   [`fab2a1e`](https://github.com/stdlib-js/stdlib/commit/fab2a1e571a8a2b6ba9f093c8ae6ae276ca4c37d) - **refactor:** improve accuracy for large binomial coefficients _(by Athan Reines)_
 -   [`6a5f15a`](https://github.com/stdlib-js/stdlib/commit/6a5f15ac68a1674238d2469c37dd7e20b49e9541) - **bench:** pre-allocate arrays of random numbers to allow perf measurement _(by Athan Reines)_
 -   [`dbe559a`](https://github.com/stdlib-js/stdlib/commit/dbe559ac10385a4f0edadd7394cea6170a34864f) - **test:** update test fixtures and add failing tests _(by Athan Reines)_
--   [`32e396e`](https://github.com/stdlib-js/stdlib/commit/32e396ec3729717dd7805202b83fd0d30a522d06) - **docs:** update related packages sections [(##1185)](#1185) _(by stdlib-bot)_
--   [`1879534`](https://github.com/stdlib-js/stdlib/commit/18795348ac0c51d3b13c1b26c0f5921ec5fd010c) - **docs:** update related packages sections [(##1179)](#1179) _(by stdlib-bot)_
+-   [`32e396e`](https://github.com/stdlib-js/stdlib/commit/32e396ec3729717dd7805202b83fd0d30a522d06) - **docs:** update related packages sections [(#1185)](https://github.com/stdlib-js/stdlib/pull/1185) _(by stdlib-bot)_
+-   [`1879534`](https://github.com/stdlib-js/stdlib/commit/18795348ac0c51d3b13c1b26c0f5921ec5fd010c) - **docs:** update related packages sections [(#1179)](https://github.com/stdlib-js/stdlib/pull/1179) _(by stdlib-bot)_
 -   [`4d6b104`](https://github.com/stdlib-js/stdlib/commit/4d6b104a0309b9a016700badd64b137ff384de52) - **docs:** update related packages sections [(#1172)](https://github.com/stdlib-js/stdlib/pull/1172) _(by stdlib-bot, Athan Reines)_
 -   [`783804d`](https://github.com/stdlib-js/stdlib/commit/783804dbc9b3899c5227c5593e0ca1e8a6a9f195) - **feat:** update namespace TypeScript declarations [(#1170)](https://github.com/stdlib-js/stdlib/pull/1170) _(by stdlib-bot, Athan Reines)_
--   [`d575e8b`](https://github.com/stdlib-js/stdlib/commit/d575e8b063a37d90c3178fcff7b425314ae73c98) - **docs:** update related packages sections [(##1167)](#1167) _(by stdlib-bot)_
--   [`74bf172`](https://github.com/stdlib-js/stdlib/commit/74bf172cde4e19feaf4840c9e03b904bf9819934) - **docs:** update related packages sections [(##1165)](#1165) _(by stdlib-bot)_
--   [`26cf434`](https://github.com/stdlib-js/stdlib/commit/26cf4347b243f1f363273481512e1ffebcb27ad5) - **docs:** update related packages sections [(##1156)](#1156) _(by stdlib-bot)_
+-   [`d575e8b`](https://github.com/stdlib-js/stdlib/commit/d575e8b063a37d90c3178fcff7b425314ae73c98) - **docs:** update related packages sections [(#1167)](https://github.com/stdlib-js/stdlib/pull/1167) _(by stdlib-bot)_
+-   [`74bf172`](https://github.com/stdlib-js/stdlib/commit/74bf172cde4e19feaf4840c9e03b904bf9819934) - **docs:** update related packages sections [(#1165)](https://github.com/stdlib-js/stdlib/pull/1165) _(by stdlib-bot)_
+-   [`26cf434`](https://github.com/stdlib-js/stdlib/commit/26cf4347b243f1f363273481512e1ffebcb27ad5) - **docs:** update related packages sections [(#1156)](https://github.com/stdlib-js/stdlib/pull/1156) _(by stdlib-bot)_
 -   [`57d81e4`](https://github.com/stdlib-js/stdlib/commit/57d81e4c196065f6680f08f22aeccfdc6e590b8f) - **docs:** update related packages sections [(#1151)](https://github.com/stdlib-js/stdlib/pull/1151) _(by stdlib-bot)_
 -   [`73f98e4`](https://github.com/stdlib-js/stdlib/commit/73f98e4e8dea53ece4a617b042f9d817643b4850) - **docs:** update related packages sections [(#1150)](https://github.com/stdlib-js/stdlib/pull/1150) _(by stdlib-bot)_
 -   [`e9778a4`](https://github.com/stdlib-js/stdlib/commit/e9778a44456fe95e30158b3ed4b2849c1ea5be1d) - **build:** do not escape special Markdown characters in code _(by Philipp Burckhardt)_
--   [`78a556e`](https://github.com/stdlib-js/stdlib/commit/78a556efa2f1da29eb9081d393f5768ad1518117) - **docs:** update related packages sections [(##1145)](#1145) _(by stdlib-bot)_
--   [`1b31b43`](https://github.com/stdlib-js/stdlib/commit/1b31b437442c7d861aadf0e5ee00bb86cc191982) - **docs:** update namespace table of contents [(##1138)](#1138) _(by stdlib-bot, Athan Reines)_
+-   [`78a556e`](https://github.com/stdlib-js/stdlib/commit/78a556efa2f1da29eb9081d393f5768ad1518117) - **docs:** update related packages sections [(#1145)](https://github.com/stdlib-js/stdlib/pull/1145) _(by stdlib-bot)_
+-   [`1b31b43`](https://github.com/stdlib-js/stdlib/commit/1b31b437442c7d861aadf0e5ee00bb86cc191982) - **docs:** update namespace table of contents [(#1138)](https://github.com/stdlib-js/stdlib/pull/1138) _(by stdlib-bot, Athan Reines)_
 -   [`5d6b573`](https://github.com/stdlib-js/stdlib/commit/5d6b573040bf6551f3f460ba9570ea5d9567cb84) - **feat:** add `add5` to namespace _(by Athan Reines)_
 -   [`b11b3fb`](https://github.com/stdlib-js/stdlib/commit/b11b3fbf45728f7456757b5147e45f17f4bf49f1) - **feat:** add `math/base/ops/add5` _(by Athan Reines)_
 -   [`1cba14e`](https://github.com/stdlib-js/stdlib/commit/1cba14e2370f9a50078713f9ac8ad1bf119bc01c) - **feat:** add `add4` to namespace _(by Athan Reines)_
@@ -10317,16 +10308,6 @@ A total of 5 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -13967,7 +13948,7 @@ A total of 0 people contributed to this release. Thank you to the following cont
 ##### Features
 
 -   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
--   [`4ca9916`](https://github.com/stdlib-js/stdlib/commit/4ca9916461225adfbebd0a9d1999756ff1277415) - migrate to using stdlib complex number types [(##916)](#916)
+-   [`4ca9916`](https://github.com/stdlib-js/stdlib/commit/4ca9916461225adfbebd0a9d1999756ff1277415) - migrate to using stdlib complex number types [(#916)](https://github.com/stdlib-js/stdlib/pull/916)
 
 </section>
 
@@ -30320,7 +30301,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   [`ee45a06`](https://github.com/stdlib-js/stdlib/commit/ee45a06eabd944613bb10ce3a058dc19d9b30f77) - **feat:** update namespace TypeScript declarations [(#1103)](https://github.com/stdlib-js/stdlib/pull/1103) _(by stdlib-bot, Athan Reines)_
 -   [`e627b29`](https://github.com/stdlib-js/stdlib/commit/e627b29f2f35ca07e0780eeb16088b4db4e2d766) - **feat:** remove support for `out` argument and add C implementations [(#1003)](https://github.com/stdlib-js/stdlib/pull/1003) _(by Stephannie Jiménez Gacha, Athan Reines)_
 -   [`141b0fd`](https://github.com/stdlib-js/stdlib/commit/141b0fd0b248ea0d68e126fb2d6920080000833a) - **feat:** remove `out` argument support and add C implementations [(#988)](https://github.com/stdlib-js/stdlib/pull/988) _(by Stephannie Jiménez Gacha, Athan Reines)_
--   [`4f2310d`](https://github.com/stdlib-js/stdlib/commit/4f2310de3494fe36f4b74db309593f63e9d24dcc) - **docs:** update namespace table of contents  [(##1102)](#1102 ) _(by stdlib-bot)_
+-   [`4f2310d`](https://github.com/stdlib-js/stdlib/commit/4f2310de3494fe36f4b74db309593f63e9d24dcc) - **docs:** update namespace table of contents  [(#1102)](https://github.com/stdlib-js/stdlib/pull/1102 ) _(by stdlib-bot)_
 -   [`e18b248`](https://github.com/stdlib-js/stdlib/commit/e18b248464425863019a841795a7e5fc7d01d0ea) - **feat:** update namespace TypeScript declarations [(#1100)](https://github.com/stdlib-js/stdlib/pull/1100) _(by stdlib-bot, Athan Reines)_
 -   [`d2d66a7`](https://github.com/stdlib-js/stdlib/commit/d2d66a7454cb0f4feaeef3cb4f762471aa64770d) - **fix:** use series expansion to match Boost implementation _(by Philipp Burckhardt)_
 -   [`1250f8e`](https://github.com/stdlib-js/stdlib/commit/1250f8e64e4f08ec0ca4a9143fc6c49d0f793bd4) - **fix:** use log1pmx for better numerical accuracy _(by Philipp Burckhardt)_
@@ -30389,7 +30370,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   [`e3fcd52`](https://github.com/stdlib-js/stdlib/commit/e3fcd52480d170f13da8852d120bfd177cb3351c) - **feat:** add C API to `@stdlib/math/base/special/lucas` [(#931)](https://github.com/stdlib-js/stdlib/pull/931) _(by Jordan Gallivan, Athan Reines)_
 -   [`60429f5`](https://github.com/stdlib-js/stdlib/commit/60429f55de228f0d415751a1f3292b2cac123600) - **feat:** add C API to `@stdlib/math/base/special/negalucas` [(#913)](https://github.com/stdlib-js/stdlib/pull/913) _(by Jordan Gallivan, Pranav, Athan Reines)_
 -   [`46c483d`](https://github.com/stdlib-js/stdlib/commit/46c483db80bda899ff9283f8a1e51a0c14321842) - **docs:** fix missing documentation and fix example return value _(by Athan Reines)_
--   [`4ca9916`](https://github.com/stdlib-js/stdlib/commit/4ca9916461225adfbebd0a9d1999756ff1277415) - **feat:** migrate to using stdlib complex number types [(##916)](#916) _(by Stephannie Jiménez Gacha)_
+-   [`4ca9916`](https://github.com/stdlib-js/stdlib/commit/4ca9916461225adfbebd0a9d1999756ff1277415) - **feat:** migrate to using stdlib complex number types [(#916)](https://github.com/stdlib-js/stdlib/pull/916) _(by Stephannie Jiménez Gacha)_
 -   [`119e99d`](https://github.com/stdlib-js/stdlib/commit/119e99d1292c6f6652fb6cbbe2329b35ad7797ba) - **feat:** migrate to using stdlib complex number types [(#912)](https://github.com/stdlib-js/stdlib/pull/912) _(by Stephannie Jiménez Gacha, Athan Reines)_
 -   [`20f8809`](https://github.com/stdlib-js/stdlib/commit/20f8809022581a74a0d7d9643840c4ae7e7de7b5) - **chore:** update package meta data [(#911)](https://github.com/stdlib-js/stdlib/pull/911) _(by stdlib-bot, Athan Reines)_
 -   [`74b2352`](https://github.com/stdlib-js/stdlib/commit/74b235240970eb51397e4ba1601386d093f4b5e9) - **feat:** add C API for `@stdlib/math/base/special/tribonacci` [(#903)](https://github.com/stdlib-js/stdlib/pull/903) _(by Jordan Gallivan, Athan Reines)_
@@ -30409,16 +30390,6 @@ A total of 6 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -30442,16 +30413,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 
 <!-- /.packages -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -30473,16 +30434,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -30506,16 +30457,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 
 <!-- /.packages -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -30537,16 +30478,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -30570,16 +30501,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 
 <!-- /.packages -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -30601,16 +30522,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -30634,16 +30545,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 
 <!-- /.packages -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -30665,16 +30566,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -30698,16 +30589,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 
 <!-- /.packages -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -30729,16 +30610,6 @@ A total of 0 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 0 people contributed to this release. Thank you to the following contributors:
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
