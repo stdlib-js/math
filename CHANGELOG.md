@@ -5161,6 +5161,39 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-truncsd-unreleased">
+
+#### [@stdlib/math/base/special/truncsd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncsd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3) - add C implementation for `math/base/special/truncsd` [(#2666)](https://github.com/stdlib-js/stdlib/pull/2666)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3): add C implementation for `math/base/special/truncsd`
+-   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3): The third argument 'b' in the JavaScript implementation of `truncsd` is now mandatory. To migrate, explicitly supply the old default value of `10` as the third argument.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-vercos-unreleased">
 
 #### [@stdlib/math/base/special/vercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/vercos)
@@ -5514,6 +5547,8 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3): add C implementation for `math/base/special/truncsd`
+-   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3): The third argument 'b' in the JavaScript implementation of `truncsd` is now mandatory. To migrate, explicitly supply the old default value of `10` as the third argument.
 -   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b): update namespace TypeScript declarations
 -   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b): base parameter is no longer optional 
 
@@ -5626,6 +5661,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3) - **feat:** add C implementation for `math/base/special/truncsd` [(#2666)](https://github.com/stdlib-js/stdlib/pull/2666) _(by Gunj Joshi)_
 -   [`4a2534a`](https://github.com/stdlib-js/stdlib/commit/4a2534a22c2ead42a6318bed2fce221286f9f7a8) - **feat:** add C implementation for `math/base/special/fresnelc` [(#2680)](https://github.com/stdlib-js/stdlib/pull/2680) _(by Gunj Joshi)_
 -   [`c476e32`](https://github.com/stdlib-js/stdlib/commit/c476e32e617de04644d9fbf399a34f80661778ea) - **feat:** add C implementation for `math/base/special/fresnels` [(#2675)](https://github.com/stdlib-js/stdlib/pull/2675) _(by Gunj Joshi)_
 -   [`7e04d9e`](https://github.com/stdlib-js/stdlib/commit/7e04d9e27fb5008c1cbc6e45e08ea6ad4b8993d2) - **refactor:** use max-safe-nth-factorial package [(#2676)](https://github.com/stdlib-js/stdlib/pull/2676 ) _(by Gunj Joshi)_
