@@ -5582,6 +5582,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7e04d9e`](https://github.com/stdlib-js/stdlib/commit/7e04d9e27fb5008c1cbc6e45e08ea6ad4b8993d2) - **refactor:** use max-safe-nth-factorial package [(#2676)](https://github.com/stdlib-js/stdlib/pull/2676 ) _(by Gunj Joshi)_
 -   [`26e46d5`](https://github.com/stdlib-js/stdlib/commit/26e46d57474904e02d69b98d8e06052333522257) - **docs:** fix missing `@private` tag [(#2672)](https://github.com/stdlib-js/stdlib/pull/2672) _(by Gunj Joshi)_
 -   [`c6dc95a`](https://github.com/stdlib-js/stdlib/commit/c6dc95aa33843100a7ba3918931eea934ed8caa8) - **feat:** add C implementation for `math/base/special/truncb` _(by Gunj Joshi)_
 -   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - **feat:** add C implementation for `math/base/special/sincos` [(#2646)](https://github.com/stdlib-js/stdlib/pull/2646) _(by Gunj Joshi)_
