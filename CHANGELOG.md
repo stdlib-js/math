@@ -3587,6 +3587,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-fresnelc-unreleased">
+
+#### [@stdlib/math/base/special/fresnelc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fresnelc)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4a2534a`](https://github.com/stdlib-js/stdlib/commit/4a2534a22c2ead42a6318bed2fce221286f9f7a8) - add C implementation for `math/base/special/fresnelc` [(#2680)](https://github.com/stdlib-js/stdlib/pull/2680)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-fresnels-unreleased">
 
 #### [@stdlib/math/base/special/fresnels](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fresnels)
@@ -5604,6 +5626,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4a2534a`](https://github.com/stdlib-js/stdlib/commit/4a2534a22c2ead42a6318bed2fce221286f9f7a8) - **feat:** add C implementation for `math/base/special/fresnelc` [(#2680)](https://github.com/stdlib-js/stdlib/pull/2680) _(by Gunj Joshi)_
 -   [`c476e32`](https://github.com/stdlib-js/stdlib/commit/c476e32e617de04644d9fbf399a34f80661778ea) - **feat:** add C implementation for `math/base/special/fresnels` [(#2675)](https://github.com/stdlib-js/stdlib/pull/2675) _(by Gunj Joshi)_
 -   [`7e04d9e`](https://github.com/stdlib-js/stdlib/commit/7e04d9e27fb5008c1cbc6e45e08ea6ad4b8993d2) - **refactor:** use max-safe-nth-factorial package [(#2676)](https://github.com/stdlib-js/stdlib/pull/2676 ) _(by Gunj Joshi)_
 -   [`26e46d5`](https://github.com/stdlib-js/stdlib/commit/26e46d57474904e02d69b98d8e06052333522257) - **docs:** fix missing `@private` tag [(#2672)](https://github.com/stdlib-js/stdlib/pull/2672) _(by Gunj Joshi)_
