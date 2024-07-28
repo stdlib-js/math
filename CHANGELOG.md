@@ -3588,6 +3588,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-fresnel-unreleased">
+
+#### [@stdlib/math/base/special/fresnel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fresnel)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f2f6164`](https://github.com/stdlib-js/stdlib/commit/f2f6164bcb23e3f0babda8fc651d2b3bc91be599) - add C implementation for `math/base/special/fresnel`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-fresnelc-unreleased">
 
 #### [@stdlib/math/base/special/fresnelc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fresnelc)
@@ -5707,6 +5729,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f2f6164`](https://github.com/stdlib-js/stdlib/commit/f2f6164bcb23e3f0babda8fc651d2b3bc91be599) - **feat:** add C implementation for `math/base/special/fresnel` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`62e247d`](https://github.com/stdlib-js/stdlib/commit/62e247daf7eb45f201cad1784619a344cbdcaff6) - **feat:** add C implementation for `math/base/special/powm1` [(#2660)](https://github.com/stdlib-js/stdlib/pull/2660) _(by Gunj Joshi)_
 -   [`f5d15f7`](https://github.com/stdlib-js/stdlib/commit/f5d15f7e0d12169f3016f1d499674b0ce9b2e0ea) - **feat:** add C implementation for `math/base/special/sincospi` [(#2687)](https://github.com/stdlib-js/stdlib/pull/2687 ) _(by Gunj Joshi)_
 -   [`3fa6956`](https://github.com/stdlib-js/stdlib/commit/3fa69566a55e9cbb28650eea285d90a73b06db36) - **bench:** fix makefile to allow for dependency resolution _(by Athan Reines)_
