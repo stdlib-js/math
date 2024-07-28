@@ -5663,6 +5663,13 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3fa6956`](https://github.com/stdlib-js/stdlib/commit/3fa69566a55e9cbb28650eea285d90a73b06db36) - **bench:** fix makefile to allow for dependency resolution _(by Athan Reines)_
+-   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
+-   [`3e05048`](https://github.com/stdlib-js/stdlib/commit/3e05048df523b9a45e3f0621893d9dd99aae8d9c) - **docs:** remove comment _(by Athan Reines)_
+-   [`55ec8ed`](https://github.com/stdlib-js/stdlib/commit/55ec8edfeb7000bca7478af116e794f20560e922) - **docs:** remove comment _(by Athan Reines)_
+-   [`c4048ea`](https://github.com/stdlib-js/stdlib/commit/c4048eaebb7e01cf6dcf8a21b08ce9a723b3b764) - **build:** fix makefile to allow dependency resolution _(by Athan Reines)_
+-   [`5b4c5ca`](https://github.com/stdlib-js/stdlib/commit/5b4c5cadb3d2fed46829dbf32f217726658e46bb) - **bench:** resolve lint errors _(by Athan Reines)_
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`3264c24`](https://github.com/stdlib-js/stdlib/commit/3264c24815dcbd08eeb4afbf3909a3223bdaf2c1) - **chore:** update package meta data [(#2686)](https://github.com/stdlib-js/stdlib/pull/2686) _(by stdlib-bot, Athan Reines)_
 -   [`1655420`](https://github.com/stdlib-js/stdlib/commit/1655420e7a06617d5b454886c2be025e00bad74b) - **docs:** update namespace table of contents [(#2683)](https://github.com/stdlib-js/stdlib/pull/2683) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`6e4b9eb`](https://github.com/stdlib-js/stdlib/commit/6e4b9ebc31d9629446019e37e31bfe9b180b675c) - **feat:** update namespace TypeScript declarations [(#2681)](https://github.com/stdlib-js/stdlib/pull/2681) _(by stdlib-bot, Philipp Burckhardt)_
