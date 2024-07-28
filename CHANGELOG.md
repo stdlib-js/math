@@ -5729,6 +5729,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`39a6773`](https://github.com/stdlib-js/stdlib/commit/39a67731ee7d3e1f6afb827ba59c89526b975f0a) - **docs:** remove unused include from example in `math/base/special/gamma/README.md` [(#2677)](https://github.com/stdlib-js/stdlib/pull/2677) _(by Gunj Joshi)_
 -   [`f2f6164`](https://github.com/stdlib-js/stdlib/commit/f2f6164bcb23e3f0babda8fc651d2b3bc91be599) - **feat:** add C implementation for `math/base/special/fresnel` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`62e247d`](https://github.com/stdlib-js/stdlib/commit/62e247daf7eb45f201cad1784619a344cbdcaff6) - **feat:** add C implementation for `math/base/special/powm1` [(#2660)](https://github.com/stdlib-js/stdlib/pull/2660) _(by Gunj Joshi)_
 -   [`f5d15f7`](https://github.com/stdlib-js/stdlib/commit/f5d15f7e0d12169f3016f1d499674b0ce9b2e0ea) - **feat:** add C implementation for `math/base/special/sincospi` [(#2687)](https://github.com/stdlib-js/stdlib/pull/2687 ) _(by Gunj Joshi)_
