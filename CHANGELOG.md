@@ -5729,6 +5729,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6f3e683`](https://github.com/stdlib-js/stdlib/commit/6f3e683d6409d7b05965580c56f79e07f659d08b) - **docs:** fix return type [(#2700)](https://github.com/stdlib-js/stdlib/pull/2700) _(by Gunj Joshi)_
 -   [`4d208c9`](https://github.com/stdlib-js/stdlib/commit/4d208c9e0131e9c0e15d713828266f50994ec891) - **test:** add missing tests [(#2701)](https://github.com/stdlib-js/stdlib/pull/2701) _(by Gunj Joshi)_
 -   [`f00c6b6`](https://github.com/stdlib-js/stdlib/commit/f00c6b63931baf0e14f1b6adeeacc2a1c3e353df) - **refactor:** move `return` statement [(#2702)](https://github.com/stdlib-js/stdlib/pull/2702) _(by Gunj Joshi)_
 -   [`ca6489f`](https://github.com/stdlib-js/stdlib/commit/ca6489fe555d5ae046287abf53e0655c5ab8f8de) - **refactor:** remove include and fix return type [(#2699)](https://github.com/stdlib-js/stdlib/pull/2699) _(by Gunj Joshi)_
