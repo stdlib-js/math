@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-28)
+## Unreleased (2024-07-29)
 
 <section class="packages">
 
@@ -5729,6 +5729,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ca6489f`](https://github.com/stdlib-js/stdlib/commit/ca6489fe555d5ae046287abf53e0655c5ab8f8de) - **refactor:** remove include and fix return type [(#2699)](https://github.com/stdlib-js/stdlib/pull/2699) _(by Gunj Joshi)_
 -   [`a2ad2e1`](https://github.com/stdlib-js/stdlib/commit/a2ad2e1ad4f9150b818e3cf828815d4b73913f59) - **chore:** update package meta data [(#2696)](https://github.com/stdlib-js/stdlib/pull/2696) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`39a6773`](https://github.com/stdlib-js/stdlib/commit/39a67731ee7d3e1f6afb827ba59c89526b975f0a) - **docs:** remove unused include from example in `math/base/special/gamma/README.md` [(#2677)](https://github.com/stdlib-js/stdlib/pull/2677) _(by Gunj Joshi)_
 -   [`f2f6164`](https://github.com/stdlib-js/stdlib/commit/f2f6164bcb23e3f0babda8fc651d2b3bc91be599) - **feat:** add C implementation for `math/base/special/fresnel` _(by Gunj Joshi, Philipp Burckhardt)_
