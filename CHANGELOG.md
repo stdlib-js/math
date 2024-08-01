@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-30)
+## Unreleased (2024-08-01)
 
 <section class="packages">
 
@@ -494,6 +494,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726)
 -   [`c5b26dc`](https://github.com/stdlib-js/stdlib/commit/c5b26dc3239d86e7708a7e47e317768489147e4f) - add Node-API macros for binary functions
 
 </section>
@@ -5729,6 +5730,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - **feat:** add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726) _(by Gunj Joshi, Athan Reines)_
 -   [`9816dec`](https://github.com/stdlib-js/stdlib/commit/9816dece59ddf974693cf1626f3b5823d652e3c4) - **bench:** fix description [(#2709)](https://github.com/stdlib-js/stdlib/pull/2709) _(by Gunj Joshi)_
 -   [`6f3e683`](https://github.com/stdlib-js/stdlib/commit/6f3e683d6409d7b05965580c56f79e07f659d08b) - **docs:** fix return type [(#2700)](https://github.com/stdlib-js/stdlib/pull/2700) _(by Gunj Joshi)_
 -   [`4d208c9`](https://github.com/stdlib-js/stdlib/commit/4d208c9e0131e9c0e15d713828266f50994ec891) - **test:** add missing tests [(#2701)](https://github.com/stdlib-js/stdlib/pull/2701) _(by Gunj Joshi)_
