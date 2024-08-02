@@ -861,6 +861,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - add C implementation for `math/base/special/binomcoef`
 -   [`6e4b9eb`](https://github.com/stdlib-js/stdlib/commit/6e4b9ebc31d9629446019e37e31bfe9b180b675c) - update namespace TypeScript declarations [(#2681)](https://github.com/stdlib-js/stdlib/pull/2681)
 -   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - add C implementation for `math/base/special/binet` [(#2653)](https://github.com/stdlib-js/stdlib/pull/2653)
 -   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b) - update namespace TypeScript declarations [(#2637)](https://github.com/stdlib-js/stdlib/pull/2637)
@@ -5752,6 +5753,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - **feat:** add C implementation for `math/base/special/binomcoef` _(by Gunj Joshi)_
 -   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - **feat:** add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636) _(by Gunj Joshi)_
 -   [`eb7f8ed`](https://github.com/stdlib-js/stdlib/commit/eb7f8ed40d9a514a673f5152484f62042dc24e67) - **docs:** add missing `stdint` includes [(#2728)](https://github.com/stdlib-js/stdlib/pull/2728) _(by Gunj Joshi, Athan Reines)_
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - **feat:** add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726) _(by Gunj Joshi, Athan Reines)_
