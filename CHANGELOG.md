@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-01)
+## Unreleased (2024-08-02)
 
 <section class="packages">
 
@@ -3755,6 +3755,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-gammaln-unreleased">
+
+#### [@stdlib/math/base/special/gammaln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gammaln)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-gammasgn-unreleased">
 
 #### [@stdlib/math/base/special/gammasgn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gammasgn)
@@ -5730,6 +5752,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - **feat:** add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636) _(by Gunj Joshi)_
 -   [`eb7f8ed`](https://github.com/stdlib-js/stdlib/commit/eb7f8ed40d9a514a673f5152484f62042dc24e67) - **docs:** add missing `stdint` includes [(#2728)](https://github.com/stdlib-js/stdlib/pull/2728) _(by Gunj Joshi, Athan Reines)_
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - **feat:** add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726) _(by Gunj Joshi, Athan Reines)_
 -   [`9816dec`](https://github.com/stdlib-js/stdlib/commit/9816dece59ddf974693cf1626f3b5823d652e3c4) - **bench:** fix description [(#2709)](https://github.com/stdlib-js/stdlib/pull/2709) _(by Gunj Joshi)_
