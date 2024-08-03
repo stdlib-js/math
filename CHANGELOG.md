@@ -5775,6 +5775,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b633157`](https://github.com/stdlib-js/stdlib/commit/b6331572f8cc0dcd92ac1dbeb0aeaabc4d858615) - **docs:** remove comments, set `isNegative` to `uint8_t` in `math/base/special/gammaln` [(#2732)](https://github.com/stdlib-js/stdlib/pull/2732) _(by Gunj Joshi)_
 -   [`759e667`](https://github.com/stdlib-js/stdlib/commit/759e6676d54a121a5458edbe0f6caa541c465001) - **feat:** add C implementation for `math/base/special/sinc` _(by Gunj Joshi)_
 -   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - **feat:** add C implementation for `math/base/special/binomcoef` _(by Gunj Joshi)_
 -   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - **feat:** add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636) _(by Gunj Joshi)_
