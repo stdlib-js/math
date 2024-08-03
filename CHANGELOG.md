@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-02)
+## Unreleased (2024-08-03)
 
 <section class="packages">
 
@@ -4931,6 +4931,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sinc-unreleased">
+
+#### [@stdlib/math/base/special/sinc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinc)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`759e667`](https://github.com/stdlib-js/stdlib/commit/759e6676d54a121a5458edbe0f6caa541c465001) - add C implementation for `math/base/special/sinc`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-sincos-unreleased">
 
 #### [@stdlib/math/base/special/sincos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincos)
@@ -5753,6 +5775,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`759e667`](https://github.com/stdlib-js/stdlib/commit/759e6676d54a121a5458edbe0f6caa541c465001) - **feat:** add C implementation for `math/base/special/sinc` _(by Gunj Joshi)_
 -   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - **feat:** add C implementation for `math/base/special/binomcoef` _(by Gunj Joshi)_
 -   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - **feat:** add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636) _(by Gunj Joshi)_
 -   [`eb7f8ed`](https://github.com/stdlib-js/stdlib/commit/eb7f8ed40d9a514a673f5152484f62042dc24e67) - **docs:** add missing `stdint` includes [(#2728)](https://github.com/stdlib-js/stdlib/pull/2728) _(by Gunj Joshi, Athan Reines)_
