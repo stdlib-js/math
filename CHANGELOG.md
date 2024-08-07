@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-08-07)
 
 <section class="packages">
 
@@ -1857,6 +1857,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - add C implementation for `math/base/special/beta`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-betaln-unreleased">
+
+#### [@stdlib/math/base/special/betaln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/betaln)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7502603`](https://github.com/stdlib-js/stdlib/commit/75026039180c76cf376d7550d7470c57a11780cd) - add C implementation for `math/base/special/betaln`
 
 </section>
 
@@ -5797,6 +5819,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7502603`](https://github.com/stdlib-js/stdlib/commit/75026039180c76cf376d7550d7470c57a11780cd) - **feat:** add C implementation for `math/base/special/betaln` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`5cd396f`](https://github.com/stdlib-js/stdlib/commit/5cd396ff2752de587151f2f8b50d36348db3321e) - **refactor:** use bitwise operation and make casting behavior explicit [(#2733)](https://github.com/stdlib-js/stdlib/pull/2733) _(by Gunj Joshi)_
 -   [`8a97c7d`](https://github.com/stdlib-js/stdlib/commit/8a97c7dbcb07a873fe7395156cfa1fa40beb1dad) - **chore:** update package meta data [(#2738)](https://github.com/stdlib-js/stdlib/pull/2738) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`1c43f05`](https://github.com/stdlib-js/stdlib/commit/1c43f05a04d6731ea7d1b93f89179da216259005) - **feat:** add C implementation for `math/base/special/factorialln` [(#2731)](https://github.com/stdlib-js/stdlib/pull/2731 ) _(by Gunj Joshi)_
