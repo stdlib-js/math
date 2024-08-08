@@ -5885,6 +5885,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`90133e3`](https://github.com/stdlib-js/stdlib/commit/90133e3fcc5deb6ea888468f2b610d1786dbba00) - **bench:** update sample value [(#2763)](https://github.com/stdlib-js/stdlib/pull/2763) _(by Gunj Joshi)_
 -   [`16db19b`](https://github.com/stdlib-js/stdlib/commit/16db19ba69114e4f4180464e8c4562b35a3078d2) - **feat:** add C implementation for `math/base/special/trigamma` _(by Gunj Joshi)_
 -   [`fabbf5a`](https://github.com/stdlib-js/stdlib/commit/fabbf5abfb781849d460e93dd498cd7d99505678) - **feat:** add `math/base/special/roundf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`f966721`](https://github.com/stdlib-js/stdlib/commit/f966721cd336b1ef47199adc316f6e5779aeff06) - **chore:** update URLs _(by Philipp Burckhardt)_
