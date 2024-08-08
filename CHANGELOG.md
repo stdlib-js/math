@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-07)
+## Unreleased (2024-08-08)
 
 <section class="packages">
 
@@ -4930,6 +4930,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-roundf-unreleased">
+
+#### [@stdlib/math/base/special/roundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fabbf5a`](https://github.com/stdlib-js/stdlib/commit/fabbf5abfb781849d460e93dd498cd7d99505678) - add `math/base/special/roundf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-roundn-unreleased">
 
 #### [@stdlib/math/base/special/roundn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundn)
@@ -5841,6 +5863,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fabbf5a`](https://github.com/stdlib-js/stdlib/commit/fabbf5abfb781849d460e93dd498cd7d99505678) - **feat:** add `math/base/special/roundf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`f966721`](https://github.com/stdlib-js/stdlib/commit/f966721cd336b1ef47199adc316f6e5779aeff06) - **chore:** update URLs _(by Philipp Burckhardt)_
 -   [`458697c`](https://github.com/stdlib-js/stdlib/commit/458697cf4aae5b6bcd2e0d9e19181d2ac3b70fe1) - **feat:** add C implementation for `math/base/special/gamma1pm1` _(by Gunj Joshi)_
 -   [`7502603`](https://github.com/stdlib-js/stdlib/commit/75026039180c76cf376d7550d7470c57a11780cd) - **feat:** add C implementation for `math/base/special/betaln` _(by Gunj Joshi, Philipp Burckhardt)_
