@@ -150,6 +150,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-assert-is-integerf-unreleased">
+
+#### [@stdlib/math/base/assert/is-integerf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-integerf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`140b517`](https://github.com/stdlib-js/stdlib/commit/140b5172075f08678b84b5f92b7feeacfc777119) - add `math/base/assert/is-integerf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-assert-is-negative-finite-unreleased">
 
 #### [@stdlib/math/base/assert/is-negative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-finite)
@@ -5885,6 +5907,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`140b517`](https://github.com/stdlib-js/stdlib/commit/140b5172075f08678b84b5f92b7feeacfc777119) - **feat:** add `math/base/assert/is-integerf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`2837436`](https://github.com/stdlib-js/stdlib/commit/283743652091fff85f01746b9edf8da3d5286cf5) - **docs:** update license header in `math/base/special/gamma1pm1` [(#2764)](https://github.com/stdlib-js/stdlib/pull/2764) _(by Gunj Joshi)_
 -   [`c14e9c3`](https://github.com/stdlib-js/stdlib/commit/c14e9c3c5b43e13f53e20f87b51868e49b8b7882) - **docs:** update license header and remove `stdlib` include in `math/base/special/trigamma` _(by Gunj Joshi)_
 -   [`82f78f2`](https://github.com/stdlib-js/stdlib/commit/82f78f2a48a3dd406afbed1a3aa2891ecbc94ab6) - **docs:** update function description comments in `math/base/special/betaln` _(by Gunj Joshi)_
