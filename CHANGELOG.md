@@ -5885,6 +5885,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`82f78f2`](https://github.com/stdlib-js/stdlib/commit/82f78f2a48a3dd406afbed1a3aa2891ecbc94ab6) - **docs:** update function description comments in `math/base/special/betaln` _(by Gunj Joshi)_
 -   [`02d4c8a`](https://github.com/stdlib-js/stdlib/commit/02d4c8a5104c324ff3e4b55c6889601e9fd81844) - **bench:** fix variable dtypes [(#2761)](https://github.com/stdlib-js/stdlib/pull/2761) _(by Gunj Joshi, Athan Reines)_
 -   [`90133e3`](https://github.com/stdlib-js/stdlib/commit/90133e3fcc5deb6ea888468f2b610d1786dbba00) - **bench:** update sample value [(#2763)](https://github.com/stdlib-js/stdlib/pull/2763) _(by Gunj Joshi)_
 -   [`16db19b`](https://github.com/stdlib-js/stdlib/commit/16db19ba69114e4f4180464e8c4562b35a3078d2) - **feat:** add C implementation for `math/base/special/trigamma` _(by Gunj Joshi)_
