@@ -5274,6 +5274,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-trigamma-unreleased">
+
+#### [@stdlib/math/base/special/trigamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trigamma)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`16db19b`](https://github.com/stdlib-js/stdlib/commit/16db19ba69114e4f4180464e8c4562b35a3078d2) - add C implementation for `math/base/special/trigamma`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-trunc10-unreleased">
 
 #### [@stdlib/math/base/special/trunc10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trunc10)
@@ -5863,6 +5885,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`16db19b`](https://github.com/stdlib-js/stdlib/commit/16db19ba69114e4f4180464e8c4562b35a3078d2) - **feat:** add C implementation for `math/base/special/trigamma` _(by Gunj Joshi)_
 -   [`fabbf5a`](https://github.com/stdlib-js/stdlib/commit/fabbf5abfb781849d460e93dd498cd7d99505678) - **feat:** add `math/base/special/roundf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`f966721`](https://github.com/stdlib-js/stdlib/commit/f966721cd336b1ef47199adc316f6e5779aeff06) - **chore:** update URLs _(by Philipp Burckhardt)_
 -   [`458697c`](https://github.com/stdlib-js/stdlib/commit/458697cf4aae5b6bcd2e0d9e19181d2ac3b70fe1) - **feat:** add C implementation for `math/base/special/gamma1pm1` _(by Gunj Joshi)_
