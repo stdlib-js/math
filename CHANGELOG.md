@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-08)
+## Unreleased (2024-08-09)
 
 <section class="packages">
 
@@ -566,6 +566,16 @@ This release closes the following issue:
 #### [@stdlib/math/base/napi/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/unary)
 
 <details>
+
+<section class="features">
+
+##### Features
+
+-   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -5907,6 +5917,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - **feat:** add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768) _(by Gunj Joshi)_
 -   [`140b517`](https://github.com/stdlib-js/stdlib/commit/140b5172075f08678b84b5f92b7feeacfc777119) - **feat:** add `math/base/assert/is-integerf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`2837436`](https://github.com/stdlib-js/stdlib/commit/283743652091fff85f01746b9edf8da3d5286cf5) - **docs:** update license header in `math/base/special/gamma1pm1` [(#2764)](https://github.com/stdlib-js/stdlib/pull/2764) _(by Gunj Joshi)_
 -   [`c14e9c3`](https://github.com/stdlib-js/stdlib/commit/c14e9c3c5b43e13f53e20f87b51868e49b8b7882) - **docs:** update license header and remove `stdlib` include in `math/base/special/trigamma` _(by Gunj Joshi)_
