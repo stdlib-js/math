@@ -3777,6 +3777,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-gamma-delta-ratio-unreleased">
+
+#### [@stdlib/math/base/special/gamma-delta-ratio](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma-delta-ratio)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3985f47`](https://github.com/stdlib-js/stdlib/commit/3985f47c6ec78cc644a98aa916740a1b2d37338f) - add C implementation for `math/base/special/gamma-delta-ratio`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-gamma-lanczos-sum-unreleased">
 
 #### [@stdlib/math/base/special/gamma-lanczos-sum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma-lanczos-sum)
@@ -5918,6 +5940,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3985f47`](https://github.com/stdlib-js/stdlib/commit/3985f47c6ec78cc644a98aa916740a1b2d37338f) - **feat:** add C implementation for `math/base/special/gamma-delta-ratio` _(by Gunj Joshi, Athan Reines, Philipp Burckhardt)_
 -   [`0258e19`](https://github.com/stdlib-js/stdlib/commit/0258e19861efda8129308f2caae486b35a249edd) - **chore:** update package meta data [(#2773)](https://github.com/stdlib-js/stdlib/pull/2773) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5b184b6`](https://github.com/stdlib-js/stdlib/commit/5b184b681a3d1d5c3fea30b9d8f4630c86eb44af) - **feat:** add C implementation for `math/base/special/binomcoefln` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - **feat:** add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768) _(by Gunj Joshi)_
