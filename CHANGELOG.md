@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-09)
+## Unreleased (2024-08-11)
 
 <section class="packages">
 
@@ -893,6 +893,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`5b184b6`](https://github.com/stdlib-js/stdlib/commit/5b184b681a3d1d5c3fea30b9d8f4630c86eb44af) - add C implementation for `math/base/special/binomcoefln`
 -   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - add C implementation for `math/base/special/binomcoef`
 -   [`6e4b9eb`](https://github.com/stdlib-js/stdlib/commit/6e4b9ebc31d9629446019e37e31bfe9b180b675c) - update namespace TypeScript declarations [(#2681)](https://github.com/stdlib-js/stdlib/pull/2681)
 -   [`c77f866`](https://github.com/stdlib-js/stdlib/commit/c77f866c93006ba4bf73221cb28c94c23195ca06) - add C implementation for `math/base/special/binet` [(#2653)](https://github.com/stdlib-js/stdlib/pull/2653)
@@ -5917,6 +5918,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5b184b6`](https://github.com/stdlib-js/stdlib/commit/5b184b681a3d1d5c3fea30b9d8f4630c86eb44af) - **feat:** add C implementation for `math/base/special/binomcoefln` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - **feat:** add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768) _(by Gunj Joshi)_
 -   [`140b517`](https://github.com/stdlib-js/stdlib/commit/140b5172075f08678b84b5f92b7feeacfc777119) - **feat:** add `math/base/assert/is-integerf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`2837436`](https://github.com/stdlib-js/stdlib/commit/283743652091fff85f01746b9edf8da3d5286cf5) - **docs:** update license header in `math/base/special/gamma1pm1` [(#2764)](https://github.com/stdlib-js/stdlib/pull/2764) _(by Gunj Joshi)_
