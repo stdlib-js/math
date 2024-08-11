@@ -5962,6 +5962,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`252286d`](https://github.com/stdlib-js/stdlib/commit/252286d5d3357112ff718f0e3dc5ae758836efd3) - **bench:** remove irrelevant benchmark, update `boost` link in `math/base/special/gamma-delta-ratio` _(by Gunj Joshi)_
 -   [`01126b1`](https://github.com/stdlib-js/stdlib/commit/01126b1a0519c87778b802efd352d3117028bb88) - **style:** compare `n` with `integer`, not a `double` in `math/base/special/binomcoefln` [(#2775)](https://github.com/stdlib-js/stdlib/pull/2775 ) _(by Gunj Joshi)_
 -   [`068bc90`](https://github.com/stdlib-js/stdlib/commit/068bc905997d518fef79bd94f22772f02a8915c4) - **docs:** add comment, revert to previous tolerance in `math/base/special/factorialln` [(#2778)](https://github.com/stdlib-js/stdlib/pull/2778) _(by Gunj Joshi)_
 -   [`18bd1b5`](https://github.com/stdlib-js/stdlib/commit/18bd1b5ace1a7dbd9d26bb66c1a1f0aa91573416) - **feat:** add C implementation for `math/base/special/besselj1` _(by Gunj Joshi, Philipp Burckhardt)_
