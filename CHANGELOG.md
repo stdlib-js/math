@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-11)
+## Unreleased (2024-08-12)
 
 <section class="packages">
 
@@ -1909,11 +1909,24 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83) - fix function name and update docs [(#2777)](https://github.com/stdlib-js/stdlib/pull/2777)
 -   [`18bd1b5`](https://github.com/stdlib-js/stdlib/commit/18bd1b5ace1a7dbd9d26bb66c1a1f0aa91573416) - add C implementation for `math/base/special/besselj1`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83): update C API name
+
+    -   This commit changes the name of the C API from `stdlib_base_j1` to `stdlib_base_besselj1`. This ensures that the C function name more closely matches the global namespace name and helps protect against future naming collisions. To migrate, users should update their call signatures accordingly.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -5829,6 +5842,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83): update C API name
+
+    -   This commit changes the name of the C API from `stdlib_base_j1` to `stdlib_base_besselj1`. This ensures that the C function name more closely matches the global namespace name and helps protect against future naming collisions. To migrate, users should update their call signatures accordingly.
+
 -   [`fce4265`](https://github.com/stdlib-js/stdlib/commit/fce42651903b96cc6a0f26e84afc812fa4ea94b3): The third argument 'b' in the JavaScript implementation of `truncsd` is now mandatory. To migrate, explicitly supply the old default value of `10` as the third argument.
 -   [`5df976a`](https://github.com/stdlib-js/stdlib/commit/5df976abacaaf3082890fa852e40edfdf1b79f4b): base parameter is no longer optional
 
@@ -5934,6 +5951,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83) - **feat:** fix function name and update docs [(#2777)](https://github.com/stdlib-js/stdlib/pull/2777) _(by Gunj Joshi)_
 -   [`779b35c`](https://github.com/stdlib-js/stdlib/commit/779b35ca267629b2dadd9947ad2ba106b8095004) - **feat:** add C implementation for `math/base/special/besselj0` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`252286d`](https://github.com/stdlib-js/stdlib/commit/252286d5d3357112ff718f0e3dc5ae758836efd3) - **bench:** remove irrelevant benchmark, update `boost` link in `math/base/special/gamma-delta-ratio` _(by Gunj Joshi)_
 -   [`01126b1`](https://github.com/stdlib-js/stdlib/commit/01126b1a0519c87778b802efd352d3117028bb88) - **style:** compare `n` with `integer`, not a `double` in `math/base/special/binomcoefln` [(#2775)](https://github.com/stdlib-js/stdlib/pull/2775 ) _(by Gunj Joshi)_
