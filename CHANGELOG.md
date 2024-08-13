@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-12)
+## Unreleased (2024-08-13)
 
 <section class="packages">
 
@@ -1927,6 +1927,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-bessely0-unreleased">
+
+#### [@stdlib/math/base/special/bessely0](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/bessely0)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`aaf0c58`](https://github.com/stdlib-js/stdlib/commit/aaf0c5825f2be45af9025e09c60cc4a1de559152) - add C implementation for `math/base/special/bessely0` [(#2780)](https://github.com/stdlib-js/stdlib/pull/2780)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -5951,6 +5973,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`aaf0c58`](https://github.com/stdlib-js/stdlib/commit/aaf0c5825f2be45af9025e09c60cc4a1de559152) - **feat:** add C implementation for `math/base/special/bessely0` [(#2780)](https://github.com/stdlib-js/stdlib/pull/2780) _(by Gunj Joshi)_
 -   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83) - **feat:** fix function name and update docs [(#2777)](https://github.com/stdlib-js/stdlib/pull/2777) _(by Gunj Joshi)_
 -   [`779b35c`](https://github.com/stdlib-js/stdlib/commit/779b35ca267629b2dadd9947ad2ba106b8095004) - **feat:** add C implementation for `math/base/special/besselj0` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`252286d`](https://github.com/stdlib-js/stdlib/commit/252286d5d3357112ff718f0e3dc5ae758836efd3) - **bench:** remove irrelevant benchmark, update `boost` link in `math/base/special/gamma-delta-ratio` _(by Gunj Joshi)_
