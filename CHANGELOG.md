@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-08-13)
+## 0.3.0 (2024-08-17)
 
 <section class="packages">
 
@@ -5973,6 +5973,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6a3b3d7`](https://github.com/stdlib-js/stdlib/commit/6a3b3d731ca697a62e3d58900e1b6cb06e7667dd) - **chore:** update directories meta data _(by Athan Reines)_
 -   [`aaf0c58`](https://github.com/stdlib-js/stdlib/commit/aaf0c5825f2be45af9025e09c60cc4a1de559152) - **feat:** add C implementation for `math/base/special/bessely0` [(#2780)](https://github.com/stdlib-js/stdlib/pull/2780) _(by Gunj Joshi)_
 -   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83) - **feat:** fix function name and update docs [(#2777)](https://github.com/stdlib-js/stdlib/pull/2777) _(by Gunj Joshi)_
 -   [`779b35c`](https://github.com/stdlib-js/stdlib/commit/779b35ca267629b2dadd9947ad2ba106b8095004) - **feat:** add C implementation for `math/base/special/besselj0` _(by Gunj Joshi, Philipp Burckhardt)_
