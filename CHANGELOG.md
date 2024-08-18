@@ -909,6 +909,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - remove extra slash from dependency in `manifest.json` 
 -   [`6125c3c`](https://github.com/stdlib-js/stdlib/commit/6125c3c1f8b8e2902f505844ce5e83ba7c745f9c) - leverage symmetry to avoid infinite recursion
 
 </section>
@@ -5973,6 +5974,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - **fix:** remove extra slash from dependency in `manifest.json`  _(by Philipp Burckhardt)_
 -   [`588c4b4`](https://github.com/stdlib-js/stdlib/commit/588c4b4156c4efee6a90b34b329c39f3c8f4a9d6) - **docs:** update function description in `math/base/special/log` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`09853ce`](https://github.com/stdlib-js/stdlib/commit/09853ce60a535feb4a8f45620dc557cddda38fba) - **chore:** update package meta data [(#2807)](https://github.com/stdlib-js/stdlib/pull/2807) _(by stdlib-bot, Athan Reines)_
 -   [`6a3b3d7`](https://github.com/stdlib-js/stdlib/commit/6a3b3d731ca697a62e3d58900e1b6cb06e7667dd) - **chore:** update directories meta data _(by Athan Reines)_
