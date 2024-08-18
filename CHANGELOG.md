@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2024-08-18)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-08-18)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="math-base-assert-int32-is-even-unreleased">
+<section class="package" id="math-base-assert-int32-is-even-v0.3.0">
 
 #### [@stdlib/math/base/assert/int32-is-even](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/int32-is-even)
 
@@ -42,7 +52,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-int32-is-odd-unreleased">
+<section class="package" id="math-base-assert-int32-is-odd-v0.3.0">
 
 #### [@stdlib/math/base/assert/int32-is-odd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/int32-is-odd)
 
@@ -74,7 +84,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-composite-unreleased">
+<section class="package" id="math-base-assert-is-composite-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-composite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-composite)
 
@@ -96,7 +106,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-even-unreleased">
+<section class="package" id="math-base-assert-is-even-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-even](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-even)
 
@@ -128,7 +138,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-integer-unreleased">
+<section class="package" id="math-base-assert-is-integer-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-integer)
 
@@ -150,7 +160,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-integerf-unreleased">
+<section class="package" id="math-base-assert-is-integerf-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-integerf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-integerf)
 
@@ -172,7 +182,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-negative-finite-unreleased">
+<section class="package" id="math-base-assert-is-negative-finite-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-negative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-finite)
 
@@ -194,7 +204,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-negative-integer-unreleased">
+<section class="package" id="math-base-assert-is-negative-integer-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-negative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-integer)
 
@@ -216,7 +226,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-nonnegative-finite-unreleased">
+<section class="package" id="math-base-assert-is-nonnegative-finite-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-nonnegative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-finite)
 
@@ -250,7 +260,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-nonnegative-integer-unreleased">
+<section class="package" id="math-base-assert-is-nonnegative-integer-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-nonnegative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-integer)
 
@@ -284,7 +294,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-nonpositive-finite-unreleased">
+<section class="package" id="math-base-assert-is-nonpositive-finite-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-nonpositive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonpositive-finite)
 
@@ -306,7 +316,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-nonpositive-integer-unreleased">
+<section class="package" id="math-base-assert-is-nonpositive-integer-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-nonpositive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonpositive-integer)
 
@@ -328,7 +338,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-odd-unreleased">
+<section class="package" id="math-base-assert-is-odd-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-odd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-odd)
 
@@ -362,7 +372,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-positive-finite-unreleased">
+<section class="package" id="math-base-assert-is-positive-finite-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-positive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-finite)
 
@@ -384,7 +394,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-positive-integer-unreleased">
+<section class="package" id="math-base-assert-is-positive-integer-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-positive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-integer)
 
@@ -418,7 +428,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-prime-unreleased">
+<section class="package" id="math-base-assert-is-prime-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-prime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-prime)
 
@@ -440,7 +450,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-probability-unreleased">
+<section class="package" id="math-base-assert-is-probability-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-probability](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-probability)
 
@@ -462,7 +472,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-is-safe-integer-unreleased">
+<section class="package" id="math-base-assert-is-safe-integer-v0.3.0">
 
 #### [@stdlib/math/base/assert/is-safe-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-safe-integer)
 
@@ -484,7 +494,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-assert-uint32-is-pow2-unreleased">
+<section class="package" id="math-base-assert-uint32-is-pow2-v0.3.0">
 
 #### [@stdlib/math/base/assert/uint32-is-pow2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/uint32-is-pow2)
 
@@ -506,7 +516,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-napi-unreleased">
+<section class="package" id="math-base-napi-v0.3.0">
 
 #### [@stdlib/math/base/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi)
 
@@ -539,7 +549,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-napi-ternary-unreleased">
+<section class="package" id="math-base-napi-ternary-v0.3.0">
 
 #### [@stdlib/math/base/napi/ternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary)
 
@@ -561,7 +571,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-napi-unary-unreleased">
+<section class="package" id="math-base-napi-unary-v0.3.0">
 
 #### [@stdlib/math/base/napi/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/unary)
 
@@ -593,7 +603,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-unreleased">
+<section class="package" id="math-base-ops-v0.3.0">
 
 #### [@stdlib/math/base/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops)
 
@@ -627,7 +637,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cadd-unreleased">
+<section class="package" id="math-base-ops-cadd-v0.3.0">
 
 #### [@stdlib/math/base/ops/cadd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cadd)
 
@@ -663,7 +673,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-caddf-unreleased">
+<section class="package" id="math-base-ops-caddf-v0.3.0">
 
 #### [@stdlib/math/base/ops/caddf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/caddf)
 
@@ -699,7 +709,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cdiv-unreleased">
+<section class="package" id="math-base-ops-cdiv-v0.3.0">
 
 #### [@stdlib/math/base/ops/cdiv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cdiv)
 
@@ -722,7 +732,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cmul-unreleased">
+<section class="package" id="math-base-ops-cmul-v0.3.0">
 
 #### [@stdlib/math/base/ops/cmul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cmul)
 
@@ -758,7 +768,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cmulf-unreleased">
+<section class="package" id="math-base-ops-cmulf-v0.3.0">
 
 #### [@stdlib/math/base/ops/cmulf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cmulf)
 
@@ -794,7 +804,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cneg-unreleased">
+<section class="package" id="math-base-ops-cneg-v0.3.0">
 
 #### [@stdlib/math/base/ops/cneg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cneg)
 
@@ -816,7 +826,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-cnegf-unreleased">
+<section class="package" id="math-base-ops-cnegf-v0.3.0">
 
 #### [@stdlib/math/base/ops/cnegf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cnegf)
 
@@ -838,7 +848,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-csub-unreleased">
+<section class="package" id="math-base-ops-csub-v0.3.0">
 
 #### [@stdlib/math/base/ops/csub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csub)
 
@@ -860,7 +870,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-ops-csubf-unreleased">
+<section class="package" id="math-base-ops-csubf-v0.3.0">
 
 #### [@stdlib/math/base/ops/csubf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csubf)
 
@@ -882,7 +892,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-unreleased">
+<section class="package" id="math-base-special-v0.3.0">
 
 #### [@stdlib/math/base/special](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special)
 
@@ -946,7 +956,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acos-unreleased">
+<section class="package" id="math-base-special-acos-v0.3.0">
 
 #### [@stdlib/math/base/special/acos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acos)
 
@@ -968,7 +978,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acosd-unreleased">
+<section class="package" id="math-base-special-acosd-v0.3.0">
 
 #### [@stdlib/math/base/special/acosd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acosd)
 
@@ -991,7 +1001,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acosf-unreleased">
+<section class="package" id="math-base-special-acosf-v0.3.0">
 
 #### [@stdlib/math/base/special/acosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acosf)
 
@@ -1035,7 +1045,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acosh-unreleased">
+<section class="package" id="math-base-special-acosh-v0.3.0">
 
 #### [@stdlib/math/base/special/acosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acosh)
 
@@ -1057,7 +1067,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acot-unreleased">
+<section class="package" id="math-base-special-acot-v0.3.0">
 
 #### [@stdlib/math/base/special/acot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acot)
 
@@ -1079,7 +1089,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acotd-unreleased">
+<section class="package" id="math-base-special-acotd-v0.3.0">
 
 #### [@stdlib/math/base/special/acotd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acotd)
 
@@ -1102,7 +1112,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acotf-unreleased">
+<section class="package" id="math-base-special-acotf-v0.3.0">
 
 #### [@stdlib/math/base/special/acotf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acotf)
 
@@ -1136,7 +1146,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acoth-unreleased">
+<section class="package" id="math-base-special-acoth-v0.3.0">
 
 #### [@stdlib/math/base/special/acoth](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoth)
 
@@ -1158,7 +1168,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acovercos-unreleased">
+<section class="package" id="math-base-special-acovercos-v0.3.0">
 
 #### [@stdlib/math/base/special/acovercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acovercos)
 
@@ -1190,7 +1200,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acoversin-unreleased">
+<section class="package" id="math-base-special-acoversin-v0.3.0">
 
 #### [@stdlib/math/base/special/acoversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoversin)
 
@@ -1234,7 +1244,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acsc-unreleased">
+<section class="package" id="math-base-special-acsc-v0.3.0">
 
 #### [@stdlib/math/base/special/acsc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acsc)
 
@@ -1256,7 +1266,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acscd-unreleased">
+<section class="package" id="math-base-special-acscd-v0.3.0">
 
 #### [@stdlib/math/base/special/acscd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acscd)
 
@@ -1279,7 +1289,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acscdf-unreleased">
+<section class="package" id="math-base-special-acscdf-v0.3.0">
 
 #### [@stdlib/math/base/special/acscdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acscdf)
 
@@ -1301,7 +1311,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acscf-unreleased">
+<section class="package" id="math-base-special-acscf-v0.3.0">
 
 #### [@stdlib/math/base/special/acscf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acscf)
 
@@ -1335,7 +1345,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acsch-unreleased">
+<section class="package" id="math-base-special-acsch-v0.3.0">
 
 #### [@stdlib/math/base/special/acsch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acsch)
 
@@ -1369,7 +1379,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ahavercos-unreleased">
+<section class="package" id="math-base-special-ahavercos-v0.3.0">
 
 #### [@stdlib/math/base/special/ahavercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahavercos)
 
@@ -1401,7 +1411,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ahaversin-unreleased">
+<section class="package" id="math-base-special-ahaversin-v0.3.0">
 
 #### [@stdlib/math/base/special/ahaversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahaversin)
 
@@ -1423,7 +1433,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asec-unreleased">
+<section class="package" id="math-base-special-asec-v0.3.0">
 
 #### [@stdlib/math/base/special/asec](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asec)
 
@@ -1445,7 +1455,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asecd-unreleased">
+<section class="package" id="math-base-special-asecd-v0.3.0">
 
 #### [@stdlib/math/base/special/asecd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asecd)
 
@@ -1468,7 +1478,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asecdf-unreleased">
+<section class="package" id="math-base-special-asecdf-v0.3.0">
 
 #### [@stdlib/math/base/special/asecdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asecdf)
 
@@ -1490,7 +1500,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asecf-unreleased">
+<section class="package" id="math-base-special-asecf-v0.3.0">
 
 #### [@stdlib/math/base/special/asecf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asecf)
 
@@ -1524,7 +1534,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asech-unreleased">
+<section class="package" id="math-base-special-asech-v0.3.0">
 
 #### [@stdlib/math/base/special/asech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asech)
 
@@ -1546,7 +1556,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asin-unreleased">
+<section class="package" id="math-base-special-asin-v0.3.0">
 
 #### [@stdlib/math/base/special/asin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asin)
 
@@ -1568,7 +1578,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asind-unreleased">
+<section class="package" id="math-base-special-asind-v0.3.0">
 
 #### [@stdlib/math/base/special/asind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asind)
 
@@ -1591,7 +1601,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asindf-unreleased">
+<section class="package" id="math-base-special-asindf-v0.3.0">
 
 #### [@stdlib/math/base/special/asindf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asindf)
 
@@ -1613,7 +1623,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asinf-unreleased">
+<section class="package" id="math-base-special-asinf-v0.3.0">
 
 #### [@stdlib/math/base/special/asinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asinf)
 
@@ -1647,7 +1657,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-asinh-unreleased">
+<section class="package" id="math-base-special-asinh-v0.3.0">
 
 #### [@stdlib/math/base/special/asinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asinh)
 
@@ -1669,7 +1679,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-atan-unreleased">
+<section class="package" id="math-base-special-atan-v0.3.0">
 
 #### [@stdlib/math/base/special/atan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atan)
 
@@ -1691,7 +1701,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-atan2-unreleased">
+<section class="package" id="math-base-special-atan2-v0.3.0">
 
 #### [@stdlib/math/base/special/atan2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atan2)
 
@@ -1713,7 +1723,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-atand-unreleased">
+<section class="package" id="math-base-special-atand-v0.3.0">
 
 #### [@stdlib/math/base/special/atand](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atand)
 
@@ -1736,7 +1746,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-atanf-unreleased">
+<section class="package" id="math-base-special-atanf-v0.3.0">
 
 #### [@stdlib/math/base/special/atanf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atanf)
 
@@ -1780,7 +1790,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-atanh-unreleased">
+<section class="package" id="math-base-special-atanh-v0.3.0">
 
 #### [@stdlib/math/base/special/atanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atanh)
 
@@ -1802,7 +1812,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-avercos-unreleased">
+<section class="package" id="math-base-special-avercos-v0.3.0">
 
 #### [@stdlib/math/base/special/avercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/avercos)
 
@@ -1824,7 +1834,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-aversin-unreleased">
+<section class="package" id="math-base-special-aversin-v0.3.0">
 
 #### [@stdlib/math/base/special/aversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/aversin)
 
@@ -1846,7 +1856,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-bernoulli-unreleased">
+<section class="package" id="math-base-special-bernoulli-v0.3.0">
 
 #### [@stdlib/math/base/special/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/bernoulli)
 
@@ -1878,7 +1888,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-besselj0-unreleased">
+<section class="package" id="math-base-special-besselj0-v0.3.0">
 
 #### [@stdlib/math/base/special/besselj0](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/besselj0)
 
@@ -1900,7 +1910,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-besselj1-unreleased">
+<section class="package" id="math-base-special-besselj1-v0.3.0">
 
 #### [@stdlib/math/base/special/besselj1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/besselj1)
 
@@ -1935,7 +1945,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-bessely0-unreleased">
+<section class="package" id="math-base-special-bessely0-v0.3.0">
 
 #### [@stdlib/math/base/special/bessely0](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/bessely0)
 
@@ -1957,7 +1967,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-beta-unreleased">
+<section class="package" id="math-base-special-beta-v0.3.0">
 
 #### [@stdlib/math/base/special/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/beta)
 
@@ -1979,7 +1989,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-betaln-unreleased">
+<section class="package" id="math-base-special-betaln-v0.3.0">
 
 #### [@stdlib/math/base/special/betaln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/betaln)
 
@@ -2001,7 +2011,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-boxcox-unreleased">
+<section class="package" id="math-base-special-boxcox-v0.3.0">
 
 #### [@stdlib/math/base/special/boxcox](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/boxcox)
 
@@ -2023,7 +2033,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-boxcox1p-unreleased">
+<section class="package" id="math-base-special-boxcox1p-v0.3.0">
 
 #### [@stdlib/math/base/special/boxcox1p](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/boxcox1p)
 
@@ -2045,7 +2055,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-boxcox1pinv-unreleased">
+<section class="package" id="math-base-special-boxcox1pinv-v0.3.0">
 
 #### [@stdlib/math/base/special/boxcox1pinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/boxcox1pinv)
 
@@ -2067,7 +2077,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-boxcoxinv-unreleased">
+<section class="package" id="math-base-special-boxcoxinv-v0.3.0">
 
 #### [@stdlib/math/base/special/boxcoxinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/boxcoxinv)
 
@@ -2089,7 +2099,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cabs-unreleased">
+<section class="package" id="math-base-special-cabs-v0.3.0">
 
 #### [@stdlib/math/base/special/cabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cabs)
 
@@ -2111,7 +2121,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cabs2-unreleased">
+<section class="package" id="math-base-special-cabs2-v0.3.0">
 
 #### [@stdlib/math/base/special/cabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cabs2)
 
@@ -2133,7 +2143,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cceil-unreleased">
+<section class="package" id="math-base-special-cceil-v0.3.0">
 
 #### [@stdlib/math/base/special/cceil](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cceil)
 
@@ -2155,7 +2165,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cceiln-unreleased">
+<section class="package" id="math-base-special-cceiln-v0.3.0">
 
 #### [@stdlib/math/base/special/cceiln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cceiln)
 
@@ -2177,7 +2187,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ccis-unreleased">
+<section class="package" id="math-base-special-ccis-v0.3.0">
 
 #### [@stdlib/math/base/special/ccis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ccis)
 
@@ -2199,7 +2209,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ceil10-unreleased">
+<section class="package" id="math-base-special-ceil10-v0.3.0">
 
 #### [@stdlib/math/base/special/ceil10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceil10)
 
@@ -2221,7 +2231,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ceil2-unreleased">
+<section class="package" id="math-base-special-ceil2-v0.3.0">
 
 #### [@stdlib/math/base/special/ceil2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceil2)
 
@@ -2243,7 +2253,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ceilb-unreleased">
+<section class="package" id="math-base-special-ceilb-v0.3.0">
 
 #### [@stdlib/math/base/special/ceilb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceilb)
 
@@ -2265,7 +2275,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ceilsd-unreleased">
+<section class="package" id="math-base-special-ceilsd-v0.3.0">
 
 #### [@stdlib/math/base/special/ceilsd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceilsd)
 
@@ -2297,7 +2307,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cexp-unreleased">
+<section class="package" id="math-base-special-cexp-v0.3.0">
 
 #### [@stdlib/math/base/special/cexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cexp)
 
@@ -2319,7 +2329,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cflipsign-unreleased">
+<section class="package" id="math-base-special-cflipsign-v0.3.0">
 
 #### [@stdlib/math/base/special/cflipsign](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cflipsign)
 
@@ -2341,7 +2351,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cfloor-unreleased">
+<section class="package" id="math-base-special-cfloor-v0.3.0">
 
 #### [@stdlib/math/base/special/cfloor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cfloor)
 
@@ -2363,7 +2373,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cfloorn-unreleased">
+<section class="package" id="math-base-special-cfloorn-v0.3.0">
 
 #### [@stdlib/math/base/special/cfloorn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cfloorn)
 
@@ -2385,7 +2395,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cidentity-unreleased">
+<section class="package" id="math-base-special-cidentity-v0.3.0">
 
 #### [@stdlib/math/base/special/cidentity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cidentity)
 
@@ -2407,7 +2417,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cinv-unreleased">
+<section class="package" id="math-base-special-cinv-v0.3.0">
 
 #### [@stdlib/math/base/special/cinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cinv)
 
@@ -2429,7 +2439,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cos-unreleased">
+<section class="package" id="math-base-special-cos-v0.3.0">
 
 #### [@stdlib/math/base/special/cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cos)
 
@@ -2451,7 +2461,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cosd-unreleased">
+<section class="package" id="math-base-special-cosd-v0.3.0">
 
 #### [@stdlib/math/base/special/cosd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosd)
 
@@ -2474,7 +2484,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cosh-unreleased">
+<section class="package" id="math-base-special-cosh-v0.3.0">
 
 #### [@stdlib/math/base/special/cosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosh)
 
@@ -2496,7 +2506,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cosm1-unreleased">
+<section class="package" id="math-base-special-cosm1-v0.3.0">
 
 #### [@stdlib/math/base/special/cosm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosm1)
 
@@ -2518,7 +2528,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cospi-unreleased">
+<section class="package" id="math-base-special-cospi-v0.3.0">
 
 #### [@stdlib/math/base/special/cospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cospi)
 
@@ -2540,7 +2550,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cot-unreleased">
+<section class="package" id="math-base-special-cot-v0.3.0">
 
 #### [@stdlib/math/base/special/cot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cot)
 
@@ -2562,7 +2572,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cotd-unreleased">
+<section class="package" id="math-base-special-cotd-v0.3.0">
 
 #### [@stdlib/math/base/special/cotd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cotd)
 
@@ -2585,7 +2595,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-coth-unreleased">
+<section class="package" id="math-base-special-coth-v0.3.0">
 
 #### [@stdlib/math/base/special/coth](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/coth)
 
@@ -2629,7 +2639,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-covercos-unreleased">
+<section class="package" id="math-base-special-covercos-v0.3.0">
 
 #### [@stdlib/math/base/special/covercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/covercos)
 
@@ -2651,7 +2661,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-coversin-unreleased">
+<section class="package" id="math-base-special-coversin-v0.3.0">
 
 #### [@stdlib/math/base/special/coversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/coversin)
 
@@ -2673,7 +2683,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cphase-unreleased">
+<section class="package" id="math-base-special-cphase-v0.3.0">
 
 #### [@stdlib/math/base/special/cphase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cphase)
 
@@ -2695,7 +2705,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cpolar-unreleased">
+<section class="package" id="math-base-special-cpolar-v0.3.0">
 
 #### [@stdlib/math/base/special/cpolar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cpolar)
 
@@ -2717,7 +2727,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cround-unreleased">
+<section class="package" id="math-base-special-cround-v0.3.0">
 
 #### [@stdlib/math/base/special/cround](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cround)
 
@@ -2739,7 +2749,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-croundn-unreleased">
+<section class="package" id="math-base-special-croundn-v0.3.0">
 
 #### [@stdlib/math/base/special/croundn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/croundn)
 
@@ -2761,7 +2771,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-csc-unreleased">
+<section class="package" id="math-base-special-csc-v0.3.0">
 
 #### [@stdlib/math/base/special/csc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/csc)
 
@@ -2784,7 +2794,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-cscd-unreleased">
+<section class="package" id="math-base-special-cscd-v0.3.0">
 
 #### [@stdlib/math/base/special/cscd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cscd)
 
@@ -2807,7 +2817,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-csch-unreleased">
+<section class="package" id="math-base-special-csch-v0.3.0">
 
 #### [@stdlib/math/base/special/csch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/csch)
 
@@ -2841,7 +2851,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-csignum-unreleased">
+<section class="package" id="math-base-special-csignum-v0.3.0">
 
 #### [@stdlib/math/base/special/csignum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/csignum)
 
@@ -2863,7 +2873,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-digamma-unreleased">
+<section class="package" id="math-base-special-digamma-v0.3.0">
 
 #### [@stdlib/math/base/special/digamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/digamma)
 
@@ -2885,7 +2895,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-dirac-delta-unreleased">
+<section class="package" id="math-base-special-dirac-delta-v0.3.0">
 
 #### [@stdlib/math/base/special/dirac-delta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/dirac-delta)
 
@@ -2907,7 +2917,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ellipe-unreleased">
+<section class="package" id="math-base-special-ellipe-v0.3.0">
 
 #### [@stdlib/math/base/special/ellipe](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ellipe)
 
@@ -2952,7 +2962,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ellipk-unreleased">
+<section class="package" id="math-base-special-ellipk-v0.3.0">
 
 #### [@stdlib/math/base/special/ellipk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ellipk)
 
@@ -2974,7 +2984,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-erf-unreleased">
+<section class="package" id="math-base-special-erf-v0.3.0">
 
 #### [@stdlib/math/base/special/erf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erf)
 
@@ -2996,7 +3006,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-erfc-unreleased">
+<section class="package" id="math-base-special-erfc-v0.3.0">
 
 #### [@stdlib/math/base/special/erfc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfc)
 
@@ -3018,7 +3028,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-erfcinv-unreleased">
+<section class="package" id="math-base-special-erfcinv-v0.3.0">
 
 #### [@stdlib/math/base/special/erfcinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfcinv)
 
@@ -3040,7 +3050,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-erfinv-unreleased">
+<section class="package" id="math-base-special-erfinv-v0.3.0">
 
 #### [@stdlib/math/base/special/erfinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfinv)
 
@@ -3062,7 +3072,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-exp-unreleased">
+<section class="package" id="math-base-special-exp-v0.3.0">
 
 #### [@stdlib/math/base/special/exp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/exp)
 
@@ -3084,7 +3094,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-exp10-unreleased">
+<section class="package" id="math-base-special-exp10-v0.3.0">
 
 #### [@stdlib/math/base/special/exp10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/exp10)
 
@@ -3106,7 +3116,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-exp2-unreleased">
+<section class="package" id="math-base-special-exp2-v0.3.0">
 
 #### [@stdlib/math/base/special/exp2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/exp2)
 
@@ -3128,7 +3138,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-expit-unreleased">
+<section class="package" id="math-base-special-expit-v0.3.0">
 
 #### [@stdlib/math/base/special/expit](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/expit)
 
@@ -3150,7 +3160,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-expm1-unreleased">
+<section class="package" id="math-base-special-expm1-v0.3.0">
 
 #### [@stdlib/math/base/special/expm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/expm1)
 
@@ -3172,7 +3182,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-expm1rel-unreleased">
+<section class="package" id="math-base-special-expm1rel-v0.3.0">
 
 #### [@stdlib/math/base/special/expm1rel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/expm1rel)
 
@@ -3194,7 +3204,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-factorial-unreleased">
+<section class="package" id="math-base-special-factorial-v0.3.0">
 
 #### [@stdlib/math/base/special/factorial](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/factorial)
 
@@ -3226,7 +3236,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-factorial2-unreleased">
+<section class="package" id="math-base-special-factorial2-v0.3.0">
 
 #### [@stdlib/math/base/special/factorial2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/factorial2)
 
@@ -3248,7 +3258,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-factorialln-unreleased">
+<section class="package" id="math-base-special-factorialln-v0.3.0">
 
 #### [@stdlib/math/base/special/factorialln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/factorialln)
 
@@ -3270,7 +3280,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-abs-unreleased">
+<section class="package" id="math-base-special-fast-abs-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/abs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/abs)
 
@@ -3292,7 +3302,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-acosh-unreleased">
+<section class="package" id="math-base-special-fast-acosh-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/acosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/acosh)
 
@@ -3314,7 +3324,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-alpha-max-plus-beta-min-unreleased">
+<section class="package" id="math-base-special-fast-alpha-max-plus-beta-min-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/alpha-max-plus-beta-min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/alpha-max-plus-beta-min)
 
@@ -3348,7 +3358,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-asinh-unreleased">
+<section class="package" id="math-base-special-fast-asinh-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/asinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/asinh)
 
@@ -3380,7 +3390,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-atanh-unreleased">
+<section class="package" id="math-base-special-fast-atanh-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/atanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/atanh)
 
@@ -3402,7 +3412,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-hypot-unreleased">
+<section class="package" id="math-base-special-fast-hypot-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/hypot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/hypot)
 
@@ -3424,7 +3434,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-max-unreleased">
+<section class="package" id="math-base-special-fast-max-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/max)
 
@@ -3446,7 +3456,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-min-unreleased">
+<section class="package" id="math-base-special-fast-min-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/min)
 
@@ -3468,7 +3478,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-pow-int-unreleased">
+<section class="package" id="math-base-special-fast-pow-int-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/pow-int](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/pow-int)
 
@@ -3500,7 +3510,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-uint32-log2-unreleased">
+<section class="package" id="math-base-special-fast-uint32-log2-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/uint32-log2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/uint32-log2)
 
@@ -3522,7 +3532,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fast-uint32-sqrt-unreleased">
+<section class="package" id="math-base-special-fast-uint32-sqrt-v0.3.0">
 
 #### [@stdlib/math/base/special/fast/uint32-sqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fast/uint32-sqrt)
 
@@ -3544,7 +3554,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fibonacci-unreleased">
+<section class="package" id="math-base-special-fibonacci-v0.3.0">
 
 #### [@stdlib/math/base/special/fibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonacci)
 
@@ -3566,7 +3576,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fibonacci-index-unreleased">
+<section class="package" id="math-base-special-fibonacci-index-v0.3.0">
 
 #### [@stdlib/math/base/special/fibonacci-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonacci-index)
 
@@ -3588,7 +3598,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-floor10-unreleased">
+<section class="package" id="math-base-special-floor10-v0.3.0">
 
 #### [@stdlib/math/base/special/floor10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floor10)
 
@@ -3610,7 +3620,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-floor2-unreleased">
+<section class="package" id="math-base-special-floor2-v0.3.0">
 
 #### [@stdlib/math/base/special/floor2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floor2)
 
@@ -3632,7 +3642,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-floorb-unreleased">
+<section class="package" id="math-base-special-floorb-v0.3.0">
 
 #### [@stdlib/math/base/special/floorb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floorb)
 
@@ -3654,7 +3664,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-floorsd-unreleased">
+<section class="package" id="math-base-special-floorsd-v0.3.0">
 
 #### [@stdlib/math/base/special/floorsd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floorsd)
 
@@ -3698,7 +3708,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fmod-unreleased">
+<section class="package" id="math-base-special-fmod-v0.3.0">
 
 #### [@stdlib/math/base/special/fmod](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmod)
 
@@ -3732,7 +3742,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fresnel-unreleased">
+<section class="package" id="math-base-special-fresnel-v0.3.0">
 
 #### [@stdlib/math/base/special/fresnel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fresnel)
 
@@ -3754,7 +3764,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fresnelc-unreleased">
+<section class="package" id="math-base-special-fresnelc-v0.3.0">
 
 #### [@stdlib/math/base/special/fresnelc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fresnelc)
 
@@ -3776,7 +3786,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-fresnels-unreleased">
+<section class="package" id="math-base-special-fresnels-v0.3.0">
 
 #### [@stdlib/math/base/special/fresnels](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fresnels)
 
@@ -3798,7 +3808,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-frexp-unreleased">
+<section class="package" id="math-base-special-frexp-v0.3.0">
 
 #### [@stdlib/math/base/special/frexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/frexp)
 
@@ -3820,7 +3830,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gamma-unreleased">
+<section class="package" id="math-base-special-gamma-v0.3.0">
 
 #### [@stdlib/math/base/special/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma)
 
@@ -3842,7 +3852,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gamma-delta-ratio-unreleased">
+<section class="package" id="math-base-special-gamma-delta-ratio-v0.3.0">
 
 #### [@stdlib/math/base/special/gamma-delta-ratio](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma-delta-ratio)
 
@@ -3864,7 +3874,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gamma-lanczos-sum-unreleased">
+<section class="package" id="math-base-special-gamma-lanczos-sum-v0.3.0">
 
 #### [@stdlib/math/base/special/gamma-lanczos-sum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma-lanczos-sum)
 
@@ -3898,7 +3908,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gamma-lanczos-sum-expg-scaled-unreleased">
+<section class="package" id="math-base-special-gamma-lanczos-sum-expg-scaled-v0.3.0">
 
 #### [@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma-lanczos-sum-expg-scaled)
 
@@ -3920,7 +3930,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gamma1pm1-unreleased">
+<section class="package" id="math-base-special-gamma1pm1-v0.3.0">
 
 #### [@stdlib/math/base/special/gamma1pm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma1pm1)
 
@@ -3942,7 +3952,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gammaln-unreleased">
+<section class="package" id="math-base-special-gammaln-v0.3.0">
 
 #### [@stdlib/math/base/special/gammaln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gammaln)
 
@@ -3964,7 +3974,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gammasgn-unreleased">
+<section class="package" id="math-base-special-gammasgn-v0.3.0">
 
 #### [@stdlib/math/base/special/gammasgn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gammasgn)
 
@@ -3986,7 +3996,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-gcd-unreleased">
+<section class="package" id="math-base-special-gcd-v0.3.0">
 
 #### [@stdlib/math/base/special/gcd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gcd)
 
@@ -4020,7 +4030,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-hacovercos-unreleased">
+<section class="package" id="math-base-special-hacovercos-v0.3.0">
 
 #### [@stdlib/math/base/special/hacovercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hacovercos)
 
@@ -4042,7 +4052,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-hacoversin-unreleased">
+<section class="package" id="math-base-special-hacoversin-v0.3.0">
 
 #### [@stdlib/math/base/special/hacoversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hacoversin)
 
@@ -4064,7 +4074,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-havercos-unreleased">
+<section class="package" id="math-base-special-havercos-v0.3.0">
 
 #### [@stdlib/math/base/special/havercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/havercos)
 
@@ -4086,7 +4096,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-haversin-unreleased">
+<section class="package" id="math-base-special-haversin-v0.3.0">
 
 #### [@stdlib/math/base/special/haversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/haversin)
 
@@ -4108,7 +4118,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-kernel-cos-unreleased">
+<section class="package" id="math-base-special-kernel-cos-v0.3.0">
 
 #### [@stdlib/math/base/special/kernel-cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-cos)
 
@@ -4130,7 +4140,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-kernel-log1p-unreleased">
+<section class="package" id="math-base-special-kernel-log1p-v0.3.0">
 
 #### [@stdlib/math/base/special/kernel-log1p](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-log1p)
 
@@ -4152,7 +4162,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-kernel-sin-unreleased">
+<section class="package" id="math-base-special-kernel-sin-v0.3.0">
 
 #### [@stdlib/math/base/special/kernel-sin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-sin)
 
@@ -4174,7 +4184,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-kernel-tan-unreleased">
+<section class="package" id="math-base-special-kernel-tan-v0.3.0">
 
 #### [@stdlib/math/base/special/kernel-tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-tan)
 
@@ -4196,7 +4206,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-lcm-unreleased">
+<section class="package" id="math-base-special-lcm-v0.3.0">
 
 #### [@stdlib/math/base/special/lcm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lcm)
 
@@ -4218,7 +4228,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ldexp-unreleased">
+<section class="package" id="math-base-special-ldexp-v0.3.0">
 
 #### [@stdlib/math/base/special/ldexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ldexp)
 
@@ -4240,7 +4250,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ln-unreleased">
+<section class="package" id="math-base-special-ln-v0.3.0">
 
 #### [@stdlib/math/base/special/ln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ln)
 
@@ -4262,7 +4272,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-lnf-unreleased">
+<section class="package" id="math-base-special-lnf-v0.3.0">
 
 #### [@stdlib/math/base/special/lnf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lnf)
 
@@ -4284,7 +4294,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-log-unreleased">
+<section class="package" id="math-base-special-log-v0.3.0">
 
 #### [@stdlib/math/base/special/log](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log)
 
@@ -4316,7 +4326,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-log10-unreleased">
+<section class="package" id="math-base-special-log10-v0.3.0">
 
 #### [@stdlib/math/base/special/log10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log10)
 
@@ -4350,7 +4360,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-log1mexp-unreleased">
+<section class="package" id="math-base-special-log1mexp-v0.3.0">
 
 #### [@stdlib/math/base/special/log1mexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1mexp)
 
@@ -4372,7 +4382,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-log1p-unreleased">
+<section class="package" id="math-base-special-log1p-v0.3.0">
 
 #### [@stdlib/math/base/special/log1p](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1p)
 
@@ -4394,7 +4404,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-log1pexp-unreleased">
+<section class="package" id="math-base-special-log1pexp-v0.3.0">
 
 #### [@stdlib/math/base/special/log1pexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1pexp)
 
@@ -4416,7 +4426,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-log1pmx-unreleased">
+<section class="package" id="math-base-special-log1pmx-v0.3.0">
 
 #### [@stdlib/math/base/special/log1pmx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1pmx)
 
@@ -4438,7 +4448,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-log2-unreleased">
+<section class="package" id="math-base-special-log2-v0.3.0">
 
 #### [@stdlib/math/base/special/log2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log2)
 
@@ -4460,7 +4470,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-logaddexp-unreleased">
+<section class="package" id="math-base-special-logaddexp-v0.3.0">
 
 #### [@stdlib/math/base/special/logaddexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/logaddexp)
 
@@ -4492,7 +4502,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-logit-unreleased">
+<section class="package" id="math-base-special-logit-v0.3.0">
 
 #### [@stdlib/math/base/special/logit](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/logit)
 
@@ -4514,7 +4524,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-lucas-unreleased">
+<section class="package" id="math-base-special-lucas-v0.3.0">
 
 #### [@stdlib/math/base/special/lucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lucas)
 
@@ -4536,7 +4546,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-max-unreleased">
+<section class="package" id="math-base-special-max-v0.3.0">
 
 #### [@stdlib/math/base/special/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/max)
 
@@ -4558,7 +4568,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-maxabs-unreleased">
+<section class="package" id="math-base-special-maxabs-v0.3.0">
 
 #### [@stdlib/math/base/special/maxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxabs)
 
@@ -4590,7 +4600,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-min-unreleased">
+<section class="package" id="math-base-special-min-v0.3.0">
 
 #### [@stdlib/math/base/special/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/min)
 
@@ -4622,7 +4632,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-minabs-unreleased">
+<section class="package" id="math-base-special-minabs-v0.3.0">
 
 #### [@stdlib/math/base/special/minabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minabs)
 
@@ -4654,7 +4664,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-modf-unreleased">
+<section class="package" id="math-base-special-modf-v0.3.0">
 
 #### [@stdlib/math/base/special/modf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/modf)
 
@@ -4676,7 +4686,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-nanmax-unreleased">
+<section class="package" id="math-base-special-nanmax-v0.3.0">
 
 #### [@stdlib/math/base/special/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmax)
 
@@ -4708,7 +4718,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-nanmin-unreleased">
+<section class="package" id="math-base-special-nanmin-v0.3.0">
 
 #### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
 
@@ -4730,7 +4740,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-negafibonacci-unreleased">
+<section class="package" id="math-base-special-negafibonacci-v0.3.0">
 
 #### [@stdlib/math/base/special/negafibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/negafibonacci)
 
@@ -4752,7 +4762,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-nonfibonacci-unreleased">
+<section class="package" id="math-base-special-nonfibonacci-v0.3.0">
 
 #### [@stdlib/math/base/special/nonfibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nonfibonacci)
 
@@ -4774,7 +4784,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-pow-unreleased">
+<section class="package" id="math-base-special-pow-v0.3.0">
 
 #### [@stdlib/math/base/special/pow](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/pow)
 
@@ -4796,7 +4806,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-powm1-unreleased">
+<section class="package" id="math-base-special-powm1-v0.3.0">
 
 #### [@stdlib/math/base/special/powm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/powm1)
 
@@ -4818,7 +4828,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-rad2deg-unreleased">
+<section class="package" id="math-base-special-rad2deg-v0.3.0">
 
 #### [@stdlib/math/base/special/rad2deg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rad2deg)
 
@@ -4840,7 +4850,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-rad2degf-unreleased">
+<section class="package" id="math-base-special-rad2degf-v0.3.0">
 
 #### [@stdlib/math/base/special/rad2degf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rad2degf)
 
@@ -4874,7 +4884,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-rcbrtf-unreleased">
+<section class="package" id="math-base-special-rcbrtf-v0.3.0">
 
 #### [@stdlib/math/base/special/rcbrtf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rcbrtf)
 
@@ -4896,7 +4906,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-rempio2-unreleased">
+<section class="package" id="math-base-special-rempio2-v0.3.0">
 
 #### [@stdlib/math/base/special/rempio2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rempio2)
 
@@ -4928,7 +4938,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-round-unreleased">
+<section class="package" id="math-base-special-round-v0.3.0">
 
 #### [@stdlib/math/base/special/round](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round)
 
@@ -4960,7 +4970,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-round10-unreleased">
+<section class="package" id="math-base-special-round10-v0.3.0">
 
 #### [@stdlib/math/base/special/round10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round10)
 
@@ -4982,7 +4992,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-round2-unreleased">
+<section class="package" id="math-base-special-round2-v0.3.0">
 
 #### [@stdlib/math/base/special/round2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round2)
 
@@ -5004,7 +5014,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-roundb-unreleased">
+<section class="package" id="math-base-special-roundb-v0.3.0">
 
 #### [@stdlib/math/base/special/roundb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundb)
 
@@ -5026,7 +5036,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-roundf-unreleased">
+<section class="package" id="math-base-special-roundf-v0.3.0">
 
 #### [@stdlib/math/base/special/roundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundf)
 
@@ -5048,7 +5058,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-roundn-unreleased">
+<section class="package" id="math-base-special-roundn-v0.3.0">
 
 #### [@stdlib/math/base/special/roundn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundn)
 
@@ -5070,7 +5080,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-secd-unreleased">
+<section class="package" id="math-base-special-secd-v0.3.0">
 
 #### [@stdlib/math/base/special/secd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/secd)
 
@@ -5093,7 +5103,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sin-unreleased">
+<section class="package" id="math-base-special-sin-v0.3.0">
 
 #### [@stdlib/math/base/special/sin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sin)
 
@@ -5115,7 +5125,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sinc-unreleased">
+<section class="package" id="math-base-special-sinc-v0.3.0">
 
 #### [@stdlib/math/base/special/sinc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinc)
 
@@ -5137,7 +5147,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sincos-unreleased">
+<section class="package" id="math-base-special-sincos-v0.3.0">
 
 #### [@stdlib/math/base/special/sincos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincos)
 
@@ -5159,7 +5169,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sincospi-unreleased">
+<section class="package" id="math-base-special-sincospi-v0.3.0">
 
 #### [@stdlib/math/base/special/sincospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincospi)
 
@@ -5181,7 +5191,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sinh-unreleased">
+<section class="package" id="math-base-special-sinh-v0.3.0">
 
 #### [@stdlib/math/base/special/sinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinh)
 
@@ -5203,7 +5213,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sinpi-unreleased">
+<section class="package" id="math-base-special-sinpi-v0.3.0">
 
 #### [@stdlib/math/base/special/sinpi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinpi)
 
@@ -5225,7 +5235,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-spence-unreleased">
+<section class="package" id="math-base-special-spence-v0.3.0">
 
 #### [@stdlib/math/base/special/spence](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/spence)
 
@@ -5259,7 +5269,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sqrt1pm1-unreleased">
+<section class="package" id="math-base-special-sqrt1pm1-v0.3.0">
 
 #### [@stdlib/math/base/special/sqrt1pm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sqrt1pm1)
 
@@ -5281,7 +5291,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sqrtpi-unreleased">
+<section class="package" id="math-base-special-sqrtpi-v0.3.0">
 
 #### [@stdlib/math/base/special/sqrtpi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sqrtpi)
 
@@ -5303,7 +5313,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-tan-unreleased">
+<section class="package" id="math-base-special-tan-v0.3.0">
 
 #### [@stdlib/math/base/special/tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tan)
 
@@ -5325,7 +5335,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-tand-unreleased">
+<section class="package" id="math-base-special-tand-v0.3.0">
 
 #### [@stdlib/math/base/special/tand](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tand)
 
@@ -5348,7 +5358,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-tanh-unreleased">
+<section class="package" id="math-base-special-tanh-v0.3.0">
 
 #### [@stdlib/math/base/special/tanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tanh)
 
@@ -5370,7 +5380,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-trigamma-unreleased">
+<section class="package" id="math-base-special-trigamma-v0.3.0">
 
 #### [@stdlib/math/base/special/trigamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trigamma)
 
@@ -5392,7 +5402,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-trunc10-unreleased">
+<section class="package" id="math-base-special-trunc10-v0.3.0">
 
 #### [@stdlib/math/base/special/trunc10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trunc10)
 
@@ -5414,7 +5424,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-trunc2-unreleased">
+<section class="package" id="math-base-special-trunc2-v0.3.0">
 
 #### [@stdlib/math/base/special/trunc2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trunc2)
 
@@ -5436,7 +5446,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-truncb-unreleased">
+<section class="package" id="math-base-special-truncb-v0.3.0">
 
 #### [@stdlib/math/base/special/truncb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncb)
 
@@ -5458,7 +5468,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-truncn-unreleased">
+<section class="package" id="math-base-special-truncn-v0.3.0">
 
 #### [@stdlib/math/base/special/truncn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncn)
 
@@ -5480,7 +5490,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-truncsd-unreleased">
+<section class="package" id="math-base-special-truncsd-v0.3.0">
 
 #### [@stdlib/math/base/special/truncsd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncsd)
 
@@ -5512,7 +5522,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-vercos-unreleased">
+<section class="package" id="math-base-special-vercos-v0.3.0">
 
 #### [@stdlib/math/base/special/vercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/vercos)
 
@@ -5534,7 +5544,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-versin-unreleased">
+<section class="package" id="math-base-special-versin-v0.3.0">
 
 #### [@stdlib/math/base/special/versin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/versin)
 
@@ -5556,7 +5566,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-wrap-unreleased">
+<section class="package" id="math-base-special-wrap-v0.3.0">
 
 #### [@stdlib/math/base/special/wrap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/wrap)
 
@@ -5578,7 +5588,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-xlog1py-unreleased">
+<section class="package" id="math-base-special-xlog1py-v0.3.0">
 
 #### [@stdlib/math/base/special/xlog1py](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlog1py)
 
@@ -5600,7 +5610,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-xlogy-unreleased">
+<section class="package" id="math-base-special-xlogy-v0.3.0">
 
 #### [@stdlib/math/base/special/xlogy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlogy)
 
@@ -5622,7 +5632,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-unreleased">
+<section class="package" id="math-base-tools-v0.3.0">
 
 #### [@stdlib/math/base/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools)
 
@@ -5646,7 +5656,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-evalpoly-compile-unreleased">
+<section class="package" id="math-base-tools-evalpoly-compile-v0.3.0">
 
 #### [@stdlib/math/base/tools/evalpoly-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly-compile)
 
@@ -5678,7 +5688,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-evalpoly-compile-c-unreleased">
+<section class="package" id="math-base-tools-evalpoly-compile-c-v0.3.0">
 
 #### [@stdlib/math/base/tools/evalpoly-compile-c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly-compile-c)
 
@@ -5701,7 +5711,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-evalpolyf-unreleased">
+<section class="package" id="math-base-tools-evalpolyf-v0.3.0">
 
 #### [@stdlib/math/base/tools/evalpolyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpolyf)
 
@@ -5723,7 +5733,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-evalrational-compile-unreleased">
+<section class="package" id="math-base-tools-evalrational-compile-v0.3.0">
 
 #### [@stdlib/math/base/tools/evalrational-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile)
 
@@ -5745,7 +5755,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-evalrational-compile-c-unreleased">
+<section class="package" id="math-base-tools-evalrational-compile-c-v0.3.0">
 
 #### [@stdlib/math/base/tools/evalrational-compile-c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile-c)
 
@@ -5767,7 +5777,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-evalrationalf-unreleased">
+<section class="package" id="math-base-tools-evalrationalf-v0.3.0">
 
 #### [@stdlib/math/base/tools/evalrationalf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrationalf)
 
@@ -5789,7 +5799,7 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-normhermitepolyf-unreleased">
+<section class="package" id="math-base-tools-normhermitepolyf-v0.3.0">
 
 #### [@stdlib/math/base/tools/normhermitepolyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/normhermitepolyf)
 
@@ -5823,7 +5833,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-iter-sequences-tribonacci-unreleased">
+<section class="package" id="math-iter-sequences-tribonacci-v0.3.0">
 
 #### [@stdlib/math/iter/sequences/tribonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/tribonacci)
 
