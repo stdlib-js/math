@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="math-base-special-acotdf-unreleased">
+
+#### [@stdlib/math/base/special/acotdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acotdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`50b38f9`](https://github.com/stdlib-js/stdlib/commit/50b38f941b50a3f71b531d965c7312d4c6932f84) - add `math/base/special/acotdf` [(#2799)](https://github.com/stdlib-js/stdlib/pull/2799)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-maxf-unreleased">
 
 #### [@stdlib/math/base/special/maxf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxf)
@@ -77,6 +99,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`50b38f9`](https://github.com/stdlib-js/stdlib/commit/50b38f941b50a3f71b531d965c7312d4c6932f84) - **feat:** add `math/base/special/acotdf` [(#2799)](https://github.com/stdlib-js/stdlib/pull/2799) _(by Gunj Joshi)_
 -   [`15878f9`](https://github.com/stdlib-js/stdlib/commit/15878f9056d9e0e4bae0411870655316bf68dff3) - **feat:** add `math/base/special/maxf` [(#2816)](https://github.com/stdlib-js/stdlib/pull/2816) _(by Gunj Joshi)_
 -   [`ef703d6`](https://github.com/stdlib-js/stdlib/commit/ef703d629af0fa6f4a34e697a26beea37dc7345c) - **feat:** add `math/base/special/minf` [(#2820)](https://github.com/stdlib-js/stdlib/pull/2820) _(by Gunj Joshi, Athan Reines)_
 -   [`0dd0377`](https://github.com/stdlib-js/stdlib/commit/0dd03776ccc026cb8682de5b0e48e9e3f215ea19) - **docs:** update namespace ToCs _(by Athan Reines)_
