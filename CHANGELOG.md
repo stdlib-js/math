@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-19)
+## Unreleased (2024-08-23)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="math-base-special-minf-unreleased">
+
+#### [@stdlib/math/base/special/minf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ef703d6`](https://github.com/stdlib-js/stdlib/commit/ef703d629af0fa6f4a34e697a26beea37dc7345c) - add `math/base/special/minf` [(#2820)](https://github.com/stdlib-js/stdlib/pull/2820)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 </section>
 
@@ -18,9 +40,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
 
 </section>
 
@@ -32,6 +55,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`ef703d6`](https://github.com/stdlib-js/stdlib/commit/ef703d629af0fa6f4a34e697a26beea37dc7345c) - **feat:** add `math/base/special/minf` [(#2820)](https://github.com/stdlib-js/stdlib/pull/2820) _(by Gunj Joshi, Athan Reines)_
 -   [`0dd0377`](https://github.com/stdlib-js/stdlib/commit/0dd03776ccc026cb8682de5b0e48e9e3f215ea19) - **docs:** update namespace ToCs _(by Athan Reines)_
 
 </details>
