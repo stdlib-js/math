@@ -120,6 +120,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-xlogyf-unreleased">
+
+#### [@stdlib/math/base/special/xlogyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlogyf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`16c19b6`](https://github.com/stdlib-js/stdlib/commit/16c19b67c7452b3ae9755cc7ef2a5d2540ab1cf9) - add `math/base/special/xlogyf` [(#2813)](https://github.com/stdlib-js/stdlib/pull/2813)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -144,6 +166,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`16c19b6`](https://github.com/stdlib-js/stdlib/commit/16c19b67c7452b3ae9755cc7ef2a5d2540ab1cf9) - **feat:** add `math/base/special/xlogyf` [(#2813)](https://github.com/stdlib-js/stdlib/pull/2813) _(by Gunj Joshi)_
 -   [`71c43cf`](https://github.com/stdlib-js/stdlib/commit/71c43cf5165749e2ce2647cb52d92f6c97f16959) - **feat:** add `math/base/special/ldexpf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`6c8f019`](https://github.com/stdlib-js/stdlib/commit/6c8f019db8adb12466250957693edb9830496a7b) - **feat:** add `math/base/special/logf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`50b38f9`](https://github.com/stdlib-js/stdlib/commit/50b38f941b50a3f71b531d965c7312d4c6932f84) - **feat:** add `math/base/special/acotdf` [(#2799)](https://github.com/stdlib-js/stdlib/pull/2799) _(by Gunj Joshi)_
