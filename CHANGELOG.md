@@ -166,6 +166,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0ab9fc7`](https://github.com/stdlib-js/stdlib/commit/0ab9fc7de86012c670189711b6c6627b41119537) - **test:** add and modify tests [(#2830)](https://github.com/stdlib-js/stdlib/pull/2830) _(by Gunj Joshi)_
 -   [`16c19b6`](https://github.com/stdlib-js/stdlib/commit/16c19b67c7452b3ae9755cc7ef2a5d2540ab1cf9) - **feat:** add `math/base/special/xlogyf` [(#2813)](https://github.com/stdlib-js/stdlib/pull/2813) _(by Gunj Joshi)_
 -   [`71c43cf`](https://github.com/stdlib-js/stdlib/commit/71c43cf5165749e2ce2647cb52d92f6c97f16959) - **feat:** add `math/base/special/ldexpf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`6c8f019`](https://github.com/stdlib-js/stdlib/commit/6c8f019db8adb12466250957693edb9830496a7b) - **feat:** add `math/base/special/logf` _(by Gunj Joshi, Philipp Burckhardt)_
