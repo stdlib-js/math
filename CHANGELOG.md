@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-24)
+## Unreleased (2024-08-29)
 
 <section class="packages">
 
@@ -166,6 +166,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
 -   [`0ab9fc7`](https://github.com/stdlib-js/stdlib/commit/0ab9fc7de86012c670189711b6c6627b41119537) - **test:** add and modify tests [(#2830)](https://github.com/stdlib-js/stdlib/pull/2830) _(by Gunj Joshi)_
 -   [`16c19b6`](https://github.com/stdlib-js/stdlib/commit/16c19b67c7452b3ae9755cc7ef2a5d2540ab1cf9) - **feat:** add `math/base/special/xlogyf` [(#2813)](https://github.com/stdlib-js/stdlib/pull/2813) _(by Gunj Joshi)_
 -   [`71c43cf`](https://github.com/stdlib-js/stdlib/commit/71c43cf5165749e2ce2647cb52d92f6c97f16959) - **feat:** add `math/base/special/ldexpf` _(by Gunj Joshi, Philipp Burckhardt)_
