@@ -32,6 +32,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-atandf-unreleased">
+
+#### [@stdlib/math/base/special/atandf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atandf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1f7fd37`](https://github.com/stdlib-js/stdlib/commit/1f7fd373c939151c685875e1e0d2f146f072ce26) - add `math/base/special/atandf` [(#2841)](https://github.com/stdlib-js/stdlib/pull/2841)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-ldexpf-unreleased">
 
 #### [@stdlib/math/base/special/ldexpf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ldexpf)
@@ -166,6 +188,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1f7fd37`](https://github.com/stdlib-js/stdlib/commit/1f7fd373c939151c685875e1e0d2f146f072ce26) - **feat:** add `math/base/special/atandf` [(#2841)](https://github.com/stdlib-js/stdlib/pull/2841) _(by Gunj Joshi)_
 -   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
 -   [`0ab9fc7`](https://github.com/stdlib-js/stdlib/commit/0ab9fc7de86012c670189711b6c6627b41119537) - **test:** add and modify tests [(#2830)](https://github.com/stdlib-js/stdlib/pull/2830) _(by Gunj Joshi)_
 -   [`16c19b6`](https://github.com/stdlib-js/stdlib/commit/16c19b67c7452b3ae9755cc7ef2a5d2540ab1cf9) - **feat:** add `math/base/special/xlogyf` [(#2813)](https://github.com/stdlib-js/stdlib/pull/2813) _(by Gunj Joshi)_
