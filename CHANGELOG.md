@@ -210,6 +210,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f65c856`](https://github.com/stdlib-js/stdlib/commit/f65c8563ab3b3a25883d020332f4a594aa69892a) - **refactor:** use stdlib `fmod` and `DDD_D` napi function in `math/base/special/wrap` [(#2814)](https://github.com/stdlib-js/stdlib/pull/2814) _(by Gunj Joshi)_
 -   [`d01e0f3`](https://github.com/stdlib-js/stdlib/commit/d01e0f34931b9fd522f3d8de3e2a0ad5c1ac0890) - **feat:** add `math/base/special/minabsf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`1f7fd37`](https://github.com/stdlib-js/stdlib/commit/1f7fd373c939151c685875e1e0d2f146f072ce26) - **feat:** add `math/base/special/atandf` [(#2841)](https://github.com/stdlib-js/stdlib/pull/2841) _(by Gunj Joshi)_
 -   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
