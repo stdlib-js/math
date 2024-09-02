@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="math-base-assert-is-nonnegative-integerf-unreleased">
+
+#### [@stdlib/math/base/assert/is-nonnegative-integerf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-integerf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-acotdf-unreleased">
 
 #### [@stdlib/math/base/special/acotdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acotdf)
@@ -298,6 +320,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - **feat:** add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851) _(by Gunj Joshi)_
 -   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - **feat:** add `math/base/special/acovercosf` _(by Gunj Joshi)_
 -   [`4bddc16`](https://github.com/stdlib-js/stdlib/commit/4bddc16dfcdc4d18a95bbd08abc869f58d77396b) - **feat:** add `math/base/special/aversinf` [(#2852)](https://github.com/stdlib-js/stdlib/pull/2852) _(by Gunj Joshi)_
 -   [`ff629c7`](https://github.com/stdlib-js/stdlib/commit/ff629c760ef40d9245a87a56716ea7a12145f6b2) - **feat:** add `math/base/special/maxabsf` _(by Gunj Joshi, Philipp Burckhardt)_
