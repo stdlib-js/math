@@ -142,6 +142,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-erfcx-unreleased">
+
+#### [@stdlib/math/base/special/erfcx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfcx)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - add C implementation for `@stdlib/math/base/special/erfcx`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-ldexpf-unreleased">
 
 #### [@stdlib/math/base/special/ldexpf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ldexpf)
@@ -304,9 +326,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Ayaka
 -   Gunj Joshi
 -   Philipp Burckhardt
 
@@ -320,6 +343,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - **feat:** add C implementation for `@stdlib/math/base/special/erfcx` _(by Ayaka, Athan Reines, Gunj Joshi, Philipp Burckhardt)_
 -   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - **feat:** add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851) _(by Gunj Joshi)_
 -   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - **feat:** add `math/base/special/acovercosf` _(by Gunj Joshi)_
 -   [`4bddc16`](https://github.com/stdlib-js/stdlib/commit/4bddc16dfcdc4d18a95bbd08abc869f58d77396b) - **feat:** add `math/base/special/aversinf` [(#2852)](https://github.com/stdlib-js/stdlib/pull/2852) _(by Gunj Joshi)_
