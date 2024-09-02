@@ -32,6 +32,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-acovercosf-unreleased">
+
+#### [@stdlib/math/base/special/acovercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acovercosf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - add `math/base/special/acovercosf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-atandf-unreleased">
 
 #### [@stdlib/math/base/special/atandf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atandf)
@@ -276,6 +298,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - **feat:** add `math/base/special/acovercosf` _(by Gunj Joshi)_
 -   [`4bddc16`](https://github.com/stdlib-js/stdlib/commit/4bddc16dfcdc4d18a95bbd08abc869f58d77396b) - **feat:** add `math/base/special/aversinf` [(#2852)](https://github.com/stdlib-js/stdlib/pull/2852) _(by Gunj Joshi)_
 -   [`ff629c7`](https://github.com/stdlib-js/stdlib/commit/ff629c760ef40d9245a87a56716ea7a12145f6b2) - **feat:** add `math/base/special/maxabsf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`6b76aa9`](https://github.com/stdlib-js/stdlib/commit/6b76aa904c33cbe3f3c28b61ae7797e444d13e52) - **feat:** add `math/base/special/avercosf` [(#2846)](https://github.com/stdlib-js/stdlib/pull/2846) _(by Gunj Joshi)_
