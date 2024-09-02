@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-31)
+## Unreleased (2024-09-02)
 
 <section class="packages">
 
@@ -65,6 +65,28 @@
 ##### Features
 
 -   [`6b76aa9`](https://github.com/stdlib-js/stdlib/commit/6b76aa904c33cbe3f3c28b61ae7797e444d13e52) - add `math/base/special/avercosf` [(#2846)](https://github.com/stdlib-js/stdlib/pull/2846)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-aversinf-unreleased">
+
+#### [@stdlib/math/base/special/aversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/aversinf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4bddc16`](https://github.com/stdlib-js/stdlib/commit/4bddc16dfcdc4d18a95bbd08abc869f58d77396b) - add `math/base/special/aversinf` [(#2852)](https://github.com/stdlib-js/stdlib/pull/2852)
 
 </section>
 
@@ -254,6 +276,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4bddc16`](https://github.com/stdlib-js/stdlib/commit/4bddc16dfcdc4d18a95bbd08abc869f58d77396b) - **feat:** add `math/base/special/aversinf` [(#2852)](https://github.com/stdlib-js/stdlib/pull/2852) _(by Gunj Joshi)_
 -   [`ff629c7`](https://github.com/stdlib-js/stdlib/commit/ff629c760ef40d9245a87a56716ea7a12145f6b2) - **feat:** add `math/base/special/maxabsf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`6b76aa9`](https://github.com/stdlib-js/stdlib/commit/6b76aa904c33cbe3f3c28b61ae7797e444d13e52) - **feat:** add `math/base/special/avercosf` [(#2846)](https://github.com/stdlib-js/stdlib/pull/2846) _(by Gunj Joshi)_
 -   [`f65c856`](https://github.com/stdlib-js/stdlib/commit/f65c8563ab3b3a25883d020332f4a594aa69892a) - **refactor:** use stdlib `fmod` and `DDD_D` napi function in `math/base/special/wrap` [(#2814)](https://github.com/stdlib-js/stdlib/pull/2814) _(by Gunj Joshi)_
