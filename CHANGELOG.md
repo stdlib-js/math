@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-02)
+## Unreleased (2024-09-03)
 
 <section class="packages">
 
@@ -65,6 +65,28 @@
 ##### Features
 
 -   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - add `math/base/special/acovercosf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acoversinf-unreleased">
+
+#### [@stdlib/math/base/special/acoversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoversinf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b2268e5`](https://github.com/stdlib-js/stdlib/commit/b2268e57b78b3a774f37e984faebd95ac7c0ba69) - add `math/base/special/acoversinf` [(#2860)](https://github.com/stdlib-js/stdlib/pull/2860 )
 
 </section>
 
@@ -343,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b2268e5`](https://github.com/stdlib-js/stdlib/commit/b2268e57b78b3a774f37e984faebd95ac7c0ba69) - **feat:** add `math/base/special/acoversinf` [(#2860)](https://github.com/stdlib-js/stdlib/pull/2860 ) _(by Gunj Joshi)_
 -   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - **feat:** add C implementation for `@stdlib/math/base/special/erfcx` _(by Ayaka, Athan Reines, Gunj Joshi, Philipp Burckhardt)_
 -   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - **feat:** add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851) _(by Gunj Joshi)_
 -   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - **feat:** add `math/base/special/acovercosf` _(by Gunj Joshi)_
