@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-03)
+## Unreleased (2024-09-06)
 
 <section class="packages">
 
@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1f5dba3`](https://github.com/stdlib-js/stdlib/commit/1f5dba3820e6cc2283b593ec2bf4942404ddd3d2) - **style:** remove empty line [(#2869)](https://github.com/stdlib-js/stdlib/pull/2869) _(by Gunj Joshi)_
 -   [`b2268e5`](https://github.com/stdlib-js/stdlib/commit/b2268e57b78b3a774f37e984faebd95ac7c0ba69) - **feat:** add `math/base/special/acoversinf` [(#2860)](https://github.com/stdlib-js/stdlib/pull/2860 ) _(by Gunj Joshi)_
 -   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - **feat:** add C implementation for `@stdlib/math/base/special/erfcx` _(by Ayaka, Athan Reines, Gunj Joshi, Philipp Burckhardt)_
 -   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - **feat:** add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851) _(by Gunj Joshi)_
