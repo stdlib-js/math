@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7edbd56`](https://github.com/stdlib-js/stdlib/commit/7edbd56db6a1dc6aa955a47be48120c410e1c6af) - **docs:** update examples [(#2873)](https://github.com/stdlib-js/stdlib/pull/2873) _(by Gunj Joshi, Athan Reines)_
 -   [`b7e79ad`](https://github.com/stdlib-js/stdlib/commit/b7e79ad951c4e439ca972dc57dd88de9e38f814c) - **docs:** update function descriptions and fix style nits [(#2870)](https://github.com/stdlib-js/stdlib/pull/2870) _(by Gunj Joshi)_
 -   [`a294334`](https://github.com/stdlib-js/stdlib/commit/a294334209d981a41f61bda8fd222e1c555f0c5a) - **style:** fix spacing [(#2872)](https://github.com/stdlib-js/stdlib/pull/2872) _(by Gunj Joshi)_
 -   [`1f5dba3`](https://github.com/stdlib-js/stdlib/commit/1f5dba3820e6cc2283b593ec2bf4942404ddd3d2) - **style:** remove empty line [(#2869)](https://github.com/stdlib-js/stdlib/pull/2869) _(by Gunj Joshi)_
