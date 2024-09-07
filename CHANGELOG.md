@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a8b0d58`](https://github.com/stdlib-js/stdlib/commit/a8b0d5839361710233736f54e4b762f9381e8a3c) - **docs:** include `stdbool`, remove backticks in `math/base/assert/is-nonnegative-integerf` [(#2879)](https://github.com/stdlib-js/stdlib/pull/2879) _(by Gunj Joshi)_
 -   [`73c23e2`](https://github.com/stdlib-js/stdlib/commit/73c23e29e5030bd65421bce1eb3fde2fa964c4a4) - **docs:** include stdbool, remove backticks [(#2881)](https://github.com/stdlib-js/stdlib/pull/2881 ) _(by Gunj Joshi)_
 -   [`f33f82c`](https://github.com/stdlib-js/stdlib/commit/f33f82c44a8eb9557fc86fbe41a32fe816954a46) - **docs:** use operation name and style fixes in `math/base/special/aversinf` [(#2876)](https://github.com/stdlib-js/stdlib/pull/2876) _(by Gunj Joshi)_
 -   [`1233cc4`](https://github.com/stdlib-js/stdlib/commit/1233cc4f11b4ddd0c6e1c919085dc4b9fc6fa483) - **docs:** fix equations, whitespace, and line wrapping [(#2878)](https://github.com/stdlib-js/stdlib/pull/2878) _(by Gunj Joshi)_
