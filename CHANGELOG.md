@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1233cc4`](https://github.com/stdlib-js/stdlib/commit/1233cc4f11b4ddd0c6e1c919085dc4b9fc6fa483) - **docs:** fix equations, whitespace, and line wrapping [(#2878)](https://github.com/stdlib-js/stdlib/pull/2878) _(by Gunj Joshi)_
 -   [`4e5bf6f`](https://github.com/stdlib-js/stdlib/commit/4e5bf6f7aa5de6b1b638e976ec5def4697a3b352) - **docs:** update examples [(#2875)](https://github.com/stdlib-js/stdlib/pull/2875) _(by Gunj Joshi, Athan Reines)_
 -   [`f13d569`](https://github.com/stdlib-js/stdlib/commit/f13d56957a00c6ffea87a0cc7fd243cd871a213f) - **docs:** update examples and fix whitespace [(#2865)](https://github.com/stdlib-js/stdlib/pull/2865) _(by Gunj Joshi, Athan Reines)_
 -   [`35462f8`](https://github.com/stdlib-js/stdlib/commit/35462f8357fdcb513679a7344fa3a5cc4c3ef55f) - **style:** update heading and fix line wrapping [(#2867)](https://github.com/stdlib-js/stdlib/pull/2867) _(by Gunj Joshi)_
