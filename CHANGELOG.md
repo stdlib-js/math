@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`35462f8`](https://github.com/stdlib-js/stdlib/commit/35462f8357fdcb513679a7344fa3a5cc4c3ef55f) - **style:** update heading and fix line wrapping [(#2867)](https://github.com/stdlib-js/stdlib/pull/2867) _(by Gunj Joshi)_
 -   [`6c838b0`](https://github.com/stdlib-js/stdlib/commit/6c838b02c4cc9afa7befcdfbb6617b5c367713cb) - **docs:** fix line wrapping and description [(#2874)](https://github.com/stdlib-js/stdlib/pull/2874) _(by Gunj Joshi)_
 -   [`7edbd56`](https://github.com/stdlib-js/stdlib/commit/7edbd56db6a1dc6aa955a47be48120c410e1c6af) - **docs:** update examples [(#2873)](https://github.com/stdlib-js/stdlib/pull/2873) _(by Gunj Joshi, Athan Reines)_
 -   [`b7e79ad`](https://github.com/stdlib-js/stdlib/commit/b7e79ad951c4e439ca972dc57dd88de9e38f814c) - **docs:** update function descriptions and fix style nits [(#2870)](https://github.com/stdlib-js/stdlib/pull/2870) _(by Gunj Joshi)_
