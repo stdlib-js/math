@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-06)
+## Unreleased (2024-09-07)
 
 <section class="packages">
 
@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`6c838b0`](https://github.com/stdlib-js/stdlib/commit/6c838b02c4cc9afa7befcdfbb6617b5c367713cb) - **docs:** fix line wrapping and description [(#2874)](https://github.com/stdlib-js/stdlib/pull/2874) _(by Gunj Joshi)_
 -   [`7edbd56`](https://github.com/stdlib-js/stdlib/commit/7edbd56db6a1dc6aa955a47be48120c410e1c6af) - **docs:** update examples [(#2873)](https://github.com/stdlib-js/stdlib/pull/2873) _(by Gunj Joshi, Athan Reines)_
 -   [`b7e79ad`](https://github.com/stdlib-js/stdlib/commit/b7e79ad951c4e439ca972dc57dd88de9e38f814c) - **docs:** update function descriptions and fix style nits [(#2870)](https://github.com/stdlib-js/stdlib/pull/2870) _(by Gunj Joshi)_
 -   [`a294334`](https://github.com/stdlib-js/stdlib/commit/a294334209d981a41f61bda8fd222e1c555f0c5a) - **style:** fix spacing [(#2872)](https://github.com/stdlib-js/stdlib/pull/2872) _(by Gunj Joshi)_
