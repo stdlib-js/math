@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`73c23e2`](https://github.com/stdlib-js/stdlib/commit/73c23e29e5030bd65421bce1eb3fde2fa964c4a4) - **docs:** include stdbool, remove backticks [(#2881)](https://github.com/stdlib-js/stdlib/pull/2881 ) _(by Gunj Joshi)_
 -   [`f33f82c`](https://github.com/stdlib-js/stdlib/commit/f33f82c44a8eb9557fc86fbe41a32fe816954a46) - **docs:** use operation name and style fixes in `math/base/special/aversinf` [(#2876)](https://github.com/stdlib-js/stdlib/pull/2876) _(by Gunj Joshi)_
 -   [`1233cc4`](https://github.com/stdlib-js/stdlib/commit/1233cc4f11b4ddd0c6e1c919085dc4b9fc6fa483) - **docs:** fix equations, whitespace, and line wrapping [(#2878)](https://github.com/stdlib-js/stdlib/pull/2878) _(by Gunj Joshi)_
 -   [`4e5bf6f`](https://github.com/stdlib-js/stdlib/commit/4e5bf6f7aa5de6b1b638e976ec5def4697a3b352) - **docs:** update examples [(#2875)](https://github.com/stdlib-js/stdlib/pull/2875) _(by Gunj Joshi, Athan Reines)_
