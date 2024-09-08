@@ -365,6 +365,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e3777f7`](https://github.com/stdlib-js/stdlib/commit/e3777f7f9bde86ae783ed5252a7e0b97b605d264) - **test:** fix typos in test descriptions [(#2885)](https://github.com/stdlib-js/stdlib/pull/2885) _(by Gunj Joshi)_
 -   [`11e3050`](https://github.com/stdlib-js/stdlib/commit/11e3050a0ec978695f2d7d8655676445561be69a) - **chore:** update package meta data [(#2884)](https://github.com/stdlib-js/stdlib/pull/2884) _(by stdlib-bot, Athan Reines)_
 -   [`a8b0d58`](https://github.com/stdlib-js/stdlib/commit/a8b0d5839361710233736f54e4b762f9381e8a3c) - **docs:** include `stdbool`, remove backticks in `math/base/assert/is-nonnegative-integerf` [(#2879)](https://github.com/stdlib-js/stdlib/pull/2879) _(by Gunj Joshi)_
 -   [`73c23e2`](https://github.com/stdlib-js/stdlib/commit/73c23e29e5030bd65421bce1eb3fde2fa964c4a4) - **docs:** include stdbool, remove backticks [(#2881)](https://github.com/stdlib-js/stdlib/pull/2881 ) _(by Gunj Joshi)_
