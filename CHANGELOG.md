@@ -387,6 +387,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`595c932`](https://github.com/stdlib-js/stdlib/commit/595c932bffba6011fddaa4c5c3c5f4733732539d) - **chore:** add structured package data for `math/base/special/exp` [(#2893)](https://github.com/stdlib-js/stdlib/pull/2893) _(by Gunj Joshi, Athan Reines)_
 -   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - **feat:** add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903) _(by Gunj Joshi, Athan Reines)_
 -   [`e3777f7`](https://github.com/stdlib-js/stdlib/commit/e3777f7f9bde86ae783ed5252a7e0b97b605d264) - **test:** fix typos in test descriptions [(#2885)](https://github.com/stdlib-js/stdlib/pull/2885) _(by Gunj Joshi)_
 -   [`11e3050`](https://github.com/stdlib-js/stdlib/commit/11e3050a0ec978695f2d7d8655676445561be69a) - **chore:** update package meta data [(#2884)](https://github.com/stdlib-js/stdlib/pull/2884) _(by stdlib-bot, Athan Reines)_
