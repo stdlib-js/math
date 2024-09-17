@@ -387,6 +387,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0c994ee`](https://github.com/stdlib-js/stdlib/commit/0c994ee22c77c217aa48d6833e4e11ffe733e9bb) - **docs:** update descriptions and add structured package data [(#2914)](https://github.com/stdlib-js/stdlib/pull/2914) _(by Gunj Joshi, Athan Reines)_
 -   [`f51140f`](https://github.com/stdlib-js/stdlib/commit/f51140ffe79720148d77a5ea56e92911787a3175) - **chore:** add structured package data for `math/base/special/pow` [(#2912)](https://github.com/stdlib-js/stdlib/pull/2912) _(by Gunj Joshi)_
 -   [`2658654`](https://github.com/stdlib-js/stdlib/commit/265865470275173da9d6efb8c0c2c8b00eb2c999) - **chore:** add structured package data for `math/base/special/cbrt` [(#2909)](https://github.com/stdlib-js/stdlib/pull/2909) _(by Gunj Joshi)_
 -   [`65d1c5b`](https://github.com/stdlib-js/stdlib/commit/65d1c5be91c83d9eea3c73fec21abbeb592d434f) - **bench:** remove `f` suffix in C benchmark [(#2911)](https://github.com/stdlib-js/stdlib/pull/2911) _(by Gunj Joshi)_
