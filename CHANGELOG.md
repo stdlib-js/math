@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-21)
+## Unreleased (2024-09-22)
 
 <section class="packages">
 
@@ -387,6 +387,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
