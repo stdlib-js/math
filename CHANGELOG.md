@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-22)
+## Unreleased (2024-09-28)
 
 <section class="packages">
 
@@ -387,6 +387,8 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
+-   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
@@ -6387,11 +6389,10 @@ A total of 26 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
--   Athan
 -   Athan Reines
 -   Ayaka
 -   Daniel Yu
@@ -6400,9 +6401,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 -   Lovelin
 -   Mihir Pandit
 -   Philipp Burckhardt
--   Pranav
 -   Pranav Goswami
--   Pranavchiku
 -   Praneki
 -   Pushpendra Chandravanshi
 -   Rejoan Sardar
@@ -26868,7 +26867,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Jordan Gallivan
 -   Philipp Burckhardt
--   Pranav
+-   Pranav Goswami
 -   Stephannie Jiménez Gacha
 
 </section>
