@@ -186,6 +186,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-erf-unreleased">
+
+#### [@stdlib/math/base/special/erf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erf)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`3e201d7`](https://github.com/stdlib-js/stdlib/commit/3e201d779fa5844dd5808418f103f37d1a905d61) - update function alias and add WebAssembly configuration
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-erfcx-unreleased">
 
 #### [@stdlib/math/base/special/erfcx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfcx)
@@ -409,6 +431,15 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`24fadbf`](https://github.com/stdlib-js/stdlib/commit/24fadbf27f7a01624648ed5bea5cce504b3f65d1) - **bench:** fix runner _(by Athan Reines)_
+-   [`8f0f3b6`](https://github.com/stdlib-js/stdlib/commit/8f0f3b65ddcd28963d55d7956a22d801f59155fa) - **bench:** use SpecialFunctions package _(by Athan Reines)_
+-   [`c94a8b2`](https://github.com/stdlib-js/stdlib/commit/c94a8b2eee5d00c623ecccbb0aeef4daefb4ed06) - **bench:** update value ranges _(by Athan Reines)_
+-   [`2e75575`](https://github.com/stdlib-js/stdlib/commit/2e7557545d196c0af52afe1df1800735d7068836) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`4531104`](https://github.com/stdlib-js/stdlib/commit/45311043928ef04b43f9045965c4c5fdacf3f434) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`c20c2c3`](https://github.com/stdlib-js/stdlib/commit/c20c2c34c3f7f87ab1902cbbefaffd1729077370) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`6b54c29`](https://github.com/stdlib-js/stdlib/commit/6b54c297e4f7eb90c4c6432896a2a62c4cb77de4) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`3e201d7`](https://github.com/stdlib-js/stdlib/commit/3e201d779fa5844dd5808418f103f37d1a905d61) - **fix:** update function alias and add WebAssembly configuration _(by Athan Reines)_
+-   [`644c390`](https://github.com/stdlib-js/stdlib/commit/644c39075c6d5b630f8d0e2fce1ecbde540a9892) - **build:** add WebAssembly configuration and fix indentation _(by Athan Reines)_
 -   [`c24de14`](https://github.com/stdlib-js/stdlib/commit/c24de14b9ee9c026f00c40ed378077007a8054b0) - **chore:** clean-up docs, benchmarks, and examples _(by Athan Reines)_
 -   [`16c903b`](https://github.com/stdlib-js/stdlib/commit/16c903bdbd31c7d81bc3d6811e942e35c6de38e6) - **fix:** add missing `native.js` and fix indentation [(#2975)](https://github.com/stdlib-js/stdlib/pull/2975) _(by Gunj Joshi)_
 -   [`aa94a37`](https://github.com/stdlib-js/stdlib/commit/aa94a37728cfa9d7356f9a9880bfc411f302443a) - **refactor:** remove hardcoded constant [(#2970)](https://github.com/stdlib-js/stdlib/pull/2970) _(by Gunj Joshi)_
