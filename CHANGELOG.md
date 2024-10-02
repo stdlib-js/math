@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-10-02)
 
 <section class="packages">
 
@@ -409,6 +409,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c24de14`](https://github.com/stdlib-js/stdlib/commit/c24de14b9ee9c026f00c40ed378077007a8054b0) - **chore:** clean-up docs, benchmarks, and examples _(by Athan Reines)_
 -   [`16c903b`](https://github.com/stdlib-js/stdlib/commit/16c903bdbd31c7d81bc3d6811e942e35c6de38e6) - **fix:** add missing `native.js` and fix indentation [(#2975)](https://github.com/stdlib-js/stdlib/pull/2975) _(by Gunj Joshi)_
 -   [`aa94a37`](https://github.com/stdlib-js/stdlib/commit/aa94a37728cfa9d7356f9a9880bfc411f302443a) - **refactor:** remove hardcoded constant [(#2970)](https://github.com/stdlib-js/stdlib/pull/2970) _(by Gunj Joshi)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
