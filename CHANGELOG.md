@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-02)
+## Unreleased (2024-10-03)
 
 <section class="packages">
 
@@ -431,6 +431,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`edabc3d`](https://github.com/stdlib-js/stdlib/commit/edabc3d28079c34951d12a94071233dc17cfdb66) - **build:** fix Makefile contents _(by Philipp Burckhardt)_
 -   [`24fadbf`](https://github.com/stdlib-js/stdlib/commit/24fadbf27f7a01624648ed5bea5cce504b3f65d1) - **bench:** fix runner _(by Athan Reines)_
 -   [`8f0f3b6`](https://github.com/stdlib-js/stdlib/commit/8f0f3b65ddcd28963d55d7956a22d801f59155fa) - **bench:** use SpecialFunctions package _(by Athan Reines)_
 -   [`c94a8b2`](https://github.com/stdlib-js/stdlib/commit/c94a8b2eee5d00c623ecccbb0aeef4daefb4ed06) - **bench:** update value ranges _(by Athan Reines)_
