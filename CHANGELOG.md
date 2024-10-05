@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-03)
+## Unreleased (2024-10-05)
 
 <section class="packages">
 
@@ -414,8 +414,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Bhansali
 -   Athan Reines
 -   Ayaka
 -   Gunj Joshi
@@ -431,6 +432,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2b6f932`](https://github.com/stdlib-js/stdlib/commit/2b6f932477bdbbfe755ee3ff9bd0a04020b049bd) - **build:** add WebAssembly configuration to `math/base/special/abs2` and `math/base/special/sqrt` [(#2989)](https://github.com/stdlib-js/stdlib/pull/2989) _(by Aman Bhansali, Athan Reines)_
 -   [`edabc3d`](https://github.com/stdlib-js/stdlib/commit/edabc3d28079c34951d12a94071233dc17cfdb66) - **build:** fix Makefile contents _(by Philipp Burckhardt)_
 -   [`24fadbf`](https://github.com/stdlib-js/stdlib/commit/24fadbf27f7a01624648ed5bea5cce504b3f65d1) - **bench:** fix runner _(by Athan Reines)_
 -   [`8f0f3b6`](https://github.com/stdlib-js/stdlib/commit/8f0f3b65ddcd28963d55d7956a22d801f59155fa) - **bench:** use SpecialFunctions package _(by Athan Reines)_
