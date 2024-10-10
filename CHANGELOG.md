@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-05)
+## Unreleased (2024-10-10)
 
 <section class="packages">
 
@@ -432,6 +432,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3a595ac`](https://github.com/stdlib-js/stdlib/commit/3a595acf04202235c63824e0ebe99f584d83ce47) - **docs:** update function description in `math/base/special/max` [(#2999)](https://github.com/stdlib-js/stdlib/pull/2999) _(by Gunj Joshi)_
 -   [`2b6f932`](https://github.com/stdlib-js/stdlib/commit/2b6f932477bdbbfe755ee3ff9bd0a04020b049bd) - **build:** add WebAssembly configuration to `math/base/special/abs2` and `math/base/special/sqrt` [(#2989)](https://github.com/stdlib-js/stdlib/pull/2989) _(by Aman Bhansali, Athan Reines)_
 -   [`edabc3d`](https://github.com/stdlib-js/stdlib/commit/edabc3d28079c34951d12a94071233dc17cfdb66) - **build:** fix Makefile contents _(by Philipp Burckhardt)_
 -   [`24fadbf`](https://github.com/stdlib-js/stdlib/commit/24fadbf27f7a01624648ed5bea5cce504b3f65d1) - **bench:** fix runner _(by Athan Reines)_
