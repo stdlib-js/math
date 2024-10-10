@@ -432,6 +432,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4a94497`](https://github.com/stdlib-js/stdlib/commit/4a94497c4e429430d5409d65ef55c0077ca1edbd) - **docs:** update function description in `math/base/special/min` [(#2998)](https://github.com/stdlib-js/stdlib/pull/2998) _(by Gunj Joshi)_
 -   [`3a595ac`](https://github.com/stdlib-js/stdlib/commit/3a595acf04202235c63824e0ebe99f584d83ce47) - **docs:** update function description in `math/base/special/max` [(#2999)](https://github.com/stdlib-js/stdlib/pull/2999) _(by Gunj Joshi)_
 -   [`2b6f932`](https://github.com/stdlib-js/stdlib/commit/2b6f932477bdbbfe755ee3ff9bd0a04020b049bd) - **build:** add WebAssembly configuration to `math/base/special/abs2` and `math/base/special/sqrt` [(#2989)](https://github.com/stdlib-js/stdlib/pull/2989) _(by Aman Bhansali, Athan Reines)_
 -   [`edabc3d`](https://github.com/stdlib-js/stdlib/commit/edabc3d28079c34951d12a94071233dc17cfdb66) - **build:** fix Makefile contents _(by Philipp Burckhardt)_
