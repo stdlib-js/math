@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-10)
+## Unreleased (2024-10-15)
 
 <section class="packages">
 
@@ -432,6 +432,11 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`6c58a22`](https://github.com/stdlib-js/stdlib/commit/6c58a22b6f7e514fb358c3256b9573357e4baa65) - **bench:** refactor benchmarks _(by Athan Reines)_
+-   [`870f645`](https://github.com/stdlib-js/stdlib/commit/870f64561a7d90579bd92920c8733a205ed0a55c) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`2ce25ea`](https://github.com/stdlib-js/stdlib/commit/2ce25ea8e857700287558847d93b108f3ca6b33d) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`d71493e`](https://github.com/stdlib-js/stdlib/commit/d71493e2f9ec53c9b7168ae0baf81731ebf15a9d) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`03a4ad7`](https://github.com/stdlib-js/stdlib/commit/03a4ad79edbde3654b67e84a4f8d19ad0f670003) - **style:** fix spacing _(by Athan Reines)_
 -   [`4a94497`](https://github.com/stdlib-js/stdlib/commit/4a94497c4e429430d5409d65ef55c0077ca1edbd) - **docs:** update function description in `math/base/special/min` [(#2998)](https://github.com/stdlib-js/stdlib/pull/2998) _(by Gunj Joshi)_
 -   [`3a595ac`](https://github.com/stdlib-js/stdlib/commit/3a595acf04202235c63824e0ebe99f584d83ce47) - **docs:** update function description in `math/base/special/max` [(#2999)](https://github.com/stdlib-js/stdlib/pull/2999) _(by Gunj Joshi)_
 -   [`2b6f932`](https://github.com/stdlib-js/stdlib/commit/2b6f932477bdbbfe755ee3ff9bd0a04020b049bd) - **build:** add WebAssembly configuration to `math/base/special/abs2` and `math/base/special/sqrt` [(#2989)](https://github.com/stdlib-js/stdlib/pull/2989) _(by Aman Bhansali, Athan Reines)_
