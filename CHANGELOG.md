@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-15)
+## Unreleased (2024-10-18)
 
 <section class="packages">
 
@@ -432,6 +432,11 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`325ca07`](https://github.com/stdlib-js/stdlib/commit/325ca074aa79d05fc6aa551d035d600b7bb66f2e) - **bench:** refactor benchmarks _(by Athan Reines)_
+-   [`c6fe24f`](https://github.com/stdlib-js/stdlib/commit/c6fe24f012b118f30347d075ce52169c8423fbf5) - **bench:** refactor benchmarks _(by Athan Reines)_
+-   [`923a355`](https://github.com/stdlib-js/stdlib/commit/923a3553d58b3dac76c22d895bf0bf7c7c3bc75e) - **bench:** refactor C benchmarks _(by Athan Reines)_
+-   [`2b30eb7`](https://github.com/stdlib-js/stdlib/commit/2b30eb7d91ebcad9919546040198fad15c54b2b8) - **bench:** refactor C benchmarks _(by Athan Reines)_
+-   [`33494b7`](https://github.com/stdlib-js/stdlib/commit/33494b7c0d3bba12b17fc6f0b6990cdadc9c04aa) - **build:** add WebAssembly configuration _(by Athan Reines)_
 -   [`6c58a22`](https://github.com/stdlib-js/stdlib/commit/6c58a22b6f7e514fb358c3256b9573357e4baa65) - **bench:** refactor benchmarks _(by Athan Reines)_
 -   [`870f645`](https://github.com/stdlib-js/stdlib/commit/870f64561a7d90579bd92920c8733a205ed0a55c) - **build:** add WebAssembly configuration _(by Athan Reines)_
 -   [`2ce25ea`](https://github.com/stdlib-js/stdlib/commit/2ce25ea8e857700287558847d93b108f3ca6b33d) - **build:** add WebAssembly configuration _(by Athan Reines)_
