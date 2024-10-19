@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-18)
+## Unreleased (2024-10-19)
 
 <section class="packages">
 
@@ -384,6 +384,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanmin-unreleased">
+
+#### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`04b72af`](https://github.com/stdlib-js/stdlib/commit/04b72af273ca022bd8295379edc5ff04a03d23e7) - add C implementation for `math/base/special/nanmin` [(#3004)](https://github.com/stdlib-js/stdlib/pull/3004)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-xlogyf-unreleased">
 
 #### [@stdlib/math/base/special/xlogyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlogyf)
@@ -432,6 +454,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`04b72af`](https://github.com/stdlib-js/stdlib/commit/04b72af273ca022bd8295379edc5ff04a03d23e7) - **feat:** add C implementation for `math/base/special/nanmin` [(#3004)](https://github.com/stdlib-js/stdlib/pull/3004) _(by Gunj Joshi, Athan Reines)_
 -   [`325ca07`](https://github.com/stdlib-js/stdlib/commit/325ca074aa79d05fc6aa551d035d600b7bb66f2e) - **bench:** refactor benchmarks _(by Athan Reines)_
 -   [`c6fe24f`](https://github.com/stdlib-js/stdlib/commit/c6fe24f012b118f30347d075ce52169c8423fbf5) - **bench:** refactor benchmarks _(by Athan Reines)_
 -   [`923a355`](https://github.com/stdlib-js/stdlib/commit/923a3553d58b3dac76c22d895bf0bf7c7c3bc75e) - **bench:** refactor C benchmarks _(by Athan Reines)_
