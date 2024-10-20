@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-19)
+## Unreleased (2024-10-20)
 
 <section class="packages">
 
@@ -454,6 +454,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a2823da`](https://github.com/stdlib-js/stdlib/commit/a2823daab06f206a71291e6415a1cf09b5d01528) - **chore:** update package meta data [(#3019)](https://github.com/stdlib-js/stdlib/pull/3019) _(by stdlib-bot, Athan Reines)_
 -   [`04b72af`](https://github.com/stdlib-js/stdlib/commit/04b72af273ca022bd8295379edc5ff04a03d23e7) - **feat:** add C implementation for `math/base/special/nanmin` [(#3004)](https://github.com/stdlib-js/stdlib/pull/3004) _(by Gunj Joshi, Athan Reines)_
 -   [`325ca07`](https://github.com/stdlib-js/stdlib/commit/325ca074aa79d05fc6aa551d035d600b7bb66f2e) - **bench:** refactor benchmarks _(by Athan Reines)_
 -   [`c6fe24f`](https://github.com/stdlib-js/stdlib/commit/c6fe24f012b118f30347d075ce52169c8423fbf5) - **bench:** refactor benchmarks _(by Athan Reines)_
