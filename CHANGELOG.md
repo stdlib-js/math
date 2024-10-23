@@ -454,6 +454,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2e8204e`](https://github.com/stdlib-js/stdlib/commit/2e8204e28f8bf5a3952938d5f6ff5160e027d175) - **docs:** use correct format specifier [(#3033)](https://github.com/stdlib-js/stdlib/pull/3033) _(by Gunj Joshi)_
 -   [`dce31cc`](https://github.com/stdlib-js/stdlib/commit/dce31cca0315ae50904c7fc34a95bb427bd03192) - **docs:** fix function name in examples [(#3032)](https://github.com/stdlib-js/stdlib/pull/3032) _(by Gunj Joshi)_
 -   [`06981ee`](https://github.com/stdlib-js/stdlib/commit/06981eeef888c1b48ed3824051cbdccbaa49983c) - **build:** add WebAssembly configuration for `math/base/special/abs2f` and `math/base/special/sqrtf` [(#3026)](https://github.com/stdlib-js/stdlib/pull/3026) _(by Aman Bhansali, Athan Reines)_
 -   [`d1d770a`](https://github.com/stdlib-js/stdlib/commit/d1d770a78549d322db7b06bff07f21d057ac60de) - **build:** add WebAssembly configuration for `math/base/special/absf` [(#3023)](https://github.com/stdlib-js/stdlib/pull/3023) _(by Aman Bhansali)_
