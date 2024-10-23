@@ -384,6 +384,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanmax-unreleased">
+
+#### [@stdlib/math/base/special/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bccdfa2`](https://github.com/stdlib-js/stdlib/commit/bccdfa26987e00d4994a7a1d8265a21c5545ff98) - add C implementation for `math/base/special/nanmax` [(#3031)](https://github.com/stdlib-js/stdlib/pull/3031)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-nanmin-unreleased">
 
 #### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
@@ -454,6 +476,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bccdfa2`](https://github.com/stdlib-js/stdlib/commit/bccdfa26987e00d4994a7a1d8265a21c5545ff98) - **feat:** add C implementation for `math/base/special/nanmax` [(#3031)](https://github.com/stdlib-js/stdlib/pull/3031) _(by Gunj Joshi, Athan Reines)_
 -   [`2e8204e`](https://github.com/stdlib-js/stdlib/commit/2e8204e28f8bf5a3952938d5f6ff5160e027d175) - **docs:** use correct format specifier [(#3033)](https://github.com/stdlib-js/stdlib/pull/3033) _(by Gunj Joshi)_
 -   [`dce31cc`](https://github.com/stdlib-js/stdlib/commit/dce31cca0315ae50904c7fc34a95bb427bd03192) - **docs:** fix function name in examples [(#3032)](https://github.com/stdlib-js/stdlib/pull/3032) _(by Gunj Joshi)_
 -   [`06981ee`](https://github.com/stdlib-js/stdlib/commit/06981eeef888c1b48ed3824051cbdccbaa49983c) - **build:** add WebAssembly configuration for `math/base/special/abs2f` and `math/base/special/sqrtf` [(#3026)](https://github.com/stdlib-js/stdlib/pull/3026) _(by Aman Bhansali, Athan Reines)_
