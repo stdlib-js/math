@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-21)
+## Unreleased (2024-10-23)
 
 <section class="packages">
 
@@ -454,6 +454,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`dce31cc`](https://github.com/stdlib-js/stdlib/commit/dce31cca0315ae50904c7fc34a95bb427bd03192) - **docs:** fix function name in examples [(#3032)](https://github.com/stdlib-js/stdlib/pull/3032) _(by Gunj Joshi)_
 -   [`06981ee`](https://github.com/stdlib-js/stdlib/commit/06981eeef888c1b48ed3824051cbdccbaa49983c) - **build:** add WebAssembly configuration for `math/base/special/abs2f` and `math/base/special/sqrtf` [(#3026)](https://github.com/stdlib-js/stdlib/pull/3026) _(by Aman Bhansali, Athan Reines)_
 -   [`d1d770a`](https://github.com/stdlib-js/stdlib/commit/d1d770a78549d322db7b06bff07f21d057ac60de) - **build:** add WebAssembly configuration for `math/base/special/absf` [(#3023)](https://github.com/stdlib-js/stdlib/pull/3023) _(by Aman Bhansali)_
 -   [`a2823da`](https://github.com/stdlib-js/stdlib/commit/a2823daab06f206a71291e6415a1cf09b5d01528) - **chore:** update package meta data [(#3019)](https://github.com/stdlib-js/stdlib/pull/3019) _(by stdlib-bot, Athan Reines)_
