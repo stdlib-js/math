@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-23)
+## Unreleased (2024-10-26)
 
 <section class="packages">
 
@@ -428,6 +428,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanminf-unreleased">
+
+#### [@stdlib/math/base/special/nanminf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanminf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`30d56c3`](https://github.com/stdlib-js/stdlib/commit/30d56c355e6fa871ff5e42ac12d30ecd95011e00) - add `math/base/special/nanminf` [(#3034)](https://github.com/stdlib-js/stdlib/pull/3034)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-xlogyf-unreleased">
 
 #### [@stdlib/math/base/special/xlogyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlogyf)
@@ -476,6 +498,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`30d56c3`](https://github.com/stdlib-js/stdlib/commit/30d56c355e6fa871ff5e42ac12d30ecd95011e00) - **feat:** add `math/base/special/nanminf` [(#3034)](https://github.com/stdlib-js/stdlib/pull/3034) _(by Gunj Joshi)_
 -   [`bccdfa2`](https://github.com/stdlib-js/stdlib/commit/bccdfa26987e00d4994a7a1d8265a21c5545ff98) - **feat:** add C implementation for `math/base/special/nanmax` [(#3031)](https://github.com/stdlib-js/stdlib/pull/3031) _(by Gunj Joshi, Athan Reines)_
 -   [`2e8204e`](https://github.com/stdlib-js/stdlib/commit/2e8204e28f8bf5a3952938d5f6ff5160e027d175) - **docs:** use correct format specifier [(#3033)](https://github.com/stdlib-js/stdlib/pull/3033) _(by Gunj Joshi)_
 -   [`dce31cc`](https://github.com/stdlib-js/stdlib/commit/dce31cca0315ae50904c7fc34a95bb427bd03192) - **docs:** fix function name in examples [(#3032)](https://github.com/stdlib-js/stdlib/pull/3032) _(by Gunj Joshi)_
