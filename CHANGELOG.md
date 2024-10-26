@@ -406,6 +406,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanmaxf-unreleased">
+
+#### [@stdlib/math/base/special/nanmaxf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmaxf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-nanmin-unreleased">
 
 #### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
@@ -498,6 +520,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - **feat:** add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035) _(by Gunj Joshi, Athan Reines)_
 -   [`f770fc2`](https://github.com/stdlib-js/stdlib/commit/f770fc258b7976ebd51fb501290cb33296d2e036) - **docs:** add missing fields in `package.json` [(#3036)](https://github.com/stdlib-js/stdlib/pull/3036) _(by Gunj Joshi)_
 -   [`30d56c3`](https://github.com/stdlib-js/stdlib/commit/30d56c355e6fa871ff5e42ac12d30ecd95011e00) - **feat:** add `math/base/special/nanminf` [(#3034)](https://github.com/stdlib-js/stdlib/pull/3034) _(by Gunj Joshi)_
 -   [`bccdfa2`](https://github.com/stdlib-js/stdlib/commit/bccdfa26987e00d4994a7a1d8265a21c5545ff98) - **feat:** add C implementation for `math/base/special/nanmax` [(#3031)](https://github.com/stdlib-js/stdlib/pull/3031) _(by Gunj Joshi, Athan Reines)_
