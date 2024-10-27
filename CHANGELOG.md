@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-26)
+## Unreleased (2024-10-27)
 
 <section class="packages">
 
@@ -520,6 +520,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`60522bf`](https://github.com/stdlib-js/stdlib/commit/60522bfc0b5574d348301e788400178156731024) - **docs:** fix operator [(#3039)](https://github.com/stdlib-js/stdlib/pull/3039) _(by Gunj Joshi)_
 -   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - **feat:** add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035) _(by Gunj Joshi, Athan Reines)_
 -   [`f770fc2`](https://github.com/stdlib-js/stdlib/commit/f770fc258b7976ebd51fb501290cb33296d2e036) - **docs:** add missing fields in `package.json` [(#3036)](https://github.com/stdlib-js/stdlib/pull/3036) _(by Gunj Joshi)_
 -   [`30d56c3`](https://github.com/stdlib-js/stdlib/commit/30d56c355e6fa871ff5e42ac12d30ecd95011e00) - **feat:** add `math/base/special/nanminf` [(#3034)](https://github.com/stdlib-js/stdlib/pull/3034) _(by Gunj Joshi)_
