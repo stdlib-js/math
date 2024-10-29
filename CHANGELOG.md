@@ -494,6 +494,40 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sec-unreleased">
+
+#### [@stdlib/math/base/special/sec](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sec)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#225](https://github.com/stdlib-js/stdlib/issues/225)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-xlogyf-unreleased">
 
 #### [@stdlib/math/base/special/xlogyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlogyf)
@@ -520,13 +554,26 @@
 
 <!-- /.packages -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#225](https://github.com/stdlib-js/stdlib/issues/225)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="contributors">
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   AbhijitRaut04
 -   Aman Bhansali
 -   Athan Reines
 -   Ayaka
@@ -543,6 +590,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by AbhijitRaut04, Athan Reines, Philipp Burckhardt)_
 -   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - **feat:** add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015) _(by Aayush Khanna, Athan Reines)_
 -   [`60522bf`](https://github.com/stdlib-js/stdlib/commit/60522bfc0b5574d348301e788400178156731024) - **docs:** fix operator [(#3039)](https://github.com/stdlib-js/stdlib/pull/3039) _(by Gunj Joshi)_
 -   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - **feat:** add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035) _(by Gunj Joshi, Athan Reines)_
