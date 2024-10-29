@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-27)
+## Unreleased (2024-10-29)
 
 <section class="packages">
 
@@ -43,6 +43,28 @@
 ##### Features
 
 -   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acosdf-unreleased">
+
+#### [@stdlib/math/base/special/acosdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acosdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015)
 
 </section>
 
@@ -502,8 +524,9 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
 -   Ayaka
@@ -520,6 +543,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - **feat:** add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015) _(by Aayush Khanna, Athan Reines)_
 -   [`60522bf`](https://github.com/stdlib-js/stdlib/commit/60522bfc0b5574d348301e788400178156731024) - **docs:** fix operator [(#3039)](https://github.com/stdlib-js/stdlib/pull/3039) _(by Gunj Joshi)_
 -   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - **feat:** add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035) _(by Gunj Joshi, Athan Reines)_
 -   [`f770fc2`](https://github.com/stdlib-js/stdlib/commit/f770fc258b7976ebd51fb501290cb33296d2e036) - **docs:** add missing fields in `package.json` [(#3036)](https://github.com/stdlib-js/stdlib/pull/3036) _(by Gunj Joshi)_
