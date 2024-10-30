@@ -594,7 +594,7 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   AbhijitRaut04
@@ -604,6 +604,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Dominic Lim
 -   Gunj Joshi
 -   Philipp Burckhardt
+-   Shivam
 
 </section>
 
@@ -615,6 +616,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e469715`](https://github.com/stdlib-js/stdlib/commit/e46971500650a5dcf1c9734341de8aeaf4360468) - **docs:** improve README examples of `math/iter/sequences` [(#1779)](https://github.com/stdlib-js/stdlib/pull/1779) _(by Shivam, Philipp Burckhardt)_
 -   [`43ac1e7`](https://github.com/stdlib-js/stdlib/commit/43ac1e77bd764f110c19a3eb08421d0a4af9fc61) - **docs:** improve `math/iter/ops` examples [(#2008)](https://github.com/stdlib-js/stdlib/pull/2008) _(by Dominic Lim, Philipp Burckhardt)_
 -   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by AbhijitRaut04, Athan Reines, Philipp Burckhardt)_
 -   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - **feat:** add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015) _(by Aayush Khanna, Athan Reines)_
