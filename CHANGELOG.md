@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.3">
+
+## 0.3.3 (2024-11-05)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.2">
 
 ## 0.3.2 (2024-11-05)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="math-base-assert-is-nonnegative-integerf-unreleased">
+<section class="package" id="math-base-assert-is-nonnegative-integerf-v0.3.2">
 
 #### [@stdlib/math/base/assert/is-nonnegative-integerf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-integerf)
 
@@ -32,7 +42,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-napi-unary-unreleased">
+<section class="package" id="math-base-napi-unary-v0.3.2">
 
 #### [@stdlib/math/base/napi/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/unary)
 
@@ -54,7 +64,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acosdf-unreleased">
+<section class="package" id="math-base-special-acosdf-v0.3.2">
 
 #### [@stdlib/math/base/special/acosdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acosdf)
 
@@ -76,7 +86,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acotdf-unreleased">
+<section class="package" id="math-base-special-acotdf-v0.3.2">
 
 #### [@stdlib/math/base/special/acotdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acotdf)
 
@@ -98,7 +108,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acovercosf-unreleased">
+<section class="package" id="math-base-special-acovercosf-v0.3.2">
 
 #### [@stdlib/math/base/special/acovercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acovercosf)
 
@@ -120,7 +130,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-acoversinf-unreleased">
+<section class="package" id="math-base-special-acoversinf-v0.3.2">
 
 #### [@stdlib/math/base/special/acoversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoversinf)
 
@@ -142,7 +152,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-atandf-unreleased">
+<section class="package" id="math-base-special-atandf-v0.3.2">
 
 #### [@stdlib/math/base/special/atandf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atandf)
 
@@ -164,7 +174,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-avercosf-unreleased">
+<section class="package" id="math-base-special-avercosf-v0.3.2">
 
 #### [@stdlib/math/base/special/avercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/avercosf)
 
@@ -186,7 +196,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-aversinf-unreleased">
+<section class="package" id="math-base-special-aversinf-v0.3.2">
 
 #### [@stdlib/math/base/special/aversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/aversinf)
 
@@ -208,7 +218,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-erf-unreleased">
+<section class="package" id="math-base-special-erf-v0.3.2">
 
 #### [@stdlib/math/base/special/erf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erf)
 
@@ -230,7 +240,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-erfcx-unreleased">
+<section class="package" id="math-base-special-erfcx-v0.3.2">
 
 #### [@stdlib/math/base/special/erfcx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfcx)
 
@@ -252,7 +262,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-ldexpf-unreleased">
+<section class="package" id="math-base-special-ldexpf-v0.3.2">
 
 #### [@stdlib/math/base/special/ldexpf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ldexpf)
 
@@ -274,7 +284,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-logf-unreleased">
+<section class="package" id="math-base-special-logf-v0.3.2">
 
 #### [@stdlib/math/base/special/logf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/logf)
 
@@ -296,7 +306,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-lucas-unreleased">
+<section class="package" id="math-base-special-lucas-v0.3.2">
 
 #### [@stdlib/math/base/special/lucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lucas)
 
@@ -318,7 +328,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-maxabsf-unreleased">
+<section class="package" id="math-base-special-maxabsf-v0.3.2">
 
 #### [@stdlib/math/base/special/maxabsf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxabsf)
 
@@ -340,7 +350,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-maxf-unreleased">
+<section class="package" id="math-base-special-maxf-v0.3.2">
 
 #### [@stdlib/math/base/special/maxf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxf)
 
@@ -362,7 +372,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-minabsf-unreleased">
+<section class="package" id="math-base-special-minabsf-v0.3.2">
 
 #### [@stdlib/math/base/special/minabsf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minabsf)
 
@@ -384,7 +394,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-minf-unreleased">
+<section class="package" id="math-base-special-minf-v0.3.2">
 
 #### [@stdlib/math/base/special/minf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minf)
 
@@ -406,7 +416,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-nanmax-unreleased">
+<section class="package" id="math-base-special-nanmax-v0.3.2">
 
 #### [@stdlib/math/base/special/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmax)
 
@@ -428,7 +438,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-nanmaxf-unreleased">
+<section class="package" id="math-base-special-nanmaxf-v0.3.2">
 
 #### [@stdlib/math/base/special/nanmaxf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmaxf)
 
@@ -450,7 +460,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-nanmin-unreleased">
+<section class="package" id="math-base-special-nanmin-v0.3.2">
 
 #### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
 
@@ -472,7 +482,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-nanminf-unreleased">
+<section class="package" id="math-base-special-nanminf-v0.3.2">
 
 #### [@stdlib/math/base/special/nanminf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanminf)
 
@@ -494,7 +504,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sec-unreleased">
+<section class="package" id="math-base-special-sec-v0.3.2">
 
 #### [@stdlib/math/base/special/sec](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sec)
 
@@ -528,7 +538,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-xlogyf-unreleased">
+<section class="package" id="math-base-special-xlogyf-v0.3.2">
 
 #### [@stdlib/math/base/special/xlogyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlogyf)
 
@@ -550,7 +560,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-iter-ops-unreleased">
+<section class="package" id="math-iter-ops-v0.3.2">
 
 #### [@stdlib/math/iter/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/ops)
 
