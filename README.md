@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@deno/mod.js';
+import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@v0.3.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { base, iter, special, strided, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@deno/mod.js';
+import { base, iter, special, strided, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@v0.3.2-deno/mod.js';
 ```
 
 #### math
@@ -90,7 +90,7 @@ The namespace consists of the following sub-namespaces:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@deno/mod.js';
+import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@v0.3.2-deno/mod.js';
 
 console.log( objectKeys( math ) );
 ```
