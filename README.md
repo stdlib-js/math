@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math/tags). For example,
+
+```javascript
 import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@v0.3.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { base, iter, special, strided, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@v0.3.2-deno/mod.js';
+import { base, iter, special, strided, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@deno/mod.js';
 ```
 
 #### math
@@ -90,7 +95,7 @@ The namespace consists of the following sub-namespaces:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@v0.3.2-deno/mod.js';
+import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math@deno/mod.js';
 
 console.log( objectKeys( math ) );
 ```
