@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="math-base-assert-is-evenf-unreleased">
+
+#### [@stdlib/math/base/assert/is-evenf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-evenf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -32,6 +54,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - **feat:** add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077) _(by Gunj Joshi)_
 -   [`6715177`](https://github.com/stdlib-js/stdlib/commit/6715177ecec14685ff6f8bce8c35f65bc0b2f199) - **docs:** correct function description and indentation in `math/base/assert/is-even` [(#3078)](https://github.com/stdlib-js/stdlib/pull/3078) _(by Gunj Joshi)_
 -   [`5a2ddbe`](https://github.com/stdlib-js/stdlib/commit/5a2ddbe402c98b9ea6aa989e248a3b26da375feb) - **docs:** correct the function description and indentation in `math/base/assert/is-odd` [(#3070)](https://github.com/stdlib-js/stdlib/pull/3070) _(by Gunj Joshi)_
 
