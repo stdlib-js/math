@@ -32,17 +32,65 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-ahavercosf-unreleased">
+
+#### [@stdlib/math/base/special/ahavercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahavercosf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fc38ed8`](https://github.com/stdlib-js/stdlib/commit/fc38ed8247ba61728a368306323ad70cda5895d6) - add `math/base/special/ahavercosf` [(#3072)](https://github.com/stdlib-js/stdlib/pull/3072)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Gunj Joshi
+-   Philipp Burckhardt
 
 </section>
 
@@ -54,6 +102,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`fc38ed8`](https://github.com/stdlib-js/stdlib/commit/fc38ed8247ba61728a368306323ad70cda5895d6) - **feat:** add `math/base/special/ahavercosf` [(#3072)](https://github.com/stdlib-js/stdlib/pull/3072) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`e093a4d`](https://github.com/stdlib-js/stdlib/commit/e093a4d6a41d7686cc780fd1935bd925ccbbe155) - **refactor:** use external constant and update license in `math/base/special/pow` [(#3082)](https://github.com/stdlib-js/stdlib/pull/3082) _(by Gunj Joshi)_
 -   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - **feat:** add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077) _(by Gunj Joshi)_
 -   [`6715177`](https://github.com/stdlib-js/stdlib/commit/6715177ecec14685ff6f8bce8c35f65bc0b2f199) - **docs:** correct function description and indentation in `math/base/assert/is-even` [(#3078)](https://github.com/stdlib-js/stdlib/pull/3078) _(by Gunj Joshi)_
