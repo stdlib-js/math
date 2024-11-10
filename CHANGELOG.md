@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-09)
+## Unreleased (2024-11-10)
 
 <section class="packages">
 
@@ -54,6 +54,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`e093a4d`](https://github.com/stdlib-js/stdlib/commit/e093a4d6a41d7686cc780fd1935bd925ccbbe155) - **refactor:** use external constant and update license in `math/base/special/pow` [(#3082)](https://github.com/stdlib-js/stdlib/pull/3082) _(by Gunj Joshi)_
 -   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - **feat:** add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077) _(by Gunj Joshi)_
 -   [`6715177`](https://github.com/stdlib-js/stdlib/commit/6715177ecec14685ff6f8bce8c35f65bc0b2f199) - **docs:** correct function description and indentation in `math/base/assert/is-even` [(#3078)](https://github.com/stdlib-js/stdlib/pull/3078) _(by Gunj Joshi)_
 -   [`5a2ddbe`](https://github.com/stdlib-js/stdlib/commit/5a2ddbe402c98b9ea6aa989e248a3b26da375feb) - **docs:** correct the function description and indentation in `math/base/assert/is-odd` [(#3070)](https://github.com/stdlib-js/stdlib/pull/3070) _(by Gunj Joshi)_
