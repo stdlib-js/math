@@ -122,6 +122,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-croundf-unreleased">
+
+#### [@stdlib/math/base/special/croundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/croundf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d9a93be`](https://github.com/stdlib-js/stdlib/commit/d9a93be954f04720bb5b03512be42c9ce6201088) - add `math/base/special/croundf` [(#3061)](https://github.com/stdlib-js/stdlib/pull/3061)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-fmodf-unreleased">
 
 #### [@stdlib/math/base/special/fmodf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmodf)
@@ -174,9 +208,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#649](https://github.com/stdlib-js/stdlib/issues/649), [#649](https://github.com/stdlib-js/stdlib/issues/649)
+[#649](https://github.com/stdlib-js/stdlib/issues/649), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#649](https://github.com/stdlib-js/stdlib/issues/649)
 
 </section>
 
@@ -186,10 +220,11 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Gunj Joshi
+-   Gururaj Gurram
 -   Philipp Burckhardt
 
 </section>
@@ -202,6 +237,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d9a93be`](https://github.com/stdlib-js/stdlib/commit/d9a93be954f04720bb5b03512be42c9ce6201088) - **feat:** add `math/base/special/croundf` [(#3061)](https://github.com/stdlib-js/stdlib/pull/3061) _(by Gururaj Gurram, Philipp Burckhardt)_
 -   [`f8bcfd8`](https://github.com/stdlib-js/stdlib/commit/f8bcfd832483d46068c710b6854d5f97bcb778fd) - **feat:** add `math/base/special/gcdf` [(#2997)](https://github.com/stdlib-js/stdlib/pull/2997) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`6556a46`](https://github.com/stdlib-js/stdlib/commit/6556a46aa3a6dffdff6becd4fb98d32421b3e7f2) - **feat:** add `math/base/special/cfloorf` [(#3058)](https://github.com/stdlib-js/stdlib/pull/3058) _(by Aayush Khanna)_
 -   [`7fd112c`](https://github.com/stdlib-js/stdlib/commit/7fd112c799e3a864d975357b2066e45f4196653e) - **feat:** add `math/base/special/fmodf` [(#3059)](https://github.com/stdlib-js/stdlib/pull/3059) _(by Gunj Joshi, Philipp Burckhardt)_
