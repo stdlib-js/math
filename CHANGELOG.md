@@ -144,6 +144,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-gcdf-unreleased">
+
+#### [@stdlib/math/base/special/gcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gcdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f8bcfd8`](https://github.com/stdlib-js/stdlib/commit/f8bcfd832483d46068c710b6854d5f97bcb778fd) - add `math/base/special/gcdf` [(#2997)](https://github.com/stdlib-js/stdlib/pull/2997)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -180,6 +202,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f8bcfd8`](https://github.com/stdlib-js/stdlib/commit/f8bcfd832483d46068c710b6854d5f97bcb778fd) - **feat:** add `math/base/special/gcdf` [(#2997)](https://github.com/stdlib-js/stdlib/pull/2997) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`6556a46`](https://github.com/stdlib-js/stdlib/commit/6556a46aa3a6dffdff6becd4fb98d32421b3e7f2) - **feat:** add `math/base/special/cfloorf` [(#3058)](https://github.com/stdlib-js/stdlib/pull/3058) _(by Aayush Khanna)_
 -   [`7fd112c`](https://github.com/stdlib-js/stdlib/commit/7fd112c799e3a864d975357b2066e45f4196653e) - **feat:** add `math/base/special/fmodf` [(#3059)](https://github.com/stdlib-js/stdlib/pull/3059) _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`545a050`](https://github.com/stdlib-js/stdlib/commit/545a05093d99910b39773f57d3df2da9232b24f5) - **feat:** add `math/base/special/ahaversinf` [(#3076)](https://github.com/stdlib-js/stdlib/pull/3076) _(by Aayush Khanna)_
