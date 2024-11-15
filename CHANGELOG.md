@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-14)
+## Unreleased (2024-11-15)
 
 <section class="packages">
 
@@ -284,6 +284,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`79dc5cf`](https://github.com/stdlib-js/stdlib/commit/79dc5cf4044f4f90a7005389e4740f14a820a967) - **bench:** generate numbers outside loops in `math/base/special/cfloorf` [(#3113)](https://github.com/stdlib-js/stdlib/pull/3113) _(by Gunj Joshi)_
 -   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8) - **feat:** update the return value for `n=1` in `math/base/special/bernoulli` [(#3108)](https://github.com/stdlib-js/stdlib/pull/3108) _(by Gunj Joshi, Athan Reines)_
 -   [`d88cd86`](https://github.com/stdlib-js/stdlib/commit/d88cd86622b7a4ebffcb4b57aa60d5b7292fee73) - **refactor:** use constants, `FI_F` for addon and style fixes in `math/base/special/ldexpf` [(#2868)](https://github.com/stdlib-js/stdlib/pull/2868) _(by Gunj Joshi)_
 -   [`d9a93be`](https://github.com/stdlib-js/stdlib/commit/d9a93be954f04720bb5b03512be42c9ce6201088) - **feat:** add `math/base/special/croundf` [(#3061)](https://github.com/stdlib-js/stdlib/pull/3061) _(by Gururaj Gurram, Philipp Burckhardt)_
