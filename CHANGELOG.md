@@ -284,6 +284,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e0790b9`](https://github.com/stdlib-js/stdlib/commit/e0790b9a98228e98b1442a5cd7e93cf2dbe3aa7c) - **refactor:** replace built-in with `fmod` in `math/base/assert/is-prime` [(#3124)](https://github.com/stdlib-js/stdlib/pull/3124) _(by Gunj Joshi, stdlib-bot)_
 -   [`72bf083`](https://github.com/stdlib-js/stdlib/commit/72bf083eb1bbc829eebbbff32f73fc2a202b2570) - **refactor:** update benchmarks and test fixtures in `math/base/special/ahavercosf` [(#3118)](https://github.com/stdlib-js/stdlib/pull/3118) _(by Gunj Joshi)_
 -   [`163a3e7`](https://github.com/stdlib-js/stdlib/commit/163a3e7fa2c7429f88b2dd69df42572f9ff0af9d) - **refactor:** update benchmark, add `f` suffixes, missing spaces in `math/base/special/gcdf` [(#3121)](https://github.com/stdlib-js/stdlib/pull/3121) _(by Gunj Joshi, Athan Reines)_
 -   [`3c5c933`](https://github.com/stdlib-js/stdlib/commit/3c5c933c86f7243e8872dcf3cb7548d0399b1b35) - **refactor:** update benchmarks and test fixtures in `math/base/special/ahaversinf` [(#3119)](https://github.com/stdlib-js/stdlib/pull/3119) _(by Gunj Joshi)_
