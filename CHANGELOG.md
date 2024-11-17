@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-15)
+## Unreleased (2024-11-17)
 
 <section class="packages">
 
@@ -284,6 +284,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8a03f83`](https://github.com/stdlib-js/stdlib/commit/8a03f833d9808c17418225664d7250b94fb0e1b5) - **refactor:** use constant package in `math/base/special/fmodf` (#3120) [(#3120)](https://github.com/stdlib-js/stdlib/pull/3120) _(by Gunj Joshi)_
 -   [`15dff30`](https://github.com/stdlib-js/stdlib/commit/15dff30135c09d5afa4b81c0ef662c68b65b6013) - **refactor:** use macros in addon and update examples in `math/base/assert/is-evenf` [(#3115)](https://github.com/stdlib-js/stdlib/pull/3115) _(by Gunj Joshi, Athan Reines)_
 -   [`e5bfdff`](https://github.com/stdlib-js/stdlib/commit/e5bfdff2d2c137f84eb5f925f8d63a3729d05eb2) - **docs:** update functions descriptions in `math/base/special/cceil` [(#3114)](https://github.com/stdlib-js/stdlib/pull/3114) _(by Gunj Joshi)_
 -   [`79dc5cf`](https://github.com/stdlib-js/stdlib/commit/79dc5cf4044f4f90a7005389e4740f14a820a967) - **bench:** generate numbers outside loops in `math/base/special/cfloorf` [(#3113)](https://github.com/stdlib-js/stdlib/pull/3113) _(by Gunj Joshi)_
