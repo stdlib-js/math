@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-17)
+## Unreleased (2024-11-20)
 
 <section class="packages">
 
@@ -25,6 +25,40 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-unreleased">
+
+#### [@stdlib/math/base/special](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -234,6 +268,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-iter-tools-unreleased">
+
+#### [@stdlib/math/iter/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/tools)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -241,6 +309,10 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
 
 -   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8): update return value for `n=1`
 
@@ -284,6 +356,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`e0790b9`](https://github.com/stdlib-js/stdlib/commit/e0790b9a98228e98b1442a5cd7e93cf2dbe3aa7c) - **refactor:** replace built-in with `fmod` in `math/base/assert/is-prime` [(#3124)](https://github.com/stdlib-js/stdlib/pull/3124) _(by Gunj Joshi, stdlib-bot)_
 -   [`72bf083`](https://github.com/stdlib-js/stdlib/commit/72bf083eb1bbc829eebbbff32f73fc2a202b2570) - **refactor:** update benchmarks and test fixtures in `math/base/special/ahavercosf` [(#3118)](https://github.com/stdlib-js/stdlib/pull/3118) _(by Gunj Joshi)_
 -   [`163a3e7`](https://github.com/stdlib-js/stdlib/commit/163a3e7fa2c7429f88b2dd69df42572f9ff0af9d) - **refactor:** update benchmark, add `f` suffixes, missing spaces in `math/base/special/gcdf` [(#3121)](https://github.com/stdlib-js/stdlib/pull/3121) _(by Gunj Joshi, Athan Reines)_
@@ -18114,6 +18187,18 @@ This release closes the following issue:
 
 <!-- /.breaking-changes -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#895](https://github.com/stdlib-js/stdlib/issues/895)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -27444,9 +27529,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#892](https://github.com/stdlib-js/stdlib/issues/892), [#893](https://github.com/stdlib-js/stdlib/issues/893)
+[#892](https://github.com/stdlib-js/stdlib/issues/892), [#893](https://github.com/stdlib-js/stdlib/issues/893), [#895](https://github.com/stdlib-js/stdlib/issues/895)
 
 </section>
 
