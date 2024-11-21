@@ -24,8 +24,8 @@ var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/array/uniform' );
 var isnan = require( './../../../../base/assert/is-nan' );
-var pkg = require( './../../../../base/special/erfcx/package.json' ).name;
 var tryRequire = require( '@stdlib/utils/try-require' );
+var pkg = require( './../package.json' ).name;
 
 
 // VARIABLES //
