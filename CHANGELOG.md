@@ -356,6 +356,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`961d039`](https://github.com/stdlib-js/stdlib/commit/961d03929b8b1b9c5221dc36cb21f0e8194f06c2) - **chore:** use relative path to load package.json file _(by Philipp Burckhardt)_
 -   [`15546a9`](https://github.com/stdlib-js/stdlib/commit/15546a92fb2f48b6c780fdf2dd0460340cda8830) - **docs:** update function name in header of C section _(by Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
