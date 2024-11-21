@@ -356,6 +356,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c660c70`](https://github.com/stdlib-js/stdlib/commit/c660c705bb3478f4fb6cb818c9b1d3429e8a6774) - **chore:** use correct `Makefile` and update benchmarks in `math/base/special/csch` [(#3209)](https://github.com/stdlib-js/stdlib/pull/3209) _(by Gunj Joshi)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`961d039`](https://github.com/stdlib-js/stdlib/commit/961d03929b8b1b9c5221dc36cb21f0e8194f06c2) - **chore:** use relative path to load package.json file _(by Philipp Burckhardt)_
 -   [`15546a9`](https://github.com/stdlib-js/stdlib/commit/15546a92fb2f48b6c780fdf2dd0460340cda8830) - **docs:** update function name in header of C section _(by Philipp Burckhardt)_
