@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-21)
+## Unreleased (2024-11-23)
 
 <section class="packages">
 
@@ -356,6 +356,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f0b5a73`](https://github.com/stdlib-js/stdlib/commit/f0b5a739637214f85790658974070c871a2ca30b) - **refactor:** replace built-in with `stdlib_base_atan2` in `math/base/special/cphase` [(#3231)](https://github.com/stdlib-js/stdlib/pull/3231) _(by Gunj Joshi)_
 -   [`35ea456`](https://github.com/stdlib-js/stdlib/commit/35ea456c3f527fda8c717b5f31deccb6ba9e44d2) - **refactor:** use `stdlib_base_round` instead of builtin in `math/base/special/cround` [(#3216)](https://github.com/stdlib-js/stdlib/pull/3216) _(by Gunj Joshi)_
 -   [`7e2c16b`](https://github.com/stdlib-js/stdlib/commit/7e2c16b05d85b9d25c21626d4cbce381fcfe5d32) - **refactor:** remove unused header, update benchmarks in `math/base/special/croundf` [(#3217)](https://github.com/stdlib-js/stdlib/pull/3217) _(by Gunj Joshi)_
 -   [`c660c70`](https://github.com/stdlib-js/stdlib/commit/c660c705bb3478f4fb6cb818c9b1d3429e8a6774) - **chore:** use correct `Makefile` and update benchmarks in `math/base/special/csch` [(#3209)](https://github.com/stdlib-js/stdlib/pull/3209) _(by Gunj Joshi)_
