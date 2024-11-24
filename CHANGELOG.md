@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-23)
+## Unreleased (2024-11-24)
 
 <section class="packages">
 
@@ -356,6 +356,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7bfeb06`](https://github.com/stdlib-js/stdlib/commit/7bfeb066e6bfc209fce693c18ed3006495b3c206) - **style:** minor clean-up _(by Philipp Burckhardt)_
 -   [`f0b5a73`](https://github.com/stdlib-js/stdlib/commit/f0b5a739637214f85790658974070c871a2ca30b) - **refactor:** replace built-in with `stdlib_base_atan2` in `math/base/special/cphase` [(#3231)](https://github.com/stdlib-js/stdlib/pull/3231) _(by Gunj Joshi)_
 -   [`35ea456`](https://github.com/stdlib-js/stdlib/commit/35ea456c3f527fda8c717b5f31deccb6ba9e44d2) - **refactor:** use `stdlib_base_round` instead of builtin in `math/base/special/cround` [(#3216)](https://github.com/stdlib-js/stdlib/pull/3216) _(by Gunj Joshi)_
 -   [`7e2c16b`](https://github.com/stdlib-js/stdlib/commit/7e2c16b05d85b9d25c21626d4cbce381fcfe5d32) - **refactor:** remove unused header, update benchmarks in `math/base/special/croundf` [(#3217)](https://github.com/stdlib-js/stdlib/pull/3217) _(by Gunj Joshi)_
