@@ -2114,6 +2114,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-riemann-zeta-unreleased">
+
+#### [@stdlib/math/base/special/riemann-zeta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/riemann-zeta)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e01c8e2`](https://github.com/stdlib-js/stdlib/commit/e01c8e28e77db58112d6bdcffa2e924f648e09fd) - add C implementation for `math/base/special/riemann-zeta` [(#2737)](https://github.com/stdlib-js/stdlib/pull/2737)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-round-unreleased">
 
 #### [@stdlib/math/base/special/round](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round)
@@ -2598,6 +2620,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e01c8e2`](https://github.com/stdlib-js/stdlib/commit/e01c8e28e77db58112d6bdcffa2e924f648e09fd) - **feat:** add C implementation for `math/base/special/riemann-zeta` [(#2737)](https://github.com/stdlib-js/stdlib/pull/2737) _(by Gunj Joshi, stdlib-bot)_
 -   [`2a10dde`](https://github.com/stdlib-js/stdlib/commit/2a10dde4b821cf7d96fcd76339beac03e9548f47) - **bench:** update benchmarks and examples in `math/base/special/ldexp` [(#2781)](https://github.com/stdlib-js/stdlib/pull/2781) _(by Gunj Joshi, stdlib-bot)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`4817867`](https://github.com/stdlib-js/stdlib/commit/4817867dcbddffe1ead3f532e01fce352bd77808) - **chore:** move stdlib benchmarks into native sub-directories _(by Philipp Burckhardt)_
