@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-26)
+## Unreleased (2024-12-01)
 
 <section class="packages">
 
@@ -2620,6 +2620,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d24969e`](https://github.com/stdlib-js/stdlib/commit/d24969e35be1cfbff2e0d62d740c451e476ee444) - **chore:** update package meta data [(#3303)](https://github.com/stdlib-js/stdlib/pull/3303) _(by stdlib-bot, Athan Reines)_
 -   [`e01c8e2`](https://github.com/stdlib-js/stdlib/commit/e01c8e28e77db58112d6bdcffa2e924f648e09fd) - **feat:** add C implementation for `math/base/special/riemann-zeta` [(#2737)](https://github.com/stdlib-js/stdlib/pull/2737) _(by Gunj Joshi, stdlib-bot)_
 -   [`2a10dde`](https://github.com/stdlib-js/stdlib/commit/2a10dde4b821cf7d96fcd76339beac03e9548f47) - **bench:** update benchmarks and examples in `math/base/special/ldexp` [(#2781)](https://github.com/stdlib-js/stdlib/pull/2781) _(by Gunj Joshi, stdlib-bot)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
@@ -3278,7 +3279,7 @@ A total of 2 issues were closed in this release:
 A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
--   AbhijitRaut04
+-   Abhijit Raut
 -   Aman Bhansali
 -   Athan Reines
 -   Ayaka
@@ -3299,7 +3300,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 -   [`e469715`](https://github.com/stdlib-js/stdlib/commit/e46971500650a5dcf1c9734341de8aeaf4360468) - **docs:** improve README examples of `math/iter/sequences` [(#1779)](https://github.com/stdlib-js/stdlib/pull/1779) _(by Shivam, Philipp Burckhardt)_
 -   [`43ac1e7`](https://github.com/stdlib-js/stdlib/commit/43ac1e77bd764f110c19a3eb08421d0a4af9fc61) - **docs:** improve `math/iter/ops` examples [(#2008)](https://github.com/stdlib-js/stdlib/pull/2008) _(by Dominic Lim, Philipp Burckhardt)_
--   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by AbhijitRaut04, Athan Reines, Philipp Burckhardt)_
+-   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by Abhijit Raut, Athan Reines, Philipp Burckhardt)_
 -   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - **feat:** add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015) _(by Aayush Khanna, Athan Reines)_
 -   [`60522bf`](https://github.com/stdlib-js/stdlib/commit/60522bfc0b5574d348301e788400178156731024) - **docs:** fix operator [(#3039)](https://github.com/stdlib-js/stdlib/pull/3039) _(by Gunj Joshi)_
 -   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - **feat:** add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035) _(by Gunj Joshi, Athan Reines)_
