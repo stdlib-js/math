@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-02)
+## Unreleased (2024-12-03)
 
 <section class="packages">
 
@@ -21,6 +21,28 @@
 ##### Features
 
 -   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-napi-unreleased">
+
+#### [@stdlib/math/base/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315)
 
 </section>
 
@@ -2618,6 +2640,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - **feat:** add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315) _(by Gunj Joshi)_
 -   [`c0d083d`](https://github.com/stdlib-js/stdlib/commit/c0d083d4329c439d9c002479740518584e5f5977) - **feat:** add `math/base/special/lcmf` _(by Aayush Khanna, stdlib-bot)_
 -   [`92c0d4e`](https://github.com/stdlib-js/stdlib/commit/92c0d4e65a8ffef2a2264ba906cfe8020c483b13) - **docs:** clean-up and use C floats when appropriate _(by Philipp Burckhardt)_
 -   [`d24969e`](https://github.com/stdlib-js/stdlib/commit/d24969e35be1cfbff2e0d62d740c451e476ee444) - **chore:** update package meta data [(#3303)](https://github.com/stdlib-js/stdlib/pull/3303) _(by stdlib-bot, Athan Reines)_
