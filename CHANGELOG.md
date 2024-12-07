@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-04)
+## Unreleased (2024-12-07)
 
 <section class="packages">
 
@@ -1071,6 +1071,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-dirichlet-eta-unreleased">
+
+#### [@stdlib/math/base/special/dirichlet-eta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/dirichlet-eta)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ef06a2d`](https://github.com/stdlib-js/stdlib/commit/ef06a2dda4cc6b272088a7a39c30e48dbf8c6ce4) - add C implementation for `math/base/special/dirichlet-eta` [(#3282)](https://github.com/stdlib-js/stdlib/pull/3282)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2640,6 +2662,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ef06a2d`](https://github.com/stdlib-js/stdlib/commit/ef06a2dda4cc6b272088a7a39c30e48dbf8c6ce4) - **feat:** add C implementation for `math/base/special/dirichlet-eta` [(#3282)](https://github.com/stdlib-js/stdlib/pull/3282) _(by Gunj Joshi, stdlib-bot)_
 -   [`4bc5c7e`](https://github.com/stdlib-js/stdlib/commit/4bc5c7efda9452e0fb18a2cfe59bf89a4d180534) - **refactor:** use external constant in `math/base/special/tribonacci` [(#3324)](https://github.com/stdlib-js/stdlib/pull/3324) _(by Gunj Joshi)_
 -   [`299517a`](https://github.com/stdlib-js/stdlib/commit/299517a7a1e3494b93b2368c4f135a5826f88090) - **docs:** update examples in `math/base/special/lcmf` [(#3319)](https://github.com/stdlib-js/stdlib/pull/3319) _(by Gunj Joshi, Athan Reines)_
 -   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - **feat:** add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315) _(by Gunj Joshi)_
@@ -9385,7 +9408,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   Rejoan Sardar
 -   Ridam Garg
 -   RidamGarg
--   Rutam
+-   Rutam Kathale
 -   Sai Srikar Dumpeti
 -   Shashank Shekhar Singh
 -   Snehil Shah
@@ -9688,20 +9711,20 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   [`b6968e0`](https://github.com/stdlib-js/stdlib/commit/b6968e0432693ea50e4cc0de9d9a26873ab4dedc) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`e8f94d2`](https://github.com/stdlib-js/stdlib/commit/e8f94d2e0efb84921f871550ca7e49d514a6a519) - **feat:** add C implementation for `math/base/special/gamma-lanczos-sum-expg-scaled` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
--   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - **feat:** add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946) _(by Rutam, Athan Reines, Pranav Goswami)_
+-   [`c17484a`](https://github.com/stdlib-js/stdlib/commit/c17484ad1830ddfdb3abbe96589b406096e389e1) - **feat:** add C implementation for `math/base/special/fast/uint32-log2` [(#1946)](https://github.com/stdlib-js/stdlib/pull/1946) _(by Rutam Kathale, Athan Reines, Pranav Goswami)_
 -   [`abf4652`](https://github.com/stdlib-js/stdlib/commit/abf4652e755a88031ee35c182b34d48effe25e43) - **feat:** add C implementation of `math/base/special/fast/alpha-max-plus-beta-min` [(#1947)](https://github.com/stdlib-js/stdlib/pull/1947) _(by Ayaka, Athan Reines)_
 -   [`c39cc72`](https://github.com/stdlib-js/stdlib/commit/c39cc7222bf86a5217a4fc5333b007f90f1709cd) - **feat:** add C implementation for `math/base/special/nonfibonacci` _(by Tirtadwipa Manunggal, stdlib-bot, Philipp Burckhardt)_
 -   [`5de3b76`](https://github.com/stdlib-js/stdlib/commit/5de3b7612454a97aef3c4cd8e8ba48858cc13d02) - **feat:** add C implementation for `math/base/special/acscd` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`5c8ab25`](https://github.com/stdlib-js/stdlib/commit/5c8ab250e07d8f3cf603522c1d354a2f983e354b) - **feat:** add C implementation for `math/base/special/gamma-lanczos-sum` [(#1834)](https://github.com/stdlib-js/stdlib/pull/1834) _(by Gunj Joshi, Athan Reines)_
 -   [`f36b80d`](https://github.com/stdlib-js/stdlib/commit/f36b80d61e0e3b083672453d7e783d5e69551540) - **refactor:** add support for ratios evaluating as infinity in `math/base/tools/evalrational-compile-c` [(#1970)](https://github.com/stdlib-js/stdlib/pull/1970) _(by Gunj Joshi, Athan Reines)_
--   [`7c8d0ce`](https://github.com/stdlib-js/stdlib/commit/7c8d0ced2596cd1ed9e4dec0a40915dd91f59537) - **fix:** missing headers in C examples [(#1958)](https://github.com/stdlib-js/stdlib/pull/1958) _(by Rutam)_
+-   [`7c8d0ce`](https://github.com/stdlib-js/stdlib/commit/7c8d0ced2596cd1ed9e4dec0a40915dd91f59537) - **fix:** missing headers in C examples [(#1958)](https://github.com/stdlib-js/stdlib/pull/1958) _(by Rutam Kathale)_
 -   [`2c3c709`](https://github.com/stdlib-js/stdlib/commit/2c3c709353a0821a187ff63251a296f558f951a1) - **docs:** update related packages sections [(#1941)](https://github.com/stdlib-js/stdlib/pull/1941) _(by stdlib-bot)_
--   [`8dffd8f`](https://github.com/stdlib-js/stdlib/commit/8dffd8fa583fee296d10091ca9323b17dc8a76f0) - **feat:** add C implementation for `math/base/assert/is-composite` _(by Rutam, Pranav, Philipp Burckhardt)_
+-   [`8dffd8f`](https://github.com/stdlib-js/stdlib/commit/8dffd8fa583fee296d10091ca9323b17dc8a76f0) - **feat:** add C implementation for `math/base/assert/is-composite` _(by Rutam Kathale, Pranav, Philipp Burckhardt)_
 -   [`7556fd8`](https://github.com/stdlib-js/stdlib/commit/7556fd8455fa74cea1e9d3b5cf6df203801c962e) - **feat:** add C implementation for `math/base/special/fast/atanh` _(by Rejoan Sardar, Pranav Goswami)_
 -   [`0b0e240`](https://github.com/stdlib-js/stdlib/commit/0b0e240f6959ac1dae3bc00fe42b9930eb887e93) - **feat:** add `math/base/special/cosd` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
 -   [`5b5ce15`](https://github.com/stdlib-js/stdlib/commit/5b5ce15628dac972c3f842b1b0233b3b9913f04e) - **feat:** add C implementation for `math/base/special/fast/pow-int` _(by Gunj Joshi, Pranav Goswami)_
 -   [`19f6f59`](https://github.com/stdlib-js/stdlib/commit/19f6f59482f92d40cfc1fd310664f6980dca1725) - **feat:** add C implementation for `math/base/special/modf` _(by Gunj Joshi, Pranav Goswami)_
--   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935) _(by Rutam)_
+-   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935) _(by Rutam Kathale)_
 -   [`5a81f05`](https://github.com/stdlib-js/stdlib/commit/5a81f050b2467e6ebf8d3f242511428cc0a3b49e) - **feat:** add C implementation for `math/base/special/fast/min` _(by Rejoan Sardar, Pranav Goswami, Philipp Burckhardt)_
 -   [`67e90ff`](https://github.com/stdlib-js/stdlib/commit/67e90fff25e4e33de75e060ea2fa9ee25df3b433) - **feat:** add C implementation for `math/base/special/fast/max` _(by Rejoan Sardar, Pranav Goswami, Philipp Burckhardt)_
 -   [`d27da5d`](https://github.com/stdlib-js/stdlib/commit/d27da5ddf7d6acb8da8c4f7bdee5a05df139329e) - **chore:** update package meta data [(#1926)](https://github.com/stdlib-js/stdlib/pull/1926) _(by stdlib-bot, Athan Reines)_
@@ -9713,7 +9736,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   [`f134dac`](https://github.com/stdlib-js/stdlib/commit/f134dac2965e729dd0e662f8ec3d952770310149) - **feat:** add C implementation for `math/base/special/fast/abs` _(by Gunj Joshi, Athan Reines)_
 -   [`43f7bc2`](https://github.com/stdlib-js/stdlib/commit/43f7bc27ac49f36204bcd54f7f21f2508d4045d5) - **feat:** add C implementation for `math/base/special/fast/acosh` _(by Gunj Joshi, Pranav Goswami)_
 -   [`bdb2441`](https://github.com/stdlib-js/stdlib/commit/bdb24411c6bf1498c94ba15246d3134c43653640) - **feat:** add C implementation for `math/base/special/fast/hypot`  _(by Gunj Joshi)_
--   [`5433e22`](https://github.com/stdlib-js/stdlib/commit/5433e22ea76052b48ab4503cf11dc4b64aa0ec7d) - **feat:** add C implementation for `math/base/special/factorial2` _(by Rutam, Pranav, Philipp Burckhardt)_
+-   [`5433e22`](https://github.com/stdlib-js/stdlib/commit/5433e22ea76052b48ab4503cf11dc4b64aa0ec7d) - **feat:** add C implementation for `math/base/special/factorial2` _(by Rutam Kathale, Pranav, Philipp Burckhardt)_
 -   [`ee3cbb1`](https://github.com/stdlib-js/stdlib/commit/ee3cbb145141c2f315a7b7b0f1a3b333a2a74e40) - **feat:** add C implementation for `math/base/special/acosd` _(by Gunj Joshi, Pranav)_
 -   [`0db265e`](https://github.com/stdlib-js/stdlib/commit/0db265e586019fb5cb2df21ae8602dfcc953586e) - **feat:** add C implementation for `math/base/special/atand` _(by Rejoan Sardar, Pranav)_
 -   [`c2239f3`](https://github.com/stdlib-js/stdlib/commit/c2239f369fadf2c01d0ba114d6b590f24c6dbe5e) - **feat:** add C implementation for `math/base/special/acsc` _(by Rejoan Sardar, Pranav)_
@@ -9722,13 +9745,13 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   [`39d0327`](https://github.com/stdlib-js/stdlib/commit/39d03272aca42366767c8df6afbb2ba7768c519c) - **feat:** add C implementation for `math/base/assert/is-prime` [(#1866)](https://github.com/stdlib-js/stdlib/pull/1866) _(by Aman Bhansali, Athan Reines)_
 -   [`c5e01bf`](https://github.com/stdlib-js/stdlib/commit/c5e01bf5b7718ded999fa1f4841407ed27bfdfc1) - **feat:** add `math/base/special/cotd` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
 -   [`025c2c1`](https://github.com/stdlib-js/stdlib/commit/025c2c164f6d51a2192399d0c237d78a139ff772) - **feat:** add `math/base/special/tand` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
--   [`3d7c806`](https://github.com/stdlib-js/stdlib/commit/3d7c8064bc42665018dcfef92e310b1a1b604d06) - **feat:** add C implementation for `math/base/assert/uint32-is-pow2` _(by Rutam, Pranav, Philipp Burckhardt)_
+-   [`3d7c806`](https://github.com/stdlib-js/stdlib/commit/3d7c8064bc42665018dcfef92e310b1a1b604d06) - **feat:** add C implementation for `math/base/assert/uint32-is-pow2` _(by Rutam Kathale, Pranav, Philipp Burckhardt)_
 -   [`78524df`](https://github.com/stdlib-js/stdlib/commit/78524df819f374e2686ed27f333b1b4658ea13d5) - **feat:** add C implementation for `math/base/special/boxcox1pinv` _(by Rejoan Sardar, Pranav)_
 -   [`601c72c`](https://github.com/stdlib-js/stdlib/commit/601c72c0495f2515161fe50ade666b477d0a2c4f) - **feat:** add C implementation for `math/base/special/boxcox1p` _(by Gunj Joshi, Pranav)_
 -   [`f2812cf`](https://github.com/stdlib-js/stdlib/commit/f2812cfefb23e0f3b9607ad2af9b5d7cbb68861e) - **feat:** add C implementation for `math/base/special/boxcoxinv` [(#1878)](https://github.com/stdlib-js/stdlib/pull/1878) _(by Rejoan Sardar, Athan Reines)_
 -   [`63034fc`](https://github.com/stdlib-js/stdlib/commit/63034fc093bf2419b7c08209f2225beaefdb3211) - **feat:** add C implementation for `math/base/special/boxcox` [(#1870)](https://github.com/stdlib-js/stdlib/pull/1870) _(by Gunj Joshi, Athan Reines)_
 -   [`dc84fce`](https://github.com/stdlib-js/stdlib/commit/dc84fce54ee45d590860af4eb36845981342671f) - **feat:** add C implementation for `math/base/special/xlog1py` _(by Rejoan Sardar, Pranav, Philipp Burckhardt)_
--   [`f9cbee7`](https://github.com/stdlib-js/stdlib/commit/f9cbee7fb312af11b695ff8829401acf81609813) - **feat:** add C implementation for `math/base/assert/is-nonpositive-finite` _(by Rutam, Pranav)_
+-   [`f9cbee7`](https://github.com/stdlib-js/stdlib/commit/f9cbee7fb312af11b695ff8829401acf81609813) - **feat:** add C implementation for `math/base/assert/is-nonpositive-finite` _(by Rutam Kathale, Pranav)_
 -   [`f0e398f`](https://github.com/stdlib-js/stdlib/commit/f0e398f2a5eca05bfe904a3f4b34146040fd320b) - **feat:** add C implementation for `math/base/assert/is-safe-integer` _(by Aman Bhansali, Pranav)_
 -   [`d14500f`](https://github.com/stdlib-js/stdlib/commit/d14500f3d9053d0fcd34fa19cdb8d4355bf72af7) - **feat:** add C implementation for `math/base/assert/int32-is-odd` _(by Rejoan Sardar, Pranav, Philipp Burckhardt)_
 -   [`0c78f2f`](https://github.com/stdlib-js/stdlib/commit/0c78f2f502062c3d5bd6c8ac857cb2203fd17f7f) - **feat:** add C implementation for `math/base/special/bernoulli` _(by Gunj Joshi, Pranav)_
@@ -9742,7 +9765,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   [`1d7b726`](https://github.com/stdlib-js/stdlib/commit/1d7b726c275c4a1bcb13ac2731ad19bec63d3041) - **feat:** add `math/base/special/acscd` _(by Sai Srikar Dumpeti)_
 -   [`7489261`](https://github.com/stdlib-js/stdlib/commit/748926101f284b6e9f196283ff1ca08bf6efa2dc) - **feat:** add `math/base/special/acotd` _(by Sai Srikar Dumpeti, Philipp Burckhardt)_
 -   [`bb6ac7e`](https://github.com/stdlib-js/stdlib/commit/bb6ac7ec68ee6a78cffd9527e477a2bc0fdcdf17) - **feat:** add `math/base/special/cscd` _(by Sai Srikar Dumpeti, stdlib-bot, Philipp Burckhardt)_
--   [`665c735`](https://github.com/stdlib-js/stdlib/commit/665c7357a0439decbaecb80519ce017d87a15f04) - **feat:** add C implementation for `math/base/special/xlogy` _(by Rutam, Pranav)_
+-   [`665c735`](https://github.com/stdlib-js/stdlib/commit/665c7357a0439decbaecb80519ce017d87a15f04) - **feat:** add C implementation for `math/base/special/xlogy` _(by Rutam Kathale, Pranav)_
 -   [`3addfa7`](https://github.com/stdlib-js/stdlib/commit/3addfa758b52d1ae97959efc77fe9ee6b7441b9d) - **feat:** add C implementation for `math/base/special/ahaversin` _(by Rejoan Sardar, Pranav)_
 -   [`e59d704`](https://github.com/stdlib-js/stdlib/commit/e59d704f754153cce428151f19bd716e0f4f3465) - **feat:** add C implementation for `math/base/special/gammasgn` [(#1841)](https://github.com/stdlib-js/stdlib/pull/1841) _(by Gunj Joshi, Pranav)_
 -   [`d8f6700`](https://github.com/stdlib-js/stdlib/commit/d8f6700f923c16fb626c3c2259152475706b340a) - **feat:** add C implementation for `math/base/special/log2` _(by Aman Bhansali, Pranav, Athan Reines)_
