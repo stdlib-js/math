@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-07)
+## Unreleased (2024-12-08)
 
 <section class="packages">
 
@@ -2662,6 +2662,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
 -   [`ef06a2d`](https://github.com/stdlib-js/stdlib/commit/ef06a2dda4cc6b272088a7a39c30e48dbf8c6ce4) - **feat:** add C implementation for `math/base/special/dirichlet-eta` [(#3282)](https://github.com/stdlib-js/stdlib/pull/3282) _(by Gunj Joshi, stdlib-bot)_
 -   [`4bc5c7e`](https://github.com/stdlib-js/stdlib/commit/4bc5c7efda9452e0fb18a2cfe59bf89a4d180534) - **refactor:** use external constant in `math/base/special/tribonacci` [(#3324)](https://github.com/stdlib-js/stdlib/pull/3324) _(by Gunj Joshi)_
 -   [`299517a`](https://github.com/stdlib-js/stdlib/commit/299517a7a1e3494b93b2368c4f135a5826f88090) - **docs:** update examples in `math/base/special/lcmf` [(#3319)](https://github.com/stdlib-js/stdlib/pull/3319) _(by Gunj Joshi, Athan Reines)_
