@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-09)
+## Unreleased (2024-12-10)
 
 <section class="packages">
 
@@ -21,6 +21,28 @@
 ##### Features
 
 -   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-assert-is-oddf-unreleased">
+
+#### [@stdlib/math/base/assert/is-oddf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-oddf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ecd017d`](https://github.com/stdlib-js/stdlib/commit/ecd017d9c921c2412fe61af9a129884e0c1e85b6) - add `math/base/assert/is-oddf` [(#3125)](https://github.com/stdlib-js/stdlib/pull/3125)
 
 </section>
 
@@ -2663,6 +2685,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ecd017d`](https://github.com/stdlib-js/stdlib/commit/ecd017d9c921c2412fe61af9a129884e0c1e85b6) - **feat:** add `math/base/assert/is-oddf` [(#3125)](https://github.com/stdlib-js/stdlib/pull/3125) _(by Gururaj Gurram, Gunj Joshi, stdlib-bot)_
 -   [`1c56b73`](https://github.com/stdlib-js/stdlib/commit/1c56b737ec018cc818cebf19e5c7947fa684e126) - **docs:** update related packages sections [(#3380)](https://github.com/stdlib-js/stdlib/pull/3380) _(by stdlib-bot)_
 -   [`0a8192d`](https://github.com/stdlib-js/stdlib/commit/0a8192d68506a2abf4c3e52e1af9f1510e1660b4) - **docs:** update related packages sections [(#3370)](https://github.com/stdlib-js/stdlib/pull/3370) _(by stdlib-bot)_
 -   [`a64ea86`](https://github.com/stdlib-js/stdlib/commit/a64ea86886d159e09b37e8591fc53d9944618204) - **feat:** update namespace TypeScript declarations [(#3371)](https://github.com/stdlib-js/stdlib/pull/3371) _(by stdlib-bot, Philipp Burckhardt)_
