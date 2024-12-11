@@ -134,6 +134,7 @@ for ( i = 0; i < 100; i++ ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/math/base/special/max`][@stdlib/math/base/special/max]</span><span class="delimiter">: </span><span class="description">return the maximum value.</span>
+-   <span class="package-name">[`@stdlib/math/base/special/maxabsn`][@stdlib/math/base/special/maxabsn]</span><span class="delimiter">: </span><span class="description">return the maximum absolute value.</span>
 -   <span class="package-name">[`@stdlib/math/base/special/minn`][@stdlib/math/base/special/minn]</span><span class="delimiter">: </span><span class="description">return the minimum value.</span>
 
 </section>
@@ -147,6 +148,8 @@ for ( i = 0; i < 100; i++ ) {
 <!-- <related-links> -->
 
 [@stdlib/math/base/special/max]: https://github.com/stdlib-js/math/tree/main/base/special/max
+
+[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math/tree/main/base/special/maxabsn
 
 [@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math/tree/main/base/special/minn
 
