@@ -2685,6 +2685,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1f3190b`](https://github.com/stdlib-js/stdlib/commit/1f3190b7d1100f318ff2677fff12cb0d072f9b09) - **docs:** add missing `f` suffixes and `stdbool` header in `math/base/assert/is-oddf` [(#3457)](https://github.com/stdlib-js/stdlib/pull/3457) _(by Gunj Joshi)_
 -   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
 -   [`ecd017d`](https://github.com/stdlib-js/stdlib/commit/ecd017d9c921c2412fe61af9a129884e0c1e85b6) - **feat:** add `math/base/assert/is-oddf` [(#3125)](https://github.com/stdlib-js/stdlib/pull/3125) _(by Gururaj Gurram, Gunj Joshi, stdlib-bot)_
 -   [`1c56b73`](https://github.com/stdlib-js/stdlib/commit/1c56b737ec018cc818cebf19e5c7947fa684e126) - **docs:** update related packages sections [(#3380)](https://github.com/stdlib-js/stdlib/pull/3380) _(by stdlib-bot)_
