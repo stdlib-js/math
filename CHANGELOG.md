@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-13)
+## Unreleased (2024-12-14)
 
 <section class="packages">
 
@@ -2685,6 +2685,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
 -   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
 -   [`195f3ee`](https://github.com/stdlib-js/stdlib/commit/195f3eeb93f855e75880ad14e7166b77abdd4283) - **refactor:** use stdlib constant in `math/base/special/riemann-zeta` [(#3320)](https://github.com/stdlib-js/stdlib/pull/3320) _(by Gunj Joshi)_
 -   [`1f3190b`](https://github.com/stdlib-js/stdlib/commit/1f3190b7d1100f318ff2677fff12cb0d072f9b09) - **docs:** add missing `f` suffixes and `stdbool` header in `math/base/assert/is-oddf` [(#3457)](https://github.com/stdlib-js/stdlib/pull/3457) _(by Gunj Joshi)_
