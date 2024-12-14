@@ -809,6 +809,18 @@
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3393](https://github.com/stdlib-js/stdlib/issues/3393)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -2655,9 +2667,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#649](https://github.com/stdlib-js/stdlib/issues/649)
+[#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393)
 
 </section>
 
@@ -2685,6 +2697,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`6e69af4`](https://github.com/stdlib-js/stdlib/commit/6e69af4a9b1be98b8972e9f81a3b1fce73cdde43) - **refactor:** update `math/base/special/cexp` to follow latest project conventions [(#3394)](https://github.com/stdlib-js/stdlib/pull/3394) _(by Aayush Khanna, Gunj Joshi)_
 -   [`a851ddd`](https://github.com/stdlib-js/stdlib/commit/a851ddd8d5db62a664386d59c9c39a0b82ac7c0c) - **bench:** refactor benchmarks and update function parameter description [(#3907)](https://github.com/stdlib-js/stdlib/pull/3907) _(by Gunj Joshi)_
 -   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
 -   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
