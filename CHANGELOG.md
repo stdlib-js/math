@@ -2455,28 +2455,6 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="math-base-special-sqrtpif-unreleased">
-
-#### [@stdlib/math/base/special/sqrtpif](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sqrtpif)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`aa5c7a8`](https://github.com/stdlib-js/stdlib/commit/aa5c7a80994aa8c6198b92f20dec9c451b05d1be) - add `math/base/special/sqrtpif`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="math-base-special-tan-unreleased">
 
 #### [@stdlib/math/base/special/tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tan)
@@ -2719,7 +2697,6 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`aa5c7a8`](https://github.com/stdlib-js/stdlib/commit/aa5c7a80994aa8c6198b92f20dec9c451b05d1be) - **feat:** add `math/base/special/sqrtpif` _(by Gururaj Gurram, stdlib-bot, Gunj Joshi, Philipp Burckhardt)_
 -   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
 -   [`6e69af4`](https://github.com/stdlib-js/stdlib/commit/6e69af4a9b1be98b8972e9f81a3b1fce73cdde43) - **refactor:** update `math/base/special/cexp` to follow latest project conventions [(#3394)](https://github.com/stdlib-js/stdlib/pull/3394) _(by Aayush Khanna, Gunj Joshi)_
 -   [`a851ddd`](https://github.com/stdlib-js/stdlib/commit/a851ddd8d5db62a664386d59c9c39a0b82ac7c0c) - **bench:** refactor benchmarks and update function parameter description [(#3907)](https://github.com/stdlib-js/stdlib/pull/3907) _(by Gunj Joshi)_
