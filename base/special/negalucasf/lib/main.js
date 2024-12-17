@@ -23,12 +23,8 @@
 var isnanf = require( './../../../../base/assert/is-nanf' );
 var isIntegerf = require( './../../../../base/assert/is-integerf' );
 var absf = require( './../../../../base/special/absf' );
+var MAX_LUCAS = require( '@stdlib/constants/float32/max-safe-nth-lucas' );
 var NEGALUCAS = require( './negalucas.json' );
-
-
-// VARIABLES //
-
-var MAX_LUCAS = 34;
 
 
 // MAIN //
