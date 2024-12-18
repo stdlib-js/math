@@ -2741,6 +2741,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8785e54`](https://github.com/stdlib-js/stdlib/commit/8785e54ec82782d7d01912988596c9d7d2bf06d0) - **refactor:** replace built-ins by stdlib packages, update benchmarks in `math/base/special/trunc` [(#3941)](https://github.com/stdlib-js/stdlib/pull/3941) _(by Gunj Joshi, Athan Reines)_
 -   [`db76062`](https://github.com/stdlib-js/stdlib/commit/db76062ddee3a358ddb2ac1dc725610516b2891f) - **docs:** update function descriptions and move link [(#4015)](https://github.com/stdlib-js/stdlib/pull/4015) _(by Gunj Joshi)_
 -   [`a1b543a`](https://github.com/stdlib-js/stdlib/commit/a1b543a2a1bdf4d1fb9438bd4a13cb971af62063) - **docs:** update related packages sections [(#4009)](https://github.com/stdlib-js/stdlib/pull/4009) _(by stdlib-bot, Philipp Burckhardt)_
