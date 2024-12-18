@@ -2741,6 +2741,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`db76062`](https://github.com/stdlib-js/stdlib/commit/db76062ddee3a358ddb2ac1dc725610516b2891f) - **docs:** update function descriptions and move link [(#4015)](https://github.com/stdlib-js/stdlib/pull/4015) _(by Gunj Joshi)_
 -   [`a1b543a`](https://github.com/stdlib-js/stdlib/commit/a1b543a2a1bdf4d1fb9438bd4a13cb971af62063) - **docs:** update related packages sections [(#4009)](https://github.com/stdlib-js/stdlib/pull/4009) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`66b4609`](https://github.com/stdlib-js/stdlib/commit/66b4609cee9e428f80bc78da231d2be8e7b223cc) - **refactor:** use inbuilt macro instead of new variable for `MAX_SAFE_NTH_LUCAS` [(#3980)](https://github.com/stdlib-js/stdlib/pull/3980) _(by Aayush Khanna)_
 -   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_

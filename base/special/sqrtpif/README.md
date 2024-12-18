@@ -182,9 +182,9 @@ int main( void ) {
 
 <section class="links">
 
-<!-- <related-links> -->
-
 [@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math/tree/main/base/special/sqrt
+
+<!-- <related-links> -->
 
 <!-- </related-links> -->
 
