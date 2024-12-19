@@ -204,9 +204,9 @@ while ( true ) {
 
 [@stdlib/math/base/special/tribonacci]: https://github.com/stdlib-js/math/tree/main/base/special/tribonacci
 
-[@stdlib/math/iter/sequences/lucas]: https://github.com/stdlib-js/math/tree/main/iter/sequences/lucas
-
 [@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math/tree/main/base/special/fibonacci
+
+[@stdlib/math/iter/sequences/lucas]: https://github.com/stdlib-js/math/tree/main/iter/sequences/lucas
 
 <!-- </related-links> -->
 
