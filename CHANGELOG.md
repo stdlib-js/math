@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-24)
+## Unreleased (2024-12-25)
 
 <section class="packages">
 
@@ -2103,6 +2103,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nonfibonaccif-unreleased">
+
+#### [@stdlib/math/base/special/nonfibonaccif](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nonfibonaccif)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7245f3c`](https://github.com/stdlib-js/stdlib/commit/7245f3c8cf9139b72f6f058e8c878b13e02ded9f) - add `math/base/special/nonfibonaccif` [(#3391)](https://github.com/stdlib-js/stdlib/pull/3391)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-pow-unreleased">
 
 #### [@stdlib/math/base/special/pow](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/pow)
@@ -2741,6 +2763,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7245f3c`](https://github.com/stdlib-js/stdlib/commit/7245f3c8cf9139b72f6f058e8c878b13e02ded9f) - **feat:** add `math/base/special/nonfibonaccif` [(#3391)](https://github.com/stdlib-js/stdlib/pull/3391) _(by Aayush Khanna, Athan Reines, Gunj Joshi, stdlib-bot)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`ed5c4cc`](https://github.com/stdlib-js/stdlib/commit/ed5c4cccc06ad98f4de90310bf24a5a373761b43) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`90e96d0`](https://github.com/stdlib-js/stdlib/commit/90e96d01b7a32ec3b71caf3e5f57528338199a8f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
