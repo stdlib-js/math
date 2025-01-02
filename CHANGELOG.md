@@ -1289,6 +1289,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-falling-factorial-unreleased">
+
+#### [@stdlib/math/base/special/falling-factorial](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/falling-factorial)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b518ff1`](https://github.com/stdlib-js/stdlib/commit/b518ff110e120612be4d53b9f124a3c210711610) - add C implementation for `math/base/special/falling-factorial`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-fibonacci-unreleased">
 
 #### [@stdlib/math/base/special/fibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonacci)
@@ -2763,6 +2785,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b518ff1`](https://github.com/stdlib-js/stdlib/commit/b518ff110e120612be4d53b9f124a3c210711610) - **feat:** add C implementation for `math/base/special/falling-factorial` _(by Gunj Joshi, stdlib-bot, Philipp Burckhardt)_
 -   [`0d52a8a`](https://github.com/stdlib-js/stdlib/commit/0d52a8a0eec7221c0147185c4ce3317db0458498) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`4301694`](https://github.com/stdlib-js/stdlib/commit/43016945387e02d6396d33cb7134c62c977b7fd8) - **docs:** update related packages sections [(#4362)](https://github.com/stdlib-js/stdlib/pull/4362) _(by stdlib-bot)_
 -   [`8f2808d`](https://github.com/stdlib-js/stdlib/commit/8f2808dec8c8a6508841e86453fba823823efc6c) - **docs:** update related packages sections [(#4302)](https://github.com/stdlib-js/stdlib/pull/4302) _(by stdlib-bot)_
