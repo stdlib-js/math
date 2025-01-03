@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-01-03)
 
 <section class="packages">
 
@@ -2767,13 +2767,14 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Gunj Joshi
 -   Gururaj Gurram
 -   Philipp Burckhardt
+-   Vivek Maurya
 
 </section>
 
@@ -2785,6 +2786,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`861cd7f`](https://github.com/stdlib-js/stdlib/commit/861cd7fe43675fb2d0c964415f117c3f36e3d5bf) - **refactor:** update `math/base/assert/is-even` to follow latest project conventions [(#4183)](https://github.com/stdlib-js/stdlib/pull/4183) _(by Vivek Maurya, Athan Reines)_
 -   [`14706e4`](https://github.com/stdlib-js/stdlib/commit/14706e4baccbf3b827e12cae163d7b98a96b0fa8) - **docs:** update related packages sections [(#4445)](https://github.com/stdlib-js/stdlib/pull/4445) _(by stdlib-bot)_
 -   [`b518ff1`](https://github.com/stdlib-js/stdlib/commit/b518ff110e120612be4d53b9f124a3c210711610) - **feat:** add C implementation for `math/base/special/falling-factorial` _(by Gunj Joshi, stdlib-bot, Philipp Burckhardt)_
 -   [`0d52a8a`](https://github.com/stdlib-js/stdlib/commit/0d52a8a0eec7221c0147185c4ce3317db0458498) - **chore:** minor clean-up _(by Philipp Burckhardt)_
