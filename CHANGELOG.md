@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-04)
+## Unreleased (2025-01-06)
 
 <section class="packages">
 
@@ -64,6 +64,7 @@
 
 ##### Features
 
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522)
 -   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315)
 
 </section>
@@ -2767,13 +2768,14 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Gunj Joshi
 -   Gururaj Gurram
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   Vivek Maurya
 
 </section>
@@ -2786,6 +2788,8 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
 -   [`a3301a2`](https://github.com/stdlib-js/stdlib/commit/a3301a2bde94e8c07888a1db589d189e9ecfc347) - **docs:** update related packages sections [(#4517)](https://github.com/stdlib-js/stdlib/pull/4517) _(by stdlib-bot)_
 -   [`861cd7f`](https://github.com/stdlib-js/stdlib/commit/861cd7fe43675fb2d0c964415f117c3f36e3d5bf) - **refactor:** update `math/base/assert/is-even` to follow latest project conventions [(#4183)](https://github.com/stdlib-js/stdlib/pull/4183) _(by Vivek Maurya, Athan Reines)_
 -   [`14706e4`](https://github.com/stdlib-js/stdlib/commit/14706e4baccbf3b827e12cae163d7b98a96b0fa8) - **docs:** update related packages sections [(#4445)](https://github.com/stdlib-js/stdlib/pull/4445) _(by stdlib-bot)_
