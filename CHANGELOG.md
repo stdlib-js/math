@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-08)
+## Unreleased (2025-01-09)
 
 <section class="packages">
 
@@ -1129,6 +1129,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-dirac-deltaf-unreleased">
+
+#### [@stdlib/math/base/special/dirac-deltaf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/dirac-deltaf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ff48331`](https://github.com/stdlib-js/stdlib/commit/ff483312f61426a3072a5c22a9bf0e8ef4950a42) - add `math/base/special/dirac-deltaf` [(#3363)](https://github.com/stdlib-js/stdlib/pull/3363)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2810,6 +2832,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ff48331`](https://github.com/stdlib-js/stdlib/commit/ff483312f61426a3072a5c22a9bf0e8ef4950a42) - **feat:** add `math/base/special/dirac-deltaf` [(#3363)](https://github.com/stdlib-js/stdlib/pull/3363) _(by Aayush Khanna, stdlib-bot)_
 -   [`769b921`](https://github.com/stdlib-js/stdlib/commit/769b921be1ac5285f0becdaaae27cace376ee124) - **docs:** update related packages sections [(#4638)](https://github.com/stdlib-js/stdlib/pull/4638) _(by stdlib-bot, Athan Reines)_
 -   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522) _(by Prashant Kumar Yadav, Athan Reines)_
