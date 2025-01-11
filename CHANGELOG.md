@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-10)
+## Unreleased (2025-01-11)
 
 <section class="packages">
 
@@ -2832,6 +2832,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
 -   [`bd18248`](https://github.com/stdlib-js/stdlib/commit/bd1824843709cd0ba9de4351fceefd27069293c7) - **docs:** update related packages sections [(#4675)](https://github.com/stdlib-js/stdlib/pull/4675) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`ff48331`](https://github.com/stdlib-js/stdlib/commit/ff483312f61426a3072a5c22a9bf0e8ef4950a42) - **feat:** add `math/base/special/dirac-deltaf` [(#3363)](https://github.com/stdlib-js/stdlib/pull/3363) _(by Aayush Khanna, stdlib-bot)_
 -   [`769b921`](https://github.com/stdlib-js/stdlib/commit/769b921be1ac5285f0becdaaae27cace376ee124) - **docs:** update related packages sections [(#4638)](https://github.com/stdlib-js/stdlib/pull/4638) _(by stdlib-bot, Athan Reines)_
