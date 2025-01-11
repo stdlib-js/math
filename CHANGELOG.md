@@ -2854,6 +2854,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`cbf9861`](https://github.com/stdlib-js/stdlib/commit/cbf9861ff75550ac3635fca61ae3ba544ecb6e9c) - **refactor:** update `math/base/assert/is-probability` to follow latest project conventions [(#4700)](https://github.com/stdlib-js/stdlib/pull/4700) _(by Vivek Maurya)_
 -   [`2693663`](https://github.com/stdlib-js/stdlib/commit/2693663452c1d6c5708b7c474b4e2ea2e2570cf6) - **refactor:** update `math/base/assert/is-prime` to follow latest project conventions [(#4701)](https://github.com/stdlib-js/stdlib/pull/4701) _(by Vivek Maurya)_
 -   [`20b4721`](https://github.com/stdlib-js/stdlib/commit/20b4721661560f4bfaa48aca80696055776ac900) - **feat:** add `math/base/assert/is-probabilityf` [(#4214)](https://github.com/stdlib-js/stdlib/pull/4214) _(by Vivek Maurya, Gunj Joshi, stdlib-bot)_
 -   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
