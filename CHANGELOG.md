@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-11)
+## Unreleased (2025-01-12)
 
 <section class="packages">
 
@@ -2854,6 +2854,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9f23be0`](https://github.com/stdlib-js/stdlib/commit/9f23be0621e3c986516d30ee60b19492f0de7f12) - **docs:** update examples _(by Athan Reines)_
 -   [`cbf9861`](https://github.com/stdlib-js/stdlib/commit/cbf9861ff75550ac3635fca61ae3ba544ecb6e9c) - **refactor:** update `math/base/assert/is-probability` to follow latest project conventions [(#4700)](https://github.com/stdlib-js/stdlib/pull/4700) _(by Vivek Maurya)_
 -   [`2693663`](https://github.com/stdlib-js/stdlib/commit/2693663452c1d6c5708b7c474b4e2ea2e2570cf6) - **refactor:** update `math/base/assert/is-prime` to follow latest project conventions [(#4701)](https://github.com/stdlib-js/stdlib/pull/4701) _(by Vivek Maurya)_
 -   [`20b4721`](https://github.com/stdlib-js/stdlib/commit/20b4721661560f4bfaa48aca80696055776ac900) - **feat:** add `math/base/assert/is-probabilityf` [(#4214)](https://github.com/stdlib-js/stdlib/pull/4214) _(by Vivek Maurya, Gunj Joshi, stdlib-bot)_
