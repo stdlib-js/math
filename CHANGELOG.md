@@ -2854,6 +2854,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`73a211c`](https://github.com/stdlib-js/stdlib/commit/73a211cc0b17b6ba6d96ff5c4ac06f7889307d7a) - **docs:** update function description and cleanup for `math/base/special/dirac-deltaf` [(#4778)](https://github.com/stdlib-js/stdlib/pull/4778) _(by Aayush Khanna)_
 -   [`5fd0a59`](https://github.com/stdlib-js/stdlib/commit/5fd0a59f372e982a78028b9f249e5ba0921a231f) - **docs:** update examples _(by Athan Reines)_
 -   [`d0d1438`](https://github.com/stdlib-js/stdlib/commit/d0d143871a928a6bd11157c58abb5b17a0f405d4) - **docs:** add missing include _(by Athan Reines)_
 -   [`c794cdb`](https://github.com/stdlib-js/stdlib/commit/c794cdbb6d6c94f04e713589e5c233807bfd3012) - **docs:** update examples _(by Athan Reines)_
