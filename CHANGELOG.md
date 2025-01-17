@@ -2854,6 +2854,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e91af13`](https://github.com/stdlib-js/stdlib/commit/e91af13bf35384d0ee1163fe3074c79f1a01bc72) - **refactor:** update `math/base/special/hypotf` to follow latest project conventions [(#4783)](https://github.com/stdlib-js/stdlib/pull/4783) _(by Vivek Maurya, Athan Reines)_
 -   [`0900838`](https://github.com/stdlib-js/stdlib/commit/090083855a65254591477cb58966d7b232f3c365) - **refactor:** update `math/base/special/hypot` to follow latest project conventions [(#4765)](https://github.com/stdlib-js/stdlib/pull/4765) _(by Vivek Maurya, Athan Reines)_
 -   [`73a211c`](https://github.com/stdlib-js/stdlib/commit/73a211cc0b17b6ba6d96ff5c4ac06f7889307d7a) - **docs:** update function description and cleanup for `math/base/special/dirac-deltaf` [(#4778)](https://github.com/stdlib-js/stdlib/pull/4778) _(by Aayush Khanna)_
 -   [`5fd0a59`](https://github.com/stdlib-js/stdlib/commit/5fd0a59f372e982a78028b9f249e5ba0921a231f) - **docs:** update examples _(by Athan Reines)_
