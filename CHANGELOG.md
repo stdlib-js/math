@@ -2877,6 +2877,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`60983a6`](https://github.com/stdlib-js/stdlib/commit/60983a6b6946c48a3e38baeef28d19d76cbdb9c9) - **refactor:** update `math/base/assert/is-finitef` native addon from C++ to C [(#4618)](https://github.com/stdlib-js/stdlib/pull/4618) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot)_
 -   [`dda206d`](https://github.com/stdlib-js/stdlib/commit/dda206d2e9956129307d8c9561d47ae7111f7af1) - **refactor:** update `math/base/assert/is-nanf` native addon from C++ to C [(#4614)](https://github.com/stdlib-js/stdlib/pull/4614) _(by Dhruv Arvind Singh, Athan Reines)_
 -   [`566ff63`](https://github.com/stdlib-js/stdlib/commit/566ff6356bfaa7b754b9cc13f751604d743fddb2) - **refactor:** update `math/base/assert/is-infinitef` native addon from C++ to C [(#4615)](https://github.com/stdlib-js/stdlib/pull/4615) _(by Dhruv Arvind Singh, Athan Reines)_
 -   [`d962e4c`](https://github.com/stdlib-js/stdlib/commit/d962e4c9a155376b7afbe3f6ad52c76e38c04ed6) - **refactor:** update `math/base/assert/is-finite` native addon from C++ to C [(#4617)](https://github.com/stdlib-js/stdlib/pull/4617) _(by Dhruv Arvind Singh, stdlib-bot)_
