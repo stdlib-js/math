@@ -2877,6 +2877,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`566ff63`](https://github.com/stdlib-js/stdlib/commit/566ff6356bfaa7b754b9cc13f751604d743fddb2) - **refactor:** update `math/base/assert/is-infinitef` native addon from C++ to C [(#4615)](https://github.com/stdlib-js/stdlib/pull/4615) _(by Dhruv Arvind Singh, Athan Reines)_
 -   [`d962e4c`](https://github.com/stdlib-js/stdlib/commit/d962e4c9a155376b7afbe3f6ad52c76e38c04ed6) - **refactor:** update `math/base/assert/is-finite` native addon from C++ to C [(#4617)](https://github.com/stdlib-js/stdlib/pull/4617) _(by Dhruv Arvind Singh, stdlib-bot)_
 -   [`22a3dcf`](https://github.com/stdlib-js/stdlib/commit/22a3dcfe916b7f5c979d6ee93045d37add5d685d) - **docs:** update namespace TypeScript declaration comments [(#4794)](https://github.com/stdlib-js/stdlib/pull/4794) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a2133de`](https://github.com/stdlib-js/stdlib/commit/a2133de85c6de60892a54b387dbf7bd1ad58e0c8) - **feat:** add `math/base/special/heavisidef` [(#3374)](https://github.com/stdlib-js/stdlib/pull/3374) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
