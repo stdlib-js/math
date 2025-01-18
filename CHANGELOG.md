@@ -2876,6 +2876,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`22a3dcf`](https://github.com/stdlib-js/stdlib/commit/22a3dcfe916b7f5c979d6ee93045d37add5d685d) - **docs:** update namespace TypeScript declaration comments [(#4794)](https://github.com/stdlib-js/stdlib/pull/4794) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a2133de`](https://github.com/stdlib-js/stdlib/commit/a2133de85c6de60892a54b387dbf7bd1ad58e0c8) - **feat:** add `math/base/special/heavisidef` [(#3374)](https://github.com/stdlib-js/stdlib/pull/3374) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
 -   [`9241c28`](https://github.com/stdlib-js/stdlib/commit/9241c28989dd02e6b247a290793dc8fb33cc09a0) - **docs:** fix return annotation style _(by Philipp Burckhardt)_
 -   [`e91af13`](https://github.com/stdlib-js/stdlib/commit/e91af13bf35384d0ee1163fe3074c79f1a01bc72) - **refactor:** update `math/base/special/hypotf` to follow latest project conventions [(#4783)](https://github.com/stdlib-js/stdlib/pull/4783) _(by Vivek Maurya, Athan Reines)_
