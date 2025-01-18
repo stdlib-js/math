@@ -1642,6 +1642,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-heavisidef-unreleased">
+
+#### [@stdlib/math/base/special/heavisidef](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/heavisidef)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a2133de`](https://github.com/stdlib-js/stdlib/commit/a2133de85c6de60892a54b387dbf7bd1ad58e0c8) - add `math/base/special/heavisidef` [(#3374)](https://github.com/stdlib-js/stdlib/pull/3374)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-lcmf-unreleased">
 
 #### [@stdlib/math/base/special/lcmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lcmf)
@@ -2854,6 +2876,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a2133de`](https://github.com/stdlib-js/stdlib/commit/a2133de85c6de60892a54b387dbf7bd1ad58e0c8) - **feat:** add `math/base/special/heavisidef` [(#3374)](https://github.com/stdlib-js/stdlib/pull/3374) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
 -   [`9241c28`](https://github.com/stdlib-js/stdlib/commit/9241c28989dd02e6b247a290793dc8fb33cc09a0) - **docs:** fix return annotation style _(by Philipp Burckhardt)_
 -   [`e91af13`](https://github.com/stdlib-js/stdlib/commit/e91af13bf35384d0ee1163fe3074c79f1a01bc72) - **refactor:** update `math/base/special/hypotf` to follow latest project conventions [(#4783)](https://github.com/stdlib-js/stdlib/pull/4783) _(by Vivek Maurya, Athan Reines)_
 -   [`0900838`](https://github.com/stdlib-js/stdlib/commit/090083855a65254591477cb58966d7b232f3c365) - **refactor:** update `math/base/special/hypot` to follow latest project conventions [(#4765)](https://github.com/stdlib-js/stdlib/pull/4765) _(by Vivek Maurya, Athan Reines)_
