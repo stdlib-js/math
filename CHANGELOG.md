@@ -2877,6 +2877,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`452ba64`](https://github.com/stdlib-js/stdlib/commit/452ba64c898cec9c526ae2201aa149086347ec8e) - **refactor:** update `math/base/assert/is-integerf` to follow latest project conventions [(#4629)](https://github.com/stdlib-js/stdlib/pull/4629) _(by Vivek Maurya)_
 -   [`50843c9`](https://github.com/stdlib-js/stdlib/commit/50843c9502e3c9afa2f58d0957248e8ed3bd4609) - **docs:** update related packages sections [(#4808)](https://github.com/stdlib-js/stdlib/pull/4808) _(by stdlib-bot)_
 -   [`60983a6`](https://github.com/stdlib-js/stdlib/commit/60983a6b6946c48a3e38baeef28d19d76cbdb9c9) - **refactor:** update `math/base/assert/is-finitef` native addon from C++ to C [(#4618)](https://github.com/stdlib-js/stdlib/pull/4618) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot)_
 -   [`dda206d`](https://github.com/stdlib-js/stdlib/commit/dda206d2e9956129307d8c9561d47ae7111f7af1) - **refactor:** update `math/base/assert/is-nanf` native addon from C++ to C [(#4614)](https://github.com/stdlib-js/stdlib/pull/4614) _(by Dhruv Arvind Singh, Athan Reines)_
