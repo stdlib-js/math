@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-19)
+## Unreleased (2025-01-20)
 
 <section class="packages">
 
@@ -2877,6 +2877,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8d4fc66`](https://github.com/stdlib-js/stdlib/commit/8d4fc6616ef38fd4ebd06b4cc09fda4a5b111e7a) - **docs:** clean-up examples _(by Athan Reines)_
 -   [`da89fb7`](https://github.com/stdlib-js/stdlib/commit/da89fb740ff5ac2fb205e6b8cb1852b0f9947982) - **refactor:** update `math/base/assert/is-odd` to follow latest project conventions [(#4670)](https://github.com/stdlib-js/stdlib/pull/4670) _(by Vivek Maurya)_
 -   [`3129e35`](https://github.com/stdlib-js/stdlib/commit/3129e35d1daef24899fd03620f1bdd64d292cebd) - **refactor:** update `math/base/assert/is-integer` to follow latest project conventions [(#4627)](https://github.com/stdlib-js/stdlib/pull/4627) _(by Vivek Maurya)_
 -   [`452ba64`](https://github.com/stdlib-js/stdlib/commit/452ba64c898cec9c526ae2201aa149086347ec8e) - **refactor:** update `math/base/assert/is-integerf` to follow latest project conventions [(#4629)](https://github.com/stdlib-js/stdlib/pull/4629) _(by Vivek Maurya)_
