@@ -2877,6 +2877,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7403869`](https://github.com/stdlib-js/stdlib/commit/7403869fadcd39b42c3e1a6f687f712ae77a286d) - **refactor:** use argv float instead of double _(by Philipp Burckhardt)_
 -   [`8ada47e`](https://github.com/stdlib-js/stdlib/commit/8ada47eedd19ea9f21a8edc342ee3583e92ac857) - **chore:** fix indentation _(by Philipp Burckhardt)_
 -   [`8d4fc66`](https://github.com/stdlib-js/stdlib/commit/8d4fc6616ef38fd4ebd06b4cc09fda4a5b111e7a) - **docs:** clean-up examples _(by Athan Reines)_
 -   [`da89fb7`](https://github.com/stdlib-js/stdlib/commit/da89fb740ff5ac2fb205e6b8cb1852b0f9947982) - **refactor:** update `math/base/assert/is-odd` to follow latest project conventions [(#4670)](https://github.com/stdlib-js/stdlib/pull/4670) _(by Vivek Maurya)_
