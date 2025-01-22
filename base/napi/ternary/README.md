@@ -106,6 +106,103 @@ console.log( headerDir );
 
 <!-- NOTE: keep in alphabetical order according to the suffix XXX_X -->
 
+#### STDLIB_MATH_BASE_NAPI_MODULE_CCC_C( fcn )
+
+Macro for registering a Node-API module exporting an interface for invoking a ternary function accepting and returning single-precision complex floating-point numbers.
+
+```c
+#include "stdlib/complex/float32/ctor.h"
+#include "stdlib/complex/float32/reim.h"
+
+static stdlib_complex64_t add( const stdlib_complex64_t x, const stdlib_complex64_t y, const stdlib_complex64_t z ) {
+    float xre;
+    float xim;
+    float yre;
+    float yim;
+    float zre;
+    float zim;
+    float re;
+    float im;
+
+    stdlib_complex64_reim( x, &xre, &xim );
+    stdlib_complex64_reim( y, &yre, &yim );
+    stdlib_complex64_reim( z, &zre, &zim );
+
+    re = xre + yre + zre;
+    im = xim + yim + zim;
+
+    return stdlib_complex64( re, im );
+}
+
+// ...
+
+// Register a Node-API module:
+STDLIB_MATH_BASE_NAPI_MODULE_CCC_C( add );
+```
+
+The macro expects the following arguments:
+
+-   **fcn**: `stdlib_complex64_t (*fcn)( stdlib_complex64_t, stdlib_complex64_t, stdlib_complex64_t )` ternary function.
+
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
+
+#### stdlib_math_base_napi_ccc_c( env, info, fcn )
+
+Invokes a ternary function accepting and returning single-precision complex floating-point numbers.
+
+```c
+#include "stdlib/complex/float32/ctor.h"
+#include "stdlib/complex/float32/reim.h"
+#include <node_api.h>
+
+// ...
+
+static stdlib_complex64_t add( const stdlib_complex64_t x, const stdlib_complex64_t y, const stdlib_complex64_t z ) {
+    float xre;
+    float xim;
+    float yre;
+    float yim;
+    float zre;
+    float zim;
+    float re;
+    float im;
+
+    stdlib_complex64_reim( x, &xre, &xim );
+    stdlib_complex64_reim( y, &yre, &yim );
+    stdlib_complex64_reim( z, &zre, &zim );
+
+    re = xre + yre + zre;
+    im = xim + yim + zim;
+
+    return stdlib_complex64( re, im );
+}
+
+// ...
+
+/**
+* Receives JavaScript callback invocation data.
+*
+* @param env    environment under which the function is invoked
+* @param info   callback data
+* @return       Node-API value
+*/
+napi_value addon( napi_env env, napi_callback_info info ) {
+    return stdlib_math_base_napi_ccc_c( env, info, add );
+}
+
+// ...
+```
+
+The function accepts the following arguments:
+
+-   **env**: `[in] napi_env` environment under which the function is invoked.
+-   **info**: `[in] napi_callback_info` callback data.
+-   **fcn**: `[in] stdlib_complex64_t (*fcn)( stdlib_complex64_t, stdlib_complex64_t, stdlib_complex64_t )` ternary function.
+
+```c
+void stdlib_math_base_napi_ccc_c( napi_env env, napi_callback_info info, stdlib_complex64_t (*fcn)( stdlib_complex64_t, stdlib_complex64_t, stdlib_complex64_t ) );
+```
+
 #### STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( fcn )
 
 Macro for registering a Node-API module exporting an interface for invoking a ternary function accepting and returning double-precision floating-point numbers.
@@ -350,6 +447,103 @@ The function accepts the following arguments:
 
 ```c
 void stdlib_math_base_napi_iid_d( napi_env env, napi_callback_info info, double (*fcn)( int32_t, int32_t, double ) );
+```
+
+#### STDLIB_MATH_BASE_NAPI_MODULE_ZZZ_Z( fcn )
+
+Macro for registering a Node-API module exporting an interface for invoking a ternary function accepting and returning double-precision complex floating-point numbers.
+
+```c
+#include "stdlib/complex/float64/ctor.h"
+#include "stdlib/complex/float64/reim.h"
+
+static stdlib_complex128_t add( const stdlib_complex128_t x, const stdlib_complex128_t y, const stdlib_complex128_t z ) {
+    double xre;
+    double xim;
+    double yre;
+    double yim;
+    double zre;
+    double zim;
+    double re;
+    double im;
+
+    stdlib_complex128_reim( x, &xre, &xim );
+    stdlib_complex128_reim( y, &yre, &yim );
+    stdlib_complex128_reim( z, &zre, &zim );
+
+    re = xre + yre + zre;
+    im = xim + yim + zim;
+
+    return stdlib_complex128( re, im );
+}
+
+// ...
+
+// Register a Node-API module:
+STDLIB_MATH_BASE_NAPI_MODULE_ZZZ_Z( add );
+```
+
+The macro expects the following arguments:
+
+-   **fcn**: `stdlib_complex128_t (*fcn)( stdlib_complex128_t, stdlib_complex128_t, stdlib_complex128_t )` ternary function.
+
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
+
+#### stdlib_math_base_napi_zzz_z( env, info, fcn )
+
+Invokes a ternary function accepting and returning double-precision complex floating-point numbers.
+
+```c
+#include "stdlib/complex/float64/ctor.h"
+#include "stdlib/complex/float64/reim.h"
+#include <node_api.h>
+
+// ...
+
+static stdlib_complex128_t add( const stdlib_complex128_t x, const stdlib_complex128_t y, const stdlib_complex128_t z ) {
+    double xre;
+    double xim;
+    double yre;
+    double yim;
+    double zre;
+    double zim;
+    double re;
+    double im;
+
+    stdlib_complex128_reim( x, &xre, &xim );
+    stdlib_complex128_reim( y, &yre, &yim );
+    stdlib_complex128_reim( z, &zre, &zim );
+
+    re = xre + yre + zre;
+    im = xim + yim + zim;
+
+    return stdlib_complex128( re, im );
+}
+
+// ...
+
+/**
+* Receives JavaScript callback invocation data.
+*
+* @param env    environment under which the function is invoked
+* @param info   callback data
+* @return       Node-API value
+*/
+napi_value addon( napi_env env, napi_callback_info info ) {
+    return stdlib_math_base_napi_zzz_z( env, info, add );
+}
+
+// ...
+```
+
+The function accepts the following arguments:
+
+-   **env**: `[in] napi_env` environment under which the function is invoked.
+-   **info**: `[in] napi_callback_info` callback data.
+-   **fcn**: `[in] stdlib_complex128_t (*fcn)( stdlib_complex128_t, stdlib_complex128_t, stdlib_complex128_t )` ternary function.
+
+```c
+void stdlib_math_base_napi_zzz_z( napi_env env, napi_callback_info info, stdlib_complex128_t (*fcn)( stdlib_complex128_t, stdlib_complex128_t, stdlib_complex128_t ) );
 ```
 
 </section>
