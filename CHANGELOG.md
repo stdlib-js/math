@@ -2879,6 +2879,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0e28d1f`](https://github.com/stdlib-js/stdlib/commit/0e28d1ff8e332ace367d7014c0cbe4a3a416fd14) - **refactor:** move implementations and macros to separate files _(by Athan Reines)_
 -   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - **feat:** add `FC_C` macro _(by Athan Reines)_
 -   [`89df5ae`](https://github.com/stdlib-js/stdlib/commit/89df5ae1fd161a19ad094eeef14d9b6f17551975) - **docs:** add `DZ_Z` docs _(by Athan Reines)_
 -   [`8a62393`](https://github.com/stdlib-js/stdlib/commit/8a62393548250469afe4e7e34e112a0299da122b) - **docs:** reorder APIs and add missing docs _(by Athan Reines)_
