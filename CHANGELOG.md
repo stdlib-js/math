@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-23)
+## Unreleased (2025-02-05)
 
 <section class="packages">
 
@@ -2905,6 +2905,10 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4714429`](https://github.com/stdlib-js/stdlib/commit/4714429b1acb0ef2634e7a504195a6d1e4004ff7) - **bench:** refactor benchmarks in `math/base/special/rsqrt` [(#5054)](https://github.com/stdlib-js/stdlib/pull/5054) _(by Gururaj Gurram)_
+-   [`fd45831`](https://github.com/stdlib-js/stdlib/commit/fd45831e4ee27601c389c8f1b8b2779a95c8d7b4) - **bench:** refactor benchmarks and update test messages in `math/base/special/round` [(#4950)](https://github.com/stdlib-js/stdlib/pull/4950) _(by Gururaj Gurram, Athan Reines)_
+-   [`cbf1382`](https://github.com/stdlib-js/stdlib/commit/cbf1382a4cad52ed7c30d74282eb9a75474d32e6) - **docs:** update related packages sections [(#4964)](https://github.com/stdlib-js/stdlib/pull/4964) _(by stdlib-bot)_
+-   [`9711748`](https://github.com/stdlib-js/stdlib/commit/9711748a23b2cae8cdf0ff97f4400f1d09e373a7) - **chore:** remove unused dependencies in C implementation [(#4940)](https://github.com/stdlib-js/stdlib/pull/4940) _(by Gururaj Gurram)_
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - **feat:** update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856) _(by stdlib-bot)_
 -   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
 -   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - **feat:** add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855) _(by Karan Anand, Athan Reines)_
