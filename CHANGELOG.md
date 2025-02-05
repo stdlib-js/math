@@ -2905,6 +2905,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7ce2628`](https://github.com/stdlib-js/stdlib/commit/7ce2628300553de23607c7dd95342cb106b27307) - **refactor:** update `math/base/special/kernel-tan` [(#5017)](https://github.com/stdlib-js/stdlib/pull/5017) _(by Vivek Maurya, Athan Reines)_
 -   [`4714429`](https://github.com/stdlib-js/stdlib/commit/4714429b1acb0ef2634e7a504195a6d1e4004ff7) - **bench:** refactor benchmarks in `math/base/special/rsqrt` [(#5054)](https://github.com/stdlib-js/stdlib/pull/5054) _(by Gururaj Gurram)_
 -   [`fd45831`](https://github.com/stdlib-js/stdlib/commit/fd45831e4ee27601c389c8f1b8b2779a95c8d7b4) - **bench:** refactor benchmarks and update test messages in `math/base/special/round` [(#4950)](https://github.com/stdlib-js/stdlib/pull/4950) _(by Gururaj Gurram, Athan Reines)_
 -   [`cbf1382`](https://github.com/stdlib-js/stdlib/commit/cbf1382a4cad52ed7c30d74282eb9a75474d32e6) - **docs:** update related packages sections [(#4964)](https://github.com/stdlib-js/stdlib/pull/4964) _(by stdlib-bot)_
