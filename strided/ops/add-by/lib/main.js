@@ -21,7 +21,7 @@
 // MODULES //
 
 var mapBy2 = require( '@stdlib/strided/base/map-by2' );
-var add = require( './../../../../base/ops/add' );
+var add = require( '@stdlib/number/float64/base/add' );
 
 
 // MAIN //
