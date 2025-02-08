@@ -2929,6 +2929,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b562cf6`](https://github.com/stdlib-js/stdlib/commit/b562cf6a430608fc5c7bc3f1cf1eead7c982b659) - **test:** update function signatures [(#5110)](https://github.com/stdlib-js/stdlib/pull/5110) _(by Aayush Khanna)_
 -   [`f6682eb`](https://github.com/stdlib-js/stdlib/commit/f6682ebd521481cf1c77c3cee2b279b8c19dc264) - **chore:** fix C linting errors in `math/base/ops/imuldw` [(#5107)](https://github.com/stdlib-js/stdlib/pull/5107) _(by Aayush Khanna)_
 -   [`7ce2628`](https://github.com/stdlib-js/stdlib/commit/7ce2628300553de23607c7dd95342cb106b27307) - **refactor:** update `math/base/special/kernel-tan` [(#5017)](https://github.com/stdlib-js/stdlib/pull/5017) _(by Vivek Maurya, Athan Reines)_
 -   [`4714429`](https://github.com/stdlib-js/stdlib/commit/4714429b1acb0ef2634e7a504195a6d1e4004ff7) - **bench:** refactor benchmarks in `math/base/special/rsqrt` [(#5054)](https://github.com/stdlib-js/stdlib/pull/5054) _(by Gururaj Gurram)_
