@@ -249,6 +249,107 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-ops-add4-unreleased">
+
+#### [@stdlib/math/base/ops/add4](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add4)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9): remove `math/base/ops/add4`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number/float64/base/add4` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-ops-cdiv-unreleased">
 
 #### [@stdlib/math/base/ops/cdiv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cdiv)
@@ -2980,6 +3081,87 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9): remove `math/base/ops/add4`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number/float64/base/add4` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
 -   [`b253140`](https://github.com/stdlib-js/stdlib/commit/b253140185322817c25fd8e3bb238703d013727a): remove `math/base/ops/add`
 
     -   To migrate, users should update their require/import paths to use
@@ -3112,6 +3294,8 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9) - **remove:** remove `math/base/ops/add4` _(by gururaj1512)_
+-   [`60334d6`](https://github.com/stdlib-js/stdlib/commit/60334d6d17a9f29c0045c139b8ede24d1182b870) - **refactor:** update paths _(by gururaj1512)_
 -   [`ba0c854`](https://github.com/stdlib-js/stdlib/commit/ba0c854e87d0e86d0f7739e26095ec0a0f40c36f) - **docs:** fix function names in C example code _(by Philipp Burckhardt)_
 -   [`58e26cb`](https://github.com/stdlib-js/stdlib/commit/58e26cbf1882734b423124a001180661a6c377bb) - **chore:** fix parameter names, return annotations, and example code _(by Philipp Burckhardt)_
 -   [`b253140`](https://github.com/stdlib-js/stdlib/commit/b253140185322817c25fd8e3bb238703d013727a) - **remove:** remove `math/base/ops/add` _(by gururaj1512)_
