@@ -136,11 +136,24 @@
 
 ##### Features
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -3182,6 +3195,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
+
 -   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9): remove `math/base/ops/add4`
 
     -   To migrate, users should update their require/import paths to use
@@ -3475,6 +3492,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
 -   [`9ae04b5`](https://github.com/stdlib-js/stdlib/commit/9ae04b5c7607e49078a9ad3cdbb27e3addfaebd2) - **docs:** update namespace table of contents [(#5132)](https://github.com/stdlib-js/stdlib/pull/5132) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9) - **remove:** remove `math/base/ops/add4` _(by Gururaj Gurram)_
 -   [`60334d6`](https://github.com/stdlib-js/stdlib/commit/60334d6d17a9f29c0045c139b8ede24d1182b870) - **refactor:** update paths _(by Gururaj Gurram)_
