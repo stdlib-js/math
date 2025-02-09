@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-08)
+## Unreleased (2025-02-09)
 
 <section class="packages">
 
@@ -3453,7 +3453,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
@@ -3464,7 +3464,6 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Vivek Maurya
--   gururaj1512
 
 </section>
 
@@ -3476,14 +3475,15 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9) - **remove:** remove `math/base/ops/add4` _(by gururaj1512)_
--   [`60334d6`](https://github.com/stdlib-js/stdlib/commit/60334d6d17a9f29c0045c139b8ede24d1182b870) - **refactor:** update paths _(by gururaj1512)_
+-   [`9ae04b5`](https://github.com/stdlib-js/stdlib/commit/9ae04b5c7607e49078a9ad3cdbb27e3addfaebd2) - **docs:** update namespace table of contents [(#5132)](https://github.com/stdlib-js/stdlib/pull/5132) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9) - **remove:** remove `math/base/ops/add4` _(by Gururaj Gurram)_
+-   [`60334d6`](https://github.com/stdlib-js/stdlib/commit/60334d6d17a9f29c0045c139b8ede24d1182b870) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ba0c854`](https://github.com/stdlib-js/stdlib/commit/ba0c854e87d0e86d0f7739e26095ec0a0f40c36f) - **docs:** fix function names in C example code _(by Philipp Burckhardt)_
 -   [`58e26cb`](https://github.com/stdlib-js/stdlib/commit/58e26cbf1882734b423124a001180661a6c377bb) - **chore:** fix parameter names, return annotations, and example code _(by Philipp Burckhardt)_
--   [`69d0ade`](https://github.com/stdlib-js/stdlib/commit/69d0adefc17b11a444273ec9afac7246a8f5b3cb) - **remove:** remove `math/base/ops/add3` _(by gururaj1512)_
--   [`8da0e78`](https://github.com/stdlib-js/stdlib/commit/8da0e787b914f30db9bafcd1c0804ae2f1a99e36) - **refactor:** update paths _(by gururaj1512)_
--   [`b253140`](https://github.com/stdlib-js/stdlib/commit/b253140185322817c25fd8e3bb238703d013727a) - **remove:** remove `math/base/ops/add` _(by gururaj1512)_
--   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by gururaj1512)_
+-   [`69d0ade`](https://github.com/stdlib-js/stdlib/commit/69d0adefc17b11a444273ec9afac7246a8f5b3cb) - **remove:** remove `math/base/ops/add3` _(by Gururaj Gurram)_
+-   [`8da0e78`](https://github.com/stdlib-js/stdlib/commit/8da0e787b914f30db9bafcd1c0804ae2f1a99e36) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b253140`](https://github.com/stdlib-js/stdlib/commit/b253140185322817c25fd8e3bb238703d013727a) - **remove:** remove `math/base/ops/add` _(by Gururaj Gurram)_
+-   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`b562cf6`](https://github.com/stdlib-js/stdlib/commit/b562cf6a430608fc5c7bc3f1cf1eead7c982b659) - **test:** update function signatures [(#5110)](https://github.com/stdlib-js/stdlib/pull/5110) _(by Aayush Khanna)_
 -   [`f6682eb`](https://github.com/stdlib-js/stdlib/commit/f6682ebd521481cf1c77c3cee2b279b8c19dc264) - **chore:** fix C linting errors in `math/base/ops/imuldw` [(#5107)](https://github.com/stdlib-js/stdlib/pull/5107) _(by Aayush Khanna)_
 -   [`7ce2628`](https://github.com/stdlib-js/stdlib/commit/7ce2628300553de23607c7dd95342cb106b27307) - **refactor:** update `math/base/special/kernel-tan` [(#5017)](https://github.com/stdlib-js/stdlib/pull/5017) _(by Vivek Maurya, Athan Reines)_
