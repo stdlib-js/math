@@ -136,6 +136,7 @@
 
 ##### Features
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
 
@@ -146,6 +147,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
 
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
@@ -3296,6 +3301,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
+
 -   [`cfa99a4`](https://github.com/stdlib-js/stdlib/commit/cfa99a44297521f94fb485a4f3009b6070340728): remove `math/base/ops/add5`
 
     -   To migrate, users should update their require/import paths to use
@@ -3674,6 +3683,8 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`86d5fea`](https://github.com/stdlib-js/stdlib/commit/86d5fea1b11336c6dea72e2247dd71a0304177e0) - **docs:** update namespace table of contents [(#5245)](https://github.com/stdlib-js/stdlib/pull/5245) _(by stdlib-bot)_
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
 -   [`f6cca6b`](https://github.com/stdlib-js/stdlib/commit/f6cca6bdf3b1699c94c5f40bf2e07d6f879ecccb) - **bench:** refactor benchmarks in `math/base/special/rsqrtf` [(#5223)](https://github.com/stdlib-js/stdlib/pull/5223) _(by Gururaj Gurram, Athan Reines)_
 -   [`cfa99a4`](https://github.com/stdlib-js/stdlib/commit/cfa99a44297521f94fb485a4f3009b6070340728) - **remove:** remove `math/base/ops/add5` _(by Gururaj Gurram)_
 -   [`3ae3c5f`](https://github.com/stdlib-js/stdlib/commit/3ae3c5f79f267ecc17041b6b10d8c543f5f0686c) - **refactor:** update paths _(by Gururaj Gurram)_
