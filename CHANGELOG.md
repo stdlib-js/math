@@ -3741,6 +3741,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b1448e4`](https://github.com/stdlib-js/stdlib/commit/b1448e42d0b2f897103635a49be15bfa778784ad) - **bench:** refactor benchmarks and update test messages in `math/base/special/absf` [(#5259)](https://github.com/stdlib-js/stdlib/pull/5259) _(by Karan Anand)_
 -   [`b0abce9`](https://github.com/stdlib-js/stdlib/commit/b0abce97c92c7c8025cdd09e76ed5deec08cb64a) - **bench:** refactor benchmarks and update test messages in `math/base/special/abs2f` [(#5258)](https://github.com/stdlib-js/stdlib/pull/5258) _(by Karan Anand)_
 -   [`6c9505b`](https://github.com/stdlib-js/stdlib/commit/6c9505bc0d1b920718155d7f5118d9b0bd400ff0) - **chore:** fix C lint errors [(#5262)](https://github.com/stdlib-js/stdlib/pull/5262) _(by GK Bishnoi)_
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
