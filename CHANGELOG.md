@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-16)
+## Unreleased (2025-02-17)
 
 <section class="packages">
 
@@ -136,6 +136,7 @@
 
 ##### Features
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
@@ -147,6 +148,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
 
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
 
@@ -3301,6 +3306,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
+
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
 
     -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
@@ -3683,6 +3692,8 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
+-   [`86d5fea`](https://github.com/stdlib-js/stdlib/commit/86d5fea1b11336c6dea72e2247dd71a0304177e0) - **docs:** update namespace table of contents [(#5245)](https://github.com/stdlib-js/stdlib/pull/5245) _(by stdlib-bot)_
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
 -   [`f6cca6b`](https://github.com/stdlib-js/stdlib/commit/f6cca6bdf3b1699c94c5f40bf2e07d6f879ecccb) - **bench:** refactor benchmarks in `math/base/special/rsqrtf` [(#5223)](https://github.com/stdlib-js/stdlib/pull/5223) _(by Gururaj Gurram, Athan Reines)_
 -   [`cfa99a4`](https://github.com/stdlib-js/stdlib/commit/cfa99a44297521f94fb485a4f3009b6070340728) - **remove:** remove `math/base/ops/add5` _(by Gururaj Gurram)_
