@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-17)
+## Unreleased (2025-02-18)
 
 <section class="packages">
 
@@ -3741,6 +3741,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`141105c`](https://github.com/stdlib-js/stdlib/commit/141105c4d9fcdcf898460a606641581dc43e3be1) - **bench:** refactor benchmarks and update test messages in `math/base/special/acosd` [(#5268)](https://github.com/stdlib-js/stdlib/pull/5268) _(by Karan Anand)_
 -   [`b385506`](https://github.com/stdlib-js/stdlib/commit/b38550641ecefd82d2c9ad8fcc0dee10ac58e98b) - **bench:** refactor benchmarks and update test messages in `math/base/special/abs2` [(#4972)](https://github.com/stdlib-js/stdlib/pull/4972) _(by Karan Anand)_
 -   [`b1448e4`](https://github.com/stdlib-js/stdlib/commit/b1448e42d0b2f897103635a49be15bfa778784ad) - **bench:** refactor benchmarks and update test messages in `math/base/special/absf` [(#5259)](https://github.com/stdlib-js/stdlib/pull/5259) _(by Karan Anand)_
 -   [`b0abce9`](https://github.com/stdlib-js/stdlib/commit/b0abce97c92c7c8025cdd09e76ed5deec08cb64a) - **bench:** refactor benchmarks and update test messages in `math/base/special/abs2f` [(#5258)](https://github.com/stdlib-js/stdlib/pull/5258) _(by Karan Anand)_
