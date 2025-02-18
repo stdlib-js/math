@@ -45,7 +45,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`addf( x, y )`][@stdlib/math/base/ops/addf]</span><span class="delimiter">: </span><span class="description">compute the sum of two single-precision floating-point numbers.</span>
+-   <span class="signature">[`addf( x, y )`][@stdlib/number/float32/base/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two single-precision floating-point numbers.</span>
 -   <span class="signature">[`cdiv( z1, z2 )`][@stdlib/math/base/ops/cdiv]</span><span class="delimiter">: </span><span class="description">divide two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`cneg( z )`][@stdlib/math/base/ops/cneg]</span><span class="delimiter">: </span><span class="description">negate a double-precision complex floating-point number.</span>
 -   <span class="signature">[`cnegf( z )`][@stdlib/math/base/ops/cnegf]</span><span class="delimiter">: </span><span class="description">negate a single-precision complex floating-point number.</span>
@@ -132,7 +132,7 @@ console.log( ns.imuldw( 0x80000000|0, 0x40000000|0 ) );
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/ops/addf]: https://github.com/stdlib-js/math/tree/main/base/ops/addf
+[@stdlib/number/float32/base/add]: https://github.com/stdlib-js/number-float32-base-add
 
 [@stdlib/math/base/ops/cdiv]: https://github.com/stdlib-js/math/tree/main/base/ops/cdiv
 
