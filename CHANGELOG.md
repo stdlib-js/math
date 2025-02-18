@@ -3741,6 +3741,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`16fe13d`](https://github.com/stdlib-js/stdlib/commit/16fe13df2737eafe904d1b0d51eaa856bb216cbc) - **bench:** refactor benchmarks in `math/base/special/acosf` [(#5269)](https://github.com/stdlib-js/stdlib/pull/5269) _(by Karan Anand)_
 -   [`f2dbc9f`](https://github.com/stdlib-js/stdlib/commit/f2dbc9f4fb64fdc66cfd6d8d0a7434dc2a81d2c3) - **bench:** refactor benchmarks and update test messages in `math/base/special/acos` [(#5267)](https://github.com/stdlib-js/stdlib/pull/5267) _(by Karan Anand)_
 -   [`141105c`](https://github.com/stdlib-js/stdlib/commit/141105c4d9fcdcf898460a606641581dc43e3be1) - **bench:** refactor benchmarks and update test messages in `math/base/special/acosd` [(#5268)](https://github.com/stdlib-js/stdlib/pull/5268) _(by Karan Anand)_
 -   [`b385506`](https://github.com/stdlib-js/stdlib/commit/b38550641ecefd82d2c9ad8fcc0dee10ac58e98b) - **bench:** refactor benchmarks and update test messages in `math/base/special/abs2` [(#4972)](https://github.com/stdlib-js/stdlib/pull/4972) _(by Karan Anand)_
