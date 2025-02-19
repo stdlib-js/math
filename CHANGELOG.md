@@ -4139,6 +4139,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7ddbcbe`](https://github.com/stdlib-js/stdlib/commit/7ddbcbe83f92390dc20a10164b3b775111aa7267) - **docs:** fix typos in `math/base/ops/subf` [(#5290)](https://github.com/stdlib-js/stdlib/pull/5290) _(by Gururaj Gurram)_
 -   [`c813d0a`](https://github.com/stdlib-js/stdlib/commit/c813d0aa99426f802689af745dd16ccb3929a3d9) - **docs:** update namespace TypeScript declarations [(#5308)](https://github.com/stdlib-js/stdlib/pull/5308) _(by stdlib-bot)_
 -   [`3037993`](https://github.com/stdlib-js/stdlib/commit/3037993cc6603fedea48ca6612edc7462dce2a91) - **docs:** update namespace table of contents [(#5310)](https://github.com/stdlib-js/stdlib/pull/5310) _(by stdlib-bot)_
 -   [`e7ab8a5`](https://github.com/stdlib-js/stdlib/commit/e7ab8a5aaeee5e088db91cbd7b1184a8b7ccde38) - **remove:** remove `math/base/ops/mul` _(by Gururaj Gurram)_
