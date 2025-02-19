@@ -23,7 +23,7 @@
 // MODULES //
 
 var mapBy2 = require( '@stdlib/strided/base/map-by2' ).ndarray;
-var mul = require( './../../../../base/ops/mul' );
+var mul = require( '@stdlib/number/float64/base/mul' );
 
 
 // MAIN //

@@ -154,15 +154,6 @@ setReadOnly( ns, 'imul', require( './../../../base/ops/imul' ) );
 setReadOnly( ns, 'imuldw', require( './../../../base/ops/imuldw' ) );
 
 /**
-* @name mul
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/ops/mul}
-*/
-setReadOnly( ns, 'mul', require( './../../../base/ops/mul' ) );
-
-/**
 * @name mulf
 * @memberof ns
 * @readonly
@@ -215,6 +206,15 @@ setReadOnly( ns, 'umuldw', require( './../../../base/ops/umuldw' ) );
 * @see {@link module:@stdlib/number/float32/base/add}
 */
 setReadOnly( ns, 'addf', require( '@stdlib/number/float32/base/add' ) );
+
+/**
+* @name mul
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/number/float64/base/mul}
+*/
+setReadOnly( ns, 'mul', require( '@stdlib/number/float64/base/mul' ) );
 
 
 // EXPORTS //

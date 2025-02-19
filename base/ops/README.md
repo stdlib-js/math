@@ -54,7 +54,7 @@ The namespace contains the following functions:
 -   <span class="signature">[`divf( x, y )`][@stdlib/math/base/ops/divf]</span><span class="delimiter">: </span><span class="description">divide two single-precision floating-point numbers.</span>
 -   <span class="signature">[`imul( a, b )`][@stdlib/math/base/ops/imul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two signed 32-bit integers.</span>
 -   <span class="signature">[`imuldw( a, b )`][@stdlib/math/base/ops/imuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two signed 32-bit integers.</span>
--   <span class="signature">[`mul( x, y )`][@stdlib/math/base/ops/mul]</span><span class="delimiter">: </span><span class="description">multiply two double-precision floating-point numbers.</span>
+-   <span class="signature">[`mul( x, y )`][@stdlib/number/float64/base/mul]</span><span class="delimiter">: </span><span class="description">multiply two double-precision floating-point numbers.</span>
 -   <span class="signature">[`mulf( x, y )`][@stdlib/math/base/ops/mulf]</span><span class="delimiter">: </span><span class="description">multiply two single-precision floating-point numbers.</span>
 -   <span class="signature">[`sub( x, y )`][@stdlib/math/base/ops/sub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision floating-point numbers.</span>
 -   <span class="signature">[`subf( x, y )`][@stdlib/math/base/ops/subf]</span><span class="delimiter">: </span><span class="description">subtract two single-precision floating-point numbers.</span>
@@ -149,7 +149,7 @@ console.log( ns.imuldw( 0x80000000|0, 0x40000000|0 ) );
 
 [@stdlib/math/base/ops/imuldw]: https://github.com/stdlib-js/math/tree/main/base/ops/imuldw
 
-[@stdlib/math/base/ops/mul]: https://github.com/stdlib-js/math/tree/main/base/ops/mul
+[@stdlib/number/float64/base/mul]: https://github.com/stdlib-js/number-float64-base-mul
 
 [@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math/tree/main/base/ops/mulf
 
