@@ -3957,6 +3957,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c813d0a`](https://github.com/stdlib-js/stdlib/commit/c813d0aa99426f802689af745dd16ccb3929a3d9) - **docs:** update namespace TypeScript declarations [(#5308)](https://github.com/stdlib-js/stdlib/pull/5308) _(by stdlib-bot)_
 -   [`3037993`](https://github.com/stdlib-js/stdlib/commit/3037993cc6603fedea48ca6612edc7462dce2a91) - **docs:** update namespace table of contents [(#5310)](https://github.com/stdlib-js/stdlib/pull/5310) _(by stdlib-bot)_
 -   [`cebb74b`](https://github.com/stdlib-js/stdlib/commit/cebb74be47855091969b704a5eb37d4b0e3fec0b) - **feat:** add `math/base/special/hyp2f1` [(#5140)](https://github.com/stdlib-js/stdlib/pull/5140) _(by Karan Anand, stdlib-bot)_
 -   [`16fe13d`](https://github.com/stdlib-js/stdlib/commit/16fe13df2737eafe904d1b0d51eaa856bb216cbc) - **bench:** refactor benchmarks in `math/base/special/acosf` [(#5269)](https://github.com/stdlib-js/stdlib/pull/5269) _(by Karan Anand)_
