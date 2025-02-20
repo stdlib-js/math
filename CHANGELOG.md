@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-19)
+## Unreleased (2025-02-20)
 
 <section class="packages">
 
@@ -4321,6 +4321,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`54e5f3f`](https://github.com/stdlib-js/stdlib/commit/54e5f3fa5c74124a374ce28944624b7918b3bf67) - **refactor:** update benchmarks and tests in `math/base/special/acosh` [(#5318)](https://github.com/stdlib-js/stdlib/pull/5318) _(by Karan Anand)_
 -   [`0f7955c`](https://github.com/stdlib-js/stdlib/commit/0f7955ca28cb90556930d603e0784129011b8480) - **remove:** remove `math/base/ops/div` _(by Gururaj Gurram)_
 -   [`e910b33`](https://github.com/stdlib-js/stdlib/commit/e910b3362443e36936a6f3705daf63e032d891dc) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`7ddbcbe`](https://github.com/stdlib-js/stdlib/commit/7ddbcbe83f92390dc20a10164b3b775111aa7267) - **docs:** fix typos in `math/base/ops/subf` [(#5290)](https://github.com/stdlib-js/stdlib/pull/5290) _(by Gururaj Gurram)_
