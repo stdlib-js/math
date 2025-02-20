@@ -4322,6 +4322,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`df0b96c`](https://github.com/stdlib-js/stdlib/commit/df0b96c8e629a9f773d103fa2c5b25bfcab25a92) - **bench:** update random value generation [(#5338)](https://github.com/stdlib-js/stdlib/pull/5338) _(by Karan Anand)_
 -   [`ff0a6e1`](https://github.com/stdlib-js/stdlib/commit/ff0a6e17e486a6a28990848a5435d0d79bd1e8e9) - **bench:** update random value generation [(#5339)](https://github.com/stdlib-js/stdlib/pull/5339) _(by Karan Anand)_
 -   [`8de7152`](https://github.com/stdlib-js/stdlib/commit/8de7152398c5db23915b171b9a5f685e969c48c2) - **bench:** update random value generation [(#5340)](https://github.com/stdlib-js/stdlib/pull/5340) _(by Karan Anand)_
 -   [`13fc14e`](https://github.com/stdlib-js/stdlib/commit/13fc14e776090d0c8917b7a7a4757dd8b9051d71) - **docs:** update namespace table of contents [(#5332)](https://github.com/stdlib-js/stdlib/pull/5332) _(by stdlib-bot)_
