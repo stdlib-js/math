@@ -4322,6 +4322,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ff0a6e1`](https://github.com/stdlib-js/stdlib/commit/ff0a6e17e486a6a28990848a5435d0d79bd1e8e9) - **bench:** update random value generation [(#5339)](https://github.com/stdlib-js/stdlib/pull/5339) _(by Karan Anand)_
 -   [`8de7152`](https://github.com/stdlib-js/stdlib/commit/8de7152398c5db23915b171b9a5f685e969c48c2) - **bench:** update random value generation [(#5340)](https://github.com/stdlib-js/stdlib/pull/5340) _(by Karan Anand)_
 -   [`13fc14e`](https://github.com/stdlib-js/stdlib/commit/13fc14e776090d0c8917b7a7a4757dd8b9051d71) - **docs:** update namespace table of contents [(#5332)](https://github.com/stdlib-js/stdlib/pull/5332) _(by stdlib-bot)_
 -   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281) _(by Prashant Kumar Yadav, Athan Reines)_
