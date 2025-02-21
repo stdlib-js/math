@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/special/powm1.h"
-#include "stdlib/math/base/napi/binary.h"
+#include "stdlib/math/base/special/hyp2f1.h"
+#include "stdlib/math/base/napi/quaternary.h"
 
 // cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_powm1 )
+STDLIB_MATH_BASE_NAPI_MODULE_DDDD_D( stdlib_base_hyp2f1 )

@@ -2581,6 +2581,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`8663446`](https://github.com/stdlib-js/stdlib/commit/86634464cd31d6661514550a89312a18c54af74b) - add C implementation for `math/base/special/hyp2f1` [(#5348)](https://github.com/stdlib-js/stdlib/pull/5348)
 -   [`cebb74b`](https://github.com/stdlib-js/stdlib/commit/cebb74be47855091969b704a5eb37d4b0e3fec0b) - add `math/base/special/hyp2f1` [(#5140)](https://github.com/stdlib-js/stdlib/pull/5140)
 
 </section>
@@ -3216,6 +3217,30 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-powm1-unreleased">
+
+#### [@stdlib/math/base/special/powm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/powm1)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5274](https://github.com/stdlib-js/stdlib/issues/5274)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -4469,9 +4494,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274)
 
 </section>
 
@@ -4504,6 +4529,9 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6d9ed10`](https://github.com/stdlib-js/stdlib/commit/6d9ed107bc5e674421c5773619a34d5c0fe5a96a) - **chore:** fix C lint errors [(#5291)](https://github.com/stdlib-js/stdlib/pull/5291) _(by GK Bishnoi)_
+-   [`c1a5db2`](https://github.com/stdlib-js/stdlib/commit/c1a5db2bed5d1c9d32bf4df2fd592c734002d585) - **refactor:** update path _(by Athan Reines)_
+-   [`8663446`](https://github.com/stdlib-js/stdlib/commit/86634464cd31d6661514550a89312a18c54af74b) - **feat:** add C implementation for `math/base/special/hyp2f1` [(#5348)](https://github.com/stdlib-js/stdlib/pull/5348) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`54ed22a`](https://github.com/stdlib-js/stdlib/commit/54ed22a2eb989926f99680f33bd8bf700d5759b0) - **docs:** update namespace TypeScript declarations [(#5330)](https://github.com/stdlib-js/stdlib/pull/5330) _(by stdlib-bot)_
 -   [`bf18c77`](https://github.com/stdlib-js/stdlib/commit/bf18c7705ea5e96e733a13f20844bf975a4dac18) - **docs:** update namespace table of contents [(#5351)](https://github.com/stdlib-js/stdlib/pull/5351) _(by stdlib-bot)_
 -   [`35875b3`](https://github.com/stdlib-js/stdlib/commit/35875b3b4162a530c02e72e8444589053fd1cb2d) - **remove:** remove `math/base/ops/sub` _(by Gururaj Gurram)_

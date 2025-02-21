@@ -20,12 +20,21 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var abs = require( './../../../../base/special/abs' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
-var hyp2f1 = require( './../lib' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// VARIABLES //
+
+var hyp2f1 = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( hyp2f1 instanceof Error )
+};
 
 
 // FIXTURES //
@@ -40,13 +49,13 @@ var outliers = require( './fixtures/python/outliers.json' );
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof hyp2f1, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function returns `1` if `x` is 0', function test( t ) {
+tape( 'the function returns `1` if `x` is 0', opts, function test( t ) {
 	var v;
 
 	v = hyp2f1( 1.0, 1.0, 1.0, 0.0 );
@@ -61,7 +70,7 @@ tape( 'the function returns `1` if `x` is 0', function test( t ) {
 	t.end();
 });
 
-tape( 'the function returns `NaN` if provided `NaN`', function test( t ) {
+tape( 'the function returns `NaN` if provided `NaN`', opts, function test( t ) {
 	var v;
 
 	v = hyp2f1( NaN, 3.0, 2.0, 0.5 );
@@ -79,7 +88,7 @@ tape( 'the function returns `NaN` if provided `NaN`', function test( t ) {
 	t.end();
 });
 
-tape( 'the function returns `1` if either `a` or `b` is 0 and `c` is not 0', function test( t ) {
+tape( 'the function returns `1` if either `a` or `b` is 0 and `c` is not 0', opts, function test( t ) {
 	var v;
 
 	v = hyp2f1( 0.0, 3.0, 2.0, 0.5 );
@@ -97,7 +106,7 @@ tape( 'the function returns `1` if either `a` or `b` is 0 and `c` is not 0', fun
 	t.end();
 });
 
-tape( 'the function returns `PINF` when `c <= a + b`, `x === 1`, and neither `a` nor `b` are nonpositive integers', function test( t ) {
+tape( 'the function returns `PINF` when `c <= a + b`, `x === 1`, and neither `a` nor `b` are nonpositive integers', opts, function test( t ) {
 	var v;
 
 	v = hyp2f1( 3.0, 4.0, 7.0, 1.0 );
@@ -112,7 +121,7 @@ tape( 'the function returns `PINF` when `c <= a + b`, `x === 1`, and neither `a`
 	t.end();
 });
 
-tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+tape( 'the function correctly evaluates the hypergeometric function', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -142,7 +151,7 @@ tape( 'the function correctly evaluates the hypergeometric function', function t
 	t.end();
 });
 
-tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+tape( 'the function correctly evaluates the hypergeometric function', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -166,13 +175,15 @@ tape( 'the function correctly evaluates the hypergeometric function', function t
 			continue;
 		}
 		delta = abs( v - expected[ i ] );
-		tol = EPS * abs( expected[ i ] );
+
+		// NOTE: the tolerance here is larger than for the JavaScript implementation due to compiler optimizations which may be performed resulting in result divergence. For discussion, see https://github.com/stdlib-js/stdlib/pull/2298#discussion_r1624765205
+		tol = 1.2 * EPS * abs( expected[ i ] );
 		t.ok( delta <= tol, 'within tolerance. a: ' + a[ i ] + ' b: ' + b[ i ] + ' c: ' + c[ i ] + ' x: ' + x[ i ] + '. Value: ' + v + '. Expected: ' + expected[ i ] + '. Delta: ' + delta + '. Tolerance: ' + tol + '.' );
 	}
 	t.end();
 });
 
-tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+tape( 'the function correctly evaluates the hypergeometric function', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -196,13 +207,15 @@ tape( 'the function correctly evaluates the hypergeometric function', function t
 			continue;
 		}
 		delta = abs( v - expected[ i ] );
-		tol = 7.0 * EPS * abs( expected[ i ] );
+
+		// NOTE: the tolerance here is larger than for the JavaScript implementation due to compiler optimizations which may be performed resulting in result divergence. For discussion, see https://github.com/stdlib-js/stdlib/pull/2298#discussion_r1624765205
+		tol = 24.0 * EPS * abs( expected[ i ] );
 		t.ok( delta <= tol, 'within tolerance. a: ' + a[ i ] + ' b: ' + b[ i ] + ' c: ' + c[ i ] + ' x: ' + x[ i ] + '. Value: ' + v + '. Expected: ' + expected[ i ] + '. Delta: ' + delta + '. Tolerance: ' + tol + '.' );
 	}
 	t.end();
 });
 
-tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+tape( 'the function correctly evaluates the hypergeometric function', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -226,13 +239,15 @@ tape( 'the function correctly evaluates the hypergeometric function', function t
 			continue;
 		}
 		delta = abs( v - expected[ i ] );
-		tol = 10.0 * EPS * abs( expected[ i ] );
+
+		// NOTE: the tolerance here is larger than for the JavaScript implementation due to compiler optimizations which may be performed resulting in result divergence. For discussion, see https://github.com/stdlib-js/stdlib/pull/2298#discussion_r1624765205
+		tol = 32.0 * EPS * abs( expected[ i ] );
 		t.ok( delta <= tol, 'within tolerance. a: ' + a[ i ] + ' b: ' + b[ i ] + ' c: ' + c[ i ] + ' x: ' + x[ i ] + '. Value: ' + v + '. Expected: ' + expected[ i ] + '. Delta: ' + delta + '. Tolerance: ' + tol + '.' );
 	}
 	t.end();
 });
 
-tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+tape( 'the function correctly evaluates the hypergeometric function', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -256,13 +271,15 @@ tape( 'the function correctly evaluates the hypergeometric function', function t
 			continue;
 		}
 		delta = abs( v - expected[ i ] );
-		tol = 17.0 * EPS * abs( expected[ i ] );
+
+		// NOTE: the tolerance here is larger than for the JavaScript implementation due to compiler optimizations which may be performed resulting in result divergence. For discussion, see https://github.com/stdlib-js/stdlib/pull/2298#discussion_r1624765205
+		tol = 84.0 * EPS * abs( expected[ i ] );
 		t.ok( delta <= tol, 'within tolerance. a: ' + a[ i ] + ' b: ' + b[ i ] + ' c: ' + c[ i ] + ' x: ' + x[ i ] + '. Value: ' + v + '. Expected: ' + expected[ i ] + '. Delta: ' + delta + '. Tolerance: ' + tol + '.' );
 	}
 	t.end();
 });
 
-tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+tape( 'the function correctly evaluates the hypergeometric function', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -283,13 +300,8 @@ tape( 'the function correctly evaluates the hypergeometric function', function t
 		v = hyp2f1( a[ i ], b[ i ], c[ i ], x[ i ] );
 		delta = abs( v - expected[ i ] );
 
-		/*
-		* NOTE: the tolerance is set high in this case due to:
-		*
-		* 1. The expected values having a very large range, being either very small or very large.
-		* 2. The function making a large number of internal calls, leading to accumulated numerical errors.
-		*/
-		tol = 260000.0 * EPS * abs( expected[ i ] );
+		// NOTE: the tolerance here is larger than for the JavaScript implementation due to compiler optimizations which may be performed resulting in result divergence. For discussion, see https://github.com/stdlib-js/stdlib/pull/2298#discussion_r1624765205
+		tol = 345877.0 * EPS * abs( expected[ i ] );
 		t.ok( delta <= tol, 'within tolerance. a: ' + a[ i ] + ' b: ' + b[ i ] + ' c: ' + c[ i ] + ' x: ' + x[ i ] + '. Value: ' + v + '. Expected: ' + expected[ i ] + '. Delta: ' + delta + '. Tolerance: ' + tol + '.' );
 	}
 	t.end();

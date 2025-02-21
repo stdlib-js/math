@@ -40,6 +40,7 @@
     "@stdlib/assert": "github:stdlib-js/assert#main",
     "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
+    "@stdlib/dstructs": "github:stdlib-js/dstructs#main",
     "@stdlib/function": "github:stdlib-js/function#main",
     "@stdlib/napi": "github:stdlib-js/napi#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",

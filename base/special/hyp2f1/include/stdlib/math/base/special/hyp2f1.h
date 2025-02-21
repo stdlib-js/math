@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,8 +16,23 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/special/powm1.h"
-#include "stdlib/math/base/napi/binary.h"
+#ifndef STDLIB_MATH_BASE_SPECIAL_HYP2F1_H
+#define STDLIB_MATH_BASE_SPECIAL_HYP2F1_H
 
-// cppcheck-suppress shadowFunction
-STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_powm1 )
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/**
+* Evaluates the Gaussian hypergeometric function.
+*/
+double stdlib_base_hyp2f1( const double a, const double b, const double c, const double x );
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // !STDLIB_MATH_BASE_SPECIAL_HYP2F1_H

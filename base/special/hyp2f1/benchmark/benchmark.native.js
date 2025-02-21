@@ -20,20 +20,29 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( './../../../../base/assert/is-nan' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-var hyp2f1 = require( './../lib' );
+
+
+// VARIABLES //
+
+var hyp2f1 = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( hyp2f1 instanceof Error )
+};
 
 
 // MAIN //
 
-bench( pkg, function benchmark( bm ) {
-	var x;
+bench( pkg+'::native', opts, function benchmark( bm ) {
 	var a;
 	var b;
 	var c;
+	var x;
 	var z;
 	var i;
 

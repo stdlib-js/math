@@ -27,7 +27,7 @@ var format = require( '@stdlib/string/format' );
 var floor = require( './../../../../base/special/floor' );
 var abs = require( './../../../../base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var FIFO = require( '@stdlib/utils/fifo' );
+var FIFO = require( '@stdlib/dstructs/fifo' );
 var validate = require( './validate.js' );
 
 
