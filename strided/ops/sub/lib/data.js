@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sub = require( './../../../../base/ops/sub' );
+var sub = require( '@stdlib/number/float64/base/sub' );
 var csub = require( './../../../../base/ops/csub' );
 var csubf = require( './../../../../base/ops/csubf' );
 var callbacks = require( '@stdlib/strided/base/binary-signature-callbacks' );

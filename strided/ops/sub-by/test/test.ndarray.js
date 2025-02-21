@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var sub = require( './../../../../base/ops/sub' );
+var sub = require( '@stdlib/number/float64/base/sub' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
 var subBy = require( './../lib/ndarray.js' );
 

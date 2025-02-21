@@ -54,7 +54,7 @@ The namespace contains the following functions:
 -   <span class="signature">[`imul( a, b )`][@stdlib/math/base/ops/imul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two signed 32-bit integers.</span>
 -   <span class="signature">[`imuldw( a, b )`][@stdlib/math/base/ops/imuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two signed 32-bit integers.</span>
 -   <span class="signature">[`mulf( x, y )`][@stdlib/math/base/ops/mulf]</span><span class="delimiter">: </span><span class="description">multiply two single-precision floating-point numbers.</span>
--   <span class="signature">[`sub( x, y )`][@stdlib/math/base/ops/sub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision floating-point numbers.</span>
+-   <span class="signature">[`sub( x, y )`][@stdlib/number/float64/base/sub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision floating-point numbers.</span>
 -   <span class="signature">[`subf( x, y )`][@stdlib/math/base/ops/subf]</span><span class="delimiter">: </span><span class="description">subtract two single-precision floating-point numbers.</span>
 -   <span class="signature">[`umul( a, b )`][@stdlib/math/base/ops/umul]</span><span class="delimiter">: </span><span class="description">perform C-like multiplication of two unsigned 32-bit integers.</span>
 -   <span class="signature">[`umuldw( a, b )`][@stdlib/math/base/ops/umuldw]</span><span class="delimiter">: </span><span class="description">compute the double word product of two unsigned 32-bit integers.</span>
@@ -147,7 +147,7 @@ console.log( ns.imuldw( 0x80000000|0, 0x40000000|0 ) );
 
 [@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math/tree/main/base/ops/mulf
 
-[@stdlib/math/base/ops/sub]: https://github.com/stdlib-js/math/tree/main/base/ops/sub
+[@stdlib/number/float64/base/sub]: https://github.com/stdlib-js/number-float64-base-sub
 
 [@stdlib/math/base/ops/subf]: https://github.com/stdlib-js/math/tree/main/base/ops/subf
 
