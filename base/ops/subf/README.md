@@ -196,7 +196,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/number/float32/base/add`][@stdlib/number/float32/base/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two single-precision floating-point numbers.</span>
--   <span class="package-name">[`@stdlib/math/base/ops/divf`][@stdlib/math/base/ops/divf]</span><span class="delimiter">: </span><span class="description">divide two single-precision floating-point numbers.</span>
+-   <span class="package-name">[`@stdlib/number/float32/base/div`][@stdlib/number/float32/base/div]</span><span class="delimiter">: </span><span class="description">divide two single-precision floating-point numbers.</span>
 -   <span class="package-name">[`@stdlib/math/base/ops/mulf`][@stdlib/math/base/ops/mulf]</span><span class="delimiter">: </span><span class="description">multiply two single-precision floating-point numbers.</span>
 -   <span class="package-name">[`@stdlib/number/float64/base/sub`][@stdlib/number/float64/base/sub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision floating-point numbers.</span>
 
@@ -212,7 +212,7 @@ int main( void ) {
 
 [@stdlib/number/float32/base/add]: https://github.com/stdlib-js/number-float32-base-add
 
-[@stdlib/math/base/ops/divf]: https://github.com/stdlib-js/math/tree/main/base/ops/divf
+[@stdlib/number/float32/base/div]: https://github.com/stdlib-js/number-float32-base-div
 
 [@stdlib/math/base/ops/mulf]: https://github.com/stdlib-js/math/tree/main/base/ops/mulf
 

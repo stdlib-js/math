@@ -118,15 +118,6 @@ setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 setReadOnly( ns, 'csubf', require( './../../../base/ops/csubf' ) );
 
 /**
-* @name divf
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/ops/divf}
-*/
-setReadOnly( ns, 'divf', require( './../../../base/ops/divf' ) );
-
-/**
 * @name imul
 * @memberof ns
 * @readonly
@@ -188,6 +179,15 @@ setReadOnly( ns, 'umuldw', require( './../../../base/ops/umuldw' ) );
 * @see {@link module:@stdlib/number/float32/base/add}
 */
 setReadOnly( ns, 'addf', require( '@stdlib/number/float32/base/add' ) );
+
+/**
+* @name divf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/number/float32/base/div}
+*/
+setReadOnly( ns, 'divf', require( '@stdlib/number/float32/base/div' ) );
 
 /**
 * @name div
