@@ -4760,6 +4760,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c52b2f9`](https://github.com/stdlib-js/stdlib/commit/c52b2f932d20622b426bfd976039a8a144b901ab) - **bench:** update random value generation [(#5390)](https://github.com/stdlib-js/stdlib/pull/5390) _(by Karan Anand)_
 -   [`afbe56b`](https://github.com/stdlib-js/stdlib/commit/afbe56bcdf992a969b20a912828b42d0cdbe717a) - **docs:** update namespace table of contents [(#5387)](https://github.com/stdlib-js/stdlib/pull/5387) _(by stdlib-bot)_
 -   [`7093864`](https://github.com/stdlib-js/stdlib/commit/7093864134f5f116d880ea7063111942b52f2941) - **chore:** fix EditorConfig lint errors [(#5373)](https://github.com/stdlib-js/stdlib/pull/5373) _(by Krishnam Agarwal)_
 -   [`72c6513`](https://github.com/stdlib-js/stdlib/commit/72c6513ad86ddf20c6fe38ecabbbf2b17a112582) - **remove:** remove `math/base/ops/divf` _(by Gururaj Gurram)_
