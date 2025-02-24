@@ -10,6 +10,73 @@
 
 ### Packages
 
+<section class="package" id="math-array-tools-unreleased">
+
+#### [@stdlib/math/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/array/tools)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a4b312d`](https://github.com/stdlib-js/stdlib/commit/a4b312d7b75231f171b3c475d884e17e350f2856) - add `unaryFactory` to namespace
+-   [`824f294`](https://github.com/stdlib-js/stdlib/commit/824f29485447d0e3224d1fcc784f2355b6b7fd14) - add `math/array/tools` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-array-tools-unary-unreleased">
+
+#### [@stdlib/math/array/tools/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/array/tools/unary)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`683f593`](https://github.com/stdlib-js/stdlib/commit/683f5937fb80b5382d64bf1aacf797d82ed01bb8) - add `math/array/tools/unary`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-array-tools-unary-factory-unreleased">
+
+#### [@stdlib/math/array/tools/unary-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/array/tools/unary-factory)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4b8fd47`](https://github.com/stdlib-js/stdlib/commit/4b8fd47d1f57a0953e24234cddf56ef81d9e01a5) - add `math/array/tools/unary-factory`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-assert-is-evenf-unreleased">
 
 #### [@stdlib/math/base/assert/is-evenf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-evenf)
@@ -5051,10 +5118,17 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a4b312d`](https://github.com/stdlib-js/stdlib/commit/a4b312d7b75231f171b3c475d884e17e350f2856) - **feat:** add `unaryFactory` to namespace _(by Athan Reines)_
+-   [`4b8fd47`](https://github.com/stdlib-js/stdlib/commit/4b8fd47d1f57a0953e24234cddf56ef81d9e01a5) - **feat:** add `math/array/tools/unary-factory` _(by Athan Reines)_
+-   [`17a0a25`](https://github.com/stdlib-js/stdlib/commit/17a0a25ecf237da6dcbe7cc0e8f660891b9253aa) - **docs:** fix example _(by Athan Reines)_
+-   [`e876c87`](https://github.com/stdlib-js/stdlib/commit/e876c87d1f3f6d8f6a76b600ba7e64704e561154) - **test:** fix assertions _(by Athan Reines)_
+-   [`89773d1`](https://github.com/stdlib-js/stdlib/commit/89773d14d1267fc8a4657d02ec978d7f740ecf9f) - **refactor:** rename symbol _(by Athan Reines)_
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - **feat:** update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385) _(by stdlib-bot)_
 -   [`910ed0a`](https://github.com/stdlib-js/stdlib/commit/910ed0a3d5c4efab8a59308499ab5fd4aa0d136f) - **remove:** remove `math/base/ops/mulf` _(by Gururaj Gurram)_
 -   [`1eac550`](https://github.com/stdlib-js/stdlib/commit/1eac550d7e113582faa355fe13dfbb24e02d9238) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`0667356`](https://github.com/stdlib-js/stdlib/commit/0667356f8cd3b95699e57d29fe2e4f4d3fdb671c) - **remove:** remove `mulf` from namespace _(by Gururaj Gurram)_
+-   [`824f294`](https://github.com/stdlib-js/stdlib/commit/824f29485447d0e3224d1fcc784f2355b6b7fd14) - **feat:** add `math/array/tools` namespace _(by Athan Reines)_
+-   [`683f593`](https://github.com/stdlib-js/stdlib/commit/683f5937fb80b5382d64bf1aacf797d82ed01bb8) - **feat:** add `math/array/tools/unary` _(by Athan Reines)_
 -   [`c52b2f9`](https://github.com/stdlib-js/stdlib/commit/c52b2f932d20622b426bfd976039a8a144b901ab) - **bench:** update random value generation [(#5390)](https://github.com/stdlib-js/stdlib/pull/5390) _(by Karan Anand)_
 -   [`afbe56b`](https://github.com/stdlib-js/stdlib/commit/afbe56bcdf992a969b20a912828b42d0cdbe717a) - **docs:** update namespace table of contents [(#5387)](https://github.com/stdlib-js/stdlib/pull/5387) _(by stdlib-bot)_
 -   [`7093864`](https://github.com/stdlib-js/stdlib/commit/7093864134f5f116d880ea7063111942b52f2941) - **chore:** fix EditorConfig lint errors [(#5373)](https://github.com/stdlib-js/stdlib/pull/5373) _(by Krishnam Agarwal)_
