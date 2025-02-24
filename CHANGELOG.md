@@ -137,6 +137,7 @@
 
 ##### Features
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
@@ -149,6 +150,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
 
 -   [`0667356`](https://github.com/stdlib-js/stdlib/commit/0667356f8cd3b95699e57d29fe2e4f4d3fdb671c): remove `mulf`
 
@@ -4118,6 +4123,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+
 -   [`910ed0a`](https://github.com/stdlib-js/stdlib/commit/910ed0a3d5c4efab8a59308499ab5fd4aa0d136f): remove `math/base/ops/mulf`
 
     -   To migrate, users should update their require/import paths to use
@@ -5042,6 +5051,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - **feat:** update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385) _(by stdlib-bot)_
 -   [`910ed0a`](https://github.com/stdlib-js/stdlib/commit/910ed0a3d5c4efab8a59308499ab5fd4aa0d136f) - **remove:** remove `math/base/ops/mulf` _(by Gururaj Gurram)_
 -   [`1eac550`](https://github.com/stdlib-js/stdlib/commit/1eac550d7e113582faa355fe13dfbb24e02d9238) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`0667356`](https://github.com/stdlib-js/stdlib/commit/0667356f8cd3b95699e57d29fe2e4f4d3fdb671c) - **remove:** remove `mulf` from namespace _(by Gururaj Gurram)_

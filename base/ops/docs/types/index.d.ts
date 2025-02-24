@@ -29,7 +29,6 @@ import cneg = require( './../../../../base/ops/cneg' );
 import cnegf = require( './../../../../base/ops/cnegf' );
 import csub = require( './../../../../base/ops/csub' );
 import csubf = require( './../../../../base/ops/csubf' );
-import divf = require( '@stdlib/number/float32/base/div' );
 import imul = require( './../../../../base/ops/imul' );
 import imuldw = require( './../../../../base/ops/imuldw' );
 import mulf = require( '@stdlib/number/float32/base/mul' );
@@ -37,6 +36,7 @@ import subf = require( './../../../../base/ops/subf' );
 import umul = require( './../../../../base/ops/umul' );
 import umuldw = require( './../../../../base/ops/umuldw' );
 import addf = require( '@stdlib/number/float32/base/add' );
+import divf = require( '@stdlib/number/float32/base/div' );
 import div = require( '@stdlib/number/float64/base/div' );
 import mul = require( '@stdlib/number/float64/base/mul' );
 import sub = require( '@stdlib/number/float64/base/sub' );
@@ -418,35 +418,6 @@ interface Namespace {
 	csubf: typeof csubf;
 
 	/**
-	* Divides two single-precision floating-point numbers `x` and `y`.
-	*
-	* @param x - first input value (divided)
-	* @param y - second input value (divisor)
-	* @returns result
-	*
-	* @example
-	* var v = ns.divf( -1.0, 5.0 );
-	* // returns ~-0.2
-	*
-	* @example
-	* var v = ns.divf( 2.0, 5.0 );
-	* // returns ~0.4
-	*
-	* @example
-	* var v = ns.divf( 0.0, 5.0 );
-	* // returns 0.0
-	*
-	* @example
-	* var v = ns.divf( -0.0, 5.0 );
-	* // returns -0.0
-	*
-	* @example
-	* var v = ns.divf( NaN, NaN );
-	* // returns NaN
-	*/
-	divf: typeof divf;
-
-	/**
 	* Performs C-like multiplication of two signed 32-bit integers.
 	*
 	* @param a - signed 32-bit integer
@@ -592,6 +563,35 @@ interface Namespace {
 	* // returns NaN
 	*/
 	addf: typeof addf;
+
+	/**
+	* Divides two single-precision floating-point numbers `x` and `y`.
+	*
+	* @param x - first input value (divided)
+	* @param y - second input value (divisor)
+	* @returns result
+	*
+	* @example
+	* var v = ns.divf( -1.0, 5.0 );
+	* // returns ~-0.2
+	*
+	* @example
+	* var v = ns.divf( 2.0, 5.0 );
+	* // returns ~0.4
+	*
+	* @example
+	* var v = ns.divf( 0.0, 5.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.divf( -0.0, 5.0 );
+	* // returns -0.0
+	*
+	* @example
+	* var v = ns.divf( NaN, NaN );
+	* // returns NaN
+	*/
+	divf: typeof divf;
 
 	/**
 	* Divides two double-precision floating-point numbers `x` and `y`.
