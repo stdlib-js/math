@@ -18,30 +18,7 @@
 
 'use strict';
 
-var abs = require( './../../../base/special/abs' );
+var objectKeys = require( '@stdlib/utils/keys' );
 var ns = require( './../lib' );
 
-// Define a list of supported input dtypes:
-var idtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
-
-// Define a list of supported output dtypes:
-var odtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
-
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
-
-// Create an input array:
-var x = [ -1.0, 2.0, -3.0, 4.0 ];
-
-// Perform element-wise computation:
-var out = f.apply( x );
-console.log( out );
-// => [ 1.0, 2.0, 3.0, 4.0 ]
+console.log( objectKeys( ns ) );

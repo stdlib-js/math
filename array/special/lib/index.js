@@ -18,30 +18,34 @@
 
 'use strict';
 
-var abs = require( './../../../base/special/abs' );
-var ns = require( './../lib' );
+/*
+* When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
+*/
 
-// Define a list of supported input dtypes:
-var idtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
+// MODULES //
 
-// Define a list of supported output dtypes:
-var odtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
+var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
 
-// Create an input array:
-var x = [ -1.0, 2.0, -3.0, 4.0 ];
+// MAIN //
 
-// Perform element-wise computation:
-var out = f.apply( x );
-console.log( out );
-// => [ 1.0, 2.0, 3.0, 4.0 ]
+/**
+* Top-level namespace.
+*
+* @namespace ns
+*/
+var ns = {};
+
+/**
+* @name abs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/array/special/abs}
+*/
+setReadOnly( ns, 'abs', require( './../../../array/special/abs' ) );
+
+
+// EXPORTS //
+
+module.exports = ns;

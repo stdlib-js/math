@@ -18,21 +18,21 @@ limitations under the License.
 
 -->
 
-# Tools
+# Special Functions
 
-> Math array function tools.
+> Special math functions applied to arrays.
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/math/array/tools' );
+var ns = require( '@stdlib/math/array/special' );
 ```
 
 #### ns
 
-Namespace containing tools for applying mathematical functions to arrays.
+Namespace containing special math functions applied to arrays.
 
 ```javascript
 var o = ns;
@@ -60,31 +60,13 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var abs = require( '@stdlib/math/base/special/abs' );
-var ns = require( '@stdlib/math/array/tools' );
-
-// Define a list of supported input dtypes:
-var idtypes = [
-    'float64',
-    'float32',
-    'generic'
-];
-
-// Define a list of supported output dtypes:
-var odtypes = [
-    'float64',
-    'float32',
-    'generic'
-];
-
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
+var ns = require( '@stdlib/math/array/special' );
 
 // Create an input array:
 var x = [ -1.0, 2.0, -3.0, 4.0 ];
 
 // Perform element-wise computation:
-var out = f.apply( x );
+var out = ns.abs( x );
 // returns [ 1.0, 2.0, 3.0, 4.0 ]
 ```
 

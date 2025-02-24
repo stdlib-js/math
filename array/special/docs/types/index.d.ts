@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,32 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var abs = require( './../../../base/special/abs' );
-var ns = require( './../lib' );
+/* eslint-disable max-lines */
 
-// Define a list of supported input dtypes:
-var idtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
+import abs = require( './../../../../array/special/abs' );
 
-// Define a list of supported output dtypes:
-var odtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
+/**
+* Interface describing the namespace.
+*/
+interface Namespace {
+	/**
+	* TODO
+	*/
+	abs: typeof abs;
 
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
+}
 
-// Create an input array:
-var x = [ -1.0, 2.0, -3.0, 4.0 ];
+/**
+* Namespace.
+*/
+declare var ns: Namespace;
 
-// Perform element-wise computation:
-var out = f.apply( x );
-console.log( out );
-// => [ 1.0, 2.0, 3.0, 4.0 ]
+
+// EXPORTS //
+
+export = ns;

@@ -18,30 +18,35 @@
 
 'use strict';
 
-var abs = require( './../../../base/special/abs' );
-var ns = require( './../lib' );
+/**
+* Compute the absolute value for each element in an input array.
+*
+* @module @stdlib/math/array/special/abs
+*
+* @example
+* var abs = require( '@stdlib/math/array/special/abs' );
+*
+* var out = abs( [ -1.0, -2.0, -3.0 ] );
+* // returns [ 1.0, 2.0, 3.0 ]
+*
+* @example
+* var abs = require( '@stdlib/math/array/special/abs' );
+*
+* var y = [ 0.0, 0.0, 0.0 ];
+*
+* var out = abs.assign( [ -1.0, -2.0, -3.0 ], y );
+* // returns [ 1.0, 2.0, 3.0 ]
+*
+* var bool = ( out === y );
+*/
 
-// Define a list of supported input dtypes:
-var idtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
+// MODULES //
 
-// Define a list of supported output dtypes:
-var odtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
+var main = require( './main.js' );
 
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
 
-// Create an input array:
-var x = [ -1.0, 2.0, -3.0, 4.0 ];
+// EXPORTS //
 
-// Perform element-wise computation:
-var out = f.apply( x );
-console.log( out );
-// => [ 1.0, 2.0, 3.0, 4.0 ]
+module.exports = main;
+
+// exports: { "assign": "main.assign" }

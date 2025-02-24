@@ -18,28 +18,28 @@ limitations under the License.
 
 -->
 
-# Tools
+# Math
 
-> Math array function tools.
+> Math functions applied to arrays.
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/math/array/tools' );
+var ns = require( '@stdlib/math/array' );
 ```
 
 #### ns
 
-Namespace containing tools for applying mathematical functions to arrays.
+Namespace containing math functions applied to arrays.
 
 ```javascript
 var o = ns;
 // returns {...}
 ```
 
-The namespace contains the following:
+The namespace consists of the following sub-namespaces:
 
 <!-- <toc pattern="*"> -->
 
@@ -57,35 +57,15 @@ The namespace contains the following:
 
 ## Examples
 
+<!-- TODO: better examples -->
+
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var abs = require( '@stdlib/math/base/special/abs' );
-var ns = require( '@stdlib/math/array/tools' );
+var objectKeys = require( '@stdlib/utils/keys' );
+var ns = require( '@stdlib/math/array' );
 
-// Define a list of supported input dtypes:
-var idtypes = [
-    'float64',
-    'float32',
-    'generic'
-];
-
-// Define a list of supported output dtypes:
-var odtypes = [
-    'float64',
-    'float32',
-    'generic'
-];
-
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
-
-// Create an input array:
-var x = [ -1.0, 2.0, -3.0, 4.0 ];
-
-// Perform element-wise computation:
-var out = f.apply( x );
-// returns [ 1.0, 2.0, 3.0, 4.0 ]
+console.log( objectKeys( ns ) );
 ```
 
 </section>

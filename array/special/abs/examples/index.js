@@ -18,30 +18,17 @@
 
 'use strict';
 
-var abs = require( './../../../base/special/abs' );
-var ns = require( './../lib' );
+var uniform = require( '@stdlib/random/array/uniform' );
+var logEach = require( '@stdlib/console/log-each' );
+var abs = require( './../lib' );
 
-// Define a list of supported input dtypes:
-var idtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
-
-// Define a list of supported output dtypes:
-var odtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
-
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
-
-// Create an input array:
-var x = [ -1.0, 2.0, -3.0, 4.0 ];
+// Generate an array of random numbers:
+var x = uniform( 10, -1.0, 1.0, {
+	'dtype': 'generic'
+});
 
 // Perform element-wise computation:
-var out = f.apply( x );
-console.log( out );
-// => [ 1.0, 2.0, 3.0, 4.0 ]
+var y = abs( x );
+
+// Print the results:
+logEach( 'abs(%f) = %f', x, y );

@@ -10,6 +10,94 @@
 
 ### Packages
 
+<section class="package" id="math-unreleased">
+
+#### [@stdlib/math](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`39945a4`](https://github.com/stdlib-js/stdlib/commit/39945a482d87729bf0f2d1181122ed3d645129c3) - add `array` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-array-unreleased">
+
+#### [@stdlib/math/array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/array)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`be4c7b1`](https://github.com/stdlib-js/stdlib/commit/be4c7b15c13180934e2b962719ab81ec808ea12d) - add `math/array` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-array-special-unreleased">
+
+#### [@stdlib/math/array/special](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/array/special)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7aa1502`](https://github.com/stdlib-js/stdlib/commit/7aa150232101abdd4b45c713dfaa71811fcdf850) - add `math/array/special`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-array-special-abs-unreleased">
+
+#### [@stdlib/math/array/special/abs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/array/special/abs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6788899`](https://github.com/stdlib-js/stdlib/commit/678889947a970319197de4db6d48bcac3adf224c) - add `math/array/special/abs`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-array-tools-unreleased">
 
 #### [@stdlib/math/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/array/tools)
@@ -5118,6 +5206,12 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`39945a4`](https://github.com/stdlib-js/stdlib/commit/39945a482d87729bf0f2d1181122ed3d645129c3) - **feat:** add `array` to namespace _(by Athan Reines)_
+-   [`be4c7b1`](https://github.com/stdlib-js/stdlib/commit/be4c7b15c13180934e2b962719ab81ec808ea12d) - **feat:** add `math/array` namespace _(by Athan Reines)_
+-   [`7aa1502`](https://github.com/stdlib-js/stdlib/commit/7aa150232101abdd4b45c713dfaa71811fcdf850) - **feat:** add `math/array/special` _(by Athan Reines)_
+-   [`98336f5`](https://github.com/stdlib-js/stdlib/commit/98336f5011237a2d607be003f05060146e55d204) - **docs:** fix comment _(by Athan Reines)_
+-   [`1e9b650`](https://github.com/stdlib-js/stdlib/commit/1e9b650d29bc3584af013e3ef7d4206dc674b0dd) - **docs:** fix comment _(by Athan Reines)_
+-   [`6788899`](https://github.com/stdlib-js/stdlib/commit/678889947a970319197de4db6d48bcac3adf224c) - **feat:** add `math/array/special/abs` _(by Athan Reines)_
 -   [`a4b312d`](https://github.com/stdlib-js/stdlib/commit/a4b312d7b75231f171b3c475d884e17e350f2856) - **feat:** add `unaryFactory` to namespace _(by Athan Reines)_
 -   [`4b8fd47`](https://github.com/stdlib-js/stdlib/commit/4b8fd47d1f57a0953e24234cddf56ef81d9e01a5) - **feat:** add `math/array/tools/unary-factory` _(by Athan Reines)_
 -   [`17a0a25`](https://github.com/stdlib-js/stdlib/commit/17a0a25ecf237da6dcbe7cc0e8f660891b9253aa) - **docs:** fix example _(by Athan Reines)_

@@ -18,30 +18,23 @@
 
 'use strict';
 
-var abs = require( './../../../base/special/abs' );
+// MODULES //
+
+var tape = require( 'tape' );
+var objectKeys = require( '@stdlib/utils/keys' );
 var ns = require( './../lib' );
 
-// Define a list of supported input dtypes:
-var idtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
 
-// Define a list of supported output dtypes:
-var odtypes = [
-	'float64',
-	'float32',
-	'generic'
-];
+// TESTS //
 
-// Create a function for applying a unary function to each element of an array:
-var f = new ns.unary( abs, idtypes, odtypes, 'same' );
+tape( 'main export is an object', function test( t ) {
+	t.ok( true, __filename );
+	t.strictEqual( typeof ns, 'object', 'main export is an object' );
+	t.end();
+});
 
-// Create an input array:
-var x = [ -1.0, 2.0, -3.0, 4.0 ];
-
-// Perform element-wise computation:
-var out = f.apply( x );
-console.log( out );
-// => [ 1.0, 2.0, 3.0, 4.0 ]
+tape( 'the exported object contains key-value pairs', function test( t ) {
+	var keys = objectKeys( ns );
+	t.equal( keys.length > 0, true, 'has keys' );
+	t.end();
+});

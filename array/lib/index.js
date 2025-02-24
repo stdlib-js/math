@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -37,58 +37,22 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
-* @name array
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/array}
-*/
-setReadOnly( ns, 'array', require( './../array' ) );
-
-/**
-* @name base
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/base}
-*/
-setReadOnly( ns, 'base', require( './../base' ) );
-
-/**
-* @name iter
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/iter}
-*/
-setReadOnly( ns, 'iter', require( './../iter' ) );
-
-/**
 * @name special
 * @memberof ns
 * @readonly
 * @type {Namespace}
-* @see {@link module:@stdlib/math/special}
+* @see {@link module:@stdlib/math/array/special}
 */
-setReadOnly( ns, 'special', require( './../special' ) );
-
-/**
-* @name strided
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/strided}
-*/
-setReadOnly( ns, 'strided', require( './../strided' ) );
+setReadOnly( ns, 'special', require( './../../array/special' ) );
 
 /**
 * @name tools
 * @memberof ns
 * @readonly
 * @type {Namespace}
-* @see {@link module:@stdlib/math/tools}
+* @see {@link module:@stdlib/math/array/tools}
 */
-setReadOnly( ns, 'tools', require( './../tools' ) );
+setReadOnly( ns, 'tools', require( './../../array/tools' ) );
 
 
 // EXPORTS //
