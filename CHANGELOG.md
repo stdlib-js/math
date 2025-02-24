@@ -4098,6 +4098,18 @@ This release closes the following issue:
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5399](https://github.com/stdlib-js/stdlib/issues/5399)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -5170,9 +5182,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 9 issues were closed in this release:
+A total of 10 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5399](https://github.com/stdlib-js/stdlib/issues/5399)
 
 </section>
 
@@ -5182,7 +5194,7 @@ A total of 9 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
@@ -5192,6 +5204,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 -   Gururaj Gurram
 -   Karan Anand
 -   Krishnam Agarwal
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Vivek Maurya
@@ -5206,6 +5219,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7e16f5c`](https://github.com/stdlib-js/stdlib/commit/7e16f5c1f65d9f3a69a3e9c3f34c885d8adfca51) - **chore:** fix C lint errors [(#5409)](https://github.com/stdlib-js/stdlib/pull/5409) _(by Neeraj Pathak)_
 -   [`39945a4`](https://github.com/stdlib-js/stdlib/commit/39945a482d87729bf0f2d1181122ed3d645129c3) - **feat:** add `array` to namespace _(by Athan Reines)_
 -   [`be4c7b1`](https://github.com/stdlib-js/stdlib/commit/be4c7b15c13180934e2b962719ab81ec808ea12d) - **feat:** add `math/array` namespace _(by Athan Reines)_
 -   [`7aa1502`](https://github.com/stdlib-js/stdlib/commit/7aa150232101abdd4b45c713dfaa71811fcdf850) - **feat:** add `math/array/special` _(by Athan Reines)_
