@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-02-25)
 
 <section class="packages">
 
@@ -5219,6 +5219,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1de4fb4`](https://github.com/stdlib-js/stdlib/commit/1de4fb47e423e6ed0b9777cbb1194245ba1fe349) - **bench:** update random value generation [(#5404)](https://github.com/stdlib-js/stdlib/pull/5404) _(by Karan Anand, Athan Reines)_
 -   [`7e16f5c`](https://github.com/stdlib-js/stdlib/commit/7e16f5c1f65d9f3a69a3e9c3f34c885d8adfca51) - **chore:** fix C lint errors [(#5409)](https://github.com/stdlib-js/stdlib/pull/5409) _(by Neeraj Pathak)_
 -   [`39945a4`](https://github.com/stdlib-js/stdlib/commit/39945a482d87729bf0f2d1181122ed3d645129c3) - **feat:** add `array` to namespace _(by Athan Reines)_
 -   [`be4c7b1`](https://github.com/stdlib-js/stdlib/commit/be4c7b15c13180934e2b962719ab81ec808ea12d) - **feat:** add `math/array` namespace _(by Athan Reines)_
