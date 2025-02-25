@@ -78,6 +78,7 @@ The namespace consists of the following sub-namespaces:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`array`][@stdlib/math/array]</span><span class="delimiter">: </span><span class="description">math functions applied to arrays.</span>
 -   <span class="signature">[`base`][@stdlib/math/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) math functions.</span>
 -   <span class="signature">[`iter`][@stdlib/math/iter]</span><span class="delimiter">: </span><span class="description">math iterators.</span>
 -   <span class="signature">[`special`][@stdlib/math/special]</span><span class="delimiter">: </span><span class="description">special math functions.</span>
@@ -192,6 +193,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/math/array]: https://github.com/stdlib-js/math/tree/main/array
 
 [@stdlib/math/base]: https://github.com/stdlib-js/math/tree/main/base
 
