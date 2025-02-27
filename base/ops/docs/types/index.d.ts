@@ -31,7 +31,6 @@ import csub = require( './../../../../base/ops/csub' );
 import csubf = require( './../../../../base/ops/csubf' );
 import imul = require( './../../../../base/ops/imul' );
 import imuldw = require( './../../../../base/ops/imuldw' );
-import mulf = require( '@stdlib/number/float32/base/mul' );
 import subf = require( './../../../../base/ops/subf' );
 import umul = require( './../../../../base/ops/umul' );
 import umuldw = require( './../../../../base/ops/umuldw' );
@@ -446,35 +445,6 @@ interface Namespace {
 	* // returns [ -477218589, 1908874354 ]
 	*/
 	imuldw: typeof imuldw;
-
-	/**
-	* Multiplies two single-precision floating-point numbers `x` and `y`.
-	*
-	* @param x - first input value
-	* @param y - second input value
-	* @returns result
-	*
-	* @example
-	* var v = ns.mulf( -1.0, 5.0 );
-	* // returns -5.0
-	*
-	* @example
-	* var v = ns.mulf( 2.0, 5.0 );
-	* // returns 10.0
-	*
-	* @example
-	* var v = ns.mulf( 0.0, 5.0 );
-	* // returns 0.0
-	*
-	* @example
-	* var v = ns.mulf( -0.0, 0.0 );
-	* // returns -0.0
-	*
-	* @example
-	* var v = ns.mulf( NaN, NaN );
-	* // returns NaN
-	*/
-	mulf: typeof mulf;
 
 	/**
 	* Subtracts two single-precision floating-point numbers `x` and `y`.

@@ -20,6 +20,7 @@
 
 /* eslint-disable max-lines */
 
+import array = require( './../../array' );
 import base = require( './../../base' );
 import iter = require( './../../iter' );
 import special = require( './../../special' );
@@ -30,6 +31,11 @@ import tools = require( './../../tools' );
 * Interface describing the `math` namespace.
 */
 interface Namespace {
+	/**
+	* Math functions applied to arrays.
+	*/
+	array: typeof array;
+
 	/**
 	* Base (i.e., lower-level) math functions.
 	*/
