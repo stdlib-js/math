@@ -31,7 +31,7 @@ import csub = require( './../../../../base/ops/csub' );
 import csubf = require( './../../../../base/ops/csubf' );
 import imul = require( './../../../../base/ops/imul' );
 import imuldw = require( './../../../../base/ops/imuldw' );
-import subf = require( './../../../../base/ops/subf' );
+import mulf = require( '@stdlib/number/float32/base/mul' );
 import umul = require( './../../../../base/ops/umul' );
 import umuldw = require( './../../../../base/ops/umuldw' );
 import addf = require( '@stdlib/number/float32/base/add' );
@@ -447,33 +447,33 @@ interface Namespace {
 	imuldw: typeof imuldw;
 
 	/**
-	* Subtracts two single-precision floating-point numbers `x` and `y`.
+	* Multiplies two single-precision floating-point numbers `x` and `y`.
 	*
 	* @param x - first input value
 	* @param y - second input value
 	* @returns result
 	*
 	* @example
-	* var v = ns.subf( -1.0, 5.0 );
-	* // returns -6.0
-	*
-	* @example
-	* var v = ns.subf( 2.0, 5.0 );
-	* // returns -3.0
-	*
-	* @example
-	* var v = ns.subf( 0.0, 5.0 );
+	* var v = ns.mulf( -1.0, 5.0 );
 	* // returns -5.0
 	*
 	* @example
-	* var v = ns.subf( -0.0, 0.0 );
+	* var v = ns.mulf( 2.0, 5.0 );
+	* // returns 10.0
+	*
+	* @example
+	* var v = ns.mulf( 0.0, 5.0 );
+	* // returns 0.0
+	*
+	* @example
+	* var v = ns.mulf( -0.0, 0.0 );
 	* // returns -0.0
 	*
 	* @example
-	* var v = ns.subf( NaN, NaN );
+	* var v = ns.mulf( NaN, NaN );
 	* // returns NaN
 	*/
-	subf: typeof subf;
+	mulf: typeof mulf;
 
 	/**
 	* Performs C-like multiplication of two unsigned 32-bit integers.
