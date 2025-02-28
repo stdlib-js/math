@@ -28,7 +28,7 @@ import tools = require( './../../../array/tools' );
 */
 interface Namespace {
 	/**
-	* Namespace.
+	* Special math functions applied to arrays.
 	*/
 	special: typeof special;
 
