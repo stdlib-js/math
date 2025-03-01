@@ -313,6 +313,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-napi-quaternary-unreleased">
+
+#### [@stdlib/math/base/napi/quaternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/quaternary)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8da699b`](https://github.com/stdlib-js/stdlib/commit/8da699b54580e2139c5cb911176abdb54d36e2c8) - add `DIII_D` macro in `math/base/napi/quaternary` [(#5545)](https://github.com/stdlib-js/stdlib/pull/5545)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-napi-ternary-unreleased">
 
 #### [@stdlib/math/base/napi/ternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary)
@@ -5906,6 +5928,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8da699b`](https://github.com/stdlib-js/stdlib/commit/8da699b54580e2139c5cb911176abdb54d36e2c8) - **feat:** add `DIII_D` macro in `math/base/napi/quaternary` [(#5545)](https://github.com/stdlib-js/stdlib/pull/5545) _(by Karan Anand)_
 -   [`b2c926b`](https://github.com/stdlib-js/stdlib/commit/b2c926b286713f2bbeda7becbaf3ad2cdaed1947) - **refactor:** move implementations and macros to separate files [(#5544)](https://github.com/stdlib-js/stdlib/pull/5544) _(by Karan Anand)_
 -   [`183d056`](https://github.com/stdlib-js/stdlib/commit/183d056687e023d43cded450f0d9e4739aaff8bd) - **refactor:** move implementations and macros to separate files [(#5541)](https://github.com/stdlib-js/stdlib/pull/5541) _(by Karan Anand)_
 -   [`ffc6fed`](https://github.com/stdlib-js/stdlib/commit/ffc6fed5cdfdd81d0806cec7aed97afb6de40a24) - **refactor:** move implementations and macros to separate files [(#5540)](https://github.com/stdlib-js/stdlib/pull/5540) _(by Karan Anand, stdlib-bot)_
