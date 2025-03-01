@@ -5928,6 +5928,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`18ad933`](https://github.com/stdlib-js/stdlib/commit/18ad933e9ddbf7eb689531e22d81640b164f73f0) - **docs:** fix typo by replacing `int_32` with `int32_t` [(#5546)](https://github.com/stdlib-js/stdlib/pull/5546) _(by Karan Anand, stdlib-bot)_
 -   [`8da699b`](https://github.com/stdlib-js/stdlib/commit/8da699b54580e2139c5cb911176abdb54d36e2c8) - **feat:** add `DIII_D` macro in `math/base/napi/quaternary` [(#5545)](https://github.com/stdlib-js/stdlib/pull/5545) _(by Karan Anand)_
 -   [`b2c926b`](https://github.com/stdlib-js/stdlib/commit/b2c926b286713f2bbeda7becbaf3ad2cdaed1947) - **refactor:** move implementations and macros to separate files [(#5544)](https://github.com/stdlib-js/stdlib/pull/5544) _(by Karan Anand)_
 -   [`183d056`](https://github.com/stdlib-js/stdlib/commit/183d056687e023d43cded450f0d9e4739aaff8bd) - **refactor:** move implementations and macros to separate files [(#5541)](https://github.com/stdlib-js/stdlib/pull/5541) _(by Karan Anand)_
