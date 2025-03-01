@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-28)
+## Unreleased (2025-03-01)
 
 <section class="packages">
 
@@ -5881,6 +5881,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6dd2fd1`](https://github.com/stdlib-js/stdlib/commit/6dd2fd114ce413fe488ac47dc356e7316e61d843) - **bench:** update random value generation [(#5528)](https://github.com/stdlib-js/stdlib/pull/5528) _(by Karan Anand)_
 -   [`4efada9`](https://github.com/stdlib-js/stdlib/commit/4efada90febbd19180bcba37915b0f19e918348e) - **docs:** update namespace table of contents [(#5513)](https://github.com/stdlib-js/stdlib/pull/5513) _(by stdlib-bot)_
 -   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - **feat:** update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511) _(by stdlib-bot)_
 -   [`29cc785`](https://github.com/stdlib-js/stdlib/commit/29cc785ee4c0d56aff6a5a2dda3dbf9ad90fbc71) - **remove:** remove `math/base/ops/umul` _(by Gururaj Gurram)_
