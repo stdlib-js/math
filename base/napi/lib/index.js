@@ -40,7 +40,7 @@ var ns = {};
 * @name binary
 * @memberof ns
 * @readonly
-* @type {Function}
+* @type {string}
 * @see {@link module:@stdlib/math/base/napi/binary}
 */
 setReadOnly( ns, 'binary', require( './../../../base/napi/binary' ) );
@@ -49,7 +49,7 @@ setReadOnly( ns, 'binary', require( './../../../base/napi/binary' ) );
 * @name quaternary
 * @memberof ns
 * @readonly
-* @type {Function}
+* @type {string}
 * @see {@link module:@stdlib/math/base/napi/quaternary}
 */
 setReadOnly( ns, 'quaternary', require( './../../../base/napi/quaternary' ) );
@@ -58,7 +58,7 @@ setReadOnly( ns, 'quaternary', require( './../../../base/napi/quaternary' ) );
 * @name quinary
 * @memberof ns
 * @readonly
-* @type {Function}
+* @type {string}
 * @see {@link module:@stdlib/math/base/napi/quinary}
 */
 setReadOnly( ns, 'quinary', require( './../../../base/napi/quinary' ) );
@@ -67,7 +67,7 @@ setReadOnly( ns, 'quinary', require( './../../../base/napi/quinary' ) );
 * @name ternary
 * @memberof ns
 * @readonly
-* @type {Function}
+* @type {string}
 * @see {@link module:@stdlib/math/base/napi/ternary}
 */
 setReadOnly( ns, 'ternary', require( './../../../base/napi/ternary' ) );
@@ -76,7 +76,7 @@ setReadOnly( ns, 'ternary', require( './../../../base/napi/ternary' ) );
 * @name unary
 * @memberof ns
 * @readonly
-* @type {Function}
+* @type {string}
 * @see {@link module:@stdlib/math/base/napi/unary}
 */
 setReadOnly( ns, 'unary', require( './../../../base/napi/unary' ) );
