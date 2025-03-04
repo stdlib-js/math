@@ -20,10 +20,13 @@
 
 // MODULES //
 
-var cos = require( './../../../../base/special/cos' );
 var deg2rad = require( './../../../../base/special/deg2rad' );
-var isInteger = require( './../../../../base/assert/is-integer' );
-var isInfinite = require( '@stdlib/assert/is-infinite' );
+var kernelSin = require( './../../../../base/special/kernel-sin' );
+var kernelCos = require( './../../../../base/special/kernel-cos' );
+var fmod = require( './../../../../base/special/fmod' );
+var abs = require( './../../../../base/special/abs' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
 
 
 // MAIN //
@@ -51,19 +54,30 @@ var isInfinite = require( '@stdlib/assert/is-infinite' );
 * // returns NaN
 */
 function cosd( x ) {
-	var xRad;
+	var rx;
 
-	if ( isInfinite( x ) ) {
+	if (
+		isInfinite( x ) ||
+		isnan( x )
+	) {
 		return NaN;
 	}
 
-	if ( isInteger( ( ( x / 90.0 ) - 1.0 ) / 2.0 ) ) {
-		return 0.0;
+	rx = abs( fmod( x, 360.0 ) );
+
+	if ( rx <= 45.0 ) {
+		return kernelCos( deg2rad( rx ), 0.0 );
 	}
-
-	xRad = deg2rad( x );
-
-	return cos( xRad );
+	if ( rx < 135.0 ) {
+		return kernelSin( deg2rad( 90.0-rx ), 0.0 );
+	}
+	if ( rx <= 225.0 ) {
+		return -kernelCos( deg2rad( 180.0-rx ), 0.0 );
+	}
+	if ( rx < 315.0 ) {
+		return kernelSin( deg2rad( rx-270.0 ), 0.0 );
+	}
+	return kernelCos( deg2rad( 360.0-rx ), 0.0 );
 }
 
 
