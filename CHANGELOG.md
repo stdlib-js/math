@@ -5999,6 +5999,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
 -   [`394de5a`](https://github.com/stdlib-js/stdlib/commit/394de5ad015e5389b976ec5dce58986e1fb17735) - **bench:** update random value generation [(#5786)](https://github.com/stdlib-js/stdlib/pull/5786) _(by Karan Anand)_
 -   [`8c9c9f2`](https://github.com/stdlib-js/stdlib/commit/8c9c9f294b1772cfc13b6c3b501719743b81bb08) - **bench:** update random value generation [(#5787)](https://github.com/stdlib-js/stdlib/pull/5787) _(by Karan Anand, Karan Anand)_
 -   [`b947812`](https://github.com/stdlib-js/stdlib/commit/b947812d45606e52f8f3e0ab22f6355f59eb1c49) - **fix:** update `math/base/special/cosd` to match correct reference implementation [(#5473)](https://github.com/stdlib-js/stdlib/pull/5473) _(by Karan Anand, Gunj Joshi)_
