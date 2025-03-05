@@ -4345,6 +4345,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-secd-unreleased">
+
+#### [@stdlib/math/base/special/secd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/secd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`f5459a7`](https://github.com/stdlib-js/stdlib/commit/f5459a759caf08cf4fb882609678e878785d6dc7) - update `math/base/special/secd` to match correct reference implementation [(#5810)](https://github.com/stdlib-js/stdlib/pull/5810)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-signum-unreleased">
 
 #### [@stdlib/math/base/special/signum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/signum)
@@ -6021,6 +6043,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f5459a7`](https://github.com/stdlib-js/stdlib/commit/f5459a759caf08cf4fb882609678e878785d6dc7) - **fix:** update `math/base/special/secd` to match correct reference implementation [(#5810)](https://github.com/stdlib-js/stdlib/pull/5810) _(by Karan Anand)_
 -   [`3f0943b`](https://github.com/stdlib-js/stdlib/commit/3f0943b050f49d96debc6c362ca759bf95f440aa) - **feat:** add `math/base/special/sind` [(#5435)](https://github.com/stdlib-js/stdlib/pull/5435) _(by Karan Anand, stdlib-bot)_
 -   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
 -   [`394de5a`](https://github.com/stdlib-js/stdlib/commit/394de5ad015e5389b976ec5dce58986e1fb17735) - **bench:** update random value generation [(#5786)](https://github.com/stdlib-js/stdlib/pull/5786) _(by Karan Anand)_
