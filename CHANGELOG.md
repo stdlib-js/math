@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-05)
+## Unreleased (2025-03-06)
 
 <section class="packages">
 
@@ -2885,6 +2885,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cscd-unreleased">
+
+#### [@stdlib/math/base/special/cscd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cscd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`406337f`](https://github.com/stdlib-js/stdlib/commit/406337fc2a5709ef967afbd6be8b25b0a89a3c30) - update `math/base/special/cscd` to match correct reference implementation [(#5811)](https://github.com/stdlib-js/stdlib/pull/5811)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -6043,6 +6065,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`406337f`](https://github.com/stdlib-js/stdlib/commit/406337fc2a5709ef967afbd6be8b25b0a89a3c30) - **fix:** update `math/base/special/cscd` to match correct reference implementation [(#5811)](https://github.com/stdlib-js/stdlib/pull/5811) _(by Karan Anand)_
 -   [`f5459a7`](https://github.com/stdlib-js/stdlib/commit/f5459a759caf08cf4fb882609678e878785d6dc7) - **fix:** update `math/base/special/secd` to match correct reference implementation [(#5810)](https://github.com/stdlib-js/stdlib/pull/5810) _(by Karan Anand)_
 -   [`3f0943b`](https://github.com/stdlib-js/stdlib/commit/3f0943b050f49d96debc6c362ca759bf95f440aa) - **feat:** add `math/base/special/sind` [(#5435)](https://github.com/stdlib-js/stdlib/pull/5435) _(by Karan Anand, stdlib-bot)_
 -   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
