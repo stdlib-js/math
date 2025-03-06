@@ -125,7 +125,6 @@ static double benchmark( int iterations, int len ) {
 	}
 	t = tic();
 	for ( i = 0; i < iterations; i++ ) {
-		// cppcheck-suppress uninitvar
 		stdlib_strided_sramp( len, x, 1, y, 1 );
 		if ( y[ 0 ] != y[ 0 ] ) {
 			printf( "should not return NaN\n" );
