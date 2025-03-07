@@ -2761,6 +2761,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cotd-unreleased">
+
+#### [@stdlib/math/base/special/cotd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cotd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-covercos-unreleased">
 
 #### [@stdlib/math/base/special/covercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/covercos)
@@ -6091,6 +6113,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - **fix:** update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813) _(by Karan Anand)_
 -   [`73d8eb8`](https://github.com/stdlib-js/stdlib/commit/73d8eb85e52e10d7928ec64809752baa2b23e4cc) - **bench:** refactor random generation in `math/base/special/ceil*` [(#5834)](https://github.com/stdlib-js/stdlib/pull/5834) _(by Saurabh Singh)_
 -   [`1e8a149`](https://github.com/stdlib-js/stdlib/commit/1e8a1497524689db341608fb6a04e7adb6b9e90d) - **bench:** replace custom `sincos` function with built-in Julia implementation [(#5838)](https://github.com/stdlib-js/stdlib/pull/5838) _(by Karan Anand)_
 -   [`99a8508`](https://github.com/stdlib-js/stdlib/commit/99a85088ac88f39a2f28012248c40a8bf28e0cfd) - **chore:** fix C lint error [(#5804)](https://github.com/stdlib-js/stdlib/pull/5804) _(by Hemant M Mehta)_
