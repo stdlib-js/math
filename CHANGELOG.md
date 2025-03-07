@@ -6091,6 +6091,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`73d8eb8`](https://github.com/stdlib-js/stdlib/commit/73d8eb85e52e10d7928ec64809752baa2b23e4cc) - **bench:** refactor random generation in `math/base/special/ceil*` [(#5834)](https://github.com/stdlib-js/stdlib/pull/5834) _(by Saurabh Singh)_
 -   [`1e8a149`](https://github.com/stdlib-js/stdlib/commit/1e8a1497524689db341608fb6a04e7adb6b9e90d) - **bench:** replace custom `sincos` function with built-in Julia implementation [(#5838)](https://github.com/stdlib-js/stdlib/pull/5838) _(by Karan Anand)_
 -   [`99a8508`](https://github.com/stdlib-js/stdlib/commit/99a85088ac88f39a2f28012248c40a8bf28e0cfd) - **chore:** fix C lint error [(#5804)](https://github.com/stdlib-js/stdlib/pull/5804) _(by Hemant M Mehta)_
 -   [`1f73fef`](https://github.com/stdlib-js/stdlib/commit/1f73fef9451cc77da8f45dfeb28c359685321859) - **feat:** update namespace TypeScript declarations [(#5816)](https://github.com/stdlib-js/stdlib/pull/5816) _(by stdlib-bot)_
