@@ -6417,6 +6417,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c52b466`](https://github.com/stdlib-js/stdlib/commit/c52b4669f8f55271054c3e0fc1c959e4d5de2d29) - **docs:** update namespace table of contents [(#5870)](https://github.com/stdlib-js/stdlib/pull/5870) _(by stdlib-bot)_
 -   [`9c97323`](https://github.com/stdlib-js/stdlib/commit/9c97323a8d2417f53c7fa94009b67e7b26212842) - **test:** fix use of `tape.skip` [(#5872)](https://github.com/stdlib-js/stdlib/pull/5872) _(by Karan Anand)_
 -   [`1229ea7`](https://github.com/stdlib-js/stdlib/commit/1229ea77f838afd290122ab1470796312785be9a) - **remove:** remove `addf` from namespace [(#5737)](https://github.com/stdlib-js/stdlib/pull/5737) _(by Gururaj Gurram)_
 -   [`83f88d9`](https://github.com/stdlib-js/stdlib/commit/83f88d9366f1b39342a43ddfc6e36273be38a4ee) - **docs:** update function descriptions [(#5866)](https://github.com/stdlib-js/stdlib/pull/5866) _(by Karan Anand)_
