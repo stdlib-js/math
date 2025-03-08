@@ -29,7 +29,6 @@ import cneg = require( './../../../../base/ops/cneg' );
 import cnegf = require( './../../../../base/ops/cnegf' );
 import csub = require( './../../../../base/ops/csub' );
 import csubf = require( './../../../../base/ops/csubf' );
-import imul = require( './../../../../base/ops/imul' );
 import imuldw = require( './../../../../base/ops/imuldw' );
 import umuldw = require( './../../../../base/ops/umuldw' );
 import divf = require( '@stdlib/number/float32/base/div' );
@@ -412,19 +411,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	csubf: typeof csubf;
-
-	/**
-	* Performs C-like multiplication of two signed 32-bit integers.
-	*
-	* @param a - signed 32-bit integer
-	* @param b - signed 32-bit integer
-	* @returns product
-	*
-	* @example
-	* var v = ns.imul( -10|0, 4|0 );
-	* // returns -40
-	*/
-	imul: typeof imul;
 
 	/**
 	* Performs multiplication of two signed 32-bit integers and returns an array of two signed 32-bit integers which represents the signed 64-bit integer product.
