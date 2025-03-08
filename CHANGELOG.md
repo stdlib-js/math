@@ -6135,6 +6135,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1229ea7`](https://github.com/stdlib-js/stdlib/commit/1229ea77f838afd290122ab1470796312785be9a) - **remove:** remove `addf` from namespace [(#5737)](https://github.com/stdlib-js/stdlib/pull/5737) _(by Gururaj Gurram)_
 -   [`83f88d9`](https://github.com/stdlib-js/stdlib/commit/83f88d9366f1b39342a43ddfc6e36273be38a4ee) - **docs:** update function descriptions [(#5866)](https://github.com/stdlib-js/stdlib/pull/5866) _(by Karan Anand)_
 -   [`6d7317a`](https://github.com/stdlib-js/stdlib/commit/6d7317af46884dca86c9775ca98d5c275d5fe05a) - **feat:** add `math/base/special/sincosd` [(#5837)](https://github.com/stdlib-js/stdlib/pull/5837) _(by Karan Anand, Gunj Joshi)_
 -   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - **fix:** update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813) _(by Karan Anand)_
