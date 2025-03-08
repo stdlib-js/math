@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-07)
+## Unreleased (2025-03-08)
 
 <section class="packages">
 
@@ -6135,6 +6135,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`83f88d9`](https://github.com/stdlib-js/stdlib/commit/83f88d9366f1b39342a43ddfc6e36273be38a4ee) - **docs:** update function descriptions [(#5866)](https://github.com/stdlib-js/stdlib/pull/5866) _(by Karan Anand)_
 -   [`6d7317a`](https://github.com/stdlib-js/stdlib/commit/6d7317af46884dca86c9775ca98d5c275d5fe05a) - **feat:** add `math/base/special/sincosd` [(#5837)](https://github.com/stdlib-js/stdlib/pull/5837) _(by Karan Anand, Gunj Joshi)_
 -   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - **fix:** update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813) _(by Karan Anand)_
 -   [`73d8eb8`](https://github.com/stdlib-js/stdlib/commit/73d8eb85e52e10d7928ec64809752baa2b23e4cc) - **bench:** refactor random generation in `math/base/special/ceil*` [(#5834)](https://github.com/stdlib-js/stdlib/pull/5834) _(by Saurabh Singh)_
