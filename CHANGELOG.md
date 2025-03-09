@@ -6629,6 +6629,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6fa8a1b`](https://github.com/stdlib-js/stdlib/commit/6fa8a1bb1c4963e417439f8730a5799a8c013d86) - **chore:** address commit comments [(#5875)](https://github.com/stdlib-js/stdlib/pull/5875) _(by Karan Anand)_
 -   [`b2a6bb8`](https://github.com/stdlib-js/stdlib/commit/b2a6bb80465a0d6dcc78f4edaddf719e62d89004) - **remove:** remove `math/base/ops/imuldw` _(by Gururaj Gurram)_
 -   [`9a6831e`](https://github.com/stdlib-js/stdlib/commit/9a6831eb31d985baec5ca19f5286e5756bacad8f) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`b2228a8`](https://github.com/stdlib-js/stdlib/commit/b2228a8607c4ec969a1896b69ba40157bcf8e16c) - **remove:** remove `imuldw` from namespace _(by Gururaj Gurram)_
