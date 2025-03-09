@@ -29,7 +29,6 @@ import cneg = require( './../../../../base/ops/cneg' );
 import cnegf = require( './../../../../base/ops/cnegf' );
 import csub = require( './../../../../base/ops/csub' );
 import csubf = require( './../../../../base/ops/csubf' );
-import imuldw = require( './../../../../base/ops/imuldw' );
 import umuldw = require( './../../../../base/ops/umuldw' );
 import divf = require( '@stdlib/number/float32/base/div' );
 import div = require( '@stdlib/number/float64/base/div' );
@@ -411,23 +410,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	csubf: typeof csubf;
-
-	/**
-	* Performs multiplication of two signed 32-bit integers and returns an array of two signed 32-bit integers which represents the signed 64-bit integer product.
-	*
-	* ## Notes
-	*
-	* -   When computing the product of 32-bit integer values in double-precision floating-point format (the default JavaScript numeric data type), computing the double word product is necessary in order to avoid exceeding the maximum safe double-precision floating-point integer value.
-	*
-	* @param a - integer
-	* @param b - integer
-	* @returns output array
-	*
-	* @example
-	* var v = ns.imuldw( 0xAAAAAAAA, 0x55555555 );
-	* // returns [ -477218589, 1908874354 ]
-	*/
-	imuldw: typeof imuldw;
 
 	/**
 	* Performs multiplication of two unsigned 32-bit integers and returns an array of two unsigned 32-bit integers which represents the unsigned 64-bit integer product.
