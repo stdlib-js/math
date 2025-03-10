@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-09)
+## Unreleased (2025-03-10)
 
 <section class="packages">
 
@@ -6679,6 +6679,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`83b446f`](https://github.com/stdlib-js/stdlib/commit/83b446ffb685852b7d1d7d339a8e68c36b46a330) - **docs:** update namespace table of contents [(#5907)](https://github.com/stdlib-js/stdlib/pull/5907) _(by stdlib-bot)_
 -   [`6010275`](https://github.com/stdlib-js/stdlib/commit/601027582bebc4b2f76cf9ea598a9646759f6bff) - **chore:** fix EditorConfig lint errors by replacing tabs with spaces [(#5910)](https://github.com/stdlib-js/stdlib/pull/5910) _(by Dhanyabad behera)_
 -   [`0e31615`](https://github.com/stdlib-js/stdlib/commit/0e3161565a04f0f41fd52e70f9e816d9821bcb0b) - **chore(math):** replace tabs with spaces in `manifest.json` [(#5843)](https://github.com/stdlib-js/stdlib/pull/5843) _(by Anshu Kumar)_
 -   [`6fa8a1b`](https://github.com/stdlib-js/stdlib/commit/6fa8a1bb1c4963e417439f8730a5799a8c013d86) - **chore:** address commit comments [(#5875)](https://github.com/stdlib-js/stdlib/pull/5875) _(by Karan Anand)_
