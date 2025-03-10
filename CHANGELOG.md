@@ -6903,6 +6903,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b62a24d`](https://github.com/stdlib-js/stdlib/commit/b62a24d62532fdccf36f8c66823d0d020ba532fd) - **test:** validate implementation against Julia test fixtures [(#5944)](https://github.com/stdlib-js/stdlib/pull/5944) _(by Karan Anand)_
 -   [`83b446f`](https://github.com/stdlib-js/stdlib/commit/83b446ffb685852b7d1d7d339a8e68c36b46a330) - **docs:** update namespace table of contents [(#5907)](https://github.com/stdlib-js/stdlib/pull/5907) _(by stdlib-bot)_
 -   [`6010275`](https://github.com/stdlib-js/stdlib/commit/601027582bebc4b2f76cf9ea598a9646759f6bff) - **chore:** fix EditorConfig lint errors by replacing tabs with spaces [(#5910)](https://github.com/stdlib-js/stdlib/pull/5910) _(by Dhanyabad behera)_
 -   [`0e31615`](https://github.com/stdlib-js/stdlib/commit/0e3161565a04f0f41fd52e70f9e816d9821bcb0b) - **chore(math):** replace tabs with spaces in `manifest.json` [(#5843)](https://github.com/stdlib-js/stdlib/pull/5843) _(by Anshu Kumar)_
