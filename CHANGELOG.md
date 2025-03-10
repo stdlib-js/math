@@ -6903,6 +6903,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a12b502`](https://github.com/stdlib-js/stdlib/commit/a12b5024dd873533a9fb16a01cb2760349197a2f) - **test:** validate implementation against Julia test fixtures [(#5847)](https://github.com/stdlib-js/stdlib/pull/5847) _(by Karan Anand)_
 -   [`90f8a26`](https://github.com/stdlib-js/stdlib/commit/90f8a2641c1ca3f288ff45faa65b5f6b148eb203) - **test:** validate implementation against Julia test fixtures [(#5942)](https://github.com/stdlib-js/stdlib/pull/5942) _(by Karan Anand)_
 -   [`b62a24d`](https://github.com/stdlib-js/stdlib/commit/b62a24d62532fdccf36f8c66823d0d020ba532fd) - **test:** validate implementation against Julia test fixtures [(#5944)](https://github.com/stdlib-js/stdlib/pull/5944) _(by Karan Anand)_
 -   [`83b446f`](https://github.com/stdlib-js/stdlib/commit/83b446ffb685852b7d1d7d339a8e68c36b46a330) - **docs:** update namespace table of contents [(#5907)](https://github.com/stdlib-js/stdlib/pull/5907) _(by stdlib-bot)_
