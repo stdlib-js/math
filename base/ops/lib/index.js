@@ -118,15 +118,6 @@ setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 setReadOnly( ns, 'csubf', require( './../../../base/ops/csubf' ) );
 
 /**
-* @name umuldw
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/ops/umuldw}
-*/
-setReadOnly( ns, 'umuldw', require( './../../../base/ops/umuldw' ) );
-
-/**
 * @name divf
 * @memberof ns
 * @readonly
