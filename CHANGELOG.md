@@ -5293,6 +5293,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-strided-special-deg2rad-unreleased">
+
+#### [@stdlib/math/strided/special/deg2rad](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/deg2rad)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5960](https://github.com/stdlib-js/stdlib/issues/5960)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-strided-special-dmskabs2-unreleased">
 
 #### [@stdlib/math/strided/special/dmskabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/dmskabs2)
@@ -6894,9 +6918,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 18 issues were closed in this release:
+A total of 19 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5893](https://github.com/stdlib-js/stdlib/issues/5893)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5960](https://github.com/stdlib-js/stdlib/issues/5960)
 
 </section>
 
@@ -6906,7 +6930,7 @@ A total of 18 issues were closed in this release:
 
 ### Contributors
 
-A total of 19 people contributed to this release. Thank you to the following contributors:
+A total of 20 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anshu Kumar
@@ -6919,6 +6943,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 -   Hemant M Mehta
 -   Jaison D Souza
 -   Karan Anand
+-   Kaushikgtm
 -   Krishnam Agarwal
 -   Neeraj Pathak
 -   Philipp Burckhardt
@@ -6938,6 +6963,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Kaushikgtm)_
 -   [`4748a5a`](https://github.com/stdlib-js/stdlib/commit/4748a5a2ba84c637c10515c018a9f5162f42c8ee) - **chore(sincosd):** address commit comments [(#5955)](https://github.com/stdlib-js/stdlib/pull/5955) _(by Jaison D Souza)_
 -   [`874ec3b`](https://github.com/stdlib-js/stdlib/commit/874ec3b3165424a92f43cb2bb843cf949eece5a8) - **fix:** update `math/base/special/tand` to match correct reference implementation [(#5807)](https://github.com/stdlib-js/stdlib/pull/5807) _(by Karan Anand)_
 -   [`f8fb944`](https://github.com/stdlib-js/stdlib/commit/f8fb944573e11a46abeddcf205f4efec0aa3a5ad) - **bench:** refactor benchmarks in `math/base/special/gamma` [(#5884)](https://github.com/stdlib-js/stdlib/pull/5884) _(by Gururaj Gurram)_
