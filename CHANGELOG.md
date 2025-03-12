@@ -6963,6 +6963,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9708f63`](https://github.com/stdlib-js/stdlib/commit/9708f637cb250d194c0c86cdb4605bb15c95e4a5) - **bench:** refactor benchmarks in `math/base/special/asec` [(#5959)](https://github.com/stdlib-js/stdlib/pull/5959) _(by Gururaj Gurram, Athan Reines)_
 -   [`daee91a`](https://github.com/stdlib-js/stdlib/commit/daee91a9b272effbc3d8801225957d2bbb5b44b2) - **remove:** remove `divf` from namespace [(#5958)](https://github.com/stdlib-js/stdlib/pull/5958) _(by Gururaj Gurram)_
 -   [`fccc0b2`](https://github.com/stdlib-js/stdlib/commit/fccc0b294aa5be12f8e08aa2b7085c2a978de30c) - **chore:** update `runner.jl` to follow current project conventions [(#5988)](https://github.com/stdlib-js/stdlib/pull/5988) _(by Karan Anand)_
 -   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Kaushikgtm)_
