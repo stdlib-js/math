@@ -7175,6 +7175,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e196811`](https://github.com/stdlib-js/stdlib/commit/e196811330529364e4bf889dc9df2f74f3bf5cb9) - **bench:** update random value generation [(#5987)](https://github.com/stdlib-js/stdlib/pull/5987) _(by Karan Anand)_
 -   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60) - **remove:** remove `math/base/ops/cdiv` _(by Gururaj Gurram)_
 -   [`3bad287`](https://github.com/stdlib-js/stdlib/commit/3bad287c1589abf75463bbb43311c22d4a991c22) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81) - **remove:** remove `cdiv` from namespace _(by Gururaj Gurram)_
