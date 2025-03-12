@@ -118,15 +118,6 @@ setReadOnly( ns, 'csub', require( './../../../base/ops/csub' ) );
 setReadOnly( ns, 'csubf', require( './../../../base/ops/csubf' ) );
 
 /**
-* @name divf
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/number/float32/base/div}
-*/
-setReadOnly( ns, 'divf', require( '@stdlib/number/float32/base/div' ) );
-
-/**
 * @name div
 * @memberof ns
 * @readonly

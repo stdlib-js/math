@@ -6963,6 +6963,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`daee91a`](https://github.com/stdlib-js/stdlib/commit/daee91a9b272effbc3d8801225957d2bbb5b44b2) - **remove:** remove `divf` from namespace [(#5958)](https://github.com/stdlib-js/stdlib/pull/5958) _(by Gururaj Gurram)_
 -   [`fccc0b2`](https://github.com/stdlib-js/stdlib/commit/fccc0b294aa5be12f8e08aa2b7085c2a978de30c) - **chore:** update `runner.jl` to follow current project conventions [(#5988)](https://github.com/stdlib-js/stdlib/pull/5988) _(by Karan Anand)_
 -   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Kaushikgtm)_
 -   [`4748a5a`](https://github.com/stdlib-js/stdlib/commit/4748a5a2ba84c637c10515c018a9f5162f42c8ee) - **chore(sincosd):** address commit comments [(#5955)](https://github.com/stdlib-js/stdlib/pull/5955) _(by Jaison D Souza)_

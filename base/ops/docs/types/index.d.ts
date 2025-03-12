@@ -29,7 +29,6 @@ import cneg = require( './../../../../base/ops/cneg' );
 import cnegf = require( './../../../../base/ops/cnegf' );
 import csub = require( './../../../../base/ops/csub' );
 import csubf = require( './../../../../base/ops/csubf' );
-import divf = require( '@stdlib/number/float32/base/div' );
 import div = require( '@stdlib/number/float64/base/div' );
 import mul = require( '@stdlib/number/float64/base/mul' );
 import sub = require( '@stdlib/number/float64/base/sub' );
@@ -409,35 +408,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	csubf: typeof csubf;
-
-	/**
-	* Divides two single-precision floating-point numbers `x` and `y`.
-	*
-	* @param x - first input value (divided)
-	* @param y - second input value (divisor)
-	* @returns result
-	*
-	* @example
-	* var v = ns.divf( -1.0, 5.0 );
-	* // returns ~-0.2
-	*
-	* @example
-	* var v = ns.divf( 2.0, 5.0 );
-	* // returns ~0.4
-	*
-	* @example
-	* var v = ns.divf( 0.0, 5.0 );
-	* // returns 0.0
-	*
-	* @example
-	* var v = ns.divf( -0.0, 5.0 );
-	* // returns -0.0
-	*
-	* @example
-	* var v = ns.divf( NaN, NaN );
-	* // returns NaN
-	*/
-	divf: typeof divf;
 
 	/**
 	* Divides two double-precision floating-point numbers `x` and `y`.
