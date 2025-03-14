@@ -7387,6 +7387,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c741f19`](https://github.com/stdlib-js/stdlib/commit/c741f19410c565ec113a79a399dde2181761ad94) - **bench:** update random value generation [(#6036)](https://github.com/stdlib-js/stdlib/pull/6036) _(by Karan Anand)_
 -   [`2c13316`](https://github.com/stdlib-js/stdlib/commit/2c13316e1383216d08ab1c1560ddcaf8c6ba414b) - **bench:** update random value generation [(#6037)](https://github.com/stdlib-js/stdlib/pull/6037) _(by Karan Anand)_
 -   [`216ed03`](https://github.com/stdlib-js/stdlib/commit/216ed034f920b72bd4ffc82724285333d28e33cc) - **docs:** update namespace table of contents [(#6010)](https://github.com/stdlib-js/stdlib/pull/6010) _(by stdlib-bot, Athan Reines)_
 -   [`f8e419f`](https://github.com/stdlib-js/stdlib/commit/f8e419fd8c741b7a6dd062c570fccc18cb7b2b61) - **remove:** remove `math/base/ops/cneg` _(by Gururaj Gurram)_
