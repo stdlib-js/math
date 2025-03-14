@@ -26,7 +26,6 @@ import cadd = require( '@stdlib/complex/float64/base/add' );
 import cmul = require( '@stdlib/complex/float64/base/mul' );
 import csub = require( './../../../../base/ops/csub' );
 import csubf = require( './../../../../base/ops/csubf' );
-import div = require( '@stdlib/number/float64/base/div' );
 import mul = require( '@stdlib/number/float64/base/mul' );
 import sub = require( '@stdlib/number/float64/base/sub' );
 
@@ -258,35 +257,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	csubf: typeof csubf;
-
-	/**
-	* Divides two double-precision floating-point numbers `x` and `y`.
-	*
-	* @param x - first input value (divided)
-	* @param y - second input value (divisor)
-	* @returns result
-	*
-	* @example
-	* var v = ns.div( -1.0, 5.0 );
-	* // returns -0.2
-	*
-	* @example
-	* var v = ns.div( 2.0, 5.0 );
-	* // returns 0.4
-	*
-	* @example
-	* var v = ns.div( 0.0, 5.0 );
-	* // returns 0.0
-	*
-	* @example
-	* var v = ns.div( -0.0, 5.0 );
-	* // returns -0.0
-	*
-	* @example
-	* var v = ns.div( NaN, NaN );
-	* // returns NaN
-	*/
-	div: typeof div;
 
 	/**
 	* Multiplies two double-precision floating-point numbers `x` and `y`.

@@ -387,6 +387,10 @@
 
 ##### BREAKING CHANGES
 
+-   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032): remove `div`
+
+    -   To migrate, users should access `div` via the `number/float64/base` namespace.
+
 -   [`975673b`](https://github.com/stdlib-js/stdlib/commit/975673bff1cb9bd1b313e79ad4ee7595142fe1ff): remove `cnegf`
 
     -   To migrate, users should access the same symbol via the
@@ -5751,6 +5755,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032): remove `div`
+
+    -   To migrate, users should access `div` via the `number/float64/base` namespace.
+
 -   [`bfb8cf2`](https://github.com/stdlib-js/stdlib/commit/bfb8cf278c204e83d1d3c9bae6e37553f1827345): remove `math/base/ops/cnegf`
 
     -   To migrate, users should update their require/import paths to use
@@ -7599,6 +7607,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032) - **remove:** remove `div` from namespace _(by Gururaj Gurram)_
 -   [`bfb8cf2`](https://github.com/stdlib-js/stdlib/commit/bfb8cf278c204e83d1d3c9bae6e37553f1827345) - **remove:** remove `math/base/ops/cnegf` _(by Gururaj Gurram)_
 -   [`bde09b5`](https://github.com/stdlib-js/stdlib/commit/bde09b5464e1faab4b01b03509626755c661db20) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`975673b`](https://github.com/stdlib-js/stdlib/commit/975673bff1cb9bd1b313e79ad4ee7595142fe1ff) - **remove:** remove `cnegf` from namespace _(by Gururaj Gurram)_
