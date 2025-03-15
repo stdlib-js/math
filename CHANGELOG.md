@@ -387,6 +387,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`9135b25`](https://github.com/stdlib-js/stdlib/commit/9135b2502ee1a115427811d3f318e61bfdabfbdb): remove `csubf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float32/base/sub` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536): remove `mul`
 
     -   To migrate, users should access the same symbol in the `number/float64/base` namespace.
@@ -1694,6 +1744,78 @@
 
     -   To migrate, users should update their require/import paths to use
         `@stdlib/complex/float64/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-csubf-unreleased">
+
+#### [@stdlib/math/base/ops/csubf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csubf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6): remove `math/base/ops/csubf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex/float32/base/sub` which provides the same API and
         implementation.
         Ref: https://github.com/stdlib-js/stdlib/issues/2261
         ---
@@ -5881,6 +6003,108 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6): remove `math/base/ops/csubf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex/float32/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`9135b25`](https://github.com/stdlib-js/stdlib/commit/9135b2502ee1a115427811d3f318e61bfdabfbdb): remove `csubf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float32/base/sub` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536): remove `mul`
 
     -   To migrate, users should access the same symbol in the `number/float64/base` namespace.
@@ -7839,6 +8063,9 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6) - **remove:** remove `math/base/ops/csubf` _(by Gururaj Gurram)_
+-   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9135b25`](https://github.com/stdlib-js/stdlib/commit/9135b2502ee1a115427811d3f318e61bfdabfbdb) - **remove:** remove `csubf` from namespace _(by Gururaj Gurram)_
 -   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536) - **remove:** remove `mul` from namespace _(by Gururaj Gurram)_
 -   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5) - **remove:** remove `math/base/ops/csub` _(by Gururaj Gurram)_
 -   [`c7c1fb3`](https://github.com/stdlib-js/stdlib/commit/c7c1fb325f010a77313c58bfd51598af47720d89) - **refactor:** update paths _(by Gururaj Gurram)_
