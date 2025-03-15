@@ -21,7 +21,7 @@
 // MODULES //
 
 var sub = require( '@stdlib/number/float64/base/sub' );
-var csub = require( './../../../../base/ops/csub' );
+var csub = require( '@stdlib/complex/float64/base/sub' );
 var csubf = require( './../../../../base/ops/csubf' );
 var callbacks = require( '@stdlib/strided/base/binary-signature-callbacks' );
 var types = require( './types.js' );

@@ -387,6 +387,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be): remove `csub`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032): remove `div`
 
     -   To migrate, users should access `div` via the `number/float64/base` namespace.
@@ -1568,6 +1618,78 @@
 
     -   To migrate, users should update their require/import paths to use
         `@stdlib/complex/float32/base/neg` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-csub-unreleased">
+
+#### [@stdlib/math/base/ops/csub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csub)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5): remove `math/base/ops/csub`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex/float64/base/sub` which provides the same API and
         implementation.
         Ref: https://github.com/stdlib-js/stdlib/issues/2261
         ---
@@ -5755,6 +5877,108 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5): remove `math/base/ops/csub`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex/float64/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be): remove `csub`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032): remove `div`
 
     -   To migrate, users should access `div` via the `number/float64/base` namespace.
@@ -7607,6 +7831,9 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5) - **remove:** remove `math/base/ops/csub` _(by Gururaj Gurram)_
+-   [`c7c1fb3`](https://github.com/stdlib-js/stdlib/commit/c7c1fb325f010a77313c58bfd51598af47720d89) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be) - **remove:** remove `csub` from namespace _(by Gururaj Gurram)_
 -   [`5cc0967`](https://github.com/stdlib-js/stdlib/commit/5cc0967af847836f11be2f3ce41f56c2d5345530) - **docs:** update namespace table of contents [(#6060)](https://github.com/stdlib-js/stdlib/pull/6060) _(by stdlib-bot)_
 -   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032) - **remove:** remove `div` from namespace _(by Gururaj Gurram)_
 -   [`bfb8cf2`](https://github.com/stdlib-js/stdlib/commit/bfb8cf278c204e83d1d3c9bae6e37553f1827345) - **remove:** remove `math/base/ops/cnegf` _(by Gururaj Gurram)_
