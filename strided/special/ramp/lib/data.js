@@ -24,7 +24,7 @@
 
 var ramp = require( './../../../../base/special/ramp' );
 var rampf = require( './../../../../base/special/rampf' );
-var identity = require( './../../../../base/special/identity' );
+var identity = require( '@stdlib/number/float64/base/identity' );
 
 
 // MAIN //

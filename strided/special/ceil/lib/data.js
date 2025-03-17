@@ -24,7 +24,7 @@
 
 var ceil = require( './../../../../base/special/ceil' );
 var ceilf = require( './../../../../base/special/ceilf' );
-var identity = require( './../../../../base/special/identity' );
+var identity = require( '@stdlib/number/float64/base/identity' );
 
 
 // MAIN //

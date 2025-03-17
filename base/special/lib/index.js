@@ -1450,15 +1450,6 @@ setReadOnly( special, 'hypot', require( './../../../base/special/hypot' ) );
 setReadOnly( special, 'hypotf', require( './../../../base/special/hypotf' ) );
 
 /**
-* @name identity
-* @memberof special
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/special/identity}
-*/
-setReadOnly( special, 'identity', require( './../../../base/special/identity' ) );
-
-/**
 * @name identityf
 * @memberof special
 * @readonly

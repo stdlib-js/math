@@ -220,7 +220,7 @@ int main() {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/math/base/special/cidentityf`][@stdlib/math/base/special/cidentityf]</span><span class="delimiter">: </span><span class="description">evaluate the identity function for a single-precision complex floating-point number.</span>
--   <span class="package-name">[`@stdlib/math/base/special/identity`][@stdlib/math/base/special/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function for a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/number/float64/base/identity`][@stdlib/number/float64/base/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function for a double-precision floating-point number.</span>
 
 </section>
 
@@ -238,7 +238,7 @@ int main() {
 
 [@stdlib/math/base/special/cidentityf]: https://github.com/stdlib-js/math/tree/main/base/special/cidentityf
 
-[@stdlib/math/base/special/identity]: https://github.com/stdlib-js/math/tree/main/base/special/identity
+[@stdlib/number/float64/base/identity]: https://github.com/stdlib-js/number-float64-base-identity
 
 <!-- </related-links> -->
 

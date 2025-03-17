@@ -24,7 +24,7 @@
 
 var floor = require( './../../../../base/special/floor' );
 var floorf = require( './../../../../base/special/floorf' );
-var identity = require( './../../../../base/special/identity' );
+var identity = require( '@stdlib/number/float64/base/identity' );
 
 
 // MAIN //

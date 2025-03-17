@@ -25,7 +25,7 @@
 var abs = require( './../../../base/special/abs' );
 var absf = require( './../../../base/special/absf' );
 var labs = require( './../../../base/special/labs' );
-var identity = require( './../../../base/special/identity' );
+var identity = require( '@stdlib/number/float64/base/identity' );
 
 
 // MAIN //

@@ -24,7 +24,7 @@
 
 var trunc = require( './../../../../base/special/trunc' );
 var truncf = require( './../../../../base/special/truncf' );
-var identity = require( './../../../../base/special/identity' );
+var identity = require( '@stdlib/number/float64/base/identity' );
 
 
 // MAIN //
