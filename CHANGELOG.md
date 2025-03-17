@@ -2879,6 +2879,56 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
+-   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa): remove `identityf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number/float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`3fa0763`](https://github.com/stdlib-js/stdlib/commit/3fa0763e1264cb2d9b3560735aa57e51c66ff2de): remove `identity`
 
     -   To migrate, users should access the same symbol via the
@@ -4608,6 +4658,78 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-identityf-unreleased">
+
+#### [@stdlib/math/base/special/identityf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/identityf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1): remove `math/base/special/identityf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number/float32/base/identityf` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-kernel-tan-unreleased">
 
 #### [@stdlib/math/base/special/kernel-tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-tan)
@@ -6169,6 +6291,108 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1): remove `math/base/special/identityf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number/float32/base/identityf` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa): remove `identityf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number/float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848): remove `caddf`
 
@@ -8344,6 +8568,9 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1) - **remove:** remove `math/base/special/identityf` _(by Gururaj Gurram)_
+-   [`74b15bb`](https://github.com/stdlib-js/stdlib/commit/74b15bba6c22bcdd23d61a4e8996a59c7ef0f041) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa) - **remove:** remove `identityf` from namespace _(by Gururaj Gurram)_
 -   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848) - **remove:** remove `caddf` from namespace [(#6120)](https://github.com/stdlib-js/stdlib/pull/6120) _(by Gururaj Gurram)_
 -   [`77d3b84`](https://github.com/stdlib-js/stdlib/commit/77d3b84fcc127a32ccce5f9d9abccac7a41b52ea) - **chore:** rename variable for consistency [(#6113)](https://github.com/stdlib-js/stdlib/pull/6113) _(by Harsh)_
 -   [`7ec867d`](https://github.com/stdlib-js/stdlib/commit/7ec867d8e7c398f6b6774ccc35ff093a090e913f) - **chore:** resolve JavaScript lint errors [(#5967)](https://github.com/stdlib-js/stdlib/pull/5967) _(by Gautam sharma, Aayush Khanna)_
