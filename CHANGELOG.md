@@ -5927,6 +5927,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-strided-special-dmskinv-unreleased">
+
+#### [@stdlib/math/strided/special/dmskinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/dmskinv)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6083](https://github.com/stdlib-js/stdlib/issues/6083)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-strided-special-dmskrsqrt-unreleased">
 
 #### [@stdlib/math/strided/special/dmskrsqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/dmskrsqrt)
@@ -8026,9 +8050,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 19 issues were closed in this release:
+A total of 20 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5960](https://github.com/stdlib-js/stdlib/issues/5960)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6083](https://github.com/stdlib-js/stdlib/issues/6083)
 
 </section>
 
@@ -8038,7 +8062,7 @@ A total of 19 issues were closed in this release:
 
 ### Contributors
 
-A total of 20 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anshu Kumar
@@ -8060,6 +8084,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 -   Vivek Maurya
 -   Yugal Kaushik
 -   ditsu
+-   satansin123
 
 </section>
 
@@ -8071,6 +8096,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`21cdb49`](https://github.com/stdlib-js/stdlib/commit/21cdb496f2a3fafe672022e1be0e261949f88a27) - **chore:** fix EditorConfig lint errors [(#6086)](https://github.com/stdlib-js/stdlib/pull/6086) _(by satansin123, Aayush Khanna, stdlib-bot)_
 -   [`b93bbb1`](https://github.com/stdlib-js/stdlib/commit/b93bbb19d5f3142b563064cfc732640ee0659e2c) - **docs:** replace manual `for` loop in examples _(by Athan Reines)_
 -   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3) - **remove:** remove `sub` from namespace _(by Gururaj Gurram)_
 -   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6) - **remove:** remove `math/base/ops/csubf` _(by Gururaj Gurram)_
