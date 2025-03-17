@@ -387,6 +387,11 @@
 
 ##### BREAKING CHANGES
 
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848): remove `caddf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float32/base` namespace.
+
 -   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3): remove `sub`
 
     -   To migrate, users should access the same symbol via the `number/float64/base` namespace.
@@ -6165,6 +6170,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848): remove `caddf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float32/base` namespace.
+
 -   [`640dfe9`](https://github.com/stdlib-js/stdlib/commit/640dfe977495e9b320a64ab326e5ff5330a1fd8b): remove `math/base/special/identity`
 
     -   To migrate, users should update their require/import paths to use
@@ -8334,6 +8344,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848) - **remove:** remove `caddf` from namespace [(#6120)](https://github.com/stdlib-js/stdlib/pull/6120) _(by Gururaj Gurram)_
 -   [`77d3b84`](https://github.com/stdlib-js/stdlib/commit/77d3b84fcc127a32ccce5f9d9abccac7a41b52ea) - **chore:** rename variable for consistency [(#6113)](https://github.com/stdlib-js/stdlib/pull/6113) _(by Harsh)_
 -   [`7ec867d`](https://github.com/stdlib-js/stdlib/commit/7ec867d8e7c398f6b6774ccc35ff093a090e913f) - **chore:** resolve JavaScript lint errors [(#5967)](https://github.com/stdlib-js/stdlib/pull/5967) _(by Gautam sharma, Aayush Khanna)_
 -   [`640dfe9`](https://github.com/stdlib-js/stdlib/commit/640dfe977495e9b320a64ab326e5ff5330a1fd8b) - **remove:** remove `math/base/special/identity` _(by Gururaj Gurram)_
