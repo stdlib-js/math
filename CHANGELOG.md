@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-16)
+## Unreleased (2025-03-17)
 
 <section class="packages">
 
@@ -8071,6 +8071,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b93bbb1`](https://github.com/stdlib-js/stdlib/commit/b93bbb19d5f3142b563064cfc732640ee0659e2c) - **docs:** replace manual `for` loop in examples _(by Athan Reines)_
 -   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3) - **remove:** remove `sub` from namespace _(by Gururaj Gurram)_
 -   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6) - **remove:** remove `math/base/ops/csubf` _(by Gururaj Gurram)_
 -   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
