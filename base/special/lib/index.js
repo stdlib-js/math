@@ -721,15 +721,6 @@ setReadOnly( special, 'cfloor', require( './../../../base/special/cfloor' ) );
 setReadOnly( special, 'cfloorn', require( './../../../base/special/cfloorn' ) );
 
 /**
-* @name cidentity
-* @memberof special
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/math/base/special/cidentity}
-*/
-setReadOnly( special, 'cidentity', require( './../../../base/special/cidentity' ) );
-
-/**
 * @name cidentityf
 * @memberof special
 * @readonly
