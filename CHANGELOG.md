@@ -387,6 +387,11 @@
 
 ##### BREAKING CHANGES
 
+-   [`cec0ff2`](https://github.com/stdlib-js/stdlib/commit/cec0ff2dd184b40e4253affb9656633e2832a341): remove `cadd`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float64/base` namespace.
+
 -   [`26a8bde`](https://github.com/stdlib-js/stdlib/commit/26a8bde129651f72cf48f5dffd93a94793879103): remove `cmulf`
 
     -   To migrate, users should access the same symbol via the
@@ -6419,6 +6424,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`cec0ff2`](https://github.com/stdlib-js/stdlib/commit/cec0ff2dd184b40e4253affb9656633e2832a341): remove `cadd`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float64/base` namespace.
+
 -   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007): remove `math/base/special/cidentity`
 
     -   To migrate, users should update their require/import paths to use
@@ -8802,6 +8812,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cec0ff2`](https://github.com/stdlib-js/stdlib/commit/cec0ff2dd184b40e4253affb9656633e2832a341) - **remove:** remove `cadd` from namespace [(#6144)](https://github.com/stdlib-js/stdlib/pull/6144) _(by Gururaj Gurram)_
 -   [`b6ae0c9`](https://github.com/stdlib-js/stdlib/commit/b6ae0c97e3badc205cd9e6a81ff7c9d1838851c5) - **docs:** update namespace table of contents [(#6139)](https://github.com/stdlib-js/stdlib/pull/6139) _(by stdlib-bot)_
 -   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007) - **remove:** remove `math/base/special/cidentity` _(by Gururaj Gurram)_
 -   [`74826d6`](https://github.com/stdlib-js/stdlib/commit/74826d6d9c5c800da64c3a9821a511fef2fd0a67) - **refactor:** update paths _(by Gururaj Gurram)_
