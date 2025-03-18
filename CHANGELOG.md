@@ -8802,6 +8802,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b6ae0c9`](https://github.com/stdlib-js/stdlib/commit/b6ae0c97e3badc205cd9e6a81ff7c9d1838851c5) - **docs:** update namespace table of contents [(#6139)](https://github.com/stdlib-js/stdlib/pull/6139) _(by stdlib-bot)_
 -   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007) - **remove:** remove `math/base/special/cidentity` _(by Gururaj Gurram)_
 -   [`74826d6`](https://github.com/stdlib-js/stdlib/commit/74826d6d9c5c800da64c3a9821a511fef2fd0a67) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`0ebeaf8`](https://github.com/stdlib-js/stdlib/commit/0ebeaf89ad1af59fb5e998d259d717a588fdcbb3) - **remove:** remove `cidentity` from namespace _(by Gururaj Gurram)_
