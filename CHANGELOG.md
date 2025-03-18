@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-03-18)
 
 <section class="packages">
 
@@ -386,6 +386,11 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`26a8bde`](https://github.com/stdlib-js/stdlib/commit/26a8bde129651f72cf48f5dffd93a94793879103): remove `cmulf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float32/base` namespace.
 
 -   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848): remove `caddf`
 
@@ -6292,6 +6297,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`26a8bde`](https://github.com/stdlib-js/stdlib/commit/26a8bde129651f72cf48f5dffd93a94793879103): remove `cmulf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex/float32/base` namespace.
+
 -   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1): remove `math/base/special/identityf`
 
     -   To migrate, users should update their require/import paths to use
@@ -8568,6 +8578,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`26a8bde`](https://github.com/stdlib-js/stdlib/commit/26a8bde129651f72cf48f5dffd93a94793879103) - **remove:** remove `cmulf` from namespace [(#6124)](https://github.com/stdlib-js/stdlib/pull/6124) _(by Gururaj Gurram)_
 -   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1) - **remove:** remove `math/base/special/identityf` _(by Gururaj Gurram)_
 -   [`74b15bb`](https://github.com/stdlib-js/stdlib/commit/74b15bba6c22bcdd23d61a4e8996a59c7ef0f041) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa) - **remove:** remove `identityf` from namespace _(by Gururaj Gurram)_
