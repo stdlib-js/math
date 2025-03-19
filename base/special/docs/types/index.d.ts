@@ -96,7 +96,6 @@ import cflipsign = require( './../../../../base/special/cflipsign' );
 import cflipsignf = require( './../../../../base/special/cflipsignf' );
 import cfloor = require( './../../../../base/special/cfloor' );
 import cfloorn = require( './../../../../base/special/cfloorn' );
-import cidentityf = require( './../../../../base/special/cidentityf' );
 import cinv = require( './../../../../base/special/cinv' );
 import clamp = require( './../../../../base/special/clamp' );
 import clampf = require( './../../../../base/special/clampf' );
@@ -2401,28 +2400,6 @@ interface Namespace {
 	* // returns -3.34
 	*/
 	cfloorn: typeof cfloorn;
-
-	/**
-	* Evaluates the identity function for single-precision complex floating-point number.
-	*
-	* @param z - input value
-	* @returns input value
-	*
-	* @example
-	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
-	* var real = require( '@stdlib/complex/float32/real' );
-	* var imag = require( '@stdlib/complex/float32/imag' );
-	*
-	* var v = ns.cidentityf( new Complex64( -1.0, 2.0 ) );
-	* // returns <Complex64>
-	*
-	* var re = real( v );
-	* // returns -1.0
-	*
-	* var im = imag( v );
-	* // returns 2.0
-	*/
-	cidentityf: typeof cidentityf;
 
 	/**
 	* Computes the inverse of a double-precision complex floating-point number.
