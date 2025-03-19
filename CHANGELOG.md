@@ -5818,6 +5818,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-roundn-unreleased">
+
+#### [@stdlib/math/base/special/roundn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundn)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6005](https://github.com/stdlib-js/stdlib/issues/6005)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-rsqrt-unreleased">
 
 #### [@stdlib/math/base/special/rsqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rsqrt)
@@ -8988,9 +9012,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 21 issues were closed in this release:
+A total of 22 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6083](https://github.com/stdlib-js/stdlib/issues/6083)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6083](https://github.com/stdlib-js/stdlib/issues/6083)
 
 </section>
 
@@ -9000,7 +9024,7 @@ A total of 21 issues were closed in this release:
 
 ### Contributors
 
-A total of 23 people contributed to this release. Thank you to the following contributors:
+A total of 24 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anshu Kumar
@@ -9014,6 +9038,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 -   Harsh
 -   Hemant M Mehta
 -   Jaison D Souza
+-   Jay Soni
 -   Karan Anand
 -   Kaushikgtm
 -   Krishnam Agarwal
@@ -9036,6 +9061,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8959b08`](https://github.com/stdlib-js/stdlib/commit/8959b0832d8a7d7f9ed8f56b43b7866af72554bd) - **chore:** fix C lint errors [(#6194)](https://github.com/stdlib-js/stdlib/pull/6194) _(by Jay Soni)_
 -   [`2dcec61`](https://github.com/stdlib-js/stdlib/commit/2dcec616498aa8ccab060bd761a9fd626f00035e) - **remove:** remove `math/base/special/cidentityf` _(by Gururaj Gurram)_
 -   [`845e64a`](https://github.com/stdlib-js/stdlib/commit/845e64a2f7e12bd60729097230774569b2d4954e) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`f4a06d9`](https://github.com/stdlib-js/stdlib/commit/f4a06d9b7c3a5075166a8af3cb3643798f35cc2f) - **remove:** remove `cidentityf` from namespace _(by Gururaj Gurram)_
