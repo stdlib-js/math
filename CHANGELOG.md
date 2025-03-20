@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-19)
+## Unreleased (2025-03-20)
 
 <section class="packages">
 
@@ -9061,6 +9061,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d39d0fa`](https://github.com/stdlib-js/stdlib/commit/d39d0fa9bc25909af6cbfc07c18c88a1dd7c3ce6) - **docs:** update namespace table of contents [(#6218)](https://github.com/stdlib-js/stdlib/pull/6218) _(by stdlib-bot)_
 -   [`3de5b71`](https://github.com/stdlib-js/stdlib/commit/3de5b71fc9452ae74354907e2c346a7c1e92b4a8) - **bench:** update random value generation [(#6158)](https://github.com/stdlib-js/stdlib/pull/6158) _(by Harsh)_
 -   [`44d40da`](https://github.com/stdlib-js/stdlib/commit/44d40dac55720aa7f822fb97bb0c6d4ca0599cf8) - **bench:** update random value generation [(#6160)](https://github.com/stdlib-js/stdlib/pull/6160) _(by Harsh)_
 -   [`1f50c39`](https://github.com/stdlib-js/stdlib/commit/1f50c39f80b82063df058f738e1798e192ca0911) - **bench:** update random value generation [(#6164)](https://github.com/stdlib-js/stdlib/pull/6164) _(by Harsh)_
