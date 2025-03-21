@@ -361,6 +361,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-napi-unary-unreleased">
+
+#### [@stdlib/math/base/napi/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/unary)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-ops-unreleased">
 
 #### [@stdlib/math/base/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops)
@@ -9060,6 +9082,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - **feat:** add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253) _(by Karan Anand, Athan Reines)_
 -   [`15e183d`](https://github.com/stdlib-js/stdlib/commit/15e183d2511a067e373aee356f8b36ce5717278a) - **docs:** update namespace TypeScript declarations [(#6242)](https://github.com/stdlib-js/stdlib/pull/6242) _(by stdlib-bot)_
 -   [`d20e133`](https://github.com/stdlib-js/stdlib/commit/d20e1335e8ca73bb8821c01a654416040ea3588e) - **bench:** update random value generation [(#6231)](https://github.com/stdlib-js/stdlib/pull/6231) _(by Harsh, Athan Reines)_
 -   [`dfb9b3f`](https://github.com/stdlib-js/stdlib/commit/dfb9b3fcfd3506427d3965ab98a1fe7953c92e24) - **bench:** update random value generation [(#6234)](https://github.com/stdlib-js/stdlib/pull/6234) _(by Harsh, Athan Reines)_
