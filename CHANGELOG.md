@@ -9060,6 +9060,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d20e133`](https://github.com/stdlib-js/stdlib/commit/d20e1335e8ca73bb8821c01a654416040ea3588e) - **bench:** update random value generation [(#6231)](https://github.com/stdlib-js/stdlib/pull/6231) _(by Harsh, Athan Reines)_
 -   [`dfb9b3f`](https://github.com/stdlib-js/stdlib/commit/dfb9b3fcfd3506427d3965ab98a1fe7953c92e24) - **bench:** update random value generation [(#6234)](https://github.com/stdlib-js/stdlib/pull/6234) _(by Harsh, Athan Reines)_
 -   [`811e510`](https://github.com/stdlib-js/stdlib/commit/811e5106adc9ab855d7992985e1719fc25642125) - **bench:** update random value generation [(#6232)](https://github.com/stdlib-js/stdlib/pull/6232) _(by Harsh, Athan Reines)_
 -   [`97ed648`](https://github.com/stdlib-js/stdlib/commit/97ed6482bfa82bba41232501323afca2d7e4d95c) - **docs:** add returns annotations _(by Philipp Burckhardt)_
