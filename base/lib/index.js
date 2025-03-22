@@ -50,15 +50,6 @@ var ns = {};
 setReadOnly( ns, 'assert', require( './../../base/assert' ) );
 
 /**
-* @name ops
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/math/base/ops}
-*/
-setReadOnly( ns, 'ops', require( './../../base/ops' ) );
-
-/**
 * @name special
 * @memberof ns
 * @readonly

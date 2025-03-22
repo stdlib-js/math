@@ -21,7 +21,6 @@
 /* eslint-disable max-lines */
 
 import assert = require( './../../../base/assert' );
-import ops = require( './../../../base/ops' );
 import special = require( './../../../base/special' );
 import tools = require( './../../../base/tools' );
 import utils = require( './../../../base/utils' );
@@ -34,11 +33,6 @@ interface Namespace {
 	* Base mathematical assertion utilities.
 	*/
 	assert: typeof assert;
-
-	/**
-	* Base (i.e., lower-level) math operators.
-	*/
-	ops: typeof ops;
 
 	/**
 	* Base (i.e., lower-level) special math functions.

@@ -222,6 +222,74 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-unreleased">
+
+#### [@stdlib/math/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`dc3f40e`](https://github.com/stdlib-js/stdlib/commit/dc3f40ee482c788aa64b5e18840f9ca914044b1a): remove `ops`
+
+    -   ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-assert-is-evenf-unreleased">
 
 #### [@stdlib/math/base/assert/is-evenf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-evenf)
@@ -408,6 +476,55 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed): remove `math/base/ops`
+
+    -   Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`cec0ff2`](https://github.com/stdlib-js/stdlib/commit/cec0ff2dd184b40e4253affb9656633e2832a341): remove `cadd`
 
@@ -6603,6 +6720,103 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed): remove `math/base/ops`
+
+    -   Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`dc3f40e`](https://github.com/stdlib-js/stdlib/commit/dc3f40ee482c788aa64b5e18840f9ca914044b1a): remove `ops`
+
+    -   ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`2dcec61`](https://github.com/stdlib-js/stdlib/commit/2dcec616498aa8ccab060bd761a9fd626f00035e): remove `math/base/special/cidentityf`
 
     -   To migrate, users should update their require/import paths to use
@@ -9095,6 +9309,9 @@ A total of 25 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed) - **remove:** remove `math/base/ops` _(by Gururaj Gurram)_
+-   [`e1f1349`](https://github.com/stdlib-js/stdlib/commit/e1f134937128a2c37019d10b0763f720da3d0890) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`dc3f40e`](https://github.com/stdlib-js/stdlib/commit/dc3f40ee482c788aa64b5e18840f9ca914044b1a) - **remove:** remove `ops` from namespace _(by Gururaj Gurram)_
 -   [`b103cae`](https://github.com/stdlib-js/stdlib/commit/b103caebeb565cdcdc08a76cd131ad1ea0b55a27) - **bench:** update random value generation [(#6301)](https://github.com/stdlib-js/stdlib/pull/6301) _(by Harsh, stdlib-bot)_
 -   [`6187773`](https://github.com/stdlib-js/stdlib/commit/6187773d4d95c73e0e8a8f6c43dcd53d5323f9d2) - **bench:** update random value generation [(#6298)](https://github.com/stdlib-js/stdlib/pull/6298) _(by Harsh)_
 -   [`44445ab`](https://github.com/stdlib-js/stdlib/commit/44445ab0a65a29e3bb593a11f87d9035e552474f) - **bench:** update random value generation [(#6302)](https://github.com/stdlib-js/stdlib/pull/6302) _(by Harsh)_
