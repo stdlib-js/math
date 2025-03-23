@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-22)
+## Unreleased (2025-03-23)
 
 <section class="packages">
 
@@ -9309,6 +9309,7 @@ A total of 25 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`235d042`](https://github.com/stdlib-js/stdlib/commit/235d0424bb02a096a281d3cfde0b596492127519) - **docs:** use correct function name [(#6323)](https://github.com/stdlib-js/stdlib/pull/6323) _(by Karan Anand)_
 -   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed) - **remove:** remove `math/base/ops` _(by Gururaj Gurram)_
 -   [`e1f1349`](https://github.com/stdlib-js/stdlib/commit/e1f134937128a2c37019d10b0763f720da3d0890) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`dc3f40e`](https://github.com/stdlib-js/stdlib/commit/dc3f40ee482c788aa64b5e18840f9ca914044b1a) - **remove:** remove `ops` from namespace _(by Gururaj Gurram)_
