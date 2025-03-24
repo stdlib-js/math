@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-23)
+## Unreleased (2025-03-24)
 
 <section class="packages">
 
@@ -9334,6 +9334,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`83ae24b`](https://github.com/stdlib-js/stdlib/commit/83ae24b63045e64818375fa4765cfd3c1eed1b97) - **bench:** update random value generation [(#6331)](https://github.com/stdlib-js/stdlib/pull/6331) _(by Harsh)_
 -   [`9980e59`](https://github.com/stdlib-js/stdlib/commit/9980e591455a4b5a51c3014f2bf43f3ab6dcc5d9) - **chore:** fix JavaScript lint errors [(#6324)](https://github.com/stdlib-js/stdlib/pull/6324) _(by Kavyansh-Bagdi)_
 -   [`235d042`](https://github.com/stdlib-js/stdlib/commit/235d0424bb02a096a281d3cfde0b596492127519) - **docs:** use correct function name [(#6323)](https://github.com/stdlib-js/stdlib/pull/6323) _(by Karan Anand)_
 -   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed) - **remove:** remove `math/base/ops` _(by Gururaj Gurram)_
