@@ -9384,6 +9384,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ef90f52`](https://github.com/stdlib-js/stdlib/commit/ef90f526214e3797a5cf1db3fb7e0e79155ac7d5) - **chore:** replace `pow` with `stdlib_base_pow` [(#6366)](https://github.com/stdlib-js/stdlib/pull/6366) _(by Karan Anand)_
 -   [`6001e62`](https://github.com/stdlib-js/stdlib/commit/6001e62175bc901f0ca23e6b8854b88075d0c869) - **refactor:** replace `evalpoly` with compiled polyval functions [(#6368)](https://github.com/stdlib-js/stdlib/pull/6368) _(by Karan Anand)_
 -   [`b72f445`](https://github.com/stdlib-js/stdlib/commit/b72f44598bf4a0bbcf3e5ddba485dbf79e58981f) - **refactor:** replace separate `sin` and `cos` calls with `sincos` [(#6365)](https://github.com/stdlib-js/stdlib/pull/6365) _(by Karan Anand)_
 -   [`9ba3f82`](https://github.com/stdlib-js/stdlib/commit/9ba3f820c5e048c65a7aadb97ae178b40774b315) - **chore:** update random value generation and test messages [(#6343)](https://github.com/stdlib-js/stdlib/pull/6343) _(by Harsh)_
