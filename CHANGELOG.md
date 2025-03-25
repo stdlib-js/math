@@ -9384,6 +9384,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e71eb03`](https://github.com/stdlib-js/stdlib/commit/e71eb032c2960ae3f10071bc005e987a7718aba6) - **bench:** update random value generation [(#6349)](https://github.com/stdlib-js/stdlib/pull/6349) _(by Harsh)_
 -   [`90b8cb0`](https://github.com/stdlib-js/stdlib/commit/90b8cb0661088133ece286e2c9f9be687a83a59b) - **docs:** fix example values [(#6362)](https://github.com/stdlib-js/stdlib/pull/6362) _(by Karan Anand)_
 -   [`2e1dd43`](https://github.com/stdlib-js/stdlib/commit/2e1dd438de6a412fcb94d486933a61709fd250ab) - **chore:** replace manual `for` loop in examples [(#6351)](https://github.com/stdlib-js/stdlib/pull/6351) _(by Harsh)_
 -   [`42aab9b`](https://github.com/stdlib-js/stdlib/commit/42aab9b7f3e2cb90710712f21c7e4d2b613b6a9d) - **feat:** update `math/base/special/cabsf` to accept stdlib complex numbers [(#3358)](https://github.com/stdlib-js/stdlib/pull/3358) _(by Aayush Khanna, stdlib-bot)_
