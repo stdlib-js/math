@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-27)
+## Unreleased (2025-03-28)
 
 <section class="packages">
 
@@ -9397,6 +9397,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d6e3fd4`](https://github.com/stdlib-js/stdlib/commit/d6e3fd4cd923481eeb8ca637cd6ec487ae5492f1) - **chore:** remove obsolete accuracy scripts in `acosh` [(#6409)](https://github.com/stdlib-js/stdlib/pull/6409) _(by Karan Anand)_
 -   [`8839ab9`](https://github.com/stdlib-js/stdlib/commit/8839ab90e8b42266b86fbcec4954bb78edce656b) - **style:** disable lint rule [(#6404)](https://github.com/stdlib-js/stdlib/pull/6404) _(by SAHIL KUMAR)_
 -   [`6c34fb7`](https://github.com/stdlib-js/stdlib/commit/6c34fb73a0fc81142c09c1002c2e2c64e21dd018) - **bench:** update random value generation [(#6414)](https://github.com/stdlib-js/stdlib/pull/6414) _(by Harsh)_
 -   [`0c7aeae`](https://github.com/stdlib-js/stdlib/commit/0c7aeae1d2be1dd2c4766a2131c0fb26ba4c6420) - **docs:** update namespace TypeScript declarations [(#6386)](https://github.com/stdlib-js/stdlib/pull/6386) _(by stdlib-bot)_
