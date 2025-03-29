@@ -9397,6 +9397,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7f74294`](https://github.com/stdlib-js/stdlib/commit/7f7429488d85514b016581098e1faefab81f8034) - **bench:** update random value generation [(#6428)](https://github.com/stdlib-js/stdlib/pull/6428) _(by Harsh)_
 -   [`a644ffe`](https://github.com/stdlib-js/stdlib/commit/a644ffeba579430f342444b80fa9d21cc4a635f4) - **chore:** remove obsolete accuracy and precision scripts [(#6435)](https://github.com/stdlib-js/stdlib/pull/6435) _(by Karan Anand)_
 -   [`2db8e90`](https://github.com/stdlib-js/stdlib/commit/2db8e905c9b92be0062c8faafe79dbd626ce10f2) - **bench:** fix invalid array indexing [(#6434)](https://github.com/stdlib-js/stdlib/pull/6434) _(by Karan Anand)_
 -   [`57efa3d`](https://github.com/stdlib-js/stdlib/commit/57efa3d9de9c4c2f0a94387079e356dad7649a40) - **chore:** rename C files to follow current project conventions [(#6410)](https://github.com/stdlib-js/stdlib/pull/6410) _(by Karan Anand, stdlib-bot)_
