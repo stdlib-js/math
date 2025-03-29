@@ -9397,6 +9397,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b6667b9`](https://github.com/stdlib-js/stdlib/commit/b6667b9be170d2a64db2d075cec22539b0125187) - **chore:** replace manual `for` loop in examples [(#6350)](https://github.com/stdlib-js/stdlib/pull/6350) _(by Harsh)_
 -   [`d8a20bb`](https://github.com/stdlib-js/stdlib/commit/d8a20bb7b928d03a81a570edec5cc0e2e6e74b99) - **chore:** use `FLOAT64_MAX_SAFE_NTH_FACTORIAL` [(#6370)](https://github.com/stdlib-js/stdlib/pull/6370) _(by Karan Anand)_
 -   [`3bc9214`](https://github.com/stdlib-js/stdlib/commit/3bc921468809e515391760ff43e78f66a263f188) - **chore:** use `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` [(#6363)](https://github.com/stdlib-js/stdlib/pull/6363) _(by Karan Anand)_
 -   [`3408293`](https://github.com/stdlib-js/stdlib/commit/340829337789351817a297fd78fac9fc96b1701a) - **refactor:** replace `pow` with `stdlib_base_pow` [(#6369)](https://github.com/stdlib-js/stdlib/pull/6369) _(by Karan Anand)_
