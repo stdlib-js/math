@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-03-30)
 
 <section class="packages">
 
@@ -9397,6 +9397,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8d343e1`](https://github.com/stdlib-js/stdlib/commit/8d343e192c75b0c60451e996351ccf276b49f2c4) - **bench:** update random value generation [(#6398)](https://github.com/stdlib-js/stdlib/pull/6398) _(by Harsh)_
 -   [`07b51a4`](https://github.com/stdlib-js/stdlib/commit/07b51a4996fa515e6a2595413027b1fa670f7503) - **bench:** update random value generation [(#6378)](https://github.com/stdlib-js/stdlib/pull/6378) _(by Harsh, Philipp Burckhardt)_
 -   [`cb2ef9b`](https://github.com/stdlib-js/stdlib/commit/cb2ef9bad19f6adf8735316ea672facec6656ca2) - **bench:** add C native benchmarks and missing variable declaration [(#6443)](https://github.com/stdlib-js/stdlib/pull/6443) _(by Karan Anand)_
 -   [`ed27d17`](https://github.com/stdlib-js/stdlib/commit/ed27d17c614ad01c40d4f82f269541d9f388ab96) - **docs:** remove repeated example input [(#6442)](https://github.com/stdlib-js/stdlib/pull/6442) _(by Karan Anand)_
