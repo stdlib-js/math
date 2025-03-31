@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-03-31)
 
 <section class="packages">
 
@@ -3234,6 +3234,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.breaking-changes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5862](https://github.com/stdlib-js/stdlib/issues/5862)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -9345,9 +9357,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 26 issues were closed in this release:
+A total of 27 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6384](https://github.com/stdlib-js/stdlib/issues/6384)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5862](https://github.com/stdlib-js/stdlib/issues/5862), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6384](https://github.com/stdlib-js/stdlib/issues/6384)
 
 </section>
 
@@ -9398,6 +9410,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7ae0a0a`](https://github.com/stdlib-js/stdlib/commit/7ae0a0a5479ab78f05a9044e1362caabad1db81a) - **bench:** ensure analytic formula is measured [(#5873)](https://github.com/stdlib-js/stdlib/pull/5873) _(by Anshu Kumar)_
 -   [`d6dc223`](https://github.com/stdlib-js/stdlib/commit/d6dc22378d29ed84b887fefbec6301f77cbf808b) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`51ba192`](https://github.com/stdlib-js/stdlib/commit/51ba1926c849a9997662f0f636165b59320214ba) - **bench:** update random value generation [(#6390)](https://github.com/stdlib-js/stdlib/pull/6390) _(by Harsh)_
 -   [`6a954bc`](https://github.com/stdlib-js/stdlib/commit/6a954bc5b7a86abb6671edd83b302c464c228c1c) - **bench:** replace `base/uniform` with `array/uniform` [(#6454)](https://github.com/stdlib-js/stdlib/pull/6454) _(by Sahil Goyal, Sahil Goyal)_
