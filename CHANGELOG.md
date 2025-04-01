@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-31)
+## Unreleased (2025-04-01)
 
 <section class="packages">
 
@@ -9410,6 +9410,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`eb0c8c9`](https://github.com/stdlib-js/stdlib/commit/eb0c8c9b4a7c818e6083383684a139841574f5bb) - **docs:** replace manual `for` loop in examples [(#6468)](https://github.com/stdlib-js/stdlib/pull/6468) _(by Harsh)_
 -   [`7ae0a0a`](https://github.com/stdlib-js/stdlib/commit/7ae0a0a5479ab78f05a9044e1362caabad1db81a) - **bench:** ensure analytic formula is measured [(#5873)](https://github.com/stdlib-js/stdlib/pull/5873) _(by Anshu Kumar)_
 -   [`d6dc223`](https://github.com/stdlib-js/stdlib/commit/d6dc22378d29ed84b887fefbec6301f77cbf808b) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`51ba192`](https://github.com/stdlib-js/stdlib/commit/51ba1926c849a9997662f0f636165b59320214ba) - **bench:** update random value generation [(#6390)](https://github.com/stdlib-js/stdlib/pull/6390) _(by Harsh)_
