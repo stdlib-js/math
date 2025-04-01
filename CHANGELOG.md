@@ -375,6 +375,28 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6238](https://github.com/stdlib-js/stdlib/issues/6238)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -396,6 +418,62 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6238](https://github.com/stdlib-js/stdlib/issues/6238)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-napi-quinary-unreleased">
+
+#### [@stdlib/math/base/napi/quinary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/quinary)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6238](https://github.com/stdlib-js/stdlib/issues/6238)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -423,6 +501,28 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6238](https://github.com/stdlib-js/stdlib/issues/6238)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -444,6 +544,28 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6238](https://github.com/stdlib-js/stdlib/issues/6238)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -9357,9 +9479,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 27 issues were closed in this release:
+A total of 28 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5862](https://github.com/stdlib-js/stdlib/issues/5862), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6384](https://github.com/stdlib-js/stdlib/issues/6384)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5862](https://github.com/stdlib-js/stdlib/issues/5862), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6238](https://github.com/stdlib-js/stdlib/issues/6238), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6384](https://github.com/stdlib-js/stdlib/issues/6384)
 
 </section>
 
@@ -9410,6 +9532,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - **fix:** rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481) _(by Karan Anand, Athan Reines)_
 -   [`86a5626`](https://github.com/stdlib-js/stdlib/commit/86a5626e1cb0cf5cb208e94c48b79a109025cc8f) - **docs:** replace manual `for` loop in examples [(#6471)](https://github.com/stdlib-js/stdlib/pull/6471) _(by Harsh, stdlib-bot)_
 -   [`bb378ff`](https://github.com/stdlib-js/stdlib/commit/bb378ffa3c07f4acce9504440d26db9d2d97e091) - **docs:** replace manual `for` loop in examples [(#6472)](https://github.com/stdlib-js/stdlib/pull/6472) _(by Harsh)_
 -   [`eb0c8c9`](https://github.com/stdlib-js/stdlib/commit/eb0c8c9b4a7c818e6083383684a139841574f5bb) - **docs:** replace manual `for` loop in examples [(#6468)](https://github.com/stdlib-js/stdlib/pull/6468) _(by Harsh)_
