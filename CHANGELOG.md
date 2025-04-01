@@ -9532,6 +9532,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`220f055`](https://github.com/stdlib-js/stdlib/commit/220f05572a13425bd7b49efbf6102eef8975d9c1) - **chore:** replace manual `for` loop in examples [(#6491)](https://github.com/stdlib-js/stdlib/pull/6491) _(by Harsh)_
 -   [`a81d6c3`](https://github.com/stdlib-js/stdlib/commit/a81d6c35d11075753c928e38258023266932486e) - **chore:** replace manual `for` loop in examples [(#6488)](https://github.com/stdlib-js/stdlib/pull/6488) _(by Harsh)_
 -   [`3425c5a`](https://github.com/stdlib-js/stdlib/commit/3425c5a231e90c72af55fc462e8aa18401a9ebdf) - **bench:** add missing `native.js` and fix variable range [(#6467)](https://github.com/stdlib-js/stdlib/pull/6467) _(by Karan Anand, stdlib-bot)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
