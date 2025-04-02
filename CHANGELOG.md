@@ -5236,6 +5236,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-hypotf-unreleased">
+
+#### [@stdlib/math/base/special/hypotf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hypotf)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`8af2d8d`](https://github.com/stdlib-js/stdlib/commit/8af2d8d5690438af3fb3bcbc03b304ab4bef13cf) - update `hypotf` to follow the IEEE 754-2019 standard [(#6511)](https://github.com/stdlib-js/stdlib/pull/6511)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-identity-unreleased">
 
 #### [@stdlib/math/base/special/identity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/identity)
@@ -9598,6 +9620,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8af2d8d`](https://github.com/stdlib-js/stdlib/commit/8af2d8d5690438af3fb3bcbc03b304ab4bef13cf) - **fix:** update `hypotf` to follow the IEEE 754-2019 standard [(#6511)](https://github.com/stdlib-js/stdlib/pull/6511) _(by Karan Anand)_
 -   [`0dc5e1f`](https://github.com/stdlib-js/stdlib/commit/0dc5e1f8a98e82310a309649f58a0dc3acfedb68) - **fix:** update `hypot` to follow the IEEE 754-2019 standard [(#6509)](https://github.com/stdlib-js/stdlib/pull/6509) _(by Karan Anand)_
 -   [`8297683`](https://github.com/stdlib-js/stdlib/commit/82976838f1d49e5439f658f19c6bc2b9c21c771e) - **feat:** add `math/base/special/fibonaccif` [(#6257)](https://github.com/stdlib-js/stdlib/pull/6257) _(by Karan Anand, stdlib-bot)_
 -   [`9b72f0c`](https://github.com/stdlib-js/stdlib/commit/9b72f0cc9ae1a8fe839c8fc873bc3cd7b68dcb76) - **feat:** add `math/base/special/csignumf` [(#6361)](https://github.com/stdlib-js/stdlib/pull/6361) _(by Karan Anand, Athan Reines, stdlib-bot)_
