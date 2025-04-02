@@ -3707,6 +3707,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-atan2d-unreleased">
+
+#### [@stdlib/math/base/special/atan2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atan2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f9cd43c`](https://github.com/stdlib-js/stdlib/commit/f9cd43c1179fb822caa68afbfc6af56d2e128e9e) - add `math/base/special/atan2d` [(#6273)](https://github.com/stdlib-js/stdlib/pull/6273)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-atanh-unreleased">
 
 #### [@stdlib/math/base/special/atanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atanh)
@@ -9620,6 +9642,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f9cd43c`](https://github.com/stdlib-js/stdlib/commit/f9cd43c1179fb822caa68afbfc6af56d2e128e9e) - **feat:** add `math/base/special/atan2d` [(#6273)](https://github.com/stdlib-js/stdlib/pull/6273) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`1aa6c6d`](https://github.com/stdlib-js/stdlib/commit/1aa6c6d65fe035bd63db09873e75692f98fda273) - **test:** add tests for C99 edge cases [(#6389)](https://github.com/stdlib-js/stdlib/pull/6389) _(by Karan Anand)_
 -   [`8af2d8d`](https://github.com/stdlib-js/stdlib/commit/8af2d8d5690438af3fb3bcbc03b304ab4bef13cf) - **fix:** update `hypotf` to follow the IEEE 754-2019 standard [(#6511)](https://github.com/stdlib-js/stdlib/pull/6511) _(by Karan Anand)_
 -   [`0dc5e1f`](https://github.com/stdlib-js/stdlib/commit/0dc5e1f8a98e82310a309649f58a0dc3acfedb68) - **fix:** update `hypot` to follow the IEEE 754-2019 standard [(#6509)](https://github.com/stdlib-js/stdlib/pull/6509) _(by Karan Anand)_
