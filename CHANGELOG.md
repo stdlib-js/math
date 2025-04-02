@@ -4915,6 +4915,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-fibonaccif-unreleased">
+
+#### [@stdlib/math/base/special/fibonaccif](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonaccif)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8297683`](https://github.com/stdlib-js/stdlib/commit/82976838f1d49e5439f658f19c6bc2b9c21c771e) - add `math/base/special/fibonaccif` [(#6257)](https://github.com/stdlib-js/stdlib/pull/6257)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-fmodf-unreleased">
 
 #### [@stdlib/math/base/special/fmodf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmodf)
@@ -9554,6 +9576,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8297683`](https://github.com/stdlib-js/stdlib/commit/82976838f1d49e5439f658f19c6bc2b9c21c771e) - **feat:** add `math/base/special/fibonaccif` [(#6257)](https://github.com/stdlib-js/stdlib/pull/6257) _(by Karan Anand, stdlib-bot)_
 -   [`9b72f0c`](https://github.com/stdlib-js/stdlib/commit/9b72f0cc9ae1a8fe839c8fc873bc3cd7b68dcb76) - **feat:** add `math/base/special/csignumf` [(#6361)](https://github.com/stdlib-js/stdlib/pull/6361) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`feb552b`](https://github.com/stdlib-js/stdlib/commit/feb552baaf86a434df4724ab94d587dcac75e482) - **bench:** update random value generation [(#6393)](https://github.com/stdlib-js/stdlib/pull/6393) _(by Harsh)_
 -   [`5df078f`](https://github.com/stdlib-js/stdlib/commit/5df078fd493ee2d6750fa0be85cb3b39236e227c) - **docs:** replace manual `for` loop in examples [(#6494)](https://github.com/stdlib-js/stdlib/pull/6494) _(by Harsh)_
