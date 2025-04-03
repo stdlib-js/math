@@ -9642,6 +9642,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8a365fc`](https://github.com/stdlib-js/stdlib/commit/8a365fcdd9eb22d5818e44f7447b77345deb1b1e) - **bench:** refactor random number generation `math/base/special/cexp*` [(#5888)](https://github.com/stdlib-js/stdlib/pull/5888) _(by Saurabh Singh, Athan Reines, stdlib-bot)_
 -   [`3e1d620`](https://github.com/stdlib-js/stdlib/commit/3e1d6200c9ca9e7ce0324508f5fcf18d11dd73db) - **bench:** refactor benchmarks in `math/base/special/exp` [(#5855)](https://github.com/stdlib-js/stdlib/pull/5855) _(by Gururaj Gurram, Athan Reines, Gunj Joshi, stdlib-bot)_
 -   [`7584a65`](https://github.com/stdlib-js/stdlib/commit/7584a6584fbeadfb76adc52323cc8e368c2a19a4) - **bench:** remove benchmarks _(by Athan Reines)_
 -   [`cbffd97`](https://github.com/stdlib-js/stdlib/commit/cbffd97f717891016aad4475cb076a0c6ca9a17a) - **test:** add tests for C99 edge cases [(#6519)](https://github.com/stdlib-js/stdlib/pull/6519) _(by Karan Anand)_
