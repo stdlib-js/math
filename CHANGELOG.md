@@ -9644,6 +9644,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b1a5a2d`](https://github.com/stdlib-js/stdlib/commit/b1a5a2d87a0e1f5a0bd6d74d521cae9eeab435c8) - **docs:** replace manual `for` loop in examples [(#6550)](https://github.com/stdlib-js/stdlib/pull/6550) _(by Harsh, Athan Reines)_
 -   [`8459c35`](https://github.com/stdlib-js/stdlib/commit/8459c356561052d228647bf66476ad699911abfd) - **feat:** add `FII_F` macro in `math/base/napi/ternary` [(#6542)](https://github.com/stdlib-js/stdlib/pull/6542) _(by Neeraj Pathak)_
 -   [`a321f17`](https://github.com/stdlib-js/stdlib/commit/a321f17ca75c91155b6d90df8bf1bc1ba03376f7) - **feat:** add `FIF_F` macro in `math/base/napi/ternary` [(#6534)](https://github.com/stdlib-js/stdlib/pull/6534) _(by Neeraj Pathak, Athan Reines, Karan Anand)_
 -   [`8a365fc`](https://github.com/stdlib-js/stdlib/commit/8a365fcdd9eb22d5818e44f7447b77345deb1b1e) - **bench:** refactor random number generation `math/base/special/cexp*` [(#5888)](https://github.com/stdlib-js/stdlib/pull/5888) _(by Saurabh Singh, Athan Reines, stdlib-bot)_
