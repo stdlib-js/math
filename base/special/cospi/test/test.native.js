@@ -29,6 +29,7 @@ var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var abs = require( './../../../../base/special/abs' );
 var pow = require( './../../../../base/special/pow' );
+var isPositiveZero = require( '@stdlib/assert/is-positive-zero' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 
@@ -108,7 +109,22 @@ tape( 'the function returns `0` for any value with fractional part equal to 1/2'
 	x = incrspace( 0.5, 100.5, 1.0 );
 	for ( i = 0; i < x.length; i++ ) {
 		y = cospi( x[i] );
-		t.equal( y, 0.0, 'x: '+x[i]+'. E: 0' );
+		t.equal( isPositiveZero( y ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function is even', opts, function test( t ) {
+	var expected;
+	var x;
+	var y;
+	var i;
+
+	x = decimals.x;
+	for ( i = 0; i < x.length; i++ ) {
+		y = cospi( -x[i] );
+		expected = cospi( x[i] );
+		t.equal( y, expected, 'returns '+expected );
 	}
 	t.end();
 });
