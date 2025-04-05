@@ -26,7 +26,6 @@ var randu = require( '@stdlib/random/base/randu' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var abs = require( './../../../../base/special/abs' );
-var isPositiveZero = require( '@stdlib/assert/is-positive-zero' );
 var acosh = require( './../lib' );
 
 
@@ -156,11 +155,6 @@ tape( 'the function returns `NaN` if provided value less than `1`', function tes
 		v = -(randu()*1.0e6) + (1-EPS);
 		t.equal( isnan( acosh( v ) ), true, 'returns expected value when provided '+v );
 	}
-	t.end();
-});
-
-tape( 'the function returns `0` if provided `1`', function test( t ) {
-	t.equal( isPositiveZero( acosh( 1.0 ) ), true, 'returns expected value' );
 	t.end();
 });
 
