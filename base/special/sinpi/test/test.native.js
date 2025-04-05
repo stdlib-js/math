@@ -27,6 +27,8 @@ var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var abs = require( './../../../../base/special/abs' );
+var isNegativeZero = require( '@stdlib/assert/is-negative-zero' );
+var isPositiveZero = require( '@stdlib/assert/is-positive-zero' );
 var isSameValue = require( '@stdlib/assert/is-same-value' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
@@ -64,6 +66,18 @@ tape( 'the function returns `NaN` if provided either positive or negative infini
 tape( 'if provided `NaN`, the function returns `NaN`', opts, function test( t ) {
 	var y = sinpi( NaN );
 	t.equal( isnan( y ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function returns `-0` if provided `-0`', opts, function test( t ) {
+	var v = sinpi( -0.0 );
+	t.strictEqual( isNegativeZero( v ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function returns `+0` if provided `+0`', opts, function test( t ) {
+	var v = sinpi( 0.0 );
+	t.strictEqual( isPositiveZero( v ), true, 'returns expected value' );
 	t.end();
 });
 

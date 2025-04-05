@@ -25,6 +25,7 @@ var isnan = require( './../../../../base/assert/is-nan' );
 var randu = require( '@stdlib/random/base/randu' );
 var abs = require( './../../../../base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
+var isPositiveZero = require( '@stdlib/assert/is-positive-zero' );
 var acos = require( './../lib' );
 
 
@@ -138,5 +139,10 @@ tape( 'the function returns `NaN` if provided a value greater than `+1`', functi
 		v = (randu()*1.0e6) + 1.0 + EPS;
 		t.equal( isnan( acos( v ) ), true, 'returns expected value when provided '+v );
 	}
+	t.end();
+});
+
+tape( 'the function returns `0` if provided `1`', function test( t ) {
+	t.equal( isPositiveZero( acos( 1.0 ) ), true, 'returns expected value' );
 	t.end();
 });
