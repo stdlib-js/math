@@ -9644,6 +9644,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f7db171`](https://github.com/stdlib-js/stdlib/commit/f7db17180a75fd1c3b7f5311ded957d4cfca07f5) - **test:** add tests for IEEE 754-2019 compliance [(#6564)](https://github.com/stdlib-js/stdlib/pull/6564) _(by Karan Anand)_
 -   [`b1a5a2d`](https://github.com/stdlib-js/stdlib/commit/b1a5a2d87a0e1f5a0bd6d74d521cae9eeab435c8) - **docs:** replace manual `for` loop in examples [(#6550)](https://github.com/stdlib-js/stdlib/pull/6550) _(by Harsh, Athan Reines)_
 -   [`8459c35`](https://github.com/stdlib-js/stdlib/commit/8459c356561052d228647bf66476ad699911abfd) - **feat:** add `FII_F` macro in `math/base/napi/ternary` [(#6542)](https://github.com/stdlib-js/stdlib/pull/6542) _(by Neeraj Pathak)_
 -   [`a321f17`](https://github.com/stdlib-js/stdlib/commit/a321f17ca75c91155b6d90df8bf1bc1ba03376f7) - **feat:** add `FIF_F` macro in `math/base/napi/ternary` [(#6534)](https://github.com/stdlib-js/stdlib/pull/6534) _(by Neeraj Pathak, Athan Reines, Karan Anand)_
