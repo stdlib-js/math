@@ -9644,6 +9644,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7896f80`](https://github.com/stdlib-js/stdlib/commit/7896f80700cc662cc72126b8a9e81bf392f916b8) - **test:** add tests for IEEE 754-2019 compliance [(#6559)](https://github.com/stdlib-js/stdlib/pull/6559) _(by Karan Anand)_
 -   [`1e85369`](https://github.com/stdlib-js/stdlib/commit/1e8536951a859bc8e78a5791a99cbc2553e1df34) - **test:** add tests for IEEE 754-2019 compliance [(#6560)](https://github.com/stdlib-js/stdlib/pull/6560) _(by Karan Anand)_
 -   [`7184862`](https://github.com/stdlib-js/stdlib/commit/71848621a0bb8380055d696c50db378f18ee9663) - **test:** add tests for IEEE 754-2019 compliance [(#6562)](https://github.com/stdlib-js/stdlib/pull/6562) _(by Karan Anand)_
 -   [`d8437b8`](https://github.com/stdlib-js/stdlib/commit/d8437b85b0a0e4a1a27098ea88ccf1332a126408) - **test:** add tests for IEEE 754-2019 compliance [(#6563)](https://github.com/stdlib-js/stdlib/pull/6563) _(by Karan Anand)_
