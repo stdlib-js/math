@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-05)
+## Unreleased (2025-04-06)
 
 <section class="packages">
 
@@ -9693,6 +9693,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`64023d1`](https://github.com/stdlib-js/stdlib/commit/64023d131d8bc0a2dc2f3617db7f5bb8eb54583c) - **test:** add tests for IEEE 754-2019 compliance [(#6573)](https://github.com/stdlib-js/stdlib/pull/6573) _(by Karan Anand)_
 -   [`0e376f8`](https://github.com/stdlib-js/stdlib/commit/0e376f8bb234692a55dc57773533114a5512cddd) - **test:** add tests for IEEE 754-2019 compliance [(#6570)](https://github.com/stdlib-js/stdlib/pull/6570) _(by Karan Anand)_
 -   [`9211c88`](https://github.com/stdlib-js/stdlib/commit/9211c88ad8ecd436a2fb5311eb00ace0ac8d6f9d) - **test:** add tests for IEEE 754-2019 compliance [(#6561)](https://github.com/stdlib-js/stdlib/pull/6561) _(by Karan Anand, stdlib-bot)_
 -   [`d9ad02c`](https://github.com/stdlib-js/stdlib/commit/d9ad02ca1c902ca787d9e9135160871379e40829) - **test:** add tests for IEEE 754-2019 compliance [(#6557)](https://github.com/stdlib-js/stdlib/pull/6557) _(by Karan Anand)_
