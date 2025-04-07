@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-06)
+## Unreleased (2025-04-07)
 
 <section class="packages">
 
@@ -9693,6 +9693,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`64023d1`](https://github.com/stdlib-js/stdlib/commit/64023d131d8bc0a2dc2f3617db7f5bb8eb54583c) - **test:** add tests for IEEE 754-2019 compliance [(#6573)](https://github.com/stdlib-js/stdlib/pull/6573) _(by Karan Anand)_
 -   [`0e376f8`](https://github.com/stdlib-js/stdlib/commit/0e376f8bb234692a55dc57773533114a5512cddd) - **test:** add tests for IEEE 754-2019 compliance [(#6570)](https://github.com/stdlib-js/stdlib/pull/6570) _(by Karan Anand)_
 -   [`9211c88`](https://github.com/stdlib-js/stdlib/commit/9211c88ad8ecd436a2fb5311eb00ace0ac8d6f9d) - **test:** add tests for IEEE 754-2019 compliance [(#6561)](https://github.com/stdlib-js/stdlib/pull/6561) _(by Karan Anand, stdlib-bot)_
