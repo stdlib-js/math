@@ -6582,6 +6582,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`3eeefe6`](https://github.com/stdlib-js/stdlib/commit/3eeefe6514916836d5fd798809bdf8a230d61e4b) - update `sind` to follow the IEEE 754-2019 standard [(#6592)](https://github.com/stdlib-js/stdlib/pull/6592)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -9693,6 +9703,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3eeefe6`](https://github.com/stdlib-js/stdlib/commit/3eeefe6514916836d5fd798809bdf8a230d61e4b) - **fix:** update `sind` to follow the IEEE 754-2019 standard [(#6592)](https://github.com/stdlib-js/stdlib/pull/6592) _(by Karan Anand)_
 -   [`ba0637b`](https://github.com/stdlib-js/stdlib/commit/ba0637b9a4bae1689e15af9afb262de249764881) - **test:** add tests for IEEE 754-2019 compliance [(#6597)](https://github.com/stdlib-js/stdlib/pull/6597) _(by Karan Anand)_
 -   [`ae963e1`](https://github.com/stdlib-js/stdlib/commit/ae963e14fa197282ac501261a0d08b04a0e0f4a5) - **docs:** replace manual `for` loop in examples [(#6587)](https://github.com/stdlib-js/stdlib/pull/6587) _(by Harsh)_
 -   [`dfddd73`](https://github.com/stdlib-js/stdlib/commit/dfddd7395392b17193734b0977955042cb85bb6b) - **docs:** replace manual `for` loop in examples [(#6608)](https://github.com/stdlib-js/stdlib/pull/6608) _(by Harsh, Athan Reines)_
