@@ -9693,6 +9693,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4a76339`](https://github.com/stdlib-js/stdlib/commit/4a76339547e841d83692c3d8e5f364568de055d5) - **docs:** replace manual `for` loop in examples [(#6612)](https://github.com/stdlib-js/stdlib/pull/6612) _(by Harsh)_
 -   [`2f78853`](https://github.com/stdlib-js/stdlib/commit/2f788539be521ba8e7e1c76a37e9fddc57530596) - **docs:** update related packages sections [(#6617)](https://github.com/stdlib-js/stdlib/pull/6617) _(by stdlib-bot)_
 -   [`1019217`](https://github.com/stdlib-js/stdlib/commit/10192179ef8278f942ac9909b382381f8740e9f0) - **test:** add tests for IEEE 754-2019 compliance [(#6595)](https://github.com/stdlib-js/stdlib/pull/6595) _(by Karan Anand)_
 -   [`1065e83`](https://github.com/stdlib-js/stdlib/commit/1065e83f34259320e8bf014f28094a5240cb0374) - **test:** add tests for IEEE 754-2019 compliance [(#6599)](https://github.com/stdlib-js/stdlib/pull/6599) _(by Karan Anand)_
