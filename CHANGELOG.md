@@ -9703,6 +9703,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a03db66`](https://github.com/stdlib-js/stdlib/commit/a03db667d2c00aeb97920126637fd792e5784de4) - **bench:** fix random value generation _(by Athan Reines)_
 -   [`48f3de7`](https://github.com/stdlib-js/stdlib/commit/48f3de7b465186d4ed11e85e22c0668ac9dd827b) - **docs:** replace manual `for` loop in examples [(#6622)](https://github.com/stdlib-js/stdlib/pull/6622) _(by Harsh, Athan Reines)_
 -   [`5087e64`](https://github.com/stdlib-js/stdlib/commit/5087e644a4ad2a77078326a1272a2197bf3f5649) - **docs:** replace manual `for` loop in examples [(#6621)](https://github.com/stdlib-js/stdlib/pull/6621) _(by Harsh)_
 -   [`c9cacbf`](https://github.com/stdlib-js/stdlib/commit/c9cacbfe7c80e80d5205c867b49bdeb199a76986) - **test:** add tests for IEEE 754-2019 compliance [(#6571)](https://github.com/stdlib-js/stdlib/pull/6571) _(by Karan Anand, stdlib-bot)_
