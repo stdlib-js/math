@@ -4923,6 +4923,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`3560ebc`](https://github.com/stdlib-js/stdlib/commit/3560ebc03ba92b358e142ebbafd6dfe873f5d40a) - add missing include
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="reverts">
 
 ##### Reverts
@@ -9703,6 +9713,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3560ebc`](https://github.com/stdlib-js/stdlib/commit/3560ebc03ba92b358e142ebbafd6dfe873f5d40a) - **fix:** add missing include _(by Athan Reines)_
 -   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh, Athan Reines)_
 -   [`2698899`](https://github.com/stdlib-js/stdlib/commit/2698899da2e36275d50a66632de336c26dead00a) - **docs:** replace manual `for` loop in examples [(#6637)](https://github.com/stdlib-js/stdlib/pull/6637) _(by Harsh)_
 -   [`0395909`](https://github.com/stdlib-js/stdlib/commit/03959095fb9ffbe34ca9603b27c5204ce82d8c89) - **docs:** replace manual `for` loop in examples [(#6638)](https://github.com/stdlib-js/stdlib/pull/6638) _(by Harsh)_
