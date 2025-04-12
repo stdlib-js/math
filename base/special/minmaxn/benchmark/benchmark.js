@@ -42,7 +42,7 @@ bench( pkg, function benchmark( b ) {
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		z = minmaxn( x[ i%x.length ], y[ i%y.length] );
+		z = minmaxn( x[ i%x.length ], y[ i%y.length ] );
 		if ( z.length !== 2 ) {
 			b.fail( 'should have expected length' );
 		}
