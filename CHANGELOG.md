@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-12)
+## Unreleased (2025-04-13)
 
 <section class="packages">
 
@@ -9759,6 +9759,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b8286e1`](https://github.com/stdlib-js/stdlib/commit/b8286e14368fbfaba1b39964f9ebe11801edaea0) - **bench:** updates random value generation and docs [(#6658)](https://github.com/stdlib-js/stdlib/pull/6658) _(by Harsh)_
 -   [`fcd86ae`](https://github.com/stdlib-js/stdlib/commit/fcd86aee610050abf370c84b7d464de0bb2b486e) - **style:** fix missing space _(by Athan Reines)_
 -   [`5a5ac9d`](https://github.com/stdlib-js/stdlib/commit/5a5ac9dafe89d2980d079ae6c074c04be445c7b8) - **docs:** fix return value interpolation _(by Athan Reines)_
 -   [`7385bec`](https://github.com/stdlib-js/stdlib/commit/7385bec401fe38e24c0a65d6598590f6f17d3e75) - **chore:** fix EditorConfig lint errors [(#6652)](https://github.com/stdlib-js/stdlib/pull/6652) _(by PrathamBhamare)_
