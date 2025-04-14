@@ -21,7 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var randu = require( '@stdlib/random/base/randu' );
 var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
 var isfinite = require( './../lib' );
@@ -30,19 +30,14 @@ var isfinite = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var opts;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	x = uniform( 100, -5.0e6, 5.0e6, opts );
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = isfinite( x[ i%x.length ] );
+		x = ( randu()*1.0e7 ) - 5.0e6;
+		y = isfinite( x );
 		if ( typeof y !== 'boolean' ) {
 			b.fail( 'should return a boolean' );
 		}

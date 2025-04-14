@@ -21,7 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var randu = require( '@stdlib/random/array/discrete-uniform' );
 var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
 var isEvenf = require( './../lib' );
@@ -30,19 +30,15 @@ var isEvenf = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var opts;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float32'
-	};
-	x = discreteUniform( 100, -50, 50, opts );
+	x = randu( 100, -50, 50 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = isEvenf( x[ i % x.length ] );
+		y = isEvenf( x[ i % 100 ] );
 		if ( typeof y !== 'boolean' ) {
 			b.fail( 'should return a boolean' );
 		}

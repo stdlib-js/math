@@ -18,16 +18,16 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
+var randu = require( '@stdlib/random/base/randu' );
+var round = require( './../../../../base/special/round' );
 var isEven = require( './../lib' );
 
-var opts = {
-	'dtype': 'float64'
-};
-var x = discreteUniform( 100, 0, 100, opts );
+var bool;
+var x;
+var i;
 
-function isEvenWrapper( integer ) {
-	return ( isEven( integer ) ) ? 'even' : 'not even';
+for ( i = 0; i < 100; i++ ) {
+	x = round( randu()*100.0 );
+	bool = isEven( x );
+	console.log( '%d is %s', x, ( bool ) ? 'even' : 'not even' );
 }
-logEachMap( '%d is %s', x, isEvenWrapper );

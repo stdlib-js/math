@@ -22,7 +22,7 @@
 
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var randu = require( '@stdlib/random/array/discrete-uniform' );
 var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
@@ -39,19 +39,15 @@ var opts = {
 // MAIN //
 
 bench( pkg+'::native', opts, function benchmark( b ) {
-	var opts;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float32'
-	};
-	x = discreteUniform( 100, -50, 50, opts );
+	x = randu( 100, -50, 50 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = isEvenf( x[ i % x.length ] );
+		y = isEvenf( x[ i % 100 ] );
 		if ( typeof y !== 'boolean' ) {
 			b.fail( 'should return a boolean' );
 		}

@@ -39,19 +39,17 @@ var opts = {
 // MAIN //
 
 bench( pkg+'::native', opts, function benchmark( b ) {
-	var opts;
+	var len;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	x = discreteUniform( 100, 0, 1000, opts );
+	len = 100;
+	x = discreteUniform( len, 0, 1000 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = isEven( x[ i % x.length ] );
+		y = isEven( x[ i % len ] );
 		if ( typeof y !== 'boolean' ) {
 			b.fail( 'should return a boolean' );
 		}

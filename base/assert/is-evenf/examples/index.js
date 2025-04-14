@@ -18,16 +18,12 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
+var randu = require( '@stdlib/random/array/discrete-uniform' );
 var isEvenf = require( './../lib' );
 
-var opts = {
-	'dtype': 'float32'
-};
-var x = discreteUniform( 100, 0, 100, opts );
+var x = randu( 100, 0, 100 );
 
-function isEvenfWrapper( integer ) {
-	return ( isEvenf( integer ) ) ? 'even' : 'not even';
+var i;
+for ( i = 0; i < 100; i++ ) {
+	console.log( '%d is %s', x[ i ], ( isEvenf( x[ i ] ) ) ? 'even' : 'not even' );
 }
-logEachMap( '%d is %s', x, isEvenfWrapper );

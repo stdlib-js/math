@@ -85,19 +85,15 @@ bool = isOddf( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
+var randu = require( '@stdlib/random/array/discrete-uniform' );
 var isOddf = require( '@stdlib/math/base/assert/is-oddf' );
 
-var opts = {
-    'dtype': 'float32'
-};
-var x = discreteUniform( 100, 0, 1000, opts );
+var x = randu( 100, 0, 100 );
 
-function isOddfWrapper( integer ) {
-    return ( isOddf( integer ) ) ? 'odd' : 'not odd';
+var i;
+for ( i = 0; i < 100; i++ ) {
+    console.log( '%d is %s', x[ i ], ( isOddf( x[ i ] ) ) ? 'odd' : 'not odd' );
 }
-logEachMap( '%d is %s', x, isOddfWrapper );
 ```
 
 </section>
