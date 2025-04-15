@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-04-15)
 
 <section class="packages">
 
@@ -9784,6 +9784,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4d0f11a`](https://github.com/stdlib-js/stdlib/commit/4d0f11a021200333b20632885427a8e269454283) - **bench:** update random value generation [(#6692)](https://github.com/stdlib-js/stdlib/pull/6692) _(by Harsh)_
 -   [`29ca435`](https://github.com/stdlib-js/stdlib/commit/29ca435769a12baf1fe73fe37119eccc2994974a) - **chore:** disable lint rule [(#6677)](https://github.com/stdlib-js/stdlib/pull/6677) _(by Dipjyoti Das)_
 -   [`dededfd`](https://github.com/stdlib-js/stdlib/commit/dededfdc6102931758f0a12955d0054df893d849) - **bench:** update random value generation [(#6682)](https://github.com/stdlib-js/stdlib/pull/6682) _(by Harsh)_
 -   [`2b6d616`](https://github.com/stdlib-js/stdlib/commit/2b6d61659b1436a6a3c18308e2c56a01e2be89ed) - **bench:** update random value generation [(#6683)](https://github.com/stdlib-js/stdlib/pull/6683) _(by Harsh)_
