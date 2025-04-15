@@ -9784,6 +9784,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`da4436d`](https://github.com/stdlib-js/stdlib/commit/da4436d4372c05e78d6936e1738be14e640ef099) - **docs:** replace manual `for` loop in examples [(#6689)](https://github.com/stdlib-js/stdlib/pull/6689) _(by Harsh)_
 -   [`2aadeb5`](https://github.com/stdlib-js/stdlib/commit/2aadeb5422491aeab1afd3424f54048911b9cb31) - **bench:** update random value generation [(#6686)](https://github.com/stdlib-js/stdlib/pull/6686) _(by Harsh)_
 -   [`f7b18f2`](https://github.com/stdlib-js/stdlib/commit/f7b18f2f07eea6ac092fee7bc7c459fe96b4dd2c) - **bench:** update random value generation [(#6687)](https://github.com/stdlib-js/stdlib/pull/6687) _(by Harsh)_
 -   [`da87aba`](https://github.com/stdlib-js/stdlib/commit/da87aba5a4cbb2ff6553a2d9d0ee6eb83bcdc8da) - **bench:** update random value generation [(#6690)](https://github.com/stdlib-js/stdlib/pull/6690) _(by Harsh)_
