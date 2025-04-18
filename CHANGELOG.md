@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-17)
+## Unreleased (2025-04-18)
 
 <section class="packages">
 
@@ -136,6 +136,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`6c571bf`](https://github.com/stdlib-js/stdlib/commit/6c571bf330e3fc293f6ef7c40fcc6bfefcd7f61d) - preserve output array type specificity
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -193,6 +203,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e051a2f`](https://github.com/stdlib-js/stdlib/commit/e051a2fbf9cb31b562972c20c361a71b6ad837f6) - improve type specificity
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -9807,6 +9827,10 @@ A total of 30 people contributed to this release. Thank you to the following con
 <details>
 
 -   [`3656652`](https://github.com/stdlib-js/stdlib/commit/36566524e333dabea3b4b47c00b154accc1c2c23) - **feat:** add `math/base/special/lucasf` [(#6223)](https://github.com/stdlib-js/stdlib/pull/6223) _(by Harsh, stdlib-bot, Karan Anand)_
+-   [`dd317a4`](https://github.com/stdlib-js/stdlib/commit/dd317a4963fb9c35e1967a4b96556c3b060675c5) - **docs:** fix copy _(by Athan Reines)_
+-   [`e051a2f`](https://github.com/stdlib-js/stdlib/commit/e051a2fbf9cb31b562972c20c361a71b6ad837f6) - **fix:** improve type specificity _(by Athan Reines)_
+-   [`f81d254`](https://github.com/stdlib-js/stdlib/commit/f81d254ca5fc52dede022955c37aa0c90893969a) - **docs:** fix example _(by Athan Reines)_
+-   [`6c571bf`](https://github.com/stdlib-js/stdlib/commit/6c571bf330e3fc293f6ef7c40fcc6bfefcd7f61d) - **fix:** preserve output array type specificity _(by Athan Reines)_
 -   [`da4436d`](https://github.com/stdlib-js/stdlib/commit/da4436d4372c05e78d6936e1738be14e640ef099) - **docs:** replace manual `for` loop in examples [(#6689)](https://github.com/stdlib-js/stdlib/pull/6689) _(by Harsh)_
 -   [`2aadeb5`](https://github.com/stdlib-js/stdlib/commit/2aadeb5422491aeab1afd3424f54048911b9cb31) - **bench:** update random value generation [(#6686)](https://github.com/stdlib-js/stdlib/pull/6686) _(by Harsh)_
 -   [`f7b18f2`](https://github.com/stdlib-js/stdlib/commit/f7b18f2f07eea6ac092fee7bc7c459fe96b4dd2c) - **bench:** update random value generation [(#6687)](https://github.com/stdlib-js/stdlib/pull/6687) _(by Harsh)_
