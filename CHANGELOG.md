@@ -3939,6 +3939,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cabs2f-unreleased">
+
+#### [@stdlib/math/base/special/cabs2f](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cabs2f)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex/float32/ctor` package.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cabsf-unreleased">
 
 #### [@stdlib/math/base/special/cabsf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cabsf)
@@ -7228,6 +7252,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex/float32/ctor` package.
+
 -   [`42aab9b`](https://github.com/stdlib-js/stdlib/commit/42aab9b7f3e2cb90710712f21c7e4d2b613b6a9d): use stdlib C complex64 dtype
 
     -   To migrate, users should provide a value having the type `stdlib_complex64_t`, rather than a built-in C99 single-precision complex dtype. This dtype is available via the package `@stdlib/complex/float32/ctor`.
@@ -9826,6 +9854,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239) - **refactor:** update `math/base/special/cabs2f` to follow latest project conventions [(#4767)](https://github.com/stdlib-js/stdlib/pull/4767) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
 -   [`3656652`](https://github.com/stdlib-js/stdlib/commit/36566524e333dabea3b4b47c00b154accc1c2c23) - **feat:** add `math/base/special/lucasf` [(#6223)](https://github.com/stdlib-js/stdlib/pull/6223) _(by Harsh, stdlib-bot, Karan Anand)_
 -   [`dd317a4`](https://github.com/stdlib-js/stdlib/commit/dd317a4963fb9c35e1967a4b96556c3b060675c5) - **docs:** fix copy _(by Athan Reines)_
 -   [`e051a2f`](https://github.com/stdlib-js/stdlib/commit/e051a2fbf9cb31b562972c20c361a71b6ad837f6) - **fix:** improve type specificity _(by Athan Reines)_
