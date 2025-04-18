@@ -4053,6 +4053,42 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cceilf-unreleased">
+
+#### [@stdlib/math/base/special/cceilf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cceilf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex/float32/ctor` package.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3398](https://github.com/stdlib-js/stdlib/issues/3398)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-ccis-unreleased">
 
 #### [@stdlib/math/base/special/ccis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ccis)
@@ -7252,6 +7288,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex/float32/ctor` package.
+
 -   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239): migrate to `stdlib_complex64_t`
 
     -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex/float32/ctor` package.
@@ -9799,9 +9839,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 31 issues were closed in this release:
+A total of 32 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5862](https://github.com/stdlib-js/stdlib/issues/5862), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6238](https://github.com/stdlib-js/stdlib/issues/6238), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6384](https://github.com/stdlib-js/stdlib/issues/6384), [#6499](https://github.com/stdlib-js/stdlib/issues/6499), [#6627](https://github.com/stdlib-js/stdlib/issues/6627), [#6629](https://github.com/stdlib-js/stdlib/issues/6629)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#3398](https://github.com/stdlib-js/stdlib/issues/3398), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5862](https://github.com/stdlib-js/stdlib/issues/5862), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6238](https://github.com/stdlib-js/stdlib/issues/6238), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6384](https://github.com/stdlib-js/stdlib/issues/6384), [#6499](https://github.com/stdlib-js/stdlib/issues/6499), [#6627](https://github.com/stdlib-js/stdlib/issues/6627), [#6629](https://github.com/stdlib-js/stdlib/issues/6629)
 
 </section>
 
@@ -9854,6 +9894,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a) - **refactor:** update `math/base/special/cceilf` to follow latest project conventions [(#3400)](https://github.com/stdlib-js/stdlib/pull/3400) _(by Aayush Khanna, stdlib-bot, Karan Anand, Athan Reines)_
 -   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239) - **refactor:** update `math/base/special/cabs2f` to follow latest project conventions [(#4767)](https://github.com/stdlib-js/stdlib/pull/4767) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
 -   [`3656652`](https://github.com/stdlib-js/stdlib/commit/36566524e333dabea3b4b47c00b154accc1c2c23) - **feat:** add `math/base/special/lucasf` [(#6223)](https://github.com/stdlib-js/stdlib/pull/6223) _(by Harsh, stdlib-bot, Karan Anand)_
 -   [`dd317a4`](https://github.com/stdlib-js/stdlib/commit/dd317a4963fb9c35e1967a4b96556c3b060675c5) - **docs:** fix copy _(by Athan Reines)_

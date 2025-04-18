@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,10 +20,8 @@
 
 // MODULES //
 
-var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var ceilf = require( './../../../../base/special/ceilf' );
-var realf = require( '@stdlib/complex/float32/real' );
-var imagf = require( '@stdlib/complex/float32/imag' );
+var Complex64 = require( '@stdlib/complex/float64/ctor' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -31,6 +29,7 @@ var imagf = require( '@stdlib/complex/float32/imag' );
 /**
 * Rounds each component of a single-precision complex floating-point number toward positive infinity.
 *
+* @private
 * @param {Complex64} z - complex number
 * @returns {Complex64} result
 *
@@ -49,7 +48,8 @@ var imagf = require( '@stdlib/complex/float32/imag' );
 * // returns 3.0
 */
 function cceilf( z ) {
-	return new Complex64( ceilf( realf( z ) ), ceilf( imagf( z ) ) );
+	var v = addon( z );
+	return new Complex64( v.re, v.im );
 }
 
 
