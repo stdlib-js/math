@@ -9895,6 +9895,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d4d57c3`](https://github.com/stdlib-js/stdlib/commit/d4d57c376c6abdcaf1993d7893129b75af4f2056) - **docs:** update namespace table of contents [(#6719)](https://github.com/stdlib-js/stdlib/pull/6719) _(by stdlib-bot)_
 -   [`76ad4ca`](https://github.com/stdlib-js/stdlib/commit/76ad4ca02df8a1e1492d3428457a44717e866fc2) - **docs:** replace manual `for` loop in examples [(#6623)](https://github.com/stdlib-js/stdlib/pull/6623) _(by Harsh, Athan Reines, hrshya, stdlib-bot)_
 -   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a) - **refactor:** update `math/base/special/cceilf` to follow latest project conventions [(#3400)](https://github.com/stdlib-js/stdlib/pull/3400) _(by Aayush Khanna, stdlib-bot, Karan Anand, Athan Reines)_
 -   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239) - **refactor:** update `math/base/special/cabs2f` to follow latest project conventions [(#4767)](https://github.com/stdlib-js/stdlib/pull/4767) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
