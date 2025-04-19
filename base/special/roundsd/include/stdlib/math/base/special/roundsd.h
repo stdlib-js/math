@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,35 +16,25 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 4.1
+#ifndef STDLIB_MATH_BASE_SPECIAL_ROUNDSD_H
+#define STDLIB_MATH_BASE_SPECIAL_ROUNDSD_H
+
+#include <stdint.h>
+
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
 * Rounds a double-precision floating-point number to the nearest value with `n` significant figures.
-*
-* @param x - input value
-* @param n - number of significant figures
-* @param b - base (default: 10)
-* @returns rounded value
-*
-* @example
-* var v = roundsd( 3.141592653589793, 3 );
-* // returns 3.14
-*
-* @example
-* var v = roundsd( 3.141592653589793, 1 );
-* // returns 3.0
-*
-* @example
-* var v = roundsd( 12368.0, 2 );
-* // returns 12000.0
-*
-* @example
-* var v = roundsd( 0.0313, 2, 2 );
-* // returns 0.03125
 */
-declare function roundsd( x: number, n: number, b?: number ): number;
+double stdlib_base_roundsd( const double x, const int32_t n, const int32_t b );
 
+#ifdef __cplusplus
+}
+#endif
 
-// EXPORTS //
-
-export = roundsd;
+#endif // !STDLIB_MATH_BASE_SPECIAL_ROUNDSD_H

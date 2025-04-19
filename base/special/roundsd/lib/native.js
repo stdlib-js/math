@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,35 +16,45 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 4.1
+'use strict';
+
+// MODULES //
+
+var addon = require( './../src/addon.node' );
+
+
+// MAIN //
 
 /**
 * Rounds a double-precision floating-point number to the nearest value with `n` significant figures.
 *
-* @param x - input value
-* @param n - number of significant figures
-* @param b - base (default: 10)
-* @returns rounded value
+* @private
+* @param {number} x - input value
+* @param {PositiveInteger} n - number of significant figures
+* @param {PositiveInteger} b - base
+* @returns {number} rounded value
 *
 * @example
-* var v = roundsd( 3.141592653589793, 3 );
+* var v = roundsd( 3.141592653589793, 3, 10 );
 * // returns 3.14
 *
 * @example
-* var v = roundsd( 3.141592653589793, 1 );
+* var v = roundsd( 3.141592653589793, 1, 10 );
 * // returns 3.0
 *
 * @example
-* var v = roundsd( 12368.0, 2 );
+* var v = roundsd( 12368.0, 2, 10 );
 * // returns 12000.0
 *
 * @example
 * var v = roundsd( 0.0313, 2, 2 );
 * // returns 0.03125
 */
-declare function roundsd( x: number, n: number, b?: number ): number;
+function roundsd( x, n, b ) {
+	return addon( x, n, b );
+}
 
 
 // EXPORTS //
 
-export = roundsd;
+module.exports = roundsd;
