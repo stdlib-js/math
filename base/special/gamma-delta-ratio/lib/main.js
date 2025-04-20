@@ -40,7 +40,7 @@ var abs = require( './../../../../base/special/abs' );
 var floor = require( './../../../../base/special/floor' );
 var gamma = require( './../../../../base/special/gamma' );
 var factorial = require( './../../../../base/special/factorial' );
-var MAX_FACTORIAL = require( '@stdlib/constants/float64/max-safe-nth-factorial' );
+var FLOAT64_MAX_NTH_FACTORIAL = require( '@stdlib/constants/float64/max-nth-factorial' );
 var gammaDeltaRatioLanczos = require( './gamma_delta_ratio_lanczos.js' );
 
 
@@ -87,7 +87,7 @@ function gammaDeltaRatio( z, delta ) {
 		iz = floor( z );
 		if ( iz === z ) {
 			// As both `z` and `delta` are integers, see if we can use a table lookup:
-			if ( z <= MAX_FACTORIAL && ( z + delta <= MAX_FACTORIAL ) ) {
+			if ( z <= FLOAT64_MAX_NTH_FACTORIAL && ( z + delta <= FLOAT64_MAX_NTH_FACTORIAL ) ) {
 				return factorial( iz - 1.0 ) / factorial( idelta + iz - 1.0 );
 			}
 		}
