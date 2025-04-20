@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-19)
+## Unreleased (2025-04-20)
 
 <section class="packages">
 
@@ -9918,6 +9918,7 @@ A total of 32 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a973708`](https://github.com/stdlib-js/stdlib/commit/a973708c85ff1696483ab503201191353125b964) - **docs:** update namespace table of contents [(#6741)](https://github.com/stdlib-js/stdlib/pull/6741) _(by stdlib-bot)_
 -   [`9c34a77`](https://github.com/stdlib-js/stdlib/commit/9c34a77e29807a5f03506d3da65e8c34f0483f5b) - **feat:** add C implementation for `math/base/special/roundsd` [(#4438)](https://github.com/stdlib-js/stdlib/pull/4438) _(by Shabareesh Shetty, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`d4d57c3`](https://github.com/stdlib-js/stdlib/commit/d4d57c376c6abdcaf1993d7893129b75af4f2056) - **docs:** update namespace table of contents [(#6719)](https://github.com/stdlib-js/stdlib/pull/6719) _(by stdlib-bot)_
 -   [`76ad4ca`](https://github.com/stdlib-js/stdlib/commit/76ad4ca02df8a1e1492d3428457a44717e866fc2) - **docs:** replace manual `for` loop in examples [(#6623)](https://github.com/stdlib-js/stdlib/pull/6623) _(by Harsh, Athan Reines, hrshya, stdlib-bot)_
