@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-23)
+## Unreleased (2025-04-24)
 
 <section class="packages">
 
@@ -5677,6 +5677,7 @@ A total of 34 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cd8ddd0`](https://github.com/stdlib-js/stdlib/commit/cd8ddd053636dd409fdf4fd8ae1e7cd111771262) - **docs:** update related packages sections [(#6801)](https://github.com/stdlib-js/stdlib/pull/6801) _(by stdlib-bot)_
 -   [`3be1d66`](https://github.com/stdlib-js/stdlib/commit/3be1d666a8dffa16c58b4ab1b4186e0f7b1b15f9) - **chore:** address commit comments for commit `a1e8f03` [(#6784)](https://github.com/stdlib-js/stdlib/pull/6784) _(by devshree-bhati, stdlib-bot)_
 -   [`68cf553`](https://github.com/stdlib-js/stdlib/commit/68cf553c1f2888f317e0683691b933f9c0785a5e) - **docs:** update related packages sections [(#6788)](https://github.com/stdlib-js/stdlib/pull/6788) _(by stdlib-bot)_
 -   [`8b784ff`](https://github.com/stdlib-js/stdlib/commit/8b784ff130dfd2f8fdb5e60f5ac0e9ef7450bb66) - **chore:** address commit comments for commit `3656652` [(#6783)](https://github.com/stdlib-js/stdlib/pull/6783) _(by devshree-bhati)_
