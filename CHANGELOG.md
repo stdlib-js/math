@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-04-29)
 
 <section class="features">
 
@@ -457,6 +457,7 @@ A total of 37 issues were closed in this release:
 
 <details>
 
+-   [`c043489`](https://github.com/stdlib-js/stdlib/commit/c043489789108e25047c8ce5db0a8644aa7d4e8c) - **docs:** update related packages sections [(#6845)](https://github.com/stdlib-js/stdlib/pull/6845) _(by stdlib-bot)_
 -   [`9f4b944`](https://github.com/stdlib-js/stdlib/commit/9f4b944ca1b68d8a2434e28ef398438cf467df7e) - **docs:** update related packages sections [(#6817)](https://github.com/stdlib-js/stdlib/pull/6817) _(by stdlib-bot)_
 -   [`55044b9`](https://github.com/stdlib-js/stdlib/commit/55044b91b4c63b5d600fb2cc04e810c50b3db422) - **docs:** add missing spaces _(by Philipp Burckhardt)_
 -   [`5f73301`](https://github.com/stdlib-js/stdlib/commit/5f73301a8509cc423a06b02140c4e316fd02ff49) - **docs:** minor clean-up _(by Philipp Burckhardt)_
