@@ -18,6 +18,8 @@
 * limitations under the License.
 */
 
+/* eslint-disable node/shebang */
+
 'use strict';
 
 // MODULES //

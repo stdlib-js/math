@@ -457,7 +457,6 @@ A total of 38 issues were closed in this release:
 
 <details>
 
--   [`04143be`](https://github.com/stdlib-js/stdlib/commit/04143befd0ed0b0abd102d6c19c9ba4313ecfbae) - **style:** re-enable lint rule [(#6838)](https://github.com/stdlib-js/stdlib/pull/6838) _(by Shabareesh Shetty)_
 -   [`10afa3c`](https://github.com/stdlib-js/stdlib/commit/10afa3c844a1b99bbfec96620038be70e6f8c8de) - **style:** re-enable lint rule [(#6835)](https://github.com/stdlib-js/stdlib/pull/6835) _(by Lalit Narayan Yadav, Athan Reines)_
 -   [`c043489`](https://github.com/stdlib-js/stdlib/commit/c043489789108e25047c8ce5db0a8644aa7d4e8c) - **docs:** update related packages sections [(#6845)](https://github.com/stdlib-js/stdlib/pull/6845) _(by stdlib-bot)_
 -   [`9f4b944`](https://github.com/stdlib-js/stdlib/commit/9f4b944ca1b68d8a2434e28ef398438cf467df7e) - **docs:** update related packages sections [(#6817)](https://github.com/stdlib-js/stdlib/pull/6817) _(by stdlib-bot)_
