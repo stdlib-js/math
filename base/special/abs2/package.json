@@ -123,6 +123,7 @@
           ]
         }
       ],
+      "output_policy": "real_floating_point_and_generic",
       "returns": {
         "desc": "squared absolute value",
         "type": {

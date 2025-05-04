@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-03)
+## Unreleased (2025-05-04)
 
 <section class="features">
 
@@ -458,6 +458,7 @@ A total of 40 issues were closed in this release:
 
 <details>
 
+-   [`76b5a2a`](https://github.com/stdlib-js/stdlib/commit/76b5a2a16fc50b903970a86bae38f99554537be4) - **chore:** add structured package data _(by Karan Anand)_
 -   [`23bf064`](https://github.com/stdlib-js/stdlib/commit/23bf064a542e8a3ba998ded0e94f24396a467d63) - **chore:** add structured package data for `math/base/special/abs2` [(#6903)](https://github.com/stdlib-js/stdlib/pull/6903) _(by Karan Anand)_
 -   [`5c3ca55`](https://github.com/stdlib-js/stdlib/commit/5c3ca5574141408ea5d00fd2030dcf0c70b82d3c) - **chore:** fix EditorConfig lint errors [(#6870)](https://github.com/stdlib-js/stdlib/pull/6870) _(by zhanggy)_
 -   [`4fd384d`](https://github.com/stdlib-js/stdlib/commit/4fd384d6ba0a4d5653e27123f53220cb90df0094) - **feat:** add `math/base/special/logitf` [(#3367)](https://github.com/stdlib-js/stdlib/pull/3367) _(by Vivek Maurya, stdlib-bot, Gunj Joshi, Karan Anand)_
