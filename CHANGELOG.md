@@ -80,6 +80,7 @@
 
 ### Bug Fixes
 
+-   [`e525deb`](https://github.com/stdlib-js/stdlib/commit/e525debf09ec10ada9ec72ea4674ee9fd8e049cb) - use correct inverse coversed cosine formula
 -   [`4df1f8c`](https://github.com/stdlib-js/stdlib/commit/4df1f8c6189981073be4fb574468a3092e0fa345) - correct imports to use `max-nth-double-factorial` constant
 -   [`0d53bc8`](https://github.com/stdlib-js/stdlib/commit/0d53bc83d3e0bc958aa43d6bf8759e36a586b9cb) - correct imports to use `max-nth-factorial` constant
 -   [`e051a2f`](https://github.com/stdlib-js/stdlib/commit/e051a2fbf9cb31b562972c20c361a71b6ad837f6) - improve type specificity
@@ -458,6 +459,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`e525deb`](https://github.com/stdlib-js/stdlib/commit/e525debf09ec10ada9ec72ea4674ee9fd8e049cb) - **fix:** use correct inverse coversed cosine formula _(by Karan Anand)_
 -   [`56388ac`](https://github.com/stdlib-js/stdlib/commit/56388aceeac1d76fd6f554c8871a55d908589415) - **chore:** add structured package data _(by Karan Anand)_
 -   [`ecdd35d`](https://github.com/stdlib-js/stdlib/commit/ecdd35d1580a9b4460e6a220f47bcf252c8e77bc) - **chore:** fix EditorConfig lint errors [(#6932)](https://github.com/stdlib-js/stdlib/pull/6932) _(by Lalit Narayan Yadav)_
 -   [`76b5a2a`](https://github.com/stdlib-js/stdlib/commit/76b5a2a16fc50b903970a86bae38f99554537be4) - **chore:** add structured package data _(by Karan Anand)_

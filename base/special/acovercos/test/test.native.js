@@ -32,7 +32,7 @@ var abs = require( './../../../../base/special/abs' );
 // FIXTURES //
 
 var data = require( './fixtures/julia/data.json' );
-var smallNegative = require( './fixtures/julia/small_negative.json' );
+var smallPositive = require( './fixtures/julia/small_positive.json' );
 
 
 // VARIABLES //
@@ -68,7 +68,7 @@ tape( 'the function computes the inverse coversed cosine', opts, function test( 
 			t.strictEqual( y, expected[ i ], 'x: '+x[i]+'. E: '+expected[i] );
 		} else {
 			delta = abs( y - expected[i] );
-			tol = 350.0 * EPS * abs( expected[i] );
+			tol = EPS * abs( expected[i] );
 			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. y: '+y+'. E: '+expected[i]+'. tol: '+tol+'. Δ: '+delta+'.' );
 		}
 	}
@@ -83,8 +83,8 @@ tape( 'the function computes the inverse coversed cosine (small negative numbers
 	var y;
 	var i;
 
-	x = smallNegative.x;
-	expected = smallNegative.expected;
+	x = smallPositive.x;
+	expected = smallPositive.expected;
 
 	for ( i = 0; i < x.length; i++ ) {
 		y = acovercos( x[i] );
@@ -109,17 +109,17 @@ tape( 'the function returns `NaN` if provided a value less than `-2`', opts, fun
 	var v;
 	var i;
 	for ( i = 0; i < 1e4; i++ ) {
-		v = -(randu()*1.0e6) - (2.0+EPS);
+		v = -(randu()*1.0e6) - EPS;
 		t.strictEqual( isnan( acovercos( v ) ), true, 'returns expected value when provided '+v );
 	}
 	t.end();
 });
 
-tape( 'the function returns `NaN` if provided a value greater than `0`', opts, function test( t ) {
+tape( 'the function returns `NaN` if provided a value greater than `2`', opts, function test( t ) {
 	var v;
 	var i;
 	for ( i = 0; i < 1e4; i++ ) {
-		v = (randu()*1.0e6) + 0.0 + EPS;
+		v = (randu()*1.0e6) + (2.0+EPS);
 		t.strictEqual( isnan( acovercos( v ) ), true, 'returns expected value when provided '+v );
 	}
 	t.end();
