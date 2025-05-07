@@ -65,6 +65,6 @@ dir = dirname( file );
 x = range( 0.0, stop = 2.0, length = 2003 );
 gen( x, "data.json" );
 
-# Generate fixture data for small negative values:
+# Generate fixture data for small positive values:
 x = range( 1e-208, stop = 1e-200, length = 2003 );
 gen( x, "small_positive.json" );

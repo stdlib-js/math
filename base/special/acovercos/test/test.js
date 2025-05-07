@@ -66,7 +66,7 @@ tape( 'the function computes the inverse coversed cosine', function test( t ) {
 	t.end();
 });
 
-tape( 'the function computes the inverse coversed cosine (small negative numbers)', function test( t ) {
+tape( 'the function computes the inverse coversed cosine (small positive numbers)', function test( t ) {
 	var expected;
 	var delta;
 	var tol;

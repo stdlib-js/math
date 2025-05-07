@@ -166,7 +166,7 @@ double stdlib_base_acovercos( const double x );
 #include <stdio.h>
 
 int main( void ) {
-    const double x[] = { 0.0, 0.27, 0.56, 0.78, 1.67, 1.67, 1.78, 1.80, 1.89, 2.0 };
+    const double x[] = { 0.0, 0.27, 0.56, 0.78, 1.67, 1.70, 1.78, 1.80, 1.89, 2.0 };
 
     double v;
     int i;
