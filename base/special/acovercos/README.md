@@ -131,8 +131,8 @@ logEachMap( 'acovercos(%0.4f) = %0.4f', x, acovercos );
 Computes the [inverse coversed cosine][inverse-coversed-cosine] of a double-precision floating-point number.
 
 ```c
-double out = stdlib_base_acovercos( -3.141592653589793/2.0 );
-// returns ~-0.6075
+double out = stdlib_base_acovercos( 3.141592653589793/2.0 );
+// returns ~0.6075
 ```
 
 The function accepts the following arguments:
