@@ -80,6 +80,7 @@
 
 ### Bug Fixes
 
+-   [`3920c11`](https://github.com/stdlib-js/stdlib/commit/3920c117df8d67477f9143e618faa8f2d472ce6a) - use correct formula for `acovercosf`
 -   [`e525deb`](https://github.com/stdlib-js/stdlib/commit/e525debf09ec10ada9ec72ea4674ee9fd8e049cb) - use correct inverse coversed cosine formula
 -   [`4df1f8c`](https://github.com/stdlib-js/stdlib/commit/4df1f8c6189981073be4fb574468a3092e0fa345) - correct imports to use `max-nth-double-factorial` constant
 -   [`0d53bc8`](https://github.com/stdlib-js/stdlib/commit/0d53bc83d3e0bc958aa43d6bf8759e36a586b9cb) - correct imports to use `max-nth-factorial` constant
@@ -459,6 +460,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`3920c11`](https://github.com/stdlib-js/stdlib/commit/3920c117df8d67477f9143e618faa8f2d472ce6a) - **fix:** use correct formula for `acovercosf` _(by Karan Anand)_
 -   [`d5e319b`](https://github.com/stdlib-js/stdlib/commit/d5e319b49adacabbc2985d0889248593682ed731) - **chore:** use correct output policy _(by Karan Anand)_
 -   [`6a4f52a`](https://github.com/stdlib-js/stdlib/commit/6a4f52a9c96dbdc023c2d85eaf1c33d8749a4202) - **docs:** correct domain of inverse coversed cosine _(by Karan Anand)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
