@@ -121,7 +121,7 @@
           ]
         }
       ],
-      "output_policy": "same",
+      "output_policy": "real_floating_point_and_generic",
       "returns": {
         "desc": "inverse cotangent (in degrees)",
         "type": {

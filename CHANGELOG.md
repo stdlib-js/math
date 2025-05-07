@@ -459,6 +459,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`d5e319b`](https://github.com/stdlib-js/stdlib/commit/d5e319b49adacabbc2985d0889248593682ed731) - **chore:** use correct output policy _(by Karan Anand)_
 -   [`6a4f52a`](https://github.com/stdlib-js/stdlib/commit/6a4f52a9c96dbdc023c2d85eaf1c33d8749a4202) - **docs:** correct domain of inverse coversed cosine _(by Karan Anand)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`f51b7b2`](https://github.com/stdlib-js/stdlib/commit/f51b7b2ea5c3cceca335f3089fba079d4290bde7) - **test:** update tests to match valid domain of acovercos _(by Karan Anand)_
