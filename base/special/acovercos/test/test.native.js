@@ -105,7 +105,7 @@ tape( 'the function returns `NaN` if provided a `NaN`', opts, function test( t )
 	t.end();
 });
 
-tape( 'the function returns `NaN` if provided a value less than `-2`', opts, function test( t ) {
+tape( 'the function returns `NaN` if provided a value less than `0`', opts, function test( t ) {
 	var v;
 	var i;
 	for ( i = 0; i < 1e4; i++ ) {

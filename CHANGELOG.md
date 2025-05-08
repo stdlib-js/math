@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-07)
+## Unreleased (2025-05-08)
 
 <section class="features">
 
@@ -460,6 +460,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`3ef5f68`](https://github.com/stdlib-js/stdlib/commit/3ef5f684d03d3ecca3e7c2e68d1f02a383c8ba09) - **test:** fix description _(by Athan Reines)_
 -   [`8e7f070`](https://github.com/stdlib-js/stdlib/commit/8e7f070904a67018db503b79a705b669773710d8) - **chore:** clean-up _(by Karan Anand)_
 -   [`3920c11`](https://github.com/stdlib-js/stdlib/commit/3920c117df8d67477f9143e618faa8f2d472ce6a) - **fix:** use correct formula for `acovercosf` _(by Karan Anand)_
 -   [`d5e319b`](https://github.com/stdlib-js/stdlib/commit/d5e319b49adacabbc2985d0889248593682ed731) - **chore:** use correct output policy _(by Karan Anand)_
