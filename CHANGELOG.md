@@ -460,6 +460,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`df5e6b8`](https://github.com/stdlib-js/stdlib/commit/df5e6b80f7fd70dd2d9f71b1ce3cae52ac52f11d) - **chore:** replace number strings with literals _(by Karan Anand)_
 -   [`7b3095e`](https://github.com/stdlib-js/stdlib/commit/7b3095e7c61961a687074c559e4145fd0e4faf52) - **chore:** fix spacing in description _(by Athan Reines)_
 -   [`3ef5f68`](https://github.com/stdlib-js/stdlib/commit/3ef5f684d03d3ecca3e7c2e68d1f02a383c8ba09) - **test:** fix description _(by Athan Reines)_
 -   [`8e7f070`](https://github.com/stdlib-js/stdlib/commit/8e7f070904a67018db503b79a705b669773710d8) - **chore:** clean-up _(by Karan Anand)_

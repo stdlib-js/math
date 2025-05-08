@@ -91,7 +91,7 @@
           },
           "domain": [
             {
-              "min": "1",
+              "min": 1,
               "max": "infinity"
             }
           ],
