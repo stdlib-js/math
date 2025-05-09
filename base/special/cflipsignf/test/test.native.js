@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,6 +20,7 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
@@ -31,7 +32,15 @@ var isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
 var real = require( '@stdlib/complex/float32/real' );
 var imag = require( '@stdlib/complex/float32/imag' );
-var cflipsignf = require( './../lib' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// VARIABLES //
+
+var cflipsignf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( cflipsignf instanceof Error )
+};
 
 
 // FIXTURES //
@@ -41,13 +50,13 @@ var data = require( './fixtures/julia/data.json' );
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof cflipsignf, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function evaluates the flipsign function', function test( t ) {
+tape( 'the function evaluates the flipsign function', opts, function test( t ) {
 	var delta;
 	var ans;
 	var ere;
@@ -73,8 +82,8 @@ tape( 'the function evaluates the flipsign function', function test( t ) {
 		are = real( ans );
 		aim = imag( ans );
 		if ( are === ere[ i ] && aim === eim[ i ] ) {
-			t.strictEqual( are, ere[ i ], 're: '+re[ i ]+'. Expected: '+ere[ i ] );
-			t.strictEqual( aim, eim[ i ], 'im: '+im[ i ]+'. Expected: '+eim[ i ] );
+			t.equal( are, ere[ i ], 're: '+re[ i ]+'. Expected: '+ere[ i ] );
+			t.equal( aim, eim[ i ], 'im: '+im[ i ]+'. Expected: '+eim[ i ] );
 		} else {
 			delta = absf( are - ere[ i ] );
 			tol = EPS * absf( ere[ i ] );
@@ -88,7 +97,7 @@ tape( 'the function evaluates the flipsign function', function test( t ) {
 	t.end();
 });
 
-tape( 'the function does not flip the sign of real and imaginary input arguments if `y` is `+infinity`', function test( t ) {
+tape( 'the function does not flip the sign of real and imaginary input arguments if `y` is `+infinity`', opts, function test( t ) {
 	var actual;
 	var z;
 
@@ -102,7 +111,7 @@ tape( 'the function does not flip the sign of real and imaginary input arguments
 	t.end();
 });
 
-tape( 'the function flips the sign of real and imaginary input arguments if `y` is `-infinity`', function test( t ) {
+tape( 'the function flips the sign of real and imaginary input arguments if `y` is `-infinity`', opts, function test( t ) {
 	var actual;
 	var z;
 
@@ -116,7 +125,7 @@ tape( 'the function flips the sign of real and imaginary input arguments if `y` 
 	t.end();
 });
 
-tape( 'the function flips the sign of real and imaginary input arguments if `y` is `-0`', function test( t ) {
+tape( 'the function flips the sign of real and imaginary input arguments if `y` is `-0`', opts, function test( t ) {
 	var actual;
 	var z;
 
@@ -130,7 +139,7 @@ tape( 'the function flips the sign of real and imaginary input arguments if `y` 
 	t.end();
 });
 
-tape( 'the function does not flip the sign of real and imaginary input arguments if `y` is `+0`', function test( t ) {
+tape( 'the function does not flip the sign of real and imaginary input arguments if `y` is `+0`', opts, function test( t ) {
 	var actual;
 	var z;
 
@@ -144,7 +153,7 @@ tape( 'the function does not flip the sign of real and imaginary input arguments
 	t.end();
 });
 
-tape( 'the function returns a `NaN` if provided a `NaN` independent of `y`', function test( t ) {
+tape( 'the function returns a `NaN` if provided a `NaN` independent of `y`', opts, function test( t ) {
 	var v;
 
 	v = cflipsignf( new Complex64( NaN, NaN ), 2.0 );
@@ -162,56 +171,56 @@ tape( 'the function returns a `NaN` if provided a `NaN` independent of `y`', fun
 	t.end();
 });
 
-tape( 'the function returns `+0` if provided `+0` and a positive `y`', function test( t ) {
+tape( 'the function returns `+0` if provided `+0` and a positive `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( +0.0, +0.0 ), 4.0 );
 	t.strictEqual( isPositiveZerof( real( v ) ), true, 'returns expected value' );
 	t.strictEqual( isPositiveZerof( imag( v ) ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `-0` if provided `-0` and a positive `y`', function test( t ) {
+tape( 'the function returns `-0` if provided `-0` and a positive `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( -0.0, -0.0 ), 4.0 );
 	t.strictEqual( isNegativeZerof( real( v ) ), true, 'returns expected value' );
 	t.strictEqual( isNegativeZerof( imag( v ) ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `+0` if provided `-0` and a negative `y`', function test( t ) {
+tape( 'the function returns `+0` if provided `-0` and a negative `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( -0.0, -0.0 ), -4.0 );
 	t.strictEqual( isPositiveZerof( real( v ) ), true, 'returns expected value' );
 	t.strictEqual( isPositiveZerof( imag( v ) ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `-0` if provided `+0` and a negative `y`', function test( t ) {
+tape( 'the function returns `-0` if provided `+0` and a negative `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( +0.0, +0.0 ), -4.0 );
 	t.strictEqual( isNegativeZerof( real( v ) ), true, 'returns expected value' );
 	t.strictEqual( isNegativeZerof( imag( v ) ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `+infinity` if provided `+infinity` and a positive `y`', function test( t ) {
+tape( 'the function returns `+infinity` if provided `+infinity` and a positive `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( PINF, PINF ), 4.0 );
 	t.strictEqual( real( v ), PINF, 'returns expected value' );
 	t.strictEqual( imag( v ), PINF, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `-infinity` if provided `-infinity` and a positive `y`', function test( t ) {
+tape( 'the function returns `-infinity` if provided `-infinity` and a positive `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( NINF, NINF ), 4.0 );
 	t.strictEqual( real( v ), NINF, 'returns expected value' );
 	t.strictEqual( imag( v ), NINF, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `+infinity` if provided `-infinity` and a negative `y`', function test( t ) {
+tape( 'the function returns `+infinity` if provided `-infinity` and a negative `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( NINF, NINF ), -4.0 );
 	t.strictEqual( real( v ), PINF, 'returns expected value' );
 	t.strictEqual( imag( v ), PINF, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `-infinity` if provided `+infinity` and a negative `y`', function test( t ) {
+tape( 'the function returns `-infinity` if provided `+infinity` and a negative `y`', opts, function test( t ) {
 	var v = cflipsignf( new Complex64( PINF, PINF ), -4.0 );
 	t.strictEqual( real( v ), NINF, 'returns expected value' );
 	t.strictEqual( imag( v ), NINF, 'returns expected value' );

@@ -119,6 +119,10 @@
 
 ### BREAKING CHANGES
 
+-   [`e341eb5`](https://github.com/stdlib-js/stdlib/commit/e341eb5579706b31132dde07aa618d5055d41821): use `stdlib_complex64` type
+
+    -   To migrate, users should no longer use the built-in C99 complex type, but, instead, use the single-precision complex floating-point type exposed by `@stdlib/complex/float32/ctor`.
+
 -   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a): migrate to `stdlib_complex64_t`
 
     -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex/float32/ctor` package.
@@ -460,6 +464,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`e341eb5`](https://github.com/stdlib-js/stdlib/commit/e341eb5579706b31132dde07aa618d5055d41821) - **refactor:** update `math/base/special/cflipsignf` to follow latest project conventions [(#4754)](https://github.com/stdlib-js/stdlib/pull/4754) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
 -   [`7673be5`](https://github.com/stdlib-js/stdlib/commit/7673be52049ca31548ebfbd14ebc63147a69775d) - **bench:** fix `NaN` check to use imaginary part _(by Karan Anand)_
 -   [`df5e6b8`](https://github.com/stdlib-js/stdlib/commit/df5e6b80f7fd70dd2d9f71b1ce3cae52ac52f11d) - **chore:** replace number strings with literals _(by Karan Anand)_
 -   [`7b3095e`](https://github.com/stdlib-js/stdlib/commit/7b3095e7c61961a687074c559e4145fd0e4faf52) - **chore:** fix spacing in description _(by Athan Reines)_
