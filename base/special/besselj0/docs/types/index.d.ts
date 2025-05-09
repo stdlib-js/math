@@ -29,19 +29,19 @@
 * // returns 1.0
 *
 * @example
-* v = j0( 1.0 );
+* var v = j0( 1.0 );
 * // returns ~0.765
 *
 * @example
-* v = j0( Infinity );
+* var v = j0( Infinity );
 * // returns 0.0
 *
 * @example
-* v = j0( -Infinity );
+* var v = j0( -Infinity );
 * // returns 0.0
 *
 * @example
-* v = j0( NaN );
+* var v = j0( NaN );
 * // returns NaN
 */
 declare function j0( x: number ): number;

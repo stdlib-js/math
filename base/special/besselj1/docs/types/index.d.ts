@@ -33,19 +33,19 @@
 * // returns 0.0
 *
 * @example
-* v = j1( 1.0 );
+* var v = j1( 1.0 );
 * // returns ~0.440
 *
 * @example
-* v = j1( Infinity );
+* var v = j1( Infinity );
 * // returns 0.0
 *
 * @example
-* v = j1( -Infinity );
+* var v = j1( -Infinity );
 * // returns 0.0
 *
 * @example
-* v = j1( NaN );
+* var v = j1( NaN );
 * // returns NaN
 */
 declare function j1( x: number ): number;

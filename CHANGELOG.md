@@ -464,6 +464,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`c1db7b4`](https://github.com/stdlib-js/stdlib/commit/c1db7b4c0998e5028d94c1708b1cf5c37d65a179) - **docs:** add missing `var` declarations in examples _(by Karan Anand)_
 -   [`dbc55f9`](https://github.com/stdlib-js/stdlib/commit/dbc55f9270aa3c3d39d3bca18f126d40a9ff6d48) - **docs:** add JSDoc example tags _(by Karan Anand)_
 -   [`e341eb5`](https://github.com/stdlib-js/stdlib/commit/e341eb5579706b31132dde07aa618d5055d41821) - **refactor:** update `math/base/special/cflipsignf` to follow latest project conventions [(#4754)](https://github.com/stdlib-js/stdlib/pull/4754) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
 -   [`7673be5`](https://github.com/stdlib-js/stdlib/commit/7673be52049ca31548ebfbd14ebc63147a69775d) - **bench:** fix `NaN` check to use imaginary part _(by Karan Anand)_
