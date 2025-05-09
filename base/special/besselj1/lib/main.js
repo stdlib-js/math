@@ -73,15 +73,19 @@ var sc = [ 0.0, 0.0 ];
 * var v = j1( 0.0 );
 * // returns 0.0
 *
+* @example
 * v = j1( 1.0 );
 * // returns ~0.440
 *
+* @example
 * v = j1( Infinity );
 * // returns 0.0
 *
+* @example
 * v = j1( -Infinity );
 * // returns 0.0
 *
+* @example
 * v = j1( NaN );
 * // returns NaN
 */

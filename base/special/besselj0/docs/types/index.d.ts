@@ -28,15 +28,19 @@
 * var v = j0( 0.0 );
 * // returns 1.0
 *
+* @example
 * v = j0( 1.0 );
 * // returns ~0.765
 *
+* @example
 * v = j0( Infinity );
 * // returns 0.0
 *
+* @example
 * v = j0( -Infinity );
 * // returns 0.0
 *
+* @example
 * v = j0( NaN );
 * // returns NaN
 */

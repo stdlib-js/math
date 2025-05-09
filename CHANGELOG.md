@@ -464,6 +464,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`dbc55f9`](https://github.com/stdlib-js/stdlib/commit/dbc55f9270aa3c3d39d3bca18f126d40a9ff6d48) - **docs:** add JSDoc example tags _(by Karan Anand)_
 -   [`e341eb5`](https://github.com/stdlib-js/stdlib/commit/e341eb5579706b31132dde07aa618d5055d41821) - **refactor:** update `math/base/special/cflipsignf` to follow latest project conventions [(#4754)](https://github.com/stdlib-js/stdlib/pull/4754) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
 -   [`7673be5`](https://github.com/stdlib-js/stdlib/commit/7673be52049ca31548ebfbd14ebc63147a69775d) - **bench:** fix `NaN` check to use imaginary part _(by Karan Anand)_
 -   [`df5e6b8`](https://github.com/stdlib-js/stdlib/commit/df5e6b80f7fd70dd2d9f71b1ce3cae52ac52f11d) - **chore:** replace number strings with literals _(by Karan Anand)_

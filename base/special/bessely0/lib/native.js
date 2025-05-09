@@ -36,18 +36,23 @@ var addon = require( './../src/addon.node' );
 * var v = y0( 0.0 );
 * // returns -Infinity
 *
+* @example
 * v = y0( 1.0 );
 * // returns ~0.088
 *
+* @example
 * v = y0( -1.0 );
 * // returns NaN
 *
+* @example
 * v = y0( Infinity );
 * // returns 0.0
 *
+* @example
 * v = y0( -Infinity );
 * // returns NaN
 *
+* @example
 * v = y0( NaN );
 * // returns NaN
 */
