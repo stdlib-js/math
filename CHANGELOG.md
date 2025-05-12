@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-09)
+## Unreleased (2025-05-12)
 
 <section class="features">
 
 ### Features
 
+-   [`7d671b1`](https://github.com/stdlib-js/stdlib/commit/7d671b11b736366d61848f8b9014d5067825e39a) - add `math/base/special/bernoullif` [(#3037)](https://github.com/stdlib-js/stdlib/pull/3037)
 -   [`4fd384d`](https://github.com/stdlib-js/stdlib/commit/4fd384d6ba0a4d5653e27123f53220cb90df0094) - add `math/base/special/logitf` [(#3367)](https://github.com/stdlib-js/stdlib/pull/3367)
 -   [`9c34a77`](https://github.com/stdlib-js/stdlib/commit/9c34a77e29807a5f03506d3da65e8c34f0483f5b) - add C implementation for `math/base/special/roundsd` [(#4438)](https://github.com/stdlib-js/stdlib/pull/4438)
 -   [`3656652`](https://github.com/stdlib-js/stdlib/commit/36566524e333dabea3b4b47c00b154accc1c2c23) - add `math/base/special/lucasf` [(#6223)](https://github.com/stdlib-js/stdlib/pull/6223)
@@ -464,6 +465,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`7d671b1`](https://github.com/stdlib-js/stdlib/commit/7d671b11b736366d61848f8b9014d5067825e39a) - **feat:** add `math/base/special/bernoullif` [(#3037)](https://github.com/stdlib-js/stdlib/pull/3037) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand, Philipp Burckhardt)_
 -   [`c1db7b4`](https://github.com/stdlib-js/stdlib/commit/c1db7b4c0998e5028d94c1708b1cf5c37d65a179) - **docs:** add missing `var` declarations in examples _(by Karan Anand)_
 -   [`dbc55f9`](https://github.com/stdlib-js/stdlib/commit/dbc55f9270aa3c3d39d3bca18f126d40a9ff6d48) - **docs:** add JSDoc example tags _(by Karan Anand)_
 -   [`e341eb5`](https://github.com/stdlib-js/stdlib/commit/e341eb5579706b31132dde07aa618d5055d41821) - **refactor:** update `math/base/special/cflipsignf` to follow latest project conventions [(#4754)](https://github.com/stdlib-js/stdlib/pull/4754) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
