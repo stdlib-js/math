@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,17 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/math/base/special/rising_factorial.h"
+#include "stdlib/math/base/napi/binary.h"
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var risingFactorial = require( './../lib' );
-
-var opts = {
-	'dtype': 'float64'
-};
-var x = uniform( 100, -20.0, 20.0, opts );
-var n = discreteUniform( 100, -20, 20, opts );
-
-logEachMap( 'risingFactorial(%0.4f, %d) = %0.4f', x, n, risingFactorial );
+STDLIB_MATH_BASE_NAPI_MODULE_DI_D( stdlib_base_rising_factorial )

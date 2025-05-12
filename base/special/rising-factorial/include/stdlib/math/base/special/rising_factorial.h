@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,17 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_MATH_BASE_SPECIAL_RISING_FACTORIAL_H
+#define STDLIB_MATH_BASE_SPECIAL_RISING_FACTORIAL_H
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var risingFactorial = require( './../lib' );
+#include <stdint.h>
 
-var opts = {
-	'dtype': 'float64'
-};
-var x = uniform( 100, -20.0, 20.0, opts );
-var n = discreteUniform( 100, -20, 20, opts );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-logEachMap( 'risingFactorial(%0.4f, %d) = %0.4f', x, n, risingFactorial );
+/**
+* Computes the rising factorial of `x` and `n`.
+*/
+double stdlib_base_rising_factorial( const double x, const int32_t n );
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // !STDLIB_MATH_BASE_SPECIAL_RISING_FACTORIAL_H

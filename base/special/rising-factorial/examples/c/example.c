@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,17 +16,18 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/math/base/special/rising_factorial.h"
+#include <stdio.h>
+#include <stdint.h>
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var risingFactorial = require( './../lib' );
+int main( void ) {
+	const double x[] = { -10.0, -7.78, -5.56, -3.33, -1.11, 1.11, 3.33, 5.56, 7.78, 10.0 };
+	const int32_t n[] = { 5, 4, 3, 2, 1, 0, -1, -2, -3, -4 };
 
-var opts = {
-	'dtype': 'float64'
-};
-var x = uniform( 100, -20.0, 20.0, opts );
-var n = discreteUniform( 100, -20, 20, opts );
-
-logEachMap( 'risingFactorial(%0.4f, %d) = %0.4f', x, n, risingFactorial );
+	double v;
+	int i;
+	for ( i = 0; i < 10; i++ ) {
+		v = stdlib_base_rising_factorial( x[ i ], n[ i ] );
+		printf( "risingFactorial(%lf, %d) = %lf\n", x[ i ], n[ i ], v );
+	}
+}

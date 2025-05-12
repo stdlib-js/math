@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455)
 -   [`7d671b1`](https://github.com/stdlib-js/stdlib/commit/7d671b11b736366d61848f8b9014d5067825e39a) - add `math/base/special/bernoullif` [(#3037)](https://github.com/stdlib-js/stdlib/pull/3037)
 -   [`4fd384d`](https://github.com/stdlib-js/stdlib/commit/4fd384d6ba0a4d5653e27123f53220cb90df0094) - add `math/base/special/logitf` [(#3367)](https://github.com/stdlib-js/stdlib/pull/3367)
 -   [`9c34a77`](https://github.com/stdlib-js/stdlib/commit/9c34a77e29807a5f03506d3da65e8c34f0483f5b) - add C implementation for `math/base/special/roundsd` [(#4438)](https://github.com/stdlib-js/stdlib/pull/4438)
@@ -465,6 +466,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - **feat:** add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455) _(by Dhruv Arvind Singh, Karan Anand, Philipp Burckhardt)_
 -   [`7d671b1`](https://github.com/stdlib-js/stdlib/commit/7d671b11b736366d61848f8b9014d5067825e39a) - **feat:** add `math/base/special/bernoullif` [(#3037)](https://github.com/stdlib-js/stdlib/pull/3037) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand, Philipp Burckhardt)_
 -   [`c1db7b4`](https://github.com/stdlib-js/stdlib/commit/c1db7b4c0998e5028d94c1708b1cf5c37d65a179) - **docs:** add missing `var` declarations in examples _(by Karan Anand)_
 -   [`dbc55f9`](https://github.com/stdlib-js/stdlib/commit/dbc55f9270aa3c3d39d3bca18f126d40a9ff6d48) - **docs:** add JSDoc example tags _(by Karan Anand)_
