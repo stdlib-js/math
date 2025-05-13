@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-12)
+## Unreleased (2025-05-13)
 
 <section class="features">
 
@@ -466,6 +466,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`914f4fd`](https://github.com/stdlib-js/stdlib/commit/914f4fda357226b0b19278afb5de75f02773582d) - **docs:** update related packages sections [(#6995)](https://github.com/stdlib-js/stdlib/pull/6995) _(by stdlib-bot)_
 -   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - **feat:** add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455) _(by Dhruv Arvind Singh, Karan Anand, Philipp Burckhardt)_
 -   [`7d671b1`](https://github.com/stdlib-js/stdlib/commit/7d671b11b736366d61848f8b9014d5067825e39a) - **feat:** add `math/base/special/bernoullif` [(#3037)](https://github.com/stdlib-js/stdlib/pull/3037) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand, Philipp Burckhardt)_
 -   [`c1db7b4`](https://github.com/stdlib-js/stdlib/commit/c1db7b4c0998e5028d94c1708b1cf5c37d65a179) - **docs:** add missing `var` declarations in examples _(by Karan Anand)_
