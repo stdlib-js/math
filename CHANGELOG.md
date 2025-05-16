@@ -467,6 +467,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`072e93e`](https://github.com/stdlib-js/stdlib/commit/072e93e688e341538c2f1dd25e67fff5dec753dc) - **docs:** use correct function name _(by Karan Anand)_
 -   [`696cf19`](https://github.com/stdlib-js/stdlib/commit/696cf194b9ac255ada33dac8bbd3b5cb5dd8f923) - **bench:** adjust input range for uniform path coverage _(by Karan Anand)_
 -   [`5ac2354`](https://github.com/stdlib-js/stdlib/commit/5ac23541c743ae50a46366e9415e7442e70559d7) - **test:** remove redundant fixtures and update tests _(by Karan Anand)_
 -   [`8dc25bb`](https://github.com/stdlib-js/stdlib/commit/8dc25bbbe0a4ad6310ea0f823e812d38a627adad) - **docs:** fix case conditions and clean-up _(by Karan Anand)_
