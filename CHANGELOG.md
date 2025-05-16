@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-14)
+## Unreleased (2025-05-16)
 
 <section class="features">
 
 ### Features
 
+-   [`70d6643`](https://github.com/stdlib-js/stdlib/commit/70d6643c3fc339c76d4f660380e2afd716ce989e) - add `math/base/special/gammasgnf` [(#3365)](https://github.com/stdlib-js/stdlib/pull/3365)
 -   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455)
 -   [`7d671b1`](https://github.com/stdlib-js/stdlib/commit/7d671b11b736366d61848f8b9014d5067825e39a) - add `math/base/special/bernoullif` [(#3037)](https://github.com/stdlib-js/stdlib/pull/3037)
 -   [`4fd384d`](https://github.com/stdlib-js/stdlib/commit/4fd384d6ba0a4d5653e27123f53220cb90df0094) - add `math/base/special/logitf` [(#3367)](https://github.com/stdlib-js/stdlib/pull/3367)
@@ -466,6 +467,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`70d6643`](https://github.com/stdlib-js/stdlib/commit/70d6643c3fc339c76d4f660380e2afd716ce989e) - **feat:** add `math/base/special/gammasgnf` [(#3365)](https://github.com/stdlib-js/stdlib/pull/3365) _(by Vivek Maurya, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`97ab65f`](https://github.com/stdlib-js/stdlib/commit/97ab65f9a65c9f1510f21309ff4892c752910e0f) - **docs:** fix missing closing section _(by Athan Reines)_
 -   [`914f4fd`](https://github.com/stdlib-js/stdlib/commit/914f4fda357226b0b19278afb5de75f02773582d) - **docs:** update related packages sections [(#6995)](https://github.com/stdlib-js/stdlib/pull/6995) _(by stdlib-bot)_
 -   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - **feat:** add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455) _(by Dhruv Arvind Singh, Karan Anand, Philipp Burckhardt)_
