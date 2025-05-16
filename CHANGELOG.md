@@ -467,6 +467,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`696cf19`](https://github.com/stdlib-js/stdlib/commit/696cf194b9ac255ada33dac8bbd3b5cb5dd8f923) - **bench:** adjust input range for uniform path coverage _(by Karan Anand)_
 -   [`5ac2354`](https://github.com/stdlib-js/stdlib/commit/5ac23541c743ae50a46366e9415e7442e70559d7) - **test:** remove redundant fixtures and update tests _(by Karan Anand)_
 -   [`8dc25bb`](https://github.com/stdlib-js/stdlib/commit/8dc25bbbe0a4ad6310ea0f823e812d38a627adad) - **docs:** fix case conditions and clean-up _(by Karan Anand)_
 -   [`70d6643`](https://github.com/stdlib-js/stdlib/commit/70d6643c3fc339c76d4f660380e2afd716ce989e) - **feat:** add `math/base/special/gammasgnf` [(#3365)](https://github.com/stdlib-js/stdlib/pull/3365) _(by Vivek Maurya, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand)_
