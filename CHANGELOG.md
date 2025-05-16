@@ -467,6 +467,8 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`5ac2354`](https://github.com/stdlib-js/stdlib/commit/5ac23541c743ae50a46366e9415e7442e70559d7) - **test:** remove redundant fixtures and update tests _(by Karan Anand)_
+-   [`8dc25bb`](https://github.com/stdlib-js/stdlib/commit/8dc25bbbe0a4ad6310ea0f823e812d38a627adad) - **docs:** fix case conditions and clean-up _(by Karan Anand)_
 -   [`70d6643`](https://github.com/stdlib-js/stdlib/commit/70d6643c3fc339c76d4f660380e2afd716ce989e) - **feat:** add `math/base/special/gammasgnf` [(#3365)](https://github.com/stdlib-js/stdlib/pull/3365) _(by Vivek Maurya, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`97ab65f`](https://github.com/stdlib-js/stdlib/commit/97ab65f9a65c9f1510f21309ff4892c752910e0f) - **docs:** fix missing closing section _(by Athan Reines)_
 -   [`914f4fd`](https://github.com/stdlib-js/stdlib/commit/914f4fda357226b0b19278afb5de75f02773582d) - **docs:** update related packages sections [(#6995)](https://github.com/stdlib-js/stdlib/pull/6995) _(by stdlib-bot)_
