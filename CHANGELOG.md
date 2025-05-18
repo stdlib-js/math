@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9b48575`](https://github.com/stdlib-js/stdlib/commit/9b48575a2670874e64b076f79ebd9989b43db5a0) - add C implementation for `math/base/special/heavisidef` [(#7022)](https://github.com/stdlib-js/stdlib/pull/7022)
 -   [`35f5f7a`](https://github.com/stdlib-js/stdlib/commit/35f5f7a596e36f3faca5977838ee681df521139c) - add `math/base/special/binomcoeff` [(#7000)](https://github.com/stdlib-js/stdlib/pull/7000)
 -   [`70d6643`](https://github.com/stdlib-js/stdlib/commit/70d6643c3fc339c76d4f660380e2afd716ce989e) - add `math/base/special/gammasgnf` [(#3365)](https://github.com/stdlib-js/stdlib/pull/3365)
 -   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455)
@@ -468,6 +469,7 @@ A total of 41 issues were closed in this release:
 
 <details>
 
+-   [`9b48575`](https://github.com/stdlib-js/stdlib/commit/9b48575a2670874e64b076f79ebd9989b43db5a0) - **feat:** add C implementation for `math/base/special/heavisidef` [(#7022)](https://github.com/stdlib-js/stdlib/pull/7022) _(by Karan Anand, stdlib-bot)_
 -   [`35f5f7a`](https://github.com/stdlib-js/stdlib/commit/35f5f7a596e36f3faca5977838ee681df521139c) - **feat:** add `math/base/special/binomcoeff` [(#7000)](https://github.com/stdlib-js/stdlib/pull/7000) _(by Karan Anand, stdlib-bot)_
 -   [`072e93e`](https://github.com/stdlib-js/stdlib/commit/072e93e688e341538c2f1dd25e67fff5dec753dc) - **docs:** use correct function name _(by Karan Anand)_
 -   [`696cf19`](https://github.com/stdlib-js/stdlib/commit/696cf194b9ac255ada33dac8bbd3b5cb5dd8f923) - **bench:** adjust input range for uniform path coverage _(by Karan Anand)_

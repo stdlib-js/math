@@ -18,13 +18,35 @@
 
 'use strict';
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var heavisidef = require( './../lib' );
+// MODULES //
 
-var opts = {
-	'dtype': 'float32'
-};
-var x = uniform( 100, -10.0, 10.0, opts );
+var enumeration = require( './enum.js' );
 
-logEachMap( 'H(%0.4f) = %0.4f', x, heavisidef );
+
+// VARIABLES //
+
+var ENUM = enumeration();
+
+
+// MAIN //
+
+/**
+* Returns the enumeration constant associated with a function continuity type string.
+*
+* @private
+* @param {string} ctype - function continuity type string
+* @returns {(integer|null)} integer value or null
+*
+* @example
+* var v = str2enum( 'left-continuous' );
+* // returns <number>
+*/
+function str2enum( ctype ) {
+	var v = ENUM[ ctype ];
+	return ( typeof v === 'number' ) ? v : -1; // note: we include this guard to prevent walking the prototype chain
+}
+
+
+// EXPORTS //
+
+module.exports = str2enum;

@@ -18,13 +18,35 @@
 
 'use strict';
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var heavisidef = require( './../lib' );
+// MAIN //
 
-var opts = {
-	'dtype': 'float32'
-};
-var x = uniform( 100, -10.0, 10.0, opts );
+/**
+* Returns an object mapping supported function continuity type strings to enumeration constants.
+*
+* @private
+* @returns {Object} object mapping supported function continuity types to enumeration constants
+*
+* @example
+* var table = enumeration();
+* // returns <Object>
+*/
+function enumeration() {
+	return {
+		// Half-maximum:
+		'half-maximum': 0,
 
-logEachMap( 'H(%0.4f) = %0.4f', x, heavisidef );
+		// Left-continuous:
+		'left-continuous': 1,
+
+		// Right-continuous:
+		'right-continuous': 2,
+
+		// Discontinuous:
+		'discontinuous': 3
+	};
+}
+
+
+// EXPORTS //
+
+module.exports = enumeration;

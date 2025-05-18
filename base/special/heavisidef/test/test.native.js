@@ -20,6 +20,7 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
 var isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
@@ -27,18 +28,26 @@ var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var EPS = require( '@stdlib/constants/float32/eps' );
 var randu = require( '@stdlib/random/base/randu' );
-var heavisidef = require( './../lib' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// VARIABLES //
+
+var heavisidef = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( heavisidef instanceof Error )
+};
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof heavisidef, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function returns `0` if `x` is negative', function test( t ) {
+tape( 'the function returns `0` if `x` is negative', opts, function test( t ) {
 	var x;
 	var v;
 	var i;
@@ -51,7 +60,7 @@ tape( 'the function returns `0` if `x` is negative', function test( t ) {
 	t.end();
 });
 
-tape( 'the function returns `1` if `x` is positive', function test( t ) {
+tape( 'the function returns `1` if `x` is positive', opts, function test( t ) {
 	var x;
 	var v;
 	var i;
@@ -64,7 +73,7 @@ tape( 'the function returns `1` if `x` is positive', function test( t ) {
 	t.end();
 });
 
-tape( 'by default, the function returns `NaN` if provided `+-0`', function test( t ) {
+tape( 'by default, the function returns `NaN` if provided `+-0`', opts, function test( t ) {
 	var v;
 
 	v = heavisidef( -0.0 );
@@ -76,7 +85,19 @@ tape( 'by default, the function returns `NaN` if provided `+-0`', function test(
 	t.end();
 });
 
-tape( 'if the `continuity` option is `half-maximum`, the function returns `0.5` if provided `+-0`', function test( t ) {
+tape( 'if the `continuity` option is `discontinuous`, the function returns `NaN` if provided `+-0`', opts, function test( t ) {
+	var v;
+
+	v = heavisidef( -0.0, 'discontinuous' );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+
+	v = heavisidef( +0.0, 'discontinuous' );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'if the `continuity` option is `half-maximum`, the function returns `0.5` if provided `+-0`', opts, function test( t ) {
 	var v;
 
 	v = heavisidef( -0.0, 'half-maximum' );
@@ -88,7 +109,7 @@ tape( 'if the `continuity` option is `half-maximum`, the function returns `0.5` 
 	t.end();
 });
 
-tape( 'if the `continuity` option is `left-continuous`, the function returns `0.0` if provided `+-0`', function test( t ) {
+tape( 'if the `continuity` option is `left-continuous`, the function returns `0.0` if provided `+-0`', opts, function test( t ) {
 	var v;
 
 	v = heavisidef( -0.0, 'left-continuous' );
@@ -100,32 +121,44 @@ tape( 'if the `continuity` option is `left-continuous`, the function returns `0.
 	t.end();
 });
 
-tape( 'if the `continuity` option is `right-continuous`, the function returns `1` if provided `+-0`', function test( t ) {
+tape( 'if the `continuity` option is `right-continuous`, the function returns `1` if provided `+-0`', opts, function test( t ) {
 	var v;
 
 	v = heavisidef( -0.0, 'right-continuous' );
-	t.strictEqual( v, 1.0, 'returns expected value' );
+	t.strictEqual( v, 1, 'returns expected value' );
 
 	v = heavisidef( +0.0, 'right-continuous' );
-	t.strictEqual( v, 1.0, 'returns expected value' );
+	t.strictEqual( v, 1, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function returns `NaN` if provided `NaN`', function test( t ) {
-	var v = heavisidef( NaN );
+tape( 'if the `continuity` option is not valid, the function returns `NaN` if provided `+-0`', opts, function test( t ) {
+	var v;
+
+	v = heavisidef( -0.0, 'foo' );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+
+	v = heavisidef( +0.0, 'bar' );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function returns `NaN` if provided `NaN`', opts, function test( t ) {
+	var v = heavisidef( NaN, 'left-continuous' );
 	t.strictEqual( isnanf( v ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `0` if provided `-infinity`', function test( t ) {
-	var v = heavisidef( NINF );
+tape( 'the function returns `0` if provided `-infinity`', opts, function test( t ) {
+	var v = heavisidef( NINF, 'left-continuous' );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function returns `+1` if provided `+infinity`', function test( t ) {
-	var v = heavisidef( PINF );
+tape( 'the function returns `+1` if provided `+infinity`', opts, function test( t ) {
+	var v = heavisidef( PINF, 'left-continuous' );
 	t.strictEqual( v, 1.0, 'returns expected value' );
 	t.end();
 });

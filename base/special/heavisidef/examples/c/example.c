@@ -16,15 +16,16 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/math/base/special/heavisidef.h"
+#include <stdio.h>
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var heavisidef = require( './../lib' );
+int main( void ) {
+	const float x[] = { -4.0f, -3.0f, -2.0f, -1.0f, 0.0f, 1.0f, 2.0f, 3.0f, 4.0f, 5.0f };
 
-var opts = {
-	'dtype': 'float32'
-};
-var x = uniform( 100, -10.0, 10.0, opts );
-
-logEachMap( 'H(%0.4f) = %0.4f', x, heavisidef );
+	float y;
+	int i;
+	for ( i = 0; i < 10; i++ ) {
+		y = stdlib_base_heavisidef( x[ i ], STDLIB_BASE_HEAVISIDEF_CONTINUITY_HALF_MAXIMUM );
+		printf( "H(%f) = %f\n", x[ i ], y );
+	}
+}
