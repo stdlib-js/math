@@ -73,7 +73,6 @@ interface MinMaxAbs {
 *
 * @param x - first number
 * @param y - second number
-* @param args - numbers
 * @returns minimum and maximum absolute values
 *
 * @example
