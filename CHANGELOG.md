@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-20)
+## Unreleased (2025-05-21)
 
 <section class="features">
 
@@ -471,6 +471,9 @@ A total of 42 issues were closed in this release:
 
 <details>
 
+-   [`999cdb2`](https://github.com/stdlib-js/stdlib/commit/999cdb245ef44457920ac1fdc0d0e4dc67862e75) - **test:** remove non-number inputs from `NaN` test cases _(by Karan Anand)_
+-   [`dc36e99`](https://github.com/stdlib-js/stdlib/commit/dc36e99948cf35b754e3038323926ba8a0f50d04) - **refactor:** remove redundant `f32` conversions _(by Karan Anand)_
+-   [`26cd960`](https://github.com/stdlib-js/stdlib/commit/26cd96031731d66badef65b3c7160491d7b12ba6) - **bench:** move PRNG out of loop and update Makefiles _(by Karan Anand)_
 -   [`28b8375`](https://github.com/stdlib-js/stdlib/commit/28b837504e216bf5b5175226511777575b4edc2a) - **docs:** remove args parameter to match TS declaration _(by Karan Anand)_
 -   [`a9d4530`](https://github.com/stdlib-js/stdlib/commit/a9d4530c9e486f49e6d13b8bd2d3dfaeda41cb06) - **docs:** update example and function description _(by Karan Anand)_
 -   [`57b0e74`](https://github.com/stdlib-js/stdlib/commit/57b0e7428d3e8f21640e9fe6462a33c2b0881c48) - **feat:** add C implementation for `math/base/special/minmax` [(#6296)](https://github.com/stdlib-js/stdlib/pull/6296) _(by Neeraj Pathak, Karan Anand)_
