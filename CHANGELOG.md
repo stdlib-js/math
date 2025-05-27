@@ -471,6 +471,7 @@ A total of 42 issues were closed in this release:
 
 <details>
 
+-   [`63b7891`](https://github.com/stdlib-js/stdlib/commit/63b7891a03385347320f89e6fe0458f3b5fd198c) - **refactor:** use in-house macros for building native addon bindings _(by Karan Anand)_
 -   [`eec9cfa`](https://github.com/stdlib-js/stdlib/commit/eec9cfa4705b0425b8a00cdfa3ca72c6998e7905) - **refactor:** use in-house macros for building native addon bindings _(by Karan Anand)_
 -   [`c76fda3`](https://github.com/stdlib-js/stdlib/commit/c76fda338a38ced6292591153522858817f47c11) - **bench:** update Makefiles to follow current project conventions _(by Karan Anand)_
 -   [`1cfea57`](https://github.com/stdlib-js/stdlib/commit/1cfea575fc941a1e3e4f2c492f64b339906880a5) - **refactor:** remove `typedef` from `STDLIB_BASE_HEAVISIDEF_CONTINUITY` enum definition _(by Karan Anand)_
