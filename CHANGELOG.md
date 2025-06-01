@@ -90,6 +90,7 @@
 
 ### Bug Fixes
 
+-   [`43cbf2d`](https://github.com/stdlib-js/stdlib/commit/43cbf2dd9d8ad173cfe9cc89fe7de500dd96bbbe) - update constant name
 -   [`3920c11`](https://github.com/stdlib-js/stdlib/commit/3920c117df8d67477f9143e618faa8f2d472ce6a) - use correct formula for `acovercosf`
 -   [`e525deb`](https://github.com/stdlib-js/stdlib/commit/e525debf09ec10ada9ec72ea4674ee9fd8e049cb) - use correct inverse coversed cosine formula
 -   [`4df1f8c`](https://github.com/stdlib-js/stdlib/commit/4df1f8c6189981073be4fb574468a3092e0fa345) - correct imports to use `max-nth-double-factorial` constant
@@ -474,6 +475,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`43cbf2d`](https://github.com/stdlib-js/stdlib/commit/43cbf2dd9d8ad173cfe9cc89fe7de500dd96bbbe) - **fix:** update constant name _(by Karan Anand)_
 -   [`3c5ee39`](https://github.com/stdlib-js/stdlib/commit/3c5ee3994b878caa46ad9d5692bb4ba44ab580d7) - **feat:** add `math/base/special/atan2f` [(#7081)](https://github.com/stdlib-js/stdlib/pull/7081) _(by Karan Anand, stdlib-bot)_
 -   [`4eaa59f`](https://github.com/stdlib-js/stdlib/commit/4eaa59f1a7e2754d24e8cd2f417a7dd82cf50cdc) - **feat:** add `math/base/special/factorial2f` [(#6736)](https://github.com/stdlib-js/stdlib/pull/6736) _(by Karan Anand, Athan Reines)_
 -   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - **feat:** add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396) _(by Shabareesh Shetty, stdlib-bot, Gunj Joshi, Karan Anand)_
