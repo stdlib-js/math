@@ -475,6 +475,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`24d35f8`](https://github.com/stdlib-js/stdlib/commit/24d35f8d24c42073c46ae178ac51278c148be8d2) - **chore:** update Makefiles to follow current project conventions _(by Karan Anand)_
 -   [`43cbf2d`](https://github.com/stdlib-js/stdlib/commit/43cbf2dd9d8ad173cfe9cc89fe7de500dd96bbbe) - **fix:** update constant name _(by Karan Anand)_
 -   [`3c5ee39`](https://github.com/stdlib-js/stdlib/commit/3c5ee3994b878caa46ad9d5692bb4ba44ab580d7) - **feat:** add `math/base/special/atan2f` [(#7081)](https://github.com/stdlib-js/stdlib/pull/7081) _(by Karan Anand, stdlib-bot)_
 -   [`4eaa59f`](https://github.com/stdlib-js/stdlib/commit/4eaa59f1a7e2754d24e8cd2f417a7dd82cf50cdc) - **feat:** add `math/base/special/factorial2f` [(#6736)](https://github.com/stdlib-js/stdlib/pull/6736) _(by Karan Anand, Athan Reines)_
