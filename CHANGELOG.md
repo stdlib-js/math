@@ -475,6 +475,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`f10839a`](https://github.com/stdlib-js/stdlib/commit/f10839a93d9dc6082a1a699d98dff51540603173) - **test:** update test messages _(by Karan Anand)_
 -   [`3830189`](https://github.com/stdlib-js/stdlib/commit/383018955516c08e11189d7afce9826976c60808) - **docs:** remove redundant imports _(by Karan Anand)_
 -   [`8a590f0`](https://github.com/stdlib-js/stdlib/commit/8a590f06152ebe5636942295ffdf0152a088fe1c) - **refactor:** use in-house macros for building native addon bindings _(by Karan Anand)_
 -   [`24d35f8`](https://github.com/stdlib-js/stdlib/commit/24d35f8d24c42073c46ae178ac51278c148be8d2) - **chore:** update Makefiles to follow current project conventions _(by Karan Anand)_
