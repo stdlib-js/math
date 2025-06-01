@@ -1,7 +1,8 @@
-/*
+
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,17 +17,21 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 4.1
+'use strict';
+
+// MODULES //
+
+var addon = require( './../src/addon.node' );
+
+
+// MAIN //
 
 /**
 * Computes the Bessel function of the second kind of order one.
 *
-* ## Notes
-*
-* -   Accuracy for subnormal `x` is very poor. Full accuracy is achieved at `1.0e-308` but trends progressively to zero at `5e-324`. This suggests that underflow (or overflow, perhaps due to a reciprocal) is effectively cutting off digits of precision until the computation loses all accuracy at `5e-324`.
-*
-* @param x - input value
-* @returns evaluated Bessel function
+* @private
+* @param {number} x - input value
+* @returns {number} evaluated Bessel function
 *
 * @example
 * var v = y1( 0.0 );
@@ -52,9 +57,11 @@
 * var v = y1( NaN );
 * // returns NaN
 */
-declare function y1( x: number ): number;
+function y1( x ) {
+	return addon( x );
+}
 
 
 // EXPORTS //
 
-export = y1;
+module.exports = y1;
