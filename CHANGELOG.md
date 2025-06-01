@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4eaa59f`](https://github.com/stdlib-js/stdlib/commit/4eaa59f1a7e2754d24e8cd2f417a7dd82cf50cdc) - add `math/base/special/factorial2f` [(#6736)](https://github.com/stdlib-js/stdlib/pull/6736)
 -   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396)
 -   [`57b0e74`](https://github.com/stdlib-js/stdlib/commit/57b0e7428d3e8f21640e9fe6462a33c2b0881c48) - add C implementation for `math/base/special/minmax` [(#6296)](https://github.com/stdlib-js/stdlib/pull/6296)
 -   [`c888997`](https://github.com/stdlib-js/stdlib/commit/c888997a587373790a6ebadbadfec9da0557a17e) - add `math/base/special/negafibonaccif` [(#4939)](https://github.com/stdlib-js/stdlib/pull/4939)
@@ -472,6 +473,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`4eaa59f`](https://github.com/stdlib-js/stdlib/commit/4eaa59f1a7e2754d24e8cd2f417a7dd82cf50cdc) - **feat:** add `math/base/special/factorial2f` [(#6736)](https://github.com/stdlib-js/stdlib/pull/6736) _(by Karan Anand, Athan Reines)_
 -   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - **feat:** add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396) _(by Shabareesh Shetty, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`a5f516c`](https://github.com/stdlib-js/stdlib/commit/a5f516c96d479568dca5099e24fe709977d3ec5b) - **chore:** fix EditorConfig lint errors [(#7137)](https://github.com/stdlib-js/stdlib/pull/7137) _(by Karan Vasudevamurthy)_
 -   [`219e2a0`](https://github.com/stdlib-js/stdlib/commit/219e2a0f9ebbdc2d8f14c9c416dfc5227e49866d) - **docs:** update related packages sections [(#7112)](https://github.com/stdlib-js/stdlib/pull/7112) _(by stdlib-bot)_
