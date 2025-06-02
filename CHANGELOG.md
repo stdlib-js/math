@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-01)
+## Unreleased (2025-06-02)
 
 <section class="features">
 
@@ -475,6 +475,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`bef362e`](https://github.com/stdlib-js/stdlib/commit/bef362efc111b0109adf21c219b08a407417d1f7) - **docs:** update phrasing in `wrap` function description _(by Karan Anand)_
 -   [`d3e9457`](https://github.com/stdlib-js/stdlib/commit/d3e9457065368cd4f97c993ac300d408c7cde4d2) - **docs:** remove BSD-3-Clause from license field _(by Karan Anand)_
 -   [`f10839a`](https://github.com/stdlib-js/stdlib/commit/f10839a93d9dc6082a1a699d98dff51540603173) - **test:** update test messages _(by Karan Anand)_
