@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7e4dc08`](https://github.com/stdlib-js/stdlib/commit/7e4dc0807cce5a66011eb186d252e4cc682274a7) - add `math/base/special/wrapf` [(#3055)](https://github.com/stdlib-js/stdlib/pull/3055)
 -   [`3c5ee39`](https://github.com/stdlib-js/stdlib/commit/3c5ee3994b878caa46ad9d5692bb4ba44ab580d7) - add `math/base/special/atan2f` [(#7081)](https://github.com/stdlib-js/stdlib/pull/7081)
 -   [`4eaa59f`](https://github.com/stdlib-js/stdlib/commit/4eaa59f1a7e2754d24e8cd2f417a7dd82cf50cdc) - add `math/base/special/factorial2f` [(#6736)](https://github.com/stdlib-js/stdlib/pull/6736)
 -   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396)
@@ -475,6 +476,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`7e4dc08`](https://github.com/stdlib-js/stdlib/commit/7e4dc0807cce5a66011eb186d252e4cc682274a7) - **feat:** add `math/base/special/wrapf` [(#3055)](https://github.com/stdlib-js/stdlib/pull/3055) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`bef362e`](https://github.com/stdlib-js/stdlib/commit/bef362efc111b0109adf21c219b08a407417d1f7) - **docs:** update phrasing in `wrap` function description _(by Karan Anand)_
 -   [`d3e9457`](https://github.com/stdlib-js/stdlib/commit/d3e9457065368cd4f97c993ac300d408c7cde4d2) - **docs:** remove BSD-3-Clause from license field _(by Karan Anand)_
