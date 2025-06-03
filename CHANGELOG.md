@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-03)
 
 <section class="features">
 
@@ -476,6 +476,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`47ae7e5`](https://github.com/stdlib-js/stdlib/commit/47ae7e56a5e9fe329b0b95b0bd095aa4f20c79aa) - **docs:** update related packages sections [(#7186)](https://github.com/stdlib-js/stdlib/pull/7186) _(by stdlib-bot)_
 -   [`7e4dc08`](https://github.com/stdlib-js/stdlib/commit/7e4dc0807cce5a66011eb186d252e4cc682274a7) - **feat:** add `math/base/special/wrapf` [(#3055)](https://github.com/stdlib-js/stdlib/pull/3055) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`bef362e`](https://github.com/stdlib-js/stdlib/commit/bef362efc111b0109adf21c219b08a407417d1f7) - **docs:** update phrasing in `wrap` function description _(by Karan Anand)_
