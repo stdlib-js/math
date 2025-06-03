@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9eef97f`](https://github.com/stdlib-js/stdlib/commit/9eef97f87b8607556fa54a4486fecbcb9df027de) - add `math/base/special/rempio2f` [(#6142)](https://github.com/stdlib-js/stdlib/pull/6142)
 -   [`7e4dc08`](https://github.com/stdlib-js/stdlib/commit/7e4dc0807cce5a66011eb186d252e4cc682274a7) - add `math/base/special/wrapf` [(#3055)](https://github.com/stdlib-js/stdlib/pull/3055)
 -   [`3c5ee39`](https://github.com/stdlib-js/stdlib/commit/3c5ee3994b878caa46ad9d5692bb4ba44ab580d7) - add `math/base/special/atan2f` [(#7081)](https://github.com/stdlib-js/stdlib/pull/7081)
 -   [`4eaa59f`](https://github.com/stdlib-js/stdlib/commit/4eaa59f1a7e2754d24e8cd2f417a7dd82cf50cdc) - add `math/base/special/factorial2f` [(#6736)](https://github.com/stdlib-js/stdlib/pull/6736)
@@ -476,6 +477,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`9eef97f`](https://github.com/stdlib-js/stdlib/commit/9eef97f87b8607556fa54a4486fecbcb9df027de) - **feat:** add `math/base/special/rempio2f` [(#6142)](https://github.com/stdlib-js/stdlib/pull/6142) _(by Karan Anand, stdlib-bot)_
 -   [`47ae7e5`](https://github.com/stdlib-js/stdlib/commit/47ae7e56a5e9fe329b0b95b0bd095aa4f20c79aa) - **docs:** update related packages sections [(#7186)](https://github.com/stdlib-js/stdlib/pull/7186) _(by stdlib-bot)_
 -   [`7e4dc08`](https://github.com/stdlib-js/stdlib/commit/7e4dc0807cce5a66011eb186d252e4cc682274a7) - **feat:** add `math/base/special/wrapf` [(#3055)](https://github.com/stdlib-js/stdlib/pull/3055) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
