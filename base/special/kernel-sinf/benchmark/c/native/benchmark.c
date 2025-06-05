@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,18 +16,16 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/strided/special/sdeg2rad.h"
+#include "stdlib/math/base/special/kernel_sinf.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
 #include <sys/time.h>
 
-#define NAME "sdeg2rad"
-#define ITERATIONS 10000000
+#define NAME "kernel_sinf"
+#define ITERATIONS 1000000
 #define REPEATS 3
-#define MIN 1
-#define MAX 6
 
 /**
 * Prints the TAP version.
@@ -54,13 +52,12 @@ static void print_summary( int total, int passing ) {
 /**
 * Prints benchmarks results.
 *
-* @param iterations   number of iterations
-* @param elapsed      elapsed time in seconds
+* @param elapsed   elapsed time in seconds
 */
-static void print_results( int iterations, double elapsed ) {
-	double rate = (double)iterations / elapsed;
+static void print_results( double elapsed ) {
+	double rate = (double)ITERATIONS / elapsed;
 	printf( "  ---\n" );
-	printf( "  iterations: %d\n", iterations );
+	printf( "  iterations: %d\n", ITERATIONS );
 	printf( "  elapsed: %0.9f\n", elapsed );
 	printf( "  rate: %0.9f\n", rate );
 	printf( "  ...\n" );
@@ -78,62 +75,41 @@ static double tic( void ) {
 }
 
 /**
-* Generates a random number on the interval [a,b).
+* Generates a random number on the interval [0,1).
 *
-* @param a    minimum value
-* @param b    maximum value
 * @return random number
 */
-double rand_uniform( double a, double b ) {
-	double x;
-	int r;
-
-	r = rand();
-	x = (double)r / ( (double)RAND_MAX + 1.0 );
-
-	return ( b*x ) + ( (1.0-x)*a );
-}
-
-/**
-* Generates a random number on the interval [a,b).
-*
-* @param a    minimum value
-* @param b    maximum value
-* @return random number
-*/
-float rand_uniformf( float a, float b ) {
-	return (float)rand_uniform( (double)a, (double)b );
+static double rand_double( void ) {
+	int r = rand();
+	return (double)r / ( (double)RAND_MAX + 1.0 );
 }
 
 /**
 * Runs a benchmark.
 *
-* @param iterations   number of iterations
-* @param len          array length
-* @return             elapsed time in seconds
+* @return elapsed time in seconds
 */
-static double benchmark( int iterations, int len ) {
+static double benchmark( void ) {
 	double elapsed;
-	float x[ len ];
-	float y[ len ];
+	double x[ 100 ];
 	double t;
+	float z;
 	int i;
 
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = rand_uniformf( -180.0f, 180.0f );
-		y[ i ] = 0.0f;
+	for ( i = 0; i < 100; i++ ) {
+		x[ i ] = ( ( rand_double()*2.0 ) - 1.0 ) * 0.7853981633974483;
 	}
+
 	t = tic();
-	for ( i = 0; i < iterations; i++ ) {
-		// cppcheck-suppress uninitvar
-		stdlib_strided_sdeg2rad( len, x, 1, y, 1 );
-		if ( y[ 0 ] != y[ 0 ] ) {
+	for ( i = 0; i < ITERATIONS; i++ ) {
+		z = stdlib_base_kernel_sinf( x[ i%100 ] );
+		if ( z != z ) {
 			printf( "should not return NaN\n" );
 			break;
 		}
 	}
 	elapsed = tic() - t;
-	if ( y[ 0 ] != y[ 0 ] ) {
+	if ( z != z ) {
 		printf( "should not return NaN\n" );
 	}
 	return elapsed;
@@ -144,27 +120,17 @@ static double benchmark( int iterations, int len ) {
 */
 int main( void ) {
 	double elapsed;
-	int count;
-	int iter;
-	int len;
 	int i;
-	int j;
 
 	// Use the current time to seed the random number generator:
 	srand( time( NULL ) );
 
 	print_version();
-	count = 0;
-	for ( i = MIN; i <= MAX; i++ ) {
-		len = pow( 10, i );
-		iter = ITERATIONS / pow( 10, i-1 );
-		for ( j = 0; j < REPEATS; j++ ) {
-			count += 1;
-			printf( "# c::%s:len=%d\n", NAME, len );
-			elapsed = benchmark( iter, len );
-			print_results( iter, elapsed );
-			printf( "ok %d benchmark finished\n", count );
-		}
+	for ( i = 0; i < REPEATS; i++ ) {
+		printf( "# c::%s\n", NAME );
+		elapsed = benchmark();
+		print_results( elapsed );
+		printf( "ok %d benchmark finished\n", i+1 );
 	}
-	print_summary( count, count );
+	print_summary( REPEATS, REPEATS );
 }
