@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6724610`](https://github.com/stdlib-js/stdlib/commit/672461019c6893cfddc9227d407ebab4e04f4c40) - add `math/base/special/tribonaccif` [(#6066)](https://github.com/stdlib-js/stdlib/pull/6066)
 -   [`f873e1f`](https://github.com/stdlib-js/stdlib/commit/f873e1fa100a3862b53553333843392a6f3cb42f) - add `math/base/special/kernel-cosf` [(#7201)](https://github.com/stdlib-js/stdlib/pull/7201)
 -   [`c037257`](https://github.com/stdlib-js/stdlib/commit/c03725739506261c42c5dfb3121aa165a165d942) - add `math/base/special/kernel-sinf` [(#6191)](https://github.com/stdlib-js/stdlib/pull/6191)
 -   [`9eef97f`](https://github.com/stdlib-js/stdlib/commit/9eef97f87b8607556fa54a4486fecbcb9df027de) - add `math/base/special/rempio2f` [(#6142)](https://github.com/stdlib-js/stdlib/pull/6142)
@@ -479,6 +480,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`6724610`](https://github.com/stdlib-js/stdlib/commit/672461019c6893cfddc9227d407ebab4e04f4c40) - **feat:** add `math/base/special/tribonaccif` [(#6066)](https://github.com/stdlib-js/stdlib/pull/6066) _(by Neeraj Pathak, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`a5bfb5a`](https://github.com/stdlib-js/stdlib/commit/a5bfb5a1845c37d0091853d303e4b65fd0cf2081) - **chore:** fix C lint errors [(#7218)](https://github.com/stdlib-js/stdlib/pull/7218) _(by zhanggy)_
 -   [`f873e1f`](https://github.com/stdlib-js/stdlib/commit/f873e1fa100a3862b53553333843392a6f3cb42f) - **feat:** add `math/base/special/kernel-cosf` [(#7201)](https://github.com/stdlib-js/stdlib/pull/7201) _(by Karan Anand)_
 -   [`c037257`](https://github.com/stdlib-js/stdlib/commit/c03725739506261c42c5dfb3121aa165a165d942) - **feat:** add `math/base/special/kernel-sinf` [(#6191)](https://github.com/stdlib-js/stdlib/pull/6191) _(by Girish Garg, Karan Anand, stdlib-bot)_
