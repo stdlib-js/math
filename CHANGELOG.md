@@ -485,6 +485,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`ba76851`](https://github.com/stdlib-js/stdlib/commit/ba76851dd8983a3cd3974d06fc7af42c16e81a7f) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`ed88389`](https://github.com/stdlib-js/stdlib/commit/ed88389cdb8cdfb939e70e55d9167d8dc3984121) - **fix:** use correct type emulation _(by Karan Anand)_
 -   [`24c131a`](https://github.com/stdlib-js/stdlib/commit/24c131a596fc7580774e0cd8966f4c512ed785e2) - **docs:** fix missing asterisk _(by Karan Anand)_
 -   [`83da5c1`](https://github.com/stdlib-js/stdlib/commit/83da5c17c4a6d5f0dcfaf905e0612961a11d92db) - **feat:** add `acotdf` to namespace _(by Athan Reines)_
