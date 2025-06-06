@@ -485,6 +485,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`57ef247`](https://github.com/stdlib-js/stdlib/commit/57ef247aa2a78d934abb36b6ea9994371369db37) - **docs:** fix incorrect require path for `Complex128Array` _(by Karan Anand)_
 -   [`0d96bfb`](https://github.com/stdlib-js/stdlib/commit/0d96bfb9ad7789f5a4198bdd15c82c5236410357) - **chore:** remove redundant include statement _(by Karan Anand)_
 -   [`ba76851`](https://github.com/stdlib-js/stdlib/commit/ba76851dd8983a3cd3974d06fc7af42c16e81a7f) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`ed88389`](https://github.com/stdlib-js/stdlib/commit/ed88389cdb8cdfb939e70e55d9167d8dc3984121) - **fix:** use correct type emulation _(by Karan Anand)_
