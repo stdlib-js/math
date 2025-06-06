@@ -730,6 +730,15 @@ setReadOnly( special, 'cfloorn', require( './../../../base/special/cfloorn' ) );
 setReadOnly( special, 'cinv', require( './../../../base/special/cinv' ) );
 
 /**
+* @name cinvf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cinvf}
+*/
+setReadOnly( special, 'cinvf', require( './../../../base/special/cinvf' ) );
+
+/**
 * @name clamp
 * @memberof special
 * @readonly
