@@ -136,6 +136,15 @@ setReadOnly( special, 'acot', require( './../../../base/special/acot' ) );
 setReadOnly( special, 'acotd', require( './../../../base/special/acotd' ) );
 
 /**
+* @name acotdf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/acotdf}
+*/
+setReadOnly( special, 'acotdf', require( './../../../base/special/acotdf' ) );
+
+/**
 * @name acotf
 * @memberof special
 * @readonly

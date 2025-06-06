@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`83da5c1`](https://github.com/stdlib-js/stdlib/commit/83da5c17c4a6d5f0dcfaf905e0612961a11d92db) - add `acotdf` to namespace
 -   [`69c0f30`](https://github.com/stdlib-js/stdlib/commit/69c0f3039c61db8c47af5f4d8300bb219c4e94fc) - add `acosdf` to namespace
 -   [`385d970`](https://github.com/stdlib-js/stdlib/commit/385d970dc8415b814c9ce66a96359c2ad508b94a) - add `cinvf` to namespace
 -   [`e99f5d4`](https://github.com/stdlib-js/stdlib/commit/e99f5d409cbc2023da4324afc1ec08680781a2ea) - add `math/base/special/cinvf` [(#7007)](https://github.com/stdlib-js/stdlib/pull/7007)
@@ -483,6 +484,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`83da5c1`](https://github.com/stdlib-js/stdlib/commit/83da5c17c4a6d5f0dcfaf905e0612961a11d92db) - **feat:** add `acotdf` to namespace _(by Athan Reines)_
 -   [`69c0f30`](https://github.com/stdlib-js/stdlib/commit/69c0f3039c61db8c47af5f4d8300bb219c4e94fc) - **feat:** add `acosdf` to namespace _(by Athan Reines)_
 -   [`385d970`](https://github.com/stdlib-js/stdlib/commit/385d970dc8415b814c9ce66a96359c2ad508b94a) - **feat:** add `cinvf` to namespace _(by Athan Reines)_
 -   [`e99f5d4`](https://github.com/stdlib-js/stdlib/commit/e99f5d409cbc2023da4324afc1ec08680781a2ea) - **feat:** add `math/base/special/cinvf` [(#7007)](https://github.com/stdlib-js/stdlib/pull/7007) _(by Karan Anand, Athan Reines, stdlib-bot)_
