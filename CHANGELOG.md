@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-05)
+## Unreleased (2025-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`e99f5d4`](https://github.com/stdlib-js/stdlib/commit/e99f5d409cbc2023da4324afc1ec08680781a2ea) - add `math/base/special/cinvf` [(#7007)](https://github.com/stdlib-js/stdlib/pull/7007)
 -   [`6724610`](https://github.com/stdlib-js/stdlib/commit/672461019c6893cfddc9227d407ebab4e04f4c40) - add `math/base/special/tribonaccif` [(#6066)](https://github.com/stdlib-js/stdlib/pull/6066)
 -   [`f873e1f`](https://github.com/stdlib-js/stdlib/commit/f873e1fa100a3862b53553333843392a6f3cb42f) - add `math/base/special/kernel-cosf` [(#7201)](https://github.com/stdlib-js/stdlib/pull/7201)
 -   [`c037257`](https://github.com/stdlib-js/stdlib/commit/c03725739506261c42c5dfb3121aa165a165d942) - add `math/base/special/kernel-sinf` [(#6191)](https://github.com/stdlib-js/stdlib/pull/6191)
@@ -480,6 +481,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`e99f5d4`](https://github.com/stdlib-js/stdlib/commit/e99f5d409cbc2023da4324afc1ec08680781a2ea) - **feat:** add `math/base/special/cinvf` [(#7007)](https://github.com/stdlib-js/stdlib/pull/7007) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`6724610`](https://github.com/stdlib-js/stdlib/commit/672461019c6893cfddc9227d407ebab4e04f4c40) - **feat:** add `math/base/special/tribonaccif` [(#6066)](https://github.com/stdlib-js/stdlib/pull/6066) _(by Neeraj Pathak, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`a5bfb5a`](https://github.com/stdlib-js/stdlib/commit/a5bfb5a1845c37d0091853d303e4b65fd0cf2081) - **chore:** fix C lint errors [(#7218)](https://github.com/stdlib-js/stdlib/pull/7218) _(by zhanggy)_
 -   [`f873e1f`](https://github.com/stdlib-js/stdlib/commit/f873e1fa100a3862b53553333843392a6f3cb42f) - **feat:** add `math/base/special/kernel-cosf` [(#7201)](https://github.com/stdlib-js/stdlib/pull/7201) _(by Karan Anand)_
