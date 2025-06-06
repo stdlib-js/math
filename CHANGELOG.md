@@ -99,6 +99,7 @@
 
 ### Bug Fixes
 
+-   [`ed88389`](https://github.com/stdlib-js/stdlib/commit/ed88389cdb8cdfb939e70e55d9167d8dc3984121) - use correct type emulation
 -   [`43cbf2d`](https://github.com/stdlib-js/stdlib/commit/43cbf2dd9d8ad173cfe9cc89fe7de500dd96bbbe) - update constant name
 -   [`3920c11`](https://github.com/stdlib-js/stdlib/commit/3920c117df8d67477f9143e618faa8f2d472ce6a) - use correct formula for `acovercosf`
 -   [`e525deb`](https://github.com/stdlib-js/stdlib/commit/e525debf09ec10ada9ec72ea4674ee9fd8e049cb) - use correct inverse coversed cosine formula
@@ -484,6 +485,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`ed88389`](https://github.com/stdlib-js/stdlib/commit/ed88389cdb8cdfb939e70e55d9167d8dc3984121) - **fix:** use correct type emulation _(by Karan Anand)_
+-   [`24c131a`](https://github.com/stdlib-js/stdlib/commit/24c131a596fc7580774e0cd8966f4c512ed785e2) - **docs:** fix missing asterisk _(by Karan Anand)_
 -   [`83da5c1`](https://github.com/stdlib-js/stdlib/commit/83da5c17c4a6d5f0dcfaf905e0612961a11d92db) - **feat:** add `acotdf` to namespace _(by Athan Reines)_
 -   [`69c0f30`](https://github.com/stdlib-js/stdlib/commit/69c0f3039c61db8c47af5f4d8300bb219c4e94fc) - **feat:** add `acosdf` to namespace _(by Athan Reines)_
 -   [`385d970`](https://github.com/stdlib-js/stdlib/commit/385d970dc8415b814c9ce66a96359c2ad508b94a) - **feat:** add `cinvf` to namespace _(by Athan Reines)_
