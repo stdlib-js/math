@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-06)
+## Unreleased (2025-06-07)
 
 <section class="features">
 
 ### Features
 
+-   [`dc8a471`](https://github.com/stdlib-js/stdlib/commit/dc8a4718d16d105ff2c88ec6a5f0ac6dc0693d79) - add `math/base/special/spencef` [(#7048)](https://github.com/stdlib-js/stdlib/pull/7048)
 -   [`83da5c1`](https://github.com/stdlib-js/stdlib/commit/83da5c17c4a6d5f0dcfaf905e0612961a11d92db) - add `acotdf` to namespace
 -   [`69c0f30`](https://github.com/stdlib-js/stdlib/commit/69c0f3039c61db8c47af5f4d8300bb219c4e94fc) - add `acosdf` to namespace
 -   [`385d970`](https://github.com/stdlib-js/stdlib/commit/385d970dc8415b814c9ce66a96359c2ad508b94a) - add `cinvf` to namespace
@@ -485,6 +486,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`dc8a471`](https://github.com/stdlib-js/stdlib/commit/dc8a4718d16d105ff2c88ec6a5f0ac6dc0693d79) - **feat:** add `math/base/special/spencef` [(#7048)](https://github.com/stdlib-js/stdlib/pull/7048) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`03e5c54`](https://github.com/stdlib-js/stdlib/commit/03e5c54b90e538bee276484281d2e4553d7ec83e) - **docs:** update namespace table of contents [(#7233)](https://github.com/stdlib-js/stdlib/pull/7233) _(by stdlib-bot)_
 -   [`57ef247`](https://github.com/stdlib-js/stdlib/commit/57ef247aa2a78d934abb36b6ea9994371369db37) - **docs:** fix incorrect require path for `Complex128Array` _(by Karan Anand)_
 -   [`0d96bfb`](https://github.com/stdlib-js/stdlib/commit/0d96bfb9ad7789f5a4198bdd15c82c5236410357) - **chore:** remove redundant include statement _(by Karan Anand)_
