@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-07)
+## Unreleased (2025-06-08)
 
 <section class="features">
 
 ### Features
 
+-   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - add signed 16-bit integer APIs
+-   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - add signed 8-bit integer APIs
+-   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - add unsigned 32-bit integer APIs
+-   [`5ff1e27`](https://github.com/stdlib-js/stdlib/commit/5ff1e2760c40b9318c9a4cbfb1c8d4ccb5644de5) - add unsigned 16-bit integer APIs
+-   [`e83a528`](https://github.com/stdlib-js/stdlib/commit/e83a5284d2c9db6b968ac2edd81c43f4b76549d5) - add unsigned 8-bit integer APIs
 -   [`dc8a471`](https://github.com/stdlib-js/stdlib/commit/dc8a4718d16d105ff2c88ec6a5f0ac6dc0693d79) - add `math/base/special/spencef` [(#7048)](https://github.com/stdlib-js/stdlib/pull/7048)
 -   [`83da5c1`](https://github.com/stdlib-js/stdlib/commit/83da5c17c4a6d5f0dcfaf905e0612961a11d92db) - add `acotdf` to namespace
 -   [`69c0f30`](https://github.com/stdlib-js/stdlib/commit/69c0f3039c61db8c47af5f4d8300bb219c4e94fc) - add `acosdf` to namespace
@@ -486,6 +491,11 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - **feat:** add signed 16-bit integer APIs _(by Athan Reines)_
+-   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - **feat:** add signed 8-bit integer APIs _(by Athan Reines)_
+-   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - **feat:** add unsigned 32-bit integer APIs _(by Athan Reines)_
+-   [`5ff1e27`](https://github.com/stdlib-js/stdlib/commit/5ff1e2760c40b9318c9a4cbfb1c8d4ccb5644de5) - **feat:** add unsigned 16-bit integer APIs _(by Athan Reines)_
+-   [`e83a528`](https://github.com/stdlib-js/stdlib/commit/e83a5284d2c9db6b968ac2edd81c43f4b76549d5) - **feat:** add unsigned 8-bit integer APIs _(by Athan Reines)_
 -   [`dc8a471`](https://github.com/stdlib-js/stdlib/commit/dc8a4718d16d105ff2c88ec6a5f0ac6dc0693d79) - **feat:** add `math/base/special/spencef` [(#7048)](https://github.com/stdlib-js/stdlib/pull/7048) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`03e5c54`](https://github.com/stdlib-js/stdlib/commit/03e5c54b90e538bee276484281d2e4553d7ec83e) - **docs:** update namespace table of contents [(#7233)](https://github.com/stdlib-js/stdlib/pull/7233) _(by stdlib-bot)_
 -   [`57ef247`](https://github.com/stdlib-js/stdlib/commit/57ef247aa2a78d934abb36b6ea9994371369db37) - **docs:** fix incorrect require path for `Complex128Array` _(by Karan Anand)_
