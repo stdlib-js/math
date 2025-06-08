@@ -491,6 +491,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`e15537c`](https://github.com/stdlib-js/stdlib/commit/e15537c8db65ebce56f23fb28150bf11400827f8) - **docs:** add missing space _(by Karan Anand)_
 -   [`d4793c2`](https://github.com/stdlib-js/stdlib/commit/d4793c2308505d16cb0e553861de8f4a2de24152) - **refactor:** align conditional checks with `C` implementation _(by Karan Anand)_
 -   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - **feat:** add signed 16-bit integer APIs _(by Athan Reines)_
 -   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - **feat:** add signed 8-bit integer APIs _(by Athan Reines)_
