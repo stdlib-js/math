@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`dd4d2f3`](https://github.com/stdlib-js/stdlib/commit/dd4d2f30062103f3e70829a3cb22a3ed3ed97f39) - add `math/base/special/cosf` [(#7234)](https://github.com/stdlib-js/stdlib/pull/7234)
 -   [`c9f8cbe`](https://github.com/stdlib-js/stdlib/commit/c9f8cbe952d0d7419c7e97882f56cf3f797d5acb) - add `math/base/special/sinf` [(#7229)](https://github.com/stdlib-js/stdlib/pull/7229)
 -   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - add signed 16-bit integer APIs
 -   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - add signed 8-bit integer APIs
@@ -492,6 +493,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`dd4d2f3`](https://github.com/stdlib-js/stdlib/commit/dd4d2f30062103f3e70829a3cb22a3ed3ed97f39) - **feat:** add `math/base/special/cosf` [(#7234)](https://github.com/stdlib-js/stdlib/pull/7234) _(by Karan Anand)_
 -   [`c9f8cbe`](https://github.com/stdlib-js/stdlib/commit/c9f8cbe952d0d7419c7e97882f56cf3f797d5acb) - **feat:** add `math/base/special/sinf` [(#7229)](https://github.com/stdlib-js/stdlib/pull/7229) _(by Karan Anand, Philipp Burckhardt)_
 -   [`37d4438`](https://github.com/stdlib-js/stdlib/commit/37d443898b8068b4f2003b839ec29e4afc72fdbe) - **docs:** fix return value _(by Karan Anand)_
 -   [`e15537c`](https://github.com/stdlib-js/stdlib/commit/e15537c8db65ebce56f23fb28150bf11400827f8) - **docs:** add missing space _(by Karan Anand)_
