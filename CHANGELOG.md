@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c9f8cbe`](https://github.com/stdlib-js/stdlib/commit/c9f8cbe952d0d7419c7e97882f56cf3f797d5acb) - add `math/base/special/sinf` [(#7229)](https://github.com/stdlib-js/stdlib/pull/7229)
 -   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - add signed 16-bit integer APIs
 -   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - add signed 8-bit integer APIs
 -   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - add unsigned 32-bit integer APIs
@@ -491,6 +492,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`c9f8cbe`](https://github.com/stdlib-js/stdlib/commit/c9f8cbe952d0d7419c7e97882f56cf3f797d5acb) - **feat:** add `math/base/special/sinf` [(#7229)](https://github.com/stdlib-js/stdlib/pull/7229) _(by Karan Anand, Philipp Burckhardt)_
 -   [`37d4438`](https://github.com/stdlib-js/stdlib/commit/37d443898b8068b4f2003b839ec29e4afc72fdbe) - **docs:** fix return value _(by Karan Anand)_
 -   [`e15537c`](https://github.com/stdlib-js/stdlib/commit/e15537c8db65ebce56f23fb28150bf11400827f8) - **docs:** add missing space _(by Karan Anand)_
 -   [`d4793c2`](https://github.com/stdlib-js/stdlib/commit/d4793c2308505d16cb0e553861de8f4a2de24152) - **refactor:** align conditional checks with `C` implementation _(by Karan Anand)_
