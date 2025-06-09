@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-08)
+## Unreleased (2025-06-09)
 
 <section class="features">
 
@@ -491,6 +491,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`37d4438`](https://github.com/stdlib-js/stdlib/commit/37d443898b8068b4f2003b839ec29e4afc72fdbe) - **docs:** fix return value _(by Karan Anand)_
 -   [`e15537c`](https://github.com/stdlib-js/stdlib/commit/e15537c8db65ebce56f23fb28150bf11400827f8) - **docs:** add missing space _(by Karan Anand)_
 -   [`d4793c2`](https://github.com/stdlib-js/stdlib/commit/d4793c2308505d16cb0e553861de8f4a2de24152) - **refactor:** align conditional checks with `C` implementation _(by Karan Anand)_
 -   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - **feat:** add signed 16-bit integer APIs _(by Athan Reines)_
