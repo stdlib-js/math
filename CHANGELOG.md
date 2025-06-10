@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d2c372a`](https://github.com/stdlib-js/stdlib/commit/d2c372a3751034c097fc2e913e6e0bde230e6507) - add `math/base/special/tanf` [(#7302)](https://github.com/stdlib-js/stdlib/pull/7302)
 -   [`38f6409`](https://github.com/stdlib-js/stdlib/commit/38f6409823eb10c6a4a6c3c94e7a6b60a5dd2088) - add `math/base/special/kernel-tanf` [(#7263)](https://github.com/stdlib-js/stdlib/pull/7263)
 -   [`dd4d2f3`](https://github.com/stdlib-js/stdlib/commit/dd4d2f30062103f3e70829a3cb22a3ed3ed97f39) - add `math/base/special/cosf` [(#7234)](https://github.com/stdlib-js/stdlib/pull/7234)
 -   [`c9f8cbe`](https://github.com/stdlib-js/stdlib/commit/c9f8cbe952d0d7419c7e97882f56cf3f797d5acb) - add `math/base/special/sinf` [(#7229)](https://github.com/stdlib-js/stdlib/pull/7229)
@@ -494,6 +495,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`d2c372a`](https://github.com/stdlib-js/stdlib/commit/d2c372a3751034c097fc2e913e6e0bde230e6507) - **feat:** add `math/base/special/tanf` [(#7302)](https://github.com/stdlib-js/stdlib/pull/7302) _(by Karan Anand)_
 -   [`7f8b7d7`](https://github.com/stdlib-js/stdlib/commit/7f8b7d7c34b0fcfa3aa213b3e425dbdb08122049) - **bench:** define `NAME` macro for consistency with other benchmarks _(by Karan Anand)_
 -   [`84cf373`](https://github.com/stdlib-js/stdlib/commit/84cf373b5eb74582d81aee0ae21cceba495f86bb) - **docs:** update header comment for consistency _(by Karan Anand)_
 -   [`61efe84`](https://github.com/stdlib-js/stdlib/commit/61efe840e2afe996146a95025039d6b8829b23e2) - **test:** fix range typo and regenerate fixture _(by Karan Anand)_
