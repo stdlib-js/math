@@ -494,6 +494,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`7f8b7d7`](https://github.com/stdlib-js/stdlib/commit/7f8b7d7c34b0fcfa3aa213b3e425dbdb08122049) - **bench:** define `NAME` macro for consistency with other benchmarks _(by Karan Anand)_
 -   [`84cf373`](https://github.com/stdlib-js/stdlib/commit/84cf373b5eb74582d81aee0ae21cceba495f86bb) - **docs:** update header comment for consistency _(by Karan Anand)_
 -   [`61efe84`](https://github.com/stdlib-js/stdlib/commit/61efe840e2afe996146a95025039d6b8829b23e2) - **test:** fix range typo and regenerate fixture _(by Karan Anand)_
 -   [`38f6409`](https://github.com/stdlib-js/stdlib/commit/38f6409823eb10c6a4a6c3c94e7a6b60a5dd2088) - **feat:** add `math/base/special/kernel-tanf` [(#7263)](https://github.com/stdlib-js/stdlib/pull/7263) _(by Karan Anand, Philipp Burckhardt)_
