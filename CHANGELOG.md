@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`398ac1c`](https://github.com/stdlib-js/stdlib/commit/398ac1c8917336a0ef90d9a851267eb3d9f2b8db) - add `math/base/special/cphasef` [(#7158)](https://github.com/stdlib-js/stdlib/pull/7158)
 -   [`0160d55`](https://github.com/stdlib-js/stdlib/commit/0160d55258f7e58e3e9bb2ad1a2c345575343515) - add `math/base/special/covercosf` [(#7303)](https://github.com/stdlib-js/stdlib/pull/7303)
 -   [`d2c372a`](https://github.com/stdlib-js/stdlib/commit/d2c372a3751034c097fc2e913e6e0bde230e6507) - add `math/base/special/tanf` [(#7302)](https://github.com/stdlib-js/stdlib/pull/7302)
 -   [`38f6409`](https://github.com/stdlib-js/stdlib/commit/38f6409823eb10c6a4a6c3c94e7a6b60a5dd2088) - add `math/base/special/kernel-tanf` [(#7263)](https://github.com/stdlib-js/stdlib/pull/7263)
@@ -496,6 +497,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`398ac1c`](https://github.com/stdlib-js/stdlib/commit/398ac1c8917336a0ef90d9a851267eb3d9f2b8db) - **feat:** add `math/base/special/cphasef` [(#7158)](https://github.com/stdlib-js/stdlib/pull/7158) _(by Karan Anand)_
 -   [`0160d55`](https://github.com/stdlib-js/stdlib/commit/0160d55258f7e58e3e9bb2ad1a2c345575343515) - **feat:** add `math/base/special/covercosf` [(#7303)](https://github.com/stdlib-js/stdlib/pull/7303) _(by Karan Anand)_
 -   [`d2c372a`](https://github.com/stdlib-js/stdlib/commit/d2c372a3751034c097fc2e913e6e0bde230e6507) - **feat:** add `math/base/special/tanf` [(#7302)](https://github.com/stdlib-js/stdlib/pull/7302) _(by Karan Anand)_
 -   [`7f8b7d7`](https://github.com/stdlib-js/stdlib/commit/7f8b7d7c34b0fcfa3aa213b3e425dbdb08122049) - **bench:** define `NAME` macro for consistency with other benchmarks _(by Karan Anand)_
