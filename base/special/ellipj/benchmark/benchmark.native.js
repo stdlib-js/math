@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2022 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,17 +20,26 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var isArray = require( '@stdlib/assert/is-array' );
+var isFloat64Array = require( '@stdlib/assert/is-float64array' );
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var uniform = require( '@stdlib/random/array/uniform' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-var ellipj = require( './../lib' );
+
+
+// VARIABLES //
+
+var ellipj = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( ellipj instanceof Error )
+};
 
 
 // MAIN //
 
-bench( pkg, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var out;
 	var x;
 	var m;
@@ -47,8 +56,8 @@ bench( pkg, function benchmark( b ) {
 		}
 	}
 	b.toc();
-	if ( !isArray( out ) ) {
-		b.fail( 'should return an array' );
+	if ( !isFloat64Array( out ) ) {
+		b.fail( 'should return a Float64Array' );
 	}
 	for ( i = 0; i < 4; i++ ) {
 		if ( !isNumber( out[ i ] ) ) {

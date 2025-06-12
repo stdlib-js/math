@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6ae353c`](https://github.com/stdlib-js/stdlib/commit/6ae353c5461eb9f83e61af1bb87d9a1ffa14279e) - add C implementation for `math/base/special/ellipj` [(#6965)](https://github.com/stdlib-js/stdlib/pull/6965)
 -   [`8c519dd`](https://github.com/stdlib-js/stdlib/commit/8c519ddfafd9e87c7633c9e0555d59bb752aac7b) - add `math/base/special/coversinf` [(#7316)](https://github.com/stdlib-js/stdlib/pull/7316)
 -   [`398ac1c`](https://github.com/stdlib-js/stdlib/commit/398ac1c8917336a0ef90d9a851267eb3d9f2b8db) - add `math/base/special/cphasef` [(#7158)](https://github.com/stdlib-js/stdlib/pull/7158)
 -   [`0160d55`](https://github.com/stdlib-js/stdlib/commit/0160d55258f7e58e3e9bb2ad1a2c345575343515) - add `math/base/special/covercosf` [(#7303)](https://github.com/stdlib-js/stdlib/pull/7303)
@@ -498,6 +499,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`6ae353c`](https://github.com/stdlib-js/stdlib/commit/6ae353c5461eb9f83e61af1bb87d9a1ffa14279e) - **feat:** add C implementation for `math/base/special/ellipj` [(#6965)](https://github.com/stdlib-js/stdlib/pull/6965) _(by Karan Anand, Philipp Burckhardt)_
 -   [`8c519dd`](https://github.com/stdlib-js/stdlib/commit/8c519ddfafd9e87c7633c9e0555d59bb752aac7b) - **feat:** add `math/base/special/coversinf` [(#7316)](https://github.com/stdlib-js/stdlib/pull/7316) _(by Karan Anand)_
 -   [`398ac1c`](https://github.com/stdlib-js/stdlib/commit/398ac1c8917336a0ef90d9a851267eb3d9f2b8db) - **feat:** add `math/base/special/cphasef` [(#7158)](https://github.com/stdlib-js/stdlib/pull/7158) _(by Karan Anand)_
 -   [`0160d55`](https://github.com/stdlib-js/stdlib/commit/0160d55258f7e58e3e9bb2ad1a2c345575343515) - **feat:** add `math/base/special/covercosf` [(#7303)](https://github.com/stdlib-js/stdlib/pull/7303) _(by Karan Anand)_
