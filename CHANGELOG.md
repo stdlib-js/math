@@ -499,6 +499,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`a2cfe0e`](https://github.com/stdlib-js/stdlib/commit/a2cfe0e3fe5167301372d22dbae8e8b19917f77c) - **test:** update test messages according to current project conventions _(by Karan Anand)_
+-   [`c5ccaff`](https://github.com/stdlib-js/stdlib/commit/c5ccaff1e7697684168c649fd87882b259664c73) - **test:** remove the use of `IS_BROWSER` from test files _(by Karan Anand)_
 -   [`7bb31ea`](https://github.com/stdlib-js/stdlib/commit/7bb31ea0bb5ffce51b472c32e2867396e92f406a) - **docs:** update related packages sections [(#7328)](https://github.com/stdlib-js/stdlib/pull/7328) _(by stdlib-bot, Athan Reines)_
 -   [`6ae353c`](https://github.com/stdlib-js/stdlib/commit/6ae353c5461eb9f83e61af1bb87d9a1ffa14279e) - **feat:** add C implementation for `math/base/special/ellipj` [(#6965)](https://github.com/stdlib-js/stdlib/pull/6965) _(by Karan Anand, Philipp Burckhardt)_
 -   [`8c519dd`](https://github.com/stdlib-js/stdlib/commit/8c519ddfafd9e87c7633c9e0555d59bb752aac7b) - **feat:** add `math/base/special/coversinf` [(#7316)](https://github.com/stdlib-js/stdlib/pull/7316) _(by Karan Anand)_
