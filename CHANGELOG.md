@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`22c34fb`](https://github.com/stdlib-js/stdlib/commit/22c34fbb1024ec7a55eaf99170ab27675d3d3800) - add `math/base/special/frexpf` [(#7089)](https://github.com/stdlib-js/stdlib/pull/7089)
 -   [`6ae353c`](https://github.com/stdlib-js/stdlib/commit/6ae353c5461eb9f83e61af1bb87d9a1ffa14279e) - add C implementation for `math/base/special/ellipj` [(#6965)](https://github.com/stdlib-js/stdlib/pull/6965)
 -   [`8c519dd`](https://github.com/stdlib-js/stdlib/commit/8c519ddfafd9e87c7633c9e0555d59bb752aac7b) - add `math/base/special/coversinf` [(#7316)](https://github.com/stdlib-js/stdlib/pull/7316)
 -   [`398ac1c`](https://github.com/stdlib-js/stdlib/commit/398ac1c8917336a0ef90d9a851267eb3d9f2b8db) - add `math/base/special/cphasef` [(#7158)](https://github.com/stdlib-js/stdlib/pull/7158)
@@ -499,6 +500,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`22c34fb`](https://github.com/stdlib-js/stdlib/commit/22c34fbb1024ec7a55eaf99170ab27675d3d3800) - **feat:** add `math/base/special/frexpf` [(#7089)](https://github.com/stdlib-js/stdlib/pull/7089) _(by Karan Anand)_
 -   [`4f74869`](https://github.com/stdlib-js/stdlib/commit/4f74869d4bfffd36b8d5a39a30771619eb545f3d) - **test:** add trailing newline to fixture outputs _(by Karan Anand)_
 -   [`9f74ff6`](https://github.com/stdlib-js/stdlib/commit/9f74ff66f679b1b6b2dca573942a7e848d0fa46b) - **test:** fix range typo and regenerate fixture _(by Karan Anand)_
 -   [`38ae655`](https://github.com/stdlib-js/stdlib/commit/38ae655186f89a528284564cb70708f479d0c307) - **docs:** fix function name _(by Karan Anand)_
