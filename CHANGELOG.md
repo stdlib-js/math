@@ -499,6 +499,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`38ae655`](https://github.com/stdlib-js/stdlib/commit/38ae655186f89a528284564cb70708f479d0c307) - **docs:** fix function name _(by Karan Anand)_
 -   [`b2cf286`](https://github.com/stdlib-js/stdlib/commit/b2cf28636042c807067cbd86d92b0eae4dd5a4f0) - **chore:** add structured package data _(by Karan Anand)_
 -   [`a2cfe0e`](https://github.com/stdlib-js/stdlib/commit/a2cfe0e3fe5167301372d22dbae8e8b19917f77c) - **test:** update test messages according to current project conventions _(by Karan Anand)_
 -   [`c5ccaff`](https://github.com/stdlib-js/stdlib/commit/c5ccaff1e7697684168c649fd87882b259664c73) - **test:** remove the use of `IS_BROWSER` from test files _(by Karan Anand)_
