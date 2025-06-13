@@ -499,6 +499,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`4f74869`](https://github.com/stdlib-js/stdlib/commit/4f74869d4bfffd36b8d5a39a30771619eb545f3d) - **test:** add trailing newline to fixture outputs _(by Karan Anand)_
 -   [`9f74ff6`](https://github.com/stdlib-js/stdlib/commit/9f74ff66f679b1b6b2dca573942a7e848d0fa46b) - **test:** fix range typo and regenerate fixture _(by Karan Anand)_
 -   [`38ae655`](https://github.com/stdlib-js/stdlib/commit/38ae655186f89a528284564cb70708f479d0c307) - **docs:** fix function name _(by Karan Anand)_
 -   [`b2cf286`](https://github.com/stdlib-js/stdlib/commit/b2cf28636042c807067cbd86d92b0eae4dd5a4f0) - **chore:** add structured package data _(by Karan Anand)_
