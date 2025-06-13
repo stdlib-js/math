@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5625d06`](https://github.com/stdlib-js/stdlib/commit/5625d06d2b63513ffb4046ea0ea4aa5723b9da7e) - add `math/base/special/minmaxf` [(#7039)](https://github.com/stdlib-js/stdlib/pull/7039)
 -   [`0da78b4`](https://github.com/stdlib-js/stdlib/commit/0da78b462b0783c2d7d145d477b20c8750ed8486) - add `math/base/special/cscf` [(#7341)](https://github.com/stdlib-js/stdlib/pull/7341)
 -   [`22c34fb`](https://github.com/stdlib-js/stdlib/commit/22c34fbb1024ec7a55eaf99170ab27675d3d3800) - add `math/base/special/frexpf` [(#7089)](https://github.com/stdlib-js/stdlib/pull/7089)
 -   [`6ae353c`](https://github.com/stdlib-js/stdlib/commit/6ae353c5461eb9f83e61af1bb87d9a1ffa14279e) - add C implementation for `math/base/special/ellipj` [(#6965)](https://github.com/stdlib-js/stdlib/pull/6965)
@@ -501,6 +502,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`5625d06`](https://github.com/stdlib-js/stdlib/commit/5625d06d2b63513ffb4046ea0ea4aa5723b9da7e) - **feat:** add `math/base/special/minmaxf` [(#7039)](https://github.com/stdlib-js/stdlib/pull/7039) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`0da78b4`](https://github.com/stdlib-js/stdlib/commit/0da78b462b0783c2d7d145d477b20c8750ed8486) - **feat:** add `math/base/special/cscf` [(#7341)](https://github.com/stdlib-js/stdlib/pull/7341) _(by Karan Anand)_
 -   [`22c34fb`](https://github.com/stdlib-js/stdlib/commit/22c34fbb1024ec7a55eaf99170ab27675d3d3800) - **feat:** add `math/base/special/frexpf` [(#7089)](https://github.com/stdlib-js/stdlib/pull/7089) _(by Karan Anand)_
 -   [`4f74869`](https://github.com/stdlib-js/stdlib/commit/4f74869d4bfffd36b8d5a39a30771619eb545f3d) - **test:** add trailing newline to fixture outputs _(by Karan Anand)_
