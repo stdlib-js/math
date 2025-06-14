@@ -504,6 +504,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`56cd0bf`](https://github.com/stdlib-js/stdlib/commit/56cd0bfb6e3d98349a2062e3ac26668f58ba09bb) - **refactor:** use tuple for return type _(by Karan Anand)_
 -   [`9972161`](https://github.com/stdlib-js/stdlib/commit/9972161c7c945bf3ab1229fb40129c1107d5918b) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`8f57742`](https://github.com/stdlib-js/stdlib/commit/8f577423535f8ef0639a0306538771f980af6fbb) - **refactor:** use tuple for return type _(by Karan Anand)_
 -   [`dc2050c`](https://github.com/stdlib-js/stdlib/commit/dc2050c28a2fb9dda083a344f2d8405eb8478dbb) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
