@@ -504,6 +504,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`a80a512`](https://github.com/stdlib-js/stdlib/commit/a80a51223274109e524c746abf43727607f2b610) - **docs:** fix argument types _(by Karan Anand)_
 -   [`d6059e1`](https://github.com/stdlib-js/stdlib/commit/d6059e165da4f439309257fe617c00bde8a7feff) - **docs:** fix function signature _(by Karan Anand)_
 -   [`a2565fe`](https://github.com/stdlib-js/stdlib/commit/a2565fec6fc4f97c59a73f86819230c19449980d) - **refactor:** use tuple for return type _(by Karan Anand)_
 -   [`776f485`](https://github.com/stdlib-js/stdlib/commit/776f485c279d4386ad120362393dd0dfdbeca71d) - **docs:** correct parameter descriptions _(by Karan Anand)_
