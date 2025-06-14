@@ -504,6 +504,10 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`9972161`](https://github.com/stdlib-js/stdlib/commit/9972161c7c945bf3ab1229fb40129c1107d5918b) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
+-   [`8f57742`](https://github.com/stdlib-js/stdlib/commit/8f577423535f8ef0639a0306538771f980af6fbb) - **refactor:** use tuple for return type _(by Karan Anand)_
+-   [`dc2050c`](https://github.com/stdlib-js/stdlib/commit/dc2050c28a2fb9dda083a344f2d8405eb8478dbb) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
+-   [`7dbca3a`](https://github.com/stdlib-js/stdlib/commit/7dbca3a081b8b6dbeaf6ce9c8101cfa272c1e75c) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`ee08533`](https://github.com/stdlib-js/stdlib/commit/ee085335f14c4586b37dfd8c0ad4a82113651777) - **feat:** add `math/base/special/gamma-lanczos-sum-expg-scaledf` _(by Karan Anand)_
 -   [`fe35e83`](https://github.com/stdlib-js/stdlib/commit/fe35e83251890e69ae041104dfcefa9bcfbbd37a) - **feat:** add C implementation for `math/base/special/minmaxabs` [(#6983)](https://github.com/stdlib-js/stdlib/pull/6983) _(by Karan Anand)_
 -   [`5625d06`](https://github.com/stdlib-js/stdlib/commit/5625d06d2b63513ffb4046ea0ea4aa5723b9da7e) - **feat:** add `math/base/special/minmaxf` [(#7039)](https://github.com/stdlib-js/stdlib/pull/7039) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
