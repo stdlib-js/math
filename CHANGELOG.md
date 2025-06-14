@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-13)
+## Unreleased (2025-06-14)
 
 <section class="features">
 
 ### Features
 
+-   [`fe35e83`](https://github.com/stdlib-js/stdlib/commit/fe35e83251890e69ae041104dfcefa9bcfbbd37a) - add C implementation for `math/base/special/minmaxabs` [(#6983)](https://github.com/stdlib-js/stdlib/pull/6983)
 -   [`5625d06`](https://github.com/stdlib-js/stdlib/commit/5625d06d2b63513ffb4046ea0ea4aa5723b9da7e) - add `math/base/special/minmaxf` [(#7039)](https://github.com/stdlib-js/stdlib/pull/7039)
 -   [`0da78b4`](https://github.com/stdlib-js/stdlib/commit/0da78b462b0783c2d7d145d477b20c8750ed8486) - add `math/base/special/cscf` [(#7341)](https://github.com/stdlib-js/stdlib/pull/7341)
 -   [`22c34fb`](https://github.com/stdlib-js/stdlib/commit/22c34fbb1024ec7a55eaf99170ab27675d3d3800) - add `math/base/special/frexpf` [(#7089)](https://github.com/stdlib-js/stdlib/pull/7089)
@@ -502,6 +503,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`fe35e83`](https://github.com/stdlib-js/stdlib/commit/fe35e83251890e69ae041104dfcefa9bcfbbd37a) - **feat:** add C implementation for `math/base/special/minmaxabs` [(#6983)](https://github.com/stdlib-js/stdlib/pull/6983) _(by Karan Anand)_
 -   [`5625d06`](https://github.com/stdlib-js/stdlib/commit/5625d06d2b63513ffb4046ea0ea4aa5723b9da7e) - **feat:** add `math/base/special/minmaxf` [(#7039)](https://github.com/stdlib-js/stdlib/pull/7039) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`0da78b4`](https://github.com/stdlib-js/stdlib/commit/0da78b462b0783c2d7d145d477b20c8750ed8486) - **feat:** add `math/base/special/cscf` [(#7341)](https://github.com/stdlib-js/stdlib/pull/7341) _(by Karan Anand)_
 -   [`22c34fb`](https://github.com/stdlib-js/stdlib/commit/22c34fbb1024ec7a55eaf99170ab27675d3d3800) - **feat:** add `math/base/special/frexpf` [(#7089)](https://github.com/stdlib-js/stdlib/pull/7089) _(by Karan Anand)_
