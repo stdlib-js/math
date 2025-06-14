@@ -504,6 +504,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`776f485`](https://github.com/stdlib-js/stdlib/commit/776f485c279d4386ad120362393dd0dfdbeca71d) - **docs:** correct parameter descriptions _(by Karan Anand)_
+-   [`678f471`](https://github.com/stdlib-js/stdlib/commit/678f471830cd4f3cfb1ba07b095a9c6da43a2e59) - **refactor:** remove redundant cast when generating integral part _(by Karan Anand)_
 -   [`56cd0bf`](https://github.com/stdlib-js/stdlib/commit/56cd0bfb6e3d98349a2062e3ac26668f58ba09bb) - **refactor:** use tuple for return type _(by Karan Anand)_
 -   [`9972161`](https://github.com/stdlib-js/stdlib/commit/9972161c7c945bf3ab1229fb40129c1107d5918b) - **docs:** replace manual `for` loop in examples _(by Karan Anand)_
 -   [`8f57742`](https://github.com/stdlib-js/stdlib/commit/8f577423535f8ef0639a0306538771f980af6fbb) - **refactor:** use tuple for return type _(by Karan Anand)_
