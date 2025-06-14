@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`23b6d1a`](https://github.com/stdlib-js/stdlib/commit/23b6d1a76ac2fcfed45f24561fe32d59bae722b6) - add `math/base/special/modff` [(#7101)](https://github.com/stdlib-js/stdlib/pull/7101)
 -   [`ee08533`](https://github.com/stdlib-js/stdlib/commit/ee085335f14c4586b37dfd8c0ad4a82113651777) - add `math/base/special/gamma-lanczos-sum-expg-scaledf`
 -   [`fe35e83`](https://github.com/stdlib-js/stdlib/commit/fe35e83251890e69ae041104dfcefa9bcfbbd37a) - add C implementation for `math/base/special/minmaxabs` [(#6983)](https://github.com/stdlib-js/stdlib/pull/6983)
 -   [`5625d06`](https://github.com/stdlib-js/stdlib/commit/5625d06d2b63513ffb4046ea0ea4aa5723b9da7e) - add `math/base/special/minmaxf` [(#7039)](https://github.com/stdlib-js/stdlib/pull/7039)
@@ -504,6 +505,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`23b6d1a`](https://github.com/stdlib-js/stdlib/commit/23b6d1a76ac2fcfed45f24561fe32d59bae722b6) - **feat:** add `math/base/special/modff` [(#7101)](https://github.com/stdlib-js/stdlib/pull/7101) _(by Karan Anand)_
 -   [`a80a512`](https://github.com/stdlib-js/stdlib/commit/a80a51223274109e524c746abf43727607f2b610) - **docs:** fix argument types _(by Karan Anand)_
 -   [`d6059e1`](https://github.com/stdlib-js/stdlib/commit/d6059e165da4f439309257fe617c00bde8a7feff) - **docs:** fix function signature _(by Karan Anand)_
 -   [`a2565fe`](https://github.com/stdlib-js/stdlib/commit/a2565fec6fc4f97c59a73f86819230c19449980d) - **refactor:** use tuple for return type _(by Karan Anand)_
