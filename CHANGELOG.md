@@ -508,6 +508,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`c14c0c2`](https://github.com/stdlib-js/stdlib/commit/c14c0c20a09ca1dcb4b1210e62435d16d7292151) - **refactor:** use `FLOAT64_NUM_HIGH_WORD_SIGNIFICAND_BITS` in place of `20` _(by Karan Anand)_
+-   [`08e8478`](https://github.com/stdlib-js/stdlib/commit/08e847829de3eb1a7f39e573ecdfcce94ceffc45) - **docs:** fix function description _(by Karan Anand)_
 -   [`252ec3a`](https://github.com/stdlib-js/stdlib/commit/252ec3aefcfd25f0817ee43766f4c0ac4eb12c86) - **refactor:** remove redundant exponent check and replace magic number with constant _(by Karan Anand)_
 -   [`9c72ec7`](https://github.com/stdlib-js/stdlib/commit/9c72ec7f4a912768b2637fcc3c9174c26594e0eb) - **feat:** add `math/base/special/hacoversinf` [(#7360)](https://github.com/stdlib-js/stdlib/pull/7360) _(by Karan Anand)_
 -   [`561b748`](https://github.com/stdlib-js/stdlib/commit/561b74802a65c31e06dd21d31f64309a614a8bc1) - **feat:** add `math/base/special/hacovercosf` [(#7358)](https://github.com/stdlib-js/stdlib/pull/7358) _(by Karan Anand)_
