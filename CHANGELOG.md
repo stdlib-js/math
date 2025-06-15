@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-14)
+## Unreleased (2025-06-15)
 
 <section class="features">
 
@@ -508,6 +508,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`252ec3a`](https://github.com/stdlib-js/stdlib/commit/252ec3aefcfd25f0817ee43766f4c0ac4eb12c86) - **refactor:** remove redundant exponent check and replace magic number with constant _(by Karan Anand)_
 -   [`9c72ec7`](https://github.com/stdlib-js/stdlib/commit/9c72ec7f4a912768b2637fcc3c9174c26594e0eb) - **feat:** add `math/base/special/hacoversinf` [(#7360)](https://github.com/stdlib-js/stdlib/pull/7360) _(by Karan Anand)_
 -   [`561b748`](https://github.com/stdlib-js/stdlib/commit/561b74802a65c31e06dd21d31f64309a614a8bc1) - **feat:** add `math/base/special/hacovercosf` [(#7358)](https://github.com/stdlib-js/stdlib/pull/7358) _(by Karan Anand)_
 -   [`acc9ca5`](https://github.com/stdlib-js/stdlib/commit/acc9ca54a5182bb8792696aecb1beaca0edddcab) - **bench:** fix passed arguments _(by Karan Anand)_
