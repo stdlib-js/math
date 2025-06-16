@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-15)
+## Unreleased (2025-06-16)
 
 <section class="features">
 
@@ -508,6 +508,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`c645d4b`](https://github.com/stdlib-js/stdlib/commit/c645d4bd281db0822167295c79b578cf6fc976b3) - **test:** use strict equality for `cosm1` within `[-π/4,π/4]` interval _(by Karan Anand)_
+-   [`2c12d8c`](https://github.com/stdlib-js/stdlib/commit/2c12d8c195d96bddee7a34a7f9d79ba1936603e1) - **test:** correct `filepath` in test fixture generation _(by Karan Anand)_
 -   [`c14c0c2`](https://github.com/stdlib-js/stdlib/commit/c14c0c20a09ca1dcb4b1210e62435d16d7292151) - **refactor:** use `FLOAT64_NUM_HIGH_WORD_SIGNIFICAND_BITS` in place of `20` _(by Karan Anand)_
 -   [`08e8478`](https://github.com/stdlib-js/stdlib/commit/08e847829de3eb1a7f39e573ecdfcce94ceffc45) - **docs:** fix function description _(by Karan Anand)_
 -   [`252ec3a`](https://github.com/stdlib-js/stdlib/commit/252ec3aefcfd25f0817ee43766f4c0ac4eb12c86) - **refactor:** remove redundant exponent check and replace magic number with constant _(by Karan Anand)_
