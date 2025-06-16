@@ -52,7 +52,7 @@ var data = require( './fixtures/python/data.json' );
 
 tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof cos, 'function', 'main export is a function' );
+	t.strictEqual( typeof cosm1, 'function', 'main export is a function' );
 	t.end();
 });
 
