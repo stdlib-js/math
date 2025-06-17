@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-16)
+## Unreleased (2025-06-17)
 
 <section class="features">
 
 ### Features
 
+-   [`ca3dd82`](https://github.com/stdlib-js/stdlib/commit/ca3dd825f0d8fa080b9e48cc3dc667249c1fb2a1) - add `math/base/special/havercosf` [(#7377)](https://github.com/stdlib-js/stdlib/pull/7377)
 -   [`9c72ec7`](https://github.com/stdlib-js/stdlib/commit/9c72ec7f4a912768b2637fcc3c9174c26594e0eb) - add `math/base/special/hacoversinf` [(#7360)](https://github.com/stdlib-js/stdlib/pull/7360)
 -   [`561b748`](https://github.com/stdlib-js/stdlib/commit/561b74802a65c31e06dd21d31f64309a614a8bc1) - add `math/base/special/hacovercosf` [(#7358)](https://github.com/stdlib-js/stdlib/pull/7358)
 -   [`8fd6600`](https://github.com/stdlib-js/stdlib/commit/8fd66000cecd700c0ec8b503ea845dd03844ab87) - add `math/base/special/minmaxabsf` [(#7043)](https://github.com/stdlib-js/stdlib/pull/7043)
@@ -508,6 +509,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`ca3dd82`](https://github.com/stdlib-js/stdlib/commit/ca3dd825f0d8fa080b9e48cc3dc667249c1fb2a1) - **feat:** add `math/base/special/havercosf` [(#7377)](https://github.com/stdlib-js/stdlib/pull/7377) _(by Karan Anand)_
 -   [`7496a50`](https://github.com/stdlib-js/stdlib/commit/7496a509575e6c8a5db40ba0773ccb84e368a193) - **docs:** fix function return value _(by Karan Anand)_
 -   [`3d16892`](https://github.com/stdlib-js/stdlib/commit/3d168921b5a5a81732a2cd9087a41dbfe25754cb) - **docs:** update related packages sections [(#7369)](https://github.com/stdlib-js/stdlib/pull/7369) _(by stdlib-bot)_
 -   [`984012e`](https://github.com/stdlib-js/stdlib/commit/984012e02dcba80c611674af357d7c7f1bcd3904) - **test:** fix typo in function name _(by Karan Anand)_
