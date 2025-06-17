@@ -512,6 +512,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`5de9a51`](https://github.com/stdlib-js/stdlib/commit/5de9a51616a5fc34daaf5997682e75f5a6d8d60c) - **docs:** fix function description _(by Karan Anand)_
 -   [`fbc0fee`](https://github.com/stdlib-js/stdlib/commit/fbc0fee494f87deb2886bd5b6326428c9a2629f7) - **feat:** add `math/base/special/secf` [(#7390)](https://github.com/stdlib-js/stdlib/pull/7390) _(by Karan Anand, Philipp Burckhardt)_
 -   [`576ca34`](https://github.com/stdlib-js/stdlib/commit/576ca34909cbd118e1967da9017c90616188a1ee) - **feat:** add `math/base/special/haversinf` [(#7381)](https://github.com/stdlib-js/stdlib/pull/7381) _(by Karan Anand)_
 -   [`f1cbc3a`](https://github.com/stdlib-js/stdlib/commit/f1cbc3a48299cc106bf23a23cc7f8ca0dbc038d6) - **feat:** add `math/base/special/cosm1f` [(#7371)](https://github.com/stdlib-js/stdlib/pull/7371) _(by Karan Anand, stdlib-bot)_
