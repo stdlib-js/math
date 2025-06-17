@@ -509,6 +509,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`49719be`](https://github.com/stdlib-js/stdlib/commit/49719bea9113d4c4bde2c5b09938992fa0fb37b2) - **chore:** add structured package data for `math/base/special/havercosf` _(by Karan Anand)_
 -   [`ca3dd82`](https://github.com/stdlib-js/stdlib/commit/ca3dd825f0d8fa080b9e48cc3dc667249c1fb2a1) - **feat:** add `math/base/special/havercosf` [(#7377)](https://github.com/stdlib-js/stdlib/pull/7377) _(by Karan Anand)_
 -   [`7496a50`](https://github.com/stdlib-js/stdlib/commit/7496a509575e6c8a5db40ba0773ccb84e368a193) - **docs:** fix function return value _(by Karan Anand)_
 -   [`3d16892`](https://github.com/stdlib-js/stdlib/commit/3d168921b5a5a81732a2cd9087a41dbfe25754cb) - **docs:** update related packages sections [(#7369)](https://github.com/stdlib-js/stdlib/pull/7369) _(by stdlib-bot)_
