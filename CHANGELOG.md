@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f1cbc3a`](https://github.com/stdlib-js/stdlib/commit/f1cbc3a48299cc106bf23a23cc7f8ca0dbc038d6) - add `math/base/special/cosm1f` [(#7371)](https://github.com/stdlib-js/stdlib/pull/7371)
 -   [`ca3dd82`](https://github.com/stdlib-js/stdlib/commit/ca3dd825f0d8fa080b9e48cc3dc667249c1fb2a1) - add `math/base/special/havercosf` [(#7377)](https://github.com/stdlib-js/stdlib/pull/7377)
 -   [`9c72ec7`](https://github.com/stdlib-js/stdlib/commit/9c72ec7f4a912768b2637fcc3c9174c26594e0eb) - add `math/base/special/hacoversinf` [(#7360)](https://github.com/stdlib-js/stdlib/pull/7360)
 -   [`561b748`](https://github.com/stdlib-js/stdlib/commit/561b74802a65c31e06dd21d31f64309a614a8bc1) - add `math/base/special/hacovercosf` [(#7358)](https://github.com/stdlib-js/stdlib/pull/7358)
@@ -509,6 +510,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`f1cbc3a`](https://github.com/stdlib-js/stdlib/commit/f1cbc3a48299cc106bf23a23cc7f8ca0dbc038d6) - **feat:** add `math/base/special/cosm1f` [(#7371)](https://github.com/stdlib-js/stdlib/pull/7371) _(by Karan Anand, stdlib-bot)_
 -   [`ab27369`](https://github.com/stdlib-js/stdlib/commit/ab2736902880d499fd3137db0a6c55048ec46dae) - **chore:** add structured package data for `math/base/special/havercos` _(by Karan Anand)_
 -   [`49719be`](https://github.com/stdlib-js/stdlib/commit/49719bea9113d4c4bde2c5b09938992fa0fb37b2) - **chore:** add structured package data for `math/base/special/havercosf` _(by Karan Anand)_
 -   [`ca3dd82`](https://github.com/stdlib-js/stdlib/commit/ca3dd825f0d8fa080b9e48cc3dc667249c1fb2a1) - **feat:** add `math/base/special/havercosf` [(#7377)](https://github.com/stdlib-js/stdlib/pull/7377) _(by Karan Anand)_
