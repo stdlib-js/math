@@ -128,6 +128,7 @@
 
 ### Bug Fixes
 
+-   [`e82e559`](https://github.com/stdlib-js/stdlib/commit/e82e5599a98d97a288e946f93f59eaccd6572c5a) - remove unused `abs` dependency from `ldexp` manifest
 -   [`484e565`](https://github.com/stdlib-js/stdlib/commit/484e56596656a4c5faaea74260a444eb582bd019) - remove unused `pinf` dependency from `gamma-lanczos-sum` manifest
 -   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - remove unnecessary parameter checks for int32_t in `factorial2`
 -   [`dd61e82`](https://github.com/stdlib-js/stdlib/commit/dd61e8298c3bab1c5c8872bbf6a78c92615906a2) - add missing `abs-mask` dependency to `cosf` manifest
@@ -526,6 +527,9 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`f63f8df`](https://github.com/stdlib-js/stdlib/commit/f63f8df9abf7a7ddf9de4e895a64e4699d2f378b) - **style:** remove header section comments from C files _(by Philipp Burckhardt)_
+-   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
+-   [`e82e559`](https://github.com/stdlib-js/stdlib/commit/e82e5599a98d97a288e946f93f59eaccd6572c5a) - **fix:** remove unused `abs` dependency from `ldexp` manifest _(by Philipp Burckhardt)_
 -   [`490d39b`](https://github.com/stdlib-js/stdlib/commit/490d39b7df60bce13a6c082a471c1bf6a00a7002) - **feat:** add `math/base/special/versinf` [(#7419)](https://github.com/stdlib-js/stdlib/pull/7419) _(by Karan Anand)_
 -   [`484e565`](https://github.com/stdlib-js/stdlib/commit/484e56596656a4c5faaea74260a444eb582bd019) - **fix:** remove unused `pinf` dependency from `gamma-lanczos-sum` manifest _(by Philipp Burckhardt)_
 -   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - **fix:** remove unnecessary parameter checks for int32_t in `factorial2` _(by Philipp Burckhardt)_
