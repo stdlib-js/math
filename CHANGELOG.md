@@ -127,6 +127,7 @@
 
 ### Bug Fixes
 
+-   [`dd61e82`](https://github.com/stdlib-js/stdlib/commit/dd61e8298c3bab1c5c8872bbf6a78c92615906a2) - add missing `abs-mask` dependency to `cosf` manifest
 -   [`5f81198`](https://github.com/stdlib-js/stdlib/commit/5f8119831537ea1b9707d13c96cc3f5ec420748f) - update  parameter handling due to int32 type
 -   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - clean-up nonfibonacci implementation and remove unused deps
 -   [`9c157a5`](https://github.com/stdlib-js/stdlib/commit/9c157a5041dbb3c20fc6874c990ba5bfd3fe981f) - add missing `abs-mask` dependency to `sinf` manifest
@@ -522,6 +523,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`dd61e82`](https://github.com/stdlib-js/stdlib/commit/dd61e8298c3bab1c5c8872bbf6a78c92615906a2) - **fix:** add missing `abs-mask` dependency to `cosf` manifest _(by Philipp Burckhardt)_
 -   [`5f81198`](https://github.com/stdlib-js/stdlib/commit/5f8119831537ea1b9707d13c96cc3f5ec420748f) - **fix:** update  parameter handling due to int32 type _(by Philipp Burckhardt)_
 -   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - **fix:** clean-up nonfibonacci implementation and remove unused deps _(by Philipp Burckhardt)_
 -   [`9c157a5`](https://github.com/stdlib-js/stdlib/commit/9c157a5041dbb3c20fc6874c990ba5bfd3fe981f) - **fix:** add missing `abs-mask` dependency to `sinf` manifest _(by Philipp Burckhardt)_
