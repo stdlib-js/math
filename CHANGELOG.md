@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`490d39b`](https://github.com/stdlib-js/stdlib/commit/490d39b7df60bce13a6c082a471c1bf6a00a7002) - add `math/base/special/versinf` [(#7419)](https://github.com/stdlib-js/stdlib/pull/7419)
 -   [`77ede72`](https://github.com/stdlib-js/stdlib/commit/77ede72455000282d9ba9d2582f80f811a01add1) - add `math/base/special/vercosf` [(#7418)](https://github.com/stdlib-js/stdlib/pull/7418)
 -   [`fbc0fee`](https://github.com/stdlib-js/stdlib/commit/fbc0fee494f87deb2886bd5b6326428c9a2629f7) - add `math/base/special/secf` [(#7390)](https://github.com/stdlib-js/stdlib/pull/7390)
 -   [`576ca34`](https://github.com/stdlib-js/stdlib/commit/576ca34909cbd118e1967da9017c90616188a1ee) - add `math/base/special/haversinf` [(#7381)](https://github.com/stdlib-js/stdlib/pull/7381)
@@ -525,6 +526,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`490d39b`](https://github.com/stdlib-js/stdlib/commit/490d39b7df60bce13a6c082a471c1bf6a00a7002) - **feat:** add `math/base/special/versinf` [(#7419)](https://github.com/stdlib-js/stdlib/pull/7419) _(by Karan Anand)_
 -   [`484e565`](https://github.com/stdlib-js/stdlib/commit/484e56596656a4c5faaea74260a444eb582bd019) - **fix:** remove unused `pinf` dependency from `gamma-lanczos-sum` manifest _(by Philipp Burckhardt)_
 -   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - **fix:** remove unnecessary parameter checks for int32_t in `factorial2` _(by Philipp Burckhardt)_
 -   [`dd61e82`](https://github.com/stdlib-js/stdlib/commit/dd61e8298c3bab1c5c8872bbf6a78c92615906a2) - **fix:** add missing `abs-mask` dependency to `cosf` manifest _(by Philipp Burckhardt)_
