@@ -127,6 +127,9 @@
 
 ### Bug Fixes
 
+-   [`a102897`](https://github.com/stdlib-js/stdlib/commit/a102897c86676e033a999d61e90df8eb3b16b99e) - remove extra slash from include path
+-   [`7351a51`](https://github.com/stdlib-js/stdlib/commit/7351a5144b489c2c20b1a7f6b8f8d1a1de025269) - remove unused ninf dependency from hyp2f1
+-   [`4b5b0e7`](https://github.com/stdlib-js/stdlib/commit/4b5b0e7a46e88ee0ac8bdfdc2f98a07d59898c78) - remove double slash in include path for ninf.h in betaln
 -   [`6b1c190`](https://github.com/stdlib-js/stdlib/commit/6b1c1902e586b2a2437f5b97f6abe4b4c780da92) - use correct dependency in manifest.json
 -   [`b82a6a3`](https://github.com/stdlib-js/stdlib/commit/b82a6a3e079a541f151f4391e64f7a2242363a73) - remove extra slash from include path
 -   [`ed88389`](https://github.com/stdlib-js/stdlib/commit/ed88389cdb8cdfb939e70e55d9167d8dc3984121) - use correct type emulation
@@ -515,6 +518,9 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`a102897`](https://github.com/stdlib-js/stdlib/commit/a102897c86676e033a999d61e90df8eb3b16b99e) - **fix:** remove extra slash from include path _(by Philipp Burckhardt)_
+-   [`7351a51`](https://github.com/stdlib-js/stdlib/commit/7351a5144b489c2c20b1a7f6b8f8d1a1de025269) - **fix:** remove unused ninf dependency from hyp2f1 _(by Philipp Burckhardt)_
+-   [`4b5b0e7`](https://github.com/stdlib-js/stdlib/commit/4b5b0e7a46e88ee0ac8bdfdc2f98a07d59898c78) - **fix:** remove double slash in include path for ninf.h in betaln _(by Philipp Burckhardt)_
 -   [`6b1c190`](https://github.com/stdlib-js/stdlib/commit/6b1c1902e586b2a2437f5b97f6abe4b4c780da92) - **fix:** use correct dependency in manifest.json _(by Philipp Burckhardt)_
 -   [`b82a6a3`](https://github.com/stdlib-js/stdlib/commit/b82a6a3e079a541f151f4391e64f7a2242363a73) - **fix:** remove extra slash from include path _(by Philipp Burckhardt)_
 -   [`77ede72`](https://github.com/stdlib-js/stdlib/commit/77ede72455000282d9ba9d2582f80f811a01add1) - **feat:** add `math/base/special/vercosf` [(#7418)](https://github.com/stdlib-js/stdlib/pull/7418) _(by Karan Anand)_
