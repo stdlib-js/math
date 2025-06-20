@@ -127,6 +127,8 @@
 
 ### Bug Fixes
 
+-   [`6b1c190`](https://github.com/stdlib-js/stdlib/commit/6b1c1902e586b2a2437f5b97f6abe4b4c780da92) - use correct dependency in manifest.json
+-   [`b82a6a3`](https://github.com/stdlib-js/stdlib/commit/b82a6a3e079a541f151f4391e64f7a2242363a73) - remove extra slash from include path
 -   [`ed88389`](https://github.com/stdlib-js/stdlib/commit/ed88389cdb8cdfb939e70e55d9167d8dc3984121) - use correct type emulation
 -   [`43cbf2d`](https://github.com/stdlib-js/stdlib/commit/43cbf2dd9d8ad173cfe9cc89fe7de500dd96bbbe) - update constant name
 -   [`3920c11`](https://github.com/stdlib-js/stdlib/commit/3920c117df8d67477f9143e618faa8f2d472ce6a) - use correct formula for `acovercosf`
@@ -513,6 +515,8 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`6b1c190`](https://github.com/stdlib-js/stdlib/commit/6b1c1902e586b2a2437f5b97f6abe4b4c780da92) - **fix:** use correct dependency in manifest.json _(by Philipp Burckhardt)_
+-   [`b82a6a3`](https://github.com/stdlib-js/stdlib/commit/b82a6a3e079a541f151f4391e64f7a2242363a73) - **fix:** remove extra slash from include path _(by Philipp Burckhardt)_
 -   [`77ede72`](https://github.com/stdlib-js/stdlib/commit/77ede72455000282d9ba9d2582f80f811a01add1) - **feat:** add `math/base/special/vercosf` [(#7418)](https://github.com/stdlib-js/stdlib/pull/7418) _(by Karan Anand)_
 -   [`48dd346`](https://github.com/stdlib-js/stdlib/commit/48dd346fb6e276f9132a3c91451a94469fcad5bb) - **docs:** update related packages sections [(#7420)](https://github.com/stdlib-js/stdlib/pull/7420) _(by stdlib-bot)_
 -   [`355789c`](https://github.com/stdlib-js/stdlib/commit/355789c9868f2010f0045fdd76ce75e89a36fe68) - **chore:** fix EditorConfig lint errors [(#7407)](https://github.com/stdlib-js/stdlib/pull/7407) _(by Lokesh Ranjan)_

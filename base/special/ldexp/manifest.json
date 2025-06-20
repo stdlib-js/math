@@ -44,7 +44,7 @@
         "@stdlib/number/float64/base/normalize",
         "@stdlib/number/float64/base/exponent",
         "@stdlib/number/float64/base/from-words",
-        "@stdlib/number/float32/base/to-word",
+        "@stdlib/number/float64/base/to-words",
         "@stdlib/math/base/special/copysign",
         "@stdlib/constants/float64/ninf",
         "@stdlib/constants/float64/pinf",
