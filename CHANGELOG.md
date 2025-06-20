@@ -127,6 +127,10 @@
 
 ### Bug Fixes
 
+-   [`5f81198`](https://github.com/stdlib-js/stdlib/commit/5f8119831537ea1b9707d13c96cc3f5ec420748f) - update  parameter handling due to int32 type
+-   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - clean-up nonfibonacci implementation and remove unused deps
+-   [`9c157a5`](https://github.com/stdlib-js/stdlib/commit/9c157a5041dbb3c20fc6874c990ba5bfd3fe981f) - add missing `abs-mask` dependency to `sinf` manifest
+-   [`0b32938`](https://github.com/stdlib-js/stdlib/commit/0b32938e987737194fb3d9441deac9393b2f7410) - add missing `ln` dependency to `riemann-zeta` manifest
 -   [`a102897`](https://github.com/stdlib-js/stdlib/commit/a102897c86676e033a999d61e90df8eb3b16b99e) - remove extra slash from include path
 -   [`7351a51`](https://github.com/stdlib-js/stdlib/commit/7351a5144b489c2c20b1a7f6b8f8d1a1de025269) - remove unused ninf dependency from hyp2f1
 -   [`4b5b0e7`](https://github.com/stdlib-js/stdlib/commit/4b5b0e7a46e88ee0ac8bdfdc2f98a07d59898c78) - remove double slash in include path for ninf.h in betaln
@@ -518,6 +522,10 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`5f81198`](https://github.com/stdlib-js/stdlib/commit/5f8119831537ea1b9707d13c96cc3f5ec420748f) - **fix:** update  parameter handling due to int32 type _(by Philipp Burckhardt)_
+-   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - **fix:** clean-up nonfibonacci implementation and remove unused deps _(by Philipp Burckhardt)_
+-   [`9c157a5`](https://github.com/stdlib-js/stdlib/commit/9c157a5041dbb3c20fc6874c990ba5bfd3fe981f) - **fix:** add missing `abs-mask` dependency to `sinf` manifest _(by Philipp Burckhardt)_
+-   [`0b32938`](https://github.com/stdlib-js/stdlib/commit/0b32938e987737194fb3d9441deac9393b2f7410) - **fix:** add missing `ln` dependency to `riemann-zeta` manifest _(by Philipp Burckhardt)_
 -   [`a102897`](https://github.com/stdlib-js/stdlib/commit/a102897c86676e033a999d61e90df8eb3b16b99e) - **fix:** remove extra slash from include path _(by Philipp Burckhardt)_
 -   [`7351a51`](https://github.com/stdlib-js/stdlib/commit/7351a5144b489c2c20b1a7f6b8f8d1a1de025269) - **fix:** remove unused ninf dependency from hyp2f1 _(by Philipp Burckhardt)_
 -   [`4b5b0e7`](https://github.com/stdlib-js/stdlib/commit/4b5b0e7a46e88ee0ac8bdfdc2f98a07d59898c78) - **fix:** remove double slash in include path for ninf.h in betaln _(by Philipp Burckhardt)_
