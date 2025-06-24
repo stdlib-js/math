@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-22)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
@@ -527,6 +527,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`7cd0373`](https://github.com/stdlib-js/stdlib/commit/7cd03736a4c79cf5fff04bb84c97c458f987f4c6) - **bench:** fix function name and use `random_uniform` _(by Karan Anand)_
 -   [`0e13713`](https://github.com/stdlib-js/stdlib/commit/0e13713f19e808617d4bff6b51af0d9ae6802e20) - **chore:** fix C lint errors [(#7370)](https://github.com/stdlib-js/stdlib/pull/7370) _(by zhanggy)_
 -   [`3e45add`](https://github.com/stdlib-js/stdlib/commit/3e45adda10132ea8f55ad60c1504c8fd19b0841d) - **chore:** address commit comments for commit `6b1c190` [(#7431)](https://github.com/stdlib-js/stdlib/pull/7431) _(by Lokesh Ranjan)_
 -   [`f63f8df`](https://github.com/stdlib-js/stdlib/commit/f63f8df9abf7a7ddf9de4e895a64e4699d2f378b) - **style:** remove header section comments from C files _(by Philipp Burckhardt)_
