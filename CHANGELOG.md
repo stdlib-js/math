@@ -527,6 +527,10 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`3335d06`](https://github.com/stdlib-js/stdlib/commit/3335d062f324870a15a182bbceab7cca4a189295) - **test:** pass in options _(by Philipp Burckhardt)_
+-   [`aa8b15b`](https://github.com/stdlib-js/stdlib/commit/aa8b15b9c8aa11db7dc584b0368fedeb98ef885a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`6471b8e`](https://github.com/stdlib-js/stdlib/commit/6471b8e01fdce8657278f83e0921faef23e6622e) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`24e19f9`](https://github.com/stdlib-js/stdlib/commit/24e19f9d7fd8a648489afe4ba29940a4bfbeab6f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`2de2781`](https://github.com/stdlib-js/stdlib/commit/2de2781ce971b1e03882955a7e22c2f188202546) - **chore:** update examples _(by Philipp Burckhardt)_
 -   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`98f079c`](https://github.com/stdlib-js/stdlib/commit/98f079c8e547af3270a0a700dea8365e52b1d6d7) - **chore:** fix C lint errors [(#7488)](https://github.com/stdlib-js/stdlib/pull/7488) _(by zhanggy)_
