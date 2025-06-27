@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,10 +20,20 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var isSameValue = require( '@stdlib/assert/is-same-value' );
 var ulpdiff = require( '@stdlib/number/float64/base/ulp-difference' );
-var gammainc = require( './../lib' );
+var PINF = require( '@stdlib/constants/float64/pinf' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// VARIABLES //
+
+var gammainc = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( gammainc instanceof Error )
+};
 
 
 // FIXTURES //
@@ -33,16 +43,19 @@ var medium = require( './fixtures/cpp/medium.json' );
 var largeXSmallS = require( './fixtures/cpp/large_x_small_s.json' );
 var largeXMediumS = require( './fixtures/cpp/large_x_medium_s.json' );
 
+// TODO: Add this to `test.js` once the JS implementation matches the latest Boost C++ implementation.
+var largeXLargeS = require( './fixtures/cpp/large_x_large_s.json' );
+
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof gammainc, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function returns `NaN` if provided a `NaN`', function test( t ) {
+tape( 'the function returns `NaN` if provided a `NaN`', opts, function test( t ) {
 	var val;
 
 	val = gammainc( NaN, 2, true, false );
@@ -54,7 +67,7 @@ tape( 'the function returns `NaN` if provided a `NaN`', function test( t ) {
 	t.end();
 });
 
-tape( 'the function returns NaN if provided x < 0 or s <= 0', function test( t ) {
+tape( 'the function returns NaN if provided x < 0 or s <= 0', opts, function test( t ) {
 	var val;
 
 	// Case: x < 0
@@ -72,7 +85,7 @@ tape( 'the function returns NaN if provided x < 0 or s <= 0', function test( t )
 	t.end();
 });
 
-tape( 'the function returns 0 for the lower incomplete gamma function when the first argument is zero', function test( t ) {
+tape( 'the function returns 0 for the lower incomplete gamma function when the first argument is zero', opts, function test( t ) {
 	var val;
 	var s;
 	for ( s = 1; s < 10; s++ ) {
@@ -82,7 +95,7 @@ tape( 'the function returns 0 for the lower incomplete gamma function when the f
 	t.end();
 });
 
-tape( 'the function correctly evaluates the lower incomplete gamma function for small `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the lower incomplete gamma function for small `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -100,7 +113,7 @@ tape( 'the function correctly evaluates the lower incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the upper incomplete gamma function for small `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the upper incomplete gamma function for small `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -118,7 +131,7 @@ tape( 'the function correctly evaluates the upper incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for small `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for small `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -136,7 +149,7 @@ tape( 'the function correctly evaluates the unregularized lower incomplete gamma
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for small `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for small `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -154,7 +167,7 @@ tape( 'the function correctly evaluates the unregularized upper incomplete gamma
 	t.end();
 });
 
-tape( 'the function correctly evaluates the lower incomplete gamma function for medium `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the lower incomplete gamma function for medium `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -172,7 +185,7 @@ tape( 'the function correctly evaluates the lower incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the upper incomplete gamma function for medium `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the upper incomplete gamma function for medium `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -190,7 +203,7 @@ tape( 'the function correctly evaluates the upper incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for medium `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for medium `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -208,7 +221,7 @@ tape( 'the function correctly evaluates the unregularized lower incomplete gamma
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for medium `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for medium `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -226,7 +239,7 @@ tape( 'the function correctly evaluates the unregularized upper incomplete gamma
 	t.end();
 });
 
-tape( 'the function correctly evaluates the lower incomplete gamma function for large `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the lower incomplete gamma function for large `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -244,7 +257,7 @@ tape( 'the function correctly evaluates the lower incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the upper incomplete gamma function for large `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the upper incomplete gamma function for large `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -262,7 +275,7 @@ tape( 'the function correctly evaluates the upper incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for large `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for large `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -280,7 +293,7 @@ tape( 'the function correctly evaluates the unregularized lower incomplete gamma
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for large `x` and small `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for large `x` and small `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -298,7 +311,7 @@ tape( 'the function correctly evaluates the unregularized upper incomplete gamma
 	t.end();
 });
 
-tape( 'the function correctly evaluates the lower incomplete gamma function for large `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the lower incomplete gamma function for large `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -316,7 +329,7 @@ tape( 'the function correctly evaluates the lower incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the upper incomplete gamma function for large `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the upper incomplete gamma function for large `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -334,7 +347,7 @@ tape( 'the function correctly evaluates the upper incomplete gamma function for 
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for large `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for large `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -352,7 +365,7 @@ tape( 'the function correctly evaluates the unregularized lower incomplete gamma
 	t.end();
 });
 
-tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for large `x` and medium `s`', function test( t ) {
+tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for large `x` and medium `s`', opts, function test( t ) {
 	var expected;
 	var actual;
 	var x;
@@ -366,6 +379,99 @@ tape( 'the function correctly evaluates the unregularized upper incomplete gamma
 	for ( i = 0; i < x.length; i++ ) {
 		actual = gammainc( x[ i ], s[ i ], false, true );
 		t.strictEqual( ulpdiff( actual, expected[ i ] ) <= 160, true, 'returns expected value within 160 ulp' );
+	}
+	t.end();
+});
+
+tape( 'the function correctly evaluates the lower incomplete gamma function for large `x` and large `s`', opts, function test( t ) {
+	var expected;
+	var actual;
+	var x;
+	var s;
+	var i;
+
+	expected = largeXLargeS.lower_regularized;
+	x = largeXLargeS.x;
+	s = largeXLargeS.s;
+
+	for ( i = 0; i < x.length; i++ ) {
+		actual = gammainc( x[ i ], s[ i ], true, false );
+
+		if ( expected[ i ] === 'PINF' ) {
+			t.strictEqual( isSameValue( actual, PINF ), true, 'returns expected value' );
+			continue;
+		}
+		// NOTE: The difference is high because some of the expected values are very small.
+		t.strictEqual( ulpdiff( actual, expected[ i ] ) <= 1370, true, 'returns expected value within 1370 ulp' );
+	}
+	t.end();
+});
+
+tape( 'the function correctly evaluates the upper incomplete gamma function for large `x` and large `s`', opts, function test( t ) {
+	var expected;
+	var actual;
+	var x;
+	var s;
+	var i;
+
+	expected = largeXLargeS.upper_regularized;
+	x = largeXLargeS.x;
+	s = largeXLargeS.s;
+
+	for ( i = 0; i < x.length; i++ ) {
+		actual = gammainc( x[ i ], s[ i ], true, true );
+		if ( expected[ i ] === 'PINF' ) {
+			t.strictEqual( isSameValue( actual, PINF ), true, 'returns expected value' );
+			continue;
+		}
+		// NOTE: The difference is high because some of the expected values are very large.
+		t.strictEqual( ulpdiff( actual, expected[ i ] ) <= 658, true, 'returns expected value within 658 ulp' );
+	}
+	t.end();
+});
+
+tape( 'the function correctly evaluates the unregularized lower incomplete gamma function for large `x` and large `s`', opts, function test( t ) {
+	var expected;
+	var actual;
+	var x;
+	var s;
+	var i;
+
+	expected = largeXLargeS.lower_unregularized;
+	x = largeXLargeS.x;
+	s = largeXLargeS.s;
+
+	for ( i = 0; i < x.length; i++ ) {
+		actual = gammainc( x[ i ], s[ i ], false, false );
+		if ( expected[ i ] === 'PINF' ) {
+			t.strictEqual( isSameValue( actual, PINF ), true, 'returns expected value' );
+			continue;
+		}
+		// NOTE: The difference is high because some of the expected values are very large and the compiler optimizations have been disabled.
+		t.strictEqual( ulpdiff( actual, expected[ i ] ) <= 947, true, 'returns expected value within 947 ulp' );
+	}
+	t.end();
+});
+
+tape( 'the function correctly evaluates the unregularized upper incomplete gamma function for large `x` and large `s`', opts, function test( t ) {
+	var expected;
+	var actual;
+	var x;
+	var s;
+	var i;
+
+	expected = largeXLargeS.upper_unregularized;
+	x = largeXLargeS.x;
+	s = largeXLargeS.s;
+
+	for ( i = 0; i < x.length; i++ ) {
+		actual = gammainc( x[ i ], s[ i ], false, true );
+		if ( expected[ i ] === 'PINF' ) {
+			t.strictEqual( isSameValue( actual, PINF ), true, 'returns expected value' );
+			continue;
+		}
+		// NOTE: The difference is high because some of the expected values are very large and the compiler optimizations have been disabled.
+		t.strictEqual( ulpdiff( actual, expected[ i ] ) <= 1544, true, 'returns expected value within 1544 ulp' );
 	}
 	t.end();
 });

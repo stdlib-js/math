@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408)
 -   [`490d39b`](https://github.com/stdlib-js/stdlib/commit/490d39b7df60bce13a6c082a471c1bf6a00a7002) - add `math/base/special/versinf` [(#7419)](https://github.com/stdlib-js/stdlib/pull/7419)
 -   [`77ede72`](https://github.com/stdlib-js/stdlib/commit/77ede72455000282d9ba9d2582f80f811a01add1) - add `math/base/special/vercosf` [(#7418)](https://github.com/stdlib-js/stdlib/pull/7418)
 -   [`fbc0fee`](https://github.com/stdlib-js/stdlib/commit/fbc0fee494f87deb2886bd5b6326428c9a2629f7) - add `math/base/special/secf` [(#7390)](https://github.com/stdlib-js/stdlib/pull/7390)
@@ -527,6 +528,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - **feat:** add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408) _(by Karan Anand, stdlib-bot)_
 -   [`3335d06`](https://github.com/stdlib-js/stdlib/commit/3335d062f324870a15a182bbceab7cca4a189295) - **test:** pass in options _(by Philipp Burckhardt)_
 -   [`aa8b15b`](https://github.com/stdlib-js/stdlib/commit/aa8b15b9c8aa11db7dc584b0368fedeb98ef885a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`6471b8e`](https://github.com/stdlib-js/stdlib/commit/6471b8e01fdce8657278f83e0921faef23e6622e) - **docs:** minor clean-up _(by Philipp Burckhardt)_
