@@ -528,6 +528,8 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`c7440db`](https://github.com/stdlib-js/stdlib/commit/c7440db4dc22b93ff8c981e9ae4e8853d62080cc) - **chore:** regenerate generated files _(by Athan Reines)_
+-   [`c17a2b8`](https://github.com/stdlib-js/stdlib/commit/c17a2b82f75b42e06a296f7fec15f77130a48483) - **chore:** regenerate generated files _(by Athan Reines)_
 -   [`0240ed9`](https://github.com/stdlib-js/stdlib/commit/0240ed95c31c83898c7605781a2b73e508b8ef71) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - **feat:** add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408) _(by Karan Anand, stdlib-bot)_
 -   [`3335d06`](https://github.com/stdlib-js/stdlib/commit/3335d062f324870a15a182bbceab7cca4a189295) - **test:** pass in options _(by Philipp Burckhardt)_
