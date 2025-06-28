@@ -129,6 +129,9 @@
 
 ### Bug Fixes
 
+-   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - correct variable name typo in hornerDescending function
+-   [`850bfd4`](https://github.com/stdlib-js/stdlib/commit/850bfd4b31a9b981ad6380f08b286ef1a7e35806) - add missing include header
+-   [`48dc3a0`](https://github.com/stdlib-js/stdlib/commit/48dc3a0e06467a3bf3710ef514b70ce61f9dab3e) - add missing include header
 -   [`e82e559`](https://github.com/stdlib-js/stdlib/commit/e82e5599a98d97a288e946f93f59eaccd6572c5a) - remove unused `abs` dependency from `ldexp` manifest
 -   [`484e565`](https://github.com/stdlib-js/stdlib/commit/484e56596656a4c5faaea74260a444eb582bd019) - remove unused `pinf` dependency from `gamma-lanczos-sum` manifest
 -   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - remove unnecessary parameter checks for int32_t in `factorial2`
@@ -528,6 +531,12 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`a8f857e`](https://github.com/stdlib-js/stdlib/commit/a8f857eae7ba49b5656e391f1ff8cc088001a5b0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - **fix:** correct variable name typo in hornerDescending function _(by Philipp Burckhardt)_
+-   [`850bfd4`](https://github.com/stdlib-js/stdlib/commit/850bfd4b31a9b981ad6380f08b286ef1a7e35806) - **fix:** add missing include header _(by Philipp Burckhardt)_
+-   [`6e77810`](https://github.com/stdlib-js/stdlib/commit/6e77810e2d6bb1f2e9ced24568360e2bb7b5184c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`580a43f`](https://github.com/stdlib-js/stdlib/commit/580a43fb5dcd86b4e2647cc0b9bdae271e889301) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`48dc3a0`](https://github.com/stdlib-js/stdlib/commit/48dc3a0e06467a3bf3710ef514b70ce61f9dab3e) - **fix:** add missing include header _(by Philipp Burckhardt)_
 -   [`8928b01`](https://github.com/stdlib-js/stdlib/commit/8928b01672f267d8c2ead50efb77083ba5b1ccad) - **bench:** fix missing include _(by Athan Reines)_
 -   [`c7440db`](https://github.com/stdlib-js/stdlib/commit/c7440db4dc22b93ff8c981e9ae4e8853d62080cc) - **chore:** regenerate generated files _(by Athan Reines)_
 -   [`c17a2b8`](https://github.com/stdlib-js/stdlib/commit/c17a2b82f75b42e06a296f7fec15f77130a48483) - **chore:** regenerate generated files _(by Athan Reines)_
