@@ -129,6 +129,7 @@
 
 ### Bug Fixes
 
+-   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - load correct float32 sqrt dependency
 -   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - correct variable name typo in hornerDescending function
 -   [`850bfd4`](https://github.com/stdlib-js/stdlib/commit/850bfd4b31a9b981ad6380f08b286ef1a7e35806) - add missing include header
 -   [`48dc3a0`](https://github.com/stdlib-js/stdlib/commit/48dc3a0e06467a3bf3710ef514b70ce61f9dab3e) - add missing include header
@@ -531,6 +532,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - **fix:** load correct float32 sqrt dependency _(by Philipp Burckhardt)_
 -   [`a8f857e`](https://github.com/stdlib-js/stdlib/commit/a8f857eae7ba49b5656e391f1ff8cc088001a5b0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - **fix:** correct variable name typo in hornerDescending function _(by Philipp Burckhardt)_
 -   [`850bfd4`](https://github.com/stdlib-js/stdlib/commit/850bfd4b31a9b981ad6380f08b286ef1a7e35806) - **fix:** add missing include header _(by Philipp Burckhardt)_
