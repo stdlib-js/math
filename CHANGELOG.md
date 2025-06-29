@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-28)
+## Unreleased (2025-06-29)
 
 <section class="features">
 
@@ -175,6 +175,7 @@
 
 ### Reverts
 
+-   [`5691bc8`](https://github.com/stdlib-js/stdlib/commit/5691bc85544b4ad4ddc1e46ef59d0e11df983471) - fix: load correct float32 sqrt dependency
 -   [`6c22949`](https://github.com/stdlib-js/stdlib/commit/6c22949a73493c90e4b814373ab8d8600395c5fd) - fix: correct variable name typo in hornerDescending function
 -   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
 -   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
@@ -534,6 +535,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`5691bc8`](https://github.com/stdlib-js/stdlib/commit/5691bc85544b4ad4ddc1e46ef59d0e11df983471) - **revert:** fix: load correct float32 sqrt dependency _(by Athan Reines)_
 -   [`6c22949`](https://github.com/stdlib-js/stdlib/commit/6c22949a73493c90e4b814373ab8d8600395c5fd) - **revert:** fix: correct variable name typo in hornerDescending function _(by Athan Reines)_
 -   [`4523a49`](https://github.com/stdlib-js/stdlib/commit/4523a495d0320dc757e324e042767417d8acab26) - **fix:** use correct include header _(by Philipp Burckhardt)_
 -   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - **fix:** load correct float32 sqrt dependency _(by Philipp Burckhardt)_
