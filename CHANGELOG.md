@@ -535,6 +535,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`580b0b3`](https://github.com/stdlib-js/stdlib/commit/580b0b3a4535b08100b2a62763723e1fa34bcd9d) - **docs:** resolve NaN return values in `maxabsn` and `minabsn` examples _(by Philipp Burckhardt)_
 -   [`a51fa22`](https://github.com/stdlib-js/stdlib/commit/a51fa22399f36b4d83ba0d189d297af4aa429354) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a84070b`](https://github.com/stdlib-js/stdlib/commit/a84070b1742699f8ef3ed810671826c309bd0283) - **chore:** update notes and ensure n is first argument in examples _(by Philipp Burckhardt)_
 -   [`fb42068`](https://github.com/stdlib-js/stdlib/commit/fb4206860899a128b29dfec8ea93e58186537b87) - **docs:** update description to match main.js and add missing quote _(by Philipp Burckhardt)_
