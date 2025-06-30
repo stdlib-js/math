@@ -538,6 +538,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`a3d0ee8`](https://github.com/stdlib-js/stdlib/commit/a3d0ee88ec03e1bee2c7ecfdfd6059c1ec7f05a2) - **test:** ensure deterministic test values _(by Philipp Burckhardt)_
 -   [`8103d91`](https://github.com/stdlib-js/stdlib/commit/8103d911861a7aff2658e84013266d67e5a037c7) - **feat:** add `math/base/special/round-nearest-even` [(#7468)](https://github.com/stdlib-js/stdlib/pull/7468) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`ebb3d00`](https://github.com/stdlib-js/stdlib/commit/ebb3d00964d06058892e0f39284b3b6f1832fd53) - **docs:** update related packages sections [(#7520)](https://github.com/stdlib-js/stdlib/pull/7520) _(by stdlib-bot)_
 -   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - **fix:** update include path _(by Athan Reines)_
