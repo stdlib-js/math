@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8103d91`](https://github.com/stdlib-js/stdlib/commit/8103d911861a7aff2658e84013266d67e5a037c7) - add `math/base/special/round-nearest-even` [(#7468)](https://github.com/stdlib-js/stdlib/pull/7468)
 -   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408)
 -   [`490d39b`](https://github.com/stdlib-js/stdlib/commit/490d39b7df60bce13a6c082a471c1bf6a00a7002) - add `math/base/special/versinf` [(#7419)](https://github.com/stdlib-js/stdlib/pull/7419)
 -   [`77ede72`](https://github.com/stdlib-js/stdlib/commit/77ede72455000282d9ba9d2582f80f811a01add1) - add `math/base/special/vercosf` [(#7418)](https://github.com/stdlib-js/stdlib/pull/7418)
@@ -537,6 +538,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`8103d91`](https://github.com/stdlib-js/stdlib/commit/8103d911861a7aff2658e84013266d67e5a037c7) - **feat:** add `math/base/special/round-nearest-even` [(#7468)](https://github.com/stdlib-js/stdlib/pull/7468) _(by Karan Anand, Athan Reines, stdlib-bot)_
 -   [`ebb3d00`](https://github.com/stdlib-js/stdlib/commit/ebb3d00964d06058892e0f39284b3b6f1832fd53) - **docs:** update related packages sections [(#7520)](https://github.com/stdlib-js/stdlib/pull/7520) _(by stdlib-bot)_
 -   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - **fix:** update include path _(by Athan Reines)_
 -   [`f3447c1`](https://github.com/stdlib-js/stdlib/commit/f3447c17f9bdaffc9271c425aa9de5507bc37807) - **build:** fix function aliases _(by Athan Reines)_
