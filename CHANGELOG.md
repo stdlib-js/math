@@ -538,6 +538,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`f9aa653`](https://github.com/stdlib-js/stdlib/commit/f9aa6535cea3c4a56fde6aba6914405fd25c0bff) - **test:** use approximate equality for native addon tests _(by Philipp Burckhardt)_
 -   [`41ce4c9`](https://github.com/stdlib-js/stdlib/commit/41ce4c9c77a7f91141dcc49d89a99b97f2c6466c) - **test:** ensure deterministic values and use approximate equality for native addon _(by Philipp Burckhardt)_
 -   [`a3d0ee8`](https://github.com/stdlib-js/stdlib/commit/a3d0ee88ec03e1bee2c7ecfdfd6059c1ec7f05a2) - **test:** ensure deterministic test values _(by Philipp Burckhardt)_
 -   [`8103d91`](https://github.com/stdlib-js/stdlib/commit/8103d911861a7aff2658e84013266d67e5a037c7) - **feat:** add `math/base/special/round-nearest-even` [(#7468)](https://github.com/stdlib-js/stdlib/pull/7468) _(by Karan Anand, Athan Reines, stdlib-bot)_
