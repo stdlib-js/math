@@ -538,6 +538,8 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`7cd4d71`](https://github.com/stdlib-js/stdlib/commit/7cd4d71ebc3d05ae6e55ddedec8ffd614c1f0a86) - **docs:** update examples _(by Athan Reines)_
+-   [`24c0051`](https://github.com/stdlib-js/stdlib/commit/24c0051a611e45011a152f0a27259bbf5dcd681b) - **docs:** update examples _(by Athan Reines)_
 -   [`f00f57b`](https://github.com/stdlib-js/stdlib/commit/f00f57b9306b3c678f4bfd1719817c767299b3eb) - **chore:** fix C lint errors [(#7550)](https://github.com/stdlib-js/stdlib/pull/7550) _(by zhanggy)_
 -   [`da3653b`](https://github.com/stdlib-js/stdlib/commit/da3653b8a9c8a2660bda4bf2db0668a38a5841ab) - **chore:** fix C lint errors [(#7545)](https://github.com/stdlib-js/stdlib/pull/7545) _(by zhanggy)_
 -   [`f9aa653`](https://github.com/stdlib-js/stdlib/commit/f9aa6535cea3c4a56fde6aba6914405fd25c0bff) - **test:** use approximate equality for native addon tests _(by Philipp Burckhardt)_
