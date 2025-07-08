@@ -409,7 +409,7 @@ static double lowerGammaSeries( const double a, const double z, const double ini
 }
 
 /**
-* Calculates normalized Q when a is an integer.
+* Calculates normalized `Q` when `a` is an integer.
 *
 * @param a       function parameter
 * @param x       function parameter
@@ -435,7 +435,7 @@ static double finiteGammaQ( const double a, const double x ) {
 }
 
 /**
-* Calculates normalized Q when a is a half-integer.
+* Calculates normalized `Q` when `a` is a half-integer.
 *
 * @param a       function parameter
 * @param x       function parameter
@@ -489,7 +489,7 @@ static double regularisedGammaPrefix( const double a, const double z ) {
 			// Use logs, so should be free of cancellation errors:
 			return stdlib_base_exp( ( a * stdlib_base_ln(z) ) - z - stdlib_base_gammaln( a ) );
 		}
-		// No danger of overflow as gamma(a) < 1/a for small a, so direct calculation:
+		// No danger of overflow as `gamma(a) < 1/a` for small `a`, so direct calculation:
 		return stdlib_base_pow( z, a ) * stdlib_base_exp( -z ) / stdlib_base_gamma( a );
 	}
 	if ( stdlib_base_abs(d*d*a) <= 100.0 && a > 150.0 ) {
@@ -513,8 +513,7 @@ static double regularisedGammaPrefix( const double a, const double z ) {
 				// Compute square root of the result and then square it:
 				sq = stdlib_base_pow( z / agh, a / 2.0 ) * stdlib_base_exp( amz / 2.0 );
 				prefix = sq * sq;
-			}
-			else if (
+			} else if (
 				stdlib_base_min(alz, amz)/4.0 > MIN_LN &&
 				stdlib_base_max(alz, amz)/4.0 < MAX_LN &&
 				z > a
@@ -523,19 +522,15 @@ static double regularisedGammaPrefix( const double a, const double z ) {
 				sq = stdlib_base_pow( z / agh, a / 4.0 ) * stdlib_base_exp( amz / 4.0 );
 				prefix = sq * sq;
 				prefix *= prefix;
-			}
-			else if (
+			} else if (
 				amza > MIN_LN &&
 				amza < MAX_LN
 			) {
 				prefix = stdlib_base_pow( (z * stdlib_base_exp(amza)) / agh, a );
-			}
-			else {
+			} else {
 				prefix = stdlib_base_exp( alz + amz );
 			}
-		}
-		else
-		{
+		} else {
 			prefix = stdlib_base_pow( z / agh, a ) * stdlib_base_exp( amz );
 		}
 	}
@@ -560,8 +555,7 @@ static double fullIGammaPrefix( const double a, const double z ) {
 			prefix = stdlib_base_pow( z, a ) * stdlib_base_exp( -z );
 		} else if ( a >= 1.0 ) {
 			prefix = stdlib_base_pow( z / stdlib_base_exp(z/a), a );
-		}
-		else {
+		} else {
 			prefix = stdlib_base_exp( alz - z );
 		}
 	}
@@ -717,7 +711,7 @@ static double tgammaILargeX( const double a, const double x ) {
 }
 
 /**
-* Evaluates a polynomial using double-precision floating-point arithmetic.
+* Evaluates a polynomial.
 *
 * ## Notes
 *
@@ -797,7 +791,7 @@ static double igammaTemmeLarge( const double a, const double x ) {
 * @param upper              boolean indicating if the function should return the upper tail of the incomplete gamma function
 * @return                   function value
 */
-double igammaFinal( const double a, const double x, const bool regularized, const bool upper ) {
+static double igammaFinal( const double a, const double x, const bool regularized, const bool upper ) {
 	bool optimisedInvert;
 	int32_t evalMethod;
 	double initValue;
@@ -829,7 +823,7 @@ double igammaFinal( const double a, const double x, const bool regularized, cons
 		invert = !invert;
 		evalMethod = 0;
 	} else if ( isHalfInt && x > 0.2 ) {
-		// Calculate Q via finite sum for half integer a:
+		// Calculate Q via finite sum for half integer `a`:
 		invert = !invert;
 		evalMethod = 1;
 	} else if ( x < SQRT_EPS && a > 1.0 ) {
@@ -957,14 +951,14 @@ double igammaFinal( const double a, const double x, const bool regularized, cons
 		}
 		break;
 	case 6:
-		// Since x is so small that P is necessarily very small too, use http://functions.wolfram.com/GammaBetaErf/GammaRegularized/06/01/05/01/01/
+		// Since `x` is so small that P is necessarily very small too, use http://functions.wolfram.com/GammaBetaErf/GammaRegularized/06/01/05/01/01/
 		result = ( regularized ) ?
 			stdlib_base_pow(x, a) / stdlib_base_gamma( a + 1.0 ) :
 			stdlib_base_pow( x, a ) / a;
 		result *= 1.0 - ( a * x / ( a + 1.0 ) );
 		break;
 	case 7:
-		// x is large, so compute Q:
+		// `x` is large, so compute Q:
 		result = ( regularized ) ?
 			regularisedGammaPrefix( a, x ) :
 			fullIGammaPrefix( a, x );
@@ -985,10 +979,11 @@ double igammaFinal( const double a, const double x, const bool regularized, cons
 }
 
 /**
-* Computes the incomplete gamma function. The upper tail is calculated via the modified Lentz's method for computing continued fractions, the lower tail using a power expansion.
+* Computes the incomplete gamma function.
 *
 * ## Notes
 *
+* -   The upper tail is calculated via the modified Lentz's method for computing continued fractions, the lower tail using a power expansion.
 * -   When `a >= FLOAT64_MAX_NTH_FACTORIAL` and computing the non-normalized incomplete gamma, result is rather hard to compute unless we use logs. There are really two options a) if `x` is a long way from `a` in value then we can reliably use methods 2 and 4 below in logarithmic form and go straight to the result. Otherwise we let the regularized gamma take the strain (the result is unlikely to underflow in the central region anyway) and combine with `lgamma` in the hopes that we get a finite result.
 *
 * @param x                  function parameter

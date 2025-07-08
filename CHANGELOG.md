@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-05)
+## Unreleased (2025-07-08)
 
 <section class="features">
 
@@ -538,6 +538,8 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`9b2a8b1`](https://github.com/stdlib-js/stdlib/commit/9b2a8b17e3107e9d9081c6c3be8b37ad30110d4a) - **chore:** clean-up descriptions and style _(by Athan Reines)_
+-   [`7ec74ef`](https://github.com/stdlib-js/stdlib/commit/7ec74ef82dc2c2442729e5ec84073d61d8501c84) - **docs:** avoid using JS strict equality operators in C comments _(by Philipp Burckhardt)_
 -   [`eaefc47`](https://github.com/stdlib-js/stdlib/commit/eaefc4753cd023d939761614cf95d7e0b2ecc03d) - **chore:** fix C lint errors [(#7562)](https://github.com/stdlib-js/stdlib/pull/7562) _(by zhanggy)_
 -   [`7cd4d71`](https://github.com/stdlib-js/stdlib/commit/7cd4d71ebc3d05ae6e55ddedec8ffd614c1f0a86) - **docs:** update examples _(by Athan Reines)_
 -   [`24c0051`](https://github.com/stdlib-js/stdlib/commit/24c0051a611e45011a152f0a27259bbf5dcd681b) - **docs:** update examples _(by Athan Reines)_
