@@ -539,6 +539,8 @@ A total of 54 issues were closed in this release:
 
 <details>
 
+-   [`632aa60`](https://github.com/stdlib-js/stdlib/commit/632aa60921ee23f6650026153c290b536e88aa07) - **docs:** fix copy & paste errors _(by Philipp Burckhardt)_
+-   [`5e5d583`](https://github.com/stdlib-js/stdlib/commit/5e5d583a5acece114b8e4f59d49aabd112eb2312) - **style:** remove leading spaces from JSDoc comment _(by Philipp Burckhardt)_
 -   [`f17f40a`](https://github.com/stdlib-js/stdlib/commit/f17f40aedbdfc363ea7e21bc3e2c9bf3eab00d0c) - **feat:** add `math/base/special/sech` [(#1716)](https://github.com/stdlib-js/stdlib/pull/1716) _(by Mihir Pandit, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`6f8be0f`](https://github.com/stdlib-js/stdlib/commit/6f8be0fdd5145056ad20a71258eff03467025e0c) - **refactor:** update `gammainc` implementation to follow Boost v1.88.0 [(#7619)](https://github.com/stdlib-js/stdlib/pull/7619) _(by Karan Anand)_
 -   [`351de2d`](https://github.com/stdlib-js/stdlib/commit/351de2dfc1513d128bcfce8bf095c24fb4cc18f2) - **docs:** fix description _(by Karan Anand)_
