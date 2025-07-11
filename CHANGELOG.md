@@ -538,6 +538,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`351de2d`](https://github.com/stdlib-js/stdlib/commit/351de2dfc1513d128bcfce8bf095c24fb4cc18f2) - **docs:** fix description _(by Karan Anand)_
 -   [`2a7a7b3`](https://github.com/stdlib-js/stdlib/commit/2a7a7b3e1d896959a83e2f0a43bba52b06078d86) - **docs:** update related packages sections [(#7616)](https://github.com/stdlib-js/stdlib/pull/7616) _(by stdlib-bot)_
 -   [`9b2a8b1`](https://github.com/stdlib-js/stdlib/commit/9b2a8b17e3107e9d9081c6c3be8b37ad30110d4a) - **chore:** clean-up descriptions and style _(by Athan Reines)_
 -   [`7ec74ef`](https://github.com/stdlib-js/stdlib/commit/7ec74ef82dc2c2442729e5ec84073d61d8501c84) - **docs:** avoid using JS strict equality operators in C comments _(by Philipp Burckhardt)_
