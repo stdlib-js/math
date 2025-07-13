@@ -131,6 +131,7 @@
 
 ### Bug Fixes
 
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 -   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - update include path
 -   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - update supported dtypes
 -   [`4523a49`](https://github.com/stdlib-js/stdlib/commit/4523a495d0320dc757e324e042767417d8acab26) - use correct include header
@@ -539,6 +540,7 @@ A total of 56 issues were closed in this release:
 
 <details>
 
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
 -   [`e6091be`](https://github.com/stdlib-js/stdlib/commit/e6091be01ef6f610ef45be2504961b7aed957010) - **chore:** fix EditorConfig lint errors [(#7641)](https://github.com/stdlib-js/stdlib/pull/7641) _(by Lalit Narayan Yadav)_
 -   [`b817e6c`](https://github.com/stdlib-js/stdlib/commit/b817e6ccbf3137dffbc8cbdcb0c6aeefa843e0fa) - **chore:** fix EditorConfig lint errors [(#7628)](https://github.com/stdlib-js/stdlib/pull/7628) _(by Atharva Patil, Athan Reines)_
 -   [`632aa60`](https://github.com/stdlib-js/stdlib/commit/632aa60921ee23f6650026153c290b536e88aa07) - **docs:** fix copy & paste errors _(by Philipp Burckhardt)_
