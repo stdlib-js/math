@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-13)
+## Unreleased (2025-07-14)
 
 <section class="features">
 
@@ -540,6 +540,10 @@ A total of 56 issues were closed in this release:
 
 <details>
 
+-   [`63895af`](https://github.com/stdlib-js/stdlib/commit/63895af79f949784344eb2332495a1877868f203) - **bench:** update random value generation _(by Karan Anand)_
+-   [`9bfc43a`](https://github.com/stdlib-js/stdlib/commit/9bfc43af9d72d11e40b5b1e6ea14d8d481e2857f) - **test:** remove redundant tolerance checks _(by Karan Anand)_
+-   [`e321e63`](https://github.com/stdlib-js/stdlib/commit/e321e6328843e1b95efa5513d0b750996e687ce4) - **test:** update test description for clarity _(by Karan Anand)_
+-   [`75f9ecd`](https://github.com/stdlib-js/stdlib/commit/75f9ecd35c6d4362e3c789aff3ffd4ed4fdde179) - **docs:** update function description to improve clarity _(by Karan Anand)_
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
 -   [`e6091be`](https://github.com/stdlib-js/stdlib/commit/e6091be01ef6f610ef45be2504961b7aed957010) - **chore:** fix EditorConfig lint errors [(#7641)](https://github.com/stdlib-js/stdlib/pull/7641) _(by Lalit Narayan Yadav)_
 -   [`b817e6c`](https://github.com/stdlib-js/stdlib/commit/b817e6ccbf3137dffbc8cbdcb0c6aeefa843e0fa) - **chore:** fix EditorConfig lint errors [(#7628)](https://github.com/stdlib-js/stdlib/pull/7628) _(by Atharva Patil, Athan Reines)_
