@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-20)
+## Unreleased (2025-07-21)
 
 <section class="features">
 
 ### Features
 
+-   [`90c26b3`](https://github.com/stdlib-js/stdlib/commit/90c26b302014d0fe9b8f125ff6aecd71325a46e4) - add `math/base/special/kernel-sincos` [(#5935)](https://github.com/stdlib-js/stdlib/pull/5935)
 -   [`1ab13f0`](https://github.com/stdlib-js/stdlib/commit/1ab13f006a3e09a9d7b8d44442f82d51008bbec5) - add `math/base/special/cpolarf` [(#7342)](https://github.com/stdlib-js/stdlib/pull/7342)
 -   [`4b11de2`](https://github.com/stdlib-js/stdlib/commit/4b11de29b7569476f3fdc62b164ab3b06daad1f6) - add `math/base/special/kernel-log1pf` [(#5411)](https://github.com/stdlib-js/stdlib/pull/5411)
 -   [`f17f40a`](https://github.com/stdlib-js/stdlib/commit/f17f40aedbdfc363ea7e21bc3e2c9bf3eab00d0c) - add `math/base/special/sech` [(#1716)](https://github.com/stdlib-js/stdlib/pull/1716)
@@ -542,6 +543,8 @@ A total of 59 issues were closed in this release:
 
 <details>
 
+-   [`95648a9`](https://github.com/stdlib-js/stdlib/commit/95648a99d72ad98c6d5bacd6e61b5d7bac5c8f16) - **docs:** remove duplicated complex in description _(by Philipp Burckhardt)_
+-   [`90c26b3`](https://github.com/stdlib-js/stdlib/commit/90c26b302014d0fe9b8f125ff6aecd71325a46e4) - **feat:** add `math/base/special/kernel-sincos` [(#5935)](https://github.com/stdlib-js/stdlib/pull/5935) _(by Karan Anand, Philipp Burckhardt)_
 -   [`e24c36e`](https://github.com/stdlib-js/stdlib/commit/e24c36eb2222eab37f0e9c0819c170cb600d8be7) - **chore:** add empty lines between code generation block comments _(by Philipp Burckhardt)_
 -   [`1ab13f0`](https://github.com/stdlib-js/stdlib/commit/1ab13f006a3e09a9d7b8d44442f82d51008bbec5) - **feat:** add `math/base/special/cpolarf` [(#7342)](https://github.com/stdlib-js/stdlib/pull/7342) _(by Karan Anand)_
 -   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
