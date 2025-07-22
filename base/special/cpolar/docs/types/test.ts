@@ -52,7 +52,7 @@ import cpolar = require( './index' );
 	cpolar.assign<number>( new Complex128( 5.0, 3.0 ), out, 1, 0 ); // $ExpectType Collection<number>
 }
 
-// The compiler throws an error if the `assign` method is provided a first argument which is not a number...
+// The compiler throws an error if the `assign` method is provided a first argument which is not a complex number...
 {
 	const out = [ 0.0, 0.0 ];
 
