@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-07-22)
 
 <section class="features">
 
@@ -543,6 +543,8 @@ A total of 59 issues were closed in this release:
 
 <details>
 
+-   [`d77cd4a`](https://github.com/stdlib-js/stdlib/commit/d77cd4ad27964c0ee26b0f9fc6434b74c7ef825a) - **docs:** fix comment _(by Athan Reines)_
+-   [`6b1f092`](https://github.com/stdlib-js/stdlib/commit/6b1f092e6558fe02988ffc03432f0f8804e01542) - **docs:** fix comment _(by Athan Reines)_
 -   [`95648a9`](https://github.com/stdlib-js/stdlib/commit/95648a99d72ad98c6d5bacd6e61b5d7bac5c8f16) - **docs:** remove duplicated complex in description _(by Philipp Burckhardt)_
 -   [`90c26b3`](https://github.com/stdlib-js/stdlib/commit/90c26b302014d0fe9b8f125ff6aecd71325a46e4) - **feat:** add `math/base/special/kernel-sincos` [(#5935)](https://github.com/stdlib-js/stdlib/pull/5935) _(by Karan Anand, Philipp Burckhardt)_
 -   [`e24c36e`](https://github.com/stdlib-js/stdlib/commit/e24c36eb2222eab37f0e9c0819c170cb600d8be7) - **chore:** add empty lines between code generation block comments _(by Philipp Burckhardt)_

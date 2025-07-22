@@ -27,7 +27,7 @@ import cpolarf = require( './index' );
 	cpolarf( new Complex64( 5.0, 3.0 ) ); // $ExpectType [number, number]
 }
 
-// The compiler throws an error if the function is provided a complex number...
+// The compiler throws an error if the function is not provided a complex number...
 {
 	cpolarf( true ); // $ExpectError
 	cpolarf( false ); // $ExpectError
