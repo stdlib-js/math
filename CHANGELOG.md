@@ -134,6 +134,7 @@
 
 ### Bug Fixes
 
+-   [`fc42d47`](https://github.com/stdlib-js/stdlib/commit/fc42d478aac742422f2a8073e168ecaa94c6ac35) - use a generic
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 -   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - update include path
 -   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - update supported dtypes
@@ -543,6 +544,9 @@ A total of 59 issues were closed in this release:
 
 <details>
 
+-   [`72d2b0d`](https://github.com/stdlib-js/stdlib/commit/72d2b0d6c62a55f377bc25ed6ed1994465e42559) - **chore:** fix C lint errors [(#7716)](https://github.com/stdlib-js/stdlib/pull/7716) _(by GeoDaoyu)_
+-   [`b093975`](https://github.com/stdlib-js/stdlib/commit/b09397522cc67d6d7baed08649b0f9fa52b96550) - **docs:** fix types and remove empty line _(by Athan Reines)_
+-   [`fc42d47`](https://github.com/stdlib-js/stdlib/commit/fc42d478aac742422f2a8073e168ecaa94c6ac35) - **fix:** use a generic _(by Athan Reines)_
 -   [`083a2c7`](https://github.com/stdlib-js/stdlib/commit/083a2c747659bb31bb7e6b6d715a7f2053d0057f) - **docs:** update examples _(by Athan Reines)_
 -   [`d9bfa8a`](https://github.com/stdlib-js/stdlib/commit/d9bfa8a430500c9b13a2e8266c826dee40dab203) - **docs:** fix comment _(by Athan Reines)_
 -   [`9084ea7`](https://github.com/stdlib-js/stdlib/commit/9084ea7fd0e8f5dadec684f2b80bc796b8814cb7) - **docs:** fix comment _(by Athan Reines)_
@@ -1312,7 +1316,7 @@ A total of 59 issues were closed in this release:
 
 ### Contributors
 
-A total of 42 people contributed to this release. Thank you to the following contributors:
+A total of 43 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anmol Sah
@@ -1324,6 +1328,7 @@ A total of 42 people contributed to this release. Thank you to the following con
 -   Dipjyoti Das
 -   GK Bishnoi
 -   Gautam sharma
+-   GeoDaoyu
 -   Girish Garg
 -   Gunj Joshi
 -   Gururaj Gurram
