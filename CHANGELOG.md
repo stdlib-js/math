@@ -544,6 +544,10 @@ A total of 59 issues were closed in this release:
 
 <details>
 
+-   [`5e6e13b`](https://github.com/stdlib-js/stdlib/commit/5e6e13ba6193f5c392c24c247c94fbf7d82c647f) - **bench:** use `random_uniform` _(by Karan Anand)_
+-   [`86f58fc`](https://github.com/stdlib-js/stdlib/commit/86f58fc94653e5d7bfef5ec5224cac73814d6738) - **refactor:** update C examples for consistency _(by Karan Anand)_
+-   [`4e65259`](https://github.com/stdlib-js/stdlib/commit/4e65259090fc4e595ca9d5c6fadac83de3904d8f) - **test:** update test messages and use `ulpdiff` for comparison _(by Karan Anand)_
+-   [`0832f27`](https://github.com/stdlib-js/stdlib/commit/0832f272cb969b3ce37e9668a336fb70248bae4a) - **docs:** update notes section _(by Karan Anand)_
 -   [`72d2b0d`](https://github.com/stdlib-js/stdlib/commit/72d2b0d6c62a55f377bc25ed6ed1994465e42559) - **chore:** fix C lint errors [(#7716)](https://github.com/stdlib-js/stdlib/pull/7716) _(by GeoDaoyu)_
 -   [`b093975`](https://github.com/stdlib-js/stdlib/commit/b09397522cc67d6d7baed08649b0f9fa52b96550) - **docs:** fix types and remove empty line _(by Athan Reines)_
 -   [`fc42d47`](https://github.com/stdlib-js/stdlib/commit/fc42d478aac742422f2a8073e168ecaa94c6ac35) - **fix:** use a generic _(by Athan Reines)_
