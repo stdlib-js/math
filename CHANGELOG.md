@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b0cd1b9`](https://github.com/stdlib-js/stdlib/commit/b0cd1b9163c383ed2175b262ab2e3618a2617c86) - add `math/base/special/cospif` [(#7726)](https://github.com/stdlib-js/stdlib/pull/7726)
 -   [`c4e5266`](https://github.com/stdlib-js/stdlib/commit/c4e526652f448066f9374128338bab0728aee2a6) - add `math/base/special/sinpif` [(#7720)](https://github.com/stdlib-js/stdlib/pull/7720)
 -   [`90c26b3`](https://github.com/stdlib-js/stdlib/commit/90c26b302014d0fe9b8f125ff6aecd71325a46e4) - add `math/base/special/kernel-sincos` [(#5935)](https://github.com/stdlib-js/stdlib/pull/5935)
 -   [`1ab13f0`](https://github.com/stdlib-js/stdlib/commit/1ab13f006a3e09a9d7b8d44442f82d51008bbec5) - add `math/base/special/cpolarf` [(#7342)](https://github.com/stdlib-js/stdlib/pull/7342)
@@ -545,6 +546,7 @@ A total of 59 issues were closed in this release:
 
 <details>
 
+-   [`b0cd1b9`](https://github.com/stdlib-js/stdlib/commit/b0cd1b9163c383ed2175b262ab2e3618a2617c86) - **feat:** add `math/base/special/cospif` [(#7726)](https://github.com/stdlib-js/stdlib/pull/7726) _(by Karan Anand, Philipp Burckhardt)_
 -   [`c4e5266`](https://github.com/stdlib-js/stdlib/commit/c4e526652f448066f9374128338bab0728aee2a6) - **feat:** add `math/base/special/sinpif` [(#7720)](https://github.com/stdlib-js/stdlib/pull/7720) _(by Karan Anand, Philipp Burckhardt)_
 -   [`5e6e13b`](https://github.com/stdlib-js/stdlib/commit/5e6e13ba6193f5c392c24c247c94fbf7d82c647f) - **bench:** use `random_uniform` _(by Karan Anand)_
 -   [`86f58fc`](https://github.com/stdlib-js/stdlib/commit/86f58fc94653e5d7bfef5ec5224cac73814d6738) - **refactor:** update C examples for consistency _(by Karan Anand)_
