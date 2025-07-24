@@ -546,6 +546,7 @@ A total of 59 issues were closed in this release:
 
 <details>
 
+-   [`8f7d735`](https://github.com/stdlib-js/stdlib/commit/8f7d73543738d3f186c4b404019873c0a5113550) - **bench:** fix parameter name _(by Philipp Burckhardt)_
 -   [`b0cd1b9`](https://github.com/stdlib-js/stdlib/commit/b0cd1b9163c383ed2175b262ab2e3618a2617c86) - **feat:** add `math/base/special/cospif` [(#7726)](https://github.com/stdlib-js/stdlib/pull/7726) _(by Karan Anand, Philipp Burckhardt)_
 -   [`c4e5266`](https://github.com/stdlib-js/stdlib/commit/c4e526652f448066f9374128338bab0728aee2a6) - **feat:** add `math/base/special/sinpif` [(#7720)](https://github.com/stdlib-js/stdlib/pull/7720) _(by Karan Anand, Philipp Burckhardt)_
 -   [`5e6e13b`](https://github.com/stdlib-js/stdlib/commit/5e6e13ba6193f5c392c24c247c94fbf7d82c647f) - **bench:** use `random_uniform` _(by Karan Anand)_
