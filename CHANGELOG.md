@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-22)
+## Unreleased (2025-07-24)
 
 <section class="features">
 
 ### Features
 
+-   [`c4e5266`](https://github.com/stdlib-js/stdlib/commit/c4e526652f448066f9374128338bab0728aee2a6) - add `math/base/special/sinpif` [(#7720)](https://github.com/stdlib-js/stdlib/pull/7720)
 -   [`90c26b3`](https://github.com/stdlib-js/stdlib/commit/90c26b302014d0fe9b8f125ff6aecd71325a46e4) - add `math/base/special/kernel-sincos` [(#5935)](https://github.com/stdlib-js/stdlib/pull/5935)
 -   [`1ab13f0`](https://github.com/stdlib-js/stdlib/commit/1ab13f006a3e09a9d7b8d44442f82d51008bbec5) - add `math/base/special/cpolarf` [(#7342)](https://github.com/stdlib-js/stdlib/pull/7342)
 -   [`4b11de2`](https://github.com/stdlib-js/stdlib/commit/4b11de29b7569476f3fdc62b164ab3b06daad1f6) - add `math/base/special/kernel-log1pf` [(#5411)](https://github.com/stdlib-js/stdlib/pull/5411)
@@ -544,6 +545,7 @@ A total of 59 issues were closed in this release:
 
 <details>
 
+-   [`c4e5266`](https://github.com/stdlib-js/stdlib/commit/c4e526652f448066f9374128338bab0728aee2a6) - **feat:** add `math/base/special/sinpif` [(#7720)](https://github.com/stdlib-js/stdlib/pull/7720) _(by Karan Anand, Philipp Burckhardt)_
 -   [`5e6e13b`](https://github.com/stdlib-js/stdlib/commit/5e6e13ba6193f5c392c24c247c94fbf7d82c647f) - **bench:** use `random_uniform` _(by Karan Anand)_
 -   [`86f58fc`](https://github.com/stdlib-js/stdlib/commit/86f58fc94653e5d7bfef5ec5224cac73814d6738) - **refactor:** update C examples for consistency _(by Karan Anand)_
 -   [`4e65259`](https://github.com/stdlib-js/stdlib/commit/4e65259090fc4e595ca9d5c6fadac83de3904d8f) - **test:** update test messages and use `ulpdiff` for comparison _(by Karan Anand)_
