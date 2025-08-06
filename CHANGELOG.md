@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8daa815`](https://github.com/stdlib-js/stdlib/commit/8daa815d637cdf46a62e76e75a2877c85a74d98d) - add `math/base/special/trigammaf` [(#7749)](https://github.com/stdlib-js/stdlib/pull/7749)
 -   [`ff0a81e`](https://github.com/stdlib-js/stdlib/commit/ff0a81e78f7dc2fdee849e3bbfa09f6575951c08) - add `math/base/special/absgammalnf` [(#7805)](https://github.com/stdlib-js/stdlib/pull/7805)
 -   [`0ef93ee`](https://github.com/stdlib-js/stdlib/commit/0ef93eecb339d588056ed4495ee5d03714c4ee06) - add `math/base/special/cosdf` [(#7809)](https://github.com/stdlib-js/stdlib/pull/7809)
 -   [`a61bc08`](https://github.com/stdlib-js/stdlib/commit/a61bc0805bfff8bb796d49bc9fa01b1e98d5226a) - add `math/base/special/sincf` [(#7741)](https://github.com/stdlib-js/stdlib/pull/7741)
@@ -549,6 +550,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`8daa815`](https://github.com/stdlib-js/stdlib/commit/8daa815d637cdf46a62e76e75a2877c85a74d98d) - **feat:** add `math/base/special/trigammaf` [(#7749)](https://github.com/stdlib-js/stdlib/pull/7749) _(by Karan Anand)_
 -   [`ff0a81e`](https://github.com/stdlib-js/stdlib/commit/ff0a81e78f7dc2fdee849e3bbfa09f6575951c08) - **feat:** add `math/base/special/absgammalnf` [(#7805)](https://github.com/stdlib-js/stdlib/pull/7805) _(by Karan Anand)_
 -   [`0ef93ee`](https://github.com/stdlib-js/stdlib/commit/0ef93eecb339d588056ed4495ee5d03714c4ee06) - **feat:** add `math/base/special/cosdf` [(#7809)](https://github.com/stdlib-js/stdlib/pull/7809) _(by Karan Anand, Philipp Burckhardt)_
 -   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
