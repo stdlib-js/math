@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-03)
+## Unreleased (2025-08-06)
 
 <section class="features">
 
 ### Features
 
+-   [`0ef93ee`](https://github.com/stdlib-js/stdlib/commit/0ef93eecb339d588056ed4495ee5d03714c4ee06) - add `math/base/special/cosdf` [(#7809)](https://github.com/stdlib-js/stdlib/pull/7809)
 -   [`a61bc08`](https://github.com/stdlib-js/stdlib/commit/a61bc0805bfff8bb796d49bc9fa01b1e98d5226a) - add `math/base/special/sincf` [(#7741)](https://github.com/stdlib-js/stdlib/pull/7741)
 -   [`b0cd1b9`](https://github.com/stdlib-js/stdlib/commit/b0cd1b9163c383ed2175b262ab2e3618a2617c86) - add `math/base/special/cospif` [(#7726)](https://github.com/stdlib-js/stdlib/pull/7726)
 -   [`c4e5266`](https://github.com/stdlib-js/stdlib/commit/c4e526652f448066f9374128338bab0728aee2a6) - add `math/base/special/sinpif` [(#7720)](https://github.com/stdlib-js/stdlib/pull/7720)
@@ -547,6 +548,11 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`0ef93ee`](https://github.com/stdlib-js/stdlib/commit/0ef93eecb339d588056ed4495ee5d03714c4ee06) - **feat:** add `math/base/special/cosdf` [(#7809)](https://github.com/stdlib-js/stdlib/pull/7809) _(by Karan Anand, Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`b20b024`](https://github.com/stdlib-js/stdlib/commit/b20b0247ea520b8f715d41851cb7b1fbfdf2122d) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`153c9c1`](https://github.com/stdlib-js/stdlib/commit/153c9c19e7e5bc138e18500cea598365d6df55d8) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`2c927e4`](https://github.com/stdlib-js/stdlib/commit/2c927e403da0ed8841b6ce19296262a88c9856e0) - **docs:** fix example code in TS declaration files _(by Philipp Burckhardt)_
 -   [`f764585`](https://github.com/stdlib-js/stdlib/commit/f764585ba248d15ad117131f623afb95f9cb3ea7) - **chore:** fix EditorConfig lint errors [(#7790)](https://github.com/stdlib-js/stdlib/pull/7790) _(by Lalit Narayan Yadav)_
 -   [`a61bc08`](https://github.com/stdlib-js/stdlib/commit/a61bc0805bfff8bb796d49bc9fa01b1e98d5226a) - **feat:** add `math/base/special/sincf` [(#7741)](https://github.com/stdlib-js/stdlib/pull/7741) _(by Karan Anand)_
 -   [`8f7d735`](https://github.com/stdlib-js/stdlib/commit/8f7d73543738d3f186c4b404019873c0a5113550) - **bench:** fix parameter name _(by Philipp Burckhardt)_
