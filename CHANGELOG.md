@@ -550,6 +550,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`b44815f`](https://github.com/stdlib-js/stdlib/commit/b44815f50771a1a4954a090a1ef6e4b543d549bf) - **chore:** remove irrelevant keywords _(by Karan Anand)_
 -   [`8daa815`](https://github.com/stdlib-js/stdlib/commit/8daa815d637cdf46a62e76e75a2877c85a74d98d) - **feat:** add `math/base/special/trigammaf` [(#7749)](https://github.com/stdlib-js/stdlib/pull/7749) _(by Karan Anand)_
 -   [`ff0a81e`](https://github.com/stdlib-js/stdlib/commit/ff0a81e78f7dc2fdee849e3bbfa09f6575951c08) - **feat:** add `math/base/special/absgammalnf` [(#7805)](https://github.com/stdlib-js/stdlib/pull/7805) _(by Karan Anand)_
 -   [`0ef93ee`](https://github.com/stdlib-js/stdlib/commit/0ef93eecb339d588056ed4495ee5d03714c4ee06) - **feat:** add `math/base/special/cosdf` [(#7809)](https://github.com/stdlib-js/stdlib/pull/7809) _(by Karan Anand, Philipp Burckhardt)_
