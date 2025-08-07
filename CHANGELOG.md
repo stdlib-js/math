@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-06)
+## Unreleased (2025-08-07)
 
 <section class="features">
 
 ### Features
 
+-   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - add `math/base/assert/is-negative-integerf`
 -   [`324d15c`](https://github.com/stdlib-js/stdlib/commit/324d15c2f9979758eb04a7730e1a6bab88581ec6) - add `math/base/special/cotf` [(#7707)](https://github.com/stdlib-js/stdlib/pull/7707)
 -   [`0a59c83`](https://github.com/stdlib-js/stdlib/commit/0a59c8353dacce2f3b37c9e241ad95565105faf5) - add `math/base/special/sindf` [(#7808)](https://github.com/stdlib-js/stdlib/pull/7808)
 -   [`8daa815`](https://github.com/stdlib-js/stdlib/commit/8daa815d637cdf46a62e76e75a2877c85a74d98d) - add `math/base/special/trigammaf` [(#7749)](https://github.com/stdlib-js/stdlib/pull/7749)
@@ -552,6 +553,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - **feat:** add `math/base/assert/is-negative-integerf` _(by Philipp Burckhardt)_
 -   [`324d15c`](https://github.com/stdlib-js/stdlib/commit/324d15c2f9979758eb04a7730e1a6bab88581ec6) - **feat:** add `math/base/special/cotf` [(#7707)](https://github.com/stdlib-js/stdlib/pull/7707) _(by Karan Anand)_
 -   [`0a59c83`](https://github.com/stdlib-js/stdlib/commit/0a59c8353dacce2f3b37c9e241ad95565105faf5) - **feat:** add `math/base/special/sindf` [(#7808)](https://github.com/stdlib-js/stdlib/pull/7808) _(by Karan Anand, Philipp Burckhardt)_
 -   [`b44815f`](https://github.com/stdlib-js/stdlib/commit/b44815f50771a1a4954a090a1ef6e4b543d549bf) - **chore:** remove irrelevant keywords _(by Karan Anand)_
