@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3a11e54`](https://github.com/stdlib-js/stdlib/commit/3a11e54406e70da70cc316d5fa724ac570853815) - add `math/base/special/factoriallnf` [(#7817)](https://github.com/stdlib-js/stdlib/pull/7817)
 -   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - add `math/base/assert/is-negative-integerf`
 -   [`324d15c`](https://github.com/stdlib-js/stdlib/commit/324d15c2f9979758eb04a7730e1a6bab88581ec6) - add `math/base/special/cotf` [(#7707)](https://github.com/stdlib-js/stdlib/pull/7707)
 -   [`0a59c83`](https://github.com/stdlib-js/stdlib/commit/0a59c8353dacce2f3b37c9e241ad95565105faf5) - add `math/base/special/sindf` [(#7808)](https://github.com/stdlib-js/stdlib/pull/7808)
@@ -553,6 +554,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`3a11e54`](https://github.com/stdlib-js/stdlib/commit/3a11e54406e70da70cc316d5fa724ac570853815) - **feat:** add `math/base/special/factoriallnf` [(#7817)](https://github.com/stdlib-js/stdlib/pull/7817) _(by Karan Anand)_
 -   [`0918c66`](https://github.com/stdlib-js/stdlib/commit/0918c6689d3193257d47a9cf736083e8d8e301e0) - **chore:** fix copyright years _(by Philipp Burckhardt)_
 -   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - **feat:** add `math/base/assert/is-negative-integerf` _(by Philipp Burckhardt)_
 -   [`324d15c`](https://github.com/stdlib-js/stdlib/commit/324d15c2f9979758eb04a7730e1a6bab88581ec6) - **feat:** add `math/base/special/cotf` [(#7707)](https://github.com/stdlib-js/stdlib/pull/7707) _(by Karan Anand)_
