@@ -145,6 +145,7 @@
 
 ### Bug Fixes
 
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - add missing includes
 -   [`fc42d47`](https://github.com/stdlib-js/stdlib/commit/fc42d478aac742422f2a8073e168ecaa94c6ac35) - use a generic
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 -   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - update include path
@@ -555,6 +556,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
 -   [`67c0579`](https://github.com/stdlib-js/stdlib/commit/67c0579837177b247e22e9b6a0506d3a13105df2) - **feat:** add `math/base/special/tandf` [(#7832)](https://github.com/stdlib-js/stdlib/pull/7832) _(by Karan Anand, Philipp Burckhardt)_
 -   [`d54c3a0`](https://github.com/stdlib-js/stdlib/commit/d54c3a018fd8ed4f64472cff6417e90d94f9ec46) - **docs:** update require paths _(by Athan Reines)_
 -   [`696112a`](https://github.com/stdlib-js/stdlib/commit/696112a792072a1369c4e1a8c151f02373972061) - **docs:** fix descriptions _(by Athan Reines)_
