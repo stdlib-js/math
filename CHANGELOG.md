@@ -554,6 +554,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`d54c3a0`](https://github.com/stdlib-js/stdlib/commit/d54c3a018fd8ed4f64472cff6417e90d94f9ec46) - **docs:** update require paths _(by Athan Reines)_
 -   [`696112a`](https://github.com/stdlib-js/stdlib/commit/696112a792072a1369c4e1a8c151f02373972061) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`3a11e54`](https://github.com/stdlib-js/stdlib/commit/3a11e54406e70da70cc316d5fa724ac570853815) - **feat:** add `math/base/special/factoriallnf` [(#7817)](https://github.com/stdlib-js/stdlib/pull/7817) _(by Karan Anand)_
 -   [`0918c66`](https://github.com/stdlib-js/stdlib/commit/0918c6689d3193257d47a9cf736083e8d8e301e0) - **chore:** fix copyright years _(by Philipp Burckhardt)_
