@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-07)
+## Unreleased (2025-08-08)
 
 <section class="features">
 
@@ -554,6 +554,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`696112a`](https://github.com/stdlib-js/stdlib/commit/696112a792072a1369c4e1a8c151f02373972061) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`3a11e54`](https://github.com/stdlib-js/stdlib/commit/3a11e54406e70da70cc316d5fa724ac570853815) - **feat:** add `math/base/special/factoriallnf` [(#7817)](https://github.com/stdlib-js/stdlib/pull/7817) _(by Karan Anand)_
 -   [`0918c66`](https://github.com/stdlib-js/stdlib/commit/0918c6689d3193257d47a9cf736083e8d8e301e0) - **chore:** fix copyright years _(by Philipp Burckhardt)_
 -   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - **feat:** add `math/base/assert/is-negative-integerf` _(by Philipp Burckhardt)_
