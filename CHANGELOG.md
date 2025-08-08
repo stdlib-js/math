@@ -556,6 +556,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`735605d`](https://github.com/stdlib-js/stdlib/commit/735605dda2b657b5d2e6dee66de28a425d5655f8) - **test:** ensure consistent tests _(by Athan Reines)_
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
 -   [`67c0579`](https://github.com/stdlib-js/stdlib/commit/67c0579837177b247e22e9b6a0506d3a13105df2) - **feat:** add `math/base/special/tandf` [(#7832)](https://github.com/stdlib-js/stdlib/pull/7832) _(by Karan Anand, Philipp Burckhardt)_
 -   [`d54c3a0`](https://github.com/stdlib-js/stdlib/commit/d54c3a018fd8ed4f64472cff6417e90d94f9ec46) - **docs:** update require paths _(by Athan Reines)_
