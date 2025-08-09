@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-08)
+## Unreleased (2025-08-09)
 
 <section class="features">
 
@@ -556,6 +556,8 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`ede3d64`](https://github.com/stdlib-js/stdlib/commit/ede3d64bb40fb201ad0a6f7e26da23e770e67f71) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`0dfa69e`](https://github.com/stdlib-js/stdlib/commit/0dfa69ee7fdc0309bae2b9381cce7230ce69258f) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`735605d`](https://github.com/stdlib-js/stdlib/commit/735605dda2b657b5d2e6dee66de28a425d5655f8) - **test:** ensure consistent tests _(by Athan Reines)_
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
 -   [`67c0579`](https://github.com/stdlib-js/stdlib/commit/67c0579837177b247e22e9b6a0506d3a13105df2) - **feat:** add `math/base/special/tandf` [(#7832)](https://github.com/stdlib-js/stdlib/pull/7832) _(by Karan Anand, Philipp Burckhardt)_

@@ -20,7 +20,7 @@ limitations under the License.
 
 # tandf
 
-> Computes the [tangent][trigonometric-functions] of a single-precision floating-point number (in degrees).
+> Compute the [tangent][trigonometric-functions] of a single-precision floating-point number (in degrees).
 
 <section class="intro">
 
