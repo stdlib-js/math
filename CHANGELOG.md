@@ -557,6 +557,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`d2f5415`](https://github.com/stdlib-js/stdlib/commit/d2f541532510756491807bf4a22bb091b234aaa7) - **style:** remove extra trailing empty line _(by Philipp Burckhardt)_
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - **feat:** add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800) _(by Gunj Joshi, Athan Reines)_
 -   [`ede3d64`](https://github.com/stdlib-js/stdlib/commit/ede3d64bb40fb201ad0a6f7e26da23e770e67f71) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`0dfa69e`](https://github.com/stdlib-js/stdlib/commit/0dfa69ee7fdc0309bae2b9381cce7230ce69258f) - **docs:** fix descriptions _(by Athan Reines)_

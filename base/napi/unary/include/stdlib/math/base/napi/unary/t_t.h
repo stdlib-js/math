@@ -82,4 +82,3 @@ napi_value stdlib_math_base_napi_t_t( napi_env env, napi_callback_info info, uin
 #endif
 
 #endif // !STDLIB_MATH_BASE_NAPI_UNARY_T_T_H
-
