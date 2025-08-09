@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800)
 -   [`67c0579`](https://github.com/stdlib-js/stdlib/commit/67c0579837177b247e22e9b6a0506d3a13105df2) - add `math/base/special/tandf` [(#7832)](https://github.com/stdlib-js/stdlib/pull/7832)
 -   [`3a11e54`](https://github.com/stdlib-js/stdlib/commit/3a11e54406e70da70cc316d5fa724ac570853815) - add `math/base/special/factoriallnf` [(#7817)](https://github.com/stdlib-js/stdlib/pull/7817)
 -   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - add `math/base/assert/is-negative-integerf`
@@ -556,6 +557,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - **feat:** add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800) _(by Gunj Joshi, Athan Reines)_
 -   [`ede3d64`](https://github.com/stdlib-js/stdlib/commit/ede3d64bb40fb201ad0a6f7e26da23e770e67f71) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`0dfa69e`](https://github.com/stdlib-js/stdlib/commit/0dfa69ee7fdc0309bae2b9381cce7230ce69258f) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`735605d`](https://github.com/stdlib-js/stdlib/commit/735605dda2b657b5d2e6dee66de28a425d5655f8) - **test:** ensure consistent tests _(by Athan Reines)_
