@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-09)
+## Unreleased (2025-08-12)
 
 <section class="features">
 
 ### Features
 
+-   [`419c0fa`](https://github.com/stdlib-js/stdlib/commit/419c0faaa42582379f558f83aa8eaefad961a615) - add `math/base/special/kernel-sincosf` [(#7806)](https://github.com/stdlib-js/stdlib/pull/7806)
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800)
 -   [`67c0579`](https://github.com/stdlib-js/stdlib/commit/67c0579837177b247e22e9b6a0506d3a13105df2) - add `math/base/special/tandf` [(#7832)](https://github.com/stdlib-js/stdlib/pull/7832)
 -   [`3a11e54`](https://github.com/stdlib-js/stdlib/commit/3a11e54406e70da70cc316d5fa724ac570853815) - add `math/base/special/factoriallnf` [(#7817)](https://github.com/stdlib-js/stdlib/pull/7817)
@@ -557,6 +558,9 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`4d66c10`](https://github.com/stdlib-js/stdlib/commit/4d66c106cb9a603f1196fe6f2a8e9bb688157a45) - **docs:** fix example _(by Athan Reines)_
+-   [`419c0fa`](https://github.com/stdlib-js/stdlib/commit/419c0faaa42582379f558f83aa8eaefad961a615) - **feat:** add `math/base/special/kernel-sincosf` [(#7806)](https://github.com/stdlib-js/stdlib/pull/7806) _(by Karan Anand)_
 -   [`2cffc9d`](https://github.com/stdlib-js/stdlib/commit/2cffc9d24250e42639db3f11cf49bd4e4bc174bf) - **test:** correct test assertion messages _(by Philipp Burckhardt)_
 -   [`d2f5415`](https://github.com/stdlib-js/stdlib/commit/d2f541532510756491807bf4a22bb091b234aaa7) - **style:** remove extra trailing empty line _(by Philipp Burckhardt)_
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - **feat:** add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800) _(by Gunj Joshi, Athan Reines)_
