@@ -559,6 +559,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`309bdf5`](https://github.com/stdlib-js/stdlib/commit/309bdf5ba4daa12b185bfe0684622ea51adc1482) - **test:** use `ulpdiff` for floating-point comparisons [(#7871)](https://github.com/stdlib-js/stdlib/pull/7871) _(by Karan Anand)_
 -   [`120567c`](https://github.com/stdlib-js/stdlib/commit/120567ce80646050b9e288ff434639110c58da75) - **test:** use `ulpdiff` for floating-point comparisons [(#7869)](https://github.com/stdlib-js/stdlib/pull/7869) _(by Karan Anand)_
 -   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - **feat:** add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860) _(by Gunj Joshi)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
