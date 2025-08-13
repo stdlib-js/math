@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-08-13)
 
 <section class="features">
 
 ### Features
 
+-   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860)
 -   [`419c0fa`](https://github.com/stdlib-js/stdlib/commit/419c0faaa42582379f558f83aa8eaefad961a615) - add `math/base/special/kernel-sincosf` [(#7806)](https://github.com/stdlib-js/stdlib/pull/7806)
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800)
 -   [`67c0579`](https://github.com/stdlib-js/stdlib/commit/67c0579837177b247e22e9b6a0506d3a13105df2) - add `math/base/special/tandf` [(#7832)](https://github.com/stdlib-js/stdlib/pull/7832)
@@ -558,6 +559,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - **feat:** add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860) _(by Gunj Joshi)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`4d66c10`](https://github.com/stdlib-js/stdlib/commit/4d66c106cb9a603f1196fe6f2a8e9bb688157a45) - **docs:** fix example _(by Athan Reines)_
 -   [`419c0fa`](https://github.com/stdlib-js/stdlib/commit/419c0faaa42582379f558f83aa8eaefad961a615) - **feat:** add `math/base/special/kernel-sincosf` [(#7806)](https://github.com/stdlib-js/stdlib/pull/7806) _(by Karan Anand)_
