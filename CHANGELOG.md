@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-13)
+## Unreleased (2025-08-14)
 
 <section class="features">
 
 ### Features
 
+-   [`ecf1c08`](https://github.com/stdlib-js/stdlib/commit/ecf1c08f8b3eb30903f13214a191ffa34747f2f9) - add `math/base/special/cscdf` [(#7868)](https://github.com/stdlib-js/stdlib/pull/7868)
 -   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860)
 -   [`419c0fa`](https://github.com/stdlib-js/stdlib/commit/419c0faaa42582379f558f83aa8eaefad961a615) - add `math/base/special/kernel-sincosf` [(#7806)](https://github.com/stdlib-js/stdlib/pull/7806)
 -   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800)
@@ -559,6 +560,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`ecf1c08`](https://github.com/stdlib-js/stdlib/commit/ecf1c08f8b3eb30903f13214a191ffa34747f2f9) - **feat:** add `math/base/special/cscdf` [(#7868)](https://github.com/stdlib-js/stdlib/pull/7868) _(by Karan Anand, Philipp Burckhardt)_
 -   [`309bdf5`](https://github.com/stdlib-js/stdlib/commit/309bdf5ba4daa12b185bfe0684622ea51adc1482) - **test:** use `ulpdiff` for floating-point comparisons [(#7871)](https://github.com/stdlib-js/stdlib/pull/7871) _(by Karan Anand)_
 -   [`120567c`](https://github.com/stdlib-js/stdlib/commit/120567ce80646050b9e288ff434639110c58da75) - **test:** use `ulpdiff` for floating-point comparisons [(#7869)](https://github.com/stdlib-js/stdlib/pull/7869) _(by Karan Anand)_
 -   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - **feat:** add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860) _(by Gunj Joshi)_
