@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-15)
+## Unreleased (2025-08-16)
 
 <section class="features">
 
@@ -149,6 +149,7 @@
 
 ### Bug Fixes
 
+-   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - correct argument order for iid_d in `math/base/napi/ternary` NAPI function
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - add missing includes
 -   [`fc42d47`](https://github.com/stdlib-js/stdlib/commit/fc42d478aac742422f2a8073e168ecaa94c6ac35) - use a generic
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
@@ -560,6 +561,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - **fix:** correct argument order for iid_d in `math/base/napi/ternary` NAPI function _(by Philipp Burckhardt)_
 -   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
