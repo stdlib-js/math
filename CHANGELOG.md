@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`19e3a41`](https://github.com/stdlib-js/stdlib/commit/19e3a4112a1c19d914f4442d0edf8399c7f60a99) - add `math/base/special/cotdf` [(#7897)](https://github.com/stdlib-js/stdlib/pull/7897)
 -   [`246c854`](https://github.com/stdlib-js/stdlib/commit/246c854ca236d8d6801376db27397dd79581aae4) - add `math/base/special/secdf` [(#7893)](https://github.com/stdlib-js/stdlib/pull/7893)
 -   [`ecf1c08`](https://github.com/stdlib-js/stdlib/commit/ecf1c08f8b3eb30903f13214a191ffa34747f2f9) - add `math/base/special/cscdf` [(#7868)](https://github.com/stdlib-js/stdlib/pull/7868)
 -   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860)
@@ -562,6 +563,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`19e3a41`](https://github.com/stdlib-js/stdlib/commit/19e3a4112a1c19d914f4442d0edf8399c7f60a99) - **feat:** add `math/base/special/cotdf` [(#7897)](https://github.com/stdlib-js/stdlib/pull/7897) _(by Karan Anand)_
 -   [`246c854`](https://github.com/stdlib-js/stdlib/commit/246c854ca236d8d6801376db27397dd79581aae4) - **feat:** add `math/base/special/secdf` [(#7893)](https://github.com/stdlib-js/stdlib/pull/7893) _(by Karan Anand)_
 -   [`d8e9031`](https://github.com/stdlib-js/stdlib/commit/d8e9031570c4c668b4503774632964f1d8ab42c6) - **test:** remove `ulpdiff` dependency _(by Karan Anand)_
 -   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - **fix:** correct argument order for iid_d in `math/base/napi/ternary` NAPI function _(by Philipp Burckhardt)_
