@@ -122,6 +122,15 @@ setReadOnly( ns, 'lucaspoly', require( './../../../base/tools/lucaspoly' ) );
 setReadOnly( ns, 'normhermitepoly', require( './../../../base/tools/normhermitepoly' ) );
 
 /**
+* @name normhermitepolyf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/tools/normhermitepolyf}
+*/
+setReadOnly( ns, 'normhermitepolyf', require( './../../../base/tools/normhermitepolyf' ) );
+
+/**
 * @name sumSeries
 * @memberof ns
 * @readonly

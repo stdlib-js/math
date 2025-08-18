@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-17)
+## Unreleased (2025-08-18)
 
 <section class="features">
 
 ### Features
 
+-   [`1248b56`](https://github.com/stdlib-js/stdlib/commit/1248b5625cf60b24063081ccbf5c34a85f951fa3) - add `normhermitepolyf` to namespace
 -   [`19e3a41`](https://github.com/stdlib-js/stdlib/commit/19e3a4112a1c19d914f4442d0edf8399c7f60a99) - add `math/base/special/cotdf` [(#7897)](https://github.com/stdlib-js/stdlib/pull/7897)
 -   [`246c854`](https://github.com/stdlib-js/stdlib/commit/246c854ca236d8d6801376db27397dd79581aae4) - add `math/base/special/secdf` [(#7893)](https://github.com/stdlib-js/stdlib/pull/7893)
 -   [`ecf1c08`](https://github.com/stdlib-js/stdlib/commit/ecf1c08f8b3eb30903f13214a191ffa34747f2f9) - add `math/base/special/cscdf` [(#7868)](https://github.com/stdlib-js/stdlib/pull/7868)
@@ -563,6 +564,8 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`1248b56`](https://github.com/stdlib-js/stdlib/commit/1248b5625cf60b24063081ccbf5c34a85f951fa3) - **feat:** add `normhermitepolyf` to namespace _(by Philipp Burckhardt)_
+-   [`8cea287`](https://github.com/stdlib-js/stdlib/commit/8cea2870cc30848a616b76259b3274caae387b10) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`414da4a`](https://github.com/stdlib-js/stdlib/commit/414da4a5e617ad90a5e2908a0f01128dc3a1b623) - **chore:** fix C lint errors [(#7901)](https://github.com/stdlib-js/stdlib/pull/7901) _(by GeoDaoyu)_
 -   [`19e3a41`](https://github.com/stdlib-js/stdlib/commit/19e3a4112a1c19d914f4442d0edf8399c7f60a99) - **feat:** add `math/base/special/cotdf` [(#7897)](https://github.com/stdlib-js/stdlib/pull/7897) _(by Karan Anand)_
 -   [`246c854`](https://github.com/stdlib-js/stdlib/commit/246c854ca236d8d6801376db27397dd79581aae4) - **feat:** add `math/base/special/secdf` [(#7893)](https://github.com/stdlib-js/stdlib/pull/7893) _(by Karan Anand)_
