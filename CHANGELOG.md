@@ -565,6 +565,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`1e3e311`](https://github.com/stdlib-js/stdlib/commit/1e3e311b448a610f744d44735839ad7de7fdf43a) - **docs:** fix type _(by Athan Reines)_
 -   [`4231250`](https://github.com/stdlib-js/stdlib/commit/4231250feb478a3677d9d9d14b65e4242a611fcf) - **feat:** add `math/base/special/sincosf` [(#7892)](https://github.com/stdlib-js/stdlib/pull/7892) _(by Karan Anand)_
 -   [`1248b56`](https://github.com/stdlib-js/stdlib/commit/1248b5625cf60b24063081ccbf5c34a85f951fa3) - **feat:** add `normhermitepolyf` to namespace _(by Philipp Burckhardt)_
 -   [`8cea287`](https://github.com/stdlib-js/stdlib/commit/8cea2870cc30848a616b76259b3274caae387b10) - **docs:** fix return annotation values _(by Philipp Burckhardt)_

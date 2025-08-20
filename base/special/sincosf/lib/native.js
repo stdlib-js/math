@@ -31,7 +31,7 @@ var addon = require( './../src/addon.node' );
 *
 * @private
 * @param {number} x - input value (in radians)
-* @returns {Array<number>} sine and cosine
+* @returns {Float32Array} sine and cosine
 *
 * @example
 * var v = sincosf( 0.0 );
