@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-21)
+## Unreleased (2025-08-22)
 
 <section class="features">
 
@@ -565,6 +565,8 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`44010b3`](https://github.com/stdlib-js/stdlib/commit/44010b3e8509ab22c32750fa125a1155f5fd8995) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`5519603`](https://github.com/stdlib-js/stdlib/commit/551960360bdcf61a473e5844ce23c7c9f7717168) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
 -   [`85bcdeb`](https://github.com/stdlib-js/stdlib/commit/85bcdebc11a08f86085a93d36c9cba450eadbc93) - **chore:** fix EditorConfig lint errors [(#7920)](https://github.com/stdlib-js/stdlib/pull/7920) _(by Nakul Krishnakumar)_
 -   [`776887e`](https://github.com/stdlib-js/stdlib/commit/776887e9577ae2402fd69c97328cb864811bd120) - **docs:** update annotation values _(by Philipp Burckhardt)_
 -   [`1e3e311`](https://github.com/stdlib-js/stdlib/commit/1e3e311b448a610f744d44735839ad7de7fdf43a) - **docs:** fix type _(by Athan Reines)_
