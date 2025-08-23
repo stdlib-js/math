@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-22)
+## Unreleased (2025-08-23)
 
 <section class="features">
 
@@ -219,6 +219,10 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`df33cdf`](https://github.com/stdlib-js/stdlib/commit/df33cdfc4f2511698aca3f3a8da19dd585f5b431): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
 
 -   [`e341eb5`](https://github.com/stdlib-js/stdlib/commit/e341eb5579706b31132dde07aa618d5055d41821): use `stdlib_complex64` type
 
@@ -565,6 +569,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`df33cdf`](https://github.com/stdlib-js/stdlib/commit/df33cdfc4f2511698aca3f3a8da19dd585f5b431) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/fibonacci` [(#7923)](https://github.com/stdlib-js/stdlib/pull/7923) _(by Gunj Joshi)_
 -   [`44010b3`](https://github.com/stdlib-js/stdlib/commit/44010b3e8509ab22c32750fa125a1155f5fd8995) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`5519603`](https://github.com/stdlib-js/stdlib/commit/551960360bdcf61a473e5844ce23c7c9f7717168) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
 -   [`85bcdeb`](https://github.com/stdlib-js/stdlib/commit/85bcdebc11a08f86085a93d36c9cba450eadbc93) - **chore:** fix EditorConfig lint errors [(#7920)](https://github.com/stdlib-js/stdlib/pull/7920) _(by Nakul Krishnakumar)_
