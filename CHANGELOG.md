@@ -569,6 +569,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`0283804`](https://github.com/stdlib-js/stdlib/commit/02838049b98a8ae3c595714e397364aace06f7b9) - **chore:** add structured package data for `math/base/special/absgammalnf` [(#7925)](https://github.com/stdlib-js/stdlib/pull/7925) _(by Gunj Joshi, Athan Reines)_
 -   [`df33cdf`](https://github.com/stdlib-js/stdlib/commit/df33cdfc4f2511698aca3f3a8da19dd585f5b431) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/fibonacci` [(#7923)](https://github.com/stdlib-js/stdlib/pull/7923) _(by Gunj Joshi)_
 -   [`44010b3`](https://github.com/stdlib-js/stdlib/commit/44010b3e8509ab22c32750fa125a1155f5fd8995) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`5519603`](https://github.com/stdlib-js/stdlib/commit/551960360bdcf61a473e5844ce23c7c9f7717168) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
