@@ -220,6 +220,10 @@
 
 ### BREAKING CHANGES
 
+-   [`3d340e2`](https://github.com/stdlib-js/stdlib/commit/3d340e2d72c1601c2286210f89d182e4132befed): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
 -   [`709c1ab`](https://github.com/stdlib-js/stdlib/commit/709c1abf833a21997dd32edb395649e0a9e925df): update signature to accept floats
 
     -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
@@ -573,6 +577,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`3d340e2`](https://github.com/stdlib-js/stdlib/commit/3d340e2d72c1601c2286210f89d182e4132befed) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/lucas` [(#7936)](https://github.com/stdlib-js/stdlib/pull/7936) _(by Gunj Joshi)_
 -   [`709c1ab`](https://github.com/stdlib-js/stdlib/commit/709c1abf833a21997dd32edb395649e0a9e925df) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/fibonaccif` [(#7938)](https://github.com/stdlib-js/stdlib/pull/7938) _(by Gunj Joshi)_
 -   [`c5b3e0a`](https://github.com/stdlib-js/stdlib/commit/c5b3e0a0dab79dd39984f0a6bf45cd1a80f1f865) - **docs:** replace integers with doubles in `math/base/special/fibonacci` [(#7937)](https://github.com/stdlib-js/stdlib/pull/7937) _(by Gunj Joshi)_
 -   [`0283804`](https://github.com/stdlib-js/stdlib/commit/02838049b98a8ae3c595714e397364aace06f7b9) - **chore:** add structured package data for `math/base/special/absgammalnf` [(#7925)](https://github.com/stdlib-js/stdlib/pull/7925) _(by Gunj Joshi, Athan Reines)_
