@@ -23,7 +23,7 @@
 var isNonNegativeIntegerf = require( './../../../../base/assert/is-nonnegative-integerf' );
 var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
-var isOdd = require( './../../../../base/assert/is-odd' );
+var isOddf = require( './../../../../base/assert/is-oddf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var BERNOULLIF = require( './bernoullif.json' );
@@ -89,11 +89,11 @@ function bernoullif( n ) {
 	if ( n === 1 ) {
 		return 0.5;
 	}
-	if ( isOdd( n ) ) {
+	if ( isOddf( n ) ) {
 		return 0.0;
 	}
 	if ( n > MAX_BERNOULLI ) {
-		return ( (n/2)&1 ) ? PINF : NINF;
+		return ( isOddf( n/2.0 ) ) ? PINF : NINF;
 	}
 	return float64ToFloat32( BERNOULLIF[ n/2 ] );
 }
