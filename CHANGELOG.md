@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-23)
+## Unreleased (2025-08-24)
 
 <section class="features">
 
@@ -577,6 +577,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`bb8477e`](https://github.com/stdlib-js/stdlib/commit/bb8477eb9740ed7973d48d8c28fdfd07c3b5c793) - **chore:** add structured package data for `math/base/special/acovercos` [(#7948)](https://github.com/stdlib-js/stdlib/pull/7948) _(by Gunj Joshi)_
 -   [`9fc1333`](https://github.com/stdlib-js/stdlib/commit/9fc1333e47f74f4bad37c621522a971678667d75) - **chore:** add structured package data for `math/base/special/acoth` [(#7935)](https://github.com/stdlib-js/stdlib/pull/7935) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`3d340e2`](https://github.com/stdlib-js/stdlib/commit/3d340e2d72c1601c2286210f89d182e4132befed) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/lucas` [(#7936)](https://github.com/stdlib-js/stdlib/pull/7936) _(by Gunj Joshi)_
 -   [`709c1ab`](https://github.com/stdlib-js/stdlib/commit/709c1abf833a21997dd32edb395649e0a9e925df) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/fibonaccif` [(#7938)](https://github.com/stdlib-js/stdlib/pull/7938) _(by Gunj Joshi)_
