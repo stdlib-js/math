@@ -220,6 +220,10 @@
 
 ### BREAKING CHANGES
 
+-   [`d109efc`](https://github.com/stdlib-js/stdlib/commit/d109efcbb6b3f13f6ca8dfba7bde7a07a1d27614): update signature to accept floats
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
 -   [`3d340e2`](https://github.com/stdlib-js/stdlib/commit/3d340e2d72c1601c2286210f89d182e4132befed): update signature to accept doubles
 
     -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
@@ -577,6 +581,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`d109efc`](https://github.com/stdlib-js/stdlib/commit/d109efcbb6b3f13f6ca8dfba7bde7a07a1d27614) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/lucasf` [(#7939)](https://github.com/stdlib-js/stdlib/pull/7939) _(by Gunj Joshi)_
 -   [`bb8477e`](https://github.com/stdlib-js/stdlib/commit/bb8477eb9740ed7973d48d8c28fdfd07c3b5c793) - **chore:** add structured package data for `math/base/special/acovercos` [(#7948)](https://github.com/stdlib-js/stdlib/pull/7948) _(by Gunj Joshi)_
 -   [`9fc1333`](https://github.com/stdlib-js/stdlib/commit/9fc1333e47f74f4bad37c621522a971678667d75) - **chore:** add structured package data for `math/base/special/acoth` [(#7935)](https://github.com/stdlib-js/stdlib/pull/7935) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`3d340e2`](https://github.com/stdlib-js/stdlib/commit/3d340e2d72c1601c2286210f89d182e4132befed) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/lucas` [(#7936)](https://github.com/stdlib-js/stdlib/pull/7936) _(by Gunj Joshi)_
