@@ -220,6 +220,10 @@
 
 ### BREAKING CHANGES
 
+-   [`66f7bba`](https://github.com/stdlib-js/stdlib/commit/66f7bba1086767688fb3c4d4b2204cc6e92280bb): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
 -   [`248ba46`](https://github.com/stdlib-js/stdlib/commit/248ba46d1592e64827fb69c464e68975f747f62e): update signature to accept doubles
 
     -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
@@ -593,6 +597,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`66f7bba`](https://github.com/stdlib-js/stdlib/commit/66f7bba1086767688fb3c4d4b2204cc6e92280bb) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/bernoulli` [(#7940)](https://github.com/stdlib-js/stdlib/pull/7940) _(by Gunj Joshi, Athan Reines)_
 -   [`248ba46`](https://github.com/stdlib-js/stdlib/commit/248ba46d1592e64827fb69c464e68975f747f62e) - **refactor:** modify C implementation to accept `double` values instead of `int64` in `math/base/special/binomcoef` [(#7945)](https://github.com/stdlib-js/stdlib/pull/7945) _(by Gunj Joshi, Athan Reines)_
 -   [`72d37f3`](https://github.com/stdlib-js/stdlib/commit/72d37f32cd8f38d0a073abe5180969af294dc975) - **refactor:** modify C implementation to accept `float` values instead of `int32` in `math/base/special/binomcoeff` [(#7946)](https://github.com/stdlib-js/stdlib/pull/7946) _(by Gunj Joshi, Athan Reines)_
 -   [`0681f24`](https://github.com/stdlib-js/stdlib/commit/0681f24891e24254443a419953b0b9d409dceb3a) - **refactor:** modify C implementation to accept `double` values instead of `int64` in `math/base/special/binomcoefln` [(#7947)](https://github.com/stdlib-js/stdlib/pull/7947) _(by Gunj Joshi)_
