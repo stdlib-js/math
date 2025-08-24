@@ -220,6 +220,10 @@
 
 ### BREAKING CHANGES
 
+-   [`0681f24`](https://github.com/stdlib-js/stdlib/commit/0681f24891e24254443a419953b0b9d409dceb3a): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
 -   [`d109efc`](https://github.com/stdlib-js/stdlib/commit/d109efcbb6b3f13f6ca8dfba7bde7a07a1d27614): update signature to accept floats
 
     -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
@@ -581,6 +585,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`0681f24`](https://github.com/stdlib-js/stdlib/commit/0681f24891e24254443a419953b0b9d409dceb3a) - **refactor:** modify C implementation to accept `double` values instead of `int64` in `math/base/special/binomcoefln` [(#7947)](https://github.com/stdlib-js/stdlib/pull/7947) _(by Gunj Joshi)_
 -   [`d109efc`](https://github.com/stdlib-js/stdlib/commit/d109efcbb6b3f13f6ca8dfba7bde7a07a1d27614) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/lucasf` [(#7939)](https://github.com/stdlib-js/stdlib/pull/7939) _(by Gunj Joshi)_
 -   [`bb8477e`](https://github.com/stdlib-js/stdlib/commit/bb8477eb9740ed7973d48d8c28fdfd07c3b5c793) - **chore:** add structured package data for `math/base/special/acovercos` [(#7948)](https://github.com/stdlib-js/stdlib/pull/7948) _(by Gunj Joshi)_
 -   [`9fc1333`](https://github.com/stdlib-js/stdlib/commit/9fc1333e47f74f4bad37c621522a971678667d75) - **chore:** add structured package data for `math/base/special/acoth` [(#7935)](https://github.com/stdlib-js/stdlib/pull/7935) _(by Nakul Krishnakumar, Athan Reines)_
