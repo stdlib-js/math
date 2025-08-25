@@ -625,6 +625,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`2ff3d13`](https://github.com/stdlib-js/stdlib/commit/2ff3d13bfb0ee44c6fb4fbdaea0a32013cf30bc5) - **chore:** add structured package data for `math/base/special/cosd` [(#7963)](https://github.com/stdlib-js/stdlib/pull/7963) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`6b02e15`](https://github.com/stdlib-js/stdlib/commit/6b02e1513f60505465a661cc72cfba714f13f4b8) - **docs:** update descriptions _(by Athan Reines)_
 -   [`e3a0d08`](https://github.com/stdlib-js/stdlib/commit/e3a0d08c172ac04192a0f0b5d2e9e8543cbcdba8) - **chore:** add structured package data for `math/base/special/cos` [(#7962)](https://github.com/stdlib-js/stdlib/pull/7962) _(by Nakul Krishnakumar)_
 -   [`d7b5f34`](https://github.com/stdlib-js/stdlib/commit/d7b5f340acab1d7bfd6723658cfd8d391abadb02) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/nonfibonaccif` [(#7960)](https://github.com/stdlib-js/stdlib/pull/7960) _(by Gunj Joshi)_
