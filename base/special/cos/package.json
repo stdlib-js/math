@@ -69,8 +69,8 @@
       "$schema": "math/base@v1.0",
       "base_alias": "cos",
       "alias": "cos",
-      "pkg_desc": "compute the cosine of a number",
-      "desc": "computes the cosine of a number (in radians)",
+      "pkg_desc": "compute the cosine",
+      "desc": "computes the cosine",
       "short_desc": "cosine",
       "parameters": [
         {
