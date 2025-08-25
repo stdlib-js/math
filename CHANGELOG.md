@@ -220,6 +220,10 @@
 
 ### BREAKING CHANGES
 
+-   [`801494f`](https://github.com/stdlib-js/stdlib/commit/801494fbca7a4db22753f7417267502d98ba1b31): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
 -   [`20ddfd7`](https://github.com/stdlib-js/stdlib/commit/20ddfd7b46fc28c6d2cba7db90b6a48a35a43aa5): update signature to accept doubles
 
     -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
@@ -609,6 +613,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`801494f`](https://github.com/stdlib-js/stdlib/commit/801494fbca7a4db22753f7417267502d98ba1b31) - **refactor:** modify C implementation to accept `double` value instead of `int32` in `math/base/special/negalucas` [(#7955)](https://github.com/stdlib-js/stdlib/pull/7955) _(by Gunj Joshi)_
 -   [`20ddfd7`](https://github.com/stdlib-js/stdlib/commit/20ddfd7b46fc28c6d2cba7db90b6a48a35a43aa5) - **refactor:** modify C implementation to accept `double` value instead of `int32` in `math/base/special/negafibonacci` [(#7953)](https://github.com/stdlib-js/stdlib/pull/7953) _(by Gunj Joshi, Athan Reines)_
 -   [`348acc3`](https://github.com/stdlib-js/stdlib/commit/348acc31a68a46e6f4566733824a273297f01704) - **refactor:** modify C implementation to accept `float` value instead of `int32` in `math/base/special/negafibonaccif` [(#7954)](https://github.com/stdlib-js/stdlib/pull/7954) _(by Gunj Joshi)_
 -   [`be54164`](https://github.com/stdlib-js/stdlib/commit/be54164bab5602c030ba201a5a791388193b9dfd) - **chore:** add structured package data for `math/base/special/acovercosf` [(#7961)](https://github.com/stdlib-js/stdlib/pull/7961) _(by Gunj Joshi)_
