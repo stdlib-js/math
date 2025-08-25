@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-24)
+## Unreleased (2025-08-25)
 
 <section class="features">
 
@@ -601,6 +601,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`ffb8d78`](https://github.com/stdlib-js/stdlib/commit/ffb8d78f3585b29d72f2eb98e7b2164bed7a7ce7) - **chore:** fix duplicate example value in `math/base/special/cbrt` [(#7951)](https://github.com/stdlib-js/stdlib/pull/7951) _(by Nakul Krishnakumar)_
 -   [`59f0fbb`](https://github.com/stdlib-js/stdlib/commit/59f0fbbf7f8d36265950fcedc893f66d4691157f) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/bernoullif` [(#7941)](https://github.com/stdlib-js/stdlib/pull/7941) _(by Gunj Joshi, Athan Reines)_
 -   [`66f7bba`](https://github.com/stdlib-js/stdlib/commit/66f7bba1086767688fb3c4d4b2204cc6e92280bb) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/bernoulli` [(#7940)](https://github.com/stdlib-js/stdlib/pull/7940) _(by Gunj Joshi, Athan Reines)_
 -   [`248ba46`](https://github.com/stdlib-js/stdlib/commit/248ba46d1592e64827fb69c464e68975f747f62e) - **refactor:** modify C implementation to accept `double` values instead of `int64` in `math/base/special/binomcoef` [(#7945)](https://github.com/stdlib-js/stdlib/pull/7945) _(by Gunj Joshi, Athan Reines)_
