@@ -601,6 +601,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`be54164`](https://github.com/stdlib-js/stdlib/commit/be54164bab5602c030ba201a5a791388193b9dfd) - **chore:** add structured package data for `math/base/special/acovercosf` [(#7961)](https://github.com/stdlib-js/stdlib/pull/7961) _(by Gunj Joshi)_
 -   [`8489044`](https://github.com/stdlib-js/stdlib/commit/8489044eec14190ae2b7f6cc758e6abeb1f97753) - **chore:** add structured package data for `math/base/special/cbrtf` [(#7949)](https://github.com/stdlib-js/stdlib/pull/7949) _(by Nakul Krishnakumar)_
 -   [`ffb8d78`](https://github.com/stdlib-js/stdlib/commit/ffb8d78f3585b29d72f2eb98e7b2164bed7a7ce7) - **chore:** fix duplicate example value in `math/base/special/cbrt` [(#7951)](https://github.com/stdlib-js/stdlib/pull/7951) _(by Nakul Krishnakumar)_
 -   [`59f0fbb`](https://github.com/stdlib-js/stdlib/commit/59f0fbbf7f8d36265950fcedc893f66d4691157f) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/bernoullif` [(#7941)](https://github.com/stdlib-js/stdlib/pull/7941) _(by Gunj Joshi, Athan Reines)_
