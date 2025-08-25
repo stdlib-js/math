@@ -220,6 +220,10 @@
 
 ### BREAKING CHANGES
 
+-   [`63cf5ea`](https://github.com/stdlib-js/stdlib/commit/63cf5eab0c3676f67939173afa3cdcac61163eb8): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
 -   [`8c5f190`](https://github.com/stdlib-js/stdlib/commit/8c5f190a58f09d525dcf7717c91225cbc496c907): update signature to accept floats
 
     -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
@@ -617,6 +621,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`63cf5ea`](https://github.com/stdlib-js/stdlib/commit/63cf5eab0c3676f67939173afa3cdcac61163eb8) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/nonfibonacci` [(#7959)](https://github.com/stdlib-js/stdlib/pull/7959) _(by Gunj Joshi)_
 -   [`8c5f190`](https://github.com/stdlib-js/stdlib/commit/8c5f190a58f09d525dcf7717c91225cbc496c907) - **refactor:** modify C implementation to accept `float` value instead of `int32` in `math/base/special/negalucasf` [(#7956)](https://github.com/stdlib-js/stdlib/pull/7956) _(by Gunj Joshi, Athan Reines)_
 -   [`801494f`](https://github.com/stdlib-js/stdlib/commit/801494fbca7a4db22753f7417267502d98ba1b31) - **refactor:** modify C implementation to accept `double` value instead of `int32` in `math/base/special/negalucas` [(#7955)](https://github.com/stdlib-js/stdlib/pull/7955) _(by Gunj Joshi)_
 -   [`20ddfd7`](https://github.com/stdlib-js/stdlib/commit/20ddfd7b46fc28c6d2cba7db90b6a48a35a43aa5) - **refactor:** modify C implementation to accept `double` value instead of `int32` in `math/base/special/negafibonacci` [(#7953)](https://github.com/stdlib-js/stdlib/pull/7953) _(by Gunj Joshi, Athan Reines)_
