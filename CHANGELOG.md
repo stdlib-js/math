@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-25)
+## Unreleased (2025-08-26)
 
 <section class="features">
 
@@ -153,6 +153,7 @@
 
 ### Bug Fixes
 
+-   [`0e4ba2c`](https://github.com/stdlib-js/stdlib/commit/0e4ba2ca838ee0cbb11d1511280549e47442b735) - remove unneeded #include
 -   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - correct argument order for iid_d in `math/base/napi/ternary` NAPI function
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - add missing includes
 -   [`fc42d47`](https://github.com/stdlib-js/stdlib/commit/fc42d478aac742422f2a8073e168ecaa94c6ac35) - use a generic
@@ -625,6 +626,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`0e4ba2c`](https://github.com/stdlib-js/stdlib/commit/0e4ba2ca838ee0cbb11d1511280549e47442b735) - **fix:** remove unneeded #include _(by Philipp Burckhardt)_
 -   [`2ff3d13`](https://github.com/stdlib-js/stdlib/commit/2ff3d13bfb0ee44c6fb4fbdaea0a32013cf30bc5) - **chore:** add structured package data for `math/base/special/cosd` [(#7963)](https://github.com/stdlib-js/stdlib/pull/7963) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`6b02e15`](https://github.com/stdlib-js/stdlib/commit/6b02e1513f60505465a661cc72cfba714f13f4b8) - **docs:** update descriptions _(by Athan Reines)_
 -   [`e3a0d08`](https://github.com/stdlib-js/stdlib/commit/e3a0d08c172ac04192a0f0b5d2e9e8543cbcdba8) - **chore:** add structured package data for `math/base/special/cos` [(#7962)](https://github.com/stdlib-js/stdlib/pull/7962) _(by Nakul Krishnakumar)_
