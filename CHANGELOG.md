@@ -626,6 +626,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`81f904d`](https://github.com/stdlib-js/stdlib/commit/81f904da25808197e2ae83ebf9c8b26860855e7c) - **bench:** fix failing C benchmarks by using `round` and `roundf` [(#7980)](https://github.com/stdlib-js/stdlib/pull/7980) _(by Gunj Joshi)_
 -   [`e395239`](https://github.com/stdlib-js/stdlib/commit/e3952390cbd9e4a750d7628f87fc1cbe28468680) - **chore:** add structured package data for `math/base/special/ceil10` [(#7979)](https://github.com/stdlib-js/stdlib/pull/7979) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`d217735`](https://github.com/stdlib-js/stdlib/commit/d21773580170fe1fd2c5549cbfe03b92f056a1c8) - **chore:** add structured package data for `math/base/special/tan` [(#7976)](https://github.com/stdlib-js/stdlib/pull/7976) _(by Lokesh Ranjan, Athan Reines)_
 -   [`faa8717`](https://github.com/stdlib-js/stdlib/commit/faa87173668a1219c8753d932209fe220af97fa6) - **chore:** add structured package data for `math/base/special/ceil` [(#7978)](https://github.com/stdlib-js/stdlib/pull/7978) _(by Nakul Krishnakumar, Athan Reines)_
