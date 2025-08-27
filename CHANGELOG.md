@@ -626,6 +626,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`faa8717`](https://github.com/stdlib-js/stdlib/commit/faa87173668a1219c8753d932209fe220af97fa6) - **chore:** add structured package data for `math/base/special/ceil` [(#7978)](https://github.com/stdlib-js/stdlib/pull/7978) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`3de9e17`](https://github.com/stdlib-js/stdlib/commit/3de9e173619723fa8a3e81a9e1183872267261a5) - **chore:** add structured package data for `math/base/special/cosdf` [(#7970)](https://github.com/stdlib-js/stdlib/pull/7970) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`0e4ba2c`](https://github.com/stdlib-js/stdlib/commit/0e4ba2ca838ee0cbb11d1511280549e47442b735) - **fix:** remove unneeded #include _(by Philipp Burckhardt)_
 -   [`2ff3d13`](https://github.com/stdlib-js/stdlib/commit/2ff3d13bfb0ee44c6fb4fbdaea0a32013cf30bc5) - **chore:** add structured package data for `math/base/special/cosd` [(#7963)](https://github.com/stdlib-js/stdlib/pull/7963) _(by Nakul Krishnakumar, Athan Reines)_
