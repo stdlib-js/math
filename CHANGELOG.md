@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-27)
+## Unreleased (2025-08-29)
 
 <section class="features">
 
 ### Features
 
+-   [`4d66533`](https://github.com/stdlib-js/stdlib/commit/4d6653362c42cf824605769488c88788d2c44b8f) - add `math/base/special/fast/absf` [(#7983)](https://github.com/stdlib-js/stdlib/pull/7983)
 -   [`4231250`](https://github.com/stdlib-js/stdlib/commit/4231250feb478a3677d9d9d14b65e4242a611fcf) - add `math/base/special/sincosf` [(#7892)](https://github.com/stdlib-js/stdlib/pull/7892)
 -   [`1248b56`](https://github.com/stdlib-js/stdlib/commit/1248b5625cf60b24063081ccbf5c34a85f951fa3) - add `normhermitepolyf` to namespace
 -   [`19e3a41`](https://github.com/stdlib-js/stdlib/commit/19e3a4112a1c19d914f4442d0edf8399c7f60a99) - add `math/base/special/cotdf` [(#7897)](https://github.com/stdlib-js/stdlib/pull/7897)
@@ -626,6 +627,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`4d66533`](https://github.com/stdlib-js/stdlib/commit/4d6653362c42cf824605769488c88788d2c44b8f) - **feat:** add `math/base/special/fast/absf` [(#7983)](https://github.com/stdlib-js/stdlib/pull/7983) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`81f904d`](https://github.com/stdlib-js/stdlib/commit/81f904da25808197e2ae83ebf9c8b26860855e7c) - **bench:** fix failing C benchmarks by using `round` and `roundf` [(#7980)](https://github.com/stdlib-js/stdlib/pull/7980) _(by Gunj Joshi)_
 -   [`e395239`](https://github.com/stdlib-js/stdlib/commit/e3952390cbd9e4a750d7628f87fc1cbe28468680) - **chore:** add structured package data for `math/base/special/ceil10` [(#7979)](https://github.com/stdlib-js/stdlib/pull/7979) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`d217735`](https://github.com/stdlib-js/stdlib/commit/d21773580170fe1fd2c5549cbfe03b92f056a1c8) - **chore:** add structured package data for `math/base/special/tan` [(#7976)](https://github.com/stdlib-js/stdlib/pull/7976) _(by Lokesh Ranjan, Athan Reines)_
