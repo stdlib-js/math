@@ -627,6 +627,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`510d9ae`](https://github.com/stdlib-js/stdlib/commit/510d9ae6fc7467b72253e92a9da21095335c2f99) - **chore:** add structured package data for `math/base/special/sqrt` [(#7987)](https://github.com/stdlib-js/stdlib/pull/7987) _(by Lokesh Ranjan, Athan Reines, stdlib-bot)_
 -   [`cdd433b`](https://github.com/stdlib-js/stdlib/commit/cdd433bc46eb762ed93311b69bc69af9f92bb220) - **chore:** add structured package data for `math/base/special/sec` [(#7986)](https://github.com/stdlib-js/stdlib/pull/7986) _(by Lokesh Ranjan, Athan Reines)_
 -   [`82547c8`](https://github.com/stdlib-js/stdlib/commit/82547c84e8e82410ec7ffecda8620f170d9bbd2a) - **chore:** add structured package data for `math/base/special/sin` [(#7985)](https://github.com/stdlib-js/stdlib/pull/7985) _(by Lokesh Ranjan, Athan Reines)_
 -   [`4d66533`](https://github.com/stdlib-js/stdlib/commit/4d6653362c42cf824605769488c88788d2c44b8f) - **feat:** add `math/base/special/fast/absf` [(#7983)](https://github.com/stdlib-js/stdlib/pull/7983) _(by Nakul Krishnakumar, Athan Reines)_
