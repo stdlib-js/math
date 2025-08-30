@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-29)
+## Unreleased (2025-08-30)
 
 <section class="features">
 
@@ -627,6 +627,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`cdd433b`](https://github.com/stdlib-js/stdlib/commit/cdd433bc46eb762ed93311b69bc69af9f92bb220) - **chore:** add structured package data for `math/base/special/sec` [(#7986)](https://github.com/stdlib-js/stdlib/pull/7986) _(by Lokesh Ranjan, Athan Reines)_
 -   [`82547c8`](https://github.com/stdlib-js/stdlib/commit/82547c84e8e82410ec7ffecda8620f170d9bbd2a) - **chore:** add structured package data for `math/base/special/sin` [(#7985)](https://github.com/stdlib-js/stdlib/pull/7985) _(by Lokesh Ranjan, Athan Reines)_
 -   [`4d66533`](https://github.com/stdlib-js/stdlib/commit/4d6653362c42cf824605769488c88788d2c44b8f) - **feat:** add `math/base/special/fast/absf` [(#7983)](https://github.com/stdlib-js/stdlib/pull/7983) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`81f904d`](https://github.com/stdlib-js/stdlib/commit/81f904da25808197e2ae83ebf9c8b26860855e7c) - **bench:** fix failing C benchmarks by using `round` and `roundf` [(#7980)](https://github.com/stdlib-js/stdlib/pull/7980) _(by Gunj Joshi)_
