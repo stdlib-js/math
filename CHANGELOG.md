@@ -628,6 +628,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`70f6fed`](https://github.com/stdlib-js/stdlib/commit/70f6fedb85e66a0c7cb27085fa1044af1791e919) - **chore:** remove quotes _(by Athan Reines)_
 -   [`25ed2e6`](https://github.com/stdlib-js/stdlib/commit/25ed2e674ecd5d5c29aebde65b7f57d3bcabdda2) - **fix:** use single-precision float literal in comparison for `math/base/special/fast/absf` _(by Philipp Burckhardt)_
 -   [`510d9ae`](https://github.com/stdlib-js/stdlib/commit/510d9ae6fc7467b72253e92a9da21095335c2f99) - **chore:** add structured package data for `math/base/special/sqrt` [(#7987)](https://github.com/stdlib-js/stdlib/pull/7987) _(by Lokesh Ranjan, Athan Reines, stdlib-bot)_
 -   [`cdd433b`](https://github.com/stdlib-js/stdlib/commit/cdd433bc46eb762ed93311b69bc69af9f92bb220) - **chore:** add structured package data for `math/base/special/sec` [(#7986)](https://github.com/stdlib-js/stdlib/pull/7986) _(by Lokesh Ranjan, Athan Reines)_
