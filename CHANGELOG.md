@@ -154,6 +154,7 @@
 
 ### Bug Fixes
 
+-   [`25ed2e6`](https://github.com/stdlib-js/stdlib/commit/25ed2e674ecd5d5c29aebde65b7f57d3bcabdda2) - use single-precision float literal in comparison for `math/base/special/fast/absf`
 -   [`0e4ba2c`](https://github.com/stdlib-js/stdlib/commit/0e4ba2ca838ee0cbb11d1511280549e47442b735) - remove unneeded #include
 -   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - correct argument order for iid_d in `math/base/napi/ternary` NAPI function
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - add missing includes
@@ -627,6 +628,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`25ed2e6`](https://github.com/stdlib-js/stdlib/commit/25ed2e674ecd5d5c29aebde65b7f57d3bcabdda2) - **fix:** use single-precision float literal in comparison for `math/base/special/fast/absf` _(by Philipp Burckhardt)_
 -   [`510d9ae`](https://github.com/stdlib-js/stdlib/commit/510d9ae6fc7467b72253e92a9da21095335c2f99) - **chore:** add structured package data for `math/base/special/sqrt` [(#7987)](https://github.com/stdlib-js/stdlib/pull/7987) _(by Lokesh Ranjan, Athan Reines, stdlib-bot)_
 -   [`cdd433b`](https://github.com/stdlib-js/stdlib/commit/cdd433bc46eb762ed93311b69bc69af9f92bb220) - **chore:** add structured package data for `math/base/special/sec` [(#7986)](https://github.com/stdlib-js/stdlib/pull/7986) _(by Lokesh Ranjan, Athan Reines)_
 -   [`82547c8`](https://github.com/stdlib-js/stdlib/commit/82547c84e8e82410ec7ffecda8620f170d9bbd2a) - **chore:** add structured package data for `math/base/special/sin` [(#7985)](https://github.com/stdlib-js/stdlib/pull/7985) _(by Lokesh Ranjan, Athan Reines)_
