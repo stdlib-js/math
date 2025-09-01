@@ -297,6 +297,15 @@ setReadOnly( ns, 'iterSquaresSeq', require( './../../../iter/sequences/squares' 
 */
 setReadOnly( ns, 'iterTriangularSeq', require( './../../../iter/sequences/triangular' ) );
 
+/**
+* @name iterTribonacciSeq
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/iter/sequences/tribonacci}
+*/
+setReadOnly( ns, 'iterTribonacciSeq', require( './../../../iter/sequences/tribonacci' ) );
+
 
 // EXPORTS //
 

@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-30)
+## Unreleased (2025-09-01)
 
 <section class="features">
 
 ### Features
 
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
+-   [`3f0031f`](https://github.com/stdlib-js/stdlib/commit/3f0031f78ca73cd60369259118a17e4710257b94) - add missing exports to `math/base/assert` namespace
+-   [`358027d`](https://github.com/stdlib-js/stdlib/commit/358027d5ea106ba61b2f0f92b20f27787cbb07b7) - add missing exports to `math/base/special` namespace
 -   [`4d66533`](https://github.com/stdlib-js/stdlib/commit/4d6653362c42cf824605769488c88788d2c44b8f) - add `math/base/special/fast/absf` [(#7983)](https://github.com/stdlib-js/stdlib/pull/7983)
 -   [`4231250`](https://github.com/stdlib-js/stdlib/commit/4231250feb478a3677d9d9d14b65e4242a611fcf) - add `math/base/special/sincosf` [(#7892)](https://github.com/stdlib-js/stdlib/pull/7892)
 -   [`1248b56`](https://github.com/stdlib-js/stdlib/commit/1248b5625cf60b24063081ccbf5c34a85f951fa3) - add `normhermitepolyf` to namespace
@@ -628,6 +631,9 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
+-   [`3f0031f`](https://github.com/stdlib-js/stdlib/commit/3f0031f78ca73cd60369259118a17e4710257b94) - **feat:** add missing exports to `math/base/assert` namespace _(by Philipp Burckhardt)_
+-   [`358027d`](https://github.com/stdlib-js/stdlib/commit/358027d5ea106ba61b2f0f92b20f27787cbb07b7) - **feat:** add missing exports to `math/base/special` namespace _(by Philipp Burckhardt)_
 -   [`1b2c035`](https://github.com/stdlib-js/stdlib/commit/1b2c035ac6254b565fddb9ca5d1e61d2451f7152) - **chore:** add structured package data for `math/base/special/log2` [(#7989)](https://github.com/stdlib-js/stdlib/pull/7989) _(by Lokesh Ranjan, Athan Reines)_
 -   [`70f6fed`](https://github.com/stdlib-js/stdlib/commit/70f6fedb85e66a0c7cb27085fa1044af1791e919) - **chore:** remove quotes _(by Athan Reines)_
 -   [`25ed2e6`](https://github.com/stdlib-js/stdlib/commit/25ed2e674ecd5d5c29aebde65b7f57d3bcabdda2) - **fix:** use single-precision float literal in comparison for `math/base/special/fast/absf` _(by Philipp Burckhardt)_

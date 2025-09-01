@@ -16,6 +16,8 @@
 * limitations under the License.
 */
 
+/* eslint-disable max-lines */
+
 'use strict';
 
 /*
@@ -71,6 +73,15 @@ setReadOnly( special, 'abs2f', require( './../../../base/special/abs2f' ) );
 * @see {@link module:@stdlib/math/base/special/absf}
 */
 setReadOnly( special, 'absf', require( './../../../base/special/absf' ) );
+
+/**
+* @name absgammalnf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/absgammalnf}
+*/
+setReadOnly( special, 'absgammalnf', require( './../../../base/special/absgammalnf' ) );
 
 /**
 * @name acos
@@ -172,6 +183,15 @@ setReadOnly( special, 'acoth', require( './../../../base/special/acoth' ) );
 setReadOnly( special, 'acovercos', require( './../../../base/special/acovercos' ) );
 
 /**
+* @name acovercosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/acovercosf}
+*/
+setReadOnly( special, 'acovercosf', require( './../../../base/special/acovercosf' ) );
+
+/**
 * @name acoversin
 * @memberof special
 * @readonly
@@ -179,6 +199,15 @@ setReadOnly( special, 'acovercos', require( './../../../base/special/acovercos' 
 * @see {@link module:@stdlib/math/base/special/acoversin}
 */
 setReadOnly( special, 'acoversin', require( './../../../base/special/acoversin' ) );
+
+/**
+* @name acoversinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/acoversinf}
+*/
+setReadOnly( special, 'acoversinf', require( './../../../base/special/acoversinf' ) );
 
 /**
 * @name acsc
@@ -235,6 +264,15 @@ setReadOnly( special, 'acsch', require( './../../../base/special/acsch' ) );
 setReadOnly( special, 'ahavercos', require( './../../../base/special/ahavercos' ) );
 
 /**
+* @name ahavercosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/ahavercosf}
+*/
+setReadOnly( special, 'ahavercosf', require( './../../../base/special/ahavercosf' ) );
+
+/**
 * @name ahaversin
 * @memberof special
 * @readonly
@@ -242,6 +280,15 @@ setReadOnly( special, 'ahavercos', require( './../../../base/special/ahavercos' 
 * @see {@link module:@stdlib/math/base/special/ahaversin}
 */
 setReadOnly( special, 'ahaversin', require( './../../../base/special/ahaversin' ) );
+
+/**
+* @name ahaversinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/ahaversinf}
+*/
+setReadOnly( special, 'ahaversinf', require( './../../../base/special/ahaversinf' ) );
 
 /**
 * @name asec
@@ -352,6 +399,24 @@ setReadOnly( special, 'atan', require( './../../../base/special/atan' ) );
 setReadOnly( special, 'atan2', require( './../../../base/special/atan2' ) );
 
 /**
+* @name atan2d
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/atan2d}
+*/
+setReadOnly( special, 'atan2d', require( './../../../base/special/atan2d' ) );
+
+/**
+* @name atan2f
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/atan2f}
+*/
+setReadOnly( special, 'atan2f', require( './../../../base/special/atan2f' ) );
+
+/**
 * @name atand
 * @memberof special
 * @readonly
@@ -359,6 +424,15 @@ setReadOnly( special, 'atan2', require( './../../../base/special/atan2' ) );
 * @see {@link module:@stdlib/math/base/special/atand}
 */
 setReadOnly( special, 'atand', require( './../../../base/special/atand' ) );
+
+/**
+* @name atandf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/atandf}
+*/
+setReadOnly( special, 'atandf', require( './../../../base/special/atandf' ) );
 
 /**
 * @name atanf
@@ -388,6 +462,15 @@ setReadOnly( special, 'atanh', require( './../../../base/special/atanh' ) );
 setReadOnly( special, 'avercos', require( './../../../base/special/avercos' ) );
 
 /**
+* @name avercosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/avercosf}
+*/
+setReadOnly( special, 'avercosf', require( './../../../base/special/avercosf' ) );
+
+/**
 * @name aversin
 * @memberof special
 * @readonly
@@ -397,6 +480,15 @@ setReadOnly( special, 'avercos', require( './../../../base/special/avercos' ) );
 setReadOnly( special, 'aversin', require( './../../../base/special/aversin' ) );
 
 /**
+* @name aversinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/aversinf}
+*/
+setReadOnly( special, 'aversinf', require( './../../../base/special/aversinf' ) );
+
+/**
 * @name bernoulli
 * @memberof special
 * @readonly
@@ -404,6 +496,15 @@ setReadOnly( special, 'aversin', require( './../../../base/special/aversin' ) );
 * @see {@link module:@stdlib/math/base/special/bernoulli}
 */
 setReadOnly( special, 'bernoulli', require( './../../../base/special/bernoulli' ) );
+
+/**
+* @name bernoullif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/bernoullif}
+*/
+setReadOnly( special, 'bernoullif', require( './../../../base/special/bernoullif' ) );
 
 /**
 * @name besselj0
@@ -494,6 +595,15 @@ setReadOnly( special, 'binet', require( './../../../base/special/binet' ) );
 * @see {@link module:@stdlib/math/base/special/binomcoef}
 */
 setReadOnly( special, 'binomcoef', require( './../../../base/special/binomcoef' ) );
+
+/**
+* @name binomcoeff
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/binomcoeff}
+*/
+setReadOnly( special, 'binomcoeff', require( './../../../base/special/binomcoeff' ) );
 
 /**
 * @name binomcoefln
@@ -730,6 +840,15 @@ setReadOnly( special, 'cflipsignf', require( './../../../base/special/cflipsignf
 setReadOnly( special, 'cfloor', require( './../../../base/special/cfloor' ) );
 
 /**
+* @name cfloorf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cfloorf}
+*/
+setReadOnly( special, 'cfloorf', require( './../../../base/special/cfloorf' ) );
+
+/**
 * @name cfloorn
 * @memberof special
 * @readonly
@@ -811,6 +930,24 @@ setReadOnly( special, 'cos', require( './../../../base/special/cos' ) );
 setReadOnly( special, 'cosd', require( './../../../base/special/cosd' ) );
 
 /**
+* @name cosdf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cosdf}
+*/
+setReadOnly( special, 'cosdf', require( './../../../base/special/cosdf' ) );
+
+/**
+* @name cosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cosf}
+*/
+setReadOnly( special, 'cosf', require( './../../../base/special/cosf' ) );
+
+/**
 * @name cosh
 * @memberof special
 * @readonly
@@ -829,6 +966,15 @@ setReadOnly( special, 'cosh', require( './../../../base/special/cosh' ) );
 setReadOnly( special, 'cosm1', require( './../../../base/special/cosm1' ) );
 
 /**
+* @name cosm1f
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cosm1f}
+*/
+setReadOnly( special, 'cosm1f', require( './../../../base/special/cosm1f' ) );
+
+/**
 * @name cospi
 * @memberof special
 * @readonly
@@ -836,6 +982,15 @@ setReadOnly( special, 'cosm1', require( './../../../base/special/cosm1' ) );
 * @see {@link module:@stdlib/math/base/special/cospi}
 */
 setReadOnly( special, 'cospi', require( './../../../base/special/cospi' ) );
+
+/**
+* @name cospif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cospif}
+*/
+setReadOnly( special, 'cospif', require( './../../../base/special/cospif' ) );
 
 /**
 * @name cot
@@ -856,6 +1011,24 @@ setReadOnly( special, 'cot', require( './../../../base/special/cot' ) );
 setReadOnly( special, 'cotd', require( './../../../base/special/cotd' ) );
 
 /**
+* @name cotdf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cotdf}
+*/
+setReadOnly( special, 'cotdf', require( './../../../base/special/cotdf' ) );
+
+/**
+* @name cotf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cotf}
+*/
+setReadOnly( special, 'cotf', require( './../../../base/special/cotf' ) );
+
+/**
 * @name coth
 * @memberof special
 * @readonly
@@ -874,6 +1047,15 @@ setReadOnly( special, 'coth', require( './../../../base/special/coth' ) );
 setReadOnly( special, 'covercos', require( './../../../base/special/covercos' ) );
 
 /**
+* @name covercosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/covercosf}
+*/
+setReadOnly( special, 'covercosf', require( './../../../base/special/covercosf' ) );
+
+/**
 * @name coversin
 * @memberof special
 * @readonly
@@ -881,6 +1063,15 @@ setReadOnly( special, 'covercos', require( './../../../base/special/covercos' ) 
 * @see {@link module:@stdlib/math/base/special/coversin}
 */
 setReadOnly( special, 'coversin', require( './../../../base/special/coversin' ) );
+
+/**
+* @name coversinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/coversinf}
+*/
+setReadOnly( special, 'coversinf', require( './../../../base/special/coversinf' ) );
 
 /**
 * @name cphase
@@ -892,6 +1083,15 @@ setReadOnly( special, 'coversin', require( './../../../base/special/coversin' ) 
 setReadOnly( special, 'cphase', require( './../../../base/special/cphase' ) );
 
 /**
+* @name cphasef
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cphasef}
+*/
+setReadOnly( special, 'cphasef', require( './../../../base/special/cphasef' ) );
+
+/**
 * @name cpolar
 * @memberof special
 * @readonly
@@ -901,6 +1101,15 @@ setReadOnly( special, 'cphase', require( './../../../base/special/cphase' ) );
 setReadOnly( special, 'cpolar', require( './../../../base/special/cpolar' ) );
 
 /**
+* @name cpolarf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cpolarf}
+*/
+setReadOnly( special, 'cpolarf', require( './../../../base/special/cpolarf' ) );
+
+/**
 * @name cround
 * @memberof special
 * @readonly
@@ -908,6 +1117,15 @@ setReadOnly( special, 'cpolar', require( './../../../base/special/cpolar' ) );
 * @see {@link module:@stdlib/math/base/special/cround}
 */
 setReadOnly( special, 'cround', require( './../../../base/special/cround' ) );
+
+/**
+* @name croundf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/croundf}
+*/
+setReadOnly( special, 'croundf', require( './../../../base/special/croundf' ) );
 
 /**
 * @name croundn
@@ -937,6 +1155,24 @@ setReadOnly( special, 'csc', require( './../../../base/special/csc' ) );
 setReadOnly( special, 'cscd', require( './../../../base/special/cscd' ) );
 
 /**
+* @name cscdf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cscdf}
+*/
+setReadOnly( special, 'cscdf', require( './../../../base/special/cscdf' ) );
+
+/**
+* @name cscf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/cscf}
+*/
+setReadOnly( special, 'cscf', require( './../../../base/special/cscf' ) );
+
+/**
 * @name csch
 * @memberof special
 * @readonly
@@ -953,6 +1189,15 @@ setReadOnly( special, 'csch', require( './../../../base/special/csch' ) );
 * @see {@link module:@stdlib/math/base/special/csignum}
 */
 setReadOnly( special, 'csignum', require( './../../../base/special/csignum' ) );
+
+/**
+* @name csignumf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/csignumf}
+*/
+setReadOnly( special, 'csignumf', require( './../../../base/special/csignumf' ) );
 
 /**
 * @name deg2rad
@@ -989,6 +1234,15 @@ setReadOnly( special, 'digamma', require( './../../../base/special/digamma' ) );
 * @see {@link module:@stdlib/math/base/special/dirac-delta}
 */
 setReadOnly( special, 'diracDelta', require( './../../../base/special/dirac-delta' ) );
+
+/**
+* @name diracDeltaf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/dirac-deltaf}
+*/
+setReadOnly( special, 'diracDeltaf', require( './../../../base/special/dirac-deltaf' ) );
 
 /**
 * @name eta
@@ -1144,6 +1398,15 @@ setReadOnly( special, 'factorial', require( './../../../base/special/factorial' 
 setReadOnly( special, 'factorial2', require( './../../../base/special/factorial2' ) );
 
 /**
+* @name factorial2f
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/factorial2f}
+*/
+setReadOnly( special, 'factorial2f', require( './../../../base/special/factorial2f' ) );
+
+/**
 * @name factorialln
 * @memberof special
 * @readonly
@@ -1151,6 +1414,15 @@ setReadOnly( special, 'factorial2', require( './../../../base/special/factorial2
 * @see {@link module:@stdlib/math/base/special/factorialln}
 */
 setReadOnly( special, 'factorialln', require( './../../../base/special/factorialln' ) );
+
+/**
+* @name factoriallnf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/factoriallnf}
+*/
+setReadOnly( special, 'factoriallnf', require( './../../../base/special/factoriallnf' ) );
 
 /**
 * @name fallingFactorial
@@ -1187,6 +1459,24 @@ setReadOnly( special, 'fibonacci', require( './../../../base/special/fibonacci' 
 * @see {@link module:@stdlib/math/base/special/fibonacci-index}
 */
 setReadOnly( special, 'fibonacciIndex', require( './../../../base/special/fibonacci-index' ) );
+
+/**
+* @name fibonacciIndexf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/fibonacci-indexf}
+*/
+setReadOnly( special, 'fibonacciIndexf', require( './../../../base/special/fibonacci-indexf' ) );
+
+/**
+* @name fibonaccif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/fibonaccif}
+*/
+setReadOnly( special, 'fibonaccif', require( './../../../base/special/fibonaccif' ) );
 
 /**
 * @name flipsign
@@ -1270,6 +1560,24 @@ setReadOnly( special, 'floorn', require( './../../../base/special/floorn' ) );
 setReadOnly( special, 'floorsd', require( './../../../base/special/floorsd' ) );
 
 /**
+* @name fmod
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/fmod}
+*/
+setReadOnly( special, 'fmod', require( './../../../base/special/fmod' ) );
+
+/**
+* @name fmodf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/fmodf}
+*/
+setReadOnly( special, 'fmodf', require( './../../../base/special/fmodf' ) );
+
+/**
 * @name fresnel
 * @memberof special
 * @readonly
@@ -1306,6 +1614,15 @@ setReadOnly( special, 'fresnels', require( './../../../base/special/fresnels' ) 
 setReadOnly( special, 'frexp', require( './../../../base/special/frexp' ) );
 
 /**
+* @name frexpf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/frexpf}
+*/
+setReadOnly( special, 'frexpf', require( './../../../base/special/frexpf' ) );
+
+/**
 * @name gamma
 * @memberof special
 * @readonly
@@ -1340,6 +1657,15 @@ setReadOnly( special, 'gammaLanczosSum', require( './../../../base/special/gamma
 * @see {@link module:@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled}
 */
 setReadOnly( special, 'gammaLanczosSumExpGScaled', require( './../../../base/special/gamma-lanczos-sum-expg-scaled' ) );
+
+/**
+* @name gammaLanczosSumExpgScaledf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/gamma-lanczos-sum-expg-scaledf}
+*/
+setReadOnly( special, 'gammaLanczosSumExpgScaledf', require( './../../../base/special/gamma-lanczos-sum-expg-scaledf' ) );
 
 /**
 * @name gamma1pm1
@@ -1387,6 +1713,15 @@ setReadOnly( special, 'gammaln', require( './../../../base/special/gammaln' ) );
 setReadOnly( special, 'gammasgn', require( './../../../base/special/gammasgn' ) );
 
 /**
+* @name gammasgnf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/gammasgnf}
+*/
+setReadOnly( special, 'gammasgnf', require( './../../../base/special/gammasgnf' ) );
+
+/**
 * @name gcd
 * @memberof special
 * @readonly
@@ -1394,6 +1729,15 @@ setReadOnly( special, 'gammasgn', require( './../../../base/special/gammasgn' ) 
 * @see {@link module:@stdlib/math/base/special/gcd}
 */
 setReadOnly( special, 'gcd', require( './../../../base/special/gcd' ) );
+
+/**
+* @name gcdf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/gcdf}
+*/
+setReadOnly( special, 'gcdf', require( './../../../base/special/gcdf' ) );
 
 /**
 * @name hacovercos
@@ -1405,6 +1749,15 @@ setReadOnly( special, 'gcd', require( './../../../base/special/gcd' ) );
 setReadOnly( special, 'hacovercos', require( './../../../base/special/hacovercos' ) );
 
 /**
+* @name hacovercosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/hacovercosf}
+*/
+setReadOnly( special, 'hacovercosf', require( './../../../base/special/hacovercosf' ) );
+
+/**
 * @name hacoversin
 * @memberof special
 * @readonly
@@ -1412,6 +1765,15 @@ setReadOnly( special, 'hacovercos', require( './../../../base/special/hacovercos
 * @see {@link module:@stdlib/math/base/special/hacoversin}
 */
 setReadOnly( special, 'hacoversin', require( './../../../base/special/hacoversin' ) );
+
+/**
+* @name hacoversinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/hacoversinf}
+*/
+setReadOnly( special, 'hacoversinf', require( './../../../base/special/hacoversinf' ) );
 
 /**
 * @name havercos
@@ -1423,6 +1785,15 @@ setReadOnly( special, 'hacoversin', require( './../../../base/special/hacoversin
 setReadOnly( special, 'havercos', require( './../../../base/special/havercos' ) );
 
 /**
+* @name havercosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/havercosf}
+*/
+setReadOnly( special, 'havercosf', require( './../../../base/special/havercosf' ) );
+
+/**
 * @name haversin
 * @memberof special
 * @readonly
@@ -1432,6 +1803,15 @@ setReadOnly( special, 'havercos', require( './../../../base/special/havercos' ) 
 setReadOnly( special, 'haversin', require( './../../../base/special/haversin' ) );
 
 /**
+* @name haversinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/haversinf}
+*/
+setReadOnly( special, 'haversinf', require( './../../../base/special/haversinf' ) );
+
+/**
 * @name heaviside
 * @memberof special
 * @readonly
@@ -1439,6 +1819,24 @@ setReadOnly( special, 'haversin', require( './../../../base/special/haversin' ) 
 * @see {@link module:@stdlib/math/base/special/heaviside}
 */
 setReadOnly( special, 'heaviside', require( './../../../base/special/heaviside' ) );
+
+/**
+* @name heavisidef
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/heavisidef}
+*/
+setReadOnly( special, 'heavisidef', require( './../../../base/special/heavisidef' ) );
+
+/**
+* @name hyp2f1
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/hyp2f1}
+*/
+setReadOnly( special, 'hyp2f1', require( './../../../base/special/hyp2f1' ) );
 
 /**
 * @name hypot
@@ -1504,6 +1902,15 @@ setReadOnly( special, 'kernelBetaincinv', require( './../../../base/special/kern
 setReadOnly( special, 'kernelCos', require( './../../../base/special/kernel-cos' ) );
 
 /**
+* @name kernelCosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/kernel-cosf}
+*/
+setReadOnly( special, 'kernelCosf', require( './../../../base/special/kernel-cosf' ) );
+
+/**
 * @name kernelLog1p
 * @memberof special
 * @readonly
@@ -1511,6 +1918,15 @@ setReadOnly( special, 'kernelCos', require( './../../../base/special/kernel-cos'
 * @see {@link module:@stdlib/math/base/special/kernel-log1p}
 */
 setReadOnly( special, 'kernelLog1p', require( './../../../base/special/kernel-log1p' ) );
+
+/**
+* @name kernelLog1pf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/kernel-log1pf}
+*/
+setReadOnly( special, 'kernelLog1pf', require( './../../../base/special/kernel-log1pf' ) );
 
 /**
 * @name kernelSin
@@ -1522,6 +1938,33 @@ setReadOnly( special, 'kernelLog1p', require( './../../../base/special/kernel-lo
 setReadOnly( special, 'kernelSin', require( './../../../base/special/kernel-sin' ) );
 
 /**
+* @name kernelSincos
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/kernel-sincos}
+*/
+setReadOnly( special, 'kernelSincos', require( './../../../base/special/kernel-sincos' ) );
+
+/**
+* @name kernelSincosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/kernel-sincosf}
+*/
+setReadOnly( special, 'kernelSincosf', require( './../../../base/special/kernel-sincosf' ) );
+
+/**
+* @name kernelSinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/kernel-sinf}
+*/
+setReadOnly( special, 'kernelSinf', require( './../../../base/special/kernel-sinf' ) );
+
+/**
 * @name kernelTan
 * @memberof special
 * @readonly
@@ -1529,6 +1972,15 @@ setReadOnly( special, 'kernelSin', require( './../../../base/special/kernel-sin'
 * @see {@link module:@stdlib/math/base/special/kernel-tan}
 */
 setReadOnly( special, 'kernelTan', require( './../../../base/special/kernel-tan' ) );
+
+/**
+* @name kernelTanf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/kernel-tanf}
+*/
+setReadOnly( special, 'kernelTanf', require( './../../../base/special/kernel-tanf' ) );
 
 /**
 * @name kroneckerDelta
@@ -1567,6 +2019,15 @@ setReadOnly( special, 'labs', require( './../../../base/special/labs' ) );
 setReadOnly( special, 'lcm', require( './../../../base/special/lcm' ) );
 
 /**
+* @name lcmf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/lcmf}
+*/
+setReadOnly( special, 'lcmf', require( './../../../base/special/lcmf' ) );
+
+/**
 * @name ldexp
 * @memberof special
 * @readonly
@@ -1576,6 +2037,15 @@ setReadOnly( special, 'lcm', require( './../../../base/special/lcm' ) );
 setReadOnly( special, 'ldexp', require( './../../../base/special/ldexp' ) );
 
 /**
+* @name ldexpf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/ldexpf}
+*/
+setReadOnly( special, 'ldexpf', require( './../../../base/special/ldexpf' ) );
+
+/**
 * @name ln
 * @memberof special
 * @readonly
@@ -1583,6 +2053,15 @@ setReadOnly( special, 'ldexp', require( './../../../base/special/ldexp' ) );
 * @see {@link module:@stdlib/math/base/special/ln}
 */
 setReadOnly( special, 'ln', require( './../../../base/special/ln' ) );
+
+/**
+* @name lnf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/lnf}
+*/
+setReadOnly( special, 'lnf', require( './../../../base/special/lnf' ) );
 
 /**
 * @name log
@@ -1657,6 +2136,15 @@ setReadOnly( special, 'log10', require( './../../../base/special/log10' ) );
 setReadOnly( special, 'logaddexp', require( './../../../base/special/logaddexp' ) );
 
 /**
+* @name logf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/logf}
+*/
+setReadOnly( special, 'logf', require( './../../../base/special/logf' ) );
+
+/**
 * @name logit
 * @memberof special
 * @readonly
@@ -1666,6 +2154,15 @@ setReadOnly( special, 'logaddexp', require( './../../../base/special/logaddexp' 
 setReadOnly( special, 'logit', require( './../../../base/special/logit' ) );
 
 /**
+* @name logitf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/logitf}
+*/
+setReadOnly( special, 'logitf', require( './../../../base/special/logitf' ) );
+
+/**
 * @name lucas
 * @memberof special
 * @readonly
@@ -1673,6 +2170,15 @@ setReadOnly( special, 'logit', require( './../../../base/special/logit' ) );
 * @see {@link module:@stdlib/math/base/special/lucas}
 */
 setReadOnly( special, 'lucas', require( './../../../base/special/lucas' ) );
+
+/**
+* @name lucasf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/lucasf}
+*/
+setReadOnly( special, 'lucasf', require( './../../../base/special/lucasf' ) );
 
 /**
 * @name max
@@ -1693,6 +2199,15 @@ setReadOnly( special, 'max', require( './../../../base/special/max' ) );
 setReadOnly( special, 'maxabs', require( './../../../base/special/maxabs' ) );
 
 /**
+* @name maxabsf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/maxabsf}
+*/
+setReadOnly( special, 'maxabsf', require( './../../../base/special/maxabsf' ) );
+
+/**
 * @name maxabsn
 * @memberof special
 * @readonly
@@ -1700,6 +2215,15 @@ setReadOnly( special, 'maxabs', require( './../../../base/special/maxabs' ) );
 * @see {@link module:@stdlib/math/base/special/maxabsn}
 */
 setReadOnly( special, 'maxabsn', require( './../../../base/special/maxabsn' ) );
+
+/**
+* @name maxf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/maxf}
+*/
+setReadOnly( special, 'maxf', require( './../../../base/special/maxf' ) );
 
 /**
 * @name maxn
@@ -1729,6 +2253,15 @@ setReadOnly( special, 'min', require( './../../../base/special/min' ) );
 setReadOnly( special, 'minabs', require( './../../../base/special/minabs' ) );
 
 /**
+* @name minabsf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/minabsf}
+*/
+setReadOnly( special, 'minabsf', require( './../../../base/special/minabsf' ) );
+
+/**
 * @name minabsn
 * @memberof special
 * @readonly
@@ -1736,6 +2269,15 @@ setReadOnly( special, 'minabs', require( './../../../base/special/minabs' ) );
 * @see {@link module:@stdlib/math/base/special/minabsn}
 */
 setReadOnly( special, 'minabsn', require( './../../../base/special/minabsn' ) );
+
+/**
+* @name minf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/minf}
+*/
+setReadOnly( special, 'minf', require( './../../../base/special/minf' ) );
 
 /**
 * @name minmax
@@ -1756,6 +2298,15 @@ setReadOnly( special, 'minmax', require( './../../../base/special/minmax' ) );
 setReadOnly( special, 'minmaxabs', require( './../../../base/special/minmaxabs' ) );
 
 /**
+* @name minmaxabsf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/minmaxabsf}
+*/
+setReadOnly( special, 'minmaxabsf', require( './../../../base/special/minmaxabsf' ) );
+
+/**
 * @name minmaxabsn
 * @memberof special
 * @readonly
@@ -1763,6 +2314,15 @@ setReadOnly( special, 'minmaxabs', require( './../../../base/special/minmaxabs' 
 * @see {@link module:@stdlib/math/base/special/minmaxabsn}
 */
 setReadOnly( special, 'minmaxabsn', require( './../../../base/special/minmaxabsn' ) );
+
+/**
+* @name minmaxf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/minmaxf}
+*/
+setReadOnly( special, 'minmaxf', require( './../../../base/special/minmaxf' ) );
 
 /**
 * @name minmaxn
@@ -1792,6 +2352,51 @@ setReadOnly( special, 'minn', require( './../../../base/special/minn' ) );
 setReadOnly( special, 'modf', require( './../../../base/special/modf' ) );
 
 /**
+* @name modff
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/modff}
+*/
+setReadOnly( special, 'modff', require( './../../../base/special/modff' ) );
+
+/**
+* @name nanmax
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/nanmax}
+*/
+setReadOnly( special, 'nanmax', require( './../../../base/special/nanmax' ) );
+
+/**
+* @name nanmaxf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/nanmaxf}
+*/
+setReadOnly( special, 'nanmaxf', require( './../../../base/special/nanmaxf' ) );
+
+/**
+* @name nanmin
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/nanmin}
+*/
+setReadOnly( special, 'nanmin', require( './../../../base/special/nanmin' ) );
+
+/**
+* @name nanminf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/nanminf}
+*/
+setReadOnly( special, 'nanminf', require( './../../../base/special/nanminf' ) );
+
+/**
 * @name negafibonacci
 * @memberof special
 * @readonly
@@ -1799,6 +2404,15 @@ setReadOnly( special, 'modf', require( './../../../base/special/modf' ) );
 * @see {@link module:@stdlib/math/base/special/negafibonacci}
 */
 setReadOnly( special, 'negafibonacci', require( './../../../base/special/negafibonacci' ) );
+
+/**
+* @name negafibonaccif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/negafibonaccif}
+*/
+setReadOnly( special, 'negafibonaccif', require( './../../../base/special/negafibonaccif' ) );
 
 /**
 * @name negalucas
@@ -1810,6 +2424,15 @@ setReadOnly( special, 'negafibonacci', require( './../../../base/special/negafib
 setReadOnly( special, 'negalucas', require( './../../../base/special/negalucas' ) );
 
 /**
+* @name negalucasf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/negalucasf}
+*/
+setReadOnly( special, 'negalucasf', require( './../../../base/special/negalucasf' ) );
+
+/**
 * @name nonfibonacci
 * @memberof special
 * @readonly
@@ -1817,6 +2440,15 @@ setReadOnly( special, 'negalucas', require( './../../../base/special/negalucas' 
 * @see {@link module:@stdlib/math/base/special/nonfibonacci}
 */
 setReadOnly( special, 'nonfibonacci', require( './../../../base/special/nonfibonacci' ) );
+
+/**
+* @name nonfibonaccif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/nonfibonaccif}
+*/
+setReadOnly( special, 'nonfibonaccif', require( './../../../base/special/nonfibonaccif' ) );
 
 /**
 * @name pdiff
@@ -1927,6 +2559,15 @@ setReadOnly( special, 'rcbrtf', require( './../../../base/special/rcbrtf' ) );
 setReadOnly( special, 'rempio2', require( './../../../base/special/rempio2' ) );
 
 /**
+* @name rempio2f
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/rempio2f}
+*/
+setReadOnly( special, 'rempio2f', require( './../../../base/special/rempio2f' ) );
+
+/**
 * @name zeta
 * @memberof special
 * @readonly
@@ -1954,6 +2595,15 @@ setReadOnly( special, 'risingFactorial', require( './../../../base/special/risin
 setReadOnly( special, 'round', require( './../../../base/special/round' ) );
 
 /**
+* @name roundNearestEven
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/round-nearest-even}
+*/
+setReadOnly( special, 'roundNearestEven', require( './../../../base/special/round-nearest-even' ) );
+
+/**
 * @name round2
 * @memberof special
 * @readonly
@@ -1979,6 +2629,15 @@ setReadOnly( special, 'round10', require( './../../../base/special/round10' ) );
 * @see {@link module:@stdlib/math/base/special/roundb}
 */
 setReadOnly( special, 'roundb', require( './../../../base/special/roundb' ) );
+
+/**
+* @name roundf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/roundf}
+*/
+setReadOnly( special, 'roundf', require( './../../../base/special/roundf' ) );
 
 /**
 * @name roundn
@@ -2017,6 +2676,15 @@ setReadOnly( special, 'rsqrt', require( './../../../base/special/rsqrt' ) );
 setReadOnly( special, 'rsqrtf', require( './../../../base/special/rsqrtf' ) );
 
 /**
+* @name sec
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sec}
+*/
+setReadOnly( special, 'sec', require( './../../../base/special/sec' ) );
+
+/**
 * @name secd
 * @memberof special
 * @readonly
@@ -2024,6 +2692,33 @@ setReadOnly( special, 'rsqrtf', require( './../../../base/special/rsqrtf' ) );
 * @see {@link module:@stdlib/math/base/special/secd}
 */
 setReadOnly( special, 'secd', require( './../../../base/special/secd' ) );
+
+/**
+* @name secdf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/secdf}
+*/
+setReadOnly( special, 'secdf', require( './../../../base/special/secdf' ) );
+
+/**
+* @name secf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/secf}
+*/
+setReadOnly( special, 'secf', require( './../../../base/special/secf' ) );
+
+/**
+* @name sech
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sech}
+*/
+setReadOnly( special, 'sech', require( './../../../base/special/sech' ) );
 
 /**
 * @name sici
@@ -2071,6 +2766,15 @@ setReadOnly( special, 'sin', require( './../../../base/special/sin' ) );
 setReadOnly( special, 'sinc', require( './../../../base/special/sinc' ) );
 
 /**
+* @name sincf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sincf}
+*/
+setReadOnly( special, 'sincf', require( './../../../base/special/sincf' ) );
+
+/**
 * @name sincos
 * @memberof special
 * @readonly
@@ -2080,6 +2784,24 @@ setReadOnly( special, 'sinc', require( './../../../base/special/sinc' ) );
 setReadOnly( special, 'sincos', require( './../../../base/special/sincos' ) );
 
 /**
+* @name sincosd
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sincosd}
+*/
+setReadOnly( special, 'sincosd', require( './../../../base/special/sincosd' ) );
+
+/**
+* @name sincosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sincosf}
+*/
+setReadOnly( special, 'sincosf', require( './../../../base/special/sincosf' ) );
+
+/**
 * @name sincospi
 * @memberof special
 * @readonly
@@ -2087,6 +2809,33 @@ setReadOnly( special, 'sincos', require( './../../../base/special/sincos' ) );
 * @see {@link module:@stdlib/math/base/special/sincospi}
 */
 setReadOnly( special, 'sincospi', require( './../../../base/special/sincospi' ) );
+
+/**
+* @name sind
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sind}
+*/
+setReadOnly( special, 'sind', require( './../../../base/special/sind' ) );
+
+/**
+* @name sindf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sindf}
+*/
+setReadOnly( special, 'sindf', require( './../../../base/special/sindf' ) );
+
+/**
+* @name sinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sinf}
+*/
+setReadOnly( special, 'sinf', require( './../../../base/special/sinf' ) );
 
 /**
 * @name sinh
@@ -2107,6 +2856,15 @@ setReadOnly( special, 'sinh', require( './../../../base/special/sinh' ) );
 setReadOnly( special, 'sinpi', require( './../../../base/special/sinpi' ) );
 
 /**
+* @name sinpif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sinpif}
+*/
+setReadOnly( special, 'sinpif', require( './../../../base/special/sinpif' ) );
+
+/**
 * @name spence
 * @memberof special
 * @readonly
@@ -2114,6 +2872,15 @@ setReadOnly( special, 'sinpi', require( './../../../base/special/sinpi' ) );
 * @see {@link module:@stdlib/math/base/special/spence}
 */
 setReadOnly( special, 'spence', require( './../../../base/special/spence' ) );
+
+/**
+* @name spencef
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/spencef}
+*/
+setReadOnly( special, 'spencef', require( './../../../base/special/spencef' ) );
 
 /**
 * @name sqrt
@@ -2152,6 +2919,15 @@ setReadOnly( special, 'sqrtf', require( './../../../base/special/sqrtf' ) );
 setReadOnly( special, 'sqrtpi', require( './../../../base/special/sqrtpi' ) );
 
 /**
+* @name sqrtpif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/sqrtpif}
+*/
+setReadOnly( special, 'sqrtpif', require( './../../../base/special/sqrtpif' ) );
+
+/**
 * @name tan
 * @memberof special
 * @readonly
@@ -2168,6 +2944,24 @@ setReadOnly( special, 'tan', require( './../../../base/special/tan' ) );
 * @see {@link module:@stdlib/math/base/special/tand}
 */
 setReadOnly( special, 'tand', require( './../../../base/special/tand' ) );
+
+/**
+* @name tandf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/tandf}
+*/
+setReadOnly( special, 'tandf', require( './../../../base/special/tandf' ) );
+
+/**
+* @name tanf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/tanf}
+*/
+setReadOnly( special, 'tanf', require( './../../../base/special/tanf' ) );
 
 /**
 * @name tanh
@@ -2188,6 +2982,15 @@ setReadOnly( special, 'tanh', require( './../../../base/special/tanh' ) );
 setReadOnly( special, 'tribonacci', require( './../../../base/special/tribonacci' ) );
 
 /**
+* @name tribonaccif
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/tribonaccif}
+*/
+setReadOnly( special, 'tribonaccif', require( './../../../base/special/tribonaccif' ) );
+
+/**
 * @name trigamma
 * @memberof special
 * @readonly
@@ -2195,6 +2998,15 @@ setReadOnly( special, 'tribonacci', require( './../../../base/special/tribonacci
 * @see {@link module:@stdlib/math/base/special/trigamma}
 */
 setReadOnly( special, 'trigamma', require( './../../../base/special/trigamma' ) );
+
+/**
+* @name trigammaf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/trigammaf}
+*/
+setReadOnly( special, 'trigammaf', require( './../../../base/special/trigammaf' ) );
 
 /**
 * @name trunc
@@ -2269,6 +3081,15 @@ setReadOnly( special, 'truncsd', require( './../../../base/special/truncsd' ) );
 setReadOnly( special, 'vercos', require( './../../../base/special/vercos' ) );
 
 /**
+* @name vercosf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/vercosf}
+*/
+setReadOnly( special, 'vercosf', require( './../../../base/special/vercosf' ) );
+
+/**
 * @name versin
 * @memberof special
 * @readonly
@@ -2278,6 +3099,15 @@ setReadOnly( special, 'vercos', require( './../../../base/special/vercos' ) );
 setReadOnly( special, 'versin', require( './../../../base/special/versin' ) );
 
 /**
+* @name versinf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/versinf}
+*/
+setReadOnly( special, 'versinf', require( './../../../base/special/versinf' ) );
+
+/**
 * @name wrap
 * @memberof special
 * @readonly
@@ -2285,6 +3115,15 @@ setReadOnly( special, 'versin', require( './../../../base/special/versin' ) );
 * @see {@link module:@stdlib/math/base/special/wrap}
 */
 setReadOnly( special, 'wrap', require( './../../../base/special/wrap' ) );
+
+/**
+* @name wrapf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/wrapf}
+*/
+setReadOnly( special, 'wrapf', require( './../../../base/special/wrapf' ) );
 
 /**
 * @name xlog1py
@@ -2303,6 +3142,15 @@ setReadOnly( special, 'xlog1py', require( './../../../base/special/xlog1py' ) );
 * @see {@link module:@stdlib/math/base/special/xlogy}
 */
 setReadOnly( special, 'xlogy', require( './../../../base/special/xlogy' ) );
+
+/**
+* @name xlogyf
+* @memberof special
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/special/xlogyf}
+*/
+setReadOnly( special, 'xlogyf', require( './../../../base/special/xlogyf' ) );
 
 
 // EXPORTS //

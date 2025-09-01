@@ -82,6 +82,15 @@ setReadOnly( ns, 'isCoprime', require( './../../../base/assert/is-coprime' ) );
 setReadOnly( ns, 'isEven', require( './../../../base/assert/is-even' ) );
 
 /**
+* @name isEvenf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-evenf}
+*/
+setReadOnly( ns, 'isEvenf', require( './../../../base/assert/is-evenf' ) );
+
+/**
 * @name isFinite
 * @memberof ns
 * @readonly
@@ -127,6 +136,15 @@ setReadOnly( ns, 'isInfinitef', require( './../../../base/assert/is-infinitef' )
 setReadOnly( ns, 'isInteger', require( './../../../base/assert/is-integer' ) );
 
 /**
+* @name isIntegerf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-integerf}
+*/
+setReadOnly( ns, 'isIntegerf', require( './../../../base/assert/is-integerf' ) );
+
+/**
 * @name isnan
 * @memberof ns
 * @readonly
@@ -161,6 +179,15 @@ setReadOnly( ns, 'isNegativeFinite', require( './../../../base/assert/is-negativ
 * @see {@link module:@stdlib/math/base/assert/is-negative-integer}
 */
 setReadOnly( ns, 'isNegativeInteger', require( './../../../base/assert/is-negative-integer' ) );
+
+/**
+* @name isNegativeIntegerf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-negative-integerf}
+*/
+setReadOnly( ns, 'isNegativeIntegerf', require( './../../../base/assert/is-negative-integerf' ) );
 
 /**
 * @name isNegativeZero
@@ -199,6 +226,15 @@ setReadOnly( ns, 'isNonNegativeFinite', require( './../../../base/assert/is-nonn
 setReadOnly( ns, 'isNonNegativeInteger', require( './../../../base/assert/is-nonnegative-integer' ) );
 
 /**
+* @name isNonnegativeIntegerf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-nonnegative-integerf}
+*/
+setReadOnly( ns, 'isNonnegativeIntegerf', require( './../../../base/assert/is-nonnegative-integerf' ) );
+
+/**
 * @name isNonPositiveFinite
 * @memberof ns
 * @readonly
@@ -224,6 +260,15 @@ setReadOnly( ns, 'isNonPositiveInteger', require( './../../../base/assert/is-non
 * @see {@link module:@stdlib/math/base/assert/is-odd}
 */
 setReadOnly( ns, 'isOdd', require( './../../../base/assert/is-odd' ) );
+
+/**
+* @name isOddf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-oddf}
+*/
+setReadOnly( ns, 'isOddf', require( './../../../base/assert/is-oddf' ) );
 
 /**
 * @name isPositiveFinite
@@ -278,6 +323,15 @@ setReadOnly( ns, 'isPrime', require( './../../../base/assert/is-prime' ) );
 * @see {@link module:@stdlib/math/base/assert/is-probability}
 */
 setReadOnly( ns, 'isProbability', require( './../../../base/assert/is-probability' ) );
+
+/**
+* @name isProbabilityf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/assert/is-probabilityf}
+*/
+setReadOnly( ns, 'isProbabilityf', require( './../../../base/assert/is-probabilityf' ) );
 
 /**
 * @name isSafeInteger
