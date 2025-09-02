@@ -632,6 +632,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`ec60fa2`](https://github.com/stdlib-js/stdlib/commit/ec60fa2056184a44d871da8228647cbed60274ab) - **docs:** fix `hypotf` description across package _(by Philipp Burckhardt)_
 -   [`c8b2a70`](https://github.com/stdlib-js/stdlib/commit/c8b2a7011179f4326a31fc018ab9fcd35b9144e2) - **feat:** add `math/base/special/fast/hypotf` [(#7998)](https://github.com/stdlib-js/stdlib/pull/7998) _(by Nakul Krishnakumar)_
 -   [`b5a845c`](https://github.com/stdlib-js/stdlib/commit/b5a845c7043bb3818348283b9bfd2a5440a39845) - **docs:** update related packages sections [(#8001)](https://github.com/stdlib-js/stdlib/pull/8001) _(by stdlib-bot)_
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_

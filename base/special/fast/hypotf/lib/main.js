@@ -26,7 +26,7 @@ var sqrtf = require( './../../../../../base/special/sqrtf' );
 // MAIN //
 
 /**
-* Computes the hypotenuse of a single-precision floating-point number.
+* Computes the hypotenuse of two single-precision floating-point numbers.
 *
 * @param {number} x - number
 * @param {number} y - number
