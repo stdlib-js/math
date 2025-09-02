@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c8b2a70`](https://github.com/stdlib-js/stdlib/commit/c8b2a7011179f4326a31fc018ab9fcd35b9144e2) - add `math/base/special/fast/hypotf` [(#7998)](https://github.com/stdlib-js/stdlib/pull/7998)
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
 -   [`3f0031f`](https://github.com/stdlib-js/stdlib/commit/3f0031f78ca73cd60369259118a17e4710257b94) - add missing exports to `math/base/assert` namespace
 -   [`358027d`](https://github.com/stdlib-js/stdlib/commit/358027d5ea106ba61b2f0f92b20f27787cbb07b7) - add missing exports to `math/base/special` namespace
@@ -631,6 +632,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`c8b2a70`](https://github.com/stdlib-js/stdlib/commit/c8b2a7011179f4326a31fc018ab9fcd35b9144e2) - **feat:** add `math/base/special/fast/hypotf` [(#7998)](https://github.com/stdlib-js/stdlib/pull/7998) _(by Nakul Krishnakumar)_
 -   [`b5a845c`](https://github.com/stdlib-js/stdlib/commit/b5a845c7043bb3818348283b9bfd2a5440a39845) - **docs:** update related packages sections [(#8001)](https://github.com/stdlib-js/stdlib/pull/8001) _(by stdlib-bot)_
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
 -   [`3f0031f`](https://github.com/stdlib-js/stdlib/commit/3f0031f78ca73cd60369259118a17e4710257b94) - **feat:** add missing exports to `math/base/assert` namespace _(by Philipp Burckhardt)_
