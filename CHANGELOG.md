@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-02)
+## Unreleased (2025-09-03)
 
 <section class="features">
 
@@ -158,6 +158,7 @@
 
 ### Bug Fixes
 
+-   [`5a7e089`](https://github.com/stdlib-js/stdlib/commit/5a7e089cae843c60489c0b222f41fc29f405c36d) - use correct `f32` emulation
 -   [`25ed2e6`](https://github.com/stdlib-js/stdlib/commit/25ed2e674ecd5d5c29aebde65b7f57d3bcabdda2) - use single-precision float literal in comparison for `math/base/special/fast/absf`
 -   [`0e4ba2c`](https://github.com/stdlib-js/stdlib/commit/0e4ba2ca838ee0cbb11d1511280549e47442b735) - remove unneeded #include
 -   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - correct argument order for iid_d in `math/base/napi/ternary` NAPI function
@@ -632,6 +633,9 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`fe96d97`](https://github.com/stdlib-js/stdlib/commit/fe96d973306fc6d28936c6150c160fb5d1f590c7) - **test:** use `ulpdiff` for floating-point comparisons _(by Karan Anand)_
+-   [`3ab83ba`](https://github.com/stdlib-js/stdlib/commit/3ab83ba5fd5e559b7304fc560872c8936b9cff60) - **test:** update fixtures to use `Float32` inputs _(by Karan Anand)_
+-   [`5a7e089`](https://github.com/stdlib-js/stdlib/commit/5a7e089cae843c60489c0b222f41fc29f405c36d) - **fix:** use correct `f32` emulation _(by Karan Anand)_
 -   [`ec60fa2`](https://github.com/stdlib-js/stdlib/commit/ec60fa2056184a44d871da8228647cbed60274ab) - **docs:** fix `hypotf` description across package _(by Philipp Burckhardt)_
 -   [`c8b2a70`](https://github.com/stdlib-js/stdlib/commit/c8b2a7011179f4326a31fc018ab9fcd35b9144e2) - **feat:** add `math/base/special/fast/hypotf` [(#7998)](https://github.com/stdlib-js/stdlib/pull/7998) _(by Nakul Krishnakumar)_
 -   [`b5a845c`](https://github.com/stdlib-js/stdlib/commit/b5a845c7043bb3818348283b9bfd2a5440a39845) - **docs:** update related packages sections [(#8001)](https://github.com/stdlib-js/stdlib/pull/8001) _(by stdlib-bot)_

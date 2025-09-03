@@ -21,6 +21,7 @@
 // MODULES //
 
 var sqrtf = require( './../../../../../base/special/sqrtf' );
+var f32 = require( '@stdlib/number/float64/base/to-float32' );
 
 
 // MAIN //
@@ -37,7 +38,9 @@ var sqrtf = require( './../../../../../base/special/sqrtf' );
 * // returns 13.0
 */
 function hypotf( x, y ) {
-	return sqrtf( ( x * x ) + ( y * y ) );
+	x = f32( x );
+	y = f32( y );
+	return sqrtf( f32( f32( x * x ) + f32( y * y ) ) );
 }
 
 
