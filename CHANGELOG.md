@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-03)
+## Unreleased (2025-09-04)
 
 <section class="features">
 
@@ -633,6 +633,7 @@ A total of 62 issues were closed in this release:
 
 <details>
 
+-   [`c726af4`](https://github.com/stdlib-js/stdlib/commit/c726af410e5fc8fd7ffc6b6178da3dc38b4505f9) - **style:** remove empty lines [(#8010)](https://github.com/stdlib-js/stdlib/pull/8010) _(by stdlib-bot)_
 -   [`fe96d97`](https://github.com/stdlib-js/stdlib/commit/fe96d973306fc6d28936c6150c160fb5d1f590c7) - **test:** use `ulpdiff` for floating-point comparisons _(by Karan Anand)_
 -   [`3ab83ba`](https://github.com/stdlib-js/stdlib/commit/3ab83ba5fd5e559b7304fc560872c8936b9cff60) - **test:** update fixtures to use `Float32` inputs _(by Karan Anand)_
 -   [`5a7e089`](https://github.com/stdlib-js/stdlib/commit/5a7e089cae843c60489c0b222f41fc29f405c36d) - **fix:** use correct `f32` emulation _(by Karan Anand)_
