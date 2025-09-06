@@ -633,6 +633,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`3e6159b`](https://github.com/stdlib-js/stdlib/commit/3e6159bbb50ef50bf9ef464e99a207fa3878995d) - **docs:** resolve doctest errors in TSDoc _(by Philipp Burckhardt)_
 -   [`2cf7f78`](https://github.com/stdlib-js/stdlib/commit/2cf7f78c164b51a905e7df83c99e0404ac55fe39) - **docs:** correct function names, return values, and method calls in TypeScript declaration examples _(by Philipp Burckhardt)_
 -   [`4fadd45`](https://github.com/stdlib-js/stdlib/commit/4fadd45bb3ff63b9c30e9b7a6b950554f555dbec) - **chore:** add structured package data for `math/base/special/factorial` [(#8017)](https://github.com/stdlib-js/stdlib/pull/8017) _(by Lokesh Ranjan)_
