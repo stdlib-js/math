@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-05)
+## Unreleased (2025-09-06)
 
 <section class="features">
 
@@ -633,6 +633,8 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`3e6159b`](https://github.com/stdlib-js/stdlib/commit/3e6159bbb50ef50bf9ef464e99a207fa3878995d) - **docs:** resolve doctest errors in TSDoc _(by Philipp Burckhardt)_
+-   [`2cf7f78`](https://github.com/stdlib-js/stdlib/commit/2cf7f78c164b51a905e7df83c99e0404ac55fe39) - **docs:** correct function names, return values, and method calls in TypeScript declaration examples _(by Philipp Burckhardt)_
 -   [`4fadd45`](https://github.com/stdlib-js/stdlib/commit/4fadd45bb3ff63b9c30e9b7a6b950554f555dbec) - **chore:** add structured package data for `math/base/special/factorial` [(#8017)](https://github.com/stdlib-js/stdlib/pull/8017) _(by Lokesh Ranjan)_
 -   [`73ca98e`](https://github.com/stdlib-js/stdlib/commit/73ca98e9cdb6ebd848df6f2321f740237e85b3cd) - **chore:** fix C lint errors [(#8015)](https://github.com/stdlib-js/stdlib/pull/8015) _(by GeoDaoyu)_
 -   [`baf65a6`](https://github.com/stdlib-js/stdlib/commit/baf65a6e432f27fd2876946a96d4801bb469c3ad) - **chore:** add structured package data for `math/base/special/fibonacci` [(#8012)](https://github.com/stdlib-js/stdlib/pull/8012) _(by Lokesh Ranjan, Athan Reines)_
