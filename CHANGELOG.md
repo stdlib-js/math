@@ -633,6 +633,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`5967ff0`](https://github.com/stdlib-js/stdlib/commit/5967ff0776bd0b67f1378625f87a7797bb9954c3) - **chore:** add structured package data for packages in `math/base/special` [(#8022)](https://github.com/stdlib-js/stdlib/pull/8022) _(by Gunj Joshi, Athan Reines)_
 -   [`dab9a78`](https://github.com/stdlib-js/stdlib/commit/dab9a78e04f346de096fd66b9c5129d6123aab95) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`3c873d2`](https://github.com/stdlib-js/stdlib/commit/3c873d2bae8084e3124c41088261a7326ffd533e) - **chore:** add structured data package for `math/base/special/acsc` [(#8026)](https://github.com/stdlib-js/stdlib/pull/8026) _(by Gaurav Kaushik, Athan Reines)_
 -   [`b9f0cc3`](https://github.com/stdlib-js/stdlib/commit/b9f0cc392cd60a2bef50278ece1e20da15e9c129) - **chore:** add structured package data for `math/base/special/factorialln` [(#8025)](https://github.com/stdlib-js/stdlib/pull/8025) _(by Lokesh Ranjan, Athan Reines)_
