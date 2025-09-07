@@ -633,6 +633,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`0fa9b00`](https://github.com/stdlib-js/stdlib/commit/0fa9b008fe7ee4d7dbb699cb225700aaf761dcb6) - **chore:** add structured package data for `math/base/special/factorial2f` [(#8024)](https://github.com/stdlib-js/stdlib/pull/8024) _(by Lokesh Ranjan, Athan Reines)_
 -   [`7f8011b`](https://github.com/stdlib-js/stdlib/commit/7f8011bf6102b49a19fdaed71fe493af892db695) - **chore:** add structured package data for `math/base/special/factorial2` [(#8023)](https://github.com/stdlib-js/stdlib/pull/8023) _(by Lokesh Ranjan, Athan Reines)_
 -   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`3e6159b`](https://github.com/stdlib-js/stdlib/commit/3e6159bbb50ef50bf9ef464e99a207fa3878995d) - **docs:** resolve doctest errors in TSDoc _(by Philipp Burckhardt)_
