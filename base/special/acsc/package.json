@@ -73,7 +73,7 @@
       "alias": "acsc",
       "pkg_desc": "compute the arccosecant",
       "desc": "computes the arccosecant",
-      "short_desc": "arcosecant",
+      "short_desc": "arccosecant",
       "parameters": [
         {
           "name": "x",
