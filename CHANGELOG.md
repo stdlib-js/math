@@ -649,6 +649,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`23bddcf`](https://github.com/stdlib-js/stdlib/commit/23bddcf5ebe5289a03d5590b58fa4a0f0c93cab7) - **chore:** add structured package data for packages in `math/base/special` [(#8037)](https://github.com/stdlib-js/stdlib/pull/8037) _(by Gunj Joshi, Athan Reines)_
 -   [`5dbe6e4`](https://github.com/stdlib-js/stdlib/commit/5dbe6e40efd490d36fb4c83d78444470d23886e0) - **chore:** add structured package data for packages in `math/base/special` [(#8033)](https://github.com/stdlib-js/stdlib/pull/8033) _(by Gunj Joshi)_
 -   [`134c514`](https://github.com/stdlib-js/stdlib/commit/134c5141e7f471a82d5a3bd01a0bc6b8f9b71421) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/tribonacci` [(#8031)](https://github.com/stdlib-js/stdlib/pull/8031) _(by Gunj Joshi, Athan Reines)_
 -   [`dc3487c`](https://github.com/stdlib-js/stdlib/commit/dc3487cf4d8063b22fc6311ac4492579c815911e) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/tribonaccif` [(#8032)](https://github.com/stdlib-js/stdlib/pull/8032) _(by Gunj Joshi, Athan Reines)_
