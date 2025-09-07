@@ -21,7 +21,7 @@
 // MODULES //
 
 var isnan = require( './../../../../base/assert/is-nan' );
-var isInteger = require( './../../../../base/assert/is-integer' );
+var isNonnegativeInteger = require( './../../../../base/assert/is-nonnegative-integer' );
 var isEven = require( './../../../../base/assert/is-even' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var FLOAT64_MAX_NTH_DOUBLE_FACTORIAL = require( '@stdlib/constants/float64/max-nth-double-factorial' ); // eslint-disable-line id-length
@@ -56,14 +56,11 @@ function factorial2( n ) {
 	var out;
 	var v;
 	var i;
-	if ( isnan( n ) ) {
+	if ( isnan( n ) || !isNonnegativeInteger( n ) ) {
 		return NaN;
 	}
 	if ( n > FLOAT64_MAX_NTH_DOUBLE_FACTORIAL ) {
 		return PINF;
-	}
-	if ( n < 0 || isInteger( n ) === false ) {
-		return NaN;
 	}
 	v = n|0; // asm type annotation
 	if ( v === 0|0 || v === 1|0 ) {
