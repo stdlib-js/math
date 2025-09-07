@@ -228,6 +228,10 @@
 
 ### BREAKING CHANGES
 
+-   [`dc3487c`](https://github.com/stdlib-js/stdlib/commit/dc3487cf4d8063b22fc6311ac4492579c815911e): update signature to accept floats
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
 -   [`9f18e41`](https://github.com/stdlib-js/stdlib/commit/9f18e41cfb9c374786e413d455fc513f705c237e): update signature to accept floats
 
     -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
@@ -641,6 +645,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`dc3487c`](https://github.com/stdlib-js/stdlib/commit/dc3487cf4d8063b22fc6311ac4492579c815911e) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/tribonaccif` [(#8032)](https://github.com/stdlib-js/stdlib/pull/8032) _(by Gunj Joshi, Athan Reines)_
 -   [`42ef0dd`](https://github.com/stdlib-js/stdlib/commit/42ef0dd6460f3cf18a27342361439760f81d3d86) - **refactor:** add explicit NaN check _(by Athan Reines)_
 -   [`83bec65`](https://github.com/stdlib-js/stdlib/commit/83bec65012192d2c4cdfcc852c1d5626a1e13ef0) - **refactor:** add explicit NaN check _(by Athan Reines)_
 -   [`9f18e41`](https://github.com/stdlib-js/stdlib/commit/9f18e41cfb9c374786e413d455fc513f705c237e) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/factorial2f` [(#8030)](https://github.com/stdlib-js/stdlib/pull/8030) _(by Gunj Joshi, Athan Reines)_
