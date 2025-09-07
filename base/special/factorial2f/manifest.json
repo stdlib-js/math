@@ -40,7 +40,8 @@
         "@stdlib/math/base/assert/is-evenf",
         "@stdlib/constants/float32/pinf",
         "@stdlib/constants/float32/max-nth-double-factorial",
-        "@stdlib/math/base/assert/is-nonnegative-integerf"
+        "@stdlib/math/base/assert/is-nonnegative-integerf",
+        "@stdlib/math/base/assert/is-nanf"
       ]
     },
     {
@@ -57,7 +58,8 @@
         "@stdlib/math/base/assert/is-evenf",
         "@stdlib/constants/float32/pinf",
         "@stdlib/constants/float32/max-nth-double-factorial",
-        "@stdlib/math/base/assert/is-nonnegative-integerf"
+        "@stdlib/math/base/assert/is-nonnegative-integerf",
+        "@stdlib/math/base/assert/is-nanf"
       ]
     },
     {
@@ -74,7 +76,8 @@
         "@stdlib/math/base/assert/is-evenf",
         "@stdlib/constants/float32/pinf",
         "@stdlib/constants/float32/max-nth-double-factorial",
-        "@stdlib/math/base/assert/is-nonnegative-integerf"
+        "@stdlib/math/base/assert/is-nonnegative-integerf",
+        "@stdlib/math/base/assert/is-nanf"
       ]
     }
   ]

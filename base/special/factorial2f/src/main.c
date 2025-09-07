@@ -18,6 +18,7 @@
 
 #include "stdlib/math/base/special/factorial2f.h"
 #include "stdlib/math/base/assert/is_evenf.h"
+#include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/constants/float32/pinf.h"
 #include "stdlib/constants/float32/max_nth_double_factorial.h"
 #include "stdlib/math/base/assert/is_nonnegative_integerf.h"
@@ -37,7 +38,7 @@ float stdlib_base_factorial2f( const float n ) {
 	float out;
 	float i;
 
-	if ( !stdlib_base_is_nonnegative_integerf( n ) ) {
+	if ( stdlib_base_is_nanf( n ) || !stdlib_base_is_nonnegative_integerf( n ) ) {
 		return 0.0f / 0.0f; // NaN
 	}
 	if ( n > STDLIB_CONSTANT_FLOAT32_MAX_NTH_DOUBLE_FACTORIAL ) {

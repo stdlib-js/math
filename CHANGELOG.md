@@ -641,6 +641,8 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`42ef0dd`](https://github.com/stdlib-js/stdlib/commit/42ef0dd6460f3cf18a27342361439760f81d3d86) - **refactor:** add explicit NaN check _(by Athan Reines)_
+-   [`83bec65`](https://github.com/stdlib-js/stdlib/commit/83bec65012192d2c4cdfcc852c1d5626a1e13ef0) - **refactor:** add explicit NaN check _(by Athan Reines)_
 -   [`9f18e41`](https://github.com/stdlib-js/stdlib/commit/9f18e41cfb9c374786e413d455fc513f705c237e) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/factorial2f` [(#8030)](https://github.com/stdlib-js/stdlib/pull/8030) _(by Gunj Joshi, Athan Reines)_
 -   [`862befd`](https://github.com/stdlib-js/stdlib/commit/862befd29f5c2dc64e14f64497ff025dd6c00921) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/factorial2` [(#8029)](https://github.com/stdlib-js/stdlib/pull/8029) _(by Gunj Joshi)_
 -   [`5967ff0`](https://github.com/stdlib-js/stdlib/commit/5967ff0776bd0b67f1378625f87a7797bb9954c3) - **chore:** add structured package data for packages in `math/base/special` [(#8022)](https://github.com/stdlib-js/stdlib/pull/8022) _(by Gunj Joshi, Athan Reines)_
