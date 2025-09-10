@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-09)
+## Unreleased (2025-09-10)
 
 <section class="features">
 
@@ -649,6 +649,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`d910ae7`](https://github.com/stdlib-js/stdlib/commit/d910ae750ee569aa0e3d41a50c21f3cab2c27c16) - **chore:** add structured package data for `math/base/special/cceil` [(#7964)](https://github.com/stdlib-js/stdlib/pull/7964) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`3edf54a`](https://github.com/stdlib-js/stdlib/commit/3edf54aeebc16d3a3b3e5c92ecddb0948aec1930) - **chore:** add structured package data for packages in `math/base/special` [(#8046)](https://github.com/stdlib-js/stdlib/pull/8046) _(by Gunj Joshi, Athan Reines)_
 -   [`f4532a0`](https://github.com/stdlib-js/stdlib/commit/f4532a0a1c7a506a00ce68aa452790d62f01da1a) - **chore:** add structured package data for packages in `math/base/special` [(#8045)](https://github.com/stdlib-js/stdlib/pull/8045) _(by Gunj Joshi)_
 -   [`23bddcf`](https://github.com/stdlib-js/stdlib/commit/23bddcf5ebe5289a03d5590b58fa4a0f0c93cab7) - **chore:** add structured package data for packages in `math/base/special` [(#8037)](https://github.com/stdlib-js/stdlib/pull/8037) _(by Gunj Joshi, Athan Reines)_
