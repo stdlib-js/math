@@ -55,7 +55,7 @@ function unary( x, y ) { // FIXME: move to separate package
 
 	// WARNING: we assume that, if we're provided something which has a data buffer resembling a typed array, we're provided a typed ndarray buffer; however, this can lead to potential unintended errors as the native add-on cannot work with non-typed array objects (e.g., generic arrays)...
 	if ( !( isTypedArrayLike( xdata ) && isTypedArrayLike( ydata ) ) ) {
-		return js( x, y );
+		return js.assign( x, y );
 	}
 	addon( xdata, serialize( x ), ydata, serialize( y ) );
 	return y;

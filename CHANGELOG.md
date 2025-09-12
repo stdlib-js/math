@@ -158,6 +158,7 @@
 
 ### Bug Fixes
 
+-   [`ece831b`](https://github.com/stdlib-js/stdlib/commit/ece831b187c2e9b9ee3d29b527b39b4005ee9fe8) - fallback to `assign` method
 -   [`280494a`](https://github.com/stdlib-js/stdlib/commit/280494ae7aa4394e84bcf9aaa2833698a0b6a82c) - ensure support for \"generic\" ndarrays
 -   [`5a7e089`](https://github.com/stdlib-js/stdlib/commit/5a7e089cae843c60489c0b222f41fc29f405c36d) - use correct `f32` emulation
 -   [`25ed2e6`](https://github.com/stdlib-js/stdlib/commit/25ed2e674ecd5d5c29aebde65b7f57d3bcabdda2) - use single-precision float literal in comparison for `math/base/special/fast/absf`
@@ -668,6 +669,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`ece831b`](https://github.com/stdlib-js/stdlib/commit/ece831b187c2e9b9ee3d29b527b39b4005ee9fe8) - **fix:** fallback to `assign` method _(by Athan Reines)_
 -   [`bac2f1a`](https://github.com/stdlib-js/stdlib/commit/bac2f1af6007402efe470fffaf6a4c37645a3e28) - **docs:** fix comments _(by Athan Reines)_
 -   [`a657481`](https://github.com/stdlib-js/stdlib/commit/a657481f37f58ef7158aff3363a9ce1819766d7a) - **docs:** add missing 'that' in comment _(by Philipp Burckhardt)_
 -   [`32598ec`](https://github.com/stdlib-js/stdlib/commit/32598ecb974bacd50b686118a78cf8d06f66f645) - **chore:** reorder keywords _(by Athan Reines)_
