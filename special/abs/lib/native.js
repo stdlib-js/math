@@ -20,46 +20,21 @@
 
 // MODULES //
 
-var isTypedArrayLike = require( '@stdlib/assert/is-typed-array-like' );
-var serialize = require( '@stdlib/ndarray/base/serialize-meta-data' );
+var dispatch = require( '@stdlib/ndarray/base/unary-addon-dispatch' );
 var setProps = require( '@stdlib/ndarray/base/meta-data-props' );
-var getData = require( '@stdlib/ndarray/data-buffer' );
 var dtypes = require( '@stdlib/ndarray/dtypes' );
 var ufunc = require( './../../../tools/unary' );
 var addon = require( './../src/addon.node' );
 var meta = require( './meta.json' );
 var types = require( './types.json' );
 var policies = require( './policies.json' );
-var js = require( './main.js' );
+var fallback = require( './main.js' ).assign;
 
 
 // VARIABLES //
 
 var idtypes = dtypes( 'numeric_and_generic' );
 var odtypes = dtypes( 'real_and_generic' );
-
-
-// FUNCTIONS //
-
-/**
-* Applies a unary function to an input ndarray and assigns results to an output ndarray.
-*
-* @private
-* @param {ndarray} x - input array
-* @param {ndarray} y - output array
-* @returns {ndarray} output array
-*/
-function unary( x, y ) { // FIXME: move to separate package
-	var xdata = getData( x );
-	var ydata = getData( y );
-
-	// WARNING: we assume that, if we're provided something which has a data buffer resembling a typed array, we're provided a typed ndarray buffer; however, this can lead to potential unintended errors as the native add-on cannot work with non-typed array objects (e.g., generic arrays)...
-	if ( !( isTypedArrayLike( xdata ) && isTypedArrayLike( ydata ) ) ) {
-		return js.assign( x, y );
-	}
-	addon( xdata, serialize( x ), ydata, serialize( y ) );
-	return y;
-}
 
 
 // MAIN //
@@ -91,7 +66,7 @@ function unary( x, y ) { // FIXME: move to separate package
 * var arr = ndarray2array( y );
 * // returns [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ]
 */
-var abs = ufunc( unary, [ idtypes ], odtypes, policies ); // eslint-disable-line vars-on-top
+var abs = ufunc( dispatch( addon, fallback ), [ idtypes ], odtypes, policies );
 setProps( meta, types, abs );
 setProps( meta, types, abs.assign );
 
