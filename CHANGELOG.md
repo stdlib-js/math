@@ -668,6 +668,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`bac2f1a`](https://github.com/stdlib-js/stdlib/commit/bac2f1af6007402efe470fffaf6a4c37645a3e28) - **docs:** fix comments _(by Athan Reines)_
 -   [`a657481`](https://github.com/stdlib-js/stdlib/commit/a657481f37f58ef7158aff3363a9ce1819766d7a) - **docs:** add missing 'that' in comment _(by Philipp Burckhardt)_
 -   [`32598ec`](https://github.com/stdlib-js/stdlib/commit/32598ecb974bacd50b686118a78cf8d06f66f645) - **chore:** reorder keywords _(by Athan Reines)_
 -   [`7fae2b3`](https://github.com/stdlib-js/stdlib/commit/7fae2b3248e89e03711cad05025272325ecfa044) - **docs:** update description _(by Athan Reines)_

@@ -54,7 +54,7 @@ var policies = {
 	'casting': 'none'
 };
 
-// Create a function performs element-wise computation:
+// Create a function that performs element-wise computation:
 var abs = ufunc( dispatcher, [ idt ], odt, policies );
 
 // Generate an array of random numbers:
