@@ -17,13 +17,13 @@
 
     options.order: string (optional)
         Output array order. Must be either row-major (C-style) or column-major
-        (Fortran-style). By default, the order of the output array is inferred
-        the same as the input array.
+        (Fortran-style). By default, the order of the output array is the same
+        as the input array.
 
     Returns
     -------
     y: ndarray
-        Results.
+        Output array containing element-wise results.
 
     Examples
     --------

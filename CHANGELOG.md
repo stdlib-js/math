@@ -668,6 +668,9 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`32598ec`](https://github.com/stdlib-js/stdlib/commit/32598ecb974bacd50b686118a78cf8d06f66f645) - **chore:** reorder keywords _(by Athan Reines)_
+-   [`7fae2b3`](https://github.com/stdlib-js/stdlib/commit/7fae2b3248e89e03711cad05025272325ecfa044) - **docs:** update description _(by Athan Reines)_
+-   [`3c7848b`](https://github.com/stdlib-js/stdlib/commit/3c7848b9132d720b08a8baefe90924c259e805cf) - **docs:** fix copy _(by Athan Reines)_
 -   [`280494a`](https://github.com/stdlib-js/stdlib/commit/280494ae7aa4394e84bcf9aaa2833698a0b6a82c) - **fix:** ensure support for \"generic\" ndarrays _(by Athan Reines)_
 -   [`a2e3f27`](https://github.com/stdlib-js/stdlib/commit/a2e3f27361ab16d06646e4d08a3eb3f46821a678) - **refactor:** remove support for non-ndarray arguments _(by Athan Reines)_
 -   [`1b46342`](https://github.com/stdlib-js/stdlib/commit/1b46342c2fcca2033b3736740d77ab42902a3483) - **docs:** add copy _(by Athan Reines)_
