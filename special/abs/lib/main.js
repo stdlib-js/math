@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2020 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,18 +16,59 @@
 * limitations under the License.
 */
 
+/* eslint-disable max-len */
+
 'use strict';
 
 // MODULES //
 
+var dispatcher = require( '@stdlib/ndarray/dispatch' );
+var dtypes = require( '@stdlib/ndarray/dtypes' );
+var unary = require( '@stdlib/ndarray/base/unary' );
+var ufunc = require( './../../../tools/unary' );
 var setProps = require( '@stdlib/ndarray/base/meta-data-props' );
 var meta = require( './meta.json' );
+var data = require( './data.js' );
 var types = require( './types.json' );
-var abs = require( './abs.js' );
+var policies = require( './policies.json' );
+
+
+// VARIABLES //
+
+var idtypes = dtypes( 'numeric_and_generic' );
+var odtypes = dtypes( 'real_and_generic' );
 
 
 // MAIN //
 
+/**
+* Computes the absolute value for each element in an ndarray.
+*
+* @name abs
+* @type {Function}
+* @param {ndarray} x - input ndarray
+* @param {Options} [options] - options
+* @param {string} [options.order] - output array order
+* @param {string} [options.dtype] - output array dtype
+* @throws {TypeError} first argument must be an ndarray-like object
+* @throws {TypeError} options argument must be an object
+* @throws {TypeError} must provide valid options
+* @returns {ndarray} output ndarray
+*
+* @example
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
+* var array = require( '@stdlib/ndarray/array' );
+*
+* var x = array( [ [ 1.0, -2.0 ], [ -3.0, 4.0 ] ] );
+* // returns <ndarray>
+*
+* var y = abs( x );
+* // returns <ndarray>
+*
+* var arr = ndarray2array( y );
+* // returns [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ]
+*/
+var abs = ufunc( dispatcher( unary, types, data, meta.nargs, meta.nin, meta.nout ), [ idtypes ], odtypes, policies );
 setProps( meta, types, abs );
 setProps( meta, types, abs.assign );
 

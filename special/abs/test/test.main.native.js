@@ -20,7 +20,9 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var naryFunction = require( '@stdlib/utils/nary-function' );
 var uniform = require( '@stdlib/random/uniform' );
 var zeros = require( '@stdlib/ndarray/zeros' );
@@ -30,18 +32,25 @@ var getShape = require( '@stdlib/ndarray/shape' );
 var getOrder = require( '@stdlib/ndarray/order' );
 var getDType = require( '@stdlib/ndarray/dtype' );
 var base = require( './../../../base/special/abs' );
-var abs = require( './../lib/main.js' );
+
+
+// VARIABLES //
+
+var abs = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( abs instanceof Error )
+};
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof abs, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function throws an error if provided a first argument which is not an ndarray-like object', function test( t ) {
+tape( 'the function throws an error if provided a first argument which is not an ndarray-like object', opts, function test( t ) {
 	var values;
 	var i;
 
@@ -70,7 +79,7 @@ tape( 'the function throws an error if provided a first argument which is not an
 	}
 });
 
-tape( 'the function throws an error if provided a first argument which is not an ndarray-like object (options)', function test( t ) {
+tape( 'the function throws an error if provided a first argument which is not an ndarray-like object (options)', opts, function test( t ) {
 	var values;
 	var i;
 
@@ -99,7 +108,7 @@ tape( 'the function throws an error if provided a first argument which is not an
 	}
 });
 
-tape( 'the function throws an error if provided a second argument which is not an object', function test( t ) {
+tape( 'the function throws an error if provided a second argument which is not an object', opts, function test( t ) {
 	var values;
 	var x;
 	var i;
@@ -132,7 +141,7 @@ tape( 'the function throws an error if provided a second argument which is not a
 	}
 });
 
-tape( 'the function throws an error if provided a second argument which is not an invalid `dtype` option', function test( t ) {
+tape( 'the function throws an error if provided a second argument which is not an invalid `dtype` option', opts, function test( t ) {
 	var values;
 	var x;
 	var i;
@@ -168,7 +177,7 @@ tape( 'the function throws an error if provided a second argument which is not a
 	}
 });
 
-tape( 'the function throws an error if provided a second argument which is not an invalid `order` option', function test( t ) {
+tape( 'the function throws an error if provided a second argument which is not an invalid `order` option', opts, function test( t ) {
 	var values;
 	var x;
 	var i;
@@ -204,7 +213,7 @@ tape( 'the function throws an error if provided a second argument which is not a
 	}
 });
 
-tape( 'the function computes the absolute value for each element in an ndarray', function test( t ) {
+tape( 'the function computes the absolute value for each element in an ndarray', opts, function test( t ) {
 	var expected;
 	var x;
 	var y;
@@ -223,7 +232,7 @@ tape( 'the function computes the absolute value for each element in an ndarray',
 	t.end();
 });
 
-tape( 'the function supports specifying the output ndarray data type', function test( t ) {
+tape( 'the function supports specifying the output ndarray data type', opts, function test( t ) {
 	var expected;
 	var x;
 	var y;
@@ -245,7 +254,7 @@ tape( 'the function supports specifying the output ndarray data type', function 
 	t.end();
 });
 
-tape( 'the function supports specifying the output ndarray order', function test( t ) {
+tape( 'the function supports specifying the output ndarray order', opts, function test( t ) {
 	var expected;
 	var x;
 	var y;

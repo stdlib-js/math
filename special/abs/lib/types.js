@@ -41,6 +41,13 @@ var types = [
 
 	dtypes.generic, dtypes.generic,
 
+	dtypes.complex128, dtypes.float64,
+	dtypes.complex128, dtypes.generic,
+
+	dtypes.complex64, dtypes.float32,
+	dtypes.complex64, dtypes.float64,
+	dtypes.complex64, dtypes.generic,
+
 	dtypes.int32, dtypes.int32,
 	dtypes.int32, dtypes.uint32,
 	dtypes.int32, dtypes.float64,

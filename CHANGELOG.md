@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-10)
+## Unreleased (2025-09-12)
 
 <section class="features">
 
@@ -227,6 +227,24 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`a2e3f27`](https://github.com/stdlib-js/stdlib/commit/a2e3f27361ab16d06646e4d08a3eb3f46821a678): remove support for non-ndarray arguments
+
+    -   To migrate, users should wrap non-ndarray arguments using
+        `@stdlib/ndarray/array` or `@stdlib/ndarray/from-scalar` which will
+        convert non-ndarray arguments to ndarrays. In general, if a user
+        is providing a number, a user is likely to want a number in return.
+        Similarly for built-in array types. So always returning an ndarray
+        is likely not what a user wants. This change essentially requires
+        users to be explicit about what implementation and behavior they
+        desire. If a user still wants to retain previous behavior, they
+        can write a thin wrapper a top the new API which performs delegation
+        based on whether an input argument is a scalar, array, or an ndarray.
+
+-   [`fe25ba3`](https://github.com/stdlib-js/stdlib/commit/fe25ba3ab6e5def2aa99901b2e53cbe45a76e284): remove support for non-ndarray arguments
+
+    -   To migrate, users will need to create higher-level wrappers which
+        perform argument dispatch.
 
 -   [`134c514`](https://github.com/stdlib-js/stdlib/commit/134c5141e7f471a82d5a3bd01a0bc6b8f9b71421): update signature to accept doubles
 
@@ -649,6 +667,9 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`a2e3f27`](https://github.com/stdlib-js/stdlib/commit/a2e3f27361ab16d06646e4d08a3eb3f46821a678) - **refactor:** remove support for non-ndarray arguments _(by Athan Reines)_
+-   [`1b46342`](https://github.com/stdlib-js/stdlib/commit/1b46342c2fcca2033b3736740d77ab42902a3483) - **docs:** add copy _(by Athan Reines)_
+-   [`fe25ba3`](https://github.com/stdlib-js/stdlib/commit/fe25ba3ab6e5def2aa99901b2e53cbe45a76e284) - **refactor:** remove support for non-ndarray arguments _(by Athan Reines)_
 -   [`d910ae7`](https://github.com/stdlib-js/stdlib/commit/d910ae750ee569aa0e3d41a50c21f3cab2c27c16) - **chore:** add structured package data for `math/base/special/cceil` [(#7964)](https://github.com/stdlib-js/stdlib/pull/7964) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`3edf54a`](https://github.com/stdlib-js/stdlib/commit/3edf54aeebc16d3a3b3e5c92ecddb0948aec1930) - **chore:** add structured package data for packages in `math/base/special` [(#8046)](https://github.com/stdlib-js/stdlib/pull/8046) _(by Gunj Joshi, Athan Reines)_
 -   [`f4532a0`](https://github.com/stdlib-js/stdlib/commit/f4532a0a1c7a506a00ce68aa452790d62f01da1a) - **chore:** add structured package data for packages in `math/base/special` [(#8045)](https://github.com/stdlib-js/stdlib/pull/8045) _(by Gunj Joshi)_
