@@ -25,7 +25,7 @@ import { typedndarray, realcomplexndarray, realndarray, genericndarray, RealAndG
 /**
 * Input array.
 */
-type InputArray = realcomplexndarray;
+type InputArray = realcomplexndarray | genericndarray<number>;
 
 /**
 * Output array.
