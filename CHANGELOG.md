@@ -669,6 +669,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`86edcb5`](https://github.com/stdlib-js/stdlib/commit/86edcb559be453cb7d1156076bfc940a37a39af0) - **chore:** add structured package data for packages in `math/base/special` [(#8054)](https://github.com/stdlib-js/stdlib/pull/8054) _(by Gunj Joshi, Athan Reines)_
 -   [`a495900`](https://github.com/stdlib-js/stdlib/commit/a495900053117b43f7f011627915a82d3aca520e) - **chore:** add structured package data for packages in `math/base/special` [(#8053)](https://github.com/stdlib-js/stdlib/pull/8053) _(by Gunj Joshi, Athan Reines)_
 -   [`9bee6e1`](https://github.com/stdlib-js/stdlib/commit/9bee6e10100c14195fb1b13bcb4df244885edb64) - **chore:** add structured package data for packages in `math/base/special` [(#8052)](https://github.com/stdlib-js/stdlib/pull/8052) _(by Gunj Joshi, Athan Reines)_
 -   [`c7229c9`](https://github.com/stdlib-js/stdlib/commit/c7229c91160851c316f4caefd6aea6e387621edd) - **refactor:** consolidate files _(by Athan Reines)_
