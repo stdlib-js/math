@@ -31,6 +31,7 @@ var dtypes = require( '@stdlib/ndarray/dtypes' );
 
 // MAIN //
 
+// Type signatures...
 var types = [
 	dtypes.float64, dtypes.float64,
 	dtypes.float64, dtypes.generic,

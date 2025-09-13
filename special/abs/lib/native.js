@@ -16,25 +16,19 @@
 * limitations under the License.
 */
 
+/* eslint-disable max-len */
+
 'use strict';
 
 // MODULES //
 
 var dispatch = require( '@stdlib/ndarray/base/unary-addon-dispatch' );
 var setProps = require( '@stdlib/ndarray/base/meta-data-props' );
-var dtypes = require( '@stdlib/ndarray/dtypes' );
 var ufunc = require( './../../../tools/unary' );
 var addon = require( './../src/addon.node' );
-var meta = require( './meta.json' );
 var types = require( './types.json' );
-var policies = require( './policies.json' );
+var config = require( './config.js' );
 var fallback = require( './main.js' ).assign;
-
-
-// VARIABLES //
-
-var idtypes = dtypes( 'numeric_and_generic' );
-var odtypes = dtypes( 'real_and_generic' );
 
 
 // MAIN //
@@ -66,9 +60,9 @@ var odtypes = dtypes( 'real_and_generic' );
 * var arr = ndarray2array( y );
 * // returns [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ]
 */
-var abs = ufunc( dispatch( addon, fallback ), [ idtypes ], odtypes, policies );
-setProps( meta, types, abs );
-setProps( meta, types, abs.assign );
+var abs = ufunc( dispatch( addon, fallback ), [ config.idtypes ], config.odtypes, config.policies );
+setProps( config, types, abs );
+setProps( config, types, abs.assign );
 
 
 // EXPORTS //

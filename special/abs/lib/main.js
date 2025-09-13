@@ -22,21 +22,13 @@
 
 // MODULES //
 
-var dispatcher = require( '@stdlib/ndarray/dispatch' );
-var dtypes = require( '@stdlib/ndarray/dtypes' );
-var unary = require( '@stdlib/ndarray/base/unary' );
-var ufunc = require( './../../../tools/unary' );
+var dispatch = require( '@stdlib/ndarray/dispatch' );
 var setProps = require( '@stdlib/ndarray/base/meta-data-props' );
-var meta = require( './meta.json' );
+var ufunc = require( './../../../tools/unary' );
+var unary = require( '@stdlib/ndarray/base/unary' );
 var data = require( './data.js' );
 var types = require( './types.json' );
-var policies = require( './policies.json' );
-
-
-// VARIABLES //
-
-var idtypes = dtypes( 'numeric_and_generic' );
-var odtypes = dtypes( 'real_and_generic' );
+var config = require( './config.js' );
 
 
 // MAIN //
@@ -68,9 +60,9 @@ var odtypes = dtypes( 'real_and_generic' );
 * var arr = ndarray2array( y );
 * // returns [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ]
 */
-var abs = ufunc( dispatcher( unary, types, data, meta.nargs, meta.nin, meta.nout ), [ idtypes ], odtypes, policies );
-setProps( meta, types, abs );
-setProps( meta, types, abs.assign );
+var abs = ufunc( dispatch( unary, types, data, config.nargs, config.nin, config.nout ), [ config.idtypes ], config.odtypes, config.policies );
+setProps( config, types, abs );
+setProps( config, types, abs.assign );
 
 
 // EXPORTS //
