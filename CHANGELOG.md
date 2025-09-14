@@ -670,6 +670,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`a7138d3`](https://github.com/stdlib-js/stdlib/commit/a7138d32c4015b37b22237ab660f134947e97231) - **refactor:** use explicit `float32` casting in `math/base/special/fast/absf` [(#8074)](https://github.com/stdlib-js/stdlib/pull/8074) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`ebe6958`](https://github.com/stdlib-js/stdlib/commit/ebe6958b249324104a1aeca54a75480fb6555cdf) - **feat:** add unary function database in `math/special/data` [(#8065)](https://github.com/stdlib-js/stdlib/pull/8065) _(by Gunj Joshi, Athan Reines)_
 -   [`86edcb5`](https://github.com/stdlib-js/stdlib/commit/86edcb559be453cb7d1156076bfc940a37a39af0) - **chore:** add structured package data for packages in `math/base/special` [(#8054)](https://github.com/stdlib-js/stdlib/pull/8054) _(by Gunj Joshi, Athan Reines)_
 -   [`a495900`](https://github.com/stdlib-js/stdlib/commit/a495900053117b43f7f011627915a82d3aca520e) - **chore:** add structured package data for packages in `math/base/special` [(#8053)](https://github.com/stdlib-js/stdlib/pull/8053) _(by Gunj Joshi, Athan Reines)_
