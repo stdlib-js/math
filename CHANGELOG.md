@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-14)
+## Unreleased (2025-09-15)
 
 <section class="features">
 
@@ -159,6 +159,7 @@
 
 ### Bug Fixes
 
+-   [`d686540`](https://github.com/stdlib-js/stdlib/commit/d68654015c8d42b2d7cefbed4a42d7dd02344575) - correct function references in `absgammaln` entry
 -   [`ece831b`](https://github.com/stdlib-js/stdlib/commit/ece831b187c2e9b9ee3d29b527b39b4005ee9fe8) - fallback to `assign` method
 -   [`280494a`](https://github.com/stdlib-js/stdlib/commit/280494ae7aa4394e84bcf9aaa2833698a0b6a82c) - ensure support for \"generic\" ndarrays
 -   [`5a7e089`](https://github.com/stdlib-js/stdlib/commit/5a7e089cae843c60489c0b222f41fc29f405c36d) - use correct `f32` emulation
@@ -670,6 +671,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`d686540`](https://github.com/stdlib-js/stdlib/commit/d68654015c8d42b2d7cefbed4a42d7dd02344575) - **fix:** correct function references in `absgammaln` entry _(by Philipp Burckhardt)_
 -   [`a7138d3`](https://github.com/stdlib-js/stdlib/commit/a7138d32c4015b37b22237ab660f134947e97231) - **refactor:** use explicit `float32` casting in `math/base/special/fast/absf` [(#8074)](https://github.com/stdlib-js/stdlib/pull/8074) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`ebe6958`](https://github.com/stdlib-js/stdlib/commit/ebe6958b249324104a1aeca54a75480fb6555cdf) - **feat:** add unary function database in `math/special/data` [(#8065)](https://github.com/stdlib-js/stdlib/pull/8065) _(by Gunj Joshi, Athan Reines)_
 -   [`86edcb5`](https://github.com/stdlib-js/stdlib/commit/86edcb559be453cb7d1156076bfc940a37a39af0) - **chore:** add structured package data for packages in `math/base/special` [(#8054)](https://github.com/stdlib-js/stdlib/pull/8054) _(by Gunj Joshi, Athan Reines)_
