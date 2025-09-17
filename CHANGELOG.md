@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-15)
+## Unreleased (2025-09-17)
 
 <section class="features">
 
 ### Features
 
+-   [`b8c8599`](https://github.com/stdlib-js/stdlib/commit/b8c859949da73f6f5f834ba91a00cb8b04bc0560) - add unary scaffold database and associated generation script [(#8084)](https://github.com/stdlib-js/stdlib/pull/8084)
 -   [`ebe6958`](https://github.com/stdlib-js/stdlib/commit/ebe6958b249324104a1aeca54a75480fb6555cdf) - add unary function database in `math/special/data` [(#8065)](https://github.com/stdlib-js/stdlib/pull/8065)
 -   [`c8b2a70`](https://github.com/stdlib-js/stdlib/commit/c8b2a7011179f4326a31fc018ab9fcd35b9144e2) - add `math/base/special/fast/hypotf` [(#7998)](https://github.com/stdlib-js/stdlib/pull/7998)
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
@@ -671,6 +672,7 @@ A total of 63 issues were closed in this release:
 
 <details>
 
+-   [`b8c8599`](https://github.com/stdlib-js/stdlib/commit/b8c859949da73f6f5f834ba91a00cb8b04bc0560) - **feat:** add unary scaffold database and associated generation script [(#8084)](https://github.com/stdlib-js/stdlib/pull/8084) _(by Gunj Joshi, Athan Reines)_
 -   [`d686540`](https://github.com/stdlib-js/stdlib/commit/d68654015c8d42b2d7cefbed4a42d7dd02344575) - **fix:** correct function references in `absgammaln` entry _(by Philipp Burckhardt)_
 -   [`a7138d3`](https://github.com/stdlib-js/stdlib/commit/a7138d32c4015b37b22237ab660f134947e97231) - **refactor:** use explicit `float32` casting in `math/base/special/fast/absf` [(#8074)](https://github.com/stdlib-js/stdlib/pull/8074) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`ebe6958`](https://github.com/stdlib-js/stdlib/commit/ebe6958b249324104a1aeca54a75480fb6555cdf) - **feat:** add unary function database in `math/special/data` [(#8065)](https://github.com/stdlib-js/stdlib/pull/8065) _(by Gunj Joshi, Athan Reines)_
