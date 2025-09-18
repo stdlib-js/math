@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-17)
+## Unreleased (2025-09-18)
 
 <section class="features">
 
@@ -672,6 +672,8 @@ A total of 64 issues were closed in this release:
 
 <details>
 
+-   [`10beb0d`](https://github.com/stdlib-js/stdlib/commit/10beb0df73f0a3e2ac0f65c0549a12449984f73e) - **docs:** update type _(by Athan Reines)_
+-   [`3e48fcc`](https://github.com/stdlib-js/stdlib/commit/3e48fcc6bf6ad7ca53e1241bb6fb382d4684d977) - **docs:** update type _(by Athan Reines)_
 -   [`5b5daee`](https://github.com/stdlib-js/stdlib/commit/5b5daeec126b0807718af14a2875cbacc4bd63bf) - **chore:** address EditorConfig lint errors [(#8093)](https://github.com/stdlib-js/stdlib/pull/8093) _(by Shaswata Panda, Athan Reines)_
 -   [`b8c8599`](https://github.com/stdlib-js/stdlib/commit/b8c859949da73f6f5f834ba91a00cb8b04bc0560) - **feat:** add unary scaffold database and associated generation script [(#8084)](https://github.com/stdlib-js/stdlib/pull/8084) _(by Gunj Joshi, Athan Reines)_
 -   [`d686540`](https://github.com/stdlib-js/stdlib/commit/d68654015c8d42b2d7cefbed4a42d7dd02344575) - **fix:** correct function references in `absgammaln` entry _(by Philipp Burckhardt)_
