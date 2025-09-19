@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-18)
+## Unreleased (2025-09-19)
 
 <section class="features">
 
 ### Features
 
+-   [`dd2f99a`](https://github.com/stdlib-js/stdlib/commit/dd2f99ad80d15b184cb0a19a3ff77d38efc4ec6f) - add `math/base/special/fast/maxf` [(#8105)](https://github.com/stdlib-js/stdlib/pull/8105)
 -   [`b8c8599`](https://github.com/stdlib-js/stdlib/commit/b8c859949da73f6f5f834ba91a00cb8b04bc0560) - add unary scaffold database and associated generation script [(#8084)](https://github.com/stdlib-js/stdlib/pull/8084)
 -   [`ebe6958`](https://github.com/stdlib-js/stdlib/commit/ebe6958b249324104a1aeca54a75480fb6555cdf) - add unary function database in `math/special/data` [(#8065)](https://github.com/stdlib-js/stdlib/pull/8065)
 -   [`c8b2a70`](https://github.com/stdlib-js/stdlib/commit/c8b2a7011179f4326a31fc018ab9fcd35b9144e2) - add `math/base/special/fast/hypotf` [(#7998)](https://github.com/stdlib-js/stdlib/pull/7998)
@@ -672,6 +673,7 @@ A total of 64 issues were closed in this release:
 
 <details>
 
+-   [`dd2f99a`](https://github.com/stdlib-js/stdlib/commit/dd2f99ad80d15b184cb0a19a3ff77d38efc4ec6f) - **feat:** add `math/base/special/fast/maxf` [(#8105)](https://github.com/stdlib-js/stdlib/pull/8105) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`10beb0d`](https://github.com/stdlib-js/stdlib/commit/10beb0df73f0a3e2ac0f65c0549a12449984f73e) - **docs:** update type _(by Athan Reines)_
 -   [`3e48fcc`](https://github.com/stdlib-js/stdlib/commit/3e48fcc6bf6ad7ca53e1241bb6fb382d4684d977) - **docs:** update type _(by Athan Reines)_
 -   [`5b5daee`](https://github.com/stdlib-js/stdlib/commit/5b5daeec126b0807718af14a2875cbacc4bd63bf) - **chore:** address EditorConfig lint errors [(#8093)](https://github.com/stdlib-js/stdlib/pull/8093) _(by Shaswata Panda, Athan Reines)_
