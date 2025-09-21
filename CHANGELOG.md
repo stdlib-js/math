@@ -10,6 +10,15 @@
 
 ### Features
 
+-   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - update `math/tools` TypeScript declarations
+-   [`4f2a179`](https://github.com/stdlib-js/stdlib/commit/4f2a1793b12243ce6344a2a85380aa68dbb29a91) - update `math/strided/special` TypeScript declarations
+-   [`3a77e5b`](https://github.com/stdlib-js/stdlib/commit/3a77e5b3dc949ab8abfe0b372dc1f2ca94ee698e) - update `math/special` TypeScript declarations
+-   [`e32d84e`](https://github.com/stdlib-js/stdlib/commit/e32d84ee9a4de85373a4ca00013d3f5ac79b5497) - update `math/iter/utils` TypeScript declarations
+-   [`0cb4fa2`](https://github.com/stdlib-js/stdlib/commit/0cb4fa227526f827ed67d77ca97ef0eef3946d0d) - update `math/iter/sequences` TypeScript declarations
+-   [`beb375b`](https://github.com/stdlib-js/stdlib/commit/beb375b423e52830b3abc543fa7a0c2b06eddfd3) - update `math/base/tools` TypeScript declarations
+-   [`0c12692`](https://github.com/stdlib-js/stdlib/commit/0c1269252e78645d914d9bbb8fb2221599ca6c2d) - update `math/base/special/fast` TypeScript declarations
+-   [`eb99018`](https://github.com/stdlib-js/stdlib/commit/eb990185eb01a179244bfda6f5ad8e7382d0af65) - update `math/base/special` TypeScript declarations
+-   [`03d8378`](https://github.com/stdlib-js/stdlib/commit/03d8378be4d577708269753d5d57bb75c2efef98) - update `math/base/assert` TypeScript declarations
 -   [`dd2f99a`](https://github.com/stdlib-js/stdlib/commit/dd2f99ad80d15b184cb0a19a3ff77d38efc4ec6f) - add `math/base/special/fast/maxf` [(#8105)](https://github.com/stdlib-js/stdlib/pull/8105)
 -   [`b8c8599`](https://github.com/stdlib-js/stdlib/commit/b8c859949da73f6f5f834ba91a00cb8b04bc0560) - add unary scaffold database and associated generation script [(#8084)](https://github.com/stdlib-js/stdlib/pull/8084)
 -   [`ebe6958`](https://github.com/stdlib-js/stdlib/commit/ebe6958b249324104a1aeca54a75480fb6555cdf) - add unary function database in `math/special/data` [(#8065)](https://github.com/stdlib-js/stdlib/pull/8065)
@@ -220,6 +229,7 @@
 
 ### Reverts
 
+-   [`be44dd1`](https://github.com/stdlib-js/stdlib/commit/be44dd10bbf2f4a3eaf81ee942c8bbb05372947d) - fix: correct function references in `absgammaln` entry
 -   [`5691bc8`](https://github.com/stdlib-js/stdlib/commit/5691bc85544b4ad4ddc1e46ef59d0e11df983471) - fix: load correct float32 sqrt dependency
 -   [`6c22949`](https://github.com/stdlib-js/stdlib/commit/6c22949a73493c90e4b814373ab8d8600395c5fd) - fix: correct variable name typo in hornerDescending function
 -   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
@@ -674,6 +684,18 @@ A total of 65 issues were closed in this release:
 
 <details>
 
+-   [`be44dd1`](https://github.com/stdlib-js/stdlib/commit/be44dd10bbf2f4a3eaf81ee942c8bbb05372947d) - **revert:** fix: correct function references in `absgammaln` entry _(by Philipp Burckhardt)_
+-   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - **feat:** update `math/tools` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`4f2a179`](https://github.com/stdlib-js/stdlib/commit/4f2a1793b12243ce6344a2a85380aa68dbb29a91) - **feat:** update `math/strided/special` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`3a77e5b`](https://github.com/stdlib-js/stdlib/commit/3a77e5b3dc949ab8abfe0b372dc1f2ca94ee698e) - **feat:** update `math/special` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`e32d84e`](https://github.com/stdlib-js/stdlib/commit/e32d84ee9a4de85373a4ca00013d3f5ac79b5497) - **feat:** update `math/iter/utils` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`0cb4fa2`](https://github.com/stdlib-js/stdlib/commit/0cb4fa227526f827ed67d77ca97ef0eef3946d0d) - **feat:** update `math/iter/sequences` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`beb375b`](https://github.com/stdlib-js/stdlib/commit/beb375b423e52830b3abc543fa7a0c2b06eddfd3) - **feat:** update `math/base/tools` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`0c12692`](https://github.com/stdlib-js/stdlib/commit/0c1269252e78645d914d9bbb8fb2221599ca6c2d) - **feat:** update `math/base/special/fast` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`eb99018`](https://github.com/stdlib-js/stdlib/commit/eb990185eb01a179244bfda6f5ad8e7382d0af65) - **feat:** update `math/base/special` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`03d8378`](https://github.com/stdlib-js/stdlib/commit/03d8378be4d577708269753d5d57bb75c2efef98) - **feat:** update `math/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
+-   [`af59fdf`](https://github.com/stdlib-js/stdlib/commit/af59fdfb5f2aae5ced449bd6ccddc012047f0089) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`3618307`](https://github.com/stdlib-js/stdlib/commit/3618307d26ce818f5c5f543a0ad22e24c319e4a7) - **fix:** access enum values via data type objects _(by Athan Reines)_
 -   [`39c8178`](https://github.com/stdlib-js/stdlib/commit/39c81784cc23324dc9ec312ccc1ed466db849feb) - **chore:** fix EditorConfig lint errors [(#8107)](https://github.com/stdlib-js/stdlib/pull/8107) _(by Payal Goswami)_
 -   [`dd2f99a`](https://github.com/stdlib-js/stdlib/commit/dd2f99ad80d15b184cb0a19a3ff77d38efc4ec6f) - **feat:** add `math/base/special/fast/maxf` [(#8105)](https://github.com/stdlib-js/stdlib/pull/8105) _(by Nakul Krishnakumar, Athan Reines)_
