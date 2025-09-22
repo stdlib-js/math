@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-21)
+## Unreleased (2025-09-22)
 
 <section class="features">
 
 ### Features
 
+-   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112)
 -   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - update `math/tools` TypeScript declarations
 -   [`4f2a179`](https://github.com/stdlib-js/stdlib/commit/4f2a1793b12243ce6344a2a85380aa68dbb29a91) - update `math/strided/special` TypeScript declarations
 -   [`3a77e5b`](https://github.com/stdlib-js/stdlib/commit/3a77e5b3dc949ab8abfe0b372dc1f2ca94ee698e) - update `math/special` TypeScript declarations
@@ -684,6 +685,7 @@ A total of 65 issues were closed in this release:
 
 <details>
 
+-   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - **feat:** add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112) _(by Nakul Krishnakumar)_
 -   [`be44dd1`](https://github.com/stdlib-js/stdlib/commit/be44dd10bbf2f4a3eaf81ee942c8bbb05372947d) - **revert:** fix: correct function references in `absgammaln` entry _(by Philipp Burckhardt)_
 -   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - **feat:** update `math/tools` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`4f2a179`](https://github.com/stdlib-js/stdlib/commit/4f2a1793b12243ce6344a2a85380aa68dbb29a91) - **feat:** update `math/strided/special` TypeScript declarations _(by Philipp Burckhardt)_
