@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-28)
+## Unreleased (2025-09-29)
 
 <section class="features">
 
@@ -685,6 +685,7 @@ A total of 66 issues were closed in this release:
 
 <details>
 
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`f3c3dd2`](https://github.com/stdlib-js/stdlib/commit/f3c3dd25a02d59021b78c5b3641af79c3b1ee1e3) - **chore:** fix EditorConfig lint errors [(#8152)](https://github.com/stdlib-js/stdlib/pull/8152) _(by Payal Goswami)_
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - **feat:** add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112) _(by Nakul Krishnakumar)_
 -   [`be44dd1`](https://github.com/stdlib-js/stdlib/commit/be44dd10bbf2f4a3eaf81ee942c8bbb05372947d) - **revert:** fix: correct function references in `absgammaln` entry _(by Philipp Burckhardt)_
