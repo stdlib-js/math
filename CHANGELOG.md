@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-29)
+## Unreleased (2025-10-01)
 
 <section class="features">
 
@@ -685,6 +685,15 @@ A total of 66 issues were closed in this release:
 
 <details>
 
+-   [`9c2193f`](https://github.com/stdlib-js/stdlib/commit/9c2193fa693eeadfcf9b9b42aef17eafe9fc3929) - **test:** add tests to achieve full coverage in `math/base/special/tanh` _(by Philipp Burckhardt)_
+-   [`26aa92d`](https://github.com/stdlib-js/stdlib/commit/26aa92df5fac5d7c2fc7b7a0b2a12a82aed4a071) - **test:** add tests to achieve full coverage in `math/base/special/log1p` _(by Philipp Burckhardt)_
+-   [`9f1195a`](https://github.com/stdlib-js/stdlib/commit/9f1195aaf6a2584bb0040e9cbf392d1c2675ce7d) - **test:** add tests to achieve full coverage in `math/base/special/sici` _(by Philipp Burckhardt)_
+-   [`e41e763`](https://github.com/stdlib-js/stdlib/commit/e41e7632d6766660661d228bb3eb7068f0ff7af9) - **test:** add tests to achieve full coverage in `math/base/special/lnf` _(by Philipp Burckhardt)_
+-   [`f57dc90`](https://github.com/stdlib-js/stdlib/commit/f57dc9044ffdab8171ed9eebcf20861fd1324910) - **test:** add tests to achieve full coverage in `math/base/special/trigammaf` _(by Philipp Burckhardt)_
+-   [`d85f434`](https://github.com/stdlib-js/stdlib/commit/d85f43478ba915744a09478cc92952ced186acb9) - **test:** add tests to achieve full coverage in `math/base/special/trigamma` _(by Philipp Burckhardt)_
+-   [`a6915fe`](https://github.com/stdlib-js/stdlib/commit/a6915fe67f4fe4320042b7f1f08792cca16a2cff) - **test:** achieve full coverage for `math/base/special/spence` _(by Philipp Burckhardt)_
+-   [`f2715a7`](https://github.com/stdlib-js/stdlib/commit/f2715a74433482922edf665d2e9035db987bd0b0) - **test:** add tests to achieve full coverage in `math/base/special/ln` _(by Philipp Burckhardt)_
+-   [`c1e4eaf`](https://github.com/stdlib-js/stdlib/commit/c1e4eaf5ae152df6c10309cbc8d12eef53e95343) - **test:** add tests to achieve full coverage in `math/base/special/gamma1pm1` _(by Philipp Burckhardt)_
 -   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`f3c3dd2`](https://github.com/stdlib-js/stdlib/commit/f3c3dd25a02d59021b78c5b3641af79c3b1ee1e3) - **chore:** fix EditorConfig lint errors [(#8152)](https://github.com/stdlib-js/stdlib/pull/8152) _(by Payal Goswami)_
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - **feat:** add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112) _(by Nakul Krishnakumar)_
