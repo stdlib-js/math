@@ -685,6 +685,7 @@ A total of 66 issues were closed in this release:
 
 <details>
 
+-   [`76a39f5`](https://github.com/stdlib-js/stdlib/commit/76a39f526428dc933cb6a16d1b05037173fe6c81) - **test:** add tests for full coverage _(by Philipp Burckhardt)_
 -   [`9c2193f`](https://github.com/stdlib-js/stdlib/commit/9c2193fa693eeadfcf9b9b42aef17eafe9fc3929) - **test:** add tests to achieve full coverage in `math/base/special/tanh` _(by Philipp Burckhardt)_
 -   [`26aa92d`](https://github.com/stdlib-js/stdlib/commit/26aa92df5fac5d7c2fc7b7a0b2a12a82aed4a071) - **test:** add tests to achieve full coverage in `math/base/special/log1p` _(by Philipp Burckhardt)_
 -   [`9f1195a`](https://github.com/stdlib-js/stdlib/commit/9f1195aaf6a2584bb0040e9cbf392d1c2675ce7d) - **test:** add tests to achieve full coverage in `math/base/special/sici` _(by Philipp Burckhardt)_
