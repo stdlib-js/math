@@ -21,6 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
+var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isInfinite = require( './../../../../base/assert/is-infinite' );
 var isnan = require( '@stdlib/assert/is-nan' );
 var abs = require( './../../../../base/special/abs' );
@@ -121,5 +122,51 @@ tape( 'the function evaluates the beta function (tested against Boost)', functio
 			t.ok( delta <= tol, 'within tolerance. a: '+a2[i]+'. b: '+b2[i]+'. y: '+y+'. E: '+expected2[i]+'. Δ: '+delta+'. tol: '+tol );
 		}
 	}
+	t.end();
+});
+
+tape( 'the function handles edge case where a+b < EPS', function test( t ) {
+	var v;
+
+	// Test case where c = a + b < EPS
+	v = beta( EPS/4.0, EPS/4.0 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function handles edge case where c = a and b < EPS', function test( t ) {
+	var v;
+
+	v = beta( 10.0, EPS/2.0 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
+	v = beta( 100.0, EPS/3.0 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function handles large values where abs(b*ambh) < (cgh*100) && a > 100', function test( t ) { // eslint-disable-line @cspell/spellchecker
+	var v;
+
+	v = beta( 150.0, 0.5 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
+	v = beta( 200.0, 1.0 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function handles very large values where cgh > 1.0e10', function test( t ) {
+	var v;
+
+	v = beta( 1.0e10, 1.0e10 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
+	v = beta( 5.0e10, 2.0e10 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
 	t.end();
 });

@@ -685,6 +685,12 @@ A total of 66 issues were closed in this release:
 
 <details>
 
+-   [`a6755be`](https://github.com/stdlib-js/stdlib/commit/a6755be276fe99a1ec76ed0958373a9bc3995c17) - **test:** add tests to achieve full coverage in `beta` and `betaln` _(by Philipp Burckhardt)_
+-   [`3c033a4`](https://github.com/stdlib-js/stdlib/commit/3c033a4ba718f4383126edcdf6fc974950d0ead8) - **test:** add tests to achieve full coverage in `erf`, `erfc`, `erfcinv`, `erfcx`, and `erfinv` _(by Philipp Burckhardt)_
+-   [`f6204a4`](https://github.com/stdlib-js/stdlib/commit/f6204a4fc179ad7f12ecdfa6a472ae56d4f04b9d) - **test:** add tests to achieve full coverage in `acosf` and `asin` _(by Philipp Burckhardt)_
+-   [`52e5b8b`](https://github.com/stdlib-js/stdlib/commit/52e5b8b77789e7056e1cd2d44107a7cc0e893ee9) - **test:** add tests to achieve full coverage in `gamma-lanczos-sum`, `gamma-lanczos-sum-expg-scaled`, and `gamma-lanczos-sum-expg-scaledf` _(by Philipp Burckhardt)_
+-   [`aa9ef48`](https://github.com/stdlib-js/stdlib/commit/aa9ef480ef389bbc3559350c0cff03bc41bfa8be) - **test:** add tests to achieve full coverage in `exp` and `expm1` _(by Philipp Burckhardt)_
+-   [`da465f5`](https://github.com/stdlib-js/stdlib/commit/da465f50915ba0dab1c480a8459ab16b559b7c0f) - **test:** add tests to achieve full coverage in `cinv` and `cinvf` _(by Philipp Burckhardt)_
 -   [`fbcf259`](https://github.com/stdlib-js/stdlib/commit/fbcf259ab4d3fe7a2b04148a84cd7fdf77b55af4) - **test:** add tests to achieve full coverage in `ellipe` _(by Philipp Burckhardt)_
 -   [`d4f480c`](https://github.com/stdlib-js/stdlib/commit/d4f480c706e4c9ad879d565573ed28f5a53065bb) - **test:** add tests to achieve full coverage in `ellipk` _(by Philipp Burckhardt)_
 -   [`8a605a5`](https://github.com/stdlib-js/stdlib/commit/8a605a5c354e71cf76b10e1c1bd6d1acc45a1257) - **test:** add tests to achieve full coverage in Bessel functions _(by Philipp Burckhardt)_

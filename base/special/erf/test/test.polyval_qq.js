@@ -22,53 +22,43 @@
 
 var tape = require( 'tape' );
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
-var isnan = require( './../../../../base/assert/is-nan' );
-var dceval = require( './../lib/dceval.js' );
+var evalpoly = require( './../lib/polyval_qq.js' );
 
 
 // TESTS //
 
 tape( 'main export is a function', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof dceval, 'function', 'main export is a function' );
+	t.strictEqual( typeof evalpoly, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function evaluates the Chebyshev series for values in [-1.1, 1.1]', function test( t ) {
+tape( 'the function evaluates a polynomial for x = 0', function test( t ) {
+	var v = evalpoly( 0.0 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function evaluates a polynomial for positive values', function test( t ) {
 	var v;
 
-	v = dceval( 0.0 );
+	v = evalpoly( 0.5 );
 	t.strictEqual( isNumber( v ), true, 'returns expected value' );
 
-	v = dceval( 0.5 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
-
-	v = dceval( -0.5 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
-
-	v = dceval( 1.0 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
-
-	v = dceval( -1.0 );
+	v = evalpoly( 1.0 );
 	t.strictEqual( isNumber( v ), true, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function returns NaN for values outside [-1.1, 1.1]', function test( t ) {
+tape( 'the function evaluates a polynomial for negative values', function test( t ) {
 	var v;
 
-	v = dceval( -1.2 );
-	t.strictEqual( isnan( v ), true, 'returns expected value' );
+	v = evalpoly( -0.5 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
 
-	v = dceval( 1.2 );
-	t.strictEqual( isnan( v ), true, 'returns expected value' );
-
-	v = dceval( -2.0 );
-	t.strictEqual( isnan( v ), true, 'returns expected value' );
-
-	v = dceval( 2.0 );
-	t.strictEqual( isnan( v ), true, 'returns expected value' );
+	v = evalpoly( -1.0 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
 
 	t.end();
 });
