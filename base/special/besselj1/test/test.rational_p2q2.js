@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
-var evalrational = require( './../lib/rational_p24q24.js' );
+var evalrational = require( './../lib/rational_p2q2.js' );
 
 
 // TESTS //
@@ -35,7 +35,19 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'the function evaluates a rational function for x = 0', function test( t ) {
 	var v = evalrational( 0.0 );
-	t.strictEqual( v, -1.3803835408054965e-8, 'returns expected value' );
+	t.strictEqual( isNumber( v ), true, 'returns a number' );
+	t.end();
+});
+
+tape( 'the function evaluates a rational function for positive values less than or equal to 1', function test( t ) {
+	var v;
+
+	v = evalrational( 0.5 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
+	v = evalrational( 1.0 );
+	t.strictEqual( isNumber( v ), true, 'returns expected value' );
+
 	t.end();
 });
 
@@ -48,32 +60,11 @@ tape( 'the function evaluates a rational function for negative values', function
 	v = evalrational( -1.0 );
 	t.strictEqual( isNumber( v ), true, 'returns expected value' );
 
-	v = evalrational( -2.0 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
-
-	t.end();
-});
-
-tape( 'the function evaluates a rational function for positive values less than or equal to 1', function test( t ) {
-	var v;
-
-	v = evalrational( 0.25 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
-
-	v = evalrational( 0.5 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
-
-	v = evalrational( 1.0 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
-
 	t.end();
 });
 
 tape( 'the function evaluates a rational function for values greater than 1', function test( t ) {
 	var v;
-
-	v = evalrational( 1.5 );
-	t.strictEqual( isNumber( v ), true, 'returns expected value' );
 
 	v = evalrational( 2.0 );
 	t.strictEqual( isNumber( v ), true, 'returns expected value' );

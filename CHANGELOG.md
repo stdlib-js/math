@@ -685,6 +685,10 @@ A total of 66 issues were closed in this release:
 
 <details>
 
+-   [`fbcf259`](https://github.com/stdlib-js/stdlib/commit/fbcf259ab4d3fe7a2b04148a84cd7fdf77b55af4) - **test:** add tests to achieve full coverage in `ellipe` _(by Philipp Burckhardt)_
+-   [`d4f480c`](https://github.com/stdlib-js/stdlib/commit/d4f480c706e4c9ad879d565573ed28f5a53065bb) - **test:** add tests to achieve full coverage in `ellipk` _(by Philipp Burckhardt)_
+-   [`8a605a5`](https://github.com/stdlib-js/stdlib/commit/8a605a5c354e71cf76b10e1c1bd6d1acc45a1257) - **test:** add tests to achieve full coverage in Bessel functions _(by Philipp Burckhardt)_
+-   [`a8983ad`](https://github.com/stdlib-js/stdlib/commit/a8983ad47eabccb133bcc2cc9dd1e30324241ca0) - **test:** add tests to achieve full coverage in `math/base/special/trigammaf` _(by Philipp Burckhardt)_
 -   [`76a39f5`](https://github.com/stdlib-js/stdlib/commit/76a39f526428dc933cb6a16d1b05037173fe6c81) - **test:** add tests for full coverage _(by Philipp Burckhardt)_
 -   [`9c2193f`](https://github.com/stdlib-js/stdlib/commit/9c2193fa693eeadfcf9b9b42aef17eafe9fc3929) - **test:** add tests to achieve full coverage in `math/base/special/tanh` _(by Philipp Burckhardt)_
 -   [`26aa92d`](https://github.com/stdlib-js/stdlib/commit/26aa92df5fac5d7c2fc7b7a0b2a12a82aed4a071) - **test:** add tests to achieve full coverage in `math/base/special/log1p` _(by Philipp Burckhardt)_
