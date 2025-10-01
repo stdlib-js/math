@@ -685,6 +685,11 @@ A total of 66 issues were closed in this release:
 
 <details>
 
+-   [`0a65e10`](https://github.com/stdlib-js/stdlib/commit/0a65e10b6161874c950ebc20224a394c59398afc) - **test:** add tests to achieve full coverage in `digamma` _(by Philipp Burckhardt)_
+-   [`457674e`](https://github.com/stdlib-js/stdlib/commit/457674ebfc37c325d9a880ccccbbcac1ce07543b) - **test:** add tests to achieve full coverage in `cospif` _(by Philipp Burckhardt)_
+-   [`c1cb6ae`](https://github.com/stdlib-js/stdlib/commit/c1cb6ae0965bc8aa432b8eb2dddb03c8e1b42a2f) - **test:** add tests to achieve full coverage in `cbrt` _(by Philipp Burckhardt)_
+-   [`f275965`](https://github.com/stdlib-js/stdlib/commit/f275965c27882f0dcae4b9caf28e12c7f9b834ad) - **test:** add tests to achieve full coverage in `binomcoeff` _(by Philipp Burckhardt)_
+-   [`fa34e20`](https://github.com/stdlib-js/stdlib/commit/fa34e200572f401836f6297b4630ddfd4f6fee0d) - **test:** add tests to achieve full coverage in `absgammalnf` _(by Philipp Burckhardt)_
 -   [`a6755be`](https://github.com/stdlib-js/stdlib/commit/a6755be276fe99a1ec76ed0958373a9bc3995c17) - **test:** add tests to achieve full coverage in `beta` and `betaln` _(by Philipp Burckhardt)_
 -   [`3c033a4`](https://github.com/stdlib-js/stdlib/commit/3c033a4ba718f4383126edcdf6fc974950d0ead8) - **test:** add tests to achieve full coverage in `erf`, `erfc`, `erfcinv`, `erfcx`, and `erfinv` _(by Philipp Burckhardt)_
 -   [`f6204a4`](https://github.com/stdlib-js/stdlib/commit/f6204a4fc179ad7f12ecdfa6a472ae56d4f04b9d) - **test:** add tests to achieve full coverage in `acosf` and `asin` _(by Philipp Burckhardt)_
