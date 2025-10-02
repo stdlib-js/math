@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-01)
+## Unreleased (2025-10-02)
 
 <section class="features">
 
@@ -230,6 +230,7 @@
 
 ### Reverts
 
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - undo commits adding tests for full code coverage
 -   [`be44dd1`](https://github.com/stdlib-js/stdlib/commit/be44dd10bbf2f4a3eaf81ee942c8bbb05372947d) - fix: correct function references in `absgammaln` entry
 -   [`5691bc8`](https://github.com/stdlib-js/stdlib/commit/5691bc85544b4ad4ddc1e46ef59d0e11df983471) - fix: load correct float32 sqrt dependency
 -   [`6c22949`](https://github.com/stdlib-js/stdlib/commit/6c22949a73493c90e4b814373ab8d8600395c5fd) - fix: correct variable name typo in hornerDescending function
@@ -685,6 +686,7 @@ A total of 66 issues were closed in this release:
 
 <details>
 
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - **revert:** undo commits adding tests for full code coverage _(by Philipp Burckhardt)_
 -   [`0a65e10`](https://github.com/stdlib-js/stdlib/commit/0a65e10b6161874c950ebc20224a394c59398afc) - **test:** add tests to achieve full coverage in `digamma` _(by Philipp Burckhardt)_
 -   [`457674e`](https://github.com/stdlib-js/stdlib/commit/457674ebfc37c325d9a880ccccbbcac1ce07543b) - **test:** add tests to achieve full coverage in `cospif` _(by Philipp Burckhardt)_
 -   [`c1cb6ae`](https://github.com/stdlib-js/stdlib/commit/c1cb6ae0965bc8aa432b8eb2dddb03c8e1b42a2f) - **test:** add tests to achieve full coverage in `cbrt` _(by Philipp Burckhardt)_
