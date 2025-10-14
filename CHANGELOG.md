@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-05)
+## Unreleased (2025-10-14)
 
 <section class="features">
 
@@ -686,6 +686,7 @@ A total of 67 issues were closed in this release:
 
 <details>
 
+-   [`5e81b1b`](https://github.com/stdlib-js/stdlib/commit/5e81b1b2d7a346174db7b37834685083793e389d) - **chore:** add structured package data for `math/base/special/expit` [(#8209)](https://github.com/stdlib-js/stdlib/pull/8209) _(by Manvith M, Athan Reines, Gunj Joshi)_
 -   [`4792a3c`](https://github.com/stdlib-js/stdlib/commit/4792a3cde7d7425fb1e83f3d7457a46aeba84ce0) - **chore:** fix C lint errors [(#8202)](https://github.com/stdlib-js/stdlib/pull/8202) _(by GeoDaoyu)_
 -   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - **revert:** undo commits adding tests for full code coverage _(by Philipp Burckhardt)_
 -   [`0a65e10`](https://github.com/stdlib-js/stdlib/commit/0a65e10b6161874c950ebc20224a394c59398afc) - **test:** add tests to achieve full coverage in `digamma` _(by Philipp Burckhardt)_
@@ -1656,7 +1657,7 @@ A total of 67 issues were closed in this release:
 
 ### Contributors
 
-A total of 47 people contributed to this release. Thank you to the following contributors:
+A total of 48 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anmol Sah
@@ -1685,6 +1686,7 @@ A total of 47 people contributed to this release. Thank you to the following con
 -   Krishnam Agarwal
 -   Lalit Narayan Yadav
 -   Lokesh Ranjan
+-   Manvith M
 -   Mihir Pandit
 -   Nakul Krishnakumar
 -   Neeraj Pathak
