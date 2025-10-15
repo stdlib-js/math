@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-14)
+## Unreleased (2025-10-15)
 
 <section class="features">
 
@@ -686,6 +686,7 @@ A total of 68 issues were closed in this release:
 
 <details>
 
+-   [`f9011e1`](https://github.com/stdlib-js/stdlib/commit/f9011e106214504a2b9d049638021797b59c6ba6) - **bench:** replace stack allocation with dynamic allocation [(#7317)](https://github.com/stdlib-js/stdlib/pull/7317) _(by Navyansh Kesarwani, Athan Reines)_
 -   [`2c9f492`](https://github.com/stdlib-js/stdlib/commit/2c9f492d8e15e860aa56f9d3b5b3845191480700) - **chore:** fix C lint errors [(#8217)](https://github.com/stdlib-js/stdlib/pull/8217) _(by GeoDaoyu, Athan Reines)_
 -   [`5e81b1b`](https://github.com/stdlib-js/stdlib/commit/5e81b1b2d7a346174db7b37834685083793e389d) - **chore:** add structured package data for `math/base/special/expit` [(#8209)](https://github.com/stdlib-js/stdlib/pull/8209) _(by Manvith M, Athan Reines, Gunj Joshi)_
 -   [`4792a3c`](https://github.com/stdlib-js/stdlib/commit/4792a3cde7d7425fb1e83f3d7457a46aeba84ce0) - **chore:** fix C lint errors [(#8202)](https://github.com/stdlib-js/stdlib/pull/8202) _(by GeoDaoyu)_
@@ -1658,7 +1659,7 @@ A total of 68 issues were closed in this release:
 
 ### Contributors
 
-A total of 48 people contributed to this release. Thank you to the following contributors:
+A total of 49 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anmol Sah
@@ -1690,6 +1691,7 @@ A total of 48 people contributed to this release. Thank you to the following con
 -   Manvith M
 -   Mihir Pandit
 -   Nakul Krishnakumar
+-   Navyansh Kesarwani
 -   Neeraj Pathak
 -   Nishant singh
 -   Payal Goswami
