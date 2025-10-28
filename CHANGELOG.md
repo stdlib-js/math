@@ -686,6 +686,7 @@ A total of 68 issues were closed in this release:
 
 <details>
 
+-   [`83b8bd5`](https://github.com/stdlib-js/stdlib/commit/83b8bd5a0582739dd276a08d8ec5f8e64bc2c3f0) - **chore:** add structured package data  for `math/base/special/tand` [(#8278)](https://github.com/stdlib-js/stdlib/pull/8278) _(by Manvith M)_
 -   [`b51e108`](https://github.com/stdlib-js/stdlib/commit/b51e1085a33574bbb5c953e87c79deeab0a7b9c4) - **chore:** add structured package data for `math/base/special/vercos` [(#8303)](https://github.com/stdlib-js/stdlib/pull/8303) _(by Manvith M)_
 -   [`f9011e1`](https://github.com/stdlib-js/stdlib/commit/f9011e106214504a2b9d049638021797b59c6ba6) - **bench:** replace stack allocation with dynamic allocation [(#7317)](https://github.com/stdlib-js/stdlib/pull/7317) _(by Navyansh Kesarwani, Athan Reines)_
 -   [`2c9f492`](https://github.com/stdlib-js/stdlib/commit/2c9f492d8e15e860aa56f9d3b5b3845191480700) - **chore:** fix C lint errors [(#8217)](https://github.com/stdlib-js/stdlib/pull/8217) _(by Geo Daoyu, Athan Reines)_
