@@ -686,6 +686,7 @@ A total of 68 issues were closed in this release:
 
 <details>
 
+-   [`6886e73`](https://github.com/stdlib-js/stdlib/commit/6886e73708b6bac09283744fe3d88f3b4f5001e1) - **chore:** add structured package data for `math/base/special/cabs` [(#8267)](https://github.com/stdlib-js/stdlib/pull/8267) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`fb8466b`](https://github.com/stdlib-js/stdlib/commit/fb8466bbd47bc39677e6f0985131377a2426c0b6) - **chore:** add structured package data  for `math/base/special/tandf` [(#8279)](https://github.com/stdlib-js/stdlib/pull/8279) _(by Manvith M, Athan Reines)_
 -   [`83b8bd5`](https://github.com/stdlib-js/stdlib/commit/83b8bd5a0582739dd276a08d8ec5f8e64bc2c3f0) - **chore:** add structured package data  for `math/base/special/tand` [(#8278)](https://github.com/stdlib-js/stdlib/pull/8278) _(by Manvith M)_
 -   [`b51e108`](https://github.com/stdlib-js/stdlib/commit/b51e1085a33574bbb5c953e87c79deeab0a7b9c4) - **chore:** add structured package data for `math/base/special/vercos` [(#8303)](https://github.com/stdlib-js/stdlib/pull/8303) _(by Manvith M)_
