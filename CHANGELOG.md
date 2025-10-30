@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`50d8f17`](https://github.com/stdlib-js/stdlib/commit/50d8f17e5fb4a6fd9b9ef5919bf28a5632e824db) - update math scaffold databases [(#8311)](https://github.com/stdlib-js/stdlib/pull/8311)
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112)
 -   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - update `math/tools` TypeScript declarations
 -   [`4f2a179`](https://github.com/stdlib-js/stdlib/commit/4f2a1793b12243ce6344a2a85380aa68dbb29a91) - update `math/strided/special` TypeScript declarations
@@ -686,6 +687,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`50d8f17`](https://github.com/stdlib-js/stdlib/commit/50d8f17e5fb4a6fd9b9ef5919bf28a5632e824db) - **feat:** update math scaffold databases [(#8311)](https://github.com/stdlib-js/stdlib/pull/8311) _(by stdlib-bot)_
 -   [`3898217`](https://github.com/stdlib-js/stdlib/commit/38982173aeeb6e4e38c9452768b15b2cd50ebed2) - **chore:** add structured package data  for `math/base/special/truncf` [(#8290)](https://github.com/stdlib-js/stdlib/pull/8290) _(by Manvith M)_
 -   [`2ee3e58`](https://github.com/stdlib-js/stdlib/commit/2ee3e58a2dbf7dc53327af863045fc829c161bc2) - **chore:** fix JavaScript lint errors [(#8270)](https://github.com/stdlib-js/stdlib/pull/8270) _(by Krie, Athan Reines)_
 -   [`6886e73`](https://github.com/stdlib-js/stdlib/commit/6886e73708b6bac09283744fe3d88f3b4f5001e1) - **chore:** add structured package data for `math/base/special/cabs` [(#8267)](https://github.com/stdlib-js/stdlib/pull/8267) _(by Nakul Krishnakumar, Athan Reines)_
