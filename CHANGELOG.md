@@ -688,6 +688,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`9c183ad`](https://github.com/stdlib-js/stdlib/commit/9c183adb4b500dda03c44b40078d9dcbc309c104) - **chore:** add structured package data for `math/base/special/sqrtpi` [(#8315)](https://github.com/stdlib-js/stdlib/pull/8315) _(by Manvith M, Athan Reines)_
 -   [`48d2868`](https://github.com/stdlib-js/stdlib/commit/48d2868f394a19b7426743633a5e07b01410ab81) - **chore:** add structured package data for `math/base/special/sqrtpif` [(#8319)](https://github.com/stdlib-js/stdlib/pull/8319) _(by Manvith M, Athan Reines)_
 -   [`0ef26dd`](https://github.com/stdlib-js/stdlib/commit/0ef26dd5646049d1985c1779771e13a66fc2a2c2) - **chore:** add structured package data for `math/base/special/sqrt1pm1` [(#8320)](https://github.com/stdlib-js/stdlib/pull/8320) _(by Manvith M)_
 -   [`76c09a7`](https://github.com/stdlib-js/stdlib/commit/76c09a7480fc8f9c1ce4846bfd63ecb65f5673ea) - **feat:** update math scaffold databases [(#8312)](https://github.com/stdlib-js/stdlib/pull/8312) _(by stdlib-bot)_
