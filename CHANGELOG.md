@@ -687,6 +687,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`2655852`](https://github.com/stdlib-js/stdlib/commit/265585216921754538d4eff3791f67ca17a4441c) - **chore:** add structured package data for `math/base/special/cabs2` [(#8271)](https://github.com/stdlib-js/stdlib/pull/8271) _(by Nakul Krishnakumar, Athan Reines, Gunj Joshi)_
 -   [`f0b8248`](https://github.com/stdlib-js/stdlib/commit/f0b824896b0a8d93e550c490f17b538122a530c0) - **chore:** add structured package data for `math/base/special/bernoulli` [(#8277)](https://github.com/stdlib-js/stdlib/pull/8277) _(by Manvith M, Athan Reines)_
 -   [`4126672`](https://github.com/stdlib-js/stdlib/commit/41266720aa68fb932272101857bac854d7fde9d0) - **chore:** add structured package data for `math/base/special/tribonaccif` [(#8284)](https://github.com/stdlib-js/stdlib/pull/8284) _(by Manvith M, Athan Reines)_
 -   [`66db098`](https://github.com/stdlib-js/stdlib/commit/66db09859785274dfccecbff53547fae82a27e8c) - **chore:** add structured package data for `math/base/special/tribonacci` [(#8283)](https://github.com/stdlib-js/stdlib/pull/8283) _(by Manvith M)_
