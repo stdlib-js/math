@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`af5f5cc`](https://github.com/stdlib-js/stdlib/commit/af5f5cc63f726c5a3f209c03b1c2e644c730e5e2) - update math scaffold databases [(#8321)](https://github.com/stdlib-js/stdlib/pull/8321)
 -   [`76c09a7`](https://github.com/stdlib-js/stdlib/commit/76c09a7480fc8f9c1ce4846bfd63ecb65f5673ea) - update math scaffold databases [(#8312)](https://github.com/stdlib-js/stdlib/pull/8312)
 -   [`50d8f17`](https://github.com/stdlib-js/stdlib/commit/50d8f17e5fb4a6fd9b9ef5919bf28a5632e824db) - update math scaffold databases [(#8311)](https://github.com/stdlib-js/stdlib/pull/8311)
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112)
@@ -688,6 +689,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`af5f5cc`](https://github.com/stdlib-js/stdlib/commit/af5f5cc63f726c5a3f209c03b1c2e644c730e5e2) - **feat:** update math scaffold databases [(#8321)](https://github.com/stdlib-js/stdlib/pull/8321) _(by stdlib-bot)_
 -   [`ad4b609`](https://github.com/stdlib-js/stdlib/commit/ad4b609a1e90d7379bf470a2d595ab305737a964) - **chore:** add structured package data for `math/base/special/sqrtf` [(#8314)](https://github.com/stdlib-js/stdlib/pull/8314) _(by Manvith M, Athan Reines)_
 -   [`9c183ad`](https://github.com/stdlib-js/stdlib/commit/9c183adb4b500dda03c44b40078d9dcbc309c104) - **chore:** add structured package data for `math/base/special/sqrtpi` [(#8315)](https://github.com/stdlib-js/stdlib/pull/8315) _(by Manvith M, Athan Reines)_
 -   [`48d2868`](https://github.com/stdlib-js/stdlib/commit/48d2868f394a19b7426743633a5e07b01410ab81) - **chore:** add structured package data for `math/base/special/sqrtpif` [(#8319)](https://github.com/stdlib-js/stdlib/pull/8319) _(by Manvith M, Athan Reines)_
