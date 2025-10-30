@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`76c09a7`](https://github.com/stdlib-js/stdlib/commit/76c09a7480fc8f9c1ce4846bfd63ecb65f5673ea) - update math scaffold databases [(#8312)](https://github.com/stdlib-js/stdlib/pull/8312)
 -   [`50d8f17`](https://github.com/stdlib-js/stdlib/commit/50d8f17e5fb4a6fd9b9ef5919bf28a5632e824db) - update math scaffold databases [(#8311)](https://github.com/stdlib-js/stdlib/pull/8311)
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112)
 -   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - update `math/tools` TypeScript declarations
@@ -687,6 +688,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`76c09a7`](https://github.com/stdlib-js/stdlib/commit/76c09a7480fc8f9c1ce4846bfd63ecb65f5673ea) - **feat:** update math scaffold databases [(#8312)](https://github.com/stdlib-js/stdlib/pull/8312) _(by stdlib-bot)_
 -   [`736b37a`](https://github.com/stdlib-js/stdlib/commit/736b37a8b66f157532e7cdb334b17e8aa789f3c8) - **chore:** add structured package data for `math/base/special/cabsf` [(#8272)](https://github.com/stdlib-js/stdlib/pull/8272) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`4bd3187`](https://github.com/stdlib-js/stdlib/commit/4bd3187772a93f0c21cd4cd8e7229329c2a0dcb6) - **chore:** add structured package data for `math/base/special/cabs2f` [(#8292)](https://github.com/stdlib-js/stdlib/pull/8292) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`2655852`](https://github.com/stdlib-js/stdlib/commit/265585216921754538d4eff3791f67ca17a4441c) - **chore:** add structured package data for `math/base/special/cabs2` [(#8271)](https://github.com/stdlib-js/stdlib/pull/8271) _(by Nakul Krishnakumar, Athan Reines, Gunj Joshi)_
