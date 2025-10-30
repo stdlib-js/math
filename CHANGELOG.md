@@ -687,6 +687,8 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`acc8798`](https://github.com/stdlib-js/stdlib/commit/acc8798a757781e9220d30cfe157d25525130180) - **chore:** add structured package data for `math/base/special/trunc` [(#8287)](https://github.com/stdlib-js/stdlib/pull/8287) _(by Manvith M, Athan Reines)_
+-   [`29d863e`](https://github.com/stdlib-js/stdlib/commit/29d863eb2ed44653363695110c03be304f996333) - **chore:** add structured package data for `math/base/special/trunc10` [(#8288)](https://github.com/stdlib-js/stdlib/pull/8288) _(by Manvith M, Athan Reines)_
 -   [`8bdf8cb`](https://github.com/stdlib-js/stdlib/commit/8bdf8cb7d9a48879344226a9dcce9c9258d0ac17) - **chore:** add structured package data for `math/base/special/trunc2` [(#8289)](https://github.com/stdlib-js/stdlib/pull/8289) _(by Manvith M, Athan Reines)_
 -   [`50d8f17`](https://github.com/stdlib-js/stdlib/commit/50d8f17e5fb4a6fd9b9ef5919bf28a5632e824db) - **feat:** update math scaffold databases [(#8311)](https://github.com/stdlib-js/stdlib/pull/8311) _(by stdlib-bot)_
 -   [`3898217`](https://github.com/stdlib-js/stdlib/commit/38982173aeeb6e4e38c9452768b15b2cd50ebed2) - **chore:** add structured package data  for `math/base/special/truncf` [(#8290)](https://github.com/stdlib-js/stdlib/pull/8290) _(by Manvith M)_
