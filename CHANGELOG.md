@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-28)
+## Unreleased (2025-10-30)
 
 <section class="features">
 
@@ -686,6 +686,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`3898217`](https://github.com/stdlib-js/stdlib/commit/38982173aeeb6e4e38c9452768b15b2cd50ebed2) - **chore:** add structured package data  for `math/base/special/truncf` [(#8290)](https://github.com/stdlib-js/stdlib/pull/8290) _(by Manvith M)_
 -   [`2ee3e58`](https://github.com/stdlib-js/stdlib/commit/2ee3e58a2dbf7dc53327af863045fc829c161bc2) - **chore:** fix JavaScript lint errors [(#8270)](https://github.com/stdlib-js/stdlib/pull/8270) _(by Krie, Athan Reines)_
 -   [`6886e73`](https://github.com/stdlib-js/stdlib/commit/6886e73708b6bac09283744fe3d88f3b4f5001e1) - **chore:** add structured package data for `math/base/special/cabs` [(#8267)](https://github.com/stdlib-js/stdlib/pull/8267) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`fb8466b`](https://github.com/stdlib-js/stdlib/commit/fb8466bbd47bc39677e6f0985131377a2426c0b6) - **chore:** add structured package data  for `math/base/special/tandf` [(#8279)](https://github.com/stdlib-js/stdlib/pull/8279) _(by Manvith M, Athan Reines)_
