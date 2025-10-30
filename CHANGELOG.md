@@ -687,6 +687,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`4126672`](https://github.com/stdlib-js/stdlib/commit/41266720aa68fb932272101857bac854d7fde9d0) - **chore:** add structured package data for `math/base/special/tribonaccif` [(#8284)](https://github.com/stdlib-js/stdlib/pull/8284) _(by Manvith M, Athan Reines)_
 -   [`66db098`](https://github.com/stdlib-js/stdlib/commit/66db09859785274dfccecbff53547fae82a27e8c) - **chore:** add structured package data for `math/base/special/tribonacci` [(#8283)](https://github.com/stdlib-js/stdlib/pull/8283) _(by Manvith M)_
 -   [`41f4ebe`](https://github.com/stdlib-js/stdlib/commit/41f4ebe3b2014ab3d9d6366166c412d469e74636) - **chore:** add structured package data for `math/base/special/trigammaf` [(#8286)](https://github.com/stdlib-js/stdlib/pull/8286) _(by Manvith M, Athan Reines)_
 -   [`3a37a61`](https://github.com/stdlib-js/stdlib/commit/3a37a61e518bb3d9346455e5106044f1465946d5) - **chore:** add structured package data for `math/base/special/tanh` [(#8281)](https://github.com/stdlib-js/stdlib/pull/8281) _(by Manvith M, Athan Reines)_
