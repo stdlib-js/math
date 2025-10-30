@@ -687,6 +687,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`736b37a`](https://github.com/stdlib-js/stdlib/commit/736b37a8b66f157532e7cdb334b17e8aa789f3c8) - **chore:** add structured package data for `math/base/special/cabsf` [(#8272)](https://github.com/stdlib-js/stdlib/pull/8272) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`4bd3187`](https://github.com/stdlib-js/stdlib/commit/4bd3187772a93f0c21cd4cd8e7229329c2a0dcb6) - **chore:** add structured package data for `math/base/special/cabs2f` [(#8292)](https://github.com/stdlib-js/stdlib/pull/8292) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`2655852`](https://github.com/stdlib-js/stdlib/commit/265585216921754538d4eff3791f67ca17a4441c) - **chore:** add structured package data for `math/base/special/cabs2` [(#8271)](https://github.com/stdlib-js/stdlib/pull/8271) _(by Nakul Krishnakumar, Athan Reines, Gunj Joshi)_
 -   [`f0b8248`](https://github.com/stdlib-js/stdlib/commit/f0b824896b0a8d93e550c490f17b538122a530c0) - **chore:** add structured package data for `math/base/special/bernoulli` [(#8277)](https://github.com/stdlib-js/stdlib/pull/8277) _(by Manvith M, Athan Reines)_
