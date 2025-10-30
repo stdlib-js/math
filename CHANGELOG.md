@@ -687,6 +687,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`e628df5`](https://github.com/stdlib-js/stdlib/commit/e628df5b747a11d22aca206d7dbb9ac4701ee7de) - **chore:** add structured package data for `math/base/special/tanf` [(#8280)](https://github.com/stdlib-js/stdlib/pull/8280) _(by Manvith M, Athan Reines)_
 -   [`c11f434`](https://github.com/stdlib-js/stdlib/commit/c11f4349b04e794b08ebed9169fc1ef7495d658e) - **chore:** add structured package data for `math/base/special/trigamma` [(#8285)](https://github.com/stdlib-js/stdlib/pull/8285) _(by Manvith M)_
 -   [`acc8798`](https://github.com/stdlib-js/stdlib/commit/acc8798a757781e9220d30cfe157d25525130180) - **chore:** add structured package data for `math/base/special/trunc` [(#8287)](https://github.com/stdlib-js/stdlib/pull/8287) _(by Manvith M, Athan Reines)_
 -   [`29d863e`](https://github.com/stdlib-js/stdlib/commit/29d863eb2ed44653363695110c03be304f996333) - **chore:** add structured package data for `math/base/special/trunc10` [(#8288)](https://github.com/stdlib-js/stdlib/pull/8288) _(by Manvith M, Athan Reines)_
