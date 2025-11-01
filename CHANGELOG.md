@@ -689,6 +689,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`d660d86`](https://github.com/stdlib-js/stdlib/commit/d660d86f226d84be67f159850976e28920536db5) - **chore:** add structured package data for `math/base/special/sindf` [(#8326)](https://github.com/stdlib-js/stdlib/pull/8326) _(by Manvith M, Athan Reines)_
 -   [`2f0032c`](https://github.com/stdlib-js/stdlib/commit/2f0032c2b5901bd178de69251986fa1a718e61f9) - **chore:** add structured package data for `math/base/special/sinh` [(#8328)](https://github.com/stdlib-js/stdlib/pull/8328) _(by Manvith M)_
 -   [`dc68f46`](https://github.com/stdlib-js/stdlib/commit/dc68f465750d1f4785c596dee4f3b87c0520f899) - **chore:** add structured package data for `math/base/special/sinc` [(#8323)](https://github.com/stdlib-js/stdlib/pull/8323) _(by Manvith M)_
 -   [`9640ce0`](https://github.com/stdlib-js/stdlib/commit/9640ce0481a500d2570a7c534f0d1aa65ceceb9f) - **chore:** add structured package data for `math/base/special/sind` [(#8325)](https://github.com/stdlib-js/stdlib/pull/8325) _(by Manvith M)_
