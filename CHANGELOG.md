@@ -689,6 +689,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`eb4543a`](https://github.com/stdlib-js/stdlib/commit/eb4543a5261181d7aba77db4fab18a313e7a6a56) - **chore:** add structured package data for `math/base/special/sinpi` [(#8327)](https://github.com/stdlib-js/stdlib/pull/8327) _(by Manvith M, Athan Reines)_
 -   [`3f1b384`](https://github.com/stdlib-js/stdlib/commit/3f1b384ca567b1e2c8ecc40e0eb7d5c9a1e38f36) - **chore:** add structured package data for `math/base/special/spencef` [(#8332)](https://github.com/stdlib-js/stdlib/pull/8332) _(by Manvith M, Athan Reines)_
 -   [`7dae036`](https://github.com/stdlib-js/stdlib/commit/7dae036db8d91f1b69abad90a10e68a5ff052bce) - **chore:** add structured package data for `math/base/special/spence` [(#8330)](https://github.com/stdlib-js/stdlib/pull/8330) _(by Manvith M, Athan Reines)_
 -   [`8717dee`](https://github.com/stdlib-js/stdlib/commit/8717deef9ec4b557b30b426239b56c6b449d9c91) - **chore:** add structured package data for `math/base/special/sincf` [(#8324)](https://github.com/stdlib-js/stdlib/pull/8324) _(by Manvith M, Athan Reines)_
