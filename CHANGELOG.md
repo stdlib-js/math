@@ -690,6 +690,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`6619c28`](https://github.com/stdlib-js/stdlib/commit/6619c28df9d9c9ff3baf327f443de3dbd6b38e3d) - **chore:** add structured package data for `math/base/special/hacoversin` [(#8346)](https://github.com/stdlib-js/stdlib/pull/8346) _(by Nakul Krishnakumar)_
 -   [`76102d6`](https://github.com/stdlib-js/stdlib/commit/76102d6e97c31e273b3612635098a9bcaa372c4e) - **chore:** add structured package data for `math/base/special/secf` [(#8350)](https://github.com/stdlib-js/stdlib/pull/8350) _(by Manvith M, Athan Reines)_
 -   [`1c4f3ca`](https://github.com/stdlib-js/stdlib/commit/1c4f3ca9f49863d6768d4ceb7dd017632efd5152) - **chore:** add structured package data for `math/base/special/secdf` [(#8349)](https://github.com/stdlib-js/stdlib/pull/8349) _(by Manvith M)_
 -   [`bbc2d5a`](https://github.com/stdlib-js/stdlib/commit/bbc2d5acb0070edc5b5675f8e32da01e1a7b056a) - **chore:** add structured package data for `math/base/special/secd` [(#8348)](https://github.com/stdlib-js/stdlib/pull/8348) _(by Manvith M)_
