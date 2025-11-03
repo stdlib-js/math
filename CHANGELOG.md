@@ -690,6 +690,8 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`e7ce1a8`](https://github.com/stdlib-js/stdlib/commit/e7ce1a8653f31028e8b5d541db7c4de37069f7d9) - **chore:** add structured package data for `math/base/special/floor` [(#8345)](https://github.com/stdlib-js/stdlib/pull/8345) _(by Payal Goswami, Athan Reines)_
+-   [`bf30722`](https://github.com/stdlib-js/stdlib/commit/bf3072201e583a7f3741ea02bec75c2352ba02eb) - **chore:** add structured package data for `math/base/special/round2` [(#8355)](https://github.com/stdlib-js/stdlib/pull/8355) _(by Sachin Pangal, Athan Reines)_
 -   [`b3f545b`](https://github.com/stdlib-js/stdlib/commit/b3f545b23e9342a89be6cebd39b8215a9aec36a0) - **chore:** add structured package data for `math/base/special/round` [(#8354)](https://github.com/stdlib-js/stdlib/pull/8354) _(by Sachin Pangal, Athan Reines)_
 -   [`682cba0`](https://github.com/stdlib-js/stdlib/commit/682cba0950172d7da712e0183778383457bf9cd6) - **chore:** add structured package data for `math/base/special/cceilf` [(#8343)](https://github.com/stdlib-js/stdlib/pull/8343) _(by Nakul Krishnakumar)_
 -   [`d7761a2`](https://github.com/stdlib-js/stdlib/commit/d7761a2124e3d7e0a7badd8dcca554226631935a) - **chore:** add structured package data for `math/base/special/versin` [(#8341)](https://github.com/stdlib-js/stdlib/pull/8341) _(by Nakul Krishnakumar, Athan Reines)_
