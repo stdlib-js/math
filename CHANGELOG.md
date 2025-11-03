@@ -690,6 +690,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`bbc2d5a`](https://github.com/stdlib-js/stdlib/commit/bbc2d5acb0070edc5b5675f8e32da01e1a7b056a) - **chore:** add structured package data for `math/base/special/secd` [(#8348)](https://github.com/stdlib-js/stdlib/pull/8348) _(by Manvith M)_
 -   [`fce0ac6`](https://github.com/stdlib-js/stdlib/commit/fce0ac6a1e1c60b1799b4d9f155664802fd35a35) - **chore:** add structured package data for `math/base/special/signumf` [(#8353)](https://github.com/stdlib-js/stdlib/pull/8353) _(by Manvith M, Athan Reines)_
 -   [`3cd43b8`](https://github.com/stdlib-js/stdlib/commit/3cd43b8349251df46da3dc362241dc5dabe740fc) - **chore:** add structured package data for `math/base/special/signum` [(#8352)](https://github.com/stdlib-js/stdlib/pull/8352) _(by Manvith M, Athan Reines)_
 -   [`4fc251b`](https://github.com/stdlib-js/stdlib/commit/4fc251b7a6e4e1adcac7faf6828dcb171fd51be2) - **chore:** add structured package data for `math/base/special/sech` [(#8351)](https://github.com/stdlib-js/stdlib/pull/8351) _(by Manvith M)_
