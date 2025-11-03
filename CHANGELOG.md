@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-01)
+## Unreleased (2025-11-03)
 
 <section class="features">
 
@@ -690,6 +690,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`4fc251b`](https://github.com/stdlib-js/stdlib/commit/4fc251b7a6e4e1adcac7faf6828dcb171fd51be2) - **chore:** add structured package data for `math/base/special/sech` [(#8351)](https://github.com/stdlib-js/stdlib/pull/8351) _(by Manvith M)_
 -   [`bd65ac6`](https://github.com/stdlib-js/stdlib/commit/bd65ac6fdc538b64259ea25cc61159f7514f6fc0) - **feat:** update math scaffold databases [(#8333)](https://github.com/stdlib-js/stdlib/pull/8333) _(by stdlib-bot)_
 -   [`eb4543a`](https://github.com/stdlib-js/stdlib/commit/eb4543a5261181d7aba77db4fab18a313e7a6a56) - **chore:** add structured package data for `math/base/special/sinpi` [(#8327)](https://github.com/stdlib-js/stdlib/pull/8327) _(by Manvith M, Athan Reines)_
 -   [`3f1b384`](https://github.com/stdlib-js/stdlib/commit/3f1b384ca567b1e2c8ecc40e0eb7d5c9a1e38f36) - **chore:** add structured package data for `math/base/special/spencef` [(#8332)](https://github.com/stdlib-js/stdlib/pull/8332) _(by Manvith M, Athan Reines)_
