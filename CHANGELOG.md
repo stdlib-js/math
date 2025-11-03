@@ -690,6 +690,7 @@ A total of 69 issues were closed in this release:
 
 <details>
 
+-   [`7dbc375`](https://github.com/stdlib-js/stdlib/commit/7dbc375ed1f2cbb3a2b683e6f68a2652d3b30a5c) - **chore:** add structured package data for `math/base/special/factoriallnf` [(#8344)](https://github.com/stdlib-js/stdlib/pull/8344) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`d67890b`](https://github.com/stdlib-js/stdlib/commit/d67890b71c01a10a1733cb1de353bf3537994258) - **chore:** add structured package data for `math/base/special/haversin` [(#8342)](https://github.com/stdlib-js/stdlib/pull/8342) _(by Nakul Krishnakumar)_
 -   [`6619c28`](https://github.com/stdlib-js/stdlib/commit/6619c28df9d9c9ff3baf327f443de3dbd6b38e3d) - **chore:** add structured package data for `math/base/special/hacoversin` [(#8346)](https://github.com/stdlib-js/stdlib/pull/8346) _(by Nakul Krishnakumar)_
 -   [`76102d6`](https://github.com/stdlib-js/stdlib/commit/76102d6e97c31e273b3612635098a9bcaa372c4e) - **chore:** add structured package data for `math/base/special/secf` [(#8350)](https://github.com/stdlib-js/stdlib/pull/8350) _(by Manvith M, Athan Reines)_
