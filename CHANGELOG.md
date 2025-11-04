@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`605a0cc`](https://github.com/stdlib-js/stdlib/commit/605a0cc7d7c3c88a93f1135a119fdfec06dd623a) - update math scaffold databases [(#8378)](https://github.com/stdlib-js/stdlib/pull/8378)
 -   [`b3d819f`](https://github.com/stdlib-js/stdlib/commit/b3d819fcf3989ee83b5e841951d7442b73b0c600) - update math scaffold databases [(#8359)](https://github.com/stdlib-js/stdlib/pull/8359)
 -   [`bd65ac6`](https://github.com/stdlib-js/stdlib/commit/bd65ac6fdc538b64259ea25cc61159f7514f6fc0) - update math scaffold databases [(#8333)](https://github.com/stdlib-js/stdlib/pull/8333)
 -   [`af5f5cc`](https://github.com/stdlib-js/stdlib/commit/af5f5cc63f726c5a3f209c03b1c2e644c730e5e2) - update math scaffold databases [(#8321)](https://github.com/stdlib-js/stdlib/pull/8321)
@@ -691,6 +692,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`605a0cc`](https://github.com/stdlib-js/stdlib/commit/605a0cc7d7c3c88a93f1135a119fdfec06dd623a) - **feat:** update math scaffold databases [(#8378)](https://github.com/stdlib-js/stdlib/pull/8378) _(by stdlib-bot)_
 -   [`fafaa5d`](https://github.com/stdlib-js/stdlib/commit/fafaa5d073aaae9f08d79577fcf853c069e4a268) - **chore:** add structured package data for `math/base/special/rad2degf` [(#8374)](https://github.com/stdlib-js/stdlib/pull/8374) _(by Sachin Pangal, Athan Reines)_
 -   [`8288816`](https://github.com/stdlib-js/stdlib/commit/82888168075c39258b2d49785ac5d2949b357212) - **chore:** add structured package data for `math/base/special/rad2deg` [(#8373)](https://github.com/stdlib-js/stdlib/pull/8373) _(by Sachin Pangal, Athan Reines)_
 -   [`e51994c`](https://github.com/stdlib-js/stdlib/commit/e51994c171aa52d08bc40a86645dfe74ed9f30a0) - **chore:** add structured package data for `math/base/special/ramp` [(#8375)](https://github.com/stdlib-js/stdlib/pull/8375) _(by Sachin Pangal, Athan Reines)_
