@@ -691,6 +691,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`fafaa5d`](https://github.com/stdlib-js/stdlib/commit/fafaa5d073aaae9f08d79577fcf853c069e4a268) - **chore:** add structured package data for `math/base/special/rad2degf` [(#8374)](https://github.com/stdlib-js/stdlib/pull/8374) _(by Sachin Pangal, Athan Reines)_
 -   [`8288816`](https://github.com/stdlib-js/stdlib/commit/82888168075c39258b2d49785ac5d2949b357212) - **chore:** add structured package data for `math/base/special/rad2deg` [(#8373)](https://github.com/stdlib-js/stdlib/pull/8373) _(by Sachin Pangal, Athan Reines)_
 -   [`e51994c`](https://github.com/stdlib-js/stdlib/commit/e51994c171aa52d08bc40a86645dfe74ed9f30a0) - **chore:** add structured package data for `math/base/special/ramp` [(#8375)](https://github.com/stdlib-js/stdlib/pull/8375) _(by Sachin Pangal, Athan Reines)_
 -   [`ff947e3`](https://github.com/stdlib-js/stdlib/commit/ff947e33d1cc8ecd7fb7fbd98b081fbcb047b450) - **chore:** add structured package data for `math/base/special/round10` [(#8364)](https://github.com/stdlib-js/stdlib/pull/8364) _(by Manvith M, Athan Reines)_
