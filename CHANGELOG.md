@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-03)
+## Unreleased (2025-11-04)
 
 <section class="features">
 
@@ -691,6 +691,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`bab592b`](https://github.com/stdlib-js/stdlib/commit/bab592bc1290ade87531acd5331d203da95eb946) - **chore:** add structured package data for `math/base/special/ln` [(#8368)](https://github.com/stdlib-js/stdlib/pull/8368) _(by Manvith M)_
 -   [`b3d819f`](https://github.com/stdlib-js/stdlib/commit/b3d819fcf3989ee83b5e841951d7442b73b0c600) - **feat:** update math scaffold databases [(#8359)](https://github.com/stdlib-js/stdlib/pull/8359) _(by stdlib-bot)_
 -   [`f55a8b1`](https://github.com/stdlib-js/stdlib/commit/f55a8b112b7a9a0c103ab4fde4e9c5aef506f509) - **chore:** fix C lint errors [(#8360)](https://github.com/stdlib-js/stdlib/pull/8360) _(by Geo Daoyu)_
 -   [`e7ce1a8`](https://github.com/stdlib-js/stdlib/commit/e7ce1a8653f31028e8b5d541db7c4de37069f7d9) - **chore:** add structured package data for `math/base/special/floor` [(#8345)](https://github.com/stdlib-js/stdlib/pull/8345) _(by Payal Goswami, Athan Reines)_
