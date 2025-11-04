@@ -691,6 +691,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`ff947e3`](https://github.com/stdlib-js/stdlib/commit/ff947e33d1cc8ecd7fb7fbd98b081fbcb047b450) - **chore:** add structured package data for `math/base/special/round10` [(#8364)](https://github.com/stdlib-js/stdlib/pull/8364) _(by Manvith M, Athan Reines)_
 -   [`ee69837`](https://github.com/stdlib-js/stdlib/commit/ee69837af9809f33f5c1af3fba0c9794e5c7bf8c) - **chore:** add structured package data for `math/base/special/roundf` [(#8365)](https://github.com/stdlib-js/stdlib/pull/8365) _(by Manvith M, Athan Reines)_
 -   [`a01f693`](https://github.com/stdlib-js/stdlib/commit/a01f693f8d00d2d023360ce3fc55a51b868dad90) - **chore:** add structured package data for `math/base/special/lnf` [(#8369)](https://github.com/stdlib-js/stdlib/pull/8369) _(by Manvith M, Athan Reines)_
 -   [`78dbf84`](https://github.com/stdlib-js/stdlib/commit/78dbf8405999969cdf9b5a2949c27a11d54d5c1f) - **chore:** add structured package data for `math/base/special/rsqrt` [(#8366)](https://github.com/stdlib-js/stdlib/pull/8366) _(by Manvith M)_
