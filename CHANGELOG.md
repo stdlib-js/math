@@ -692,6 +692,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`e56d5cb`](https://github.com/stdlib-js/stdlib/commit/e56d5cb8e82d660918024052fa4a1b60c390f321) - **chore:** add structured package data for `math/base/special/logitf` [(#8387)](https://github.com/stdlib-js/stdlib/pull/8387) _(by Manvith M, Athan Reines)_
 -   [`1270286`](https://github.com/stdlib-js/stdlib/commit/127028651dc3ed5047bd8bf7e7424909b74af979) - **chore:** add structured package data for `math/base/special/lucas` [(#8389)](https://github.com/stdlib-js/stdlib/pull/8389) _(by Manvith M)_
 -   [`d99bf69`](https://github.com/stdlib-js/stdlib/commit/d99bf69217e586832475c1386e5cbba0d40b1765) - **chore:** add structured package data for `math/base/special/log10` [(#8384)](https://github.com/stdlib-js/stdlib/pull/8384) _(by Manvith M, Athan Reines)_
 -   [`18838ae`](https://github.com/stdlib-js/stdlib/commit/18838aef711cc4c1f5693d585eaa6062f0ed10e0) - **chore:** add structured package data for `math/base/special/log` [(#8383)](https://github.com/stdlib-js/stdlib/pull/8383) _(by Manvith M, Athan Reines)_
