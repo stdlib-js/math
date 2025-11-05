@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-04)
+## Unreleased (2025-11-05)
 
 <section class="features">
 
@@ -692,6 +692,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`dc99273`](https://github.com/stdlib-js/stdlib/commit/dc992737df7bc161d50cf52a9c8226ff20be10a1) - **chore:** add structured package data for `math/base/specia/rampf` [(#8376)](https://github.com/stdlib-js/stdlib/pull/8376) _(by Sachin Pangal, Athan Reines)_
 -   [`605a0cc`](https://github.com/stdlib-js/stdlib/commit/605a0cc7d7c3c88a93f1135a119fdfec06dd623a) - **feat:** update math scaffold databases [(#8378)](https://github.com/stdlib-js/stdlib/pull/8378) _(by stdlib-bot)_
 -   [`fafaa5d`](https://github.com/stdlib-js/stdlib/commit/fafaa5d073aaae9f08d79577fcf853c069e4a268) - **chore:** add structured package data for `math/base/special/rad2degf` [(#8374)](https://github.com/stdlib-js/stdlib/pull/8374) _(by Sachin Pangal, Athan Reines)_
 -   [`8288816`](https://github.com/stdlib-js/stdlib/commit/82888168075c39258b2d49785ac5d2949b357212) - **chore:** add structured package data for `math/base/special/rad2deg` [(#8373)](https://github.com/stdlib-js/stdlib/pull/8373) _(by Sachin Pangal, Athan Reines)_
