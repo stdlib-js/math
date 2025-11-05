@@ -693,6 +693,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`6d383e8`](https://github.com/stdlib-js/stdlib/commit/6d383e819e2d46409e25a22532e8f368a033b6c4) - **chore:** add structured package data for `math/base/special/ccis` [(#8395)](https://github.com/stdlib-js/stdlib/pull/8395) _(by Pratik, Athan Reines)_
 -   [`53a4c55`](https://github.com/stdlib-js/stdlib/commit/53a4c55c857d8e25203ed7614b4dd0db81e1838b) - **feat:** update math scaffold databases [(#8393)](https://github.com/stdlib-js/stdlib/pull/8393) _(by stdlib-bot)_
 -   [`34e1b68`](https://github.com/stdlib-js/stdlib/commit/34e1b68371fece14d5108e0f153903daddebca36) - **chore:** add structured package data for `math/base/special/log1mexp` [(#8388)](https://github.com/stdlib-js/stdlib/pull/8388) _(by Manvith M, Athan Reines)_
 -   [`e56d5cb`](https://github.com/stdlib-js/stdlib/commit/e56d5cb8e82d660918024052fa4a1b60c390f321) - **chore:** add structured package data for `math/base/special/logitf` [(#8387)](https://github.com/stdlib-js/stdlib/pull/8387) _(by Manvith M, Athan Reines)_
@@ -1737,7 +1738,7 @@ A total of 70 issues were closed in this release:
 
 ### Contributors
 
-A total of 49 people contributed to this release. Thank you to the following contributors:
+A total of 50 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anmol Sah
@@ -1779,6 +1780,7 @@ A total of 49 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   PrathamBhamare
+-   Pratik
 -   SAHIL KUMAR
 -   Sachin Pangal
 -   Sahil Goyal
