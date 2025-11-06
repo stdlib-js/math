@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6e0a0e6`](https://github.com/stdlib-js/stdlib/commit/6e0a0e66f14074e79d4a22d53ea481c7f17329c9) - update math scaffold databases [(#8412)](https://github.com/stdlib-js/stdlib/pull/8412)
 -   [`53a4c55`](https://github.com/stdlib-js/stdlib/commit/53a4c55c857d8e25203ed7614b4dd0db81e1838b) - update math scaffold databases [(#8393)](https://github.com/stdlib-js/stdlib/pull/8393)
 -   [`605a0cc`](https://github.com/stdlib-js/stdlib/commit/605a0cc7d7c3c88a93f1135a119fdfec06dd623a) - update math scaffold databases [(#8378)](https://github.com/stdlib-js/stdlib/pull/8378)
 -   [`b3d819f`](https://github.com/stdlib-js/stdlib/commit/b3d819fcf3989ee83b5e841951d7442b73b0c600) - update math scaffold databases [(#8359)](https://github.com/stdlib-js/stdlib/pull/8359)
@@ -693,6 +694,8 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`6e0a0e6`](https://github.com/stdlib-js/stdlib/commit/6e0a0e66f14074e79d4a22d53ea481c7f17329c9) - **feat:** update math scaffold databases [(#8412)](https://github.com/stdlib-js/stdlib/pull/8412) _(by stdlib-bot)_
+-   [`d7012a5`](https://github.com/stdlib-js/stdlib/commit/d7012a5869b94b4b1d8650fdb65cb08546bdeae9) - **chore:** add structured package data for `math/base/special/bernoullif` [(#8406)](https://github.com/stdlib-js/stdlib/pull/8406) _(by Manvith M, Athan Reines)_
 -   [`b3a435a`](https://github.com/stdlib-js/stdlib/commit/b3a435afb17da31f50ae31759df07b15dfae2cbd) - **chore:** add structured package data for `math/base/special/fibonaccif` [(#8405)](https://github.com/stdlib-js/stdlib/pull/8405) _(by Manvith M, Athan Reines)_
 -   [`4c81241`](https://github.com/stdlib-js/stdlib/commit/4c81241d68f47878320c735119a59297f9da2330) - **chore:** add structured package data for `math/base/special/nonfibonaccif` [(#8404)](https://github.com/stdlib-js/stdlib/pull/8404) _(by Manvith M)_
 -   [`329ef48`](https://github.com/stdlib-js/stdlib/commit/329ef48f2e533f6871bca7eb8b7574702c6bbeb9) - **chore:** add structured package data for `math/base/special/negafibonaccif` [(#8399)](https://github.com/stdlib-js/stdlib/pull/8399) _(by Manvith M, Athan Reines)_
