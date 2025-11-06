@@ -693,6 +693,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`ed8c19d`](https://github.com/stdlib-js/stdlib/commit/ed8c19d8b677faa8732057de668a6295db649709) - **chore:** add structured package data for `math/base/special/lucasf` [(#8397)](https://github.com/stdlib-js/stdlib/pull/8397) _(by Manvith M, Athan Reines)_
 -   [`147344e`](https://github.com/stdlib-js/stdlib/commit/147344eb928314b046645fac287a6d96516c400d) - **chore:** add structured package data for `math/base/special/negalucas` [(#8401)](https://github.com/stdlib-js/stdlib/pull/8401) _(by Manvith M)_
 -   [`4095600`](https://github.com/stdlib-js/stdlib/commit/4095600a365a39564340f3b75c792922368eee18) - **chore:** add structured package data for `math/base/special/negafibonacci` [(#8398)](https://github.com/stdlib-js/stdlib/pull/8398) _(by Manvith M)_
 -   [`6d383e8`](https://github.com/stdlib-js/stdlib/commit/6d383e819e2d46409e25a22532e8f368a033b6c4) - **chore:** add structured package data for `math/base/special/ccis` [(#8395)](https://github.com/stdlib-js/stdlib/pull/8395) _(by Pratik, Athan Reines)_
