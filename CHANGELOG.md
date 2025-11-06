@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-05)
+## Unreleased (2025-11-06)
 
 <section class="features">
 
@@ -693,6 +693,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`4095600`](https://github.com/stdlib-js/stdlib/commit/4095600a365a39564340f3b75c792922368eee18) - **chore:** add structured package data for `math/base/special/negafibonacci` [(#8398)](https://github.com/stdlib-js/stdlib/pull/8398) _(by Manvith M)_
 -   [`6d383e8`](https://github.com/stdlib-js/stdlib/commit/6d383e819e2d46409e25a22532e8f368a033b6c4) - **chore:** add structured package data for `math/base/special/ccis` [(#8395)](https://github.com/stdlib-js/stdlib/pull/8395) _(by Pratik, Athan Reines)_
 -   [`53a4c55`](https://github.com/stdlib-js/stdlib/commit/53a4c55c857d8e25203ed7614b4dd0db81e1838b) - **feat:** update math scaffold databases [(#8393)](https://github.com/stdlib-js/stdlib/pull/8393) _(by stdlib-bot)_
 -   [`34e1b68`](https://github.com/stdlib-js/stdlib/commit/34e1b68371fece14d5108e0f153903daddebca36) - **chore:** add structured package data for `math/base/special/log1mexp` [(#8388)](https://github.com/stdlib-js/stdlib/pull/8388) _(by Manvith M, Athan Reines)_
