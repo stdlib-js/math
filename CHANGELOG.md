@@ -693,6 +693,9 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`d7012a5`](https://github.com/stdlib-js/stdlib/commit/d7012a5869b94b4b1d8650fdb65cb08546bdeae9) - **chore:** add structured package data for `math/base/special/bernoullif` [(#8406)](https://github.com/stdlib-js/stdlib/pull/8406) _(by Manvith M, Athan Reines)_
+-   [`b3a435a`](https://github.com/stdlib-js/stdlib/commit/b3a435afb17da31f50ae31759df07b15dfae2cbd) - **chore:** add structured package data for `math/base/special/fibonaccif` [(#8405)](https://github.com/stdlib-js/stdlib/pull/8405) _(by Manvith M, Athan Reines)_
+-   [`4c81241`](https://github.com/stdlib-js/stdlib/commit/4c81241d68f47878320c735119a59297f9da2330) - **chore:** add structured package data for `math/base/special/nonfibonaccif` [(#8404)](https://github.com/stdlib-js/stdlib/pull/8404) _(by Manvith M)_
 -   [`329ef48`](https://github.com/stdlib-js/stdlib/commit/329ef48f2e533f6871bca7eb8b7574702c6bbeb9) - **chore:** add structured package data for `math/base/special/negafibonaccif` [(#8399)](https://github.com/stdlib-js/stdlib/pull/8399) _(by Manvith M, Athan Reines)_
 -   [`263d50a`](https://github.com/stdlib-js/stdlib/commit/263d50a4cd7ff1b888d3f3de5c3be590dec839ad) - **chore:** add structured package data for `math/base/special/nonfibonacci` [(#8403)](https://github.com/stdlib-js/stdlib/pull/8403) _(by Manvith M)_
 -   [`188cfff`](https://github.com/stdlib-js/stdlib/commit/188cfffd777a44bad09a3261286d64824a03ffbd) - **chore:** add structured package data for `math/base/special/negalucasf` [(#8402)](https://github.com/stdlib-js/stdlib/pull/8402) _(by Manvith M)_
