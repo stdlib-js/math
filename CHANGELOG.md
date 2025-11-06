@@ -693,6 +693,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`263d50a`](https://github.com/stdlib-js/stdlib/commit/263d50a4cd7ff1b888d3f3de5c3be590dec839ad) - **chore:** add structured package data for `math/base/special/nonfibonacci` [(#8403)](https://github.com/stdlib-js/stdlib/pull/8403) _(by Manvith M)_
 -   [`188cfff`](https://github.com/stdlib-js/stdlib/commit/188cfffd777a44bad09a3261286d64824a03ffbd) - **chore:** add structured package data for `math/base/special/negalucasf` [(#8402)](https://github.com/stdlib-js/stdlib/pull/8402) _(by Manvith M)_
 -   [`ed8c19d`](https://github.com/stdlib-js/stdlib/commit/ed8c19d8b677faa8732057de668a6295db649709) - **chore:** add structured package data for `math/base/special/lucasf` [(#8397)](https://github.com/stdlib-js/stdlib/pull/8397) _(by Manvith M, Athan Reines)_
 -   [`147344e`](https://github.com/stdlib-js/stdlib/commit/147344eb928314b046645fac287a6d96516c400d) - **chore:** add structured package data for `math/base/special/negalucas` [(#8401)](https://github.com/stdlib-js/stdlib/pull/8401) _(by Manvith M)_
