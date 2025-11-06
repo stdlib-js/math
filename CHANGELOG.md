@@ -694,6 +694,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`963250c`](https://github.com/stdlib-js/stdlib/commit/963250c88ab495f565ca54e484bda5c5cc3085d1) - **chore:** add structured package data for `math/base/special/floor10` [(#8416)](https://github.com/stdlib-js/stdlib/pull/8416) _(by Manvith M)_
 -   [`6e0a0e6`](https://github.com/stdlib-js/stdlib/commit/6e0a0e66f14074e79d4a22d53ea481c7f17329c9) - **feat:** update math scaffold databases [(#8412)](https://github.com/stdlib-js/stdlib/pull/8412) _(by stdlib-bot)_
 -   [`d7012a5`](https://github.com/stdlib-js/stdlib/commit/d7012a5869b94b4b1d8650fdb65cb08546bdeae9) - **chore:** add structured package data for `math/base/special/bernoullif` [(#8406)](https://github.com/stdlib-js/stdlib/pull/8406) _(by Manvith M, Athan Reines)_
 -   [`b3a435a`](https://github.com/stdlib-js/stdlib/commit/b3a435afb17da31f50ae31759df07b15dfae2cbd) - **chore:** add structured package data for `math/base/special/fibonaccif` [(#8405)](https://github.com/stdlib-js/stdlib/pull/8405) _(by Manvith M, Athan Reines)_
