@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-08)
 
 <section class="features">
 
@@ -695,6 +695,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`f7c196d`](https://github.com/stdlib-js/stdlib/commit/f7c196d4e006fee9a93206ccf5fcdcd13a3a4229) - **chore:** add structured package data for `math/base/special/rcbrtf` [(#8427)](https://github.com/stdlib-js/stdlib/pull/8427) _(by Manvith M)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`b8de2a4`](https://github.com/stdlib-js/stdlib/commit/b8de2a467a9d53deb23db7f0fcd5000e94793ad7) - **feat:** update math scaffold databases _(by stdlib-bot)_
 -   [`4cfd074`](https://github.com/stdlib-js/stdlib/commit/4cfd074d453bcd044c063265f5384e50f974a139) - **chore:** add structured package data for `math/base/special/floorf` [(#8418)](https://github.com/stdlib-js/stdlib/pull/8418) _(by Manvith M, Athan Reines)_
