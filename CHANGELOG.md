@@ -695,6 +695,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`a0f5883`](https://github.com/stdlib-js/stdlib/commit/a0f58839ab75404a6b93e5e56fdca6a74b588907) - **chore:** add structured package data for `math/base/special/log1p` [(#8429)](https://github.com/stdlib-js/stdlib/pull/8429) _(by Manvith M, Athan Reines)_
 -   [`345f872`](https://github.com/stdlib-js/stdlib/commit/345f872944328e17cf12eb7a701eb3a549f491b5) - **chore:** add structured package data for `math/base/special/log1pexp` [(#8430)](https://github.com/stdlib-js/stdlib/pull/8430) _(by Manvith M, Athan Reines)_
 -   [`2e77dc2`](https://github.com/stdlib-js/stdlib/commit/2e77dc2fa6d71d4da5a906603bb38fd1dc15d07c) - **chore:** add structured package data for `math/base/special/log1pmx` [(#8431)](https://github.com/stdlib-js/stdlib/pull/8431) _(by Manvith M, Athan Reines)_
 -   [`b992e9e`](https://github.com/stdlib-js/stdlib/commit/b992e9eb368ffb97dc7ee69887670c4254f32c46) - **chore:** add structured package data for `math/base/special/gammasgnf` [(#8440)](https://github.com/stdlib-js/stdlib/pull/8440) _(by Pratik, Athan Reines)_
