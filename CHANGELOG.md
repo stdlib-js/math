@@ -695,6 +695,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`4954940`](https://github.com/stdlib-js/stdlib/commit/495494087ecdcf1a80378e6103df3092bb59b280) - **chore:** add structured package data for `math/base/special/riemann-zeta` [(#8428)](https://github.com/stdlib-js/stdlib/pull/8428) _(by Manvith M, Athan Reines)_
 -   [`1f10d15`](https://github.com/stdlib-js/stdlib/commit/1f10d15d05461baee65d787a0ec965f7d1510ef0) - **chore:** add structured package data for `math/base/special/rcbrt` [(#8426)](https://github.com/stdlib-js/stdlib/pull/8426) _(by Manvith M)_
 -   [`f7c196d`](https://github.com/stdlib-js/stdlib/commit/f7c196d4e006fee9a93206ccf5fcdcd13a3a4229) - **chore:** add structured package data for `math/base/special/rcbrtf` [(#8427)](https://github.com/stdlib-js/stdlib/pull/8427) _(by Manvith M)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
