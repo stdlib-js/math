@@ -695,6 +695,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`aa21cdf`](https://github.com/stdlib-js/stdlib/commit/aa21cdf99c2dc289ec6707a1e46df1edfd6997e7) - **chore:** add structured package data for `math/base/special/hacovercos` [(#8437)](https://github.com/stdlib-js/stdlib/pull/8437) _(by Pratik, Athan Reines)_
 -   [`4954940`](https://github.com/stdlib-js/stdlib/commit/495494087ecdcf1a80378e6103df3092bb59b280) - **chore:** add structured package data for `math/base/special/riemann-zeta` [(#8428)](https://github.com/stdlib-js/stdlib/pull/8428) _(by Manvith M, Athan Reines)_
 -   [`1f10d15`](https://github.com/stdlib-js/stdlib/commit/1f10d15d05461baee65d787a0ec965f7d1510ef0) - **chore:** add structured package data for `math/base/special/rcbrt` [(#8426)](https://github.com/stdlib-js/stdlib/pull/8426) _(by Manvith M)_
 -   [`f7c196d`](https://github.com/stdlib-js/stdlib/commit/f7c196d4e006fee9a93206ccf5fcdcd13a3a4229) - **chore:** add structured package data for `math/base/special/rcbrtf` [(#8427)](https://github.com/stdlib-js/stdlib/pull/8427) _(by Manvith M)_
