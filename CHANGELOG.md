@@ -696,6 +696,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`8c5cd3d`](https://github.com/stdlib-js/stdlib/commit/8c5cd3dc371efc75d4af5fef1d1b179b491f8375) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum-expg-scaled` [(#8458)](https://github.com/stdlib-js/stdlib/pull/8458) _(by Manvith M, Athan Reines)_
 -   [`17ad00e`](https://github.com/stdlib-js/stdlib/commit/17ad00edc83dcba4fd8d57ed8aa15268decb84a7) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum` [(#8457)](https://github.com/stdlib-js/stdlib/pull/8457) _(by Manvith M, Athan Reines)_
 -   [`bbcaf4d`](https://github.com/stdlib-js/stdlib/commit/bbcaf4dd3d3fba54504921433eff185ea07d7a54) - **chore:** add structured package data for `math/base/special/cexp` [(#8456)](https://github.com/stdlib-js/stdlib/pull/8456) _(by Manvith M, Athan Reines)_
 -   [`8738587`](https://github.com/stdlib-js/stdlib/commit/8738587aa5d0568c80027478ca630ba9cc4af197) - **chore:** add structured package data for `math/base/special/gamma1pm1` [(#8460)](https://github.com/stdlib-js/stdlib/pull/8460) _(by Manvith M)_
