@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`80e4200`](https://github.com/stdlib-js/stdlib/commit/80e4200de213448339cf79c77c7bbd592435551e) - update math scaffold databases [(#8453)](https://github.com/stdlib-js/stdlib/pull/8453)
 -   [`b8de2a4`](https://github.com/stdlib-js/stdlib/commit/b8de2a467a9d53deb23db7f0fcd5000e94793ad7) - update math scaffold databases
 -   [`6e0a0e6`](https://github.com/stdlib-js/stdlib/commit/6e0a0e66f14074e79d4a22d53ea481c7f17329c9) - update math scaffold databases [(#8412)](https://github.com/stdlib-js/stdlib/pull/8412)
 -   [`53a4c55`](https://github.com/stdlib-js/stdlib/commit/53a4c55c857d8e25203ed7614b4dd0db81e1838b) - update math scaffold databases [(#8393)](https://github.com/stdlib-js/stdlib/pull/8393)
@@ -695,6 +696,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`80e4200`](https://github.com/stdlib-js/stdlib/commit/80e4200de213448339cf79c77c7bbd592435551e) - **feat:** update math scaffold databases [(#8453)](https://github.com/stdlib-js/stdlib/pull/8453) _(by stdlib-bot)_
 -   [`9f43b73`](https://github.com/stdlib-js/stdlib/commit/9f43b73f1784481589a925faec34cfbbd3053c47) - **chore:** add structured package data for `math/base/special/fresnels` [(#8450)](https://github.com/stdlib-js/stdlib/pull/8450) _(by Payal Goswami, Athan Reines)_
 -   [`6de31b8`](https://github.com/stdlib-js/stdlib/commit/6de31b8d7d8dae4bc0d53bb9093636a2a7b198e0) - **chore:** add structured package data for `math/base/special/fresnelc` [(#8449)](https://github.com/stdlib-js/stdlib/pull/8449) _(by Payal Goswami, Athan Reines)_
 -   [`723451c`](https://github.com/stdlib-js/stdlib/commit/723451ca0327c892eab9fad1be21a863a279b017) - **chore:** add structured package data for `math/base/special/kernel-log1pf` [(#8434)](https://github.com/stdlib-js/stdlib/pull/8434) _(by Pratik, Athan Reines)_
