@@ -696,6 +696,7 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`56fd54f`](https://github.com/stdlib-js/stdlib/commit/56fd54f95af22940c808c63a92ea229fab27683f) - **chore:** add structured package data for `math/base/special/gammaln` [(#8461)](https://github.com/stdlib-js/stdlib/pull/8461) _(by Manvith M)_
 -   [`c803c81`](https://github.com/stdlib-js/stdlib/commit/c803c81868040ae975f112a414b0a20a42a9a772) - **chore:** add structured package data for `math/base/special/expm1` [(#8462)](https://github.com/stdlib-js/stdlib/pull/8462) _(by Manvith M)_
 -   [`19907c4`](https://github.com/stdlib-js/stdlib/commit/19907c47acc768c31b3018318c37f9168ce33321) - **chore:** add structured package data for `math/base/special/expm1rel` [(#8463)](https://github.com/stdlib-js/stdlib/pull/8463) _(by Manvith M)_
 -   [`80e4200`](https://github.com/stdlib-js/stdlib/commit/80e4200de213448339cf79c77c7bbd592435551e) - **feat:** update math scaffold databases [(#8453)](https://github.com/stdlib-js/stdlib/pull/8453) _(by stdlib-bot)_
