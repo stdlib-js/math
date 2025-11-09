@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`73d9130`](https://github.com/stdlib-js/stdlib/commit/73d913013348831c3fc9f0bb6c1fa585d011bb8f) - update math scaffold databases [(#8470)](https://github.com/stdlib-js/stdlib/pull/8470)
 -   [`80e4200`](https://github.com/stdlib-js/stdlib/commit/80e4200de213448339cf79c77c7bbd592435551e) - update math scaffold databases [(#8453)](https://github.com/stdlib-js/stdlib/pull/8453)
 -   [`b8de2a4`](https://github.com/stdlib-js/stdlib/commit/b8de2a467a9d53deb23db7f0fcd5000e94793ad7) - update math scaffold databases
 -   [`6e0a0e6`](https://github.com/stdlib-js/stdlib/commit/6e0a0e66f14074e79d4a22d53ea481c7f17329c9) - update math scaffold databases [(#8412)](https://github.com/stdlib-js/stdlib/pull/8412)
@@ -696,6 +697,11 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`a9fb57e`](https://github.com/stdlib-js/stdlib/commit/a9fb57ec46973d10d247dfbe68d0b11a24970688) - **docs:** update descriptions _(by Philipp Burckhardt)_
+-   [`d2994d4`](https://github.com/stdlib-js/stdlib/commit/d2994d4d0472714a9e3ec6c49a6ab84672afa095) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`758249e`](https://github.com/stdlib-js/stdlib/commit/758249efdf36b9ffda6686c8b710fc4d141fa273) - **chore:** minor clean-up of example code _(by Philipp Burckhardt)_
+-   [`8233358`](https://github.com/stdlib-js/stdlib/commit/823335828c7b40896f6bd40d90dc2549013379a6) - **docs:** fix heading level _(by Philipp Burckhardt)_
+-   [`73d9130`](https://github.com/stdlib-js/stdlib/commit/73d913013348831c3fc9f0bb6c1fa585d011bb8f) - **feat:** update math scaffold databases [(#8470)](https://github.com/stdlib-js/stdlib/pull/8470) _(by stdlib-bot)_
 -   [`517e66f`](https://github.com/stdlib-js/stdlib/commit/517e66f2c339af51adfef89c9807eb7d16cc5bb3) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum-expg-scaledf` [(#8459)](https://github.com/stdlib-js/stdlib/pull/8459) _(by Manvith M, Athan Reines)_
 -   [`8c5cd3d`](https://github.com/stdlib-js/stdlib/commit/8c5cd3dc371efc75d4af5fef1d1b179b491f8375) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum-expg-scaled` [(#8458)](https://github.com/stdlib-js/stdlib/pull/8458) _(by Manvith M, Athan Reines)_
 -   [`17ad00e`](https://github.com/stdlib-js/stdlib/commit/17ad00edc83dcba4fd8d57ed8aa15268decb84a7) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum` [(#8457)](https://github.com/stdlib-js/stdlib/pull/8457) _(by Manvith M, Athan Reines)_
