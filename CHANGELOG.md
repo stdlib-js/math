@@ -695,6 +695,8 @@ A total of 70 issues were closed in this release:
 
 <details>
 
+-   [`6de31b8`](https://github.com/stdlib-js/stdlib/commit/6de31b8d7d8dae4bc0d53bb9093636a2a7b198e0) - **chore:** add structured package data for `math/base/special/fresnelc` [(#8449)](https://github.com/stdlib-js/stdlib/pull/8449) _(by Payal Goswami, Athan Reines)_
+-   [`723451c`](https://github.com/stdlib-js/stdlib/commit/723451ca0327c892eab9fad1be21a863a279b017) - **chore:** add structured package data for `math/base/special/kernel-log1pf` [(#8434)](https://github.com/stdlib-js/stdlib/pull/8434) _(by Pratik, Athan Reines)_
 -   [`79c59ee`](https://github.com/stdlib-js/stdlib/commit/79c59ee3278c7f0e6da564ceba74f7e2b9be669e) - **chore:** add structured package data for `math/base/special/kernel-log1p` [(#8436)](https://github.com/stdlib-js/stdlib/pull/8436) _(by Pratik, Athan Reines)_
 -   [`e094d12`](https://github.com/stdlib-js/stdlib/commit/e094d12a3cb359839e4856c747b928ad073f2b84) - **chore:** add structured package data for `math/base/special/gamma` [(#8452)](https://github.com/stdlib-js/stdlib/pull/8452) _(by Pratik, Athan Reines)_
 -   [`a0f5883`](https://github.com/stdlib-js/stdlib/commit/a0f58839ab75404a6b93e5e56fdca6a74b588907) - **chore:** add structured package data for `math/base/special/log1p` [(#8429)](https://github.com/stdlib-js/stdlib/pull/8429) _(by Manvith M, Athan Reines)_
