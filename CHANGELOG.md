@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`c311a7c`](https://github.com/stdlib-js/stdlib/commit/c311a7cf87ca900c8494ea7a324e3e8f4d8c1329) - add `primary_dtype` for functions in `unary_function_database` [(#8538)](https://github.com/stdlib-js/stdlib/pull/8538)
 -   [`73d9130`](https://github.com/stdlib-js/stdlib/commit/73d913013348831c3fc9f0bb6c1fa585d011bb8f) - update math scaffold databases [(#8470)](https://github.com/stdlib-js/stdlib/pull/8470)
 -   [`80e4200`](https://github.com/stdlib-js/stdlib/commit/80e4200de213448339cf79c77c7bbd592435551e) - update math scaffold databases [(#8453)](https://github.com/stdlib-js/stdlib/pull/8453)
 -   [`b8de2a4`](https://github.com/stdlib-js/stdlib/commit/b8de2a467a9d53deb23db7f0fcd5000e94793ad7) - update math scaffold databases
@@ -698,8 +697,6 @@ A total of 70 issues were closed in this release:
 
 <details>
 
--   [`821a0bc`](https://github.com/stdlib-js/stdlib/commit/821a0bc32c11aee8fe746ad0d5d92b70dba69e4d) - **docs:** update related packages sections [(#8535)](https://github.com/stdlib-js/stdlib/pull/8535) _(by stdlib-bot)_
--   [`c311a7c`](https://github.com/stdlib-js/stdlib/commit/c311a7cf87ca900c8494ea7a324e3e8f4d8c1329) - **feat:** add `primary_dtype` for functions in `unary_function_database` [(#8538)](https://github.com/stdlib-js/stdlib/pull/8538) _(by Gunj Joshi)_
 -   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
 -   [`5c1d94a`](https://github.com/stdlib-js/stdlib/commit/5c1d94adc310470a09ca01c7156f414fad49a73e) - **docs:** update related packages sections [(#8500)](https://github.com/stdlib-js/stdlib/pull/8500) _(by stdlib-bot)_
 -   [`a9fb57e`](https://github.com/stdlib-js/stdlib/commit/a9fb57ec46973d10d247dfbe68d0b11a24970688) - **docs:** update descriptions _(by Philipp Burckhardt)_
