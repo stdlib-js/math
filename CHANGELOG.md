@@ -699,6 +699,7 @@ A total of 71 issues were closed in this release:
 
 <details>
 
+-   [`b09b9e6`](https://github.com/stdlib-js/stdlib/commit/b09b9e62684c6498984431e2fc268f6b1c783cf3) - **chore:** add structured package data for `math/base/special/cfloor` [(#8574)](https://github.com/stdlib-js/stdlib/pull/8574) _(by Kaustubh Patange, Athan Reines)_
 -   [`50453ac`](https://github.com/stdlib-js/stdlib/commit/50453ac1c17c648d7ddcc247b8e142d73a64dece) - **chore:** fix EditorConfig lint errors [(#8570)](https://github.com/stdlib-js/stdlib/pull/8570) _(by Aman Singh)_
 -   [`ec35e72`](https://github.com/stdlib-js/stdlib/commit/ec35e72d9b49b4b5c9d908dd7a497c7368e10249) - **feat:** update math scaffold databases [(#8545)](https://github.com/stdlib-js/stdlib/pull/8545) _(by stdlib-bot)_
 -   [`821a0bc`](https://github.com/stdlib-js/stdlib/commit/821a0bc32c11aee8fe746ad0d5d92b70dba69e4d) - **docs:** update related packages sections [(#8535)](https://github.com/stdlib-js/stdlib/pull/8535) _(by stdlib-bot)_
@@ -1795,7 +1796,7 @@ A total of 71 issues were closed in this release:
 
 ### Contributors
 
-A total of 51 people contributed to this release. Thank you to the following contributors:
+A total of 52 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1823,6 +1824,7 @@ A total of 51 people contributed to this release. Thank you to the following con
 -   Jay Soni
 -   Karan Anand
 -   Karan Vasudevamurthy
+-   Kaustubh Patange
 -   Kavyansh-Bagdi
 -   Krie
 -   Krishnam Agarwal
