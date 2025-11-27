@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-26)
+## Unreleased (2025-11-27)
 
 <section class="features">
 
@@ -700,6 +700,7 @@ A total of 71 issues were closed in this release:
 
 <details>
 
+-   [`39cac36`](https://github.com/stdlib-js/stdlib/commit/39cac36da035a7b020cf3d3aee15ed065bac9fb2) - **docs:** update related packages sections [(#8609)](https://github.com/stdlib-js/stdlib/pull/8609) _(by stdlib-bot)_
 -   [`92ed33b`](https://github.com/stdlib-js/stdlib/commit/92ed33b06d989fd07a4961d1860f99298d524b64) - **feat:** update math scaffold databases [(#8604)](https://github.com/stdlib-js/stdlib/pull/8604) _(by stdlib-bot)_
 -   [`b09b9e6`](https://github.com/stdlib-js/stdlib/commit/b09b9e62684c6498984431e2fc268f6b1c783cf3) - **chore:** add structured package data for `math/base/special/cfloor` [(#8574)](https://github.com/stdlib-js/stdlib/pull/8574) _(by Kaustubh Patange, Athan Reines)_
 -   [`50453ac`](https://github.com/stdlib-js/stdlib/commit/50453ac1c17c648d7ddcc247b8e142d73a64dece) - **chore:** fix EditorConfig lint errors [(#8570)](https://github.com/stdlib-js/stdlib/pull/8570) _(by Aman Singh)_
