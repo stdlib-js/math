@@ -52,7 +52,7 @@ interface Namespace {
 	*     base,
 	*     base
 	* ];
-	* var dispatcher = dispatch( ns.unary, types, data, 2, 1, 1 );
+	* var dispatcher = dispatch( unary, types, data, 2, 1, 1 );
 	*
 	* var idt = [ 'float64', 'float32', 'generic' ];
 	* var odt = idt;

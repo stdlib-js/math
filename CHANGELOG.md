@@ -702,6 +702,7 @@ A total of 71 issues were closed in this release:
 
 <details>
 
+-   [`92dc7c2`](https://github.com/stdlib-js/stdlib/commit/92dc7c2bea09a0f1d6d12d9048381cc8bcc99fe3) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`dd1b623`](https://github.com/stdlib-js/stdlib/commit/dd1b623ad2423360e6fc046e0ed6b9e6a839de2f) - **feat:** update math scaffold databases [(#8706)](https://github.com/stdlib-js/stdlib/pull/8706) _(by stdlib-bot)_
 -   [`de0ed69`](https://github.com/stdlib-js/stdlib/commit/de0ed69e3bac7ce1a081177503b3df442645daf2) - **chore:** add structured package data for `math/base/special/cinv` [(#8703)](https://github.com/stdlib-js/stdlib/pull/8703) _(by Aman Singh)_
 -   [`148aff5`](https://github.com/stdlib-js/stdlib/commit/148aff59e237995be90401556aeb4e96207aa5a7) - **feat:** add `math/base/special/powf` [(#5739)](https://github.com/stdlib-js/stdlib/pull/5739) _(by Neeraj Pathak, Athan Reines, stdlib-bot, Karan Anand)_
