@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-01)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
@@ -701,6 +701,7 @@ A total of 71 issues were closed in this release:
 
 <details>
 
+-   [`de0ed69`](https://github.com/stdlib-js/stdlib/commit/de0ed69e3bac7ce1a081177503b3df442645daf2) - **chore:** add structured package data for `math/base/special/cinv` [(#8703)](https://github.com/stdlib-js/stdlib/pull/8703) _(by Aman Singh)_
 -   [`148aff5`](https://github.com/stdlib-js/stdlib/commit/148aff59e237995be90401556aeb4e96207aa5a7) - **feat:** add `math/base/special/powf` [(#5739)](https://github.com/stdlib-js/stdlib/pull/5739) _(by Neeraj Pathak, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`39cac36`](https://github.com/stdlib-js/stdlib/commit/39cac36da035a7b020cf3d3aee15ed065bac9fb2) - **docs:** update related packages sections [(#8609)](https://github.com/stdlib-js/stdlib/pull/8609) _(by stdlib-bot)_
 -   [`92ed33b`](https://github.com/stdlib-js/stdlib/commit/92ed33b06d989fd07a4961d1860f99298d524b64) - **feat:** update math scaffold databases [(#8604)](https://github.com/stdlib-js/stdlib/pull/8604) _(by stdlib-bot)_
