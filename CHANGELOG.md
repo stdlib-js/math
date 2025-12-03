@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f20489f`](https://github.com/stdlib-js/stdlib/commit/f20489f55e89e7d20640dfe2e05a80c9a0ec6f11) - add `math/base/special/log1pf` [(#5803)](https://github.com/stdlib-js/stdlib/pull/5803)
 -   [`dd1b623`](https://github.com/stdlib-js/stdlib/commit/dd1b623ad2423360e6fc046e0ed6b9e6a839de2f) - update math scaffold databases [(#8706)](https://github.com/stdlib-js/stdlib/pull/8706)
 -   [`148aff5`](https://github.com/stdlib-js/stdlib/commit/148aff59e237995be90401556aeb4e96207aa5a7) - add `math/base/special/powf` [(#5739)](https://github.com/stdlib-js/stdlib/pull/5739)
 -   [`92ed33b`](https://github.com/stdlib-js/stdlib/commit/92ed33b06d989fd07a4961d1860f99298d524b64) - update math scaffold databases [(#8604)](https://github.com/stdlib-js/stdlib/pull/8604)
@@ -702,6 +703,7 @@ A total of 72 issues were closed in this release:
 
 <details>
 
+-   [`f20489f`](https://github.com/stdlib-js/stdlib/commit/f20489f55e89e7d20640dfe2e05a80c9a0ec6f11) - **feat:** add `math/base/special/log1pf` [(#5803)](https://github.com/stdlib-js/stdlib/pull/5803) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`6c66165`](https://github.com/stdlib-js/stdlib/commit/6c66165552b1a15f06410c5a9068f60f0a651323) - **chore:** fix C lint errors [(#8727)](https://github.com/stdlib-js/stdlib/pull/8727) _(by Geo Daoyu)_
 -   [`92dc7c2`](https://github.com/stdlib-js/stdlib/commit/92dc7c2bea09a0f1d6d12d9048381cc8bcc99fe3) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`dd1b623`](https://github.com/stdlib-js/stdlib/commit/dd1b623ad2423360e6fc046e0ed6b9e6a839de2f) - **feat:** update math scaffold databases [(#8706)](https://github.com/stdlib-js/stdlib/pull/8706) _(by stdlib-bot)_
