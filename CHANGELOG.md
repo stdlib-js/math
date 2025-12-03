@@ -703,6 +703,7 @@ A total of 72 issues were closed in this release:
 
 <details>
 
+-   [`902fff9`](https://github.com/stdlib-js/stdlib/commit/902fff9a8deb6bab8a69ed301644bcb4c4e485a3) - **chore:** add structured package data for `math/base/special/cfloorf` [(#8687)](https://github.com/stdlib-js/stdlib/pull/8687) _(by Payal Goswami, Athan Reines)_
 -   [`55ed747`](https://github.com/stdlib-js/stdlib/commit/55ed7477ca69967c364c52e112c48bfda29c9948) - **chore:** add structured package data for `math/base/special/cinvf` [(#8710)](https://github.com/stdlib-js/stdlib/pull/8710) _(by Aman Singh, Athan Reines)_
 -   [`f20489f`](https://github.com/stdlib-js/stdlib/commit/f20489f55e89e7d20640dfe2e05a80c9a0ec6f11) - **feat:** add `math/base/special/log1pf` [(#5803)](https://github.com/stdlib-js/stdlib/pull/5803) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`6c66165`](https://github.com/stdlib-js/stdlib/commit/6c66165552b1a15f06410c5a9068f60f0a651323) - **chore:** fix C lint errors [(#8727)](https://github.com/stdlib-js/stdlib/pull/8727) _(by Geo Daoyu)_
