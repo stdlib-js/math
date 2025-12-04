@@ -706,6 +706,7 @@ A total of 72 issues were closed in this release:
 
 <details>
 
+-   [`f7920f6`](https://github.com/stdlib-js/stdlib/commit/f7920f615bfab41bd0c25dd7310d4ef473a1c9fe) - **chore:** add structured package data for `math/base/special/cround` [(#8770)](https://github.com/stdlib-js/stdlib/pull/8770) _(by Aman Singh)_
 -   [`3ba99a8`](https://github.com/stdlib-js/stdlib/commit/3ba99a8c360cb1a87591bb521f2f09e34e3b78c0) - **chore:** add structured package data for `math/base/special/croundf` [(#8773)](https://github.com/stdlib-js/stdlib/pull/8773) _(by Aman Singh)_
 -   [`546d714`](https://github.com/stdlib-js/stdlib/commit/546d71415bfaa6861cb8757741e1c465c7759590) - **docs:** fix example code and return annotations in TSDoc declarations _(by Philipp Burckhardt)_
 -   [`42b871c`](https://github.com/stdlib-js/stdlib/commit/42b871c36e81b4b81737c9007b431e005adebaea) - **feat:** update math scaffold databases [(#8764)](https://github.com/stdlib-js/stdlib/pull/8764) _(by stdlib-bot)_
