@@ -708,6 +708,7 @@ A total of 73 issues were closed in this release:
 
 <details>
 
+-   [`a297ebe`](https://github.com/stdlib-js/stdlib/commit/a297ebeb5aae3de8c04c56e02e5e0ef4f229b2f8) - **docs:** fix doctest return annotation comment _(by Philipp Burckhardt)_
 -   [`1dcf101`](https://github.com/stdlib-js/stdlib/commit/1dcf1013f5f6b583f11aa4f33750a549114de858) - **docs:** update example code in namespace TSDoc declarations _(by Philipp Burckhardt)_
 -   [`82e7f35`](https://github.com/stdlib-js/stdlib/commit/82e7f3517a61b3d4be4b37398da6119222416825) - **chore:** add structured package data for `math/base/special/log1pf` [(#8800)](https://github.com/stdlib-js/stdlib/pull/8800) _(by Aman Singh, Athan Reines)_
 -   [`0d81289`](https://github.com/stdlib-js/stdlib/commit/0d812895bf69ea0843359084f62063c7a84d0eb8) - **feat:** update math scaffold databases [(#8798)](https://github.com/stdlib-js/stdlib/pull/8798) _(by stdlib-bot)_
