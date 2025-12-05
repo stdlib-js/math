@@ -708,6 +708,7 @@ A total of 73 issues were closed in this release:
 
 <details>
 
+-   [`82e7f35`](https://github.com/stdlib-js/stdlib/commit/82e7f3517a61b3d4be4b37398da6119222416825) - **chore:** add structured package data for `math/base/special/log1pf` [(#8800)](https://github.com/stdlib-js/stdlib/pull/8800) _(by Aman Singh, Athan Reines)_
 -   [`0d81289`](https://github.com/stdlib-js/stdlib/commit/0d812895bf69ea0843359084f62063c7a84d0eb8) - **feat:** update math scaffold databases [(#8798)](https://github.com/stdlib-js/stdlib/pull/8798) _(by stdlib-bot)_
 -   [`c6b78ee`](https://github.com/stdlib-js/stdlib/commit/c6b78ee29d68da5693c4230f6d6a8763be053b56) - **chore:** add structured package data for `math/base/special/csignumf` [(#8775)](https://github.com/stdlib-js/stdlib/pull/8775) _(by Aman Singh)_
 -   [`b7aa4fa`](https://github.com/stdlib-js/stdlib/commit/b7aa4fa7588ce8bdb575bf923d769769c1a1987a) - **docs:** improve doctests for complex number instances in `math/base/special/cfloorf` [(#8792)](https://github.com/stdlib-js/stdlib/pull/8792) _(by Divyanshu)_
