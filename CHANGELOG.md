@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-07)
+## Unreleased (2025-12-12)
 
 <section class="features">
 
@@ -708,6 +708,7 @@ A total of 73 issues were closed in this release:
 
 <details>
 
+-   [`0b2faa8`](https://github.com/stdlib-js/stdlib/commit/0b2faa8e50b543fa573577cb0baaada5ddd20297) - **docs:** improve doctests for complex number instances in math/base/special/csignum [(#9012)](https://github.com/stdlib-js/stdlib/pull/9012) _(by Aryan kumar)_
 -   [`9c412c7`](https://github.com/stdlib-js/stdlib/commit/9c412c7a96d4b5381cda9be8c83f4e701155fe95) - **docs:** update related packages sections [(#8860)](https://github.com/stdlib-js/stdlib/pull/8860) _(by stdlib-bot, Athan Reines)_
 -   [`e7fbc24`](https://github.com/stdlib-js/stdlib/commit/e7fbc24f9fb918a92f7e9118fbe9fed8573117c8) - **docs:** fix example code in TSDoc declaration _(by Philipp Burckhardt)_
 -   [`ed42a4f`](https://github.com/stdlib-js/stdlib/commit/ed42a4f20e80757e6e855dc9ac4e70ab5a28f423) - **docs:** update related packages sections [(#8835)](https://github.com/stdlib-js/stdlib/pull/8835) _(by stdlib-bot)_
@@ -1834,12 +1835,13 @@ A total of 73 issues were closed in this release:
 
 ### Contributors
 
-A total of 54 people contributed to this release. Thank you to the following contributors:
+A total of 55 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
 -   Anmol Sah
 -   Anshu Kumar
+-   Aryan kumar
 -   Athan Reines
 -   Atharva Patil
 -   Devshree Bhati
