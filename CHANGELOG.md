@@ -708,6 +708,7 @@ A total of 73 issues were closed in this release:
 
 <details>
 
+-   [`512334c`](https://github.com/stdlib-js/stdlib/commit/512334c49e27ddff4e3fa672e1e81ac2c4fbc123) - **docs:** improve doctests for complex number instances in `math/base/special/ccis` [(#9014)](https://github.com/stdlib-js/stdlib/pull/9014) _(by Aryan kumar)_
 -   [`0909988`](https://github.com/stdlib-js/stdlib/commit/09099888c7fbd7d723a0c466e2f8d317a5e7c3a1) - **docs:** improve doctests for complex number instances in math/base/special/cflipsignf [(#9011)](https://github.com/stdlib-js/stdlib/pull/9011) _(by Aryan kumar)_
 -   [`0b2faa8`](https://github.com/stdlib-js/stdlib/commit/0b2faa8e50b543fa573577cb0baaada5ddd20297) - **docs:** improve doctests for complex number instances in math/base/special/csignum [(#9012)](https://github.com/stdlib-js/stdlib/pull/9012) _(by Aryan kumar)_
 -   [`9c412c7`](https://github.com/stdlib-js/stdlib/commit/9c412c7a96d4b5381cda9be8c83f4e701155fe95) - **docs:** update related packages sections [(#8860)](https://github.com/stdlib-js/stdlib/pull/8860) _(by stdlib-bot, Athan Reines)_
