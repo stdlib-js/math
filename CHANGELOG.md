@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-12)
+## Unreleased (2025-12-13)
 
 <section class="features">
 
@@ -708,6 +708,7 @@ A total of 73 issues were closed in this release:
 
 <details>
 
+-   [`c970ea2`](https://github.com/stdlib-js/stdlib/commit/c970ea241b28901fb006bb39f484384d581ae9b8) - **docs:** improve doctests for complex number instances in `math/base/special/cceil` (#9007) _(by Aryan kumar)_
 -   [`512334c`](https://github.com/stdlib-js/stdlib/commit/512334c49e27ddff4e3fa672e1e81ac2c4fbc123) - **docs:** improve doctests for complex number instances in `math/base/special/ccis` [(#9014)](https://github.com/stdlib-js/stdlib/pull/9014) _(by Aryan kumar)_
 -   [`0909988`](https://github.com/stdlib-js/stdlib/commit/09099888c7fbd7d723a0c466e2f8d317a5e7c3a1) - **docs:** improve doctests for complex number instances in math/base/special/cflipsignf [(#9011)](https://github.com/stdlib-js/stdlib/pull/9011) _(by Aryan kumar)_
 -   [`0b2faa8`](https://github.com/stdlib-js/stdlib/commit/0b2faa8e50b543fa573577cb0baaada5ddd20297) - **docs:** improve doctests for complex number instances in math/base/special/csignum [(#9012)](https://github.com/stdlib-js/stdlib/pull/9012) _(by Aryan kumar)_
