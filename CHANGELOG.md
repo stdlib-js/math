@@ -708,6 +708,7 @@ A total of 73 issues were closed in this release:
 
 <details>
 
+-   [`b15e507`](https://github.com/stdlib-js/stdlib/commit/b15e507fbb9876c64c68f883217604872a7e76c9) - **docs:** improve doctests for complex number instances in `math/base/special/cinv` [(#9024)](https://github.com/stdlib-js/stdlib/pull/9024) _(by Aryan kumar)_
 -   [`2c59b22`](https://github.com/stdlib-js/stdlib/commit/2c59b225c1d4d2b05bc433837e1c286535783443) - **docs:** improve doctests for complex number instances in `math/base/special/cround` [(#9025)](https://github.com/stdlib-js/stdlib/pull/9025) _(by Prajjwal Bajpai, Philipp Burckhardt)_
 -   [`6a15889`](https://github.com/stdlib-js/stdlib/commit/6a15889a2462fa8cf48ef659e8962485065c8830) - **docs:** update `math/base/special` TypeScript declarations [(#9017)](https://github.com/stdlib-js/stdlib/pull/9017) _(by stdlib-bot)_
 -   [`f3a591e`](https://github.com/stdlib-js/stdlib/commit/f3a591e3fcf19bdf10a7930c9d01792bd266dfba) - **docs:** improve doctests for complex number instances in `math/base/special/croundn` [(#9008)](https://github.com/stdlib-js/stdlib/pull/9008) _(by Aryan kumar)_
