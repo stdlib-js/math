@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-13)
+## Unreleased (2025-12-15)
 
 <section class="features">
 
@@ -708,6 +708,7 @@ A total of 73 issues were closed in this release:
 
 <details>
 
+-   [`cd063e0`](https://github.com/stdlib-js/stdlib/commit/cd063e08de61b89959085f0f1650f40c34a55929) - **docs:** update examples [(#9036)](https://github.com/stdlib-js/stdlib/pull/9036) _(by stdlib-bot)_
 -   [`62b365f`](https://github.com/stdlib-js/stdlib/commit/62b365f072bd98518e08b00b14344143c8df521c) - **docs:** improve doctests for complex number instances in `math/base/special/cinvf` [(#9020)](https://github.com/stdlib-js/stdlib/pull/9020) _(by Aryan kumar)_
 -   [`b15e507`](https://github.com/stdlib-js/stdlib/commit/b15e507fbb9876c64c68f883217604872a7e76c9) - **docs:** improve doctests for complex number instances in `math/base/special/cinv` [(#9024)](https://github.com/stdlib-js/stdlib/pull/9024) _(by Aryan kumar)_
 -   [`2c59b22`](https://github.com/stdlib-js/stdlib/commit/2c59b225c1d4d2b05bc433837e1c286535783443) - **docs:** improve doctests for complex number instances in `math/base/special/cround` [(#9025)](https://github.com/stdlib-js/stdlib/pull/9025) _(by Prajjwal Bajpai, Philipp Burckhardt)_
