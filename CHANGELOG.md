@@ -708,6 +708,7 @@ A total of 74 issues were closed in this release:
 
 <details>
 
+-   [`95c53cf`](https://github.com/stdlib-js/stdlib/commit/95c53cf567009172f1105fda7228717e609e7ff5) - **docs:** improve doctests for complex number instances in `math/base/special/csignumf` [(#9042)](https://github.com/stdlib-js/stdlib/pull/9042) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`2067ee5`](https://github.com/stdlib-js/stdlib/commit/2067ee5afec9a02107768999993f6fb05dbbce56) - **chore:** fix JavaScript lint errors [(#8992)](https://github.com/stdlib-js/stdlib/pull/8992) _(by Rohit R Bhat)_
 -   [`cd063e0`](https://github.com/stdlib-js/stdlib/commit/cd063e08de61b89959085f0f1650f40c34a55929) - **docs:** update examples [(#9036)](https://github.com/stdlib-js/stdlib/pull/9036) _(by stdlib-bot)_
 -   [`62b365f`](https://github.com/stdlib-js/stdlib/commit/62b365f072bd98518e08b00b14344143c8df521c) - **docs:** improve doctests for complex number instances in `math/base/special/cinvf` [(#9020)](https://github.com/stdlib-js/stdlib/pull/9020) _(by Aryan kumar)_
