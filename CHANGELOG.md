@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b50060a`](https://github.com/stdlib-js/stdlib/commit/b50060a7145e4f34152573dae067322c16d40b6c) - update `math/base/special` TypeScript declarations [(#9117)](https://github.com/stdlib-js/stdlib/pull/9117)
 -   [`0d81289`](https://github.com/stdlib-js/stdlib/commit/0d812895bf69ea0843359084f62063c7a84d0eb8) - update math scaffold databases [(#8798)](https://github.com/stdlib-js/stdlib/pull/8798)
 -   [`611ea89`](https://github.com/stdlib-js/stdlib/commit/611ea89db523548ec89f57f184dbfd6581776d88) - update math scaffold databases [(#8774)](https://github.com/stdlib-js/stdlib/pull/8774)
 -   [`42b871c`](https://github.com/stdlib-js/stdlib/commit/42b871c36e81b4b81737c9007b431e005adebaea) - update math scaffold databases [(#8764)](https://github.com/stdlib-js/stdlib/pull/8764)
@@ -708,6 +709,7 @@ A total of 74 issues were closed in this release:
 
 <details>
 
+-   [`b50060a`](https://github.com/stdlib-js/stdlib/commit/b50060a7145e4f34152573dae067322c16d40b6c) - **feat:** update `math/base/special` TypeScript declarations [(#9117)](https://github.com/stdlib-js/stdlib/pull/9117) _(by stdlib-bot)_
 -   [`95c53cf`](https://github.com/stdlib-js/stdlib/commit/95c53cf567009172f1105fda7228717e609e7ff5) - **docs:** improve doctests for complex number instances in `math/base/special/csignumf` [(#9042)](https://github.com/stdlib-js/stdlib/pull/9042) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`2067ee5`](https://github.com/stdlib-js/stdlib/commit/2067ee5afec9a02107768999993f6fb05dbbce56) - **chore:** fix JavaScript lint errors [(#8992)](https://github.com/stdlib-js/stdlib/pull/8992) _(by Rohit R Bhat)_
 -   [`cd063e0`](https://github.com/stdlib-js/stdlib/commit/cd063e08de61b89959085f0f1650f40c34a55929) - **docs:** update examples [(#9036)](https://github.com/stdlib-js/stdlib/pull/9036) _(by stdlib-bot)_
