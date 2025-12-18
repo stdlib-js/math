@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-17)
+## Unreleased (2025-12-18)
 
 <section class="features">
 
@@ -709,6 +709,7 @@ A total of 74 issues were closed in this release:
 
 <details>
 
+-   [`25dd8e1`](https://github.com/stdlib-js/stdlib/commit/25dd8e1fedfc74790135de764cebd854ca6a2fa2) - **bench:** use powf in lucasf [(#9193)](https://github.com/stdlib-js/stdlib/pull/9193) _(by Sagar Ratna Chaudhary)_
 -   [`b50060a`](https://github.com/stdlib-js/stdlib/commit/b50060a7145e4f34152573dae067322c16d40b6c) - **feat:** update `math/base/special` TypeScript declarations [(#9117)](https://github.com/stdlib-js/stdlib/pull/9117) _(by stdlib-bot)_
 -   [`95c53cf`](https://github.com/stdlib-js/stdlib/commit/95c53cf567009172f1105fda7228717e609e7ff5) - **docs:** improve doctests for complex number instances in `math/base/special/csignumf` [(#9042)](https://github.com/stdlib-js/stdlib/pull/9042) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`2067ee5`](https://github.com/stdlib-js/stdlib/commit/2067ee5afec9a02107768999993f6fb05dbbce56) - **chore:** fix JavaScript lint errors [(#8992)](https://github.com/stdlib-js/stdlib/pull/8992) _(by Rohit R Bhat)_
@@ -1848,7 +1849,7 @@ A total of 74 issues were closed in this release:
 
 ### Contributors
 
-A total of 57 people contributed to this release. Thank you to the following contributors:
+A total of 58 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1900,6 +1901,7 @@ A total of 57 people contributed to this release. Thank you to the following con
 -   Rohit R Bhat
 -   SAHIL KUMAR
 -   Sachin Pangal
+-   Sagar Ratna Chaudhary
 -   Sahil Goyal
 -   Sanchay Ketan Sinha
 -   Saurabh Singh
