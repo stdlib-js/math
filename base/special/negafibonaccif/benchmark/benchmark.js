@@ -24,7 +24,7 @@ var bench = require( '@stdlib/bench' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var roundf = require( './../../../../base/special/roundf' );
 var sqrtf = require( './../../../../base/special/sqrtf' );
-var pow = require( './../../../../base/special/pow' );
+var powf = require( './../../../../base/special/powf' );
 var absf = require( './../../../../base/special/absf' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
 var Float32Array = require( '@stdlib/array/float32' );
@@ -71,8 +71,7 @@ bench( pkg+'::analytic', function benchmark( b ) {
 	function negafibonaccif( n ) {
 		var an = absf( n );
 
-		// TODO: replace with `powf` when available
-		return pow( -1.0, an+1 ) * roundf( pow( PHI, an ) / SQRT_5 );
+		return powf( -1.0, an + 1.0 ) * roundf( powf( PHI, an ) / SQRT_5 );
 	}
 
 	x = discreteUniform( 100, -36, 0 );

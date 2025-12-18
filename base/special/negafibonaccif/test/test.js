@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
-var pow = require( './../../../../base/special/pow' );
+var powf = require( './../../../../base/special/powf' );
 var absf = require( './../../../../base/special/absf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var fibonaccif = require( './../../../../base/special/fibonaccif' );
@@ -89,9 +89,7 @@ tape( 'the function returns the nth negaFibonacci number (Fibonacci relationship
 	var i;
 	for ( i = 0; i > -37; i-- ) {
 		v = negafibonaccif( i );
-
-		// TODO: replace with `powf` when available
-		f = pow( -1.0, absf(i)+1 ) * fibonaccif( absf(i) );
+		f = powf( -1.0, absf(i) + 1.0 ) * fibonaccif( absf(i) );
 		t.strictEqual( v, f, 'returns expected value' );
 	}
 	t.end();

@@ -709,6 +709,7 @@ A total of 74 issues were closed in this release:
 
 <details>
 
+-   [`2e80e3a`](https://github.com/stdlib-js/stdlib/commit/2e80e3a075fbafef274e94d203b693ec03e65fec) - **test:** use powf in negafibonaccif  [(#9192)](https://github.com/stdlib-js/stdlib/pull/9192) _(by Sagar Ratna Chaudhary)_
 -   [`25dd8e1`](https://github.com/stdlib-js/stdlib/commit/25dd8e1fedfc74790135de764cebd854ca6a2fa2) - **bench:** use powf in lucasf [(#9193)](https://github.com/stdlib-js/stdlib/pull/9193) _(by Sagar Ratna Chaudhary)_
 -   [`b50060a`](https://github.com/stdlib-js/stdlib/commit/b50060a7145e4f34152573dae067322c16d40b6c) - **feat:** update `math/base/special` TypeScript declarations [(#9117)](https://github.com/stdlib-js/stdlib/pull/9117) _(by stdlib-bot)_
 -   [`95c53cf`](https://github.com/stdlib-js/stdlib/commit/95c53cf567009172f1105fda7228717e609e7ff5) - **docs:** improve doctests for complex number instances in `math/base/special/csignumf` [(#9042)](https://github.com/stdlib-js/stdlib/pull/9042) _(by Prajjwal Bajpai, Athan Reines)_
