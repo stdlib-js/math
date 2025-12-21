@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-20)
+## Unreleased (2025-12-21)
 
 <section class="features">
 
@@ -708,6 +708,7 @@ A total of 74 issues were closed in this release:
 
 <details>
 
+-   [`6ea7c0a`](https://github.com/stdlib-js/stdlib/commit/6ea7c0aa08dcf16ba56f217bf5ff24984129fe1d) - **docs:** update examples [(#9290)](https://github.com/stdlib-js/stdlib/pull/9290) _(by stdlib-bot)_
 -   [`9d2d2d0`](https://github.com/stdlib-js/stdlib/commit/9d2d2d041ee3e3c00566bd64f607f8ff311ed501) - **docs:** improve doctests for complex number instances in `math/base/special/cfloorn` [(#9284)](https://github.com/stdlib-js/stdlib/pull/9284) _(by Aryan kumar)_
 -   [`2e80e3a`](https://github.com/stdlib-js/stdlib/commit/2e80e3a075fbafef274e94d203b693ec03e65fec) - **test:** use powf in negafibonaccif  [(#9192)](https://github.com/stdlib-js/stdlib/pull/9192) _(by Sagar Ratna Chaudhary)_
 -   [`25dd8e1`](https://github.com/stdlib-js/stdlib/commit/25dd8e1fedfc74790135de764cebd854ca6a2fa2) - **bench:** use powf in lucasf [(#9193)](https://github.com/stdlib-js/stdlib/pull/9193) _(by Sagar Ratna Chaudhary)_
