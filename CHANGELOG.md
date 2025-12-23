@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-21)
+## Unreleased (2025-12-23)
 
 <section class="features">
 
@@ -708,6 +708,7 @@ A total of 74 issues were closed in this release:
 
 <details>
 
+-   [`d0e877e`](https://github.com/stdlib-js/stdlib/commit/d0e877ee2a6386c1cda0c426f5a5856cfa743762) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dmsksqrt` [(#9317)](https://github.com/stdlib-js/stdlib/pull/9317) _(by Seoha Son)_
 -   [`6ea7c0a`](https://github.com/stdlib-js/stdlib/commit/6ea7c0aa08dcf16ba56f217bf5ff24984129fe1d) - **docs:** update examples [(#9290)](https://github.com/stdlib-js/stdlib/pull/9290) _(by stdlib-bot)_
 -   [`9d2d2d0`](https://github.com/stdlib-js/stdlib/commit/9d2d2d041ee3e3c00566bd64f607f8ff311ed501) - **docs:** improve doctests for complex number instances in `math/base/special/cfloorn` [(#9284)](https://github.com/stdlib-js/stdlib/pull/9284) _(by Aryan kumar)_
 -   [`2e80e3a`](https://github.com/stdlib-js/stdlib/commit/2e80e3a075fbafef274e94d203b693ec03e65fec) - **test:** use powf in negafibonaccif  [(#9192)](https://github.com/stdlib-js/stdlib/pull/9192) _(by Sagar Ratna Chaudhary)_
@@ -1851,7 +1852,7 @@ A total of 74 issues were closed in this release:
 
 ### Contributors
 
-A total of 58 people contributed to this release. Thank you to the following contributors:
+A total of 59 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1907,6 +1908,7 @@ A total of 58 people contributed to this release. Thank you to the following con
 -   Sahil Goyal
 -   Sanchay Ketan Sinha
 -   Saurabh Singh
+-   Seoha Son
 -   Shabareesh Shetty
 -   Shaswata Panda
 -   Vivek Maurya
