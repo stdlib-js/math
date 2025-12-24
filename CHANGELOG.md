@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-23)
+## Unreleased (2025-12-24)
 
 <section class="features">
 
 ### Features
 
+-   [`ef1ccd2`](https://github.com/stdlib-js/stdlib/commit/ef1ccd2fa109e02c4956b58385601908adbde12c) - add `math/base/special/asinhf` [(#8893)](https://github.com/stdlib-js/stdlib/pull/8893)
 -   [`0d81289`](https://github.com/stdlib-js/stdlib/commit/0d812895bf69ea0843359084f62063c7a84d0eb8) - update math scaffold databases [(#8798)](https://github.com/stdlib-js/stdlib/pull/8798)
 -   [`611ea89`](https://github.com/stdlib-js/stdlib/commit/611ea89db523548ec89f57f184dbfd6581776d88) - update math scaffold databases [(#8774)](https://github.com/stdlib-js/stdlib/pull/8774)
 -   [`42b871c`](https://github.com/stdlib-js/stdlib/commit/42b871c36e81b4b81737c9007b431e005adebaea) - update math scaffold databases [(#8764)](https://github.com/stdlib-js/stdlib/pull/8764)
@@ -708,8 +709,9 @@ A total of 74 issues were closed in this release:
 
 <details>
 
+-   [`ef1ccd2`](https://github.com/stdlib-js/stdlib/commit/ef1ccd2fa109e02c4956b58385601908adbde12c) - **feat:** add `math/base/special/asinhf` [(#8893)](https://github.com/stdlib-js/stdlib/pull/8893) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
 -   [`a12ad26`](https://github.com/stdlib-js/stdlib/commit/a12ad26bb84de61b5a350833421311a02268dc5d) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/smskdeg2rad` [(#9318)](https://github.com/stdlib-js/stdlib/pull/9318) _(by Yohan Park)_
--   [`d0e877e`](https://github.com/stdlib-js/stdlib/commit/d0e877ee2a6386c1cda0c426f5a5856cfa743762) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dmsksqrt` [(#9317)](https://github.com/stdlib-js/stdlib/pull/9317) _(by Seoha Son)_
+-   [`d0e877e`](https://github.com/stdlib-js/stdlib/commit/d0e877ee2a6386c1cda0c426f5a5856cfa743762) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dmskrsqrt` [(#9317)](https://github.com/stdlib-js/stdlib/pull/9317) _(by Seoha Son)_
 -   [`6ea7c0a`](https://github.com/stdlib-js/stdlib/commit/6ea7c0aa08dcf16ba56f217bf5ff24984129fe1d) - **docs:** update examples [(#9290)](https://github.com/stdlib-js/stdlib/pull/9290) _(by stdlib-bot)_
 -   [`9d2d2d0`](https://github.com/stdlib-js/stdlib/commit/9d2d2d041ee3e3c00566bd64f607f8ff311ed501) - **docs:** improve doctests for complex number instances in `math/base/special/cfloorn` [(#9284)](https://github.com/stdlib-js/stdlib/pull/9284) _(by Aryan kumar)_
 -   [`2e80e3a`](https://github.com/stdlib-js/stdlib/commit/2e80e3a075fbafef274e94d203b693ec03e65fec) - **test:** use powf in negafibonaccif  [(#9192)](https://github.com/stdlib-js/stdlib/pull/9192) _(by Sagar Ratna Chaudhary)_
