@@ -709,6 +709,7 @@ A total of 76 issues were closed in this release:
 
 <details>
 
+-   [`186f912`](https://github.com/stdlib-js/stdlib/commit/186f912c792cab4349b6396494c3106fc2af8865) - **test:** use float32 packages _(by Philipp Burckhardt)_
 -   [`6bffb72`](https://github.com/stdlib-js/stdlib/commit/6bffb72dafd6925a88faba949e57c9efa080a26f) - **chore:** fix JavaScript lint errors [(#9365)](https://github.com/stdlib-js/stdlib/pull/9365) _(by Jugal Patel, Athan Reines)_
 -   [`8c61391`](https://github.com/stdlib-js/stdlib/commit/8c613911043f76c6b41f0d3943163cd0237578f3) - **chore:** fix JavaScript lint errors [(#9337)](https://github.com/stdlib-js/stdlib/pull/9337) _(by DivitJain26, Athan Reines)_
 -   [`ef1ccd2`](https://github.com/stdlib-js/stdlib/commit/ef1ccd2fa109e02c4956b58385601908adbde12c) - **feat:** add `math/base/special/asinhf` [(#8893)](https://github.com/stdlib-js/stdlib/pull/8893) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
