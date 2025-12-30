@@ -709,6 +709,7 @@ A total of 78 issues were closed in this release:
 
 <details>
 
+-   [`7899877`](https://github.com/stdlib-js/stdlib/commit/7899877266584eb169e76c2bdda34d886d3668b1) - **refactor:** defensively copy provided dtype arrays _(by Athan Reines)_
 -   [`c47ee05`](https://github.com/stdlib-js/stdlib/commit/c47ee053dcaa0ef5f9d5978e68eaa47c952816d5) - **chore:** fix JavaScript lint errors [(#9427)](https://github.com/stdlib-js/stdlib/pull/9427) _(by Shreelaxmi Hegde, Athan Reines)_
 -   [`62d2f47`](https://github.com/stdlib-js/stdlib/commit/62d2f478545ec223c81f6d22b3456ac88329b298) - **chore:** fix EditorConfig lint errors [(#9409)](https://github.com/stdlib-js/stdlib/pull/9409) _(by DivitJain26)_
 -   [`186f912`](https://github.com/stdlib-js/stdlib/commit/186f912c792cab4349b6396494c3106fc2af8865) - **test:** use float32 packages _(by Philipp Burckhardt)_
