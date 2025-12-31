@@ -710,6 +710,7 @@ A total of 78 issues were closed in this release:
 
 <details>
 
+-   [`bba26d6`](https://github.com/stdlib-js/stdlib/commit/bba26d6b93fc742d7518ca4090787cd41f4659e0) - **chore:** add `float32` scalar kernel of `log1p` in unary function database [(#9452)](https://github.com/stdlib-js/stdlib/pull/9452) _(by Gunj Joshi)_
 -   [`15e0b09`](https://github.com/stdlib-js/stdlib/commit/15e0b09a9bda620a7a80e265049d8ffdc2e632b1) - **feat:** update math scaffold databases [(#9451)](https://github.com/stdlib-js/stdlib/pull/9451) _(by stdlib-bot)_
 -   [`f452525`](https://github.com/stdlib-js/stdlib/commit/f45252555bdcc40bac553852422ae028194179cb) - **chore:** add structured package data for `math/base/special/csignum` [(#8583)](https://github.com/stdlib-js/stdlib/pull/8583) _(by Kaustubh Patange, Athan Reines)_
 -   [`56a4f52`](https://github.com/stdlib-js/stdlib/commit/56a4f52f455a60af0b56028aabc1aea7628ee1df) - **chore:** update meta data _(by Athan Reines)_
