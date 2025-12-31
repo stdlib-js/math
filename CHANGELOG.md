@@ -709,6 +709,7 @@ A total of 78 issues were closed in this release:
 
 <details>
 
+-   [`f452525`](https://github.com/stdlib-js/stdlib/commit/f45252555bdcc40bac553852422ae028194179cb) - **chore:** add structured package data for `math/base/special/csignum` [(#8583)](https://github.com/stdlib-js/stdlib/pull/8583) _(by Kaustubh Patange, Athan Reines)_
 -   [`56a4f52`](https://github.com/stdlib-js/stdlib/commit/56a4f52f455a60af0b56028aabc1aea7628ee1df) - **chore:** update meta data _(by Athan Reines)_
 -   [`7899877`](https://github.com/stdlib-js/stdlib/commit/7899877266584eb169e76c2bdda34d886d3668b1) - **refactor:** defensively copy provided dtype arrays _(by Athan Reines)_
 -   [`c47ee05`](https://github.com/stdlib-js/stdlib/commit/c47ee053dcaa0ef5f9d5978e68eaa47c952816d5) - **chore:** fix JavaScript lint errors [(#9427)](https://github.com/stdlib-js/stdlib/pull/9427) _(by Shreelaxmi Hegde, Athan Reines)_
