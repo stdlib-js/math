@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`15e0b09`](https://github.com/stdlib-js/stdlib/commit/15e0b09a9bda620a7a80e265049d8ffdc2e632b1) - update math scaffold databases [(#9451)](https://github.com/stdlib-js/stdlib/pull/9451)
 -   [`ef1ccd2`](https://github.com/stdlib-js/stdlib/commit/ef1ccd2fa109e02c4956b58385601908adbde12c) - add `math/base/special/asinhf` [(#8893)](https://github.com/stdlib-js/stdlib/pull/8893)
 -   [`0d81289`](https://github.com/stdlib-js/stdlib/commit/0d812895bf69ea0843359084f62063c7a84d0eb8) - update math scaffold databases [(#8798)](https://github.com/stdlib-js/stdlib/pull/8798)
 -   [`611ea89`](https://github.com/stdlib-js/stdlib/commit/611ea89db523548ec89f57f184dbfd6581776d88) - update math scaffold databases [(#8774)](https://github.com/stdlib-js/stdlib/pull/8774)
@@ -709,6 +710,7 @@ A total of 78 issues were closed in this release:
 
 <details>
 
+-   [`15e0b09`](https://github.com/stdlib-js/stdlib/commit/15e0b09a9bda620a7a80e265049d8ffdc2e632b1) - **feat:** update math scaffold databases [(#9451)](https://github.com/stdlib-js/stdlib/pull/9451) _(by stdlib-bot)_
 -   [`f452525`](https://github.com/stdlib-js/stdlib/commit/f45252555bdcc40bac553852422ae028194179cb) - **chore:** add structured package data for `math/base/special/csignum` [(#8583)](https://github.com/stdlib-js/stdlib/pull/8583) _(by Kaustubh Patange, Athan Reines)_
 -   [`56a4f52`](https://github.com/stdlib-js/stdlib/commit/56a4f52f455a60af0b56028aabc1aea7628ee1df) - **chore:** update meta data _(by Athan Reines)_
 -   [`7899877`](https://github.com/stdlib-js/stdlib/commit/7899877266584eb169e76c2bdda34d886d3668b1) - **refactor:** defensively copy provided dtype arrays _(by Athan Reines)_
