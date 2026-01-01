@@ -711,6 +711,8 @@ A total of 79 issues were closed in this release:
 
 <details>
 
+-   [`6b009d1`](https://github.com/stdlib-js/stdlib/commit/6b009d1d435f278d0c9bed8294f000e4a6d67490) - **test:** use correct variable name in `math/base/special/atanf` test _(by Philipp Burckhardt)_
+-   [`a55e19f`](https://github.com/stdlib-js/stdlib/commit/a55e19f3343b4a34486a5c109805bbc52e4dbb16) - **test:** replace t.true with t.strictEqual so tests actually check main export _(by Philipp Burckhardt)_
 -   [`e47459a`](https://github.com/stdlib-js/stdlib/commit/e47459a872746e9329b52b4bec80c8559d72543c) - **chore:** fix C lint errors [(#9475)](https://github.com/stdlib-js/stdlib/pull/9475) _(by Geo Daoyu)_
 -   [`e4442f2`](https://github.com/stdlib-js/stdlib/commit/e4442f21bca0114e934d71da6b3d61e54d3a711b) - **feat:** update math scaffold databases [(#9453)](https://github.com/stdlib-js/stdlib/pull/9453) _(by stdlib-bot)_
 -   [`bba26d6`](https://github.com/stdlib-js/stdlib/commit/bba26d6b93fc742d7518ca4090787cd41f4659e0) - **chore:** add `float32` scalar kernel of `log1p` in unary function database [(#9452)](https://github.com/stdlib-js/stdlib/pull/9452) _(by Gunj Joshi)_
