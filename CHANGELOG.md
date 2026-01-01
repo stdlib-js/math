@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ea8228b`](https://github.com/stdlib-js/stdlib/commit/ea8228b082c03c6c8c8182d237c709ae279c05d2) - add `math/base/special/acoshf` [(#5812)](https://github.com/stdlib-js/stdlib/pull/5812)
 -   [`e4442f2`](https://github.com/stdlib-js/stdlib/commit/e4442f21bca0114e934d71da6b3d61e54d3a711b) - update math scaffold databases [(#9453)](https://github.com/stdlib-js/stdlib/pull/9453)
 -   [`15e0b09`](https://github.com/stdlib-js/stdlib/commit/15e0b09a9bda620a7a80e265049d8ffdc2e632b1) - update math scaffold databases [(#9451)](https://github.com/stdlib-js/stdlib/pull/9451)
 -   [`ef1ccd2`](https://github.com/stdlib-js/stdlib/commit/ef1ccd2fa109e02c4956b58385601908adbde12c) - add `math/base/special/asinhf` [(#8893)](https://github.com/stdlib-js/stdlib/pull/8893)
@@ -711,6 +712,7 @@ A total of 79 issues were closed in this release:
 
 <details>
 
+-   [`ea8228b`](https://github.com/stdlib-js/stdlib/commit/ea8228b082c03c6c8c8182d237c709ae279c05d2) - **feat:** add `math/base/special/acoshf` [(#5812)](https://github.com/stdlib-js/stdlib/pull/5812) _(by Prashant Kumar Yadav, Karan Anand, Nakul Krishnakumar, stdlib-bot)_
 -   [`6b009d1`](https://github.com/stdlib-js/stdlib/commit/6b009d1d435f278d0c9bed8294f000e4a6d67490) - **test:** use correct variable name in `math/base/special/atanf` test _(by Philipp Burckhardt)_
 -   [`a55e19f`](https://github.com/stdlib-js/stdlib/commit/a55e19f3343b4a34486a5c109805bbc52e4dbb16) - **test:** replace t.true with t.strictEqual so tests actually check main export _(by Philipp Burckhardt)_
 -   [`e47459a`](https://github.com/stdlib-js/stdlib/commit/e47459a872746e9329b52b4bec80c8559d72543c) - **chore:** fix C lint errors [(#9475)](https://github.com/stdlib-js/stdlib/pull/9475) _(by Geo Daoyu)_
