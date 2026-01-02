@@ -712,6 +712,7 @@ A total of 79 issues were closed in this release:
 
 <details>
 
+-   [`8289a03`](https://github.com/stdlib-js/stdlib/commit/8289a036ebd5f568c35541a480ccdc341ba706af) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/strunc` [(#9481)](https://github.com/stdlib-js/stdlib/pull/9481) _(by kshitijgarg2811-oss, Athan Reines)_
 -   [`3ae6e96`](https://github.com/stdlib-js/stdlib/commit/3ae6e9691bbab7f2162ef8bb5e3279aefd517e47) - **chore:** add structured meta data _(by Athan Reines)_
 -   [`ea8228b`](https://github.com/stdlib-js/stdlib/commit/ea8228b082c03c6c8c8182d237c709ae279c05d2) - **feat:** add `math/base/special/acoshf` [(#5812)](https://github.com/stdlib-js/stdlib/pull/5812) _(by Prashant Kumar Yadav, Karan Anand, Nakul Krishnakumar, stdlib-bot)_
 -   [`6b009d1`](https://github.com/stdlib-js/stdlib/commit/6b009d1d435f278d0c9bed8294f000e4a6d67490) - **test:** use correct variable name in `math/base/special/atanf` test _(by Philipp Burckhardt)_
@@ -1874,7 +1875,7 @@ A total of 79 issues were closed in this release:
 
 ### Contributors
 
-A total of 63 people contributed to this release. Thank you to the following contributors:
+A total of 64 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1939,6 +1940,7 @@ A total of 63 people contributed to this release. Thank you to the following con
 -   Vivek Maurya
 -   Yohan Park
 -   Yugal Kaushik
+-   kshitijgarg2811-oss
 
 </section>
 
