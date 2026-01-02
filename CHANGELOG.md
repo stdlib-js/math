@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-01)
+## Unreleased (2026-01-02)
 
 <section class="features">
 
@@ -712,6 +712,7 @@ A total of 79 issues were closed in this release:
 
 <details>
 
+-   [`3ae6e96`](https://github.com/stdlib-js/stdlib/commit/3ae6e9691bbab7f2162ef8bb5e3279aefd517e47) - **chore:** add structured meta data _(by Athan Reines)_
 -   [`ea8228b`](https://github.com/stdlib-js/stdlib/commit/ea8228b082c03c6c8c8182d237c709ae279c05d2) - **feat:** add `math/base/special/acoshf` [(#5812)](https://github.com/stdlib-js/stdlib/pull/5812) _(by Prashant Kumar Yadav, Karan Anand, Nakul Krishnakumar, stdlib-bot)_
 -   [`6b009d1`](https://github.com/stdlib-js/stdlib/commit/6b009d1d435f278d0c9bed8294f000e4a6d67490) - **test:** use correct variable name in `math/base/special/atanf` test _(by Philipp Burckhardt)_
 -   [`a55e19f`](https://github.com/stdlib-js/stdlib/commit/a55e19f3343b4a34486a5c109805bbc52e4dbb16) - **test:** replace t.true with t.strictEqual so tests actually check main export _(by Philipp Burckhardt)_
