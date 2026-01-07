@@ -20,11 +20,16 @@ import JSON
 
 """
 	gen( domain, name )
+
 Generate fixture data and write to file.
+
 # Arguments
+
 * `domain`: domain
 * `name::AbstractString`: output filename
+
 # Examples
+
 ``` julia
 julia> x = range( -0.99, stop = 0.99, length = 2003 );
 julia> gen( x, \"data.json\" );

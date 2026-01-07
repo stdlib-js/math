@@ -29,8 +29,8 @@
 * @return     hyperbolic arctangent (in radians)
 *
 * @example
-* float v = stdlib_base_fast_atanhf( 0.0 );
-* // returns 0.0
+* float v = stdlib_base_fast_atanhf( 0.0f );
+* // returns 0.0f
 */
 float stdlib_base_fast_atanhf( const float x ) {
 	if ( x == 0.0f ) {

@@ -26,6 +26,13 @@ var lnf = require( './../../../../../base/special/lnf' );
 var f32 = require( '@stdlib/number/float64/base/to-float32' );
 
 
+// VARIABLES //
+
+var ZERO = f32( 0.0 );
+var ONE = f32( 1.0 );
+var HALF = f32( 0.5 );
+
+
 // MAIN //
 
 /**
@@ -56,16 +63,13 @@ var f32 = require( '@stdlib/number/float64/base/to-float32' );
 */
 function atanhf( x ) {
 	x = f32( x );
-	if ( x === f32( 0.0 ) ) {
+	if ( x === ZERO ) {
 		return x;
 	}
-	if (
-		isnanf( x ) ||
-		isinfinitef( x )
-	) {
+	if ( isnanf( x ) || isinfinitef( x ) ) {
 		return NaN;
 	}
-	return f32( f32( 0.5 ) * lnf( f32( f32( 1.0 )+x ) / f32( f32( 1.0 )-x ) ) );
+	return f32( HALF * lnf( f32( f32( ONE+x ) / f32( ONE-x ) ) ) );
 }
 
 
