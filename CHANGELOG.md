@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-06)
+## Unreleased (2026-01-07)
 
 <section class="features">
 
 ### Features
 
+-   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046)
 -   [`542d57c`](https://github.com/stdlib-js/stdlib/commit/542d57c97e7b8e8d9b41221d86c5378fa02d0d87) - add `math/base/special/floornf` [(#4881)](https://github.com/stdlib-js/stdlib/pull/4881)
 -   [`ea8228b`](https://github.com/stdlib-js/stdlib/commit/ea8228b082c03c6c8c8182d237c709ae279c05d2) - add `math/base/special/acoshf` [(#5812)](https://github.com/stdlib-js/stdlib/pull/5812)
 -   [`e4442f2`](https://github.com/stdlib-js/stdlib/commit/e4442f21bca0114e934d71da6b3d61e54d3a711b) - update math scaffold databases [(#9453)](https://github.com/stdlib-js/stdlib/pull/9453)
@@ -713,6 +714,7 @@ A total of 80 issues were closed in this release:
 
 <details>
 
+-   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - **feat:** add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046) _(by Nakul Krishnakumar, Philipp Burckhardt, stdlib-bot)_
 -   [`542d57c`](https://github.com/stdlib-js/stdlib/commit/542d57c97e7b8e8d9b41221d86c5378fa02d0d87) - **feat:** add `math/base/special/floornf` [(#4881)](https://github.com/stdlib-js/stdlib/pull/4881) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`27d5d30`](https://github.com/stdlib-js/stdlib/commit/27d5d30af2380909aa925ce955fb7a4b79d5df43) - **style:** fix EditorConfig lint errors [(#9510)](https://github.com/stdlib-js/stdlib/pull/9510) _(by kaushal-kumar-it)_
 -   [`8289a03`](https://github.com/stdlib-js/stdlib/commit/8289a036ebd5f568c35541a480ccdc341ba706af) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/strunc` [(#9481)](https://github.com/stdlib-js/stdlib/pull/9481) _(by kshitijgarg2811-oss, Athan Reines)_
