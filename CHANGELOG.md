@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a068c72`](https://github.com/stdlib-js/stdlib/commit/a068c72880b9f3757d8b00ec945eb4e9cba31a8b) - add `math/base/special/roundnf` [(#9389)](https://github.com/stdlib-js/stdlib/pull/9389)
 -   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046)
 -   [`542d57c`](https://github.com/stdlib-js/stdlib/commit/542d57c97e7b8e8d9b41221d86c5378fa02d0d87) - add `math/base/special/floornf` [(#4881)](https://github.com/stdlib-js/stdlib/pull/4881)
 -   [`ea8228b`](https://github.com/stdlib-js/stdlib/commit/ea8228b082c03c6c8c8182d237c709ae279c05d2) - add `math/base/special/acoshf` [(#5812)](https://github.com/stdlib-js/stdlib/pull/5812)
@@ -714,6 +715,7 @@ A total of 80 issues were closed in this release:
 
 <details>
 
+-   [`a068c72`](https://github.com/stdlib-js/stdlib/commit/a068c72880b9f3757d8b00ec945eb4e9cba31a8b) - **feat:** add `math/base/special/roundnf` [(#9389)](https://github.com/stdlib-js/stdlib/pull/9389) _(by Aman Singh, Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`518339b`](https://github.com/stdlib-js/stdlib/commit/518339b9e202765284968c5bb40a458bf25c9425) - **chore:** remove extra empty line [(#9617)](https://github.com/stdlib-js/stdlib/pull/9617) _(by stdlib-bot)_
 -   [`8e05341`](https://github.com/stdlib-js/stdlib/commit/8e0534149457bd04a06ae3c59d726191e32a1dcf) - **chore:** clean-up _(by Athan Reines)_
 -   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - **feat:** add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046) _(by Nakul Krishnakumar, Philipp Burckhardt, stdlib-bot)_
