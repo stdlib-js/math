@@ -39,7 +39,9 @@ bench( pkg, function benchmark( b ) {
 	x = uniform( 100, -100.0, 100.0, {
 		'dtype': 'float32'
 	});
-	n = discreteUniform( 100, -5, 0 );
+	n = discreteUniform( 100, -5, 0, {
+		'dtype': 'int32'
+	});
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {

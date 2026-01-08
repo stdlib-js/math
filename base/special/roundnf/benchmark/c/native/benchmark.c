@@ -103,9 +103,9 @@ static int random_discrete_uniform( const int min, const int max ) {
 * @return elapsed time in seconds
 */
 static double benchmark( void ) {
+	double elapsed;
 	float x[ 100 ];
 	int n[ 100 ];
-	double elapsed;
 	double t;
 	float y;
 	int i;

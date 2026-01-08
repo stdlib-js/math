@@ -63,7 +63,7 @@ v = roundnf( 12368.0, 3 );
     // returns 0.30000000000000004
 
     // Should round to 0.3...
-    var v = roundnf( x, -16 );
+    var v = roundnf( x, -7 );
     // returns 0.30000001192092896
     ```
 

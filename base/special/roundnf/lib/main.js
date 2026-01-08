@@ -36,6 +36,8 @@ var MIN_EXP_SUBNORMAL = require( '@stdlib/constants/float32/min-base10-exponent-
 
 var MAX_INT = MAX_SAFE_INTEGER + 1;
 var HUGE = f32( 1.0e+38 );
+var ZERO = f32( 0.0 );
+var TEN = f32( 10.0 );
 
 
 // MAIN //
@@ -61,7 +63,7 @@ var HUGE = f32( 1.0e+38 );
 *
 *     <!-- <note> -->
 *
-*     Note that rescaling \\(x\\) can result in unexpected behavior. For instance, the result of \\(\\operatorname{roundnf}(0.2+0.1,-16)\\) is \\(0.30000001192092896\\) and not \\(0.3\\). While possibly unexpected, this is not a bug. The behavior stems from the fact that most decimal fractions cannot be exactly represented as floating-point numbers. And further, rescaling can lead to slightly different fractional values, which, in turn, affects the result of \\(\mathrm{roundf}\\).
+*     Note that rescaling \\(x\\) can result in unexpected behavior. For instance, the result of \\(\\operatorname{roundnf}(0.2+0.1,-7)\\) is \\(0.30000001192092896\\) and not \\(0.3\\). While possibly unexpected, this is not a bug. The behavior stems from the fact that most decimal fractions cannot be exactly represented as floating-point numbers. And further, rescaling can lead to slightly different fractional values, which, in turn, affects the result of \\(\mathrm{roundf}\\).
 *
 *     <!-- </note> -->
 *
@@ -127,7 +129,7 @@ function roundnf( x, n ) {
 		isInfinitef( x ) ||
 
 		// Handle +-0...
-		x === 0.0 ||
+		x === ZERO ||
 
 		// If `n` exceeds the maximum number of feasible decimal places (such as with subnormal numbers), nothing to round...
 		n < MIN_EXP_SUBNORMAL ||
@@ -139,18 +141,18 @@ function roundnf( x, n ) {
 	}
 	// The maximum absolute single-precision float is ~3.4e38. Accordingly, any possible finite `x` rounded to the nearest >=10^39 is 0.0.
 	if ( n > MAX_EXP ) {
-		return f32( f32( 0.0 ) * x ); // preserve the sign (same behavior as roundf)
+		return f32( ZERO * x ); // preserve the sign (same behavior as roundf)
 	}
 	// If we overflow, return `x`, as the number of digits to the right of the decimal is too small (i.e., `x` is too large / lacks sufficient fractional precision) for there to be any effect when rounding...
 	if ( n < MIN_EXP ) {
-		s = powf( f32( 10.0 ), -( n + MAX_EXP ) );
+		s = powf( TEN, -( n + MAX_EXP ) );
 		y = f32( f32( x * HUGE ) * s ); // order of operation matters!
 		if ( isInfinitef( y ) ) {
 			return x;
 		}
 		return f32( f32( roundf( y ) / HUGE ) / s );
 	}
-	s = powf( f32( 10.0 ), -n );
+	s = powf( TEN, -n );
 	y = f32( x * s );
 	if ( isInfinitef( y ) ) {
 		return x;

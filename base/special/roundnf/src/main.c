@@ -52,7 +52,7 @@ static const float HUGE_VALUE = 1.0e+38f;
 *
 *     <!-- <note> -->
 *
-*     Note that rescaling \\(x\\) can result in unexpected behavior. For instance, the result of \\(\\operatorname{roundnf}(0.2+0.1,-16)\\) is \\(0.30000001192092896\\) and not \\(0.3\\). While possibly unexpected, this is not a bug. The behavior stems from the fact that most decimal fractions cannot be exactly represented as floating-point numbers. And further, rescaling can lead to slightly different fractional values, which, in turn, affects the result of \\(\mathrm{roundf}\\).
+*     Note that rescaling \\(x\\) can result in unexpected behavior. For instance, the result of \\(\\operatorname{roundnf}(0.2+0.1,-7)\\) is \\(0.30000001192092896\\) and not \\(0.3\\). While possibly unexpected, this is not a bug. The behavior stems from the fact that most decimal fractions cannot be exactly represented as floating-point numbers. And further, rescaling can lead to slightly different fractional values, which, in turn, affects the result of \\(\mathrm{roundf}\\).
 *
 *     <!-- </note> -->
 *
@@ -108,7 +108,6 @@ float stdlib_base_roundnf( const float x, const int32_t n ) {
 	if ( stdlib_base_is_nanf( x ) ) {
 		return 0.0f / 0.0f; // NaN
 	}
-
 	if (
 		// Handle infinites...
 		stdlib_base_is_infinitef( x ) ||

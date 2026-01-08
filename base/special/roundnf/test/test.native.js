@@ -114,36 +114,36 @@ tape( 'the function supports rounding a numeric value to a desired number of dec
 	actual = roundnf( PI, -2 );
 	expected = float64ToFloat32( 3.14 );
 	delta = ulpdiff( actual, expected );
-	t.strictEqual( delta, 0.0, 'equals 3.14 within float32 precision' );
+	t.strictEqual( delta, 0, 'returns expected value' );
 
 	actual = roundnf( -PI, -2 );
 	expected = float64ToFloat32( -3.14 );
 	delta = ulpdiff( actual, expected );
-	t.strictEqual( delta, 0.0, 'equals -3.14 within float32 precision' );
+	t.strictEqual( delta, 0, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( 9.99999 ), -2 );
 	expected = float64ToFloat32( 10.0 );
 	delta = ulpdiff( actual, expected );
-	t.strictEqual( delta, 0.0, 'equals 10 within float32 precision' );
+	t.strictEqual( delta, 0, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( -9.99999 ), -2 );
 	expected = float64ToFloat32( -10.0 );
 	delta = ulpdiff( actual, expected );
-	t.strictEqual( delta, 0.0, 'equals -10 within float32 precision' );
+	t.strictEqual( delta, 0, 'returns expected value' );
 
 	actual = roundnf( 0.0, 2 );
 	expected = 0.0;
-	t.strictEqual( actual, expected, 'equals 0' );
+	t.strictEqual( actual, expected, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( 12368.0 ), -3 );
 	expected = float64ToFloat32( 12368.0 );
 	delta = ulpdiff( actual, expected );
-	t.strictEqual( delta, 0.0, 'equals 12368 within float32 precision' );
+	t.strictEqual( delta, 0, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( -12368.0 ), -3 );
 	expected = float64ToFloat32( -12368.0 );
 	delta = ulpdiff( actual, expected );
-	t.strictEqual( delta, 0.0, 'equals -12368 within float32 precision' );
+	t.strictEqual( delta, 0, 'returns expected value' );
 
 	t.end();
 });
@@ -155,10 +155,10 @@ tape( 'rounding a numeric value to a desired number of decimals can result in un
 	var x;
 
 	x = float64ToFloat32( 0.2 + 0.1 );
-	actual = roundnf( x, -16 );
+	actual = roundnf( x, -7 );
 	expected = float64ToFloat32( 0.3000000119209290 );
 	delta = ulpdiff( actual, expected );
-	t.ok( delta <= 1.0, 'equals 0.3000000119209290 (within 1 ulp) and not exactly 0.3' );
+	t.ok( delta <= 1, 'returns expected value' );
 
 	t.end();
 });
@@ -170,28 +170,28 @@ tape( 'the function supports rounding a numeric value to a desired number of dig
 
 	actual = roundnf( PI, 3 );
 	expected = 0.0;
-	t.strictEqual( actual, expected, 'equals 0' );
+	t.strictEqual( actual, expected, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( 12368.0 ), 3 );
 	expected = float64ToFloat32( 12000.0 );
 	delta = ulpdiff( actual, expected );
-	t.ok( delta <= 1.0, 'equals 12000 within 1 ulp' );
+	t.ok( delta <= 1, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( 12368.0 ), 1 );
 	expected = float64ToFloat32( 12370.0 );
-	t.strictEqual( actual, expected, 'equals 12370' );
+	t.strictEqual( actual, expected, 'returns expected value' );
 
 	actual = roundnf( -PI, 3 );
-	t.strictEqual( isNegativeZerof( actual ), true, 'equals -0' );
+	t.strictEqual( isNegativeZerof( actual ), true, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( -12368.0 ), 3 );
 	expected = float64ToFloat32( -12000.0 );
 	delta = ulpdiff( actual, expected );
-	t.ok( delta <= 1.0, 'equals -12000 within 1 ulp' );
+	t.ok( delta <= 1, 'returns expected value' );
 
 	actual = roundnf( float64ToFloat32( -12368.0 ), 1 );
 	expected = float64ToFloat32( -12370.0 );
-	t.strictEqual( actual, expected, 'equals -12370' );
+	t.strictEqual( actual, expected, 'returns expected value' );
 
 	t.end();
 });
@@ -207,7 +207,7 @@ tape( 'the function returns the input value if provided an `n` which is less tha
 		x = float64ToFloat32( (1.0+randu()) * pow( 10.0, exp ) );
 		n = -(round( randu()*50.0 ) + 46);
 		v = roundnf( x, n );
-		t.strictEqual( v, x, 'returns input value when provided x='+x+', n='+n+'.' );
+		t.strictEqual( v, x, 'returns expected value when provided x='+x+', n='+n+'.' );
 	}
 	t.end();
 });
@@ -225,7 +225,7 @@ tape( 'if `x` is too large a float to have decimals and `n < 0`, the input value
 		x = float64ToFloat32( sign * (1.0+randu()) * pow( 10.0, exp ) );
 		n = -( round( randu()*45.0) );
 		v = roundnf( x, n );
-		t.strictEqual( x, v, 'returns input value when provided x='+x+', n='+n+'.' );
+		t.strictEqual( x, v, 'returns expected value when provided x='+x+', n='+n+'.' );
 	}
 	t.end();
 });
@@ -281,7 +281,7 @@ tape( 'the function supports rounding very small numbers (including subnormals)'
 		actual = roundnf( x, n[i] );
 		if ( i < expected.length ) {
 			delta = ulpdiff( actual, expected[i] );
-			t.ok( delta <= 2.0, 'x: '+x+'. n: '+n[i]+'. v: '+actual+'. expected: '+expected[i]+'. delta: '+delta+' ulps' );
+			t.ok( delta <= 2, 'x: '+x+'. n: '+n[i]+'. v: '+actual+'. expected: '+expected[i]+'. delta: '+delta+' ulps' );
 		} else {
 			t.ok( true, 'x: '+x+'. n: '+n[i]+'. v: '+actual );
 		}
@@ -295,19 +295,19 @@ tape( 'if the function encounters overflow, the function returns the input value
 
 	x = float64ToFloat32( 3.1468234 );
 	v = roundnf( x, -40 );
-	t.strictEqual( v, x, 'returns the input value' );
+	t.strictEqual( v, x, 'returns expected value' );
 
 	x = float64ToFloat32( -3.1468234 );
 	v = roundnf( x, -40 );
-	t.strictEqual( v, x, 'returns the input value' );
+	t.strictEqual( v, x, 'returns expected value' );
 
 	x = float64ToFloat32( 16777216.0 );
 	v = roundnf( x, -30 );
-	t.strictEqual( v, x, 'returns the input value' );
+	t.strictEqual( v, x, 'returns expected value' );
 
 	x = float64ToFloat32( -16777216.0 );
 	v = roundnf( x, -30 );
-	t.strictEqual( v, x, 'returns the input value' );
+	t.strictEqual( v, x, 'returns expected value' );
 
 	t.end();
 });
