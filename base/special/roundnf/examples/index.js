@@ -23,10 +23,11 @@ var uniform = require( '@stdlib/random/array/uniform' );
 var logEachMap = require( '@stdlib/console/log-each-map' );
 var roundnf = require( './../lib' );
 
-var opts = {
+var x = uniform( 100, -50.0, 50.0, {
 	'dtype': 'float32'
-};
-var x = uniform( 100, -50.0, 50.0, opts );
-var n = discreteUniform( 100, -5, 0, opts );
+});
+var n = discreteUniform( 100, -5, 0, {
+	'dtype': 'int32'
+});
 
 logEachMap( 'x: %0.4f. Number of decimals: %d. Rounded: %0.4f.', x, n, roundnf );

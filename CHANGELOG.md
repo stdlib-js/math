@@ -715,6 +715,7 @@ A total of 80 issues were closed in this release:
 
 <details>
 
+-   [`dafbda6`](https://github.com/stdlib-js/stdlib/commit/dafbda6d3b1b782596f643582a90c842026688aa) - **chore:** update to use correct type and match README.md _(by Philipp Burckhardt)_
 -   [`a068c72`](https://github.com/stdlib-js/stdlib/commit/a068c72880b9f3757d8b00ec945eb4e9cba31a8b) - **feat:** add `math/base/special/roundnf` [(#9389)](https://github.com/stdlib-js/stdlib/pull/9389) _(by Aman Singh, Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`518339b`](https://github.com/stdlib-js/stdlib/commit/518339b9e202765284968c5bb40a458bf25c9425) - **chore:** remove extra empty line [(#9617)](https://github.com/stdlib-js/stdlib/pull/9617) _(by stdlib-bot)_
 -   [`8e05341`](https://github.com/stdlib-js/stdlib/commit/8e0534149457bd04a06ae3c59d726191e32a1dcf) - **chore:** clean-up _(by Athan Reines)_
