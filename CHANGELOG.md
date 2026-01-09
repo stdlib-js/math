@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576)
 -   [`a068c72`](https://github.com/stdlib-js/stdlib/commit/a068c72880b9f3757d8b00ec945eb4e9cba31a8b) - add `math/base/special/roundnf` [(#9389)](https://github.com/stdlib-js/stdlib/pull/9389)
 -   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046)
 -   [`542d57c`](https://github.com/stdlib-js/stdlib/commit/542d57c97e7b8e8d9b41221d86c5378fa02d0d87) - add `math/base/special/floornf` [(#4881)](https://github.com/stdlib-js/stdlib/pull/4881)
@@ -715,6 +716,7 @@ A total of 80 issues were closed in this release:
 
 <details>
 
+-   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - **feat:** add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576) _(by Neeraj Pathak, Athan Reines)_
 -   [`5149a6b`](https://github.com/stdlib-js/stdlib/commit/5149a6b650b60568bd0df248c2a97a3d8ca2ca87) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`5cddadf`](https://github.com/stdlib-js/stdlib/commit/5cddadf2f755a8e623ca132a6a0aa91bf6a51fdc) - **chore:** clean-up _(by Athan Reines)_
 -   [`dafbda6`](https://github.com/stdlib-js/stdlib/commit/dafbda6d3b1b782596f643582a90c842026688aa) - **chore:** update to use correct type and match README.md _(by Philipp Burckhardt)_
