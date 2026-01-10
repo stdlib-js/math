@@ -716,6 +716,7 @@ A total of 81 issues were closed in this release:
 
 <details>
 
+-   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`b6d9f4d`](https://github.com/stdlib-js/stdlib/commit/b6d9f4d465b6a0ec5ceac8d3d5dda7aaa4c6d8c6) - **chore:** fix JavaScript lint errors [(#9659)](https://github.com/stdlib-js/stdlib/pull/9659) _(by Shreelaxmi Hegde, Athan Reines)_
 -   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - **feat:** add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576) _(by Neeraj Pathak, Athan Reines)_
 -   [`5149a6b`](https://github.com/stdlib-js/stdlib/commit/5149a6b650b60568bd0df248c2a97a3d8ca2ca87) - **chore:** minor clean-up _(by Philipp Burckhardt)_
