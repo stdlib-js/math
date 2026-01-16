@@ -123,7 +123,6 @@
           ]
         }
       ],
-      "output_policy": "real_floating_point_and_generic",
       "returns": {
         "desc": "hyperbolic arctangent",
         "type": {
@@ -134,14 +133,14 @@
         }
       },
       "keywords": [
-        "atanhf",
+        "atanh",
         "hyperbolic",
         "inverse",
         "tangent",
         "tan"
       ],
       "extra_keywords": [
-        "math.atanhf"
+        "math.atanh"
       ]
     }
   }

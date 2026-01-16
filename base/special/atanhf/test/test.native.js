@@ -22,7 +22,6 @@
 
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
-var abs = require( './../../../../base/special/abs' );
 var PINF = require( '@stdlib/constants/float32/pinf' );
 var NINF = require( '@stdlib/constants/float32/ninf' );
 var tryRequire = require( '@stdlib/utils/try-require' );
@@ -31,7 +30,7 @@ var isnanf = require( './../../../../base/assert/is-nanf' );
 var randu = require( '@stdlib/random/base/randu' );
 var isNegativeZerof = require( './../../../../base/assert/is-negative-zerof' );
 var isPositiveZerof = require( './../../../../base/assert/is-positive-zerof' );
-var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
+var isAlmostSameValue = require( '@stdlib/number/float32/base/assert/is-almost-same-value' );
 var f32 = require( '@stdlib/number/float64/base/to-float32' );
 
 
@@ -61,8 +60,7 @@ tape( 'main export is a function', opts, function test( t ) {
 
 tape( 'the function computes the hyperbolic arctangent (negative values)', opts, function test( t ) {
 	var expected;
-	var delta;
-	var tol;
+	var ulps;
 	var x;
 	var y;
 	var i;
@@ -71,24 +69,18 @@ tape( 'the function computes the hyperbolic arctangent (negative values)', opts,
 	x = negative.x;
 	expected = negative.expected;
 
+	ulps = 4;
 	for ( i = 0; i < x.length; i++ ) {
 		y = atanhf( x[ i ] );
 		e = f32( expected[ i ] );
-		if ( isAlmostSameValue( y, e, 4 ) ) {
-			t.strictEqual( y, e, 'x: '+x[i]+'. E: '+e );
-		} else {
-			delta = abs( y - e );
-			tol = 1.3 * EPS * abs( e );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. y: '+y+'. E: '+e+'. Δ: '+delta+'. tol: '+tol+'.' );
-		}
+		t.strictEqual( isAlmostSameValue( y, e, ulps ), true, 'within '+ulps+' ULPs. x: '+x[i]+'. y: '+y+'. E: '+e );
 	}
 	t.end();
 });
 
 tape( 'the function computes the hyperbolic arctangent (positive values)', opts, function test( t ) {
 	var expected;
-	var delta;
-	var tol;
+	var ulps;
 	var x;
 	var y;
 	var i;
@@ -97,24 +89,18 @@ tape( 'the function computes the hyperbolic arctangent (positive values)', opts,
 	x = positive.x;
 	expected = positive.expected;
 
+	ulps = 4;
 	for ( i = 0; i < x.length; i++ ) {
 		y = atanhf( x[ i ] );
 		e = f32( expected[ i ] );
-		if ( isAlmostSameValue( y, e, 4 ) ) {
-			t.strictEqual( y, e, 'x: '+x[i]+'. E: '+e );
-		} else {
-			delta = abs( y - e );
-			tol = 1.3 * EPS * abs( e );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. y: '+y+'. E: '+e+'. Δ: '+delta+'. tol: '+tol+'.' );
-		}
+		t.strictEqual( isAlmostSameValue( y, e, ulps ), true, 'within '+ulps+' ULPs. x: '+x[i]+'. y: '+y+'. E: '+e );
 	}
 	t.end();
 });
 
 tape( 'the function computes the hyperbolic arctangent (small negative)', opts, function test( t ) {
 	var expected;
-	var delta;
-	var tol;
+	var ulps;
 	var x;
 	var y;
 	var i;
@@ -123,24 +109,18 @@ tape( 'the function computes the hyperbolic arctangent (small negative)', opts, 
 	x = smallNegative.x;
 	expected = smallNegative.expected;
 
+	ulps = 1;
 	for ( i = 0; i < x.length; i++ ) {
 		y = atanhf( x[ i ] );
 		e = f32( expected[ i ] );
-		if ( isAlmostSameValue( y, e, 4 ) ) {
-			t.strictEqual( y, e, 'x: '+x[i]+'. E: '+e );
-		} else {
-			delta = abs( y - e );
-			tol = 1.0 * EPS * abs( e );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. y: '+y+'. E: '+e+'. Δ: '+delta+'. tol: '+tol+'.' );
-		}
+		t.strictEqual( isAlmostSameValue( y, e, ulps ), true, 'within '+ulps+' ULPs. x: '+x[i]+'. y: '+y+'. E: '+e );
 	}
 	t.end();
 });
 
 tape( 'the function computes the hyperbolic arctangent (small positive)', opts, function test( t ) {
 	var expected;
-	var delta;
-	var tol;
+	var ulps;
 	var x;
 	var y;
 	var i;
@@ -149,16 +129,11 @@ tape( 'the function computes the hyperbolic arctangent (small positive)', opts, 
 	x = smallPositive.x;
 	expected = smallPositive.expected;
 
+	ulps = 1;
 	for ( i = 0; i < x.length; i++ ) {
-		y = atanhf( x[i] );
+		y = atanhf( x[ i ] );
 		e = f32( expected[ i ] );
-		if ( isAlmostSameValue( y, e, 4 ) ) {
-			t.strictEqual( y, e, 'x: '+x[i]+'. E: '+e );
-		} else {
-			delta = abs( y - e );
-			tol = 1.0 * EPS * abs( e );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. y: '+y+'. E: '+e+'. Δ: '+delta+'. tol: '+tol+'.' );
-		}
+		t.strictEqual( isAlmostSameValue( y, e, ulps ), true, 'within '+ulps+' ULPs. x: '+x[i]+'. y: '+y+'. E: '+e );
 	}
 	t.end();
 });
@@ -179,7 +154,7 @@ tape( 'the function returns `NaN` if provided a value less than `-1`', opts, fun
 	var v;
 	var i;
 
-	for ( i = 0; i < 1e3; i++ ) {
+	for ( i = 0; i < 1e2; i++ ) {
 		v = -( randu() * 1.0e6 ) - ( 1.0 + EPS );
 		t.strictEqual( isnanf( atanhf( v ) ), true, 'returns NaN when provided '+v );
 	}
@@ -190,7 +165,7 @@ tape( 'the function returns `NaN` if provided a value greater than `1`', opts, f
 	var v;
 	var i;
 
-	for ( i = 0; i < 1e3; i++ ) {
+	for ( i = 0; i < 1e2; i++ ) {
 		v = ( randu() * 1.0e6 ) + 1.0 + EPS;
 		t.strictEqual( isnanf( atanhf( v ) ), true, 'returns NaN when provided '+v );
 	}

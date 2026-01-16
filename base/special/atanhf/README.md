@@ -179,10 +179,6 @@ int main( void ) {
 
 <section class="related">
 
-* * *
-
-## See Also
-
 </section>
 
 <!-- /.related -->
