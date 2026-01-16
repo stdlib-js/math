@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7f68fc4`](https://github.com/stdlib-js/stdlib/commit/7f68fc4aa254ea41b4d104041ff513239f104ba3) - add `math/base/special/atanhf` [(#9514)](https://github.com/stdlib-js/stdlib/pull/9514)
 -   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576)
 -   [`a068c72`](https://github.com/stdlib-js/stdlib/commit/a068c72880b9f3757d8b00ec945eb4e9cba31a8b) - add `math/base/special/roundnf` [(#9389)](https://github.com/stdlib-js/stdlib/pull/9389)
 -   [`cb09f58`](https://github.com/stdlib-js/stdlib/commit/cb09f5862f03c3056c8259164653940108068f30) - add `math/base/special/fast/atanhf` [(#9046)](https://github.com/stdlib-js/stdlib/pull/9046)
@@ -716,6 +717,7 @@ A total of 82 issues were closed in this release:
 
 <details>
 
+-   [`7f68fc4`](https://github.com/stdlib-js/stdlib/commit/7f68fc4aa254ea41b4d104041ff513239f104ba3) - **feat:** add `math/base/special/atanhf` [(#9514)](https://github.com/stdlib-js/stdlib/pull/9514) _(by Harsh Yadav, Karan Anand, Philipp Burckhardt)_
 -   [`b18cbc4`](https://github.com/stdlib-js/stdlib/commit/b18cbc48334f3a417ea68d706df69b683b7ad20c) - **docs:** improve doctests for complex number instances in `math/base/special/cexp` [(#9769)](https://github.com/stdlib-js/stdlib/pull/9769) _(by Vishal Gaikwad)_
 -   [`8da46ee`](https://github.com/stdlib-js/stdlib/commit/8da46ee80a830f024f0b347b84e48e239b9eaee9) - **docs:** improve doctests for complex number instances in `math/base/special/cfloor` [(#9766)](https://github.com/stdlib-js/stdlib/pull/9766) _(by Vishal Gaikwad)_
 -   [`a0f0513`](https://github.com/stdlib-js/stdlib/commit/a0f05135e37f5343ba7870b16e124ff2d642643d) - **chore:** fix EditorConfig lint errors [(#9755)](https://github.com/stdlib-js/stdlib/pull/9755) _(by Divyanshu)_
