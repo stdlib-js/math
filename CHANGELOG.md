@@ -717,6 +717,7 @@ A total of 82 issues were closed in this release:
 
 <details>
 
+-   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
 -   [`4418e62`](https://github.com/stdlib-js/stdlib/commit/4418e626e0a3ec318b6451f4e3b3397b0d43c6f2) - **test:** fix broken tests _(by Athan Reines)_
 -   [`4ae9a8a`](https://github.com/stdlib-js/stdlib/commit/4ae9a8a3077bbd8ace12af0e8be28dc750d122e0) - **chore:** clean-up _(by Athan Reines)_
 -   [`612180d`](https://github.com/stdlib-js/stdlib/commit/612180d3f3bdb24cdb8d4c6a3882ce85ba309dac) - **chore:** clean-up _(by Athan Reines)_
