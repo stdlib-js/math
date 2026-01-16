@@ -716,6 +716,7 @@ A total of 82 issues were closed in this release:
 
 <details>
 
+-   [`b18cbc4`](https://github.com/stdlib-js/stdlib/commit/b18cbc48334f3a417ea68d706df69b683b7ad20c) - **docs:** improve doctests for complex number instances in `math/base/special/cexp` [(#9769)](https://github.com/stdlib-js/stdlib/pull/9769) _(by Vishal Gaikwad)_
 -   [`8da46ee`](https://github.com/stdlib-js/stdlib/commit/8da46ee80a830f024f0b347b84e48e239b9eaee9) - **docs:** improve doctests for complex number instances in `math/base/special/cfloor` [(#9766)](https://github.com/stdlib-js/stdlib/pull/9766) _(by Vishal Gaikwad)_
 -   [`a0f0513`](https://github.com/stdlib-js/stdlib/commit/a0f05135e37f5343ba7870b16e124ff2d642643d) - **chore:** fix EditorConfig lint errors [(#9755)](https://github.com/stdlib-js/stdlib/pull/9755) _(by Divyanshu)_
 -   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
