@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-15)
+## Unreleased (2026-01-16)
 
 <section class="features">
 
@@ -716,6 +716,7 @@ A total of 82 issues were closed in this release:
 
 <details>
 
+-   [`8da46ee`](https://github.com/stdlib-js/stdlib/commit/8da46ee80a830f024f0b347b84e48e239b9eaee9) - **docs:** improve doctests for complex number instances in `math/base/special/cfloor` [(#9766)](https://github.com/stdlib-js/stdlib/pull/9766) _(by Vishal Gaikwad)_
 -   [`a0f0513`](https://github.com/stdlib-js/stdlib/commit/a0f05135e37f5343ba7870b16e124ff2d642643d) - **chore:** fix EditorConfig lint errors [(#9755)](https://github.com/stdlib-js/stdlib/pull/9755) _(by Divyanshu)_
 -   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`b6d9f4d`](https://github.com/stdlib-js/stdlib/commit/b6d9f4d465b6a0ec5ceac8d3d5dda7aaa4c6d8c6) - **chore:** fix JavaScript lint errors [(#9659)](https://github.com/stdlib-js/stdlib/pull/9659) _(by Shreelaxmi Hegde, Athan Reines)_
@@ -1892,7 +1893,7 @@ A total of 82 issues were closed in this release:
 
 ### Contributors
 
-A total of 65 people contributed to this release. Thank you to the following contributors:
+A total of 66 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1954,6 +1955,7 @@ A total of 65 people contributed to this release. Thank you to the following con
 -   Shabareesh Shetty
 -   Shaswata Panda
 -   Shreelaxmi Hegde
+-   Vishal Gaikwad
 -   Vivek Maurya
 -   Yohan Park
 -   Yugal Kaushik
