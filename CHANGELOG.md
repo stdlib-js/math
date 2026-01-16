@@ -717,6 +717,8 @@ A total of 82 issues were closed in this release:
 
 <details>
 
+-   [`612180d`](https://github.com/stdlib-js/stdlib/commit/612180d3f3bdb24cdb8d4c6a3882ce85ba309dac) - **chore:** clean-up _(by Athan Reines)_
+-   [`c47b2ba`](https://github.com/stdlib-js/stdlib/commit/c47b2ba406b1466b6c477445a598138b6e1ba6cc) - **chore:** clean-up _(by Athan Reines)_
 -   [`7f68fc4`](https://github.com/stdlib-js/stdlib/commit/7f68fc4aa254ea41b4d104041ff513239f104ba3) - **feat:** add `math/base/special/atanhf` [(#9514)](https://github.com/stdlib-js/stdlib/pull/9514) _(by Harsh Yadav, Karan Anand, Philipp Burckhardt)_
 -   [`b18cbc4`](https://github.com/stdlib-js/stdlib/commit/b18cbc48334f3a417ea68d706df69b683b7ad20c) - **docs:** improve doctests for complex number instances in `math/base/special/cexp` [(#9769)](https://github.com/stdlib-js/stdlib/pull/9769) _(by Vishal Gaikwad)_
 -   [`8da46ee`](https://github.com/stdlib-js/stdlib/commit/8da46ee80a830f024f0b347b84e48e239b9eaee9) - **docs:** improve doctests for complex number instances in `math/base/special/cfloor` [(#9766)](https://github.com/stdlib-js/stdlib/pull/9766) _(by Vishal Gaikwad)_
