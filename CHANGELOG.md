@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-17)
+## Unreleased (2026-01-19)
 
 <section class="features">
 
@@ -717,6 +717,7 @@ A total of 82 issues were closed in this release:
 
 <details>
 
+-   [`7188b0d`](https://github.com/stdlib-js/stdlib/commit/7188b0d35d337eba56bd34d4970b2c852f25ebf9) - **docs:** improve doctests for complex number instances in `math/base/special/cflipsign` [(#9815)](https://github.com/stdlib-js/stdlib/pull/9815) _(by Vishal Gaikwad)_
 -   [`a76d474`](https://github.com/stdlib-js/stdlib/commit/a76d474ab4fa9b2d936d21f9b9aca714b1349ff4) - **docs:** update `math/base/special` TypeScript declaration example code [(#9794)](https://github.com/stdlib-js/stdlib/pull/9794) _(by stdlib-bot)_
 -   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
 -   [`4418e62`](https://github.com/stdlib-js/stdlib/commit/4418e626e0a3ec318b6451f4e3b3397b0d43c6f2) - **test:** fix broken tests _(by Athan Reines)_
