@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2025 The Stdlib Authors.
+Copyright (c) 2026 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -18,43 +18,38 @@ limitations under the License.
 
 -->
 
-# asinhf
+# acothf
 
-> Compute the [hyperbolic arcsine][hyperbolic-arcsine] of a single-precision floating-point number.
+> Compute the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a single-precision floating-point number.
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var asinhf = require( '@stdlib/math/base/special/asinhf' );
+var acothf = require( '@stdlib/math/base/special/acothf' );
 ```
 
-#### asinhf( x )
+#### acothf( x )
 
-Computes the [hyperbolic arcsine][hyperbolic-arcsine] of a single-precision floating-point number.
+Computes the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a single-precision floating-point number.
 
 ```javascript
-var v = asinhf( 0.0 );
-// returns 0.0
+var v = acothf( 2.0 );
+// returns ~0.5493
 
-v = asinhf( -0.0 );
-// returns -0.0
+v = acothf( 1.0 );
+// returns Infinity
+```
 
-v = asinhf( 2.0 );
-// returns ~1.444
+The domain of the inverse hyperbolic cotangent is the union of the intervals `(-inf,-1]` and `[1,inf)`. If provided a value on the open interval `(-1,1)`, the function returns `NaN`.
 
-v = asinhf( -2.0 );
-// returns ~-1.444
-
-v = asinhf( NaN );
+```javascript
+var v = acothf( 0.0 );
 // returns NaN
 
-v = asinhf( -Infinity );
-// returns -Infinity
-
-v = asinhf( Infinity );
-// returns Infinity
+v = acothf( 0.5 );
+// returns NaN
 ```
 
 </section>
@@ -70,14 +65,13 @@ v = asinhf( Infinity );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var logEachMap = require( '@stdlib/console/log-each-map' );
-var asinhf = require( '@stdlib/math/base/special/asinhf' );
+var acothf = require( '@stdlib/math/base/special/acothf' );
 
-var opts = {
+var x = uniform( 100, 1.0, 5.0, {
     'dtype': 'float32'
-};
-var x = uniform( 100, -5.0, 5.0, opts );
+});
 
-logEachMap( 'asinhf(%0.4f) = %0.4f', x, asinhf );
+logEachMap( 'acothf(%0.4f) = %0.4f', x, acothf );
 ```
 
 </section>
@@ -107,19 +101,16 @@ logEachMap( 'asinhf(%0.4f) = %0.4f', x, asinhf );
 ### Usage
 
 ```c
-#include "stdlib/math/base/special/asinhf.h"
+#include "stdlib/math/base/special/acothf.h"
 ```
 
-#### stdlib_base_asinhf( x )
+#### stdlib_base_acothf( x )
 
-Computes the [hyperbolic arcsine][hyperbolic-arcsine] of a single-precision floating-point number.
+Computes the [inverse hyperbolic cotangent][hyperbolic-arctangent] of a single-precision floating-point number.
 
 ```c
-float out = stdlib_base_asinhf( 2.0f );
-// returns ~1.444f
-
-out = stdlib_base_asinhf( -2.0f );
-// returns ~-1.444f
+float out = stdlib_base_acothf( 2.0f );
+// returns ~0.5493f
 ```
 
 The function accepts the following arguments:
@@ -127,7 +118,7 @@ The function accepts the following arguments:
 -   **x**: `[in] float` input value.
 
 ```c
-float stdlib_base_asinhf( const float x );
+float stdlib_base_acothf( const float x );
 ```
 
 </section>
@@ -149,19 +140,17 @@ float stdlib_base_asinhf( const float x );
 ### Examples
 
 ```c
-#include "stdlib/math/base/special/asinhf.h"
-#include <stdlib.h>
+#include "stdlib/math/base/special/acothf.h"
 #include <stdio.h>
 
 int main( void ) {
-    float x;
+    const float x[] = { 1.0f, 1.44f, 1.89f, 2.33f, 2.78f, 3.22f, 3.67f, 4.11f, 4.56f, 5.0f };
+
     float v;
     int i;
-
-    for ( i = 0; i < 100; i++ ) {
-        x = ( (float)rand() / (float)RAND_MAX ) * 100.0f;
-        v = stdlib_base_asinhf( x );
-        printf( "asinhf(%f) = %f\n", x, v );
+    for ( i = 0; i < 10; i++ ) {
+        v = stdlib_base_acothf( x[ i ] );
+        printf( "acothf(%f) = %f\n", x[ i ], v );
     }
 }
 ```
@@ -178,6 +167,10 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
 </section>
 
 <!-- /.related -->
@@ -186,7 +179,7 @@ int main( void ) {
 
 <section class="links">
 
-[hyperbolic-arcsine]: https://en.wikipedia.org/wiki/Inverse_hyperbolic_function
+[hyperbolic-arctangent]: https://en.wikipedia.org/wiki/Inverse_hyperbolic_function
 
 <!-- <related-links> -->
 
