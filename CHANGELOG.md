@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-25)
+## Unreleased (2026-01-26)
 
 <section class="features">
 
@@ -718,6 +718,7 @@ A total of 82 issues were closed in this release:
 
 <details>
 
+-   [`b5e65f7`](https://github.com/stdlib-js/stdlib/commit/b5e65f77cc4d0d175f408c2c44aaca987a76354d) - **bench:** add opts and use string interpolation [(#9889)](https://github.com/stdlib-js/stdlib/pull/9889) _(by Harsh Yadav)_
 -   [`c36d8f4`](https://github.com/stdlib-js/stdlib/commit/c36d8f4e60350651e664c63c07761fc344d5234f) - **chore:** clean-up _(by Athan Reines)_
 -   [`a3eec0d`](https://github.com/stdlib-js/stdlib/commit/a3eec0d8cf8121d20be4e9bb178ad99ac46096a0) - **bench:** refactor to use string interpolation in `math/base/special/atanhf` [(#9861)](https://github.com/stdlib-js/stdlib/pull/9861) _(by Harsh Yadav)_
 -   [`ed81430`](https://github.com/stdlib-js/stdlib/commit/ed81430366dc2e2f58a354fafbbcd588f4b9069d) - **feat:** add `math/base/special/acothf` [(#9803)](https://github.com/stdlib-js/stdlib/pull/9803) _(by Harsh Yadav, Philipp Burckhardt)_
