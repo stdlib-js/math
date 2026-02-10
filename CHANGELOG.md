@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-07)
+## Unreleased (2026-02-10)
 
 <section class="features">
 
@@ -718,6 +718,7 @@ A total of 83 issues were closed in this release:
 
 <details>
 
+-   [`de6983f`](https://github.com/stdlib-js/stdlib/commit/de6983f8c2359024668e5b4b5e7f65eb472118ee) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10195)](https://github.com/stdlib-js/stdlib/pull/10195) _(by Lokesh Ranjan)_
 -   [`231d457`](https://github.com/stdlib-js/stdlib/commit/231d45774d3ba684ce107e85fc7df41a679845e3) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10072)](https://github.com/stdlib-js/stdlib/pull/10072) _(by Lokesh Ranjan)_
 -   [`1eee288`](https://github.com/stdlib-js/stdlib/commit/1eee288269d47dffe3b59766b0bb846089ad2b42) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10133)](https://github.com/stdlib-js/stdlib/pull/10133) _(by Lokesh Ranjan)_
 -   [`225a1d9`](https://github.com/stdlib-js/stdlib/commit/225a1d993e50804e3ae39f5effe14508bc253015) - **chore:** fix JavaScript lint errors [(#9813)](https://github.com/stdlib-js/stdlib/pull/9813) _(by nnyouung, Athan Reines)_
