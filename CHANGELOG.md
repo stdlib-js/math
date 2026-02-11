@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-10)
+## Unreleased (2026-02-11)
 
 <section class="features">
 
 ### Features
 
+-   [`b47c0f0`](https://github.com/stdlib-js/stdlib/commit/b47c0f0b2d39710600184eeb20fcc9e1c870e3f9) - add `math/base/special/sincosdf` [(#9822)](https://github.com/stdlib-js/stdlib/pull/9822)
 -   [`ed81430`](https://github.com/stdlib-js/stdlib/commit/ed81430366dc2e2f58a354fafbbcd588f4b9069d) - add `math/base/special/acothf` [(#9803)](https://github.com/stdlib-js/stdlib/pull/9803)
 -   [`7f68fc4`](https://github.com/stdlib-js/stdlib/commit/7f68fc4aa254ea41b4d104041ff513239f104ba3) - add `math/base/special/atanhf` [(#9514)](https://github.com/stdlib-js/stdlib/pull/9514)
 -   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576)
@@ -718,6 +719,7 @@ A total of 83 issues were closed in this release:
 
 <details>
 
+-   [`b47c0f0`](https://github.com/stdlib-js/stdlib/commit/b47c0f0b2d39710600184eeb20fcc9e1c870e3f9) - **feat:** add `math/base/special/sincosdf` [(#9822)](https://github.com/stdlib-js/stdlib/pull/9822) _(by Shantanu Kharwar, Philipp Burckhardt)_
 -   [`de6983f`](https://github.com/stdlib-js/stdlib/commit/de6983f8c2359024668e5b4b5e7f65eb472118ee) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10195)](https://github.com/stdlib-js/stdlib/pull/10195) _(by Lokesh Ranjan)_
 -   [`231d457`](https://github.com/stdlib-js/stdlib/commit/231d45774d3ba684ce107e85fc7df41a679845e3) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10072)](https://github.com/stdlib-js/stdlib/pull/10072) _(by Lokesh Ranjan)_
 -   [`1eee288`](https://github.com/stdlib-js/stdlib/commit/1eee288269d47dffe3b59766b0bb846089ad2b42) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10133)](https://github.com/stdlib-js/stdlib/pull/10133) _(by Lokesh Ranjan)_
@@ -1915,7 +1917,7 @@ A total of 83 issues were closed in this release:
 
 ### Contributors
 
-A total of 67 people contributed to this release. Thank you to the following contributors:
+A total of 68 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1975,6 +1977,7 @@ A total of 67 people contributed to this release. Thank you to the following con
 -   Saurabh Singh
 -   Seoha Son
 -   Shabareesh Shetty
+-   Shantanu Kharwar
 -   Shaswata Panda
 -   Shreelaxmi Hegde
 -   Vishal Gaikwad
