@@ -721,6 +721,7 @@ A total of 84 issues were closed in this release:
 
 <details>
 
+-   [`e83179b`](https://github.com/stdlib-js/stdlib/commit/e83179b9b342021ac4b62eb9985e82137462ff0e) - **docs:** improve doctests for complex number instances in `math/base/special/cceilf` [(#10183)](https://github.com/stdlib-js/stdlib/pull/10183) _(by Vishal Gaikwad)_
 -   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - **feat:** add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196) _(by Kamal Singh Rautela)_
 -   [`71f75c9`](https://github.com/stdlib-js/stdlib/commit/71f75c9b9b996b6b0e6a1e4a75229a726c3a1ea3) - **chore:** fix JavaScript lint errors [(#10247)](https://github.com/stdlib-js/stdlib/pull/10247) _(by Bhargav Dabhade)_
 -   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - **feat:** add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177) _(by Shubham)_
