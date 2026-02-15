@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-14)
+## Unreleased (2026-02-15)
 
 <section class="features">
 
 ### Features
 
+-   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196)
 -   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177)
 -   [`b47c0f0`](https://github.com/stdlib-js/stdlib/commit/b47c0f0b2d39710600184eeb20fcc9e1c870e3f9) - add `math/base/special/sincosdf` [(#9822)](https://github.com/stdlib-js/stdlib/pull/9822)
 -   [`ed81430`](https://github.com/stdlib-js/stdlib/commit/ed81430366dc2e2f58a354fafbbcd588f4b9069d) - add `math/base/special/acothf` [(#9803)](https://github.com/stdlib-js/stdlib/pull/9803)
@@ -720,6 +721,7 @@ A total of 84 issues were closed in this release:
 
 <details>
 
+-   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - **feat:** add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196) _(by Kamal Singh Rautela)_
 -   [`71f75c9`](https://github.com/stdlib-js/stdlib/commit/71f75c9b9b996b6b0e6a1e4a75229a726c3a1ea3) - **chore:** fix JavaScript lint errors [(#10247)](https://github.com/stdlib-js/stdlib/pull/10247) _(by Bhargav Dabhade)_
 -   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - **feat:** add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177) _(by Shubham)_
 -   [`b47c0f0`](https://github.com/stdlib-js/stdlib/commit/b47c0f0b2d39710600184eeb20fcc9e1c870e3f9) - **feat:** add `math/base/special/sincosdf` [(#9822)](https://github.com/stdlib-js/stdlib/pull/9822) _(by Shantanu Kharwar, Philipp Burckhardt)_
@@ -1920,7 +1922,7 @@ A total of 84 issues were closed in this release:
 
 ### Contributors
 
-A total of 70 people contributed to this release. Thank you to the following contributors:
+A total of 71 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1951,6 +1953,7 @@ A total of 70 people contributed to this release. Thank you to the following con
 -   Jalaj Kumar
 -   Jay Soni
 -   Jugal Patel
+-   Kamal Singh Rautela
 -   Karan Anand
 -   Karan Vasudevamurthy
 -   Kaustubh Patange
