@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-16)
+## Unreleased (2026-02-17)
 
 <section class="features">
 
@@ -721,6 +721,7 @@ A total of 84 issues were closed in this release:
 
 <details>
 
+-   [`1ac0545`](https://github.com/stdlib-js/stdlib/commit/1ac0545653898f2f1c6943f52d42afb9d46195c6) - **chore:** update tests and use string interpolation in `math/base/special/sqrt1pm1` [(#10324)](https://github.com/stdlib-js/stdlib/pull/10324) _(by Shubham)_
 -   [`6ecc272`](https://github.com/stdlib-js/stdlib/commit/6ecc272a3117e71d4a9b0ec55864e5fed4e2386c) - **chore:** fix example code and add missing semicolon _(by Philipp Burckhardt)_
 -   [`a253e63`](https://github.com/stdlib-js/stdlib/commit/a253e6394fc69bc1251c0544ca051b605c8adad3) - **docs:** update `math/base/special` TypeScript declarations [(#10311)](https://github.com/stdlib-js/stdlib/pull/10311) _(by stdlib-bot)_
 -   [`e83179b`](https://github.com/stdlib-js/stdlib/commit/e83179b9b342021ac4b62eb9985e82137462ff0e) - **docs:** improve doctests for complex number instances in `math/base/special/cceilf` [(#10183)](https://github.com/stdlib-js/stdlib/pull/10183) _(by Vishal Gaikwad)_
