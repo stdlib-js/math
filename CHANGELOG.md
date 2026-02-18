@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-17)
+## Unreleased (2026-02-18)
 
 <section class="features">
 
 ### Features
 
+-   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323)
 -   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196)
 -   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177)
 -   [`b47c0f0`](https://github.com/stdlib-js/stdlib/commit/b47c0f0b2d39710600184eeb20fcc9e1c870e3f9) - add `math/base/special/sincosdf` [(#9822)](https://github.com/stdlib-js/stdlib/pull/9822)
@@ -721,6 +722,7 @@ A total of 84 issues were closed in this release:
 
 <details>
 
+-   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - **feat:** add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323) _(by Shubham, Philipp Burckhardt)_
 -   [`1ac0545`](https://github.com/stdlib-js/stdlib/commit/1ac0545653898f2f1c6943f52d42afb9d46195c6) - **chore:** update tests and use string interpolation in `math/base/special/sqrt1pm1` [(#10324)](https://github.com/stdlib-js/stdlib/pull/10324) _(by Shubham)_
 -   [`6ecc272`](https://github.com/stdlib-js/stdlib/commit/6ecc272a3117e71d4a9b0ec55864e5fed4e2386c) - **chore:** fix example code and add missing semicolon _(by Philipp Burckhardt)_
 -   [`a253e63`](https://github.com/stdlib-js/stdlib/commit/a253e6394fc69bc1251c0544ca051b605c8adad3) - **docs:** update `math/base/special` TypeScript declarations [(#10311)](https://github.com/stdlib-js/stdlib/pull/10311) _(by stdlib-bot)_
