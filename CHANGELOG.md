@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-18)
+## Unreleased (2026-02-23)
 
 <section class="features">
 
@@ -722,6 +722,7 @@ A total of 84 issues were closed in this release:
 
 <details>
 
+-   [`6979901`](https://github.com/stdlib-js/stdlib/commit/697990190ede7a6b807372e724546eb9470aa81b) - **bench:** refactor to use string interpolation in `math/base/special/sec` [(#10359)](https://github.com/stdlib-js/stdlib/pull/10359) _(by AyushiJain18270)_
 -   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - **feat:** add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323) _(by Shubham, Philipp Burckhardt)_
 -   [`1ac0545`](https://github.com/stdlib-js/stdlib/commit/1ac0545653898f2f1c6943f52d42afb9d46195c6) - **chore:** update tests and use string interpolation in `math/base/special/sqrt1pm1` [(#10324)](https://github.com/stdlib-js/stdlib/pull/10324) _(by Shubham)_
 -   [`6ecc272`](https://github.com/stdlib-js/stdlib/commit/6ecc272a3117e71d4a9b0ec55864e5fed4e2386c) - **chore:** fix example code and add missing semicolon _(by Philipp Burckhardt)_
@@ -1928,7 +1929,7 @@ A total of 84 issues were closed in this release:
 
 ### Contributors
 
-A total of 71 people contributed to this release. Thank you to the following contributors:
+A total of 72 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1937,6 +1938,7 @@ A total of 71 people contributed to this release. Thank you to the following con
 -   Aryan kumar
 -   Athan Reines
 -   Atharva Patil
+-   AyushiJain18270
 -   Bhargav Dabhade
 -   Devshree Bhati
 -   Dhanyabad Behera
