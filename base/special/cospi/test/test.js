@@ -29,7 +29,7 @@ var EPS = require( '@stdlib/constants/float64/eps' );
 var abs = require( './../../../../base/special/abs' );
 var pow = require( './../../../../base/special/pow' );
 var isPositiveZero = require( '@stdlib/assert/is-positive-zero' );
-var cospi = require( './../lib/' );
+var cospi = require( './../lib' );
 
 
 // FIXTURES //

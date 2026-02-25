@@ -722,6 +722,9 @@ A total of 85 issues were closed in this release:
 
 <details>
 
+-   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
+-   [`f7191c0`](https://github.com/stdlib-js/stdlib/commit/f7191c093f0607ad6de9b7a21612f36bb3a84d90) - **chore:** use relative paths and remove trailing slashes in require paths _(by Philipp Burckhardt)_
+-   [`0ca797b`](https://github.com/stdlib-js/stdlib/commit/0ca797b5558b96111256a7446eafe101761b240b) - **bench:** use float literals for `uniform` range arguments _(by Philipp Burckhardt)_
 -   [`8318891`](https://github.com/stdlib-js/stdlib/commit/8318891b30c2a8f2649e386f2abba4d064111c54) - **docs:** improve doctest for ndarray instances in `math/tools/unary` [(#10470)](https://github.com/stdlib-js/stdlib/pull/10470) _(by AyushiJain18270)_
 -   [`8156d8e`](https://github.com/stdlib-js/stdlib/commit/8156d8e838de021a64886a2d4879ac898695389d) - **bench:** refactor to use string interpolation in `math/base/utils` [(#10473)](https://github.com/stdlib-js/stdlib/pull/10473) _(by Vishal Gaikwad)_
 -   [`823392d`](https://github.com/stdlib-js/stdlib/commit/823392d1ffb3c5284df53c1be033150b87d6ad85) - **docs:** update `math/special` TypeScript declarations [(#10479)](https://github.com/stdlib-js/stdlib/pull/10479) _(by stdlib-bot)_
