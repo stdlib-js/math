@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-24)
+## Unreleased (2026-02-25)
 
 <section class="features">
 
@@ -722,6 +722,7 @@ A total of 85 issues were closed in this release:
 
 <details>
 
+-   [`823392d`](https://github.com/stdlib-js/stdlib/commit/823392d1ffb3c5284df53c1be033150b87d6ad85) - **docs:** update `math/special` TypeScript declarations [(#10479)](https://github.com/stdlib-js/stdlib/pull/10479) _(by stdlib-bot)_
 -   [`ddc8202`](https://github.com/stdlib-js/stdlib/commit/ddc820270cfbdc5f88b832442bf62752bbdc2b78) - **docs:** improve doctests for ndarray instances in `math/special/abs` [(#10435)](https://github.com/stdlib-js/stdlib/pull/10435) _(by AyushiJain18270)_
 -   [`a60fc25`](https://github.com/stdlib-js/stdlib/commit/a60fc2596e69278abc19df474aa63f259f9bdbe5) - **test:** use powf in `absgammaInf` [(#10437)](https://github.com/stdlib-js/stdlib/pull/10437) _(by Sagar Ratna Chaudhary)_
 -   [`1ca4102`](https://github.com/stdlib-js/stdlib/commit/1ca410285a07bc2fe47b66732c4c24bfadd50771) - **chore:** fix EditorConfig lint errors [(#10406)](https://github.com/stdlib-js/stdlib/pull/10406) _(by Kamal Singh Rautela)_
