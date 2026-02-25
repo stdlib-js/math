@@ -722,6 +722,7 @@ A total of 85 issues were closed in this release:
 
 <details>
 
+-   [`8156d8e`](https://github.com/stdlib-js/stdlib/commit/8156d8e838de021a64886a2d4879ac898695389d) - **bench:** refactor to use string interpolation in `math/base/utils` [(#10473)](https://github.com/stdlib-js/stdlib/pull/10473) _(by Vishal Gaikwad)_
 -   [`823392d`](https://github.com/stdlib-js/stdlib/commit/823392d1ffb3c5284df53c1be033150b87d6ad85) - **docs:** update `math/special` TypeScript declarations [(#10479)](https://github.com/stdlib-js/stdlib/pull/10479) _(by stdlib-bot)_
 -   [`ddc8202`](https://github.com/stdlib-js/stdlib/commit/ddc820270cfbdc5f88b832442bf62752bbdc2b78) - **docs:** improve doctests for ndarray instances in `math/special/abs` [(#10435)](https://github.com/stdlib-js/stdlib/pull/10435) _(by AyushiJain18270)_
 -   [`a60fc25`](https://github.com/stdlib-js/stdlib/commit/a60fc2596e69278abc19df474aa63f259f9bdbe5) - **test:** use powf in `absgammaInf` [(#10437)](https://github.com/stdlib-js/stdlib/pull/10437) _(by Sagar Ratna Chaudhary)_
