@@ -722,6 +722,7 @@ A total of 85 issues were closed in this release:
 
 <details>
 
+-   [`8318891`](https://github.com/stdlib-js/stdlib/commit/8318891b30c2a8f2649e386f2abba4d064111c54) - **docs:** improve doctest for ndarray instances in `math/tools/unary` [(#10470)](https://github.com/stdlib-js/stdlib/pull/10470) _(by AyushiJain18270)_
 -   [`8156d8e`](https://github.com/stdlib-js/stdlib/commit/8156d8e838de021a64886a2d4879ac898695389d) - **bench:** refactor to use string interpolation in `math/base/utils` [(#10473)](https://github.com/stdlib-js/stdlib/pull/10473) _(by Vishal Gaikwad)_
 -   [`823392d`](https://github.com/stdlib-js/stdlib/commit/823392d1ffb3c5284df53c1be033150b87d6ad85) - **docs:** update `math/special` TypeScript declarations [(#10479)](https://github.com/stdlib-js/stdlib/pull/10479) _(by stdlib-bot)_
 -   [`ddc8202`](https://github.com/stdlib-js/stdlib/commit/ddc820270cfbdc5f88b832442bf62752bbdc2b78) - **docs:** improve doctests for ndarray instances in `math/special/abs` [(#10435)](https://github.com/stdlib-js/stdlib/pull/10435) _(by AyushiJain18270)_
