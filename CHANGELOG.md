@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577)
 -   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323)
 -   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196)
 -   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177)
@@ -722,6 +723,7 @@ A total of 86 issues were closed in this release:
 
 <details>
 
+-   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - **feat:** add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577) _(by Neeraj Pathak, Athan Reines)_
 -   [`086d2d6`](https://github.com/stdlib-js/stdlib/commit/086d2d61999c12b8ec98b96dbbf9677b835181ea) - **chore:** fix JavaScript lint errors [(#10557)](https://github.com/stdlib-js/stdlib/pull/10557) _(by Partha Das, Athan Reines)_
 -   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
 -   [`40a80f6`](https://github.com/stdlib-js/stdlib/commit/40a80f62a767edfc5d664d617f44a4b8cb335cdd) - **docs:** add missing section closing comments in `math/base/special` READMEs _(by Philipp Burckhardt)_
