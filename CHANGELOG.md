@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-28)
+## Unreleased (2026-03-01)
 
 <section class="features">
 
@@ -723,6 +723,7 @@ A total of 86 issues were closed in this release:
 
 <details>
 
+-   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - **feat:** add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577) _(by Neeraj Pathak, Athan Reines)_
 -   [`086d2d6`](https://github.com/stdlib-js/stdlib/commit/086d2d61999c12b8ec98b96dbbf9677b835181ea) - **chore:** fix JavaScript lint errors [(#10557)](https://github.com/stdlib-js/stdlib/pull/10557) _(by Partha Das, Athan Reines)_
 -   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
