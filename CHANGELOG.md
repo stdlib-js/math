@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-05)
+## Unreleased (2026-03-06)
 
 <section class="features">
 
@@ -723,6 +723,7 @@ A total of 87 issues were closed in this release:
 
 <details>
 
+-   [`6f7ee58`](https://github.com/stdlib-js/stdlib/commit/6f7ee58852bbba14f20d0ef3f0e6855cd7e5ab1b) - **bench:** use string interpolation in `math/base/special/abs` [(#10734)](https://github.com/stdlib-js/stdlib/pull/10734) _(by travisBREAKS)_
 -   [`8145443`](https://github.com/stdlib-js/stdlib/commit/8145443dd757751d025b175d64e425244cddb97f) - **docs:** update `math/base/special` TypeScript declarations [(#10711)](https://github.com/stdlib-js/stdlib/pull/10711) _(by stdlib-bot)_
 -   [`a24740a`](https://github.com/stdlib-js/stdlib/commit/a24740a8441afceaef4ec4f0956fdb32b66c2f36) - **chore:** fix EditorConfig lint errors [(#10695)](https://github.com/stdlib-js/stdlib/pull/10695) _(by Partha Das)_
 -   [`2727b51`](https://github.com/stdlib-js/stdlib/commit/2727b5129ea9956b5e0caf989654454912fe9d24) - **docs:** improve doctests for complex number instances in `math/base/special/croundf` [(#10510)](https://github.com/stdlib-js/stdlib/pull/10510) _(by AyushiJain18270, Philipp Burckhardt)_
@@ -1948,7 +1949,7 @@ A total of 87 issues were closed in this release:
 
 ### Contributors
 
-A total of 73 people contributed to this release. Thank you to the following contributors:
+A total of 74 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -2023,6 +2024,7 @@ A total of 73 people contributed to this release. Thank you to the following con
 -   kaushal-kumar-it
 -   kshitijgarg2811-oss
 -   nnyouung
+-   travisBREAKS
 
 </section>
 
