@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-06)
+## Unreleased (2026-03-07)
 
 <section class="features">
 
@@ -723,6 +723,7 @@ A total of 87 issues were closed in this release:
 
 <details>
 
+-   [`a5f1905`](https://github.com/stdlib-js/stdlib/commit/a5f190528adacae01ce743e29bc4e1f91d005947) - **bench:** use string interpolation in `math/base/special/floor` [(#10736)](https://github.com/stdlib-js/stdlib/pull/10736) _(by travisBREAKS, Egger)_
 -   [`f838879`](https://github.com/stdlib-js/stdlib/commit/f83887976cd26ae9bc431233a46777b281bf91e8) - **bench:** use string interpolation in `math/base/special/ceil` [(#10735)](https://github.com/stdlib-js/stdlib/pull/10735) _(by travisBREAKS)_
 -   [`6f7ee58`](https://github.com/stdlib-js/stdlib/commit/6f7ee58852bbba14f20d0ef3f0e6855cd7e5ab1b) - **bench:** use string interpolation in `math/base/special/abs` [(#10734)](https://github.com/stdlib-js/stdlib/pull/10734) _(by travisBREAKS)_
 -   [`8145443`](https://github.com/stdlib-js/stdlib/commit/8145443dd757751d025b175d64e425244cddb97f) - **docs:** update `math/base/special` TypeScript declarations [(#10711)](https://github.com/stdlib-js/stdlib/pull/10711) _(by stdlib-bot)_
@@ -1950,7 +1951,7 @@ A total of 87 issues were closed in this release:
 
 ### Contributors
 
-A total of 74 people contributed to this release. Thank you to the following contributors:
+A total of 75 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -1968,6 +1969,7 @@ A total of 74 people contributed to this release. Thank you to the following con
 -   Ditsu S
 -   DivitJain26
 -   Divyanshu
+-   Egger
 -   Gaurav Kaushik
 -   Gautam Kaushik
 -   Gautam sharma
