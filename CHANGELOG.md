@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`71468a6`](https://github.com/stdlib-js/stdlib/commit/71468a6d49a3c0c2ec6173033eacda61bc75ff01) - add `ZZZZ_Z` macro in `math/base/napi/quaternary` [(#9944)](https://github.com/stdlib-js/stdlib/pull/9944)
 -   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577)
 -   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323)
 -   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196)
@@ -723,6 +724,7 @@ A total of 90 issues were closed in this release:
 
 <details>
 
+-   [`71468a6`](https://github.com/stdlib-js/stdlib/commit/71468a6d49a3c0c2ec6173033eacda61bc75ff01) - **feat:** add `ZZZZ_Z` macro in `math/base/napi/quaternary` [(#9944)](https://github.com/stdlib-js/stdlib/pull/9944) _(by Neeraj Pathak, Athan Reines)_
 -   [`c625294`](https://github.com/stdlib-js/stdlib/commit/c62529438c8dbed914895384c48a0fb27edbf956) - **bench:** refactor to use string interpolation in `math/array/special/abs` [(#11091)](https://github.com/stdlib-js/stdlib/pull/11091) _(by Partha Das)_
 -   [`2c843b8`](https://github.com/stdlib-js/stdlib/commit/2c843b85223c779af86697cef8522f3f6d955976) - **bench:** refactor to use string interpolation in `math/strided/special/abs` [(#11092)](https://github.com/stdlib-js/stdlib/pull/11092) _(by Partha Das)_
 -   [`68a70e3`](https://github.com/stdlib-js/stdlib/commit/68a70e3e372c8c4c625977401a67d9ab4d9b9ae3) - **bench:** refactor to use string interpolation in `math/strided/ops/sub` [(#11093)](https://github.com/stdlib-js/stdlib/pull/11093) _(by Partha Das)_
