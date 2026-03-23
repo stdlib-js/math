@@ -724,6 +724,7 @@ A total of 90 issues were closed in this release:
 
 <details>
 
+-   [`1790fd8`](https://github.com/stdlib-js/stdlib/commit/1790fd8540adf9a62bdd63361c7cdcc8ad540c36) - **bench:** refactor to use string interpolation in `math/base/special/beta` [(#11090)](https://github.com/stdlib-js/stdlib/pull/11090) _(by Partha Das)_
 -   [`71468a6`](https://github.com/stdlib-js/stdlib/commit/71468a6d49a3c0c2ec6173033eacda61bc75ff01) - **feat:** add `ZZZZ_Z` macro in `math/base/napi/quaternary` [(#9944)](https://github.com/stdlib-js/stdlib/pull/9944) _(by Neeraj Pathak, Athan Reines)_
 -   [`c625294`](https://github.com/stdlib-js/stdlib/commit/c62529438c8dbed914895384c48a0fb27edbf956) - **bench:** refactor to use string interpolation in `math/array/special/abs` [(#11091)](https://github.com/stdlib-js/stdlib/pull/11091) _(by Partha Das)_
 -   [`2c843b8`](https://github.com/stdlib-js/stdlib/commit/2c843b85223c779af86697cef8522f3f6d955976) - **bench:** refactor to use string interpolation in `math/strided/special/abs` [(#11092)](https://github.com/stdlib-js/stdlib/pull/11092) _(by Partha Das)_
