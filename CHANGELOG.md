@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-22)
+## Unreleased (2026-03-23)
 
 <section class="features">
 
@@ -723,6 +723,7 @@ A total of 90 issues were closed in this release:
 
 <details>
 
+-   [`68a70e3`](https://github.com/stdlib-js/stdlib/commit/68a70e3e372c8c4c625977401a67d9ab4d9b9ae3) - **bench:** refactor to use string interpolation in `math/strided/ops/sub` [(#11093)](https://github.com/stdlib-js/stdlib/pull/11093) _(by Partha Das)_
 -   [`dc2ab17`](https://github.com/stdlib-js/stdlib/commit/dc2ab175c0358e31a4e1702c73d4c91c1a6c4e6b) - **chore:** fix JavaScript lint errors [(#11015)](https://github.com/stdlib-js/stdlib/pull/11015) _(by Baixiaochun, Athan Reines)_
 -   [`fda6d89`](https://github.com/stdlib-js/stdlib/commit/fda6d8918aaab28bd1b422d32314970d0fb8215b) - **chore:** fix EditorConfig lint errors [(#11046)](https://github.com/stdlib-js/stdlib/pull/11046) _(by Baixiaochun)_
 -   [`e514cd8`](https://github.com/stdlib-js/stdlib/commit/e514cd88083c5cfa4bbe539d9b92d64f44c42c8b) - **chore:** fix C lint errors [(#10981)](https://github.com/stdlib-js/stdlib/pull/10981) _(by Geo Daoyu)_
