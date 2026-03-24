@@ -91,7 +91,7 @@ napi_value stdlib_math_base_napi_zzzz_z( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, wim, &wimtype );
 	assert( status == napi_ok );
 	if ( wimtype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. First argument must have an imaginary component which a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. First argument must have an imaginary component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -133,7 +133,7 @@ napi_value stdlib_math_base_napi_zzzz_z( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, xim, &ximtype );
 	assert( status == napi_ok );
 	if ( ximtype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have an imaginary component which a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have an imaginary component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -175,7 +175,7 @@ napi_value stdlib_math_base_napi_zzzz_z( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, yim, &yimtype );
 	assert( status == napi_ok );
 	if ( yimtype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have an imaginary component which a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have an imaginary component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -217,7 +217,7 @@ napi_value stdlib_math_base_napi_zzzz_z( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, zim, &zimtype );
 	assert( status == napi_ok );
 	if ( zimtype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must have an imaginary component which a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must have an imaginary component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}

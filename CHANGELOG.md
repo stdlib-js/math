@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-23)
+## Unreleased (2026-03-24)
 
 <section class="features">
 
@@ -725,6 +725,7 @@ A total of 90 issues were closed in this release:
 
 <details>
 
+-   [`90b1d08`](https://github.com/stdlib-js/stdlib/commit/90b1d08d97ae2d4db68836796d38f486d62d6610) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e196c42`](https://github.com/stdlib-js/stdlib/commit/e196c42d4f901702ffda4f5159b2ecd9141f8384) - **feat:** add `CCCC_C` macro in `math/base/napi/quaternary` [(#11105)](https://github.com/stdlib-js/stdlib/pull/11105) _(by Neeraj Pathak)_
 -   [`1790fd8`](https://github.com/stdlib-js/stdlib/commit/1790fd8540adf9a62bdd63361c7cdcc8ad540c36) - **bench:** refactor to use string interpolation in `math/base/special/beta` [(#11090)](https://github.com/stdlib-js/stdlib/pull/11090) _(by Partha Das)_
 -   [`71468a6`](https://github.com/stdlib-js/stdlib/commit/71468a6d49a3c0c2ec6173033eacda61bc75ff01) - **feat:** add `ZZZZ_Z` macro in `math/base/napi/quaternary` [(#9944)](https://github.com/stdlib-js/stdlib/pull/9944) _(by Neeraj Pathak, Athan Reines)_

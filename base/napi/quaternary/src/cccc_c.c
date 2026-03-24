@@ -112,7 +112,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, xre, &xretype );
 	assert( status == napi_ok );
 	if ( xretype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. First argument must have a real component which is a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have a real component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -120,7 +120,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_has_named_property( env, argv[ 1 ], "im", &hprop );
 	assert( status == napi_ok );
 	if ( !hprop ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. First argument must have an imaginary component." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have an imaginary component." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -133,7 +133,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, xim, &ximtype );
 	assert( status == napi_ok );
 	if ( ximtype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. First argument must have an imaginary component which a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have an imaginary component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -141,7 +141,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_has_named_property( env, argv[ 2 ], "re", &hprop );
 	assert( status == napi_ok );
 	if ( !hprop ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have a real component." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have a real component." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -154,7 +154,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, yre, &yretype );
 	assert( status == napi_ok );
 	if ( yretype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have a real component which is a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have a real component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -162,7 +162,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_has_named_property( env, argv[ 2 ], "im", &hprop );
 	assert( status == napi_ok );
 	if ( !hprop ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have an imaginary component." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have an imaginary component." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -175,7 +175,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, yim, &yimtype );
 	assert( status == napi_ok );
 	if ( yimtype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Second argument must have an imaginary component which a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have an imaginary component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -183,7 +183,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_has_named_property( env, argv[ 3 ], "re", &hprop );
 	assert( status == napi_ok );
 	if ( !hprop ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have a real component." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must have a real component." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -196,7 +196,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, zre, &zretype );
 	assert( status == napi_ok );
 	if ( zretype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have a real component which is a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must have a real component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -204,7 +204,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_has_named_property( env, argv[ 3 ], "im", &hprop );
 	assert( status == napi_ok );
 	if ( !hprop ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have an imaginary component." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must have an imaginary component." );
 		assert( status == napi_ok );
 		return NULL;
 	}
@@ -217,7 +217,7 @@ napi_value stdlib_math_base_napi_cccc_c( napi_env env, napi_callback_info info, 
 	status = napi_typeof( env, zim, &zimtype );
 	assert( status == napi_ok );
 	if ( zimtype != napi_number ) {
-		status = napi_throw_type_error( env, NULL, "invalid argument. Third argument must have an imaginary component which a number." );
+		status = napi_throw_type_error( env, NULL, "invalid argument. Fourth argument must have an imaginary component which is a number." );
 		assert( status == napi_ok );
 		return NULL;
 	}
