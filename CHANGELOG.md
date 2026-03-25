@@ -725,6 +725,7 @@ A total of 90 issues were closed in this release:
 
 <details>
 
+-   [`d42b153`](https://github.com/stdlib-js/stdlib/commit/d42b153778f21dd1cd0814887086f43417de3738) - **docs:** fix C example variable declaration [(#11125)](https://github.com/stdlib-js/stdlib/pull/11125) _(by anee3)_
 -   [`2604e21`](https://github.com/stdlib-js/stdlib/commit/2604e213f90904e2dbf64a18afdd68cfa5881719) - **docs:** fix C example variable declaration [(#11124)](https://github.com/stdlib-js/stdlib/pull/11124) _(by anee3)_
 -   [`90b1d08`](https://github.com/stdlib-js/stdlib/commit/90b1d08d97ae2d4db68836796d38f486d62d6610) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e196c42`](https://github.com/stdlib-js/stdlib/commit/e196c42d4f901702ffda4f5159b2ecd9141f8384) - **feat:** add `CCCC_C` macro in `math/base/napi/quaternary` [(#11105)](https://github.com/stdlib-js/stdlib/pull/11105) _(by Neeraj Pathak)_
