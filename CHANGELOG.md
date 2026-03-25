@@ -725,6 +725,7 @@ A total of 90 issues were closed in this release:
 
 <details>
 
+-   [`b7feba2`](https://github.com/stdlib-js/stdlib/commit/b7feba2d63f20199707be94ffa1284538e0c4395) - **docs:** fix C example variable declaration [(#11127)](https://github.com/stdlib-js/stdlib/pull/11127) _(by anee3)_
 -   [`727c508`](https://github.com/stdlib-js/stdlib/commit/727c508beee8414b732fadb3f882d98cbb3f69cf) - **docs:** fix C example function call [(#11126)](https://github.com/stdlib-js/stdlib/pull/11126) _(by anee3)_
 -   [`d42b153`](https://github.com/stdlib-js/stdlib/commit/d42b153778f21dd1cd0814887086f43417de3738) - **docs:** fix C example variable declaration [(#11125)](https://github.com/stdlib-js/stdlib/pull/11125) _(by anee3)_
 -   [`2604e21`](https://github.com/stdlib-js/stdlib/commit/2604e213f90904e2dbf64a18afdd68cfa5881719) - **docs:** fix C example variable declaration [(#11124)](https://github.com/stdlib-js/stdlib/pull/11124) _(by anee3)_
