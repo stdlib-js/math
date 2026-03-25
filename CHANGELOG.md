@@ -725,6 +725,7 @@ A total of 90 issues were closed in this release:
 
 <details>
 
+-   [`cd99fef`](https://github.com/stdlib-js/stdlib/commit/cd99fef661e7a5f6e600ee81295ec4dbc8501187) - **docs:** fix C examples [(#11135)](https://github.com/stdlib-js/stdlib/pull/11135) _(by anee3)_
 -   [`b20816f`](https://github.com/stdlib-js/stdlib/commit/b20816f0b727f9a365b0fd526092db9cd2ad75fc) - **docs:** fix incorrect return annotation [(#11128)](https://github.com/stdlib-js/stdlib/pull/11128) _(by anee3)_
 -   [`b7feba2`](https://github.com/stdlib-js/stdlib/commit/b7feba2d63f20199707be94ffa1284538e0c4395) - **docs:** fix C example variable declaration [(#11127)](https://github.com/stdlib-js/stdlib/pull/11127) _(by anee3)_
 -   [`727c508`](https://github.com/stdlib-js/stdlib/commit/727c508beee8414b732fadb3f882d98cbb3f69cf) - **docs:** fix C example function call [(#11126)](https://github.com/stdlib-js/stdlib/pull/11126) _(by anee3)_
