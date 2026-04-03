@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-01)
+## Unreleased (2026-04-03)
 
 <section class="features">
 
@@ -725,6 +725,7 @@ A total of 91 issues were closed in this release:
 
 <details>
 
+-   [`2840211`](https://github.com/stdlib-js/stdlib/commit/2840211cbf8ce9d996acdf0d798dcf5e59e5c075) - **test:** migrate `math/base/special/cos` to ULP-based testing [(#11281)](https://github.com/stdlib-js/stdlib/pull/11281) _(by Nirmal Jyoti Biswas, Karan Anand)_
 -   [`6cb6e42`](https://github.com/stdlib-js/stdlib/commit/6cb6e42b51ae93e10ad1da805bc6b8922f46697a) - **chore:** fix EditorConfig lint errors [(#11256)](https://github.com/stdlib-js/stdlib/pull/11256) _(by Mandeep2333)_
 -   [`8448f5a`](https://github.com/stdlib-js/stdlib/commit/8448f5a44bad7e305d50ac9e92ba195bac863389) - **chore:** ensure consistent use of semicolons [(#11170)](https://github.com/stdlib-js/stdlib/pull/11170) _(by Philipp Burckhardt, Athan Reines)_
 -   [`e81a8c0`](https://github.com/stdlib-js/stdlib/commit/e81a8c0c8501d4bc3e3b3843a86476a2e088a9d6) - **docs:** fix C examples [(#11134)](https://github.com/stdlib-js/stdlib/pull/11134) _(by anee3)_
@@ -1972,7 +1973,7 @@ A total of 91 issues were closed in this release:
 
 ### Contributors
 
-A total of 78 people contributed to this release. Thank you to the following contributors:
+A total of 79 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -2022,6 +2023,7 @@ A total of 78 people contributed to this release. Thank you to the following con
 -   Nakul Krishnakumar
 -   Navyansh Kesarwani
 -   Neeraj Pathak
+-   Nirmal Jyoti Biswas
 -   Nishant singh
 -   Partha Das
 -   Payal Goswami
