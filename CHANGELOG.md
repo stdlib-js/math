@@ -210,6 +210,7 @@
 
 ### Bug Fixes
 
+-   [`7a04cb9`](https://github.com/stdlib-js/stdlib/commit/7a04cb90b3fbb4a98f74f4299d0cc0b131d482a1) - address bug and improve C implementation of `math/base/special/hyp2f1` [(#11353)](https://github.com/stdlib-js/stdlib/pull/11353)
 -   [`48446bf`](https://github.com/stdlib-js/stdlib/commit/48446bf41b398ccab27b401cff5f1545dac0b279) - rename header file [(#11232)](https://github.com/stdlib-js/stdlib/pull/11232)
 -   [`3618307`](https://github.com/stdlib-js/stdlib/commit/3618307d26ce818f5c5f543a0ad22e24c319e4a7) - access enum values via data type objects
 -   [`d686540`](https://github.com/stdlib-js/stdlib/commit/d68654015c8d42b2d7cefbed4a42d7dd02344575) - correct function references in `absgammaln` entry
@@ -726,6 +727,7 @@ A total of 94 issues were closed in this release:
 
 <details>
 
+-   [`7a04cb9`](https://github.com/stdlib-js/stdlib/commit/7a04cb90b3fbb4a98f74f4299d0cc0b131d482a1) - **fix:** address bug and improve C implementation of `math/base/special/hyp2f1` [(#11353)](https://github.com/stdlib-js/stdlib/pull/11353) _(by anee3)_
 -   [`2244f8e`](https://github.com/stdlib-js/stdlib/commit/2244f8e59e730c8e721433ac0fdbdbc11c0c1e9c) - **refactor:** improve the implementation of `math/base/special/hyp2f1` [(#11325)](https://github.com/stdlib-js/stdlib/pull/11325) _(by anee3, Athan Reines, stdlib-bot)_
 -   [`53641f6`](https://github.com/stdlib-js/stdlib/commit/53641f68e978d8c972ff6d0b8129ac40977d2e5e) - **docs:** improve doctests for complex number instances in `math/base/special/cceiln` [(#10213)](https://github.com/stdlib-js/stdlib/pull/10213) _(by AyushiJain18270, Athan Reines, stdlib-bot)_
 -   [`1fa7f29`](https://github.com/stdlib-js/stdlib/commit/1fa7f295e091693d97d2a5c1856d1ad2b0cb3b8e) - **chore:** fix JavaScript lint errors [(#10087)](https://github.com/stdlib-js/stdlib/pull/10087) _(by Kunal Dadlani, Athan Reines, stdlib-bot)_
