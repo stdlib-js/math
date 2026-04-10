@@ -726,6 +726,7 @@ A total of 94 issues were closed in this release:
 
 <details>
 
+-   [`53641f6`](https://github.com/stdlib-js/stdlib/commit/53641f68e978d8c972ff6d0b8129ac40977d2e5e) - **docs:** improve doctests for complex number instances in `math/base/special/cceiln` [(#10213)](https://github.com/stdlib-js/stdlib/pull/10213) _(by AyushiJain18270, Athan Reines, stdlib-bot)_
 -   [`1fa7f29`](https://github.com/stdlib-js/stdlib/commit/1fa7f295e091693d97d2a5c1856d1ad2b0cb3b8e) - **chore:** fix JavaScript lint errors [(#10087)](https://github.com/stdlib-js/stdlib/pull/10087) _(by Kunal Dadlani, Athan Reines, stdlib-bot)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`48446bf`](https://github.com/stdlib-js/stdlib/commit/48446bf41b398ccab27b401cff5f1545dac0b279) - **fix:** rename header file [(#11232)](https://github.com/stdlib-js/stdlib/pull/11232) _(by Moh Zaid Khan)_
