@@ -726,6 +726,7 @@ A total of 94 issues were closed in this release:
 
 <details>
 
+-   [`2244f8e`](https://github.com/stdlib-js/stdlib/commit/2244f8e59e730c8e721433ac0fdbdbc11c0c1e9c) - **refactor:** improve the implementation of `math/base/special/hyp2f1` [(#11325)](https://github.com/stdlib-js/stdlib/pull/11325) _(by anee3, Athan Reines, stdlib-bot)_
 -   [`53641f6`](https://github.com/stdlib-js/stdlib/commit/53641f68e978d8c972ff6d0b8129ac40977d2e5e) - **docs:** improve doctests for complex number instances in `math/base/special/cceiln` [(#10213)](https://github.com/stdlib-js/stdlib/pull/10213) _(by AyushiJain18270, Athan Reines, stdlib-bot)_
 -   [`1fa7f29`](https://github.com/stdlib-js/stdlib/commit/1fa7f295e091693d97d2a5c1856d1ad2b0cb3b8e) - **chore:** fix JavaScript lint errors [(#10087)](https://github.com/stdlib-js/stdlib/pull/10087) _(by Kunal Dadlani, Athan Reines, stdlib-bot)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_

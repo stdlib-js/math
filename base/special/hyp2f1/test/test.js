@@ -34,6 +34,8 @@ var edgeCases1 = require( './fixtures/python/edge_cases1.json' );
 var edgeCases2 = require( './fixtures/python/edge_cases2.json' );
 var edgeCases3 = require( './fixtures/python/edge_cases3.json' );
 var edgeCases4 = require( './fixtures/python/edge_cases4.json' );
+var edgeCases5 = require( './fixtures/python/edge_cases5.json' );
+var edgeCases6 = require( './fixtures/python/edge_cases6.json' );
 var outliers = require( './fixtures/python/outliers.json' );
 
 
@@ -234,6 +236,50 @@ tape( 'the function correctly evaluates the hypergeometric function', function t
 			continue;
 		}
 		t.strictEqual( isAlmostSameValue( v, expected[ i ], 33 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+	var expected;
+	var a;
+	var b;
+	var c;
+	var x;
+	var v;
+	var i;
+
+	a = edgeCases5.a;
+	b = edgeCases5.b;
+	c = edgeCases5.c;
+	x = edgeCases5.x;
+	expected = edgeCases5.expected;
+
+	for ( i = 0; i < x.length; i++ ) {
+		v = hyp2f1( a[ i ], b[ i ], c[ i ], x[ i ] );
+		t.strictEqual( isAlmostSameValue( v, expected[ i ], 12 ), true, 'returns expected value.' );
+	}
+	t.end();
+});
+
+tape( 'the function correctly evaluates the hypergeometric function', function test( t ) {
+	var expected;
+	var a;
+	var b;
+	var c;
+	var x;
+	var v;
+	var i;
+
+	a = edgeCases6.a;
+	b = edgeCases6.b;
+	c = edgeCases6.c;
+	x = edgeCases6.x;
+	expected = edgeCases6.expected;
+
+	for ( i = 0; i < x.length; i++ ) {
+		v = hyp2f1( a[ i ], b[ i ], c[ i ], x[ i ] );
+		t.strictEqual( isAlmostSameValue( v, expected[ i ], 1 ), true, 'returns expected value.' );
 	}
 	t.end();
 });
