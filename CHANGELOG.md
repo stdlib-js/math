@@ -726,6 +726,7 @@ A total of 93 issues were closed in this release:
 
 <details>
 
+-   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`48446bf`](https://github.com/stdlib-js/stdlib/commit/48446bf41b398ccab27b401cff5f1545dac0b279) - **fix:** rename header file [(#11232)](https://github.com/stdlib-js/stdlib/pull/11232) _(by Moh Zaid Khan)_
 -   [`87b7d3d`](https://github.com/stdlib-js/stdlib/commit/87b7d3d057c46899fdd8339fe47b8720d2d8ab0c) - **test:** migrate `math/base/special/cosh` to use ULP based testing [(#11285)](https://github.com/stdlib-js/stdlib/pull/11285) _(by Shubham)_
 -   [`69e1068`](https://github.com/stdlib-js/stdlib/commit/69e1068fd9ba96ccf49639e124c8d410b022b248) - **test:** adjust tolerance in `math/base/special/hyp2f1` [(#11351)](https://github.com/stdlib-js/stdlib/pull/11351) _(by Nirmal Jyoti Biswas)_
