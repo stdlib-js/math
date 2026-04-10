@@ -725,6 +725,7 @@ A total of 92 issues were closed in this release:
 
 <details>
 
+-   [`87b7d3d`](https://github.com/stdlib-js/stdlib/commit/87b7d3d057c46899fdd8339fe47b8720d2d8ab0c) - **test:** migrate `math/base/special/cosh` to use ULP based testing [(#11285)](https://github.com/stdlib-js/stdlib/pull/11285) _(by Shubham)_
 -   [`69e1068`](https://github.com/stdlib-js/stdlib/commit/69e1068fd9ba96ccf49639e124c8d410b022b248) - **test:** adjust tolerance in `math/base/special/hyp2f1` [(#11351)](https://github.com/stdlib-js/stdlib/pull/11351) _(by Nirmal Jyoti Biswas)_
 -   [`121f2c0`](https://github.com/stdlib-js/stdlib/commit/121f2c054f54a7e698da43ff6df554fd0ecae7da) - **test:** migrate `math/base/special/hyp2f1` to ULP-based testing [(#11297)](https://github.com/stdlib-js/stdlib/pull/11297) _(by Nirmal Jyoti Biswas)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
