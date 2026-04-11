@@ -727,6 +727,7 @@ A total of 94 issues were closed in this release:
 
 <details>
 
+-   [`45ea471`](https://github.com/stdlib-js/stdlib/commit/45ea471c7617506879b6fdaea16a2ef6f851f62d) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11363)](https://github.com/stdlib-js/stdlib/pull/11363) _(by Karan Anand)_
 -   [`be9f744`](https://github.com/stdlib-js/stdlib/commit/be9f7445e37168f514e83041e80e9495c49fd9d9) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11362)](https://github.com/stdlib-js/stdlib/pull/11362) _(by Karan Anand)_
 -   [`1cae4f4`](https://github.com/stdlib-js/stdlib/commit/1cae4f4939a3150cebde4b818dc1944f030557ce) - **bench:** refactor to use string interpolation in `math/strided/ops` [(#11361)](https://github.com/stdlib-js/stdlib/pull/11361) _(by Karan Anand)_
 -   [`41ff83e`](https://github.com/stdlib-js/stdlib/commit/41ff83e17c6210cf153ecc80216a9420c0469570) - **test:** migrate `math/base/special/erf` to ULP base testing [(#11355)](https://github.com/stdlib-js/stdlib/pull/11355) _(by Shubham)_
