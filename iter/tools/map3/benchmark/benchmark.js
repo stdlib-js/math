@@ -25,6 +25,7 @@ var uniform = require( '@stdlib/random/iter/uniform' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
 var clamp = require( './../../../../base/special/clamp' );
+var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var iterMap3 = require( './../lib' );
 
@@ -57,7 +58,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( pkg+'::iteration', function benchmark( b ) {
+bench( format( '%s::iteration', pkg ), function benchmark( b ) {
 	var rand1;
 	var rand2;
 	var rand3;
