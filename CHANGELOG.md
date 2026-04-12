@@ -727,6 +727,7 @@ A total of 94 issues were closed in this release:
 
 <details>
 
+-   [`abf8e78`](https://github.com/stdlib-js/stdlib/commit/abf8e78e8a62c304451119dcfb41fcb5f9ebc6c5) - **test:** migrate `math/base/special/acosh` to ULP-based testing [(#11418)](https://github.com/stdlib-js/stdlib/pull/11418) _(by Gautam Kaushik)_
 -   [`06dbaf0`](https://github.com/stdlib-js/stdlib/commit/06dbaf057f7f6903a9ac6b053acace5c5adf9259) - **test:** migrate `math/base/special/erfc` to ULP base testing [(#11360)](https://github.com/stdlib-js/stdlib/pull/11360) _(by Shubham)_
 -   [`c722d47`](https://github.com/stdlib-js/stdlib/commit/c722d474803fbe5f9915be58219819e8965b970f) - **bench:** refactor to use string interpolation in `math/array` [(#11381)](https://github.com/stdlib-js/stdlib/pull/11381) _(by Karan Anand)_
 -   [`addf3a2`](https://github.com/stdlib-js/stdlib/commit/addf3a2ac0da61588b9df6f28c56b04c4da9a638) - **bench:** refactor to use string interpolation in `math/base/assert` [(#11385)](https://github.com/stdlib-js/stdlib/pull/11385) _(by Karan Anand)_
