@@ -727,6 +727,7 @@ A total of 94 issues were closed in this release:
 
 <details>
 
+-   [`c722d47`](https://github.com/stdlib-js/stdlib/commit/c722d474803fbe5f9915be58219819e8965b970f) - **bench:** refactor to use string interpolation in `math/array` [(#11381)](https://github.com/stdlib-js/stdlib/pull/11381) _(by Karan Anand)_
 -   [`addf3a2`](https://github.com/stdlib-js/stdlib/commit/addf3a2ac0da61588b9df6f28c56b04c4da9a638) - **bench:** refactor to use string interpolation in `math/base/assert` [(#11385)](https://github.com/stdlib-js/stdlib/pull/11385) _(by Karan Anand)_
 -   [`a94a4ef`](https://github.com/stdlib-js/stdlib/commit/a94a4efa9cf521c2e6257deccb9fce9cf4451d57) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11364)](https://github.com/stdlib-js/stdlib/pull/11364) _(by Karan Anand)_
 -   [`45ea471`](https://github.com/stdlib-js/stdlib/commit/45ea471c7617506879b6fdaea16a2ef6f851f62d) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11363)](https://github.com/stdlib-js/stdlib/pull/11363) _(by Karan Anand)_
