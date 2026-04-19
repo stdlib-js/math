@@ -731,6 +731,7 @@ A total of 95 issues were closed in this release:
 
 <details>
 
+-   [`6f1f614`](https://github.com/stdlib-js/stdlib/commit/6f1f614099fd5d3d7efccbe4ac64b0ee3cc7a084) - **test:** migrate `math/base/special/acosd` to ULP-based testing [(#11601)](https://github.com/stdlib-js/stdlib/pull/11601) _(by Prajjwal Bajpai)_
 -   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - **feat:** add `chebyshevSeriesf` to namespace _(by Athan Reines)_
 -   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - **feat:** add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564) _(by anee3, Athan Reines)_
 -   [`92eeeed`](https://github.com/stdlib-js/stdlib/commit/92eeeed8deec15caf3cda6b5989316d95ed2d130) - **test:** migrate `math/base/special/gamma-delta-ratio` to ulp based testing [(#11565)](https://github.com/stdlib-js/stdlib/pull/11565) _(by Nirmal Jyoti Biswas)_
