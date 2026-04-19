@@ -731,6 +731,7 @@ A total of 95 issues were closed in this release:
 
 <details>
 
+-   [`a395fc0`](https://github.com/stdlib-js/stdlib/commit/a395fc0b7b35e6367dd6990257cccde63c95f782) - **docs:** fix return values _(by Athan Reines)_
 -   [`59cfc31`](https://github.com/stdlib-js/stdlib/commit/59cfc311ef41bba1c23ce2db0368f8569ce5b38c) - **docs:** correct JSDoc return value in `math/base/tools/chebyshev-seriesf` [(#11584)](https://github.com/stdlib-js/stdlib/pull/11584) _(by Philipp Burckhardt)_
 -   [`6f1f614`](https://github.com/stdlib-js/stdlib/commit/6f1f614099fd5d3d7efccbe4ac64b0ee3cc7a084) - **test:** migrate `math/base/special/acosd` to ULP-based testing [(#11601)](https://github.com/stdlib-js/stdlib/pull/11601) _(by Prajjwal Bajpai)_
 -   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - **feat:** add `chebyshevSeriesf` to namespace _(by Athan Reines)_
