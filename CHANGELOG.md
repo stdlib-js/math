@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - add `chebyshevSeriesf` to namespace
 -   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564)
 -   [`66bc5bb`](https://github.com/stdlib-js/stdlib/commit/66bc5bb35ab356d41bf84072b5048663e1fb11c5) - add `chebyshevSeries` to namespace
 -   [`82aae9b`](https://github.com/stdlib-js/stdlib/commit/82aae9bd2f57896eebb96d48624549c2b622a4fc) - add `math/base/tools/chebyshev-series` [(#11470)](https://github.com/stdlib-js/stdlib/pull/11470)
@@ -730,6 +731,7 @@ A total of 95 issues were closed in this release:
 
 <details>
 
+-   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - **feat:** add `chebyshevSeriesf` to namespace _(by Athan Reines)_
 -   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - **feat:** add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564) _(by anee3, Athan Reines)_
 -   [`92eeeed`](https://github.com/stdlib-js/stdlib/commit/92eeeed8deec15caf3cda6b5989316d95ed2d130) - **test:** migrate `math/base/special/gamma-delta-ratio` to ulp based testing [(#11565)](https://github.com/stdlib-js/stdlib/pull/11565) _(by Nirmal Jyoti Biswas)_
 -   [`d4a3c9c`](https://github.com/stdlib-js/stdlib/commit/d4a3c9c8581a0b3f14e892acbfc31143a7c3fe82) - **test:** migrate `math/base/special/acos` to ULP-based testing [(#11505)](https://github.com/stdlib-js/stdlib/pull/11505) _(by Prajjwal Bajpai)_

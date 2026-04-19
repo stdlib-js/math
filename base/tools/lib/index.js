@@ -50,6 +50,15 @@ var ns = {};
 setReadOnly( ns, 'chebyshevSeries', require( './../../../base/tools/chebyshev-series' ) );
 
 /**
+* @name chebyshevSeriesf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/math/base/tools/chebyshev-seriesf}
+*/
+setReadOnly( ns, 'chebyshevSeriesf', require( './../../../base/tools/chebyshev-seriesf' ) );
+
+/**
 * @name continuedFraction
 * @memberof ns
 * @readonly
