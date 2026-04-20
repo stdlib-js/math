@@ -731,6 +731,7 @@ A total of 95 issues were closed in this release:
 
 <details>
 
+-   [`0eafdb6`](https://github.com/stdlib-js/stdlib/commit/0eafdb6fd4162647e2cb21e416c6172e70b3f893) - **test:** migrate `math/base/special/atan` to ULP-based testing [(#11657)](https://github.com/stdlib-js/stdlib/pull/11657) _(by Mandeep2333)_
 -   [`b2b7ddb`](https://github.com/stdlib-js/stdlib/commit/b2b7ddb2584e7b9297f161e7b2402a8b704a8d52) - **test:** migrate `math/base/special/asinh` to ULP-based testing [(#11654)](https://github.com/stdlib-js/stdlib/pull/11654) _(by Mandeep2333)_
 -   [`39f9ad9`](https://github.com/stdlib-js/stdlib/commit/39f9ad9302a52b735769bcf0c25b11dbe87c9b7a) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dramp` [(#11664)](https://github.com/stdlib-js/stdlib/pull/11664) _(by Uday Kakade)_
 -   [`05b2f70`](https://github.com/stdlib-js/stdlib/commit/05b2f70915fae6980da8ed1fca63caa8af7e67ec) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dabs` [(#11655)](https://github.com/stdlib-js/stdlib/pull/11655) _(by Uday Kakade)_
