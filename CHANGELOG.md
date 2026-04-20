@@ -731,6 +731,7 @@ A total of 95 issues were closed in this release:
 
 <details>
 
+-   [`cbfa3ed`](https://github.com/stdlib-js/stdlib/commit/cbfa3edba69272dd350ed36de546c3d5c565c38c) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dab2` [(#11656)](https://github.com/stdlib-js/stdlib/pull/11656) _(by Uday Kakade)_
 -   [`2665799`](https://github.com/stdlib-js/stdlib/commit/2665799f49ffca226f58dbae3219e6f6305590ee) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dcbrt` [(#11661)](https://github.com/stdlib-js/stdlib/pull/11661) _(by Uday Kakade)_
 -   [`cb25af1`](https://github.com/stdlib-js/stdlib/commit/cb25af165ecfc0a8463fe171865094447b0be634) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dceil` [(#11662)](https://github.com/stdlib-js/stdlib/pull/11662) _(by Uday Kakade)_
 -   [`d44b144`](https://github.com/stdlib-js/stdlib/commit/d44b144df2681c91a8108d00cc16afd5833a8249) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/ddeg2rad` [(#11663)](https://github.com/stdlib-js/stdlib/pull/11663) _(by Uday Kakade)_
