@@ -731,6 +731,10 @@ A total of 95 issues were closed in this release:
 
 <details>
 
+-   [`5029670`](https://github.com/stdlib-js/stdlib/commit/5029670736574df60258c5519cf1f6670b50806e) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/drsqrt` [(#11665)](https://github.com/stdlib-js/stdlib/pull/11665) _(by Uday Kakade)_
+-   [`0359230`](https://github.com/stdlib-js/stdlib/commit/0359230c32ad65ec22d76e3c6fb5679c9dd88255) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dinv` [(#11666)](https://github.com/stdlib-js/stdlib/pull/11666) _(by Uday Kakade)_
+-   [`4948ecc`](https://github.com/stdlib-js/stdlib/commit/4948ecca63ca031e99f94d72def40f445852e4db) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dsqrt` [(#11668)](https://github.com/stdlib-js/stdlib/pull/11668) _(by Uday Kakade)_
+-   [`2cd5062`](https://github.com/stdlib-js/stdlib/commit/2cd5062361403748ac15fd295708f925d4c3c92f) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dtrunc` [(#11669)](https://github.com/stdlib-js/stdlib/pull/11669) _(by Uday Kakade)_
 -   [`0f96d30`](https://github.com/stdlib-js/stdlib/commit/0f96d3092e11bed46e6cd83efd770c2d6fa77af1) - **docs:** update namespace table of contents [(#11637)](https://github.com/stdlib-js/stdlib/pull/11637) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a395fc0`](https://github.com/stdlib-js/stdlib/commit/a395fc0b7b35e6367dd6990257cccde63c95f782) - **docs:** fix return values _(by Athan Reines)_
 -   [`59cfc31`](https://github.com/stdlib-js/stdlib/commit/59cfc311ef41bba1c23ce2db0368f8569ce5b38c) - **docs:** correct JSDoc return value in `math/base/tools/chebyshev-seriesf` [(#11584)](https://github.com/stdlib-js/stdlib/pull/11584) _(by Philipp Burckhardt)_
@@ -2013,7 +2017,7 @@ A total of 95 issues were closed in this release:
 
 ### Contributors
 
-A total of 83 people contributed to this release. Thank you to the following contributors:
+A total of 84 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Singh
@@ -2089,6 +2093,7 @@ A total of 83 people contributed to this release. Thank you to the following con
 -   Shaswata Panda
 -   Shreelaxmi Hegde
 -   Shubham
+-   Uday Kakade
 -   Vishal Gaikwad
 -   Vivek Maurya
 -   Yohan Park
