@@ -731,7 +731,6 @@ A total of 95 issues were closed in this release:
 
 <details>
 
--   [`5029670`](https://github.com/stdlib-js/stdlib/commit/5029670736574df60258c5519cf1f6670b50806e) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/drsqrt` [(#11665)](https://github.com/stdlib-js/stdlib/pull/11665) _(by Uday Kakade)_
 -   [`0359230`](https://github.com/stdlib-js/stdlib/commit/0359230c32ad65ec22d76e3c6fb5679c9dd88255) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dinv` [(#11666)](https://github.com/stdlib-js/stdlib/pull/11666) _(by Uday Kakade)_
 -   [`4948ecc`](https://github.com/stdlib-js/stdlib/commit/4948ecca63ca031e99f94d72def40f445852e4db) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dsqrt` [(#11668)](https://github.com/stdlib-js/stdlib/pull/11668) _(by Uday Kakade)_
 -   [`2cd5062`](https://github.com/stdlib-js/stdlib/commit/2cd5062361403748ac15fd295708f925d4c3c92f) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dtrunc` [(#11669)](https://github.com/stdlib-js/stdlib/pull/11669) _(by Uday Kakade)_
