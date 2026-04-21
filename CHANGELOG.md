@@ -731,6 +731,7 @@ A total of 96 issues were closed in this release:
 
 <details>
 
+-   [`23d316f`](https://github.com/stdlib-js/stdlib/commit/23d316f6eda9201e0827d9f98ee523f9270d5939) - **bench:** refactor to use dynamic memory allocation in `maths/strided/special` [(#11697)](https://github.com/stdlib-js/stdlib/pull/11697) _(by Uday Kakade)_
 -   [`1089250`](https://github.com/stdlib-js/stdlib/commit/1089250db272eca254d75532dcc159a6a0aaafc3) - **chore:** fix JavaScript lint errors [(#11692)](https://github.com/stdlib-js/stdlib/pull/11692) _(by Matt Van Horn, Athan Reines)_
 -   [`0b14ced`](https://github.com/stdlib-js/stdlib/commit/0b14ced4fce04bbfde2d98230391ed699dd15235) - **bench:** replace M_PI in `math/base/special/sincospi` C benchmark [(#11690)](https://github.com/stdlib-js/stdlib/pull/11690) _(by Karan Anand)_
 -   [`c73c8b3`](https://github.com/stdlib-js/stdlib/commit/c73c8b39bd76529182ea2b3423c6f0feab434774) - **bench:** refactor to use string interpolation in `math/base/special` [(#11387)](https://github.com/stdlib-js/stdlib/pull/11387) _(by Karan Anand)_
