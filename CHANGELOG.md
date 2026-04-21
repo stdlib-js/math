@@ -731,6 +731,7 @@ A total of 95 issues were closed in this release:
 
 <details>
 
+-   [`9229dd7`](https://github.com/stdlib-js/stdlib/commit/9229dd78fa82c5f863dbc51a9588314d53a97c44) - **bench:** refactor to use string interpolation in `math/base/special` [(#11386)](https://github.com/stdlib-js/stdlib/pull/11386) _(by Karan Anand)_
 -   [`8c2f1cf`](https://github.com/stdlib-js/stdlib/commit/8c2f1cf76b36300b8674f4fc0e4d020dab2b0f55) - **bench:** refactor to use string interpolation in `math/base/special` [(#11389)](https://github.com/stdlib-js/stdlib/pull/11389) _(by Karan Anand)_
 -   [`59c9969`](https://github.com/stdlib-js/stdlib/commit/59c9969a580e74428505ba91634607f110ec71bf) - **bench:** refactor to use string interpolation in `math/base/special` [(#11388)](https://github.com/stdlib-js/stdlib/pull/11388) _(by Karan Anand)_
 -   [`165fd95`](https://github.com/stdlib-js/stdlib/commit/165fd95e0fc411b06b45766d53693156e6b6e463) - **test:** migrate `math/base/special/atan2` to ULP-based testing [(#11658)](https://github.com/stdlib-js/stdlib/pull/11658) _(by Mandeep2333)_
