@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-21)
+## Unreleased (2026-04-22)
 
 <section class="features">
 
@@ -731,6 +731,7 @@ A total of 96 issues were closed in this release:
 
 <details>
 
+-   [`bf821ca`](https://github.com/stdlib-js/stdlib/commit/bf821ca698340a14342ae1b12b5ea74b339f6adf) - **chore:** propagate recent fixes to sibling packages [(#11696)](https://github.com/stdlib-js/stdlib/pull/11696) _(by Philipp Burckhardt)_
 -   [`23d316f`](https://github.com/stdlib-js/stdlib/commit/23d316f6eda9201e0827d9f98ee523f9270d5939) - **bench:** refactor to use dynamic memory allocation in `maths/strided/special` [(#11697)](https://github.com/stdlib-js/stdlib/pull/11697) _(by Uday Kakade)_
 -   [`1089250`](https://github.com/stdlib-js/stdlib/commit/1089250db272eca254d75532dcc159a6a0aaafc3) - **chore:** fix JavaScript lint errors [(#11692)](https://github.com/stdlib-js/stdlib/pull/11692) _(by Matt Van Horn, Athan Reines)_
 -   [`0b14ced`](https://github.com/stdlib-js/stdlib/commit/0b14ced4fce04bbfde2d98230391ed699dd15235) - **bench:** replace M_PI in `math/base/special/sincospi` C benchmark [(#11690)](https://github.com/stdlib-js/stdlib/pull/11690) _(by Karan Anand)_
