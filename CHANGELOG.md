@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-23)
+## Unreleased (2026-04-26)
 
 <section class="features">
 
@@ -731,6 +731,7 @@ A total of 96 issues were closed in this release:
 
 <details>
 
+-   [`06e1536`](https://github.com/stdlib-js/stdlib/commit/06e1536018d5db9ac1c1373e209501283042dcb1) - **test:** migrate `math/base/special/cabs` to ULP-based testing [(#11758)](https://github.com/stdlib-js/stdlib/pull/11758) _(by Mandeep2333)_
 -   [`a02b852`](https://github.com/stdlib-js/stdlib/commit/a02b852b2e784220dba5ee181970e8ef3e921d2e) - **test:** migrate `math/base/special/betaln` to ULP-based testing [(#11717)](https://github.com/stdlib-js/stdlib/pull/11717) _(by Mandeep2333)_
 -   [`bf821ca`](https://github.com/stdlib-js/stdlib/commit/bf821ca698340a14342ae1b12b5ea74b339f6adf) - **chore:** propagate recent fixes to sibling packages [(#11696)](https://github.com/stdlib-js/stdlib/pull/11696) _(by Philipp Burckhardt)_
 -   [`23d316f`](https://github.com/stdlib-js/stdlib/commit/23d316f6eda9201e0827d9f98ee523f9270d5939) - **bench:** refactor to use dynamic memory allocation in `maths/strided/special` [(#11697)](https://github.com/stdlib-js/stdlib/pull/11697) _(by Uday Kakade)_
