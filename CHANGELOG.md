@@ -731,6 +731,8 @@ A total of 96 issues were closed in this release:
 
 <details>
 
+-   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
+-   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a092ede`](https://github.com/stdlib-js/stdlib/commit/a092edebd55a2514135088f5261375e8f83fdcde) - **test:** migrate `math/base/special/binomcoeff` to ULP-based testing [(#11720)](https://github.com/stdlib-js/stdlib/pull/11720) _(by Mandeep2333, Athan Reines)_
 -   [`34e38bc`](https://github.com/stdlib-js/stdlib/commit/34e38bcc0c6ad6074c7b937f5e0e9efa56454c54) - **test:** migrate `math/base/special/binet` to ULP-based testing [(#11719)](https://github.com/stdlib-js/stdlib/pull/11719) _(by Mandeep2333, Athan Reines)_
 -   [`2e347f3`](https://github.com/stdlib-js/stdlib/commit/2e347f39e4b36c5ed212ab6c35edd96ba412fe8d) - **test:** migrate `math/base/special/cabs2` to ULP-based testing [(#11760)](https://github.com/stdlib-js/stdlib/pull/11760) _(by Mandeep2333)_

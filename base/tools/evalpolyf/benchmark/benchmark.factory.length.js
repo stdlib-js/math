@@ -24,6 +24,7 @@ var bench = require( '@stdlib/bench' );
 var pow = require( './../../../../base/special/pow' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( './../../../../base/assert/is-nan' );
+var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var factory = require( './../lib/factory.js' );
 
@@ -97,7 +98,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( pkg+':factory:len='+len, f );
+		bench( format( '%s:factory:len=%d', pkg, len ), f );
 	}
 }
 
