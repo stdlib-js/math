@@ -731,6 +731,7 @@ A total of 96 issues were closed in this release:
 
 <details>
 
+-   [`2e347f3`](https://github.com/stdlib-js/stdlib/commit/2e347f39e4b36c5ed212ab6c35edd96ba412fe8d) - **test:** migrate `math/base/special/cabs2` to ULP-based testing [(#11760)](https://github.com/stdlib-js/stdlib/pull/11760) _(by Mandeep2333)_
 -   [`06e1536`](https://github.com/stdlib-js/stdlib/commit/06e1536018d5db9ac1c1373e209501283042dcb1) - **test:** migrate `math/base/special/cabs` to ULP-based testing [(#11758)](https://github.com/stdlib-js/stdlib/pull/11758) _(by Mandeep2333)_
 -   [`a02b852`](https://github.com/stdlib-js/stdlib/commit/a02b852b2e784220dba5ee181970e8ef3e921d2e) - **test:** migrate `math/base/special/betaln` to ULP-based testing [(#11717)](https://github.com/stdlib-js/stdlib/pull/11717) _(by Mandeep2333)_
 -   [`bf821ca`](https://github.com/stdlib-js/stdlib/commit/bf821ca698340a14342ae1b12b5ea74b339f6adf) - **chore:** propagate recent fixes to sibling packages [(#11696)](https://github.com/stdlib-js/stdlib/pull/11696) _(by Philipp Burckhardt)_
