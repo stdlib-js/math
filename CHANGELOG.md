@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-26)
+## Unreleased (2026-04-28)
 
 <section class="features">
 
@@ -731,6 +731,7 @@ A total of 96 issues were closed in this release:
 
 <details>
 
+-   [`d689d2d`](https://github.com/stdlib-js/stdlib/commit/d689d2dcba1570eedbbe3b7689dcbe1921ba11eb) - **chore:** propagate `node/` -> `n/` eslint plugin prefix update across README directives [(#11826)](https://github.com/stdlib-js/stdlib/pull/11826) _(by Philipp Burckhardt)_
 -   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a092ede`](https://github.com/stdlib-js/stdlib/commit/a092edebd55a2514135088f5261375e8f83fdcde) - **test:** migrate `math/base/special/binomcoeff` to ULP-based testing [(#11720)](https://github.com/stdlib-js/stdlib/pull/11720) _(by Mandeep2333, Athan Reines)_
