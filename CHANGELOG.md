@@ -731,6 +731,7 @@ A total of 97 issues were closed in this release:
 
 <details>
 
+-   [`2df9472`](https://github.com/stdlib-js/stdlib/commit/2df9472ff8b4c8dc5b693dac2f64516834d7a5b3) - **chore:** migrate `math/iter/special` examples to `random/iter/uniform` [(#11950)](https://github.com/stdlib-js/stdlib/pull/11950) _(by Philipp Burckhardt)_
 -   [`85ce241`](https://github.com/stdlib-js/stdlib/commit/85ce2413da6275c149f34964adef0678becfd220) - **docs:** add missing keywords in `math/strided/special` packages [(#11943)](https://github.com/stdlib-js/stdlib/pull/11943) _(by Philipp Burckhardt)_
 -   [`7b42c38`](https://github.com/stdlib-js/stdlib/commit/7b42c38ece3da063237e51eb98b8e402aaeb91c1) - **docs:** update example [(#11897)](https://github.com/stdlib-js/stdlib/pull/11897) _(by stdlib-bot)_
 -   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
