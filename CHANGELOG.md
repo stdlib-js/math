@@ -732,6 +732,7 @@ A total of 97 issues were closed in this release:
 
 <details>
 
+-   [`48141ca`](https://github.com/stdlib-js/stdlib/commit/48141ca21c1bf935f236e815a400cb3911056556) - **bench:** fix `Complex64` import in `math/base/special/cphasef` [(#12040)](https://github.com/stdlib-js/stdlib/pull/12040) _(by Karan Anand)_
 -   [`2c71e4a`](https://github.com/stdlib-js/stdlib/commit/2c71e4ab39d867c8f01435226150b86c85c26459) - **fix:** use correct `Complex64` import in `math/base/special/cceilf` [(#12039)](https://github.com/stdlib-js/stdlib/pull/12039) _(by Karan Anand)_
 -   [`57d46b3`](https://github.com/stdlib-js/stdlib/commit/57d46b32a484f1d2ec23ce458eb61aa2d5377f7b) - **docs:** add `stdmath` keyword to `chebyshev-series` and `chebyshev-seriesf` in `math/base/tools` [(#12011)](https://github.com/stdlib-js/stdlib/pull/12011) _(by Philipp Burckhardt)_
 -   [`2df9472`](https://github.com/stdlib-js/stdlib/commit/2df9472ff8b4c8dc5b693dac2f64516834d7a5b3) - **chore:** migrate `math/iter/special` examples to `random/iter/uniform` [(#11950)](https://github.com/stdlib-js/stdlib/pull/11950) _(by Philipp Burckhardt)_
