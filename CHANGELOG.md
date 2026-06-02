@@ -734,6 +734,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`2013317`](https://github.com/stdlib-js/stdlib/commit/2013317f82ec8e16f2ec14c8534df85863689738) - **chore:** add missing classification keywords in `math/base/assert` [(#12442)](https://github.com/stdlib-js/stdlib/pull/12442) _(by Philipp Burckhardt)_
 -   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - **fix:** improve numerical accuracy for large `x` values _(by Athan Reines)_
 -   [`510d710`](https://github.com/stdlib-js/stdlib/commit/510d7100ba882850675520a6fe8be6219fb05076) - **docs:** propagate recent develop fixes to sibling packages [(#12400)](https://github.com/stdlib-js/stdlib/pull/12400) _(by Philipp Burckhardt)_
 -   [`ac73ec4`](https://github.com/stdlib-js/stdlib/commit/ac73ec4a3cfa54e8e541d47b55fcfa99db10d65e) - **chore:** fix EditorConfig lint errors [(#12337)](https://github.com/stdlib-js/stdlib/pull/12337) _(by Anurag Pappula)_
