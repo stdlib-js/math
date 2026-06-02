@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-31)
+## Unreleased (2026-06-02)
 
 <section class="features">
 
@@ -215,6 +215,7 @@
 
 ### Bug Fixes
 
+-   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - improve numerical accuracy for large `x` values
 -   [`2c71e4a`](https://github.com/stdlib-js/stdlib/commit/2c71e4ab39d867c8f01435226150b86c85c26459) - use correct `Complex64` import in `math/base/special/cceilf` [(#12039)](https://github.com/stdlib-js/stdlib/pull/12039)
 -   [`7a04cb9`](https://github.com/stdlib-js/stdlib/commit/7a04cb90b3fbb4a98f74f4299d0cc0b131d482a1) - address bug and improve C implementation of `math/base/special/hyp2f1` [(#11353)](https://github.com/stdlib-js/stdlib/pull/11353)
 -   [`48446bf`](https://github.com/stdlib-js/stdlib/commit/48446bf41b398ccab27b401cff5f1545dac0b279) - rename header file [(#11232)](https://github.com/stdlib-js/stdlib/pull/11232)
@@ -733,6 +734,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - **fix:** improve numerical accuracy for large `x` values _(by Athan Reines)_
 -   [`510d710`](https://github.com/stdlib-js/stdlib/commit/510d7100ba882850675520a6fe8be6219fb05076) - **docs:** propagate recent develop fixes to sibling packages [(#12400)](https://github.com/stdlib-js/stdlib/pull/12400) _(by Philipp Burckhardt)_
 -   [`ac73ec4`](https://github.com/stdlib-js/stdlib/commit/ac73ec4a3cfa54e8e541d47b55fcfa99db10d65e) - **chore:** fix EditorConfig lint errors [(#12337)](https://github.com/stdlib-js/stdlib/pull/12337) _(by Anurag Pappula)_
 -   [`906bab9`](https://github.com/stdlib-js/stdlib/commit/906bab98b9f33bc8c3a92e58eeafa2942990d5ab) - **docs:** propagate lint and example fixes to `math` and `stats` siblings [(#12146)](https://github.com/stdlib-js/stdlib/pull/12146) _(by Philipp Burckhardt)_
