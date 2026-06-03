@@ -739,6 +739,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`1c3f9bf`](https://github.com/stdlib-js/stdlib/commit/1c3f9bfb122bd8143144506554c94d4a2b736806) - **docs:** update namespace table of contents [(#12480)](https://github.com/stdlib-js/stdlib/pull/12480) _(by stdlib-bot)_
 -   [`4642874`](https://github.com/stdlib-js/stdlib/commit/46428743c6ca413619dd38252ab747185a663171) - **feat:** update math scaffold databases [(#12477)](https://github.com/stdlib-js/stdlib/pull/12477) _(by stdlib-bot)_
 -   [`f8a0988`](https://github.com/stdlib-js/stdlib/commit/f8a0988ad1c6fa3c7f79384b1f4b0d4313c61715) - **docs:** fix stale identifier in `math/base/special/expm1rel` C comment [(#12444)](https://github.com/stdlib-js/stdlib/pull/12444) _(by Philipp Burckhardt)_
 -   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - **fix:** correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458) _(by Philipp Burckhardt, Athan Reines)_
