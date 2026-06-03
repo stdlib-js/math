@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2978454`](https://github.com/stdlib-js/stdlib/commit/29784543332ee5b7d10e378a9fd6f714f0839b87) - update math scaffold databases [(#12483)](https://github.com/stdlib-js/stdlib/pull/12483)
 -   [`4642874`](https://github.com/stdlib-js/stdlib/commit/46428743c6ca413619dd38252ab747185a663171) - update math scaffold databases [(#12477)](https://github.com/stdlib-js/stdlib/pull/12477)
 -   [`a615900`](https://github.com/stdlib-js/stdlib/commit/a615900caf19b4bb54ff0778986c44e6136494f7) - update `math/base/tools` TypeScript declarations [(#12165)](https://github.com/stdlib-js/stdlib/pull/12165)
 -   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - add `chebyshevSeriesf` to namespace
@@ -739,6 +740,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`2978454`](https://github.com/stdlib-js/stdlib/commit/29784543332ee5b7d10e378a9fd6f714f0839b87) - **feat:** update math scaffold databases [(#12483)](https://github.com/stdlib-js/stdlib/pull/12483) _(by stdlib-bot)_
 -   [`f9d8a26`](https://github.com/stdlib-js/stdlib/commit/f9d8a26f6b9963db09a013cb359a27fb3a6ec24a) - **docs:** fix package-wide doc errors [(#12474)](https://github.com/stdlib-js/stdlib/pull/12474) _(by Philipp Burckhardt)_
 -   [`1c3f9bf`](https://github.com/stdlib-js/stdlib/commit/1c3f9bfb122bd8143144506554c94d4a2b736806) - **docs:** update namespace table of contents [(#12480)](https://github.com/stdlib-js/stdlib/pull/12480) _(by stdlib-bot)_
 -   [`4642874`](https://github.com/stdlib-js/stdlib/commit/46428743c6ca413619dd38252ab747185a663171) - **feat:** update math scaffold databases [(#12477)](https://github.com/stdlib-js/stdlib/pull/12477) _(by stdlib-bot)_
