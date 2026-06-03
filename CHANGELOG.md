@@ -215,6 +215,7 @@
 
 ### Bug Fixes
 
+-   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458)
 -   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457)
 -   [`18365d7`](https://github.com/stdlib-js/stdlib/commit/18365d785c8196ce502c8f44d5d0ab55633beab1) - separate import and JSDoc comment in `math/tools/unary` types [(#12459)](https://github.com/stdlib-js/stdlib/pull/12459)
 -   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466)
@@ -737,6 +738,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - **fix:** correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458) _(by Philipp Burckhardt, Athan Reines)_
 -   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - **fix:** address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457) _(by Philipp Burckhardt)_
 -   [`fe585fe`](https://github.com/stdlib-js/stdlib/commit/fe585fe0bf3ddee24914752863757600da049f6a) - **docs:** document `@throws` for `math/base/utils/float64-epsilon-difference` [(#12465)](https://github.com/stdlib-js/stdlib/pull/12465) _(by Philipp Burckhardt)_
 -   [`18365d7`](https://github.com/stdlib-js/stdlib/commit/18365d785c8196ce502c8f44d5d0ab55633beab1) - **fix:** separate import and JSDoc comment in `math/tools/unary` types [(#12459)](https://github.com/stdlib-js/stdlib/pull/12459) _(by Philipp Burckhardt)_
