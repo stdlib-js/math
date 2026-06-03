@@ -215,6 +215,7 @@
 
 ### Bug Fixes
 
+-   [`18365d7`](https://github.com/stdlib-js/stdlib/commit/18365d785c8196ce502c8f44d5d0ab55633beab1) - separate import and JSDoc comment in `math/tools/unary` types [(#12459)](https://github.com/stdlib-js/stdlib/pull/12459)
 -   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466)
 -   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - improve numerical accuracy for large `x` values
 -   [`2c71e4a`](https://github.com/stdlib-js/stdlib/commit/2c71e4ab39d867c8f01435226150b86c85c26459) - use correct `Complex64` import in `math/base/special/cceilf` [(#12039)](https://github.com/stdlib-js/stdlib/pull/12039)
@@ -735,6 +736,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`18365d7`](https://github.com/stdlib-js/stdlib/commit/18365d785c8196ce502c8f44d5d0ab55633beab1) - **fix:** separate import and JSDoc comment in `math/tools/unary` types [(#12459)](https://github.com/stdlib-js/stdlib/pull/12459) _(by Philipp Burckhardt)_
 -   [`bdc08b0`](https://github.com/stdlib-js/stdlib/commit/bdc08b0c6f55af6b70149f21a8556ef7b0f57e68) - **docs:** fix TSDoc issues in two `@stdlib/math/base/assert` declarations [(#12463)](https://github.com/stdlib-js/stdlib/pull/12463) _(by Philipp Burckhardt)_
 -   [`f348c8e`](https://github.com/stdlib-js/stdlib/commit/f348c8ee1b89586db2ce19c6e9c0ed6fc8095b6c) - **docs:** correct overflow note in `math/base/special/factorial2f` [(#12460)](https://github.com/stdlib-js/stdlib/pull/12460) _(by Philipp Burckhardt)_
 -   [`381ed21`](https://github.com/stdlib-js/stdlib/commit/381ed21a3a7d18b4978b69889d53b06741c9127d) - **docs:** correct grammar in descriptions [(#12461)](https://github.com/stdlib-js/stdlib/pull/12461) _(by Philipp Burckhardt)_
