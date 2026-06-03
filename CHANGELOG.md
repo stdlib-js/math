@@ -738,6 +738,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`f8a0988`](https://github.com/stdlib-js/stdlib/commit/f8a0988ad1c6fa3c7f79384b1f4b0d4313c61715) - **docs:** fix stale identifier in `math/base/special/expm1rel` C comment [(#12444)](https://github.com/stdlib-js/stdlib/pull/12444) _(by Philipp Burckhardt)_
 -   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - **fix:** correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458) _(by Philipp Burckhardt, Athan Reines)_
 -   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - **fix:** address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457) _(by Philipp Burckhardt)_
 -   [`fe585fe`](https://github.com/stdlib-js/stdlib/commit/fe585fe0bf3ddee24914752863757600da049f6a) - **docs:** document `@throws` for `math/base/utils/float64-epsilon-difference` [(#12465)](https://github.com/stdlib-js/stdlib/pull/12465) _(by Philipp Burckhardt)_
