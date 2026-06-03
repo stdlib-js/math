@@ -735,6 +735,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`bdc08b0`](https://github.com/stdlib-js/stdlib/commit/bdc08b0c6f55af6b70149f21a8556ef7b0f57e68) - **docs:** fix TSDoc issues in two `@stdlib/math/base/assert` declarations [(#12463)](https://github.com/stdlib-js/stdlib/pull/12463) _(by Philipp Burckhardt)_
 -   [`f348c8e`](https://github.com/stdlib-js/stdlib/commit/f348c8ee1b89586db2ce19c6e9c0ed6fc8095b6c) - **docs:** correct overflow note in `math/base/special/factorial2f` [(#12460)](https://github.com/stdlib-js/stdlib/pull/12460) _(by Philipp Burckhardt)_
 -   [`381ed21`](https://github.com/stdlib-js/stdlib/commit/381ed21a3a7d18b4978b69889d53b06741c9127d) - **docs:** correct grammar in descriptions [(#12461)](https://github.com/stdlib-js/stdlib/pull/12461) _(by Philipp Burckhardt)_
 -   [`a0992ac`](https://github.com/stdlib-js/stdlib/commit/a0992ac9c74a6e8d90f9d80a1bf837852c45f827) - **docs:** drop erroneous \"(in radians)\" qualifier from `math/base/special/sincf` [(#12469)](https://github.com/stdlib-js/stdlib/pull/12469) _(by Philipp Burckhardt)_
