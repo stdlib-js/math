@@ -735,6 +735,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`a0992ac`](https://github.com/stdlib-js/stdlib/commit/a0992ac9c74a6e8d90f9d80a1bf837852c45f827) - **docs:** drop erroneous \"(in radians)\" qualifier from `math/base/special/sincf` [(#12469)](https://github.com/stdlib-js/stdlib/pull/12469) _(by Philipp Burckhardt)_
 -   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - **fix:** narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466) _(by Philipp Burckhardt)_
 -   [`2013317`](https://github.com/stdlib-js/stdlib/commit/2013317f82ec8e16f2ec14c8534df85863689738) - **chore:** add missing classification keywords in `math/base/assert` [(#12442)](https://github.com/stdlib-js/stdlib/pull/12442) _(by Philipp Burckhardt)_
 -   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - **fix:** improve numerical accuracy for large `x` values _(by Athan Reines)_
