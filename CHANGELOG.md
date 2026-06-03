@@ -736,6 +736,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`fe585fe`](https://github.com/stdlib-js/stdlib/commit/fe585fe0bf3ddee24914752863757600da049f6a) - **docs:** document `@throws` for `math/base/utils/float64-epsilon-difference` [(#12465)](https://github.com/stdlib-js/stdlib/pull/12465) _(by Philipp Burckhardt)_
 -   [`18365d7`](https://github.com/stdlib-js/stdlib/commit/18365d785c8196ce502c8f44d5d0ab55633beab1) - **fix:** separate import and JSDoc comment in `math/tools/unary` types [(#12459)](https://github.com/stdlib-js/stdlib/pull/12459) _(by Philipp Burckhardt)_
 -   [`bdc08b0`](https://github.com/stdlib-js/stdlib/commit/bdc08b0c6f55af6b70149f21a8556ef7b0f57e68) - **docs:** fix TSDoc issues in two `@stdlib/math/base/assert` declarations [(#12463)](https://github.com/stdlib-js/stdlib/pull/12463) _(by Philipp Burckhardt)_
 -   [`f348c8e`](https://github.com/stdlib-js/stdlib/commit/f348c8ee1b89586db2ce19c6e9c0ed6fc8095b6c) - **docs:** correct overflow note in `math/base/special/factorial2f` [(#12460)](https://github.com/stdlib-js/stdlib/pull/12460) _(by Philipp Burckhardt)_
