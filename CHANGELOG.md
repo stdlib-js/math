@@ -740,6 +740,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`2ef6b64`](https://github.com/stdlib-js/stdlib/commit/2ef6b64a00646808c45bd211bb421a52eabd0a41) - **docs:** fix TSDoc issues in several `math/iter` declarations [(#12462)](https://github.com/stdlib-js/stdlib/pull/12462) _(by Philipp Burckhardt, Athan Reines)_
 -   [`cb58c26`](https://github.com/stdlib-js/stdlib/commit/cb58c2603fec6ec457e3df9de23dea8c3cf51e90) - **docs:** fix TSDoc issues in several `math/base/tools` declarations [(#12464)](https://github.com/stdlib-js/stdlib/pull/12464) _(by Philipp Burckhardt)_
 -   [`2978454`](https://github.com/stdlib-js/stdlib/commit/29784543332ee5b7d10e378a9fd6f714f0839b87) - **feat:** update math scaffold databases [(#12483)](https://github.com/stdlib-js/stdlib/pull/12483) _(by stdlib-bot)_
 -   [`f9d8a26`](https://github.com/stdlib-js/stdlib/commit/f9d8a26f6b9963db09a013cb359a27fb3a6ec24a) - **docs:** fix package-wide doc errors [(#12474)](https://github.com/stdlib-js/stdlib/pull/12474) _(by Philipp Burckhardt)_
