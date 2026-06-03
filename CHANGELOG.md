@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4642874`](https://github.com/stdlib-js/stdlib/commit/46428743c6ca413619dd38252ab747185a663171) - update math scaffold databases [(#12477)](https://github.com/stdlib-js/stdlib/pull/12477)
 -   [`a615900`](https://github.com/stdlib-js/stdlib/commit/a615900caf19b4bb54ff0778986c44e6136494f7) - update `math/base/tools` TypeScript declarations [(#12165)](https://github.com/stdlib-js/stdlib/pull/12165)
 -   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - add `chebyshevSeriesf` to namespace
 -   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564)
@@ -738,6 +739,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`4642874`](https://github.com/stdlib-js/stdlib/commit/46428743c6ca413619dd38252ab747185a663171) - **feat:** update math scaffold databases [(#12477)](https://github.com/stdlib-js/stdlib/pull/12477) _(by stdlib-bot)_
 -   [`f8a0988`](https://github.com/stdlib-js/stdlib/commit/f8a0988ad1c6fa3c7f79384b1f4b0d4313c61715) - **docs:** fix stale identifier in `math/base/special/expm1rel` C comment [(#12444)](https://github.com/stdlib-js/stdlib/pull/12444) _(by Philipp Burckhardt)_
 -   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - **fix:** correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458) _(by Philipp Burckhardt, Athan Reines)_
 -   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - **fix:** address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457) _(by Philipp Burckhardt)_
