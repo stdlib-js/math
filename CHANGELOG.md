@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-03)
+## Unreleased (2026-06-04)
 
 <section class="features">
 
@@ -740,6 +740,7 @@ A total of 101 issues were closed in this release:
 
 <details>
 
+-   [`62a90b1`](https://github.com/stdlib-js/stdlib/commit/62a90b1fbe78abef13e0af08f5d9acf474033c03) - **test:** add missing opts guard in native tests [(#12526)](https://github.com/stdlib-js/stdlib/pull/12526) _(by Philipp Burckhardt)_
 -   [`2ef6b64`](https://github.com/stdlib-js/stdlib/commit/2ef6b64a00646808c45bd211bb421a52eabd0a41) - **docs:** fix TSDoc issues in several `math/iter` declarations [(#12462)](https://github.com/stdlib-js/stdlib/pull/12462) _(by Philipp Burckhardt, Athan Reines)_
 -   [`cb58c26`](https://github.com/stdlib-js/stdlib/commit/cb58c2603fec6ec457e3df9de23dea8c3cf51e90) - **docs:** fix TSDoc issues in several `math/base/tools` declarations [(#12464)](https://github.com/stdlib-js/stdlib/pull/12464) _(by Philipp Burckhardt)_
 -   [`2978454`](https://github.com/stdlib-js/stdlib/commit/29784543332ee5b7d10e378a9fd6f714f0839b87) - **feat:** update math scaffold databases [(#12483)](https://github.com/stdlib-js/stdlib/pull/12483) _(by stdlib-bot)_
