@@ -2,6 +2,29 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-06)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`5c51a78`](https://github.com/stdlib-js/stdlib/commit/5c51a78eb8365dff5f0655296891102995dd253e) - **docs:** update `math/base/utils` TypeScript declarations [(#12588)](https://github.com/stdlib-js/stdlib/pull/12588) _(by stdlib-bot)_
+-   [`b8c22c7`](https://github.com/stdlib-js/stdlib/commit/b8c22c71c9d592a1debd5f38c279392edb4f3339) - **docs:** update `math/base/special` TypeScript declarations [(#12586)](https://github.com/stdlib-js/stdlib/pull/12586) _(by stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-06-05)
