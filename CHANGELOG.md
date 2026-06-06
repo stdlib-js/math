@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`4a19052`](https://github.com/stdlib-js/stdlib/commit/4a19052817bbcc805ca04e70a62c83caf4b3b826) - **docs:** update `math/iter/sequences` TypeScript declarations [(#12589)](https://github.com/stdlib-js/stdlib/pull/12589) _(by stdlib-bot)_
 -   [`5c51a78`](https://github.com/stdlib-js/stdlib/commit/5c51a78eb8365dff5f0655296891102995dd253e) - **docs:** update `math/base/utils` TypeScript declarations [(#12588)](https://github.com/stdlib-js/stdlib/pull/12588) _(by stdlib-bot)_
 -   [`b8c22c7`](https://github.com/stdlib-js/stdlib/commit/b8c22c71c9d592a1debd5f38c279392edb4f3339) - **docs:** update `math/base/special` TypeScript declarations [(#12586)](https://github.com/stdlib-js/stdlib/pull/12586) _(by stdlib-bot)_
 
