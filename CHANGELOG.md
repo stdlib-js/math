@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`46209bc`](https://github.com/stdlib-js/stdlib/commit/46209bc161936be8a9652b7618a809cbf065c629) - **docs:** update `math/base/assert` TypeScript declarations [(#12585)](https://github.com/stdlib-js/stdlib/pull/12585) _(by stdlib-bot)_
+-   [`26b9776`](https://github.com/stdlib-js/stdlib/commit/26b977687d4383a56018ec5d4e5e101bd580c98c) - **docs:** update `math/base/tools` TypeScript declarations [(#12587)](https://github.com/stdlib-js/stdlib/pull/12587) _(by stdlib-bot)_
 -   [`d541490`](https://github.com/stdlib-js/stdlib/commit/d541490b5563d9bc098c9229fb69bf4eeca3392b) - **docs:** update `math/strided/ops` TypeScript declarations [(#12591)](https://github.com/stdlib-js/stdlib/pull/12591) _(by stdlib-bot)_
 -   [`406283c`](https://github.com/stdlib-js/stdlib/commit/406283c617ba87f829388e0dafb12caf15ba72db) - **docs:** update `math/iter/special` TypeScript declarations [(#12590)](https://github.com/stdlib-js/stdlib/pull/12590) _(by stdlib-bot)_
 -   [`4a19052`](https://github.com/stdlib-js/stdlib/commit/4a19052817bbcc805ca04e70a62c83caf4b3b826) - **docs:** update `math/iter/sequences` TypeScript declarations [(#12589)](https://github.com/stdlib-js/stdlib/pull/12589) _(by stdlib-bot)_
