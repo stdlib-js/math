@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-09)
+## Unreleased (2026-06-11)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ba00d5e`](https://github.com/stdlib-js/stdlib/commit/ba00d5ef59a526a0ebbdbbce4b7ef7255e53a051) - **test:** migrate `math/base/special/acsc` to ULP-based testing [(#12753)](https://github.com/stdlib-js/stdlib/pull/12753) _(by Philipp Burckhardt)_
 -   [`d339de5`](https://github.com/stdlib-js/stdlib/commit/d339de5671267811eeb5a40eb1eff7702019888b) - **chore:** update keywords [(#12554)](https://github.com/stdlib-js/stdlib/pull/12554) _(by Philipp Burckhardt)_
 -   [`46209bc`](https://github.com/stdlib-js/stdlib/commit/46209bc161936be8a9652b7618a809cbf065c629) - **docs:** update `math/base/assert` TypeScript declarations [(#12585)](https://github.com/stdlib-js/stdlib/pull/12585) _(by stdlib-bot)_
 -   [`26b9776`](https://github.com/stdlib-js/stdlib/commit/26b977687d4383a56018ec5d4e5e101bd580c98c) - **docs:** update `math/base/tools` TypeScript declarations [(#12587)](https://github.com/stdlib-js/stdlib/pull/12587) _(by stdlib-bot)_
