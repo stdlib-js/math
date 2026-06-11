@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8117e16`](https://github.com/stdlib-js/stdlib/commit/8117e16e8d95a4362c78c02fc858a5085321f665) - **test:** migrate `math/base/special/haversin` to ULP-based testing [(#12752)](https://github.com/stdlib-js/stdlib/pull/12752) _(by Philipp Burckhardt)_
 -   [`5956601`](https://github.com/stdlib-js/stdlib/commit/595660167b57f03f8aa304fdcbabc6f265396943) - **test:** migrate `math/base/special/sinc` to ULP-based testing [(#12749)](https://github.com/stdlib-js/stdlib/pull/12749) _(by Philipp Burckhardt)_
 -   [`ba00d5e`](https://github.com/stdlib-js/stdlib/commit/ba00d5ef59a526a0ebbdbbce4b7ef7255e53a051) - **test:** migrate `math/base/special/acsc` to ULP-based testing [(#12753)](https://github.com/stdlib-js/stdlib/pull/12753) _(by Philipp Burckhardt)_
 -   [`d339de5`](https://github.com/stdlib-js/stdlib/commit/d339de5671267811eeb5a40eb1eff7702019888b) - **chore:** update keywords [(#12554)](https://github.com/stdlib-js/stdlib/pull/12554) _(by Philipp Burckhardt)_
