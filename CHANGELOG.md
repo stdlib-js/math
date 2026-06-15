@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-11)
+## Unreleased (2026-06-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`00cb1cb`](https://github.com/stdlib-js/stdlib/commit/00cb1cb3bc4d47706ba916d6c76c3155df1a040b) - **docs:** update descriptions [(#12854)](https://github.com/stdlib-js/stdlib/pull/12854) _(by Philipp Burckhardt)_
 -   [`6b79aec`](https://github.com/stdlib-js/stdlib/commit/6b79aece2b82996d0fcf00ca8f670fb5e466fd0f) - **test:** migrate `math/base/special/ceiln` to ULP-based testing [(#12751)](https://github.com/stdlib-js/stdlib/pull/12751) _(by Philipp Burckhardt)_
 -   [`8117e16`](https://github.com/stdlib-js/stdlib/commit/8117e16e8d95a4362c78c02fc858a5085321f665) - **test:** migrate `math/base/special/haversin` to ULP-based testing [(#12752)](https://github.com/stdlib-js/stdlib/pull/12752) _(by Philipp Burckhardt)_
 -   [`5956601`](https://github.com/stdlib-js/stdlib/commit/595660167b57f03f8aa304fdcbabc6f265396943) - **test:** migrate `math/base/special/sinc` to ULP-based testing [(#12749)](https://github.com/stdlib-js/stdlib/pull/12749) _(by Philipp Burckhardt)_
