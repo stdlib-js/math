@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`34bf00b`](https://github.com/stdlib-js/stdlib/commit/34bf00b30316178349622f2667bd3cb35eb9296b) - **docs:** add links [(#12844)](https://github.com/stdlib-js/stdlib/pull/12844) _(by Philipp Burckhardt)_
 -   [`00cb1cb`](https://github.com/stdlib-js/stdlib/commit/00cb1cb3bc4d47706ba916d6c76c3155df1a040b) - **docs:** update descriptions [(#12854)](https://github.com/stdlib-js/stdlib/pull/12854) _(by Philipp Burckhardt)_
 -   [`6b79aec`](https://github.com/stdlib-js/stdlib/commit/6b79aece2b82996d0fcf00ca8f670fb5e466fd0f) - **test:** migrate `math/base/special/ceiln` to ULP-based testing [(#12751)](https://github.com/stdlib-js/stdlib/pull/12751) _(by Philipp Burckhardt)_
 -   [`8117e16`](https://github.com/stdlib-js/stdlib/commit/8117e16e8d95a4362c78c02fc858a5085321f665) - **test:** migrate `math/base/special/haversin` to ULP-based testing [(#12752)](https://github.com/stdlib-js/stdlib/pull/12752) _(by Philipp Burckhardt)_
