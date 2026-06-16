@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`9831204`](https://github.com/stdlib-js/stdlib/commit/9831204751da827a102cfe0dcf39e77817c3a7b3) - **test:** migrate `math/base/special/hacoversin` to ULP-based testing [(#12807)](https://github.com/stdlib-js/stdlib/pull/12807) _(by Philipp Burckhardt)_
 -   [`f8f63e9`](https://github.com/stdlib-js/stdlib/commit/f8f63e9fe84806760f3a2195645881e963fa5373) - **test:** migrate `math/base/special/sinh` to ULP-based testing [(#12811)](https://github.com/stdlib-js/stdlib/pull/12811) _(by Philipp Burckhardt)_
 -   [`e663e10`](https://github.com/stdlib-js/stdlib/commit/e663e10bace9aec32d25e3dd8eebafe6b122deb4) - **docs:** update namespace table of contents [(#12915)](https://github.com/stdlib-js/stdlib/pull/12915) _(by stdlib-bot)_
 -   [`e2252d0`](https://github.com/stdlib-js/stdlib/commit/e2252d09681ac8da6b8b99f7feef507d98b1e0c7) - **docs:** update `math/base/assert` TypeScript declarations [(#12914)](https://github.com/stdlib-js/stdlib/pull/12914) _(by stdlib-bot)_
