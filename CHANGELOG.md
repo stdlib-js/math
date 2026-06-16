@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`deef5b8`](https://github.com/stdlib-js/stdlib/commit/deef5b87a2cc2deb0f4214079f5f33aaec3f19fc) - **test:** migrate `math/base/special/hypotf` to ULP-based testing [(#12808)](https://github.com/stdlib-js/stdlib/pull/12808) _(by Philipp Burckhardt)_
 -   [`f9a5774`](https://github.com/stdlib-js/stdlib/commit/f9a5774fa77e47af1a0e9e3247370ade4f48c4a2) - **test:** migrate `math/base/special/ahaversinf` to ULP-based testing [(#12798)](https://github.com/stdlib-js/stdlib/pull/12798) _(by Philipp Burckhardt)_
 -   [`647af12`](https://github.com/stdlib-js/stdlib/commit/647af120eb7cbc6b25ba6c4b9a6c1382fd1cce8f) - **test:** migrate `math/base/special/atand` to ULP-based testing [(#12799)](https://github.com/stdlib-js/stdlib/pull/12799) _(by Philipp Burckhardt)_
 -   [`a43d452`](https://github.com/stdlib-js/stdlib/commit/a43d452f11e16724d9e8f61244a0c5a8a024dc41) - **test:** migrate `math/base/special/cabs2f` to ULP-based testing [(#12805)](https://github.com/stdlib-js/stdlib/pull/12805) _(by Philipp Burckhardt)_
