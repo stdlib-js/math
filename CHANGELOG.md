@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`2882708`](https://github.com/stdlib-js/stdlib/commit/2882708f83a601b2e5e72dba0699b900a3e39c23) - **test:** migrate `math/base/special/sqrtf` to ULP-based testing [(#12776)](https://github.com/stdlib-js/stdlib/pull/12776) _(by Philipp Burckhardt)_
+-   [`b41028e`](https://github.com/stdlib-js/stdlib/commit/b41028e5d4b15f2917d5a885573e9203eecf7bec) - **test:** migrate `math/base/special/expm1` to ULP-based testing [(#12774)](https://github.com/stdlib-js/stdlib/pull/12774) _(by Philipp Burckhardt)_
 -   [`44df6fb`](https://github.com/stdlib-js/stdlib/commit/44df6fbfa0b8a8be3cff335724877562b37702b8) - **test:** migrate `math/base/special/ahaversin` to ULP-based testing [(#12777)](https://github.com/stdlib-js/stdlib/pull/12777) _(by Philipp Burckhardt)_
 -   [`f3e5e57`](https://github.com/stdlib-js/stdlib/commit/f3e5e57308e6e3751fe62e82a1a0c80c397aa560) - **test:** migrate `math/base/special/acotd` to ULP-based testing [(#12785)](https://github.com/stdlib-js/stdlib/pull/12785) _(by Philipp Burckhardt)_
 -   [`e5ffd36`](https://github.com/stdlib-js/stdlib/commit/e5ffd36377e4ddf919d987ee4e054f2a8da50a3c) - **test:** migrate `math/base/special/cabs2` to ULP-based testing [(#12780)](https://github.com/stdlib-js/stdlib/pull/12780) _(by Philipp Burckhardt)_
