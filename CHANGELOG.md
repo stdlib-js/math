@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a43d452`](https://github.com/stdlib-js/stdlib/commit/a43d452f11e16724d9e8f61244a0c5a8a024dc41) - **test:** migrate `math/base/special/cabs2f` to ULP-based testing [(#12805)](https://github.com/stdlib-js/stdlib/pull/12805) _(by Philipp Burckhardt)_
 -   [`ee6dfaf`](https://github.com/stdlib-js/stdlib/commit/ee6dfaf23de9936002f36a3ddb63ebab40bab512) - **test:** migrate `math/base/special/cbrt` to ULP-based testing [(#12806)](https://github.com/stdlib-js/stdlib/pull/12806) _(by Philipp Burckhardt)_
 -   [`9831204`](https://github.com/stdlib-js/stdlib/commit/9831204751da827a102cfe0dcf39e77817c3a7b3) - **test:** migrate `math/base/special/hacoversin` to ULP-based testing [(#12807)](https://github.com/stdlib-js/stdlib/pull/12807) _(by Philipp Burckhardt)_
 -   [`f8f63e9`](https://github.com/stdlib-js/stdlib/commit/f8f63e9fe84806760f3a2195645881e963fa5373) - **test:** migrate `math/base/special/sinh` to ULP-based testing [(#12811)](https://github.com/stdlib-js/stdlib/pull/12811) _(by Philipp Burckhardt)_
