@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`acb54a2`](https://github.com/stdlib-js/stdlib/commit/acb54a2092626fcbb403c6ae68257e9e37e35c77) - **test:** migrate `math/base/special/versin` to ULP-based testing [(#12765)](https://github.com/stdlib-js/stdlib/pull/12765) _(by Philipp Burckhardt)_
 -   [`b798757`](https://github.com/stdlib-js/stdlib/commit/b798757eeae1f5e118f4e9917e9168b00581c13a) - **test:** migrate `math/base/special/log2` to ULP-based testing [(#12763)](https://github.com/stdlib-js/stdlib/pull/12763) _(by Philipp Burckhardt)_
 -   [`967c6f5`](https://github.com/stdlib-js/stdlib/commit/967c6f54046d57012a3cb87c3449075d97c37c71) - **test:** migrate `math/base/special/havercos` to ULP-based testing [(#12768)](https://github.com/stdlib-js/stdlib/pull/12768) _(by Philipp Burckhardt)_
 -   [`9417bf0`](https://github.com/stdlib-js/stdlib/commit/9417bf06de5a4e801304d05a669d25174d318c8f) - **test:** migrate `math/base/special/log10` to ULP-based testing [(#12769)](https://github.com/stdlib-js/stdlib/pull/12769) _(by Philipp Burckhardt)_
