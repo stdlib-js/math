@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`cb649ce`](https://github.com/stdlib-js/stdlib/commit/cb649cecbd469b51a6deea0335f86897b82d25b4) - **test:** migrate `math/base/special/rad2deg` to ULP-based testing [(#12787)](https://github.com/stdlib-js/stdlib/pull/12787) _(by Philipp Burckhardt)_
 -   [`beb99eb`](https://github.com/stdlib-js/stdlib/commit/beb99ebe2963477062fb98823c726920a3e4f0a7) - **test:** migrate `math/base/special/deg2radf` to ULP-based testing [(#12792)](https://github.com/stdlib-js/stdlib/pull/12792) _(by Philipp Burckhardt)_
 -   [`384099f`](https://github.com/stdlib-js/stdlib/commit/384099f7cd7c64cd130c9770b56808edb8402d4c) - **test:** migrate `math/base/special/acoversin` to ULP-based testing [(#12800)](https://github.com/stdlib-js/stdlib/pull/12800) _(by Philipp Burckhardt)_
 -   [`1d7996c`](https://github.com/stdlib-js/stdlib/commit/1d7996cf36ffa7f2d6a1503b92e79a34f0b0d738) - **test:** migrate `math/base/special/atanf` to ULP-based testing [(#12795)](https://github.com/stdlib-js/stdlib/pull/12795) _(by Philipp Burckhardt)_
