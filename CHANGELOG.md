@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a455c93`](https://github.com/stdlib-js/stdlib/commit/a455c93f91fe2b6c97a830bcb35a01d60150a5bb) - **test:** migrate `math/base/special/erfinv` to ULP-based testing [(#12772)](https://github.com/stdlib-js/stdlib/pull/12772) _(by Philipp Burckhardt)_
 -   [`bd3e64a`](https://github.com/stdlib-js/stdlib/commit/bd3e64ad8ee6bbad3f5870b64f803c7d8b22bb82) - **test:** migrate `math/base/special/acosf` to ULP-based testing [(#12767)](https://github.com/stdlib-js/stdlib/pull/12767) _(by Philipp Burckhardt)_
 -   [`acb54a2`](https://github.com/stdlib-js/stdlib/commit/acb54a2092626fcbb403c6ae68257e9e37e35c77) - **test:** migrate `math/base/special/versin` to ULP-based testing [(#12765)](https://github.com/stdlib-js/stdlib/pull/12765) _(by Philipp Burckhardt)_
 -   [`b798757`](https://github.com/stdlib-js/stdlib/commit/b798757eeae1f5e118f4e9917e9168b00581c13a) - **test:** migrate `math/base/special/log2` to ULP-based testing [(#12763)](https://github.com/stdlib-js/stdlib/pull/12763) _(by Philipp Burckhardt)_
