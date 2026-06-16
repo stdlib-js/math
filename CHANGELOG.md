@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`4d2566e`](https://github.com/stdlib-js/stdlib/commit/4d2566e8dc82848d27569f42ea18cfe7e484038b) - **test:** migrate `math/base/special/floorb` to ULP-based testing [(#12786)](https://github.com/stdlib-js/stdlib/pull/12786) _(by Philipp Burckhardt)_
 -   [`9451158`](https://github.com/stdlib-js/stdlib/commit/94511586863c9641274417bb60f8e9fe38e56166) - **test:** migrate `math/base/special/ceilb` to ULP-based testing [(#12781)](https://github.com/stdlib-js/stdlib/pull/12781) _(by Philipp Burckhardt)_
 -   [`22ab27f`](https://github.com/stdlib-js/stdlib/commit/22ab27f23e10197529bd1f7c785bcd4c33f63a25) - **test:** migrate `math/base/special/erfcx` to ULP-based testing [(#12775)](https://github.com/stdlib-js/stdlib/pull/12775) _(by Philipp Burckhardt)_
 -   [`45d044c`](https://github.com/stdlib-js/stdlib/commit/45d044c4fe51fd49c80669b182b7e17329de74fe) - **test:** migrate `math/base/special/besselj0` to ULP-based testing [(#12778)](https://github.com/stdlib-js/stdlib/pull/12778) _(by Philipp Burckhardt)_
