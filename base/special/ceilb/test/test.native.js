@@ -25,15 +25,14 @@ var tape = require( 'tape' );
 var PI = require( '@stdlib/constants/float64/pi' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var EPS = require( '@stdlib/constants/float64/eps' );
 var randu = require( '@stdlib/random/base/randu' );
 var round = require( './../../../../base/special/round' );
 var ceil = require( './../../../../base/special/ceil' );
 var pow = require( './../../../../base/special/pow' );
-var abs = require( './../../../../base/special/abs' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
+var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 
@@ -201,8 +200,6 @@ tape( 'if `b^n` is too large and `x < 0`, the function returns `-0` (sign preser
 
 tape( 'the function supports rounding very small numbers (including subnormals)', opts, function test( t ) {
 	var expected;
-	var delta;
-	var tol;
 	var x;
 	var n;
 	var v;
@@ -236,13 +233,7 @@ tape( 'the function supports rounding very small numbers (including subnormals)'
 
 	for ( i = 0; i < n.length; i++ ) {
 		v = ceilb( x, n[i], 10 );
-		if ( v === expected[i] ) {
-			t.strictEqual( v, expected[ i ], 'returns '+expected[i]+' when provided x='+x+' and n='+n[i]+'.' );
-		} else {
-			delta = abs( v - expected[i] );
-			tol = EPS * abs( expected[i] );
-			t.strictEqual( delta <= tol, true, 'x: '+x+'. n: '+n[i]+'. v: '+v+'. expected: '+expected[i]+'. delta: '+delta+'. tol: '+tol );
-		}
+		t.strictEqual( isAlmostSameValue( v, expected[ i ], 1 ), true, 'returns expected value' );
 	}
 	t.end();
 });
