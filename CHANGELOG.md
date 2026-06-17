@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`5d9b083`](https://github.com/stdlib-js/stdlib/commit/5d9b083eb17e79057568c9fce7e54a7ee69eb98d) - **test:** migrate `math/base/special/cflipsign` to ULP-based testing [(#12766)](https://github.com/stdlib-js/stdlib/pull/12766) _(by Philipp Burckhardt)_
 -   [`7ba59e3`](https://github.com/stdlib-js/stdlib/commit/7ba59e3216337f690325156dd4cc925902d7dea3) - **test:** migrate `math/base/special/kernel-tan` to ULP-based testing [(#12804)](https://github.com/stdlib-js/stdlib/pull/12804) _(by Philipp Burckhardt)_
 -   [`84de099`](https://github.com/stdlib-js/stdlib/commit/84de099e2699d070bb21beb1b97235580fbd4f74) - **test:** migrate `math/base/special/kernel-sin` to ULP-based testing [(#12797)](https://github.com/stdlib-js/stdlib/pull/12797) _(by Philipp Burckhardt)_
 -   [`2af5ce0`](https://github.com/stdlib-js/stdlib/commit/2af5ce00eb583b3b590bacd45b09bb420265a1e4) - **test:** migrate `math/base/special/pow` to ULP-based testing [(#12803)](https://github.com/stdlib-js/stdlib/pull/12803) _(by Philipp Burckhardt)_
