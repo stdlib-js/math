@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`7381dbe`](https://github.com/stdlib-js/stdlib/commit/7381dbe44b30f2e7f165da8f46b4fcab98032a46) - **test:** migrate `math/base/special/dirichlet-eta` to ULP-based testing [(#12750)](https://github.com/stdlib-js/stdlib/pull/12750) _(by Philipp Burckhardt)_
 -   [`532b7d4`](https://github.com/stdlib-js/stdlib/commit/532b7d4ec80242b91aa3e1a3cd97b8b03820ac7c) - **test:** migrate `math/base/special/boxcox1pinv` to ULP-based testing [(#12771)](https://github.com/stdlib-js/stdlib/pull/12771) _(by Philipp Burckhardt)_
 -   [`4d2566e`](https://github.com/stdlib-js/stdlib/commit/4d2566e8dc82848d27569f42ea18cfe7e484038b) - **test:** migrate `math/base/special/floorb` to ULP-based testing [(#12786)](https://github.com/stdlib-js/stdlib/pull/12786) _(by Philipp Burckhardt)_
 -   [`9451158`](https://github.com/stdlib-js/stdlib/commit/94511586863c9641274417bb60f8e9fe38e56166) - **test:** migrate `math/base/special/ceilb` to ULP-based testing [(#12781)](https://github.com/stdlib-js/stdlib/pull/12781) _(by Philipp Burckhardt)_
