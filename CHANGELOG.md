@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`c47223b`](https://github.com/stdlib-js/stdlib/commit/c47223b2050d866afb3dfbca514ff665f3dabcb5) - **test:** migrate `math/base/special/kernel-tanf` to ULP-based testing [(#12793)](https://github.com/stdlib-js/stdlib/pull/12793) _(by Philipp Burckhardt)_
 -   [`63254e7`](https://github.com/stdlib-js/stdlib/commit/63254e70389d0a02d3c39231dbc8bbf98b2cca2c) - **test:** migrate `math/base/special/riemann-zeta` to ULP-based testing [(#12809)](https://github.com/stdlib-js/stdlib/pull/12809) _(by Philipp Burckhardt)_
 -   [`5d9b083`](https://github.com/stdlib-js/stdlib/commit/5d9b083eb17e79057568c9fce7e54a7ee69eb98d) - **test:** migrate `math/base/special/cflipsign` to ULP-based testing [(#12766)](https://github.com/stdlib-js/stdlib/pull/12766) _(by Philipp Burckhardt)_
 -   [`7ba59e3`](https://github.com/stdlib-js/stdlib/commit/7ba59e3216337f690325156dd4cc925902d7dea3) - **test:** migrate `math/base/special/kernel-tan` to ULP-based testing [(#12804)](https://github.com/stdlib-js/stdlib/pull/12804) _(by Philipp Burckhardt)_
