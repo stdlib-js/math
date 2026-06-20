@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-17)
+## Unreleased (2026-06-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`5c56631`](https://github.com/stdlib-js/stdlib/commit/5c56631cd8e1d0ab496c17d05ccd6ae351c7f0ec) - **test:** fix mismatched test filenames [(#12991)](https://github.com/stdlib-js/stdlib/pull/12991) _(by Philipp Burckhardt)_
 -   [`a9d6222`](https://github.com/stdlib-js/stdlib/commit/a9d62224ead388aa9eda0afa118a1427612d1438) - **test:** migrate `math/base/special/rempio2f` to ULP-based testing [(#12810)](https://github.com/stdlib-js/stdlib/pull/12810) _(by Philipp Burckhardt)_
 -   [`9b0d344`](https://github.com/stdlib-js/stdlib/commit/9b0d344e7cb9b1a5ea3a3f75b6623cd12d29cf7a) - **test:** migrate `math/base/special/sincos` to ULP-based testing [(#12801)](https://github.com/stdlib-js/stdlib/pull/12801) _(by Philipp Burckhardt)_
 -   [`d391b04`](https://github.com/stdlib-js/stdlib/commit/d391b0458eaf0d05c3549414f7d5e8894a86be6d) - **test:** migrate `math/base/special/fmodf` to ULP-based testing [(#12791)](https://github.com/stdlib-js/stdlib/pull/12791) _(by Philipp Burckhardt)_
