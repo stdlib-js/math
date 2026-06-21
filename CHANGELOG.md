@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-20)
+## Unreleased (2026-06-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`9a4e514`](https://github.com/stdlib-js/stdlib/commit/9a4e5147a82a0b9db7105bc76fb0d616b7309fc8) - **style:** remove extra trailing newlines [(#13016)](https://github.com/stdlib-js/stdlib/pull/13016) _(by Philipp Burckhardt)_
 -   [`5c56631`](https://github.com/stdlib-js/stdlib/commit/5c56631cd8e1d0ab496c17d05ccd6ae351c7f0ec) - **test:** fix mismatched test filenames [(#12991)](https://github.com/stdlib-js/stdlib/pull/12991) _(by Philipp Burckhardt)_
 -   [`a9d6222`](https://github.com/stdlib-js/stdlib/commit/a9d62224ead388aa9eda0afa118a1427612d1438) - **test:** migrate `math/base/special/rempio2f` to ULP-based testing [(#12810)](https://github.com/stdlib-js/stdlib/pull/12810) _(by Philipp Burckhardt)_
 -   [`9b0d344`](https://github.com/stdlib-js/stdlib/commit/9b0d344e7cb9b1a5ea3a3f75b6623cd12d29cf7a) - **test:** migrate `math/base/special/sincos` to ULP-based testing [(#12801)](https://github.com/stdlib-js/stdlib/pull/12801) _(by Philipp Burckhardt)_
