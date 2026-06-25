@@ -16,12 +16,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#13113](https://github.com/stdlib-js/stdlib/issues/13113)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`d9e748f`](https://github.com/stdlib-js/stdlib/commit/d9e748f4d726705ce57a627947a53b4b31c42b8b) - **chore:** fix EditorConfig lint errors [(#13115)](https://github.com/stdlib-js/stdlib/pull/13115) _(by NotFoundOvO)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`13176d8`](https://github.com/stdlib-js/stdlib/commit/13176d8fdf2d24a28da84027725a9a38de327dd3) - **docs:** update related packages sections [(#13118)](https://github.com/stdlib-js/stdlib/pull/13118) _(by stdlib-bot)_
 -   [`9a4e514`](https://github.com/stdlib-js/stdlib/commit/9a4e5147a82a0b9db7105bc76fb0d616b7309fc8) - **style:** remove extra trailing newlines [(#13016)](https://github.com/stdlib-js/stdlib/pull/13016) _(by Philipp Burckhardt)_
@@ -104,8 +117,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   NotFoundOvO
 -   Philipp Burckhardt
 -   anee3
 
