@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`3adbe8a`](https://github.com/stdlib-js/stdlib/commit/3adbe8a17ba4a8ac59a6dbb66085ee84cb78d35d) - **docs:** propagate fixes to sibling packages [(#13133)](https://github.com/stdlib-js/stdlib/pull/13133) _(by Philipp Burckhardt)_
 -   [`d9e748f`](https://github.com/stdlib-js/stdlib/commit/d9e748f4d726705ce57a627947a53b4b31c42b8b) - **chore:** fix EditorConfig lint errors [(#13115)](https://github.com/stdlib-js/stdlib/pull/13115) _(by NotFoundOvO)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`13176d8`](https://github.com/stdlib-js/stdlib/commit/13176d8fdf2d24a28da84027725a9a38de327dd3) - **docs:** update related packages sections [(#13118)](https://github.com/stdlib-js/stdlib/pull/13118) _(by stdlib-bot)_
