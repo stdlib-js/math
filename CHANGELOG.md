@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
+[#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
 
 </section>
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`cf2e33c`](https://github.com/stdlib-js/stdlib/commit/cf2e33ca49296c59cfebedac3c20a6058c36a195) - **chore:** fix C lint errors [(#13047)](https://github.com/stdlib-js/stdlib/pull/13047) _(by A Sivasubramanian Manoj, Athan Reines)_
 -   [`d429b7b`](https://github.com/stdlib-js/stdlib/commit/d429b7b10f275b904b9346850252b91f8219ea75) - **chore:** fix JavaScript lint errors  [(#13176)](https://github.com/stdlib-js/stdlib/pull/13176) _(by Akanksha Kumari)_
 -   [`3adbe8a`](https://github.com/stdlib-js/stdlib/commit/3adbe8a17ba4a8ac59a6dbb66085ee84cb78d35d) - **docs:** propagate fixes to sibling packages [(#13133)](https://github.com/stdlib-js/stdlib/pull/13133) _(by Philipp Burckhardt)_
 -   [`d9e748f`](https://github.com/stdlib-js/stdlib/commit/d9e748f4d726705ce57a627947a53b4b31c42b8b) - **chore:** fix EditorConfig lint errors [(#13115)](https://github.com/stdlib-js/stdlib/pull/13115) _(by NotFoundOvO)_
@@ -119,9 +120,11 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   A Sivasubramanian Manoj
 -   Akanksha Kumari
+-   Athan Reines
 -   NotFoundOvO
 -   Philipp Burckhardt
 -   anee3
