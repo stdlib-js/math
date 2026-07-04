@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-03)
+## Unreleased (2026-07-04)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`b0041dc`](https://github.com/stdlib-js/stdlib/commit/b0041dc7d2c51b9fed6cc0f6d99a0b35b6827403) - **test:** migrate `math/base/special/xlogy` to ULP-based testing [(#13230)](https://github.com/stdlib-js/stdlib/pull/13230) _(by Ujjwal Verma)_
 -   [`b71a63d`](https://github.com/stdlib-js/stdlib/commit/b71a63d212d3943412faa229884d0ee56ee429da) - **style:** remove stray spaces [(#13248)](https://github.com/stdlib-js/stdlib/pull/13248) _(by Philipp Burckhardt)_
 -   [`e9f7554`](https://github.com/stdlib-js/stdlib/commit/e9f75542701aa7535be20b624f35a483b4c6e34d) - **docs:** update related packages sections [(#13187)](https://github.com/stdlib-js/stdlib/pull/13187) _(by stdlib-bot)_
 -   [`cf2e33c`](https://github.com/stdlib-js/stdlib/commit/cf2e33ca49296c59cfebedac3c20a6058c36a195) - **chore:** fix C lint errors [(#13047)](https://github.com/stdlib-js/stdlib/pull/13047) _(by A Sivasubramanian Manoj, Athan Reines)_
@@ -122,13 +123,14 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
 -   Athan Reines
 -   NotFoundOvO
 -   Philipp Burckhardt
+-   Ujjwal Verma
 -   anee3
 
 </section>
