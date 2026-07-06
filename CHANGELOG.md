@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-04)
+## Unreleased (2026-07-06)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`1a2e90a`](https://github.com/stdlib-js/stdlib/commit/1a2e90a925bc6b2c347f452b7ec00ba4e42a9b3c) - **bench:** add missing native benchmark [(#13325)](https://github.com/stdlib-js/stdlib/pull/13325) _(by Philipp Burckhardt)_
 -   [`b0041dc`](https://github.com/stdlib-js/stdlib/commit/b0041dc7d2c51b9fed6cc0f6d99a0b35b6827403) - **test:** migrate `math/base/special/xlogy` to ULP-based testing [(#13230)](https://github.com/stdlib-js/stdlib/pull/13230) _(by Ujjwal Verma)_
 -   [`b71a63d`](https://github.com/stdlib-js/stdlib/commit/b71a63d212d3943412faa229884d0ee56ee429da) - **style:** remove stray spaces [(#13248)](https://github.com/stdlib-js/stdlib/pull/13248) _(by Philipp Burckhardt)_
 -   [`e9f7554`](https://github.com/stdlib-js/stdlib/commit/e9f75542701aa7535be20b624f35a483b4c6e34d) - **docs:** update related packages sections [(#13187)](https://github.com/stdlib-js/stdlib/pull/13187) _(by stdlib-bot)_
