@@ -45,6 +45,7 @@ var beta = require( './../../../../base/special/beta' );
 var sqrt = require( './../../../../base/special/sqrt' );
 var exp = require( './../../../../base/special/exp' );
 var pow = require( './../../../../base/special/pow' );
+var powm1 = require( './../../../../base/special/powm1' );
 var max = require( './../../../../base/special/max' );
 var min = require( './../../../../base/special/min' );
 var MAX_FLOAT64 = require( '@stdlib/constants/float64/max' );
@@ -210,7 +211,7 @@ function ibetaImp( x, a, b, regularized, upper, out, stride, offset ) {
 		if ( y < 0.5 ) {
 			p = ( upper ) ? -expm1( a * log1p(-y) ) : exp( a * log1p(-y) );
 		} else {
-			p = ( upper ) ? -( pow( x, a ) - 1.0 ) : pow( x, a );
+			p = ( upper ) ? -powm1( x, a ) : pow( x, a );
 		}
 		if ( !regularized ) {
 			p /= a;

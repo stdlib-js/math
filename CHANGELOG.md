@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-08)
+## Unreleased (2026-07-09)
+
+<section class="features">
+
+### Features
+
+-   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -34,6 +44,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - **feat:** add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279) _(by Nirmal Jyoti Biswas, Gunj Joshi, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1a2e90a`](https://github.com/stdlib-js/stdlib/commit/1a2e90a925bc6b2c347f452b7ec00ba4e42a9b3c) - **bench:** add missing native benchmark [(#13325)](https://github.com/stdlib-js/stdlib/pull/13325) _(by Philipp Burckhardt)_
 -   [`b0041dc`](https://github.com/stdlib-js/stdlib/commit/b0041dc7d2c51b9fed6cc0f6d99a0b35b6827403) - **test:** migrate `math/base/special/xlogy` to ULP-based testing [(#13230)](https://github.com/stdlib-js/stdlib/pull/13230) _(by Ujjwal Verma)_
@@ -125,11 +136,14 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
 -   Athan Reines
+-   Gunj Joshi
+-   Neeraj Pathak
+-   Nirmal Jyoti Biswas
 -   NotFoundOvO
 -   Philipp Burckhardt
 -   Ujjwal Verma
