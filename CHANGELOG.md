@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982)
 -   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279)
 
 </section>
@@ -44,6 +45,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - **feat:** add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`fe9e95e`](https://github.com/stdlib-js/stdlib/commit/fe9e95e50351d69e5405c3c0827daff54119e723) - **docs:** update `math/base/special` TypeScript declarations [(#13399)](https://github.com/stdlib-js/stdlib/pull/13399) _(by stdlib-bot)_
 -   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - **feat:** add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279) _(by Nirmal Jyoti Biswas, Gunj Joshi, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
@@ -137,7 +139,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
@@ -146,6 +148,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Neeraj Pathak
 -   Nirmal Jyoti Biswas
 -   NotFoundOvO
+-   Om-A-osc
 -   Philipp Burckhardt
 -   Ujjwal Verma
 -   anee3
