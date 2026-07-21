@@ -45,6 +45,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ca5ed7f`](https://github.com/stdlib-js/stdlib/commit/ca5ed7fb2e1d15603157e4d7424adc70724891f4) - **test:** migrate `math/base/special/tand` to ULP-based testing [(#13594)](https://github.com/stdlib-js/stdlib/pull/13594) _(by Ujjwal Verma)_
 -   [`92c748d`](https://github.com/stdlib-js/stdlib/commit/92c748dac8ce3ad80070d5999c579a176348ea02) - **chore:** clean-up [(#13603)](https://github.com/stdlib-js/stdlib/pull/13603) _(by Philipp Burckhardt)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`c61ccdd`](https://github.com/stdlib-js/stdlib/commit/c61ccdd2abfef6a9d840dd044a63a6820a0d5808) - **test:** migrate `math/base/special/sind` to ULP-based testing [(#13583)](https://github.com/stdlib-js/stdlib/pull/13583) _(by Ujjwal Verma)_
