@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`b216c97`](https://github.com/stdlib-js/stdlib/commit/b216c9786293e277f4465630ebf511b202fcb06b) - **test:** migrate `math/base/special/sqrtpi` to ULP-based testing [(#13608)](https://github.com/stdlib-js/stdlib/pull/13608) _(by Ujjwal Verma, Athan Reines)_
 -   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - **feat:** add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`fab0962`](https://github.com/stdlib-js/stdlib/commit/fab096256a5ce80d8c9324da8b9535e2334629d8) - **chore:** fix JavaScript lint errors [(#13595)](https://github.com/stdlib-js/stdlib/pull/13595) _(by jichenggepeter-dev)_
 -   [`ca5ed7f`](https://github.com/stdlib-js/stdlib/commit/ca5ed7fb2e1d15603157e4d7424adc70724891f4) - **test:** migrate `math/base/special/tand` to ULP-based testing [(#13594)](https://github.com/stdlib-js/stdlib/pull/13594) _(by Ujjwal Verma)_
