@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-21)
+## Unreleased (2026-07-22)
 
 <section class="features">
 
 ### Features
 
+-   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037)
 -   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982)
 -   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279)
 
@@ -45,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - **feat:** add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`fab0962`](https://github.com/stdlib-js/stdlib/commit/fab096256a5ce80d8c9324da8b9535e2334629d8) - **chore:** fix JavaScript lint errors [(#13595)](https://github.com/stdlib-js/stdlib/pull/13595) _(by jichenggepeter-dev)_
 -   [`ca5ed7f`](https://github.com/stdlib-js/stdlib/commit/ca5ed7fb2e1d15603157e4d7424adc70724891f4) - **test:** migrate `math/base/special/tand` to ULP-based testing [(#13594)](https://github.com/stdlib-js/stdlib/pull/13594) _(by Ujjwal Verma)_
 -   [`92c748d`](https://github.com/stdlib-js/stdlib/commit/92c748dac8ce3ad80070d5999c579a176348ea02) - **chore:** clean-up [(#13603)](https://github.com/stdlib-js/stdlib/pull/13603) _(by Philipp Burckhardt)_
