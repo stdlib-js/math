@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-24)
+## Unreleased (2026-07-25)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`b0882ed`](https://github.com/stdlib-js/stdlib/commit/b0882edee7f41b0d899902e29da8b8d52d24f6a6) - **test:** migrate `math/base/special/tanh` to ULP-based testing [(#13652)](https://github.com/stdlib-js/stdlib/pull/13652) _(by Philipp Burckhardt)_
 -   [`4126e28`](https://github.com/stdlib-js/stdlib/commit/4126e280f1b0cacf12f7d05e660a89f895e20f01) - **test:** migrate `math/base/special/atanh` to ULP-based testing [(#13646)](https://github.com/stdlib-js/stdlib/pull/13646) _(by Philipp Burckhardt)_
 -   [`dadb5e1`](https://github.com/stdlib-js/stdlib/commit/dadb5e19fb4220baaf1ea34f19600a8848afb26b) - **test:** migrate `math/base/special/coth` to ULP-based testing [(#13635)](https://github.com/stdlib-js/stdlib/pull/13635) _(by Philipp Burckhardt)_
 -   [`404e9c7`](https://github.com/stdlib-js/stdlib/commit/404e9c7e2355c360226f47e9a36ae92601abb8fa) - **test:** migrate `math/base/special/atan2` to ULP-based testing [(#13607)](https://github.com/stdlib-js/stdlib/pull/13607) _(by Ujjwal Verma, Athan Reines)_
