@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`04b5db2`](https://github.com/stdlib-js/stdlib/commit/04b5db21775e7e05271780656a15b96fae263f58) - **test:** migrate `math/base/special/fresnels` to ULP-based testing [(#13667)](https://github.com/stdlib-js/stdlib/pull/13667) _(by Ujjwal Verma)_
 -   [`f027a8a`](https://github.com/stdlib-js/stdlib/commit/f027a8a77020d5b8cd3adbea44b442743dbe4604) - **test:** migrate `math/base/special/trigamma` to ULP-based testing [(#13666)](https://github.com/stdlib-js/stdlib/pull/13666) _(by Ujjwal Verma)_
 -   [`d98aba7`](https://github.com/stdlib-js/stdlib/commit/d98aba7d902ab79111b5235db15cfc469244def3) - **test:** migrate `math/base/special/rsqrt` to ULP-based testing [(#13657)](https://github.com/stdlib-js/stdlib/pull/13657) _(by Ujjwal Verma)_
 -   [`4588717`](https://github.com/stdlib-js/stdlib/commit/4588717a2a6f6bb63c224939fee72dbd9e6c6232) - **test:** migrate `math/base/special/acotf` to ULP-based testing [(#13659)](https://github.com/stdlib-js/stdlib/pull/13659) _(by Philipp Burckhardt)_
