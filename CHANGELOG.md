@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d98aba7`](https://github.com/stdlib-js/stdlib/commit/d98aba7d902ab79111b5235db15cfc469244def3) - **test:** migrate `math/base/special/rsqrt` to ULP-based testing [(#13657)](https://github.com/stdlib-js/stdlib/pull/13657) _(by Ujjwal Verma)_
 -   [`4588717`](https://github.com/stdlib-js/stdlib/commit/4588717a2a6f6bb63c224939fee72dbd9e6c6232) - **test:** migrate `math/base/special/acotf` to ULP-based testing [(#13659)](https://github.com/stdlib-js/stdlib/pull/13659) _(by Philipp Burckhardt)_
 -   [`b0882ed`](https://github.com/stdlib-js/stdlib/commit/b0882edee7f41b0d899902e29da8b8d52d24f6a6) - **test:** migrate `math/base/special/tanh` to ULP-based testing [(#13652)](https://github.com/stdlib-js/stdlib/pull/13652) _(by Philipp Burckhardt)_
 -   [`4126e28`](https://github.com/stdlib-js/stdlib/commit/4126e280f1b0cacf12f7d05e660a89f895e20f01) - **test:** migrate `math/base/special/atanh` to ULP-based testing [(#13646)](https://github.com/stdlib-js/stdlib/pull/13646) _(by Philipp Burckhardt)_
