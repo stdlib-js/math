@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-26)
+## Unreleased (2026-07-27)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`aa63474`](https://github.com/stdlib-js/stdlib/commit/aa6347476367ea9135fb79a769558be3710082e6) - **test:** migrate `math/base/special/exp2` to ULP difference testing [(#13690)](https://github.com/stdlib-js/stdlib/pull/13690) _(by Arjan-P)_
 -   [`57a432c`](https://github.com/stdlib-js/stdlib/commit/57a432cf3c7fd0419b426480bb11598cb546ec1b) - **test:** migrate `math/base/special/acscdf` to ULP-based testing [(#13673)](https://github.com/stdlib-js/stdlib/pull/13673) _(by Philipp Burckhardt)_
 -   [`04b5db2`](https://github.com/stdlib-js/stdlib/commit/04b5db21775e7e05271780656a15b96fae263f58) - **test:** migrate `math/base/special/fresnels` to ULP-based testing [(#13667)](https://github.com/stdlib-js/stdlib/pull/13667) _(by Ujjwal Verma)_
 -   [`f027a8a`](https://github.com/stdlib-js/stdlib/commit/f027a8a77020d5b8cd3adbea44b442743dbe4604) - **test:** migrate `math/base/special/trigamma` to ULP-based testing [(#13666)](https://github.com/stdlib-js/stdlib/pull/13666) _(by Ujjwal Verma)_
