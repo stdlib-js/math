@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`b21013e`](https://github.com/stdlib-js/stdlib/commit/b21013eda09578053481612adf7a1958b3fe0f34) - **test:** migrate `math/base/special/sqrt1pm1` to ULP-based testing [(#13693)](https://github.com/stdlib-js/stdlib/pull/13693) _(by Ujjwal Verma)_
 -   [`a8e87a8`](https://github.com/stdlib-js/stdlib/commit/a8e87a88cb75aafcbafab18064dcc802df68e97e) - **test:** migrate `math/base/special/xlog1py` to ULP-based testing [(#13692)](https://github.com/stdlib-js/stdlib/pull/13692) _(by Ujjwal Verma)_
 -   [`aa63474`](https://github.com/stdlib-js/stdlib/commit/aa6347476367ea9135fb79a769558be3710082e6) - **test:** migrate `math/base/special/exp2` to ULP difference testing [(#13690)](https://github.com/stdlib-js/stdlib/pull/13690) _(by Arjan-P)_
 -   [`57a432c`](https://github.com/stdlib-js/stdlib/commit/57a432cf3c7fd0419b426480bb11598cb546ec1b) - **test:** migrate `math/base/special/acscdf` to ULP-based testing [(#13673)](https://github.com/stdlib-js/stdlib/pull/13673) _(by Philipp Burckhardt)_
