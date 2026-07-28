@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`11d3499`](https://github.com/stdlib-js/stdlib/commit/11d34997fba6e5c29fb7970e85f5ccd4d3f056f1) - **test:** migrate `math/base/special/acosdf` to ULP-based testing [(#13727)](https://github.com/stdlib-js/stdlib/pull/13727) _(by Ujjwal Verma)_
 -   [`943c871`](https://github.com/stdlib-js/stdlib/commit/943c871fd8a0908cc5ae1cc6f39e35cec8d306b4) - **test:** migrate `math/base/special/spencef` to ULP-based testing [(#13726)](https://github.com/stdlib-js/stdlib/pull/13726) _(by Ujjwal Verma)_
 -   [`6df71ed`](https://github.com/stdlib-js/stdlib/commit/6df71ed6790928e149b924ff37aeda425273b5fb) - **test:** migrate `math/base/special/cosd` to ULP-based testing [(#13704)](https://github.com/stdlib-js/stdlib/pull/13704) _(by Philipp Burckhardt)_
 -   [`a8e2731`](https://github.com/stdlib-js/stdlib/commit/a8e27311c716143324647a6893d14df039d3c011) - **test:** migrate `math/base/special/logaddexp` to ULP-based testing [(#13691)](https://github.com/stdlib-js/stdlib/pull/13691) _(by Philipp Burckhardt)_
