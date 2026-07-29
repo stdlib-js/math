@@ -1,0 +1,101 @@
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+'use strict';
+
+// MODULES //
+
+var tape = require( 'tape' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var randu = require( '@stdlib/random/base/randu' );
+var EPS = require( '@stdlib/constants/float64/eps' );
+var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
+var avercos = require( './../lib' );
+
+
+// FIXTURES //
+
+var data = require( './fixtures/julia/data.json' );
+var smallNegative = require( './fixtures/julia/small_negative.json' );
+
+
+// TESTS //
+
+tape( 'main export is a function', function test( t ) {
+	t.ok( true, __filename );
+	t.strictEqual( typeof avercos, 'function', 'main export is a function' );
+	t.end();
+});
+
+tape( 'the function computes the inverse versed cosine', function test( t ) {
+	var expected;
+	var x;
+	var y;
+	var i;
+
+	x = data.x;
+	expected = data.expected;
+
+	for ( i = 0; i < x.length; i++ ) {
+		y = avercos( x[ i ] );
+		t.strictEqual( isAlmostSameValue( y, expected[ i ], 21 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function computes the inverse versed cosine (small negative numbers)', function test( t ) {
+	var expected;
+	var x;
+	var y;
+	var i;
+
+	x = smallNegative.x;
+	expected = smallNegative.expected;
+
+	for ( i = 0; i < x.length; i++ ) {
+		y = avercos( x[ i ] );
+		t.strictEqual( y, expected[ i ], 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function returns `NaN` if provided `NaN`', function test( t ) {
+	var v = avercos( NaN );
+	t.strictEqual( isnan( v ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function returns `NaN` if provided a value less than `-2`', function test( t ) {
+	var v;
+	var i;
+	for ( i = 0; i < 1e4; i++ ) {
+		v = -(randu()*1.0e6) - (2.0+EPS);
+		t.strictEqual( isnan( avercos( v ) ), true, 'returns NaN when provided '+v );
+	}
+	t.end();
+});
+
+tape( 'the function returns `NaN` if provided a value greater than `0`', function test( t ) {
+	var v;
+	var i;
+	for ( i = 0; i < 1e4; i++ ) {
+		v = (randu()*1.0e6) + 0.0 + EPS;
+		t.strictEqual( isnan( avercos( v ) ), true, 'returns NaN when provided '+v );
+	}
+	t.end();
+});
