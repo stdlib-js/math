@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`fd88265`](https://github.com/stdlib-js/stdlib/commit/fd882659f08d3dfab79ff86fa71da0e321ec1961) - **test:** migrate `math/base/special/log1p` to ULP difference testing [(#13744)](https://github.com/stdlib-js/stdlib/pull/13744) _(by Arjan-P, Athan Reines)_
 -   [`39e37e8`](https://github.com/stdlib-js/stdlib/commit/39e37e8e818d62b6dcdca5f0c845dcf64250e4a4) - **test:** migrate `math/base/special/ln` to ULP difference testing [(#13742)](https://github.com/stdlib-js/stdlib/pull/13742) _(by Arjan-P)_
 -   [`197895d`](https://github.com/stdlib-js/stdlib/commit/197895d4f29ba3e97b3ae0573eb726741ec89131) - **test:** migrate `math/base/special/acotdf` to ULP-based testing [(#13740)](https://github.com/stdlib-js/stdlib/pull/13740) _(by Ujjwal Verma)_
 -   [`bf8f11d`](https://github.com/stdlib-js/stdlib/commit/bf8f11d7c120b06d3bb17e5e585ffed1d8e30a9a) - **test:** migrate `math/base/special/acot` to ULP-based testing [(#13739)](https://github.com/stdlib-js/stdlib/pull/13739) _(by Ujjwal Verma)_
