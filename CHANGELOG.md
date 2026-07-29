@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`197895d`](https://github.com/stdlib-js/stdlib/commit/197895d4f29ba3e97b3ae0573eb726741ec89131) - **test:** migrate `math/base/special/acotdf` to ULP-based testing [(#13740)](https://github.com/stdlib-js/stdlib/pull/13740) _(by Ujjwal Verma)_
 -   [`bf8f11d`](https://github.com/stdlib-js/stdlib/commit/bf8f11d7c120b06d3bb17e5e585ffed1d8e30a9a) - **test:** migrate `math/base/special/acot` to ULP-based testing [(#13739)](https://github.com/stdlib-js/stdlib/pull/13739) _(by Ujjwal Verma)_
 -   [`fd92d62`](https://github.com/stdlib-js/stdlib/commit/fd92d621e42ea43ce6f5d4bc77196400c6d6a8df) - **test:** migrate `math/base/special/cotd` to ULP-based testing [(#13732)](https://github.com/stdlib-js/stdlib/pull/13732) _(by Philipp Burckhardt)_
 -   [`11d3499`](https://github.com/stdlib-js/stdlib/commit/11d34997fba6e5c29fb7970e85f5ccd4d3f056f1) - **test:** migrate `math/base/special/acosdf` to ULP-based testing [(#13727)](https://github.com/stdlib-js/stdlib/pull/13727) _(by Ujjwal Verma)_
