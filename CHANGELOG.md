@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1851c13`](https://github.com/stdlib-js/stdlib/commit/1851c13ad273f475d5fe58f13fa22bd09626eafb) - **test:** migrate `math/base/special/acscd` to ULP-based testing [(#13775)](https://github.com/stdlib-js/stdlib/pull/13775) _(by Ujjwal Verma)_
 -   [`22f4f46`](https://github.com/stdlib-js/stdlib/commit/22f4f4679848ceb5b5744307f95191747f65bf96) - **test:** migrate `math/base/special/ellipe` to ULP difference testing [(#13778)](https://github.com/stdlib-js/stdlib/pull/13778) _(by Arjan-P)_
 -   [`1b2175c`](https://github.com/stdlib-js/stdlib/commit/1b2175ccf46c677fef8daffa234a5984cae3bae6) - **test:** migrate `math/base/special/lnf` to ULP difference based testing [(#13773)](https://github.com/stdlib-js/stdlib/pull/13773) _(by Arjan-P)_
 -   [`0011f59`](https://github.com/stdlib-js/stdlib/commit/0011f59245c1d2548c05e443aa39cde998ef0538) - **test:** migrate `math/base/special/aversinf` to ULP difference testing [(#13772)](https://github.com/stdlib-js/stdlib/pull/13772) _(by Arjan-P)_
