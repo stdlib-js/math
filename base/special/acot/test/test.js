@@ -26,7 +26,7 @@ var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var isAlmostSameValue = require( '@stdlib/number/float64/base/assert/is-almost-same-value' );
+var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
 var acot = require( './../lib' );
 
 
