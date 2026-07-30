@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`e10f261`](https://github.com/stdlib-js/stdlib/commit/e10f261ba945d31527f191148cd8c912fd1e2315) - **test:** migrate `math/base/special/truncn` to ULP-based testing [(#13784)](https://github.com/stdlib-js/stdlib/pull/13784) _(by Ujjwal Verma)_
 -   [`1851c13`](https://github.com/stdlib-js/stdlib/commit/1851c13ad273f475d5fe58f13fa22bd09626eafb) - **test:** migrate `math/base/special/acscd` to ULP-based testing [(#13775)](https://github.com/stdlib-js/stdlib/pull/13775) _(by Ujjwal Verma)_
 -   [`22f4f46`](https://github.com/stdlib-js/stdlib/commit/22f4f4679848ceb5b5744307f95191747f65bf96) - **test:** migrate `math/base/special/ellipe` to ULP difference testing [(#13778)](https://github.com/stdlib-js/stdlib/pull/13778) _(by Arjan-P)_
 -   [`1b2175c`](https://github.com/stdlib-js/stdlib/commit/1b2175ccf46c677fef8daffa234a5984cae3bae6) - **test:** migrate `math/base/special/lnf` to ULP difference based testing [(#13773)](https://github.com/stdlib-js/stdlib/pull/13773) _(by Arjan-P)_
