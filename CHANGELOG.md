@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`01be02d`](https://github.com/stdlib-js/stdlib/commit/01be02d67276c97cf700b8e32167d64583d149ce) - **test:** migrate `math/base/special/aversin` to ULP difference testing [(#13765)](https://github.com/stdlib-js/stdlib/pull/13765) _(by Arjan-P)_
 -   [`8adbe79`](https://github.com/stdlib-js/stdlib/commit/8adbe794208a92a1cace62a2e4fb259191f72d7b) - **test:** migrate `math/base/special/erfcinv` to ULP-based testing [(#13761)](https://github.com/stdlib-js/stdlib/pull/13761) _(by Philipp Burckhardt)_
 -   [`7fc00f6`](https://github.com/stdlib-js/stdlib/commit/7fc00f6b414a1a7394b54ccedbcc244ce2cfa0d0) - **test:** migrate `math/base/special/acovercos` to ULP-based testing [(#13755)](https://github.com/stdlib-js/stdlib/pull/13755) _(by Ujjwal Verma)_
 -   [`c90a54a`](https://github.com/stdlib-js/stdlib/commit/c90a54ab17c4cbbbf0c78e2e5bea120f90debd14) - **chore:** clean-up [(#13752)](https://github.com/stdlib-js/stdlib/pull/13752) _(by Philipp Burckhardt, Athan Reines)_
