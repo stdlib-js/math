@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-29)
+## Unreleased (2026-07-30)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`2c38f7c`](https://github.com/stdlib-js/stdlib/commit/2c38f7c3549842ec429c2826ab4507bb80bb606d) - **test:** migrate `math/base/special/acscf` to ULP difference testing [(#13753)](https://github.com/stdlib-js/stdlib/pull/13753) _(by Arjan-P)_
 -   [`f38253d`](https://github.com/stdlib-js/stdlib/commit/f38253d42ab73d077e4daf6e39d66f16f40d1b2d) - **test:** migrate `math/base/special/acoth` to ULP-based testing [(#13745)](https://github.com/stdlib-js/stdlib/pull/13745) _(by Ujjwal Verma)_
 -   [`fd88265`](https://github.com/stdlib-js/stdlib/commit/fd882659f08d3dfab79ff86fa71da0e321ec1961) - **test:** migrate `math/base/special/log1p` to ULP difference testing [(#13744)](https://github.com/stdlib-js/stdlib/pull/13744) _(by Arjan-P, Athan Reines)_
 -   [`39e37e8`](https://github.com/stdlib-js/stdlib/commit/39e37e8e818d62b6dcdca5f0c845dcf64250e4a4) - **test:** migrate `math/base/special/ln` to ULP difference testing [(#13742)](https://github.com/stdlib-js/stdlib/pull/13742) _(by Arjan-P)_
