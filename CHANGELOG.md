@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`22102e1`](https://github.com/stdlib-js/stdlib/commit/22102e138f718d8201aeba9d8a14cce6c5fa49a8) - **docs:** improve doctests for complex number instances [(#13840)](https://github.com/stdlib-js/stdlib/pull/13840) _(by fiboNacci1163)_
 -   [`3efc6d3`](https://github.com/stdlib-js/stdlib/commit/3efc6d371e0a32f6991ebd7279c93c595e3e9ff6) - **test:** migrate `math/base/special/spence` to ULP-based testing [(#13842)](https://github.com/stdlib-js/stdlib/pull/13842) _(by Ujjwal Verma)_
 -   [`7cf37f7`](https://github.com/stdlib-js/stdlib/commit/7cf37f79b1bd737e102923b4f88187df0ebac5ff) - **test:** migrate `math/base/special/sech` to ULP-based testing [(#13843)](https://github.com/stdlib-js/stdlib/pull/13843) _(by Ujjwal Verma)_
 -   [`2d4ff34`](https://github.com/stdlib-js/stdlib/commit/2d4ff34b30b1f0f569e3ae8a1473eb517f9f4cd0) - **test:** migrate `math/base/special/csc` to ULP-based assertions [(#13828)](https://github.com/stdlib-js/stdlib/pull/13828) _(by Philipp Burckhardt)_
@@ -195,7 +196,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 13 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
@@ -209,6 +210,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Ujjwal Verma
 -   anee3
+-   fiboNacci1163
 -   jichenggepeter-dev
 
 </section>
