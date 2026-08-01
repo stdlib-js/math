@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1d63259`](https://github.com/stdlib-js/stdlib/commit/1d6325966f4f990a577246f4f0bbcef9a41d2a42) - **test:** migrate `math/base/special/avercosf` to ULP difference testing [(#13818)](https://github.com/stdlib-js/stdlib/pull/13818) _(by Arjan-P)_
 -   [`e8fac32`](https://github.com/stdlib-js/stdlib/commit/e8fac328731c2f7bb5b331edc9edf08048f67a18) - **docs:** update related packages sections [(#13820)](https://github.com/stdlib-js/stdlib/pull/13820) _(by stdlib-bot)_
 -   [`351f7c0`](https://github.com/stdlib-js/stdlib/commit/351f7c02cb351877f809cd92e8318205277c8e12) - **test:** migrate `math/base/special/sqrtpif` to ULP-based testing [(#13803)](https://github.com/stdlib-js/stdlib/pull/13803) _(by Ujjwal Verma)_
 -   [`e932b6f`](https://github.com/stdlib-js/stdlib/commit/e932b6f0cd73958e0a78e2198397dc440eeb7b2e) - **test:** migrate `math/base/special/acoversinf` to ULP-based testing [(#13774)](https://github.com/stdlib-js/stdlib/pull/13774) _(by Ujjwal Verma, Athan Reines)_
