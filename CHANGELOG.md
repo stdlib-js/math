@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-31)
+## Unreleased (2026-08-01)
 
 <section class="features">
 
@@ -46,6 +46,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`e8fac32`](https://github.com/stdlib-js/stdlib/commit/e8fac328731c2f7bb5b331edc9edf08048f67a18) - **docs:** update related packages sections [(#13820)](https://github.com/stdlib-js/stdlib/pull/13820) _(by stdlib-bot)_
+-   [`351f7c0`](https://github.com/stdlib-js/stdlib/commit/351f7c02cb351877f809cd92e8318205277c8e12) - **test:** migrate `math/base/special/sqrtpif` to ULP-based testing [(#13803)](https://github.com/stdlib-js/stdlib/pull/13803) _(by Ujjwal Verma)_
 -   [`e932b6f`](https://github.com/stdlib-js/stdlib/commit/e932b6f0cd73958e0a78e2198397dc440eeb7b2e) - **test:** migrate `math/base/special/acoversinf` to ULP-based testing [(#13774)](https://github.com/stdlib-js/stdlib/pull/13774) _(by Ujjwal Verma, Athan Reines)_
 -   [`e10f261`](https://github.com/stdlib-js/stdlib/commit/e10f261ba945d31527f191148cd8c912fd1e2315) - **test:** migrate `math/base/special/truncn` to ULP-based testing [(#13784)](https://github.com/stdlib-js/stdlib/pull/13784) _(by Ujjwal Verma)_
 -   [`1851c13`](https://github.com/stdlib-js/stdlib/commit/1851c13ad273f475d5fe58f13fa22bd09626eafb) - **test:** migrate `math/base/special/acscd` to ULP-based testing [(#13775)](https://github.com/stdlib-js/stdlib/pull/13775) _(by Ujjwal Verma)_
