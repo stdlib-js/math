@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`b77ae47`](https://github.com/stdlib-js/stdlib/commit/b77ae47c93baa10652aa73d045976852a3727deb) - **test:** migrate `math/base/special/xlogyf` to ULP-based testing [(#13829)](https://github.com/stdlib-js/stdlib/pull/13829) _(by Ujjwal Verma)_
 -   [`00a2948`](https://github.com/stdlib-js/stdlib/commit/00a29487d1978205ce5fba2f096ad7c473bb8497) - **bench:** replace `pow` with `powf` [(#13825)](https://github.com/stdlib-js/stdlib/pull/13825) _(by Arjan-P)_
 -   [`1d63259`](https://github.com/stdlib-js/stdlib/commit/1d6325966f4f990a577246f4f0bbcef9a41d2a42) - **test:** migrate `math/base/special/avercosf` to ULP difference testing [(#13818)](https://github.com/stdlib-js/stdlib/pull/13818) _(by Arjan-P)_
 -   [`e8fac32`](https://github.com/stdlib-js/stdlib/commit/e8fac328731c2f7bb5b331edc9edf08048f67a18) - **docs:** update related packages sections [(#13820)](https://github.com/stdlib-js/stdlib/pull/13820) _(by stdlib-bot)_
