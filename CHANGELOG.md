@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7cf37f7`](https://github.com/stdlib-js/stdlib/commit/7cf37f79b1bd737e102923b4f88187df0ebac5ff) - **test:** migrate `math/base/special/sech` to ULP-based testing [(#13843)](https://github.com/stdlib-js/stdlib/pull/13843) _(by Ujjwal Verma)_
 -   [`2d4ff34`](https://github.com/stdlib-js/stdlib/commit/2d4ff34b30b1f0f569e3ae8a1473eb517f9f4cd0) - **test:** migrate `math/base/special/csc` to ULP-based assertions [(#13828)](https://github.com/stdlib-js/stdlib/pull/13828) _(by Philipp Burckhardt)_
 -   [`b77ae47`](https://github.com/stdlib-js/stdlib/commit/b77ae47c93baa10652aa73d045976852a3727deb) - **test:** migrate `math/base/special/xlogyf` to ULP-based testing [(#13829)](https://github.com/stdlib-js/stdlib/pull/13829) _(by Ujjwal Verma)_
 -   [`00a2948`](https://github.com/stdlib-js/stdlib/commit/00a29487d1978205ce5fba2f096ad7c473bb8497) - **bench:** replace `pow` with `powf` [(#13825)](https://github.com/stdlib-js/stdlib/pull/13825) _(by Arjan-P)_
