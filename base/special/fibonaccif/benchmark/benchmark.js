@@ -23,12 +23,11 @@
 var bench = require( '@stdlib/bench' );
 var Int32Array = require( '@stdlib/array/int32' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var powf = require( './../../../../base/special/powf' );
 var roundf = require( './../../../../base/special/roundf' );
 var sqrtf = require( './../../../../base/special/sqrtf' );
-var pow = require( './../../../../base/special/pow' );
 var isnanf = require( './../../../../base/assert/is-nanf' );
 var PHI = require( '@stdlib/constants/float32/phi' );
-var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
 var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var FIBONACCI = require( './../lib/fibonacci.json' );
@@ -70,8 +69,7 @@ bench( format( '%s::analytic', pkg ), function benchmark( b ) {
 	var i;
 
 	function fibonaccif( n ) {
-		// TODO: replace with powf once implemented
-		return roundf( float64ToFloat32( pow( PHI, n ) ) / SQRT_5 );
+		return roundf( powf( PHI, n ) / SQRT_5 );
 	}
 
 	x = discreteUniform( 100, 0, 36 );
