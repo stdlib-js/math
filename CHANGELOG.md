@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-08-02)
 
 <section class="features">
 
@@ -46,6 +46,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
 -   [`22102e1`](https://github.com/stdlib-js/stdlib/commit/22102e138f718d8201aeba9d8a14cce6c5fa49a8) - **docs:** improve doctests for complex number instances [(#13840)](https://github.com/stdlib-js/stdlib/pull/13840) _(by fiboNacci1163)_
 -   [`3efc6d3`](https://github.com/stdlib-js/stdlib/commit/3efc6d371e0a32f6991ebd7279c93c595e3e9ff6) - **test:** migrate `math/base/special/spence` to ULP-based testing [(#13842)](https://github.com/stdlib-js/stdlib/pull/13842) _(by Ujjwal Verma)_
 -   [`7cf37f7`](https://github.com/stdlib-js/stdlib/commit/7cf37f79b1bd737e102923b4f88187df0ebac5ff) - **test:** migrate `math/base/special/sech` to ULP-based testing [(#13843)](https://github.com/stdlib-js/stdlib/pull/13843) _(by Ujjwal Verma)_
@@ -196,13 +198,14 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
 -   Arjan-P
 -   Athan Reines
 -   Gunj Joshi
+-   Karan Anand
 -   Neeraj Pathak
 -   Nirmal Jyoti Biswas
 -   NotFoundOvO
