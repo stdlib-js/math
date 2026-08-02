@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`156aaa1`](https://github.com/stdlib-js/stdlib/commit/156aaa1c98135aae4cfcb5161d5d1fcec0dd8c6a) - **bench:** update benchmarks to use decimal literals [(#13859)](https://github.com/stdlib-js/stdlib/pull/13859) _(by Philipp Burckhardt)_
 -   [`ca056ba`](https://github.com/stdlib-js/stdlib/commit/ca056bafce882f9a274ab898b68099cae8c20c95) - **test:** migrate `math/base/special/roundn` to ULP-based assertions [(#13857)](https://github.com/stdlib-js/stdlib/pull/13857) _(by Philipp Burckhardt, Athan Reines)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
