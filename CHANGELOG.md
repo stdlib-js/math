@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-08-03)
 
 <section class="features">
 
@@ -46,6 +46,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`a718677`](https://github.com/stdlib-js/stdlib/commit/a718677c04734ead16ef194ef86f9c2cb34b446c) - **test:** migrate `math/base/special/floorn` to ULP-based testing [(#13883)](https://github.com/stdlib-js/stdlib/pull/13883) _(by Philipp Burckhardt)_
+-   [`21df521`](https://github.com/stdlib-js/stdlib/commit/21df521101ed3ec14ab7df325082fb8528ff9f15) - **test:** migrate `math/base/special/secd` to ULP-based testing [(#13878)](https://github.com/stdlib-js/stdlib/pull/13878) _(by Ujjwal Verma)_
+-   [`4f852f8`](https://github.com/stdlib-js/stdlib/commit/4f852f8713ed0afe3f8e46ba9421d5d78b8135d0) - **test:** migrate `math/base/special/sec` to ULP-based testing [(#13876)](https://github.com/stdlib-js/stdlib/pull/13876) _(by Ujjwal Verma)_
 -   [`156aaa1`](https://github.com/stdlib-js/stdlib/commit/156aaa1c98135aae4cfcb5161d5d1fcec0dd8c6a) - **bench:** update benchmarks to use decimal literals [(#13859)](https://github.com/stdlib-js/stdlib/pull/13859) _(by Philipp Burckhardt)_
 -   [`ca056ba`](https://github.com/stdlib-js/stdlib/commit/ca056bafce882f9a274ab898b68099cae8c20c95) - **test:** migrate `math/base/special/roundn` to ULP-based assertions [(#13857)](https://github.com/stdlib-js/stdlib/pull/13857) _(by Philipp Burckhardt, Athan Reines)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
