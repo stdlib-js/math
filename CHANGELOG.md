@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-03)
+## Unreleased (2026-08-04)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`efa3ea8`](https://github.com/stdlib-js/stdlib/commit/efa3ea82b0108b3eac75d769953f99aeb60e529d) - **test:** migrate `math/base/special/asind` to ULP-based testing [(#13899)](https://github.com/stdlib-js/stdlib/pull/13899) _(by Philipp Burckhardt)_
 -   [`a718677`](https://github.com/stdlib-js/stdlib/commit/a718677c04734ead16ef194ef86f9c2cb34b446c) - **test:** migrate `math/base/special/floorn` to ULP-based testing [(#13883)](https://github.com/stdlib-js/stdlib/pull/13883) _(by Philipp Burckhardt)_
 -   [`21df521`](https://github.com/stdlib-js/stdlib/commit/21df521101ed3ec14ab7df325082fb8528ff9f15) - **test:** migrate `math/base/special/secd` to ULP-based testing [(#13878)](https://github.com/stdlib-js/stdlib/pull/13878) _(by Ujjwal Verma)_
 -   [`4f852f8`](https://github.com/stdlib-js/stdlib/commit/4f852f8713ed0afe3f8e46ba9421d5d78b8135d0) - **test:** migrate `math/base/special/sec` to ULP-based testing [(#13876)](https://github.com/stdlib-js/stdlib/pull/13876) _(by Ujjwal Verma)_
