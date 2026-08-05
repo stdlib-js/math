@@ -46,6 +46,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`c7df993`](https://github.com/stdlib-js/stdlib/commit/c7df993757ff5149b5c0915ff7cb058f84e6a816) - **test:** migrate `math/base/special/falling-factorial` to ULP-based assertions [(#13927)](https://github.com/stdlib-js/stdlib/pull/13927) _(by Athan Reines)_
 -   [`b43a065`](https://github.com/stdlib-js/stdlib/commit/b43a0657d405e5c20e27613ada5f66dc22710305) - **test:** migrate `math/base/special/hypot` to ULP-based assertions [(#13926)](https://github.com/stdlib-js/stdlib/pull/13926) _(by Philipp Burckhardt)_
 -   [`efa3ea8`](https://github.com/stdlib-js/stdlib/commit/efa3ea82b0108b3eac75d769953f99aeb60e529d) - **test:** migrate `math/base/special/asind` to ULP-based testing [(#13899)](https://github.com/stdlib-js/stdlib/pull/13899) _(by Philipp Burckhardt)_
 -   [`a718677`](https://github.com/stdlib-js/stdlib/commit/a718677c04734ead16ef194ef86f9c2cb34b446c) - **test:** migrate `math/base/special/floorn` to ULP-based testing [(#13883)](https://github.com/stdlib-js/stdlib/pull/13883) _(by Philipp Burckhardt)_
