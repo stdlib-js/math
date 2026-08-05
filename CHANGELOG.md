@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f6bf21b`](https://github.com/stdlib-js/stdlib/commit/f6bf21b426e31c5077a16ea7376b1aa0c318bd19) - add `math/base/special/expf` [(#3318)](https://github.com/stdlib-js/stdlib/pull/3318)
 -   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037)
 -   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982)
 -   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279)
@@ -46,6 +47,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`f6bf21b`](https://github.com/stdlib-js/stdlib/commit/f6bf21b426e31c5077a16ea7376b1aa0c318bd19) - **feat:** add `math/base/special/expf` [(#3318)](https://github.com/stdlib-js/stdlib/pull/3318) _(by Vivek Maurya, Athan Reines, Gunj Joshi, Karan Anand, Philipp Burckhardt, Karan Anand)_
 -   [`c7df993`](https://github.com/stdlib-js/stdlib/commit/c7df993757ff5149b5c0915ff7cb058f84e6a816) - **test:** migrate `math/base/special/falling-factorial` to ULP-based assertions [(#13927)](https://github.com/stdlib-js/stdlib/pull/13927) _(by Athan Reines)_
 -   [`b43a065`](https://github.com/stdlib-js/stdlib/commit/b43a0657d405e5c20e27613ada5f66dc22710305) - **test:** migrate `math/base/special/hypot` to ULP-based assertions [(#13926)](https://github.com/stdlib-js/stdlib/pull/13926) _(by Philipp Burckhardt)_
 -   [`efa3ea8`](https://github.com/stdlib-js/stdlib/commit/efa3ea82b0108b3eac75d769953f99aeb60e529d) - **test:** migrate `math/base/special/asind` to ULP-based testing [(#13899)](https://github.com/stdlib-js/stdlib/pull/13899) _(by Philipp Burckhardt)_
@@ -206,7 +208,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
@@ -220,6 +222,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Ujjwal Verma
+-   Vivek Maurya
 -   anee3
 -   fiboNacci1163
 -   jichenggepeter-dev
