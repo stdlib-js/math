@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-05)
+## Unreleased (2026-08-06)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 ### Bug Fixes
 
+-   [`37facc3`](https://github.com/stdlib-js/stdlib/commit/37facc314354eb317977bab2bca09842120d1d63) - replace `pow` with `powf` in `math/base/special/frexpf` [(#13948)](https://github.com/stdlib-js/stdlib/pull/13948)
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 
 </section>
@@ -47,6 +48,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`37facc3`](https://github.com/stdlib-js/stdlib/commit/37facc314354eb317977bab2bca09842120d1d63) - **fix:** replace `pow` with `powf` in `math/base/special/frexpf` [(#13948)](https://github.com/stdlib-js/stdlib/pull/13948) _(by Arjan-P)_
+-   [`1d04bde`](https://github.com/stdlib-js/stdlib/commit/1d04bde8494e00ba85be2fe9a20939c892bb173b) - **test:** migrate `math/base/special/factorialln` to ULP-based assertions [(#13962)](https://github.com/stdlib-js/stdlib/pull/13962) _(by Athan Reines, Co-Authored-By: Claude Opus 5, kgryte)_
 -   [`f6bf21b`](https://github.com/stdlib-js/stdlib/commit/f6bf21b426e31c5077a16ea7376b1aa0c318bd19) - **feat:** add `math/base/special/expf` [(#3318)](https://github.com/stdlib-js/stdlib/pull/3318) _(by Vivek Maurya, Athan Reines, Gunj Joshi, Karan Anand, Philipp Burckhardt, Karan Anand)_
 -   [`c7df993`](https://github.com/stdlib-js/stdlib/commit/c7df993757ff5149b5c0915ff7cb058f84e6a816) - **test:** migrate `math/base/special/falling-factorial` to ULP-based assertions [(#13927)](https://github.com/stdlib-js/stdlib/pull/13927) _(by Athan Reines)_
 -   [`b43a065`](https://github.com/stdlib-js/stdlib/commit/b43a0657d405e5c20e27613ada5f66dc22710305) - **test:** migrate `math/base/special/hypot` to ULP-based assertions [(#13926)](https://github.com/stdlib-js/stdlib/pull/13926) _(by Philipp Burckhardt)_
@@ -208,12 +211,13 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
 -   Arjan-P
 -   Athan Reines
+-   Co-Authored-By: Claude Opus 5
 -   Gunj Joshi
 -   Karan Anand
 -   Neeraj Pathak
@@ -226,6 +230,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 -   anee3
 -   fiboNacci1163
 -   jichenggepeter-dev
+-   kgryte
 
 </section>
 
