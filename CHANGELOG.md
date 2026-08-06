@@ -48,6 +48,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`5d64ad7`](https://github.com/stdlib-js/stdlib/commit/5d64ad742561d703b0fcd9d6371075660aa0b5fa) - **test:** migrate `math/base/special/powm1` to ULP-based testing [(#13983)](https://github.com/stdlib-js/stdlib/pull/13983) _(by Ujjwal Verma, Athan Reines)_
+-   [`853e9d0`](https://github.com/stdlib-js/stdlib/commit/853e9d0b2d0ade21011397c148213ac92aedf3a1) - **test:** migrate `math/base/special/asec` to ULP-based assertions [(#13989)](https://github.com/stdlib-js/stdlib/pull/13989) _(by Athan Reines)_
 -   [`cfbd29a`](https://github.com/stdlib-js/stdlib/commit/cfbd29afc8207dd44b5722ec49f0438ec08aea79) - **chore:** clean-up [(#13976)](https://github.com/stdlib-js/stdlib/pull/13976) _(by Philipp Burckhardt)_
 -   [`4d3ec88`](https://github.com/stdlib-js/stdlib/commit/4d3ec882657e189d00ba4797042acf95f160f772) - **test:** migrate `math/base/special/log1pmx` to ULP-based testing [(#13979)](https://github.com/stdlib-js/stdlib/pull/13979) _(by Ujjwal Verma)_
 -   [`6369e3b`](https://github.com/stdlib-js/stdlib/commit/6369e3bed0470379ea58aad3261318adbb09cbc3) - **test:** migrate `math/base/special/expm1rel` to ULP-based assertions [(#13982)](https://github.com/stdlib-js/stdlib/pull/13982) _(by Athan Reines)_
