@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d1fa7ed`](https://github.com/stdlib-js/stdlib/commit/d1fa7edfe3c43f9db25748608875db1dfea52988) - **test:** migrate `math/base/special/ellipk` to ULP-based assertions [(#13943)](https://github.com/stdlib-js/stdlib/pull/13943) _(by Athan Reines)_
 -   [`375d007`](https://github.com/stdlib-js/stdlib/commit/375d007ef1770cb673e04ea22ce1f8c933eb2e5d) - **test:** migrate `math/base/special/asech` to ULP-based assertions [(#13961)](https://github.com/stdlib-js/stdlib/pull/13961) _(by Philipp Burckhardt, Athan Reines)_
 -   [`dac85e0`](https://github.com/stdlib-js/stdlib/commit/dac85e0230cd4052f0ec097d58e3372d899782f6) - **docs:** update Markdown equation elements [(#13966)](https://github.com/stdlib-js/stdlib/pull/13966) _(by stdlib-bot, Athan Reines)_
 -   [`5a90637`](https://github.com/stdlib-js/stdlib/commit/5a906375097f18837fe39673cbd2fab6d409bdbc) - **test:** migrate `math/base/special/log1mexp` to ULP-based testing [(#13935)](https://github.com/stdlib-js/stdlib/pull/13935) _(by Ujjwal Verma)_
