@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`6883564`](https://github.com/stdlib-js/stdlib/commit/6883564bf08334a0ec1bf640fe9fc8b222177cc5) - **test:** migrate `math/base/special/expit` to ULP-based assertions [(#13972)](https://github.com/stdlib-js/stdlib/pull/13972) _(by Athan Reines)_
 -   [`b5be51a`](https://github.com/stdlib-js/stdlib/commit/b5be51aa4005bf83cbac6ab63947c6cdd4951725) - **test:** migrate `math/base/special/cphase` to ULP-based assertions [(#13969)](https://github.com/stdlib-js/stdlib/pull/13969) _(by Philipp Burckhardt)_
 -   [`d1fa7ed`](https://github.com/stdlib-js/stdlib/commit/d1fa7edfe3c43f9db25748608875db1dfea52988) - **test:** migrate `math/base/special/ellipk` to ULP-based assertions [(#13943)](https://github.com/stdlib-js/stdlib/pull/13943) _(by Athan Reines)_
 -   [`375d007`](https://github.com/stdlib-js/stdlib/commit/375d007ef1770cb673e04ea22ce1f8c933eb2e5d) - **test:** migrate `math/base/special/asech` to ULP-based assertions [(#13961)](https://github.com/stdlib-js/stdlib/pull/13961) _(by Philipp Burckhardt, Athan Reines)_
