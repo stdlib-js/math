@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`6369e3b`](https://github.com/stdlib-js/stdlib/commit/6369e3bed0470379ea58aad3261318adbb09cbc3) - **test:** migrate `math/base/special/expm1rel` to ULP-based assertions [(#13982)](https://github.com/stdlib-js/stdlib/pull/13982) _(by Athan Reines)_
 -   [`e1cc737`](https://github.com/stdlib-js/stdlib/commit/e1cc737f7dd27c21759e9f573573867435aa4ef3) - **test:** migrate `math/base/special/rad2degf` to ULP-based assertions [(#13970)](https://github.com/stdlib-js/stdlib/pull/13970) _(by Athan Reines)_
 -   [`6883564`](https://github.com/stdlib-js/stdlib/commit/6883564bf08334a0ec1bf640fe9fc8b222177cc5) - **test:** migrate `math/base/special/expit` to ULP-based assertions [(#13972)](https://github.com/stdlib-js/stdlib/pull/13972) _(by Athan Reines)_
 -   [`b5be51a`](https://github.com/stdlib-js/stdlib/commit/b5be51aa4005bf83cbac6ab63947c6cdd4951725) - **test:** migrate `math/base/special/cphase` to ULP-based assertions [(#13969)](https://github.com/stdlib-js/stdlib/pull/13969) _(by Philipp Burckhardt)_
@@ -57,7 +58,7 @@ A total of 4 issues were closed in this release:
 -   [`5a90637`](https://github.com/stdlib-js/stdlib/commit/5a906375097f18837fe39673cbd2fab6d409bdbc) - **test:** migrate `math/base/special/log1mexp` to ULP-based testing [(#13935)](https://github.com/stdlib-js/stdlib/pull/13935) _(by Ujjwal Verma)_
 -   [`376a3e5`](https://github.com/stdlib-js/stdlib/commit/376a3e586b578080d55cfd9cc66276da54708d6b) - **test:** migrate `math/base/special/log1pexp` to ULP-based testing [(#13937)](https://github.com/stdlib-js/stdlib/pull/13937) _(by Ujjwal Verma)_
 -   [`37facc3`](https://github.com/stdlib-js/stdlib/commit/37facc314354eb317977bab2bca09842120d1d63) - **fix:** replace `pow` with `powf` in `math/base/special/frexpf` [(#13948)](https://github.com/stdlib-js/stdlib/pull/13948) _(by Arjan-P)_
--   [`1d04bde`](https://github.com/stdlib-js/stdlib/commit/1d04bde8494e00ba85be2fe9a20939c892bb173b) - **test:** migrate `math/base/special/factorialln` to ULP-based assertions [(#13962)](https://github.com/stdlib-js/stdlib/pull/13962) _(by Athan Reines, Co-Authored-By: Claude Opus 5, kgryte)_
+-   [`1d04bde`](https://github.com/stdlib-js/stdlib/commit/1d04bde8494e00ba85be2fe9a20939c892bb173b) - **test:** migrate `math/base/special/factorialln` to ULP-based assertions [(#13962)](https://github.com/stdlib-js/stdlib/pull/13962) _(by Athan Reines)_
 -   [`f6bf21b`](https://github.com/stdlib-js/stdlib/commit/f6bf21b426e31c5077a16ea7376b1aa0c318bd19) - **feat:** add `math/base/special/expf` [(#3318)](https://github.com/stdlib-js/stdlib/pull/3318) _(by Vivek Maurya, Athan Reines, Gunj Joshi, Karan Anand, Philipp Burckhardt)_
 -   [`c7df993`](https://github.com/stdlib-js/stdlib/commit/c7df993757ff5149b5c0915ff7cb058f84e6a816) - **test:** migrate `math/base/special/falling-factorial` to ULP-based assertions [(#13927)](https://github.com/stdlib-js/stdlib/pull/13927) _(by Athan Reines)_
 -   [`b43a065`](https://github.com/stdlib-js/stdlib/commit/b43a0657d405e5c20e27613ada5f66dc22710305) - **test:** migrate `math/base/special/hypot` to ULP-based assertions [(#13926)](https://github.com/stdlib-js/stdlib/pull/13926) _(by Philipp Burckhardt)_
@@ -219,13 +220,12 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 18 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
 -   Arjan-P
 -   Athan Reines
--   Co-Authored-By: Claude Opus 5
 -   Gunj Joshi
 -   Karan Anand
 -   Neeraj Pathak
@@ -238,7 +238,6 @@ A total of 18 people contributed to this release. Thank you to the following con
 -   anee3
 -   fiboNacci1163
 -   jichenggepeter-dev
--   kgryte
 
 </section>
 
