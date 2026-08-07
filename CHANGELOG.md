@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-06)
+## Unreleased (2026-08-07)
 
 <section class="features">
 
@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`69d7fb1`](https://github.com/stdlib-js/stdlib/commit/69d7fb13201079dc3857405e8e2d75ce3bb4b48d) - **test:** migrate `math/base/special/besselj1` to ULP-based testing [(#13991)](https://github.com/stdlib-js/stdlib/pull/13991) _(by Philipp Burckhardt)_
 -   [`5d64ad7`](https://github.com/stdlib-js/stdlib/commit/5d64ad742561d703b0fcd9d6371075660aa0b5fa) - **test:** migrate `math/base/special/powm1` to ULP-based testing [(#13983)](https://github.com/stdlib-js/stdlib/pull/13983) _(by Ujjwal Verma, Athan Reines)_
 -   [`853e9d0`](https://github.com/stdlib-js/stdlib/commit/853e9d0b2d0ade21011397c148213ac92aedf3a1) - **test:** migrate `math/base/special/asec` to ULP-based assertions [(#13989)](https://github.com/stdlib-js/stdlib/pull/13989) _(by Athan Reines)_
 -   [`cfbd29a`](https://github.com/stdlib-js/stdlib/commit/cfbd29afc8207dd44b5722ec49f0438ec08aea79) - **chore:** clean-up [(#13976)](https://github.com/stdlib-js/stdlib/pull/13976) _(by Philipp Burckhardt)_
