@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`84ec3c7`](https://github.com/stdlib-js/stdlib/commit/84ec3c7ff7cbe80ae922ec51207b6dfec2d2c5a6) - **test:** migrate `math/base/special/sincosd` to ULP-based assertions [(#13992)](https://github.com/stdlib-js/stdlib/pull/13992) _(by Athan Reines)_
 -   [`d894f00`](https://github.com/stdlib-js/stdlib/commit/d894f0063a336cee8aa93893603ef13cb58ebec8) - **test:** migrate `math/base/special/gamma1pm1` to ULP-based assertions [(#13994)](https://github.com/stdlib-js/stdlib/pull/13994) _(by Athan Reines)_
 -   [`69d7fb1`](https://github.com/stdlib-js/stdlib/commit/69d7fb13201079dc3857405e8e2d75ce3bb4b48d) - **test:** migrate `math/base/special/besselj1` to ULP-based testing [(#13991)](https://github.com/stdlib-js/stdlib/pull/13991) _(by Philipp Burckhardt)_
 -   [`5d64ad7`](https://github.com/stdlib-js/stdlib/commit/5d64ad742561d703b0fcd9d6371075660aa0b5fa) - **test:** migrate `math/base/special/powm1` to ULP-based testing [(#13983)](https://github.com/stdlib-js/stdlib/pull/13983) _(by Ujjwal Verma, Athan Reines)_
