@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`a831cc5`](https://github.com/stdlib-js/stdlib/commit/a831cc5f349ae6ddc6ff0e5fb23c52bba024ea9e) - **test:** migrate `math/base/special/fast/acosh` to ULP-based assertions [(#14004)](https://github.com/stdlib-js/stdlib/pull/14004) _(by Athan Reines)_
 -   [`ad94429`](https://github.com/stdlib-js/stdlib/commit/ad944294ccfe76a87926468637863f127fc005c4) - **docs:** update Markdown equation elements [(#13995)](https://github.com/stdlib-js/stdlib/pull/13995) _(by stdlib-bot)_
 -   [`43fe151`](https://github.com/stdlib-js/stdlib/commit/43fe1517f2cf65e62d2df4ac5568dee33b181ced) - **test:** migrate `math/base/special/hacovercos` to ULP difference testing [(#13993)](https://github.com/stdlib-js/stdlib/pull/13993) _(by Arjan-P)_
 -   [`84ec3c7`](https://github.com/stdlib-js/stdlib/commit/84ec3c7ff7cbe80ae922ec51207b6dfec2d2c5a6) - **test:** migrate `math/base/special/sincosd` to ULP-based assertions [(#13992)](https://github.com/stdlib-js/stdlib/pull/13992) _(by Athan Reines)_
