@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ccacbf9`](https://github.com/stdlib-js/stdlib/commit/ccacbf90fe8e61f2c506f5d71f7a30387a9f28c8) - **test:** migrate `math/base/special/coshf` to ULP-based assertions [(#14036)](https://github.com/stdlib-js/stdlib/pull/14036) _(by Athan Reines)_
 -   [`5e791ee`](https://github.com/stdlib-js/stdlib/commit/5e791ee1873736589c6b3fe875d5a192e134fdb8) - **test:** migrate `math/base/special/ahavercos` to ULP-based assertions [(#14011)](https://github.com/stdlib-js/stdlib/pull/14011) _(by Athan Reines)_
 -   [`5a60395`](https://github.com/stdlib-js/stdlib/commit/5a60395ef8b02c1c81ae75e4c14bee78293c7263) - **test:** add native add-on tests to `math/base/special/log1pmx` [(#14010)](https://github.com/stdlib-js/stdlib/pull/14010) _(by Ujjwal Verma)_
 -   [`6b698ba`](https://github.com/stdlib-js/stdlib/commit/6b698ba5c63b28c95b2f90548d399a8170f79385) - **test:** migrate `math/base/special/fast/pow-int` to ULP-based assertions [(#14009)](https://github.com/stdlib-js/stdlib/pull/14009) _(by Ujjwal Verma)_
