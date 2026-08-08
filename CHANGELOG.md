@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-07)
+## Unreleased (2026-08-08)
 
 <section class="features">
 
@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`dfbdc98`](https://github.com/stdlib-js/stdlib/commit/dfbdc9802ee0b76e71c78e9f52338b7866243ae4) - **test:** migrate `math/base/special/acsch` to ULP-based assertions [(#14037)](https://github.com/stdlib-js/stdlib/pull/14037) _(by Athan Reines)_
 -   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
 -   [`81c540f`](https://github.com/stdlib-js/stdlib/commit/81c540f0ca06f45cd54b8e187721e04cae970daa) - **test:** migrate `math/base/special/gamma-lanczos-sum` to ULP-based assertions [(#14031)](https://github.com/stdlib-js/stdlib/pull/14031) _(by Athan Reines)_
 -   [`a138195`](https://github.com/stdlib-js/stdlib/commit/a138195791f9448e5a10367c731796051e6c52e7) - **test:** migrate `math/base/special/fresnel` to ULP-based assertions [(#14035)](https://github.com/stdlib-js/stdlib/pull/14035) _(by Philipp Burckhardt)_
