@@ -49,6 +49,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b246b1c`](https://github.com/stdlib-js/stdlib/commit/b246b1c1c96fff341f78ba537d5945355cc1409a) - **refactor:** avoid array allocation _(by Athan Reines)_
 -   [`13053fe`](https://github.com/stdlib-js/stdlib/commit/13053fe28c8531278cf5ecd49713be5d44f77a38) - **feat:** add `math/base/special/sinhf` [(#13611)](https://github.com/stdlib-js/stdlib/pull/13611) _(by Ujjwal Verma, Karan Anand)_
 -   [`d4d1984`](https://github.com/stdlib-js/stdlib/commit/d4d1984c205078a56e181cac60e64d5ef9228e61) - **test:** migrate `math/base/special/cinv` to ULP-based assertions [(#14042)](https://github.com/stdlib-js/stdlib/pull/14042) _(by Athan Reines)_
 -   [`3de3908`](https://github.com/stdlib-js/stdlib/commit/3de39080ee107e1d5ddc164b3762e5644683551a) - **refactor:** update implementation to latest reference implementation [(#6179)](https://github.com/stdlib-js/stdlib/pull/6179) _(by Neeraj Pathak, Karan Anand)_
