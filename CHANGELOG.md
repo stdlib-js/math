@@ -51,6 +51,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`3a3c94b`](https://github.com/stdlib-js/stdlib/commit/3a3c94b63c464e128407df64381b7a9fa6c418db) - **test:** migrate `math/base/special/polygamma` to ULP-based assertions [(#14055)](https://github.com/stdlib-js/stdlib/pull/14055) _(by Athan Reines)_
 -   [`059674b`](https://github.com/stdlib-js/stdlib/commit/059674b00f7d8c28916236769fcbc4b214bdfead) - **test:** migrate `math/base/special/asecf` to ULP-based testing [(#14062)](https://github.com/stdlib-js/stdlib/pull/14062) _(by Ujjwal Verma)_
 -   [`8ea3e94`](https://github.com/stdlib-js/stdlib/commit/8ea3e94a4ca35810ef5ba2a794f80b5e54c2da1a) - **test:** migrate `math/base/special/asecd` to ULP-based testing [(#14063)](https://github.com/stdlib-js/stdlib/pull/14063) _(by Ujjwal Verma)_
 -   [`f48a006`](https://github.com/stdlib-js/stdlib/commit/f48a006afb0ce2a641743bad02c3829eb5c4c0d2) - **feat:** add `math/base/special/cexpf` [(#10223)](https://github.com/stdlib-js/stdlib/pull/10223) _(by Nirmal Jyoti Biswas, Athan Reines, Karan Anand)_
