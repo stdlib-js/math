@@ -24,6 +24,7 @@
 
 ### Bug Fixes
 
+-   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - remove unused variable
 -   [`37facc3`](https://github.com/stdlib-js/stdlib/commit/37facc314354eb317977bab2bca09842120d1d63) - replace `pow` with `powf` in `math/base/special/frexpf` [(#13948)](https://github.com/stdlib-js/stdlib/pull/13948)
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 
@@ -49,6 +50,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - **fix:** remove unused variable _(by Athan Reines)_
 -   [`b246b1c`](https://github.com/stdlib-js/stdlib/commit/b246b1c1c96fff341f78ba537d5945355cc1409a) - **refactor:** avoid array allocation _(by Athan Reines)_
 -   [`13053fe`](https://github.com/stdlib-js/stdlib/commit/13053fe28c8531278cf5ecd49713be5d44f77a38) - **feat:** add `math/base/special/sinhf` [(#13611)](https://github.com/stdlib-js/stdlib/pull/13611) _(by Ujjwal Verma, Karan Anand)_
 -   [`d4d1984`](https://github.com/stdlib-js/stdlib/commit/d4d1984c205078a56e181cac60e64d5ef9228e61) - **test:** migrate `math/base/special/cinv` to ULP-based assertions [(#14042)](https://github.com/stdlib-js/stdlib/pull/14042) _(by Athan Reines)_
