@@ -34,9 +34,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
+[#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
 
 </section>
 
@@ -48,6 +48,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`3de3908`](https://github.com/stdlib-js/stdlib/commit/3de39080ee107e1d5ddc164b3762e5644683551a) - **refactor:** update implementation to latest reference implementation [(#6179)](https://github.com/stdlib-js/stdlib/pull/6179) _(by Neeraj Pathak, Karan Anand)_
 -   [`dfbdc98`](https://github.com/stdlib-js/stdlib/commit/dfbdc9802ee0b76e71c78e9f52338b7866243ae4) - **test:** migrate `math/base/special/acsch` to ULP-based assertions [(#14037)](https://github.com/stdlib-js/stdlib/pull/14037) _(by Athan Reines)_
 -   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
 -   [`81c540f`](https://github.com/stdlib-js/stdlib/commit/81c540f0ca06f45cd54b8e187721e04cae970daa) - **test:** migrate `math/base/special/gamma-lanczos-sum` to ULP-based assertions [(#14031)](https://github.com/stdlib-js/stdlib/pull/14031) _(by Athan Reines)_
