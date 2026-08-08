@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f48a006`](https://github.com/stdlib-js/stdlib/commit/f48a006afb0ce2a641743bad02c3829eb5c4c0d2) - add `math/base/special/cexpf` [(#10223)](https://github.com/stdlib-js/stdlib/pull/10223)
 -   [`13053fe`](https://github.com/stdlib-js/stdlib/commit/13053fe28c8531278cf5ecd49713be5d44f77a38) - add `math/base/special/sinhf` [(#13611)](https://github.com/stdlib-js/stdlib/pull/13611)
 -   [`f6bf21b`](https://github.com/stdlib-js/stdlib/commit/f6bf21b426e31c5077a16ea7376b1aa0c318bd19) - add `math/base/special/expf` [(#3318)](https://github.com/stdlib-js/stdlib/pull/3318)
 -   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037)
@@ -50,6 +51,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f48a006`](https://github.com/stdlib-js/stdlib/commit/f48a006afb0ce2a641743bad02c3829eb5c4c0d2) - **feat:** add `math/base/special/cexpf` [(#10223)](https://github.com/stdlib-js/stdlib/pull/10223) _(by Nirmal Jyoti Biswas, Athan Reines, Karan Anand)_
 -   [`4cf9190`](https://github.com/stdlib-js/stdlib/commit/4cf9190677910a7333df7a393c52a499f83dbf2b) - **test:** migrate `math/base/special/fast/asinh` to ULP-based assertions [(#14079)](https://github.com/stdlib-js/stdlib/pull/14079) _(by Athan Reines)_
 -   [`2bb122c`](https://github.com/stdlib-js/stdlib/commit/2bb122cd752a28ee3f583c9fcd874efccf783228) - **test:** migrate `math/base/special/cabsf` to ULP-based assertions [(#14050)](https://github.com/stdlib-js/stdlib/pull/14050) _(by Athan Reines)_
 -   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - **fix:** remove unused variable _(by Athan Reines)_
