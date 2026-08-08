@@ -48,6 +48,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`d4d1984`](https://github.com/stdlib-js/stdlib/commit/d4d1984c205078a56e181cac60e64d5ef9228e61) - **test:** migrate `math/base/special/cinv` to ULP-based assertions [(#14042)](https://github.com/stdlib-js/stdlib/pull/14042) _(by Athan Reines)_
 -   [`3de3908`](https://github.com/stdlib-js/stdlib/commit/3de39080ee107e1d5ddc164b3762e5644683551a) - **refactor:** update implementation to latest reference implementation [(#6179)](https://github.com/stdlib-js/stdlib/pull/6179) _(by Neeraj Pathak, Karan Anand)_
 -   [`dfbdc98`](https://github.com/stdlib-js/stdlib/commit/dfbdc9802ee0b76e71c78e9f52338b7866243ae4) - **test:** migrate `math/base/special/acsch` to ULP-based assertions [(#14037)](https://github.com/stdlib-js/stdlib/pull/14037) _(by Athan Reines)_
 -   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
