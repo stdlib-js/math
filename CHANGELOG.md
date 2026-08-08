@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`13053fe`](https://github.com/stdlib-js/stdlib/commit/13053fe28c8531278cf5ecd49713be5d44f77a38) - add `math/base/special/sinhf` [(#13611)](https://github.com/stdlib-js/stdlib/pull/13611)
 -   [`f6bf21b`](https://github.com/stdlib-js/stdlib/commit/f6bf21b426e31c5077a16ea7376b1aa0c318bd19) - add `math/base/special/expf` [(#3318)](https://github.com/stdlib-js/stdlib/pull/3318)
 -   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037)
 -   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982)
@@ -48,6 +49,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`13053fe`](https://github.com/stdlib-js/stdlib/commit/13053fe28c8531278cf5ecd49713be5d44f77a38) - **feat:** add `math/base/special/sinhf` [(#13611)](https://github.com/stdlib-js/stdlib/pull/13611) _(by Ujjwal Verma, Karan Anand)_
 -   [`d4d1984`](https://github.com/stdlib-js/stdlib/commit/d4d1984c205078a56e181cac60e64d5ef9228e61) - **test:** migrate `math/base/special/cinv` to ULP-based assertions [(#14042)](https://github.com/stdlib-js/stdlib/pull/14042) _(by Athan Reines)_
 -   [`3de3908`](https://github.com/stdlib-js/stdlib/commit/3de39080ee107e1d5ddc164b3762e5644683551a) - **refactor:** update implementation to latest reference implementation [(#6179)](https://github.com/stdlib-js/stdlib/pull/6179) _(by Neeraj Pathak, Karan Anand)_
 -   [`dfbdc98`](https://github.com/stdlib-js/stdlib/commit/dfbdc9802ee0b76e71c78e9f52338b7866243ae4) - **test:** migrate `math/base/special/acsch` to ULP-based assertions [(#14037)](https://github.com/stdlib-js/stdlib/pull/14037) _(by Athan Reines)_
