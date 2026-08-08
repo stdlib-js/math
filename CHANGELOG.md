@@ -50,6 +50,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`4cf9190`](https://github.com/stdlib-js/stdlib/commit/4cf9190677910a7333df7a393c52a499f83dbf2b) - **test:** migrate `math/base/special/fast/asinh` to ULP-based assertions [(#14079)](https://github.com/stdlib-js/stdlib/pull/14079) _(by Athan Reines)_
 -   [`2bb122c`](https://github.com/stdlib-js/stdlib/commit/2bb122cd752a28ee3f583c9fcd874efccf783228) - **test:** migrate `math/base/special/cabsf` to ULP-based assertions [(#14050)](https://github.com/stdlib-js/stdlib/pull/14050) _(by Athan Reines)_
 -   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - **fix:** remove unused variable _(by Athan Reines)_
 -   [`b246b1c`](https://github.com/stdlib-js/stdlib/commit/b246b1c1c96fff341f78ba537d5945355cc1409a) - **refactor:** avoid array allocation _(by Athan Reines)_
