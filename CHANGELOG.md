@@ -52,6 +52,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`4de2954`](https://github.com/stdlib-js/stdlib/commit/4de29547d044115fece2eb791e92436e72fecf93) - **test:** migrate `math/base/special/covercos` to ULP-based assertions [(#14103)](https://github.com/stdlib-js/stdlib/pull/14103) _(by Athan Reines)_
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - **fix:** correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869) _(by anee3, Athan Reines, Karan Anand)_
 -   [`670ba41`](https://github.com/stdlib-js/stdlib/commit/670ba4104e476eb2c72286d2769c18ea10916544) - **test:** migrate `math/base/special/csignum` to ULP-based assertions [(#14080)](https://github.com/stdlib-js/stdlib/pull/14080) _(by Athan Reines)_
 -   [`a65a5a4`](https://github.com/stdlib-js/stdlib/commit/a65a5a44b8a5d75506b8d8240b45c02c20ec9ad5) - **docs:** update Markdown equation elements _(by stdlib-bot)_
