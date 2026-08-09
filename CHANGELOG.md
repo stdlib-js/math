@@ -25,6 +25,7 @@
 
 ### Bug Fixes
 
+-   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869)
 -   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - remove unused variable
 -   [`37facc3`](https://github.com/stdlib-js/stdlib/commit/37facc314354eb317977bab2bca09842120d1d63) - replace `pow` with `powf` in `math/base/special/frexpf` [(#13948)](https://github.com/stdlib-js/stdlib/pull/13948)
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
@@ -37,9 +38,9 @@
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
+[#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#10846](https://github.com/stdlib-js/stdlib/issues/10846), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
 
 </section>
 
@@ -51,6 +52,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - **fix:** correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869) _(by anee3, Athan Reines, Karan Anand)_
 -   [`670ba41`](https://github.com/stdlib-js/stdlib/commit/670ba4104e476eb2c72286d2769c18ea10916544) - **test:** migrate `math/base/special/csignum` to ULP-based assertions [(#14080)](https://github.com/stdlib-js/stdlib/pull/14080) _(by Athan Reines)_
 -   [`a65a5a4`](https://github.com/stdlib-js/stdlib/commit/a65a5a44b8a5d75506b8d8240b45c02c20ec9ad5) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`361ec81`](https://github.com/stdlib-js/stdlib/commit/361ec8174dab985c09cf2998e975bb41394ac5bb) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
