@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-08)
+## Unreleased (2026-08-09)
 
 <section class="features">
 
@@ -51,6 +51,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`a65a5a4`](https://github.com/stdlib-js/stdlib/commit/a65a5a44b8a5d75506b8d8240b45c02c20ec9ad5) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`361ec81`](https://github.com/stdlib-js/stdlib/commit/361ec8174dab985c09cf2998e975bb41394ac5bb) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`3a3c94b`](https://github.com/stdlib-js/stdlib/commit/3a3c94b63c464e128407df64381b7a9fa6c418db) - **test:** migrate `math/base/special/polygamma` to ULP-based assertions [(#14055)](https://github.com/stdlib-js/stdlib/pull/14055) _(by Athan Reines)_
 -   [`059674b`](https://github.com/stdlib-js/stdlib/commit/059674b00f7d8c28916236769fcbc4b214bdfead) - **test:** migrate `math/base/special/asecf` to ULP-based testing [(#14062)](https://github.com/stdlib-js/stdlib/pull/14062) _(by Ujjwal Verma)_
 -   [`8ea3e94`](https://github.com/stdlib-js/stdlib/commit/8ea3e94a4ca35810ef5ba2a794f80b5e54c2da1a) - **test:** migrate `math/base/special/asecd` to ULP-based testing [(#14063)](https://github.com/stdlib-js/stdlib/pull/14063) _(by Ujjwal Verma)_
