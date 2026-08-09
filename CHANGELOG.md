@@ -51,6 +51,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`670ba41`](https://github.com/stdlib-js/stdlib/commit/670ba4104e476eb2c72286d2769c18ea10916544) - **test:** migrate `math/base/special/csignum` to ULP-based assertions [(#14080)](https://github.com/stdlib-js/stdlib/pull/14080) _(by Athan Reines)_
 -   [`a65a5a4`](https://github.com/stdlib-js/stdlib/commit/a65a5a44b8a5d75506b8d8240b45c02c20ec9ad5) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`361ec81`](https://github.com/stdlib-js/stdlib/commit/361ec8174dab985c09cf2998e975bb41394ac5bb) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`3a3c94b`](https://github.com/stdlib-js/stdlib/commit/3a3c94b63c464e128407df64381b7a9fa6c418db) - **test:** migrate `math/base/special/polygamma` to ULP-based assertions [(#14055)](https://github.com/stdlib-js/stdlib/pull/14055) _(by Athan Reines)_
