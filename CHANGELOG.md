@@ -55,6 +55,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`2a16ce0`](https://github.com/stdlib-js/stdlib/commit/2a16ce05c37a7df7922f330e64a7acb69b996605) - **test:** migrate `math/base/special/asindf` to ULP-based testing [(#14110)](https://github.com/stdlib-js/stdlib/pull/14110) _(by Ujjwal Verma)_
 -   [`f3720dc`](https://github.com/stdlib-js/stdlib/commit/f3720dc813054a748994db8f75239e1dfc75b8df) - **feat:** add `math/base/special/sechf` [(#10651)](https://github.com/stdlib-js/stdlib/pull/10651) _(by Ishwar, Athan Reines, Karan Anand)_
 -   [`2de314f`](https://github.com/stdlib-js/stdlib/commit/2de314f1bf1c5a4164b548e24621f0be37db2f39) - **feat:** add `math/base/special/asechf` [(#10160)](https://github.com/stdlib-js/stdlib/pull/10160) _(by Vishal.., Karan Anand)_
 -   [`73e7368`](https://github.com/stdlib-js/stdlib/commit/73e7368059ff4b7a7dda2eec8d2ea22926a0342f) - **feat:** add `math/base/special/log10f` [(#8873)](https://github.com/stdlib-js/stdlib/pull/8873) _(by Rohit R Bhat, Athan Reines, Karan Anand)_
