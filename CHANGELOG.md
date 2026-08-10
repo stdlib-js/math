@@ -55,6 +55,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`41923f7`](https://github.com/stdlib-js/stdlib/commit/41923f7e9c3398dd79ad1a9e0f7202d4d2b6ce50) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`7044cb6`](https://github.com/stdlib-js/stdlib/commit/7044cb6060ff971420a3ae07813849de316c96ae) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`2a16ce0`](https://github.com/stdlib-js/stdlib/commit/2a16ce05c37a7df7922f330e64a7acb69b996605) - **test:** migrate `math/base/special/asindf` to ULP-based testing [(#14110)](https://github.com/stdlib-js/stdlib/pull/14110) _(by Ujjwal Verma)_
 -   [`f3720dc`](https://github.com/stdlib-js/stdlib/commit/f3720dc813054a748994db8f75239e1dfc75b8df) - **feat:** add `math/base/special/sechf` [(#10651)](https://github.com/stdlib-js/stdlib/pull/10651) _(by Ishwar, Athan Reines, Karan Anand)_
 -   [`2de314f`](https://github.com/stdlib-js/stdlib/commit/2de314f1bf1c5a4164b548e24621f0be37db2f39) - **feat:** add `math/base/special/asechf` [(#10160)](https://github.com/stdlib-js/stdlib/pull/10160) _(by Vishal.., Karan Anand)_
