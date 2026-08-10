@@ -57,6 +57,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`0e14466`](https://github.com/stdlib-js/stdlib/commit/0e144668b88334c078a093e088d6118ecae5350d) - **test:** migrate `math/base/special/cospi` to ULP-based assertions [(#14153)](https://github.com/stdlib-js/stdlib/pull/14153) _(by Philipp Burckhardt)_
+-   [`f48e910`](https://github.com/stdlib-js/stdlib/commit/f48e910a3668798b54183ce4aec427ab07277d40) - **test:** migrate `math/base/special/cceiln` to ULP-based assertions [(#14128)](https://github.com/stdlib-js/stdlib/pull/14128) _(by Philipp Burckhardt, Athan Reines)_
 -   [`23f988c`](https://github.com/stdlib-js/stdlib/commit/23f988cbb6f6e860bcbfbc57f88e1bb926c81b36) - **feat:** add `math/base/special/round10f` [(#9525)](https://github.com/stdlib-js/stdlib/pull/9525) _(by Aryan kumar, Athan Reines, Karan Anand)_
 -   [`b46953b`](https://github.com/stdlib-js/stdlib/commit/b46953b8ad455e3ea9c4720c5c890236a56ccae9) - **feat:** add `math/base/special/acschf` [(#10159)](https://github.com/stdlib-js/stdlib/pull/10159) _(by Vishal.., Karan Anand)_
 -   [`6858ce4`](https://github.com/stdlib-js/stdlib/commit/6858ce41b78b688814066246ce066de04c1226d9) - **test:** migrate `math/base/special/atan2d` to ULP-based testing [(#14118)](https://github.com/stdlib-js/stdlib/pull/14118) _(by Ujjwal Verma)_
