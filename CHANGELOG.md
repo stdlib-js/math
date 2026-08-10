@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f3720dc`](https://github.com/stdlib-js/stdlib/commit/f3720dc813054a748994db8f75239e1dfc75b8df) - add `math/base/special/sechf` [(#10651)](https://github.com/stdlib-js/stdlib/pull/10651)
 -   [`2de314f`](https://github.com/stdlib-js/stdlib/commit/2de314f1bf1c5a4164b548e24621f0be37db2f39) - add `math/base/special/asechf` [(#10160)](https://github.com/stdlib-js/stdlib/pull/10160)
 -   [`73e7368`](https://github.com/stdlib-js/stdlib/commit/73e7368059ff4b7a7dda2eec8d2ea22926a0342f) - add `math/base/special/log10f` [(#8873)](https://github.com/stdlib-js/stdlib/pull/8873)
 -   [`f48a006`](https://github.com/stdlib-js/stdlib/commit/f48a006afb0ce2a641743bad02c3829eb5c4c0d2) - add `math/base/special/cexpf` [(#10223)](https://github.com/stdlib-js/stdlib/pull/10223)
@@ -54,6 +55,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`f3720dc`](https://github.com/stdlib-js/stdlib/commit/f3720dc813054a748994db8f75239e1dfc75b8df) - **feat:** add `math/base/special/sechf` [(#10651)](https://github.com/stdlib-js/stdlib/pull/10651) _(by Ishwar, Athan Reines, Karan Anand)_
 -   [`2de314f`](https://github.com/stdlib-js/stdlib/commit/2de314f1bf1c5a4164b548e24621f0be37db2f39) - **feat:** add `math/base/special/asechf` [(#10160)](https://github.com/stdlib-js/stdlib/pull/10160) _(by Vishal.., Karan Anand)_
 -   [`73e7368`](https://github.com/stdlib-js/stdlib/commit/73e7368059ff4b7a7dda2eec8d2ea22926a0342f) - **feat:** add `math/base/special/log10f` [(#8873)](https://github.com/stdlib-js/stdlib/pull/8873) _(by Rohit R Bhat, Athan Reines, Karan Anand)_
 -   [`4de2954`](https://github.com/stdlib-js/stdlib/commit/4de29547d044115fece2eb791e92436e72fecf93) - **test:** migrate `math/base/special/covercos` to ULP-based assertions [(#14103)](https://github.com/stdlib-js/stdlib/pull/14103) _(by Athan Reines)_
@@ -262,13 +264,14 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 18 people contributed to this release. Thank you to the following contributors:
+A total of 19 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
 -   Arjan-P
 -   Athan Reines
 -   Gunj Joshi
+-   Ishwar
 -   Karan Anand
 -   Neeraj Pathak
 -   Nirmal Jyoti Biswas
