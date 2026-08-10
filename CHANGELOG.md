@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`23f988c`](https://github.com/stdlib-js/stdlib/commit/23f988cbb6f6e860bcbfbc57f88e1bb926c81b36) - add `math/base/special/round10f` [(#9525)](https://github.com/stdlib-js/stdlib/pull/9525)
 -   [`b46953b`](https://github.com/stdlib-js/stdlib/commit/b46953b8ad455e3ea9c4720c5c890236a56ccae9) - add `math/base/special/acschf` [(#10159)](https://github.com/stdlib-js/stdlib/pull/10159)
 -   [`f3720dc`](https://github.com/stdlib-js/stdlib/commit/f3720dc813054a748994db8f75239e1dfc75b8df) - add `math/base/special/sechf` [(#10651)](https://github.com/stdlib-js/stdlib/pull/10651)
 -   [`2de314f`](https://github.com/stdlib-js/stdlib/commit/2de314f1bf1c5a4164b548e24621f0be37db2f39) - add `math/base/special/asechf` [(#10160)](https://github.com/stdlib-js/stdlib/pull/10160)
@@ -56,6 +57,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`23f988c`](https://github.com/stdlib-js/stdlib/commit/23f988cbb6f6e860bcbfbc57f88e1bb926c81b36) - **feat:** add `math/base/special/round10f` [(#9525)](https://github.com/stdlib-js/stdlib/pull/9525) _(by Aryan kumar, Athan Reines, Karan Anand)_
 -   [`b46953b`](https://github.com/stdlib-js/stdlib/commit/b46953b8ad455e3ea9c4720c5c890236a56ccae9) - **feat:** add `math/base/special/acschf` [(#10159)](https://github.com/stdlib-js/stdlib/pull/10159) _(by Vishal.., Karan Anand)_
 -   [`6858ce4`](https://github.com/stdlib-js/stdlib/commit/6858ce41b78b688814066246ce066de04c1226d9) - **test:** migrate `math/base/special/atan2d` to ULP-based testing [(#14118)](https://github.com/stdlib-js/stdlib/pull/14118) _(by Ujjwal Verma)_
 -   [`7d4ba42`](https://github.com/stdlib-js/stdlib/commit/7d4ba4211e6fd362596dc137aec6ec883f991d40) - **test:** migrate `math/base/special/asinf` to ULP-based testing [(#14111)](https://github.com/stdlib-js/stdlib/pull/14111) _(by Ujjwal Verma)_
@@ -272,11 +274,12 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 19 people contributed to this release. Thank you to the following contributors:
+A total of 20 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
 -   Arjan-P
+-   Aryan kumar
 -   Athan Reines
 -   Gunj Joshi
 -   Ishwar
