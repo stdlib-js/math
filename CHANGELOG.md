@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-09)
+## Unreleased (2026-08-10)
 
 <section class="features">
 
 ### Features
 
+-   [`73e7368`](https://github.com/stdlib-js/stdlib/commit/73e7368059ff4b7a7dda2eec8d2ea22926a0342f) - add `math/base/special/log10f` [(#8873)](https://github.com/stdlib-js/stdlib/pull/8873)
 -   [`f48a006`](https://github.com/stdlib-js/stdlib/commit/f48a006afb0ce2a641743bad02c3829eb5c4c0d2) - add `math/base/special/cexpf` [(#10223)](https://github.com/stdlib-js/stdlib/pull/10223)
 -   [`13053fe`](https://github.com/stdlib-js/stdlib/commit/13053fe28c8531278cf5ecd49713be5d44f77a38) - add `math/base/special/sinhf` [(#13611)](https://github.com/stdlib-js/stdlib/pull/13611)
 -   [`f6bf21b`](https://github.com/stdlib-js/stdlib/commit/f6bf21b426e31c5077a16ea7376b1aa0c318bd19) - add `math/base/special/expf` [(#3318)](https://github.com/stdlib-js/stdlib/pull/3318)
@@ -52,6 +53,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`73e7368`](https://github.com/stdlib-js/stdlib/commit/73e7368059ff4b7a7dda2eec8d2ea22926a0342f) - **feat:** add `math/base/special/log10f` [(#8873)](https://github.com/stdlib-js/stdlib/pull/8873) _(by Rohit R Bhat, Athan Reines, Karan Anand)_
 -   [`4de2954`](https://github.com/stdlib-js/stdlib/commit/4de29547d044115fece2eb791e92436e72fecf93) - **test:** migrate `math/base/special/covercos` to ULP-based assertions [(#14103)](https://github.com/stdlib-js/stdlib/pull/14103) _(by Athan Reines)_
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - **fix:** correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869) _(by anee3, Athan Reines, Karan Anand)_
 -   [`670ba41`](https://github.com/stdlib-js/stdlib/commit/670ba4104e476eb2c72286d2769c18ea10916544) - **test:** migrate `math/base/special/csignum` to ULP-based assertions [(#14080)](https://github.com/stdlib-js/stdlib/pull/14080) _(by Athan Reines)_
@@ -258,7 +260,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 17 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akanksha Kumari
@@ -271,6 +273,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 -   NotFoundOvO
 -   Om-A-osc
 -   Philipp Burckhardt
+-   Rohit R Bhat
 -   Ujjwal Verma
 -   Vivek Maurya
 -   anee3
