@@ -55,6 +55,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`7d4ba42`](https://github.com/stdlib-js/stdlib/commit/7d4ba4211e6fd362596dc137aec6ec883f991d40) - **test:** migrate `math/base/special/asinf` to ULP-based testing [(#14111)](https://github.com/stdlib-js/stdlib/pull/14111) _(by Ujjwal Verma)_
 -   [`fb1231f`](https://github.com/stdlib-js/stdlib/commit/fb1231f38c6cf8f529e223f7515db6108c4e994a) - **test:** migrate `math/base/special/binomcoefln` to ULP-based assertions [(#14112)](https://github.com/stdlib-js/stdlib/pull/14112) _(by Athan Reines)_
 -   [`41923f7`](https://github.com/stdlib-js/stdlib/commit/41923f7e9c3398dd79ad1a9e0f7202d4d2b6ce50) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`7044cb6`](https://github.com/stdlib-js/stdlib/commit/7044cb6060ff971420a3ae07813849de316c96ae) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
