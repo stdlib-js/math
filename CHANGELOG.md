@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b46953b`](https://github.com/stdlib-js/stdlib/commit/b46953b8ad455e3ea9c4720c5c890236a56ccae9) - add `math/base/special/acschf` [(#10159)](https://github.com/stdlib-js/stdlib/pull/10159)
 -   [`f3720dc`](https://github.com/stdlib-js/stdlib/commit/f3720dc813054a748994db8f75239e1dfc75b8df) - add `math/base/special/sechf` [(#10651)](https://github.com/stdlib-js/stdlib/pull/10651)
 -   [`2de314f`](https://github.com/stdlib-js/stdlib/commit/2de314f1bf1c5a4164b548e24621f0be37db2f39) - add `math/base/special/asechf` [(#10160)](https://github.com/stdlib-js/stdlib/pull/10160)
 -   [`73e7368`](https://github.com/stdlib-js/stdlib/commit/73e7368059ff4b7a7dda2eec8d2ea22926a0342f) - add `math/base/special/log10f` [(#8873)](https://github.com/stdlib-js/stdlib/pull/8873)
@@ -55,6 +56,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`b46953b`](https://github.com/stdlib-js/stdlib/commit/b46953b8ad455e3ea9c4720c5c890236a56ccae9) - **feat:** add `math/base/special/acschf` [(#10159)](https://github.com/stdlib-js/stdlib/pull/10159) _(by Vishal.., Karan Anand)_
 -   [`6858ce4`](https://github.com/stdlib-js/stdlib/commit/6858ce41b78b688814066246ce066de04c1226d9) - **test:** migrate `math/base/special/atan2d` to ULP-based testing [(#14118)](https://github.com/stdlib-js/stdlib/pull/14118) _(by Ujjwal Verma)_
 -   [`7d4ba42`](https://github.com/stdlib-js/stdlib/commit/7d4ba4211e6fd362596dc137aec6ec883f991d40) - **test:** migrate `math/base/special/asinf` to ULP-based testing [(#14111)](https://github.com/stdlib-js/stdlib/pull/14111) _(by Ujjwal Verma)_
 -   [`fb1231f`](https://github.com/stdlib-js/stdlib/commit/fb1231f38c6cf8f529e223f7515db6108c4e994a) - **test:** migrate `math/base/special/binomcoefln` to ULP-based assertions [(#14112)](https://github.com/stdlib-js/stdlib/pull/14112) _(by Athan Reines)_
