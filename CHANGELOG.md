@@ -57,6 +57,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`d43ae9f`](https://github.com/stdlib-js/stdlib/commit/d43ae9f2060ef4080815d931424fc16f3c61b744) - **test:** migrate `math/base/special/cexp` to ULP-based assertions [(#14165)](https://github.com/stdlib-js/stdlib/pull/14165) _(by Philipp Burckhardt)_
 -   [`e9ab683`](https://github.com/stdlib-js/stdlib/commit/e9ab683f6467fd8657ae51dcc9944c72dfe5c327) - **test:** migrate `math/base/special/truncb` to ULP-based assertions [(#14170)](https://github.com/stdlib-js/stdlib/pull/14170) _(by Athan Reines)_
 -   [`e89acbe`](https://github.com/stdlib-js/stdlib/commit/e89acbe4ef9033680cc565872453f7740e3828a4) - **test:** migrate `math/base/special/atan2f` to ULP-based assertions [(#14178)](https://github.com/stdlib-js/stdlib/pull/14178) _(by Philipp Burckhardt)_
 -   [`0e14466`](https://github.com/stdlib-js/stdlib/commit/0e144668b88334c078a093e088d6118ecae5350d) - **test:** migrate `math/base/special/cospi` to ULP-based assertions [(#14153)](https://github.com/stdlib-js/stdlib/pull/14153) _(by Philipp Burckhardt)_
