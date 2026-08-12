@@ -57,6 +57,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`4a1119c`](https://github.com/stdlib-js/stdlib/commit/4a1119c6493ce320a66f3f99a4cce62831f22ad4) - **test:** migrate `math/base/special/beta` to ULP-based testing [(#14205)](https://github.com/stdlib-js/stdlib/pull/14205) _(by Ujjwal Verma)_
 -   [`d4855f5`](https://github.com/stdlib-js/stdlib/commit/d4855f53879f5eff85801596b21a52fe3f8281ad) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`7cbba5f`](https://github.com/stdlib-js/stdlib/commit/7cbba5f16b4f16aa12abcd4fd7413251ab8107d0) - **test:** migrate `math/base/special/factorial` to ULP-based assertions [(#14182)](https://github.com/stdlib-js/stdlib/pull/14182) _(by Athan Reines)_
 -   [`d43ae9f`](https://github.com/stdlib-js/stdlib/commit/d43ae9f2060ef4080815d931424fc16f3c61b744) - **test:** migrate `math/base/special/cexp` to ULP-based assertions [(#14165)](https://github.com/stdlib-js/stdlib/pull/14165) _(by Philipp Burckhardt)_
