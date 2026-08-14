@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-12)
+## Unreleased (2026-08-14)
 
 <section class="features">
 
@@ -57,6 +57,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`aa1fa16`](https://github.com/stdlib-js/stdlib/commit/aa1fa1637faaf68bc61b4c0ba85d7ddeae79b450) - **test:** migrate `math/base/special/rising-factorial` to ULP-based assertions [(#14245)](https://github.com/stdlib-js/stdlib/pull/14245) _(by Athan Reines)_
 -   [`1811a32`](https://github.com/stdlib-js/stdlib/commit/1811a325c45b2c540bbcad3f0379453c3b85cfba) - **test:** migrate `math/base/special/ccis` to ULP-based assertions [(#14194)](https://github.com/stdlib-js/stdlib/pull/14194) _(by Philipp Burckhardt)_
 -   [`4a1119c`](https://github.com/stdlib-js/stdlib/commit/4a1119c6493ce320a66f3f99a4cce62831f22ad4) - **test:** migrate `math/base/special/beta` to ULP-based testing [(#14205)](https://github.com/stdlib-js/stdlib/pull/14205) _(by Ujjwal Verma)_
 -   [`d4855f5`](https://github.com/stdlib-js/stdlib/commit/d4855f53879f5eff85801596b21a52fe3f8281ad) - **docs:** update Markdown equation elements _(by stdlib-bot)_
