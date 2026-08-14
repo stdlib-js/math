@@ -57,6 +57,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`bb357bd`](https://github.com/stdlib-js/stdlib/commit/bb357bd7c74701d7c2430a44d9d94ac5dd81e4ca) - **test:** migrate `math/base/special/boxcox1p` to ULP-based assertions [(#14252)](https://github.com/stdlib-js/stdlib/pull/14252) _(by Athan Reines)_
 -   [`c879725`](https://github.com/stdlib-js/stdlib/commit/c879725494de60f47061438f3d852f15b87c6b80) - **test:** migrate `math/base/special/coversin` to ULP-based assertions [(#14247)](https://github.com/stdlib-js/stdlib/pull/14247) _(by Athan Reines)_
 -   [`21efd79`](https://github.com/stdlib-js/stdlib/commit/21efd79e0aace89ac23efb65767e667a3b07049a) - **test:** migrate `math/base/special/cot` to ULP-based assertions [(#14244)](https://github.com/stdlib-js/stdlib/pull/14244) _(by Philipp Burckhardt)_
 -   [`aa1fa16`](https://github.com/stdlib-js/stdlib/commit/aa1fa1637faaf68bc61b4c0ba85d7ddeae79b450) - **test:** migrate `math/base/special/rising-factorial` to ULP-based assertions [(#14245)](https://github.com/stdlib-js/stdlib/pull/14245) _(by Athan Reines)_
