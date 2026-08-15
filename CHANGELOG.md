@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-14)
+## Unreleased (2026-08-15)
 
 <section class="features">
 
 ### Features
 
+-   [`8752b73`](https://github.com/stdlib-js/stdlib/commit/8752b73bac6ecf1f4c0ac40e725f3df5374ef39c) - add `math/base/special/exp2f` [(#3366)](https://github.com/stdlib-js/stdlib/pull/3366)
 -   [`23f988c`](https://github.com/stdlib-js/stdlib/commit/23f988cbb6f6e860bcbfbc57f88e1bb926c81b36) - add `math/base/special/round10f` [(#9525)](https://github.com/stdlib-js/stdlib/pull/9525)
 -   [`b46953b`](https://github.com/stdlib-js/stdlib/commit/b46953b8ad455e3ea9c4720c5c890236a56ccae9) - add `math/base/special/acschf` [(#10159)](https://github.com/stdlib-js/stdlib/pull/10159)
 -   [`f3720dc`](https://github.com/stdlib-js/stdlib/commit/f3720dc813054a748994db8f75239e1dfc75b8df) - add `math/base/special/sechf` [(#10651)](https://github.com/stdlib-js/stdlib/pull/10651)
@@ -57,6 +58,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8752b73`](https://github.com/stdlib-js/stdlib/commit/8752b73bac6ecf1f4c0ac40e725f3df5374ef39c) - **feat:** add `math/base/special/exp2f` [(#3366)](https://github.com/stdlib-js/stdlib/pull/3366) _(by Aayush Khanna, Athan Reines, Gunj Joshi, Karan Anand)_
 -   [`75b484d`](https://github.com/stdlib-js/stdlib/commit/75b484d30d54673ae771f5083edc08b2e0f03559) - **test:** migrate `math/base/special/boxcox` to ULP-based testing [(#14268)](https://github.com/stdlib-js/stdlib/pull/14268) _(by Ujjwal Verma)_
 -   [`ccbff7a`](https://github.com/stdlib-js/stdlib/commit/ccbff7a9cf8d88667a01684d9d5d6656f6f566bc) - **test:** migrate `math/base/special/boxcoxinv` to ULP-based testing [(#14269)](https://github.com/stdlib-js/stdlib/pull/14269) _(by Ujjwal Verma)_
 -   [`bb357bd`](https://github.com/stdlib-js/stdlib/commit/bb357bd7c74701d7c2430a44d9d94ac5dd81e4ca) - **test:** migrate `math/base/special/boxcox1p` to ULP-based assertions [(#14252)](https://github.com/stdlib-js/stdlib/pull/14252) _(by Athan Reines)_
@@ -289,9 +291,10 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 20 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
+-   Aayush Khanna
 -   Akanksha Kumari
 -   Arjan-P
 -   Aryan kumar
