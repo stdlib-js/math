@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8fcc6d8`](https://github.com/stdlib-js/stdlib/commit/8fcc6d8933dd40f78c8df90b336e5e59d6f616ac) - add `math/base/special/cfloornf` [(#11989)](https://github.com/stdlib-js/stdlib/pull/11989)
 -   [`8752b73`](https://github.com/stdlib-js/stdlib/commit/8752b73bac6ecf1f4c0ac40e725f3df5374ef39c) - add `math/base/special/exp2f` [(#3366)](https://github.com/stdlib-js/stdlib/pull/3366)
 -   [`23f988c`](https://github.com/stdlib-js/stdlib/commit/23f988cbb6f6e860bcbfbc57f88e1bb926c81b36) - add `math/base/special/round10f` [(#9525)](https://github.com/stdlib-js/stdlib/pull/9525)
 -   [`b46953b`](https://github.com/stdlib-js/stdlib/commit/b46953b8ad455e3ea9c4720c5c890236a56ccae9) - add `math/base/special/acschf` [(#10159)](https://github.com/stdlib-js/stdlib/pull/10159)
@@ -58,6 +59,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8fcc6d8`](https://github.com/stdlib-js/stdlib/commit/8fcc6d8933dd40f78c8df90b336e5e59d6f616ac) - **feat:** add `math/base/special/cfloornf` [(#11989)](https://github.com/stdlib-js/stdlib/pull/11989) _(by Nirmal Jyoti Biswas, Athan Reines, Karan Anand)_
 -   [`8752b73`](https://github.com/stdlib-js/stdlib/commit/8752b73bac6ecf1f4c0ac40e725f3df5374ef39c) - **feat:** add `math/base/special/exp2f` [(#3366)](https://github.com/stdlib-js/stdlib/pull/3366) _(by Aayush Khanna, Athan Reines, Gunj Joshi, Karan Anand)_
 -   [`75b484d`](https://github.com/stdlib-js/stdlib/commit/75b484d30d54673ae771f5083edc08b2e0f03559) - **test:** migrate `math/base/special/boxcox` to ULP-based testing [(#14268)](https://github.com/stdlib-js/stdlib/pull/14268) _(by Ujjwal Verma)_
 -   [`ccbff7a`](https://github.com/stdlib-js/stdlib/commit/ccbff7a9cf8d88667a01684d9d5d6656f6f566bc) - **test:** migrate `math/base/special/boxcoxinv` to ULP-based testing [(#14269)](https://github.com/stdlib-js/stdlib/pull/14269) _(by Ujjwal Verma)_
