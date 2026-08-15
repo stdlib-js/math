@@ -60,6 +60,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`e463e3a`](https://github.com/stdlib-js/stdlib/commit/e463e3ac4a13e46091140173683c1b92ab9a83b1) - **test:** migrate `math/base/special/fresnelc` to ULP-based assertions [(#14309)](https://github.com/stdlib-js/stdlib/pull/14309) _(by Philipp Burckhardt)_
 -   [`93f2b79`](https://github.com/stdlib-js/stdlib/commit/93f2b790558a23dab75873ff0e3a45d0f5ccdc87) - **feat:** add `math/base/special/expm1f` [(#10657)](https://github.com/stdlib-js/stdlib/pull/10657) _(by Navyansh Kesarwani, Athan Reines, Karan Anand)_
 -   [`8fcc6d8`](https://github.com/stdlib-js/stdlib/commit/8fcc6d8933dd40f78c8df90b336e5e59d6f616ac) - **feat:** add `math/base/special/cfloornf` [(#11989)](https://github.com/stdlib-js/stdlib/pull/11989) _(by Nirmal Jyoti Biswas, Athan Reines, Karan Anand)_
 -   [`8752b73`](https://github.com/stdlib-js/stdlib/commit/8752b73bac6ecf1f4c0ac40e725f3df5374ef39c) - **feat:** add `math/base/special/exp2f` [(#3366)](https://github.com/stdlib-js/stdlib/pull/3366) _(by Aayush Khanna, Athan Reines, Gunj Joshi, Karan Anand)_
