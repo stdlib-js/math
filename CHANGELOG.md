@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526)
 -   [`eb7cec6`](https://github.com/stdlib-js/stdlib/commit/eb7cec65c255fd14ab401ddda31e7eb471dc61ec) - add `math/base/special/erfcinvf` [(#10524)](https://github.com/stdlib-js/stdlib/pull/10524)
 -   [`93f2b79`](https://github.com/stdlib-js/stdlib/commit/93f2b790558a23dab75873ff0e3a45d0f5ccdc87) - add `math/base/special/expm1f` [(#10657)](https://github.com/stdlib-js/stdlib/pull/10657)
 -   [`8fcc6d8`](https://github.com/stdlib-js/stdlib/commit/8fcc6d8933dd40f78c8df90b336e5e59d6f616ac) - add `math/base/special/cfloornf` [(#11989)](https://github.com/stdlib-js/stdlib/pull/11989)
@@ -61,6 +62,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - **feat:** add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526) _(by Vishal.., Athan Reines, Karan Anand)_
 -   [`523702e`](https://github.com/stdlib-js/stdlib/commit/523702ee496d799a51ca3e1423e9ab9b4c39ad9a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`59ded26`](https://github.com/stdlib-js/stdlib/commit/59ded26cf977eb741b49ca66f32901fc903bac2d) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`eb7cec6`](https://github.com/stdlib-js/stdlib/commit/eb7cec65c255fd14ab401ddda31e7eb471dc61ec) - **feat:** add `math/base/special/erfcinvf` [(#10524)](https://github.com/stdlib-js/stdlib/pull/10524) _(by Vishal.., Athan Reines, Karan Anand)_
