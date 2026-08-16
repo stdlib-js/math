@@ -61,6 +61,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`523702e`](https://github.com/stdlib-js/stdlib/commit/523702ee496d799a51ca3e1423e9ab9b4c39ad9a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`59ded26`](https://github.com/stdlib-js/stdlib/commit/59ded26cf977eb741b49ca66f32901fc903bac2d) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`eb7cec6`](https://github.com/stdlib-js/stdlib/commit/eb7cec65c255fd14ab401ddda31e7eb471dc61ec) - **feat:** add `math/base/special/erfcinvf` [(#10524)](https://github.com/stdlib-js/stdlib/pull/10524) _(by Vishal.., Athan Reines, Karan Anand)_
 -   [`317a098`](https://github.com/stdlib-js/stdlib/commit/317a09841e2f90177171c91d54bfcddbeb2f8629) - **test:** migrate `math/base/special/cscd` to ULP-based assertions [(#14313)](https://github.com/stdlib-js/stdlib/pull/14313) _(by Athan Reines)_
 -   [`e463e3a`](https://github.com/stdlib-js/stdlib/commit/e463e3ac4a13e46091140173683c1b92ab9a83b1) - **test:** migrate `math/base/special/fresnelc` to ULP-based assertions [(#14309)](https://github.com/stdlib-js/stdlib/pull/14309) _(by Philipp Burckhardt)_
