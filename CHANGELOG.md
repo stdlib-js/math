@@ -62,6 +62,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`1243049`](https://github.com/stdlib-js/stdlib/commit/1243049cbb00c1bc3424056b0c1d4d8f31ca4894) - **test:** migrate `math/base/special/gamma-lanczos-sum-expg-scaled` to ULP-based assertions [(#14336)](https://github.com/stdlib-js/stdlib/pull/14336) _(by Athan Reines)_
 -   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - **feat:** add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526) _(by Vishal.., Athan Reines, Karan Anand)_
 -   [`523702e`](https://github.com/stdlib-js/stdlib/commit/523702ee496d799a51ca3e1423e9ab9b4c39ad9a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`59ded26`](https://github.com/stdlib-js/stdlib/commit/59ded26cf977eb741b49ca66f32901fc903bac2d) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
