@@ -22,14 +22,13 @@
 
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
+var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PI = require( '@stdlib/constants/float64/pi' );
-var EPS = require( '@stdlib/constants/float64/eps' );
 var randu = require( '@stdlib/random/base/randu' );
 var round = require( './../../../../base/special/round' );
 var pow = require( './../../../../base/special/pow' );
-var abs = require( './../../../../base/special/abs' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var isNegativeZero = require( './../../../../base/assert/is-negative-zero' );
 var isPositiveZero = require( './../../../../base/assert/is-positive-zero' );
@@ -245,8 +244,6 @@ tape( 'if `n > 308`, the function returns `+-0` (sign preserving)', opts, functi
 
 tape( 'the function supports rounding very small numbers (including subnormals)', opts, function test( t ) {
 	var expected;
-	var delta;
-	var tol;
 	var x;
 	var n;
 	var v;
@@ -280,18 +277,8 @@ tape( 'the function supports rounding very small numbers (including subnormals)'
 
 	for ( i = 0; i < n.length; i++ ) {
 		v = croundn( new Complex128( x, x ), n[ i ] );
-		if ( real( v ) === expected[i] ) {
-			t.strictEqual( real( v ), expected[i], 'returns '+expected[i]+' when provided re='+x+', im='+x+', and n='+n[i]+'.' );
-			t.strictEqual( imag( v ), expected[i], 'returns '+expected[i]+' when provided re='+x+', im='+x+', and n='+n[i]+'.' );
-		} else {
-			delta = abs( real( v ) - expected[i] );
-			tol = EPS * abs( expected[i] );
-			t.strictEqual( delta <= tol, true, 're: '+x+'. n: '+n[i]+'. v: '+real( v )+'. expected: '+expected[i]+'. delta: '+delta+'. tol: '+tol );
-
-			delta = abs( imag( v ) - expected[i] );
-			tol = EPS * abs( expected[i] );
-			t.strictEqual( delta <= tol, true, 'im: '+x+'. n: '+n[i]+'. v: '+imag( v )+'. expected: '+expected[i]+'. delta: '+delta+'. tol: '+tol );
-		}
+		t.strictEqual( isAlmostSameValue( real( v ), expected[ i ], 1 ), true, 'returns expected value' );
+		t.strictEqual( isAlmostSameValue( imag( v ), expected[ i ], 1 ), true, 'returns expected value' );
 	}
 	t.end();
 });

@@ -62,6 +62,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`4557073`](https://github.com/stdlib-js/stdlib/commit/45570733ef0a8d98d58cc2afd808d57b662c29a8) - **test:** migrate `math/base/special/croundn` to ULP-based assertions [(#14327)](https://github.com/stdlib-js/stdlib/pull/14327) _(by Athan Reines)_
 -   [`681d960`](https://github.com/stdlib-js/stdlib/commit/681d96000d9adca941789637758d4f9eee0eeaeb) - **chore:** remove stray binary [(#14334)](https://github.com/stdlib-js/stdlib/pull/14334) _(by Philipp Burckhardt)_
 -   [`1243049`](https://github.com/stdlib-js/stdlib/commit/1243049cbb00c1bc3424056b0c1d4d8f31ca4894) - **test:** migrate `math/base/special/gamma-lanczos-sum-expg-scaled` to ULP-based assertions [(#14336)](https://github.com/stdlib-js/stdlib/pull/14336) _(by Athan Reines)_
 -   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - **feat:** add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526) _(by Vishal.., Athan Reines, Karan Anand)_
