@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8896784`](https://github.com/stdlib-js/stdlib/commit/889678493331fcbbca951722f3f720497e180948) - **test:** migrate `math/base/special/kernel-betaincinv` to ULP-based testing [(#14349)](https://github.com/stdlib-js/stdlib/pull/14349) _(by Valerie Kwan)_
 -   [`dc8266d`](https://github.com/stdlib-js/stdlib/commit/dc8266d0126c22559c57697faad0b8d62b350371) - **test:** migrate `math/base/special/cphasef` to ULP-based assertions [(#14362)](https://github.com/stdlib-js/stdlib/pull/14362) _(by Athan Reines)_
 -   [`8dcc957`](https://github.com/stdlib-js/stdlib/commit/8dcc957b49a72c57071a8e785556526c7294f913) - **test:** migrate `math/base/special/gammaln` to ULP-based assertions [(#14357)](https://github.com/stdlib-js/stdlib/pull/14357) _(by Athan Reines)_
 -   [`e463662`](https://github.com/stdlib-js/stdlib/commit/e463662ddc157224d34afc703104242e54e000e3) - **test:** migrate `math/base/special/csignumf` to ULP-based assertions [(#14354)](https://github.com/stdlib-js/stdlib/pull/14354) _(by Athan Reines)_
@@ -317,7 +318,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 22 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aayush Khanna
@@ -336,6 +337,7 @@ A total of 22 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Rohit R Bhat
 -   Ujjwal Verma
+-   Valerie Kwan
 -   Vishal..
 -   Vivek Maurya
 -   anee3
