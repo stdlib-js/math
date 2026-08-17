@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-16)
+## Unreleased (2026-08-17)
 
 <section class="features">
 
 ### Features
 
+-   [`d3a0e0f`](https://github.com/stdlib-js/stdlib/commit/d3a0e0f11833fe6212b60a1f40085ffd5e3f2b6f) - add `math/base/special/sincospif` [(#10215)](https://github.com/stdlib-js/stdlib/pull/10215)
 -   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526)
 -   [`eb7cec6`](https://github.com/stdlib-js/stdlib/commit/eb7cec65c255fd14ab401ddda31e7eb471dc61ec) - add `math/base/special/erfcinvf` [(#10524)](https://github.com/stdlib-js/stdlib/pull/10524)
 -   [`93f2b79`](https://github.com/stdlib-js/stdlib/commit/93f2b790558a23dab75873ff0e3a45d0f5ccdc87) - add `math/base/special/expm1f` [(#10657)](https://github.com/stdlib-js/stdlib/pull/10657)
@@ -62,6 +63,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`d3a0e0f`](https://github.com/stdlib-js/stdlib/commit/d3a0e0f11833fe6212b60a1f40085ffd5e3f2b6f) - **feat:** add `math/base/special/sincospif` [(#10215)](https://github.com/stdlib-js/stdlib/pull/10215) _(by Vishal.., Athan Reines, Karan Anand)_
 -   [`4557073`](https://github.com/stdlib-js/stdlib/commit/45570733ef0a8d98d58cc2afd808d57b662c29a8) - **test:** migrate `math/base/special/croundn` to ULP-based assertions [(#14327)](https://github.com/stdlib-js/stdlib/pull/14327) _(by Athan Reines)_
 -   [`681d960`](https://github.com/stdlib-js/stdlib/commit/681d96000d9adca941789637758d4f9eee0eeaeb) - **chore:** remove stray binary [(#14334)](https://github.com/stdlib-js/stdlib/pull/14334) _(by Philipp Burckhardt)_
 -   [`1243049`](https://github.com/stdlib-js/stdlib/commit/1243049cbb00c1bc3424056b0c1d4d8f31ca4894) - **test:** migrate `math/base/special/gamma-lanczos-sum-expg-scaled` to ULP-based assertions [(#14336)](https://github.com/stdlib-js/stdlib/pull/14336) _(by Athan Reines)_
