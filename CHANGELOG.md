@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`70452f1`](https://github.com/stdlib-js/stdlib/commit/70452f1225845d1ae89bae40a32e6c1e998d47d3) - add `math/base/special/log2f` [(#4179)](https://github.com/stdlib-js/stdlib/pull/4179)
 -   [`d3a0e0f`](https://github.com/stdlib-js/stdlib/commit/d3a0e0f11833fe6212b60a1f40085ffd5e3f2b6f) - add `math/base/special/sincospif` [(#10215)](https://github.com/stdlib-js/stdlib/pull/10215)
 -   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526)
 -   [`eb7cec6`](https://github.com/stdlib-js/stdlib/commit/eb7cec65c255fd14ab401ddda31e7eb471dc61ec) - add `math/base/special/erfcinvf` [(#10524)](https://github.com/stdlib-js/stdlib/pull/10524)
@@ -63,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`70452f1`](https://github.com/stdlib-js/stdlib/commit/70452f1225845d1ae89bae40a32e6c1e998d47d3) - **feat:** add `math/base/special/log2f` [(#4179)](https://github.com/stdlib-js/stdlib/pull/4179) _(by Neeraj Pathak, Athan Reines, Karan Anand)_
 -   [`d54b9d2`](https://github.com/stdlib-js/stdlib/commit/d54b9d269d4bd6155e6087c4b62a468ddae67c8f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`bd1f849`](https://github.com/stdlib-js/stdlib/commit/bd1f849bf4ed80a38cfb23ebbc74e988324ea3a3) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`d3a0e0f`](https://github.com/stdlib-js/stdlib/commit/d3a0e0f11833fe6212b60a1f40085ffd5e3f2b6f) - **feat:** add `math/base/special/sincospif` [(#10215)](https://github.com/stdlib-js/stdlib/pull/10215) _(by Vishal.., Athan Reines, Karan Anand)_
