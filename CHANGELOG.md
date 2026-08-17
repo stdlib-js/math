@@ -64,6 +64,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`dc8266d`](https://github.com/stdlib-js/stdlib/commit/dc8266d0126c22559c57697faad0b8d62b350371) - **test:** migrate `math/base/special/cphasef` to ULP-based assertions [(#14362)](https://github.com/stdlib-js/stdlib/pull/14362) _(by Athan Reines)_
+-   [`8dcc957`](https://github.com/stdlib-js/stdlib/commit/8dcc957b49a72c57071a8e785556526c7294f913) - **test:** migrate `math/base/special/gammaln` to ULP-based assertions [(#14357)](https://github.com/stdlib-js/stdlib/pull/14357) _(by Athan Reines)_
 -   [`e463662`](https://github.com/stdlib-js/stdlib/commit/e463662ddc157224d34afc703104242e54e000e3) - **test:** migrate `math/base/special/csignumf` to ULP-based assertions [(#14354)](https://github.com/stdlib-js/stdlib/pull/14354) _(by Athan Reines)_
 -   [`0acfa70`](https://github.com/stdlib-js/stdlib/commit/0acfa70d8289c125f1d982c5baa234257a8b26ce) - **test:** migrate `math/base/special/bessely0` to ULP-based assertions [(#14350)](https://github.com/stdlib-js/stdlib/pull/14350) _(by Philipp Burckhardt)_
 -   [`cc14b30`](https://github.com/stdlib-js/stdlib/commit/cc14b30ea5979a6e8b257c94aa5ef7019827a221) - **test:** migrate `math/base/special/bessely1` to ULP-based assertions [(#14344)](https://github.com/stdlib-js/stdlib/pull/14344) _(by Athan Reines)_
