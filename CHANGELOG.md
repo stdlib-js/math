@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`cc14b30`](https://github.com/stdlib-js/stdlib/commit/cc14b30ea5979a6e8b257c94aa5ef7019827a221) - **test:** migrate `math/base/special/bessely1` to ULP-based assertions [(#14344)](https://github.com/stdlib-js/stdlib/pull/14344) _(by Athan Reines)_
 -   [`70452f1`](https://github.com/stdlib-js/stdlib/commit/70452f1225845d1ae89bae40a32e6c1e998d47d3) - **feat:** add `math/base/special/log2f` [(#4179)](https://github.com/stdlib-js/stdlib/pull/4179) _(by Neeraj Pathak, Athan Reines, Karan Anand)_
 -   [`d54b9d2`](https://github.com/stdlib-js/stdlib/commit/d54b9d269d4bd6155e6087c4b62a468ddae67c8f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`bd1f849`](https://github.com/stdlib-js/stdlib/commit/bd1f849bf4ed80a38cfb23ebbc74e988324ea3a3) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
