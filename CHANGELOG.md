@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-08-18)
 
 <section class="features">
 
@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`c2ff88b`](https://github.com/stdlib-js/stdlib/commit/c2ff88bf6a950103ea583018583dd1fb2ec76351) - **test:** migrate `math/base/special/fast/hypot` to ULP-based assertions [(#14375)](https://github.com/stdlib-js/stdlib/pull/14375) _(by Athan Reines)_
 -   [`8896784`](https://github.com/stdlib-js/stdlib/commit/889678493331fcbbca951722f3f720497e180948) - **test:** migrate `math/base/special/kernel-betaincinv` to ULP-based testing [(#14349)](https://github.com/stdlib-js/stdlib/pull/14349) _(by Valerie Kwan)_
 -   [`dc8266d`](https://github.com/stdlib-js/stdlib/commit/dc8266d0126c22559c57697faad0b8d62b350371) - **test:** migrate `math/base/special/cphasef` to ULP-based assertions [(#14362)](https://github.com/stdlib-js/stdlib/pull/14362) _(by Athan Reines)_
 -   [`8dcc957`](https://github.com/stdlib-js/stdlib/commit/8dcc957b49a72c57071a8e785556526c7294f913) - **test:** migrate `math/base/special/gammaln` to ULP-based assertions [(#14357)](https://github.com/stdlib-js/stdlib/pull/14357) _(by Athan Reines)_
