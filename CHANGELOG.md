@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-18)
+## Unreleased (2026-08-19)
 
 <section class="features">
 
@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`fd16a2f`](https://github.com/stdlib-js/stdlib/commit/fd16a2f49cc7f6b16b610dc0b6ce5382d4d9f88f) - **build:** migrate JSDoc linting off removed core rules  [(#10965)](https://github.com/stdlib-js/stdlib/pull/10965) _(by Athan Reines)_
 -   [`2cc179e`](https://github.com/stdlib-js/stdlib/commit/2cc179e077ebc44b386a4882c95195fef303859f) - **test:** migrate `math/base/special/factorial2f` to ULP-based assertions [(#14364)](https://github.com/stdlib-js/stdlib/pull/14364) _(by Athan Reines)_
 -   [`c2ff88b`](https://github.com/stdlib-js/stdlib/commit/c2ff88bf6a950103ea583018583dd1fb2ec76351) - **test:** migrate `math/base/special/fast/hypot` to ULP-based assertions [(#14375)](https://github.com/stdlib-js/stdlib/pull/14375) _(by Athan Reines)_
 -   [`8896784`](https://github.com/stdlib-js/stdlib/commit/889678493331fcbbca951722f3f720497e180948) - **test:** migrate `math/base/special/kernel-betaincinv` to ULP-based testing [(#14349)](https://github.com/stdlib-js/stdlib/pull/14349) _(by Valerie Kwan)_
