@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`10dda53`](https://github.com/stdlib-js/stdlib/commit/10dda5309507d8420c36ec20958ae07b6a32fd17) - **chore:** clean-up [(#14413)](https://github.com/stdlib-js/stdlib/pull/14413) _(by Philipp Burckhardt)_
 -   [`3d3d4bf`](https://github.com/stdlib-js/stdlib/commit/3d3d4bf15d38c7327989f8b43f9c0fd1a18da8a8) - **test:** migrate `math/base/special/betaincinv` to ULP-based assertions [(#14423)](https://github.com/stdlib-js/stdlib/pull/14423) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f7a98db`](https://github.com/stdlib-js/stdlib/commit/f7a98db8b264e3974513dbef4402a26bd709c501) - **test:** migrate `math/base/special/cflipsignf` to ULP-based assertions [(#14414)](https://github.com/stdlib-js/stdlib/pull/14414) _(by Athan Reines)_
 -   [`dd78acd`](https://github.com/stdlib-js/stdlib/commit/dd78acd51a2e224ce33503d0f9611ebc4a9e3188) - **test:** migrate `math/base/special/gamma-lanczos-sum-expg-scaledf` to ULP-based testing [(#14371)](https://github.com/stdlib-js/stdlib/pull/14371) _(by Arjan-P)_
