@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`3b154ee`](https://github.com/stdlib-js/stdlib/commit/3b154eee6ba4492fabfe146fce790f8829660deb) - **test:** migrate `math/base/special/sici` to ULP-based assertions [(#14453)](https://github.com/stdlib-js/stdlib/pull/14453) _(by Athan Reines)_
 -   [`ed6a07c`](https://github.com/stdlib-js/stdlib/commit/ed6a07cf30ce2dc190222bc04cb54bb4137241af) - **test:** migrate `math/base/special/logitf` to ULP-based assertions [(#14456)](https://github.com/stdlib-js/stdlib/pull/14456) _(by Athan Reines)_
 -   [`0902b03`](https://github.com/stdlib-js/stdlib/commit/0902b03d126d351193fd22733163bf277d4306ee) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`10dda53`](https://github.com/stdlib-js/stdlib/commit/10dda5309507d8420c36ec20958ae07b6a32fd17) - **chore:** clean-up [(#14413)](https://github.com/stdlib-js/stdlib/pull/14413) _(by Philipp Burckhardt)_
