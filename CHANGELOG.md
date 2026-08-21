@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-20)
+## Unreleased (2026-08-21)
 
 <section class="features">
 
@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`ed6a07c`](https://github.com/stdlib-js/stdlib/commit/ed6a07cf30ce2dc190222bc04cb54bb4137241af) - **test:** migrate `math/base/special/logitf` to ULP-based assertions [(#14456)](https://github.com/stdlib-js/stdlib/pull/14456) _(by Athan Reines)_
 -   [`0902b03`](https://github.com/stdlib-js/stdlib/commit/0902b03d126d351193fd22733163bf277d4306ee) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`10dda53`](https://github.com/stdlib-js/stdlib/commit/10dda5309507d8420c36ec20958ae07b6a32fd17) - **chore:** clean-up [(#14413)](https://github.com/stdlib-js/stdlib/pull/14413) _(by Philipp Burckhardt)_
 -   [`3d3d4bf`](https://github.com/stdlib-js/stdlib/commit/3d3d4bf15d38c7327989f8b43f9c0fd1a18da8a8) - **test:** migrate `math/base/special/betaincinv` to ULP-based assertions [(#14423)](https://github.com/stdlib-js/stdlib/pull/14423) _(by Philipp Burckhardt, Athan Reines)_
