@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`b65e7f1`](https://github.com/stdlib-js/stdlib/commit/b65e7f19847adf7faed76e3558090fc3e1cca8b1) - **test:** migrate `math/base/special/cfloorn` to ULP-based assertions [(#14542)](https://github.com/stdlib-js/stdlib/pull/14542) _(by Philipp Burckhardt)_
 -   [`354db88`](https://github.com/stdlib-js/stdlib/commit/354db88cd0d40faeeb8b16caab1f717c90577c30) - **test:** migrate `math/base/special/roundb` to ULP-based assertions [(#14538)](https://github.com/stdlib-js/stdlib/pull/14538) _(by Athan Reines)_
 -   [`10c2645`](https://github.com/stdlib-js/stdlib/commit/10c2645963514a6ddea0745e17420191fa00ecd0) - **test:** migrate `math/base/special/sincosdf` to ULP-based assertions [(#14521)](https://github.com/stdlib-js/stdlib/pull/14521) _(by Athan Reines)_
 -   [`1a14048`](https://github.com/stdlib-js/stdlib/commit/1a140488d5cef9fc7bf5651a386811da784e7129) - **test:** migrate `math/base/special/fast/atanh` to ULP-based assertions [(#14457)](https://github.com/stdlib-js/stdlib/pull/14457) _(by Athan Reines)_
