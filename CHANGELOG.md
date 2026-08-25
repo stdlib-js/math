@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`cbe7813`](https://github.com/stdlib-js/stdlib/commit/cbe7813c0f74bc2ca3c21eb57c5d14f10528652f) - **test:** migrate `math/base/tools/hermitepoly` to ULP-based assertions [(#14613)](https://github.com/stdlib-js/stdlib/pull/14613) _(by Philipp Burckhardt)_
 -   [`b542995`](https://github.com/stdlib-js/stdlib/commit/b5429954e481f5f484fe45386d12ddd527157389) - **test:** migrate `math/base/special/binomcoeff` to ULP-based assertions [(#14572)](https://github.com/stdlib-js/stdlib/pull/14572) _(by Philipp Burckhardt)_
 -   [`b65e7f1`](https://github.com/stdlib-js/stdlib/commit/b65e7f19847adf7faed76e3558090fc3e1cca8b1) - **test:** migrate `math/base/special/cfloorn` to ULP-based assertions [(#14542)](https://github.com/stdlib-js/stdlib/pull/14542) _(by Philipp Burckhardt)_
 -   [`354db88`](https://github.com/stdlib-js/stdlib/commit/354db88cd0d40faeeb8b16caab1f717c90577c30) - **test:** migrate `math/base/special/roundb` to ULP-based assertions [(#14538)](https://github.com/stdlib-js/stdlib/pull/14538) _(by Athan Reines)_
