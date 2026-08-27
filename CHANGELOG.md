@@ -64,6 +64,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`6989982`](https://github.com/stdlib-js/stdlib/commit/69899821b975f745bd5d69d01829cb52cd818ac9) - **docs:** add equations [(#14685)](https://github.com/stdlib-js/stdlib/pull/14685) _(by Karan Anand)_
+-   [`101dcdb`](https://github.com/stdlib-js/stdlib/commit/101dcdb0f0235284f0d378bc087aea81cf20fff5) - **test:** migrate `math/base/special/kernel-cos` to ULP-based assertions [(#14672)](https://github.com/stdlib-js/stdlib/pull/14672) _(by Aryan kumar)_
 -   [`b69f125`](https://github.com/stdlib-js/stdlib/commit/b69f125e64207b556cf745414f2d67b59758b514) - **docs:** add equations [(#14689)](https://github.com/stdlib-js/stdlib/pull/14689) _(by Karan Anand)_
 -   [`795a5dc`](https://github.com/stdlib-js/stdlib/commit/795a5dc8faad670819a5151bcf249176dbdac6b4) - **docs:** add equations [(#14690)](https://github.com/stdlib-js/stdlib/pull/14690) _(by Karan Anand)_
 -   [`a1103f4`](https://github.com/stdlib-js/stdlib/commit/a1103f489806e7e0c0bff50a28f585580c1391b3) - **test:** migrate `math/base/special/binet` to ULP-based assertions [(#14633)](https://github.com/stdlib-js/stdlib/pull/14633) _(by Philipp Burckhardt)_
