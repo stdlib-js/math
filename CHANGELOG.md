@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-26)
+## Unreleased (2026-08-27)
 
 <section class="features">
 
@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`795a5dc`](https://github.com/stdlib-js/stdlib/commit/795a5dc8faad670819a5151bcf249176dbdac6b4) - **docs:** add equations [(#14690)](https://github.com/stdlib-js/stdlib/pull/14690) _(by Karan Anand)_
 -   [`a1103f4`](https://github.com/stdlib-js/stdlib/commit/a1103f489806e7e0c0bff50a28f585580c1391b3) - **test:** migrate `math/base/special/binet` to ULP-based assertions [(#14633)](https://github.com/stdlib-js/stdlib/pull/14633) _(by Philipp Burckhardt)_
 -   [`cbe7813`](https://github.com/stdlib-js/stdlib/commit/cbe7813c0f74bc2ca3c21eb57c5d14f10528652f) - **test:** migrate `math/base/tools/hermitepoly` to ULP-based assertions [(#14613)](https://github.com/stdlib-js/stdlib/pull/14613) _(by Philipp Burckhardt)_
 -   [`b542995`](https://github.com/stdlib-js/stdlib/commit/b5429954e481f5f484fe45386d12ddd527157389) - **test:** migrate `math/base/special/binomcoeff` to ULP-based assertions [(#14572)](https://github.com/stdlib-js/stdlib/pull/14572) _(by Philipp Burckhardt)_
