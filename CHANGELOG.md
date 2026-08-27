@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`c782464`](https://github.com/stdlib-js/stdlib/commit/c7824645f4527c54afc18e03b79e73224d156265) - **docs:** add equations [(#14688)](https://github.com/stdlib-js/stdlib/pull/14688) _(by Karan Anand)_
 -   [`d5da0cb`](https://github.com/stdlib-js/stdlib/commit/d5da0cbb9558361e16b90a5351c04bf4cdc917f7) - **docs:** add introductory text to READMEs [(#14697)](https://github.com/stdlib-js/stdlib/pull/14697) _(by Karan Anand)_
 -   [`9a46793`](https://github.com/stdlib-js/stdlib/commit/9a4679369f5ad122cd1b41fba5eead58ca84faf2) - **docs:** add equations [(#14696)](https://github.com/stdlib-js/stdlib/pull/14696) _(by Karan Anand)_
 -   [`7513923`](https://github.com/stdlib-js/stdlib/commit/751392345a08c5337b930175249f55483ba81134) - **docs:** add equations [(#14691)](https://github.com/stdlib-js/stdlib/pull/14691) _(by Karan Anand)_
