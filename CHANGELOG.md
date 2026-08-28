@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`dfc2a75`](https://github.com/stdlib-js/stdlib/commit/dfc2a7516a44ed3a3ecc51a6e1d72d7fdfa9ff3d) - **test:** migrate `math/base/special/gamma` to ULP-based assertions [(#14742)](https://github.com/stdlib-js/stdlib/pull/14742) _(by Athan Reines)_
 -   [`f29caab`](https://github.com/stdlib-js/stdlib/commit/f29caab3cf07040e0f813e5c17357e8442db92d9) - **test:** migrate `math/base/special/digamma` to ULP-based assertions [(#14717)](https://github.com/stdlib-js/stdlib/pull/14717) _(by Aryan kumar, Athan Reines)_
 -   [`02bc116`](https://github.com/stdlib-js/stdlib/commit/02bc116b172372c8c232df25e196365a6f105179) - **test:** migrate `math/base/special/atandf` to ULP-based assertions [(#14699)](https://github.com/stdlib-js/stdlib/pull/14699) _(by Athan Reines)_
 -   [`c782464`](https://github.com/stdlib-js/stdlib/commit/c7824645f4527c54afc18e03b79e73224d156265) - **docs:** add equations [(#14688)](https://github.com/stdlib-js/stdlib/pull/14688) _(by Karan Anand)_
