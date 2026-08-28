@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-08-28)
 
 <section class="features">
 
@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`f29caab`](https://github.com/stdlib-js/stdlib/commit/f29caab3cf07040e0f813e5c17357e8442db92d9) - **test:** migrate `math/base/special/digamma` to ULP-based assertions [(#14717)](https://github.com/stdlib-js/stdlib/pull/14717) _(by Aryan kumar, Athan Reines)_
 -   [`02bc116`](https://github.com/stdlib-js/stdlib/commit/02bc116b172372c8c232df25e196365a6f105179) - **test:** migrate `math/base/special/atandf` to ULP-based assertions [(#14699)](https://github.com/stdlib-js/stdlib/pull/14699) _(by Athan Reines)_
 -   [`c782464`](https://github.com/stdlib-js/stdlib/commit/c7824645f4527c54afc18e03b79e73224d156265) - **docs:** add equations [(#14688)](https://github.com/stdlib-js/stdlib/pull/14688) _(by Karan Anand)_
 -   [`d5da0cb`](https://github.com/stdlib-js/stdlib/commit/d5da0cbb9558361e16b90a5351c04bf4cdc917f7) - **docs:** add introductory text to READMEs [(#14697)](https://github.com/stdlib-js/stdlib/pull/14697) _(by Karan Anand)_
