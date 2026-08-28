@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`cf24eb5`](https://github.com/stdlib-js/stdlib/commit/cf24eb54dc07160d15e5fb382982699f76df5cde) - **test:** migrate `math/base/special/kernel-sincos` to ULP-based assertions [(#14751)](https://github.com/stdlib-js/stdlib/pull/14751) _(by Aryan kumar)_
 -   [`e67a5aa`](https://github.com/stdlib-js/stdlib/commit/e67a5aad659d8f6623e4ab8ac94687a8586ea83a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`85f4853`](https://github.com/stdlib-js/stdlib/commit/85f48534ef6908bbcd982d48f1c5fbea3fb7aafd) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`dfc2a75`](https://github.com/stdlib-js/stdlib/commit/dfc2a7516a44ed3a3ecc51a6e1d72d7fdfa9ff3d) - **test:** migrate `math/base/special/gamma` to ULP-based assertions [(#14742)](https://github.com/stdlib-js/stdlib/pull/14742) _(by Athan Reines)_
