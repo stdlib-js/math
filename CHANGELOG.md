@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`87fba64`](https://github.com/stdlib-js/stdlib/commit/87fba64382625884f728c6522888413a781ad2d2) - **test:** migrate `math/base/special/betaln` to ULP-based testing [(#14767)](https://github.com/stdlib-js/stdlib/pull/14767) _(by Checkmate)_
 -   [`c568729`](https://github.com/stdlib-js/stdlib/commit/c568729af2a4908e564647f15cadccc8ad62f59b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`8e4bd02`](https://github.com/stdlib-js/stdlib/commit/8e4bd02646c8926e8a68e82ce6f558d128269f54) - **test:** migrate `math/base/special/gammaincinv` to ULP-based assertions [(#14752)](https://github.com/stdlib-js/stdlib/pull/14752) _(by Aryan kumar, Athan Reines)_
 -   [`cf24eb5`](https://github.com/stdlib-js/stdlib/commit/cf24eb54dc07160d15e5fb382982699f76df5cde) - **test:** migrate `math/base/special/kernel-sincos` to ULP-based assertions [(#14751)](https://github.com/stdlib-js/stdlib/pull/14751) _(by Aryan kumar)_
@@ -357,7 +358,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 23 people contributed to this release. Thank you to the following contributors:
+A total of 24 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aayush Khanna
@@ -365,6 +366,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 -   Arjan-P
 -   Aryan kumar
 -   Athan Reines
+-   Checkmate
 -   Gunj Joshi
 -   Ishwar
 -   Karan Anand
