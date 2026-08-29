@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`4359924`](https://github.com/stdlib-js/stdlib/commit/43599246a31b178c42f23d7f9a9f9caa4931efb9) - **test:** migrate `math/base/special/sincospi` to ULP-based assertions [(#14782)](https://github.com/stdlib-js/stdlib/pull/14782) _(by Athan Reines)_
 -   [`87fba64`](https://github.com/stdlib-js/stdlib/commit/87fba64382625884f728c6522888413a781ad2d2) - **test:** migrate `math/base/special/betaln` to ULP-based testing [(#14767)](https://github.com/stdlib-js/stdlib/pull/14767) _(by Checkmate)_
 -   [`c568729`](https://github.com/stdlib-js/stdlib/commit/c568729af2a4908e564647f15cadccc8ad62f59b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`8e4bd02`](https://github.com/stdlib-js/stdlib/commit/8e4bd02646c8926e8a68e82ce6f558d128269f54) - **test:** migrate `math/base/special/gammaincinv` to ULP-based assertions [(#14752)](https://github.com/stdlib-js/stdlib/pull/14752) _(by Aryan kumar, Athan Reines)_
