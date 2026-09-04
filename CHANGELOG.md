@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`71ab5f8`](https://github.com/stdlib-js/stdlib/commit/71ab5f8bbaf3ee9e0740d8ca5f6ee1c4c299bac8) - **test:** migrate `math/base/special/ln` to ULP-based assertions [(#14945)](https://github.com/stdlib-js/stdlib/pull/14945) _(by Puneet Deshwani)_
 -   [`710a849`](https://github.com/stdlib-js/stdlib/commit/710a849ce8294d6b1ccd66f257007bab2ddf4331) - **test:** migrate `math/base/tools/normhermitepolyf` to ULP-based assertions [(#14947)](https://github.com/stdlib-js/stdlib/pull/14947) _(by Philipp Burckhardt)_
 -   [`da791bd`](https://github.com/stdlib-js/stdlib/commit/da791bde13dcfc4ae6a1c9bd2f5dc22896792c41) - **test:** migrate `math/base/tools/normhermitepoly` to ULP-based assertions [(#14900)](https://github.com/stdlib-js/stdlib/pull/14900) _(by Philipp Burckhardt)_
 -   [`4359924`](https://github.com/stdlib-js/stdlib/commit/43599246a31b178c42f23d7f9a9f9caa4931efb9) - **test:** migrate `math/base/special/sincospi` to ULP-based assertions [(#14782)](https://github.com/stdlib-js/stdlib/pull/14782) _(by Athan Reines)_
@@ -361,7 +362,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 25 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aayush Khanna
@@ -379,6 +380,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 -   NotFoundOvO
 -   Om-A-osc
 -   Philipp Burckhardt
+-   Puneet Deshwani
 -   Rohit R Bhat
 -   Ujjwal Verma
 -   Valerie Kwan
