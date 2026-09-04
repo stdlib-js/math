@@ -64,6 +64,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`2d9f528`](https://github.com/stdlib-js/stdlib/commit/2d9f52814b7ed08bda0cbb89cb485e6ed2d78865) - **docs:** add equations [(#14687)](https://github.com/stdlib-js/stdlib/pull/14687) _(by Karan Anand)_
 -   [`8325057`](https://github.com/stdlib-js/stdlib/commit/8325057f59dacc6c43fbb3fa5c1026bf3cc5c296) - **docs:** add equations [(#14695)](https://github.com/stdlib-js/stdlib/pull/14695) _(by Karan Anand)_
 -   [`71ab5f8`](https://github.com/stdlib-js/stdlib/commit/71ab5f8bbaf3ee9e0740d8ca5f6ee1c4c299bac8) - **test:** migrate `math/base/special/ln` to ULP-based assertions [(#14945)](https://github.com/stdlib-js/stdlib/pull/14945) _(by Puneet Deshwani)_
 -   [`710a849`](https://github.com/stdlib-js/stdlib/commit/710a849ce8294d6b1ccd66f257007bab2ddf4331) - **test:** migrate `math/base/tools/normhermitepolyf` to ULP-based assertions [(#14947)](https://github.com/stdlib-js/stdlib/pull/14947) _(by Philipp Burckhardt)_
