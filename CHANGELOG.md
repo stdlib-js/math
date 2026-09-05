@@ -65,6 +65,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`b60adcb`](https://github.com/stdlib-js/stdlib/commit/b60adcb2240b3cdec5090f460856ea27d672fb91) - **refactor:** use `constants/float32/nan` in `math/base/special/gammasgnf` [(#15013)](https://github.com/stdlib-js/stdlib/pull/15013) _(by Abdelrahim Abdelazim)_
 -   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - **feat:** add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673) _(by Aashrith-Vellampalli, Karan Anand)_
 -   [`2d9f528`](https://github.com/stdlib-js/stdlib/commit/2d9f52814b7ed08bda0cbb89cb485e6ed2d78865) - **docs:** add equations [(#14687)](https://github.com/stdlib-js/stdlib/pull/14687) _(by Karan Anand)_
 -   [`8325057`](https://github.com/stdlib-js/stdlib/commit/8325057f59dacc6c43fbb3fa5c1026bf3cc5c296) - **docs:** add equations [(#14695)](https://github.com/stdlib-js/stdlib/pull/14695) _(by Karan Anand)_
@@ -366,11 +367,12 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 26 people contributed to this release. Thank you to the following contributors:
+A total of 27 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
 -   Aayush Khanna
+-   Abdelrahim Abdelazim
 -   Akanksha Kumari
 -   Arjan-P
 -   Aryan kumar
