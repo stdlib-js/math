@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-04)
+## Unreleased (2026-09-05)
 
 <section class="features">
 
 ### Features
 
+-   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673)
 -   [`70452f1`](https://github.com/stdlib-js/stdlib/commit/70452f1225845d1ae89bae40a32e6c1e998d47d3) - add `math/base/special/log2f` [(#4179)](https://github.com/stdlib-js/stdlib/pull/4179)
 -   [`d3a0e0f`](https://github.com/stdlib-js/stdlib/commit/d3a0e0f11833fe6212b60a1f40085ffd5e3f2b6f) - add `math/base/special/sincospif` [(#10215)](https://github.com/stdlib-js/stdlib/pull/10215)
 -   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526)
@@ -64,6 +65,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - **feat:** add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673) _(by Aashrith-Vellampalli, Karan Anand)_
 -   [`2d9f528`](https://github.com/stdlib-js/stdlib/commit/2d9f52814b7ed08bda0cbb89cb485e6ed2d78865) - **docs:** add equations [(#14687)](https://github.com/stdlib-js/stdlib/pull/14687) _(by Karan Anand)_
 -   [`8325057`](https://github.com/stdlib-js/stdlib/commit/8325057f59dacc6c43fbb3fa5c1026bf3cc5c296) - **docs:** add equations [(#14695)](https://github.com/stdlib-js/stdlib/pull/14695) _(by Karan Anand)_
 -   [`71ab5f8`](https://github.com/stdlib-js/stdlib/commit/71ab5f8bbaf3ee9e0740d8ca5f6ee1c4c299bac8) - **test:** migrate `math/base/special/ln` to ULP-based assertions [(#14945)](https://github.com/stdlib-js/stdlib/pull/14945) _(by Puneet Deshwani)_
@@ -364,9 +366,10 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 25 people contributed to this release. Thank you to the following contributors:
+A total of 26 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
+-   Aashrith-Vellampalli
 -   Aayush Khanna
 -   Akanksha Kumari
 -   Arjan-P
