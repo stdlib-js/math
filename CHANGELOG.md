@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866)
 -   [`fd5bfb4`](https://github.com/stdlib-js/stdlib/commit/fd5bfb49cac0b48b994a163effb4c3a1cc14d81d) - add `math/base/special/trunc10f` [(#10421)](https://github.com/stdlib-js/stdlib/pull/10421)
 -   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673)
 -   [`70452f1`](https://github.com/stdlib-js/stdlib/commit/70452f1225845d1ae89bae40a32e6c1e998d47d3) - add `math/base/special/log2f` [(#4179)](https://github.com/stdlib-js/stdlib/pull/4179)
@@ -66,6 +67,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - **feat:** add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866) _(by Aryan kumar, Karan Anand)_
 -   [`fd5bfb4`](https://github.com/stdlib-js/stdlib/commit/fd5bfb49cac0b48b994a163effb4c3a1cc14d81d) - **feat:** add `math/base/special/trunc10f` [(#10421)](https://github.com/stdlib-js/stdlib/pull/10421) _(by Nirmal Jyoti Biswas, Karan Anand)_
 -   [`ad74c25`](https://github.com/stdlib-js/stdlib/commit/ad74c2566f27422949c906bedf51c9936f5d62a8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`005136b`](https://github.com/stdlib-js/stdlib/commit/005136bcf965f089b836fa5dafff2abd3c696115) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
