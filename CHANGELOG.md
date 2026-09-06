@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-05)
+## Unreleased (2026-09-06)
 
 <section class="features">
 
@@ -65,6 +65,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`ad74c25`](https://github.com/stdlib-js/stdlib/commit/ad74c2566f27422949c906bedf51c9936f5d62a8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`005136b`](https://github.com/stdlib-js/stdlib/commit/005136bcf965f089b836fa5dafff2abd3c696115) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`b60adcb`](https://github.com/stdlib-js/stdlib/commit/b60adcb2240b3cdec5090f460856ea27d672fb91) - **refactor:** use `constants/float32/nan` in `math/base/special/gammasgnf` [(#15013)](https://github.com/stdlib-js/stdlib/pull/15013) _(by Abdelrahim Abdelazim)_
 -   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - **feat:** add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673) _(by Aashrith-Vellampalli, Karan Anand)_
 -   [`2d9f528`](https://github.com/stdlib-js/stdlib/commit/2d9f52814b7ed08bda0cbb89cb485e6ed2d78865) - **docs:** add equations [(#14687)](https://github.com/stdlib-js/stdlib/pull/14687) _(by Karan Anand)_
