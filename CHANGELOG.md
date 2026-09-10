@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-08)
+## Unreleased (2026-09-10)
 
 <section class="features">
 
 ### Features
 
+-   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695)
 -   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866)
 -   [`fd5bfb4`](https://github.com/stdlib-js/stdlib/commit/fd5bfb49cac0b48b994a163effb4c3a1cc14d81d) - add `math/base/special/trunc10f` [(#10421)](https://github.com/stdlib-js/stdlib/pull/10421)
 -   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673)
@@ -67,6 +68,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - **feat:** add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695) _(by Aryan kumar, Karan Anand)_
 -   [`16838cc`](https://github.com/stdlib-js/stdlib/commit/16838cccb372ae9473e5dae0e34f540cd33fe18b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`47f445e`](https://github.com/stdlib-js/stdlib/commit/47f445e37c0a56984f7110f28d7fe556e75af8c3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`9b745fa`](https://github.com/stdlib-js/stdlib/commit/9b745fa94f0ba5de62821dc0b94118cb5b73228d) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
