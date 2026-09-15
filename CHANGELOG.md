@@ -69,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`a694451`](https://github.com/stdlib-js/stdlib/commit/a6944514c10643264f1079383c1b9d005757fafb) - **test:** migrate `math/base/special/cabs` to ULP-based assertions [(#15254)](https://github.com/stdlib-js/stdlib/pull/15254) _(by Philipp Burckhardt)_
 -   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - **feat:** add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829) _(by Aryan Sharma, Athan Reines, Karan Anand)_
 -   [`a7ca750`](https://github.com/stdlib-js/stdlib/commit/a7ca7503fe4bc9f12d987bc70fb70ae533720b0e) - **test:** migrate `math/base/special/riemann-zeta` to ULP-based assertions [(#15208)](https://github.com/stdlib-js/stdlib/pull/15208) _(by Devansh Patel)_
 -   [`8e05fb3`](https://github.com/stdlib-js/stdlib/commit/8e05fb3ba3643d952cb62f1e88e150e1b712b365) - **test:** migrate `math/base/special/lnf` to ULP-based assertions [(#15218)](https://github.com/stdlib-js/stdlib/pull/15218) _(by Devansh Patel)_
