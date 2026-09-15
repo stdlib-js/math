@@ -68,6 +68,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`a7ca750`](https://github.com/stdlib-js/stdlib/commit/a7ca7503fe4bc9f12d987bc70fb70ae533720b0e) - **test:** migrate `math/base/special/riemann-zeta` to ULP-based assertions [(#15208)](https://github.com/stdlib-js/stdlib/pull/15208) _(by Devansh Patel)_
 -   [`8e05fb3`](https://github.com/stdlib-js/stdlib/commit/8e05fb3ba3643d952cb62f1e88e150e1b712b365) - **test:** migrate `math/base/special/lnf` to ULP-based assertions [(#15218)](https://github.com/stdlib-js/stdlib/pull/15218) _(by Devansh Patel)_
 -   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - **feat:** add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695) _(by Aryan kumar, Karan Anand)_
 -   [`16838cc`](https://github.com/stdlib-js/stdlib/commit/16838cccb372ae9473e5dae0e34f540cd33fe18b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
