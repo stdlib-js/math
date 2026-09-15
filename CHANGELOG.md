@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829)
 -   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695)
 -   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866)
 -   [`fd5bfb4`](https://github.com/stdlib-js/stdlib/commit/fd5bfb49cac0b48b994a163effb4c3a1cc14d81d) - add `math/base/special/trunc10f` [(#10421)](https://github.com/stdlib-js/stdlib/pull/10421)
@@ -68,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - **feat:** add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829) _(by Aryan Sharma, Athan Reines, Karan Anand)_
 -   [`a7ca750`](https://github.com/stdlib-js/stdlib/commit/a7ca7503fe4bc9f12d987bc70fb70ae533720b0e) - **test:** migrate `math/base/special/riemann-zeta` to ULP-based assertions [(#15208)](https://github.com/stdlib-js/stdlib/pull/15208) _(by Devansh Patel)_
 -   [`8e05fb3`](https://github.com/stdlib-js/stdlib/commit/8e05fb3ba3643d952cb62f1e88e150e1b712b365) - **test:** migrate `math/base/special/lnf` to ULP-based assertions [(#15218)](https://github.com/stdlib-js/stdlib/pull/15218) _(by Devansh Patel)_
 -   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - **feat:** add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695) _(by Aryan kumar, Karan Anand)_
@@ -380,7 +382,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 28 people contributed to this release. Thank you to the following contributors:
+A total of 29 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -388,6 +390,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 -   Abdelrahim Abdelazim
 -   Akanksha Kumari
 -   Arjan-P
+-   Aryan Sharma
 -   Aryan kumar
 -   Athan Reines
 -   Checkmate
