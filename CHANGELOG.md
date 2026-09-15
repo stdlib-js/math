@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-10)
+## Unreleased (2026-09-15)
 
 <section class="features">
 
@@ -68,6 +68,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8e05fb3`](https://github.com/stdlib-js/stdlib/commit/8e05fb3ba3643d952cb62f1e88e150e1b712b365) - **test:** migrate `math/base/special/lnf` to ULP-based assertions [(#15218)](https://github.com/stdlib-js/stdlib/pull/15218) _(by Devansh Patel)_
 -   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - **feat:** add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695) _(by Aryan kumar, Karan Anand)_
 -   [`16838cc`](https://github.com/stdlib-js/stdlib/commit/16838cccb372ae9473e5dae0e34f540cd33fe18b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`47f445e`](https://github.com/stdlib-js/stdlib/commit/47f445e37c0a56984f7110f28d7fe556e75af8c3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
@@ -378,7 +379,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 27 people contributed to this release. Thank you to the following contributors:
+A total of 28 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -389,6 +390,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 -   Aryan kumar
 -   Athan Reines
 -   Checkmate
+-   Devansh Patel
 -   Gunj Joshi
 -   Ishwar
 -   Karan Anand
