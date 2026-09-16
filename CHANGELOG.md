@@ -69,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`3e1e509`](https://github.com/stdlib-js/stdlib/commit/3e1e509f1de3b38a3b72ab6ef3436c9d812c218d) - **test:** restore removed test file [(#15237)](https://github.com/stdlib-js/stdlib/pull/15237) _(by Philipp Burckhardt)_
 -   [`20bf301`](https://github.com/stdlib-js/stdlib/commit/20bf30114c67933b796dd3a59ca499fc7bec1e51) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`9167d66`](https://github.com/stdlib-js/stdlib/commit/9167d6643ae29f18c83dd328124a71794bf84697) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`a694451`](https://github.com/stdlib-js/stdlib/commit/a6944514c10643264f1079383c1b9d005757fafb) - **test:** migrate `math/base/special/cabs` to ULP-based assertions [(#15254)](https://github.com/stdlib-js/stdlib/pull/15254) _(by Philipp Burckhardt)_
