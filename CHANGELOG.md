@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-15)
+## Unreleased (2026-09-16)
 
 <section class="features">
 
@@ -69,6 +69,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`20bf301`](https://github.com/stdlib-js/stdlib/commit/20bf30114c67933b796dd3a59ca499fc7bec1e51) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`9167d66`](https://github.com/stdlib-js/stdlib/commit/9167d6643ae29f18c83dd328124a71794bf84697) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`a694451`](https://github.com/stdlib-js/stdlib/commit/a6944514c10643264f1079383c1b9d005757fafb) - **test:** migrate `math/base/special/cabs` to ULP-based assertions [(#15254)](https://github.com/stdlib-js/stdlib/pull/15254) _(by Philipp Burckhardt)_
 -   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - **feat:** add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829) _(by Aryan Sharma, Athan Reines, Karan Anand)_
 -   [`a7ca750`](https://github.com/stdlib-js/stdlib/commit/a7ca7503fe4bc9f12d987bc70fb70ae533720b0e) - **test:** migrate `math/base/special/riemann-zeta` to ULP-based assertions [(#15208)](https://github.com/stdlib-js/stdlib/pull/15208) _(by Devansh Patel)_
