@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-09-19)
 
 <section class="features">
 
@@ -69,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`99219fa`](https://github.com/stdlib-js/stdlib/commit/99219fa682a207664d34172e82133d857c39d506) - **test:** migrate `math/base/special/roundnf` to ULP-based assertions [(#15357)](https://github.com/stdlib-js/stdlib/pull/15357) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3e1e509`](https://github.com/stdlib-js/stdlib/commit/3e1e509f1de3b38a3b72ab6ef3436c9d812c218d) - **test:** restore removed test file [(#15237)](https://github.com/stdlib-js/stdlib/pull/15237) _(by Philipp Burckhardt)_
 -   [`20bf301`](https://github.com/stdlib-js/stdlib/commit/20bf30114c67933b796dd3a59ca499fc7bec1e51) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`9167d66`](https://github.com/stdlib-js/stdlib/commit/9167d6643ae29f18c83dd328124a71794bf84697) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
