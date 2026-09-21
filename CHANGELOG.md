@@ -69,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`95fd0e2`](https://github.com/stdlib-js/stdlib/commit/95fd0e2f65dbfbc1ae9c02276382bc6624046aaf) - **test:** migrate `math/base/special/asinh` to ULP-based testing [(#15363)](https://github.com/stdlib-js/stdlib/pull/15363) _(by Divyanshu)_
 -   [`48f3eda`](https://github.com/stdlib-js/stdlib/commit/48f3eda37d26a72e370cb10891b9966104735974) - **style:** add spaces [(#15370)](https://github.com/stdlib-js/stdlib/pull/15370) _(by Philipp Burckhardt)_
 -   [`32b82d9`](https://github.com/stdlib-js/stdlib/commit/32b82d9f283368f29ac5ea02163a664c1ead8483) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`99219fa`](https://github.com/stdlib-js/stdlib/commit/99219fa682a207664d34172e82133d857c39d506) - **test:** migrate `math/base/special/roundnf` to ULP-based assertions [(#15357)](https://github.com/stdlib-js/stdlib/pull/15357) _(by Philipp Burckhardt, Athan Reines)_
@@ -389,7 +390,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 29 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -402,6 +403,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   Athan Reines
 -   Checkmate
 -   Devansh Patel
+-   Divyanshu
 -   Gunj Joshi
 -   Ishwar
 -   Karan Anand
