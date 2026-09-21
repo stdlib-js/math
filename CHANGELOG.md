@@ -69,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`48f3eda`](https://github.com/stdlib-js/stdlib/commit/48f3eda37d26a72e370cb10891b9966104735974) - **style:** add spaces [(#15370)](https://github.com/stdlib-js/stdlib/pull/15370) _(by Philipp Burckhardt)_
 -   [`32b82d9`](https://github.com/stdlib-js/stdlib/commit/32b82d9f283368f29ac5ea02163a664c1ead8483) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`99219fa`](https://github.com/stdlib-js/stdlib/commit/99219fa682a207664d34172e82133d857c39d506) - **test:** migrate `math/base/special/roundnf` to ULP-based assertions [(#15357)](https://github.com/stdlib-js/stdlib/pull/15357) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3e1e509`](https://github.com/stdlib-js/stdlib/commit/3e1e509f1de3b38a3b72ab6ef3436c9d812c218d) - **test:** restore removed test file [(#15237)](https://github.com/stdlib-js/stdlib/pull/15237) _(by Philipp Burckhardt)_
