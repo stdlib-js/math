@@ -1,0 +1,116 @@
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+'use strict';
+
+// MODULES //
+
+var tape = require( 'tape' );
+var isInfinite = require( './../../../../base/assert/is-infinite' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var PINF = require( '@stdlib/constants/float64/pinf' );
+var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
+var beta = require( './../lib' );
+
+
+// FIXTURES //
+
+var a1 = require( './fixtures/r/arg1.json' );
+var b1 = require( './fixtures/r/arg2.json' );
+var expected1 = require( './fixtures/r/expected.json' );
+var cpp = require( './fixtures/cpp/output.json' );
+var expected2 = cpp.expected;
+var a2 = cpp.a;
+var b2 = cpp.b;
+var i;
+var v;
+for ( i = 0; i < expected1.length; i++ ) {
+	v = expected1[ i ];
+	if ( v === 'Inf' ) {
+		expected1[ i ] = PINF;
+	}
+	else if ( v === 'NaN' ) {
+		expected1[ i ] = NaN;
+	}
+}
+
+
+// TESTS //
+
+tape( 'main export is a function', function test( t ) {
+	t.ok( true, __filename );
+	t.ok( typeof beta === 'function', 'main export is a function' );
+	t.end();
+});
+
+tape( 'the function returns `NaN` if provided a `NaN`', function test( t ) {
+	var val = beta( NaN, 2.0 );
+	t.ok( isnan( val ), 'returns expected value' );
+	val = beta( 2.0, NaN );
+	t.ok( isnan( val ), 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function returns `NaN` if provided negative values', function test( t ) {
+	var val = beta( -2.0, 5.0 );
+	t.ok( isnan( val ), 'returns expected value' );
+	val = beta( 4.0, -3.0 );
+	t.ok( isnan( val ), 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function returns +Infinity if at least one argument is zero', function test( t ) {
+	var val = beta( 0.0, 2.0 );
+	t.strictEqual( val, PINF, 'returns expected value' );
+	val = beta( 1.0, 0.0 );
+	t.strictEqual( val, PINF, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function evaluates the beta function (tested against R)', function test( t ) {
+	var actual;
+	var y1;
+	var y2;
+	var i;
+	for ( i = 0; i < a1.length; i++ ) {
+		actual = beta( a1[ i ], b1[ i ] );
+
+		y1 = isInfinite( actual );
+		y2 = isInfinite( expected1[ i ] );
+		t.strictEqual( y1, y2, 'returned result is ' + ( (y2) ? 'not finite' : 'finite' ) );
+
+		y1 = isnan( actual );
+		y2 = isnan( expected1[ i ] );
+		t.strictEqual( y1, y2, 'returned result is ' + ( (y1) ? '' : 'not' ) + ' NaN' );
+		if ( !y1 ) {
+			t.strictEqual( isAlmostSameValue( actual, expected1[ i ], 1523 ), true, 'returns expected value' );
+		}
+	}
+	t.end();
+});
+
+tape( 'the function evaluates the beta function (tested against Boost)', function test( t ) {
+	var i;
+	var y;
+
+	for ( i = 0; i < a2.length; i++ ) {
+		y = beta( a2[i], b2[i] );
+		t.strictEqual( isAlmostSameValue( y, expected2[ i ], 267 ), true, 'returns expected value' );
+	}
+	t.end();
+});
