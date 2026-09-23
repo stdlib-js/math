@@ -69,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`df5f5ec`](https://github.com/stdlib-js/stdlib/commit/df5f5ec0b7f6e7923b39f7355adbfca29b2c6e08) - **docs:** add empty intro and notes section wrappers [(#15450)](https://github.com/stdlib-js/stdlib/pull/15450) _(by Philipp Burckhardt)_
 -   [`8a518c5`](https://github.com/stdlib-js/stdlib/commit/8a518c59e356d57b718cb937dac92b8be1bd4e49) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#15264)](https://github.com/stdlib-js/stdlib/pull/15264) _(by Devansh Patel)_
 -   [`e8dc2a1`](https://github.com/stdlib-js/stdlib/commit/e8dc2a1d9217169d8c51ad84bce761040f8fe3fa) - **test:** migrate `math/iter/sequences/continued-fraction` to ULP-based assertions [(#15406)](https://github.com/stdlib-js/stdlib/pull/15406) _(by Athan Reines)_
 -   [`95fd0e2`](https://github.com/stdlib-js/stdlib/commit/95fd0e2f65dbfbc1ae9c02276382bc6624046aaf) - **test:** migrate `math/base/special/asinh` to ULP-based testing [(#15363)](https://github.com/stdlib-js/stdlib/pull/15363) _(by Divyanshu)_
