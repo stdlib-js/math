@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-23)
+## Unreleased (2026-09-25)
 
 <section class="features">
 
@@ -69,6 +69,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`df5f5ec`](https://github.com/stdlib-js/stdlib/commit/df5f5ec0b7f6e7923b39f7355adbfca29b2c6e08) - **docs:** add empty intro and notes section wrappers [(#15450)](https://github.com/stdlib-js/stdlib/pull/15450) _(by Philipp Burckhardt)_
 -   [`8a518c5`](https://github.com/stdlib-js/stdlib/commit/8a518c59e356d57b718cb937dac92b8be1bd4e49) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#15264)](https://github.com/stdlib-js/stdlib/pull/15264) _(by Devansh Patel)_
 -   [`e8dc2a1`](https://github.com/stdlib-js/stdlib/commit/e8dc2a1d9217169d8c51ad84bce761040f8fe3fa) - **test:** migrate `math/iter/sequences/continued-fraction` to ULP-based assertions [(#15406)](https://github.com/stdlib-js/stdlib/pull/15406) _(by Athan Reines)_

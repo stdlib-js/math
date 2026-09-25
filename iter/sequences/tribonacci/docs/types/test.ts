@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-import iterTribonacciSeq = require( './../../../../../iter/sequences/tribonacci' );
+import iterTribonacciSeq = require( './index' );
 
 
 // TESTS //
