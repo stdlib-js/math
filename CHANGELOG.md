@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`dc4565a`](https://github.com/stdlib-js/stdlib/commit/dc4565a34719e6bb918598db213f4aefa0ab0e55) - add `math/base/special/exp10f` [(#15118)](https://github.com/stdlib-js/stdlib/pull/15118)
 -   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987)
 -   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829)
 -   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695)
@@ -70,6 +71,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`dc4565a`](https://github.com/stdlib-js/stdlib/commit/dc4565a34719e6bb918598db213f4aefa0ab0e55) - **feat:** add `math/base/special/exp10f` [(#15118)](https://github.com/stdlib-js/stdlib/pull/15118) _(by Aashrith-Vellampalli, Athan Reines, Karan Anand)_
 -   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - **feat:** add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
 -   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`df5f5ec`](https://github.com/stdlib-js/stdlib/commit/df5f5ec0b7f6e7923b39f7355adbfca29b2c6e08) - **docs:** add empty intro and notes section wrappers [(#15450)](https://github.com/stdlib-js/stdlib/pull/15450) _(by Philipp Burckhardt)_
