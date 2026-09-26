@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-25)
+## Unreleased (2026-09-26)
 
 <section class="features">
 
 ### Features
 
+-   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987)
 -   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829)
 -   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695)
 -   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866)
@@ -69,6 +70,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - **feat:** add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
 -   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`df5f5ec`](https://github.com/stdlib-js/stdlib/commit/df5f5ec0b7f6e7923b39f7355adbfca29b2c6e08) - **docs:** add empty intro and notes section wrappers [(#15450)](https://github.com/stdlib-js/stdlib/pull/15450) _(by Philipp Burckhardt)_
 -   [`8a518c5`](https://github.com/stdlib-js/stdlib/commit/8a518c59e356d57b718cb937dac92b8be1bd4e49) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#15264)](https://github.com/stdlib-js/stdlib/pull/15264) _(by Devansh Patel)_
@@ -394,7 +396,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 30 people contributed to this release. Thank you to the following contributors:
+A total of 31 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -411,6 +413,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 -   Gunj Joshi
 -   Ishwar
 -   Karan Anand
+-   Nakul Krishnakumar
 -   Navyansh Kesarwani
 -   Neeraj Pathak
 -   Nirmal Jyoti Biswas
