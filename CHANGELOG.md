@@ -72,6 +72,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`bc6f5d0`](https://github.com/stdlib-js/stdlib/commit/bc6f5d02d61f4885202f3421952d90bd4eb2730d) - **test:** migrate `math/base/tools/continued-fraction` to ULP-based assertions [(#15573)](https://github.com/stdlib-js/stdlib/pull/15573) _(by Philipp Burckhardt, Athan Reines)_
 -   [`ee0f8b8`](https://github.com/stdlib-js/stdlib/commit/ee0f8b81c2f2a317660ec9b8296516037cc66e3d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`d175fd6`](https://github.com/stdlib-js/stdlib/commit/d175fd63bd070783ff6c4a2b2b9bf1922e1da687) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - **feat:** add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
