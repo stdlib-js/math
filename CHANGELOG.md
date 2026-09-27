@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-26)
+## Unreleased (2026-09-27)
 
 <section class="features">
 
@@ -72,6 +72,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`ee0f8b8`](https://github.com/stdlib-js/stdlib/commit/ee0f8b81c2f2a317660ec9b8296516037cc66e3d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`d175fd6`](https://github.com/stdlib-js/stdlib/commit/d175fd63bd070783ff6c4a2b2b9bf1922e1da687) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - **feat:** add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
 -   [`dc4565a`](https://github.com/stdlib-js/stdlib/commit/dc4565a34719e6bb918598db213f4aefa0ab0e55) - **feat:** add `math/base/special/exp10f` [(#15118)](https://github.com/stdlib-js/stdlib/pull/15118) _(by Aashrith-Vellampalli, Athan Reines, Karan Anand)_
 -   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - **feat:** add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
