@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`923f116`](https://github.com/stdlib-js/stdlib/commit/923f116a84e9a9064e5c1e2a555c01170d2b5272) - add `math/base/special/cothf` [(#15301)](https://github.com/stdlib-js/stdlib/pull/15301)
 -   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984)
 -   [`dc4565a`](https://github.com/stdlib-js/stdlib/commit/dc4565a34719e6bb918598db213f4aefa0ab0e55) - add `math/base/special/exp10f` [(#15118)](https://github.com/stdlib-js/stdlib/pull/15118)
 -   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987)
@@ -72,6 +73,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`923f116`](https://github.com/stdlib-js/stdlib/commit/923f116a84e9a9064e5c1e2a555c01170d2b5272) - **feat:** add `math/base/special/cothf` [(#15301)](https://github.com/stdlib-js/stdlib/pull/15301) _(by Aryan Sharma, Athan Reines, Karan Anand)_
 -   [`accef08`](https://github.com/stdlib-js/stdlib/commit/accef08061b43e666ef44d0673cce0ab5db76bf3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`bc6f5d0`](https://github.com/stdlib-js/stdlib/commit/bc6f5d02d61f4885202f3421952d90bd4eb2730d) - **test:** migrate `math/base/tools/continued-fraction` to ULP-based assertions [(#15573)](https://github.com/stdlib-js/stdlib/pull/15573) _(by Philipp Burckhardt, Athan Reines)_
 -   [`ee0f8b8`](https://github.com/stdlib-js/stdlib/commit/ee0f8b81c2f2a317660ec9b8296516037cc66e3d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
