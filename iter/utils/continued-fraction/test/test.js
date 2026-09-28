@@ -21,12 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var iterEmpty = require( '@stdlib/iter/empty' );
 var isnan = require( './../../../../base/assert/is-nan' );
 var iterContinuedFractionSeq = require( './../../../../iter/sequences/continued-fraction' );
 var PI = require( '@stdlib/constants/float64/pi' );
+var abs = require( './../../../../base/special/abs' );
+var EPS = require( '@stdlib/constants/float64/eps' );
 var iterContinuedFraction = require( './../lib' );
 
 
@@ -157,6 +158,8 @@ tape( 'the function throws an error if provided an invalid option', function tes
 
 tape( 'the function evaluates the terms of the continued fraction', function test( t ) {
 	var expected;
+	var delta;
+	var tol;
 	var it;
 	var v;
 
@@ -174,61 +177,121 @@ tape( 'the function evaluates the terms of the continued fraction', function tes
 	v = iterContinuedFraction( it );
 
 	expected = 3.245;
-	t.strictEqual( isAlmostSameValue( v, expected, 2 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.25 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = array2iterator( [ -3, -4, -12, -4 ] );
 	v = iterContinuedFraction( it );
 
 	expected = -3.245;
-	t.strictEqual( isAlmostSameValue( v, expected, 2 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.25 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = iterContinuedFractionSeq( PI );
 	v = iterContinuedFraction( it );
 
 	expected = PI;
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = iterContinuedFractionSeq( -PI );
 	v = iterContinuedFraction( it );
 
 	expected = -PI;
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = array2iterator( [ 0, 2 ] );
 	v = iterContinuedFraction( it );
 
 	expected = 0.5;
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = array2iterator( [ 0, 10 ] );
 	v = iterContinuedFraction( it );
 
 	expected = 0.1;
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = iterContinuedFractionSeq( 0.3 );
 	v = iterContinuedFraction( it );
 
 	expected = 0.3;
-	t.strictEqual( isAlmostSameValue( v, expected, 1 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = iterContinuedFractionSeq( -0.5 );
 	v = iterContinuedFraction( it );
 
 	expected = -0.5;
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = iterContinuedFractionSeq( -0.3 );
 	v = iterContinuedFraction( it );
 
 	expected = -0.3;
-	t.strictEqual( isAlmostSameValue( v, expected, 1 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = iterContinuedFractionSeq( -0.1 );
 	v = iterContinuedFraction( it );
 
 	expected = -0.1;
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	t.end();
 });
@@ -295,6 +358,8 @@ tape( 'the function supports specifying an iteration limit', function test( t ) 
 
 tape( 'the function supports specifying a tolerance', function test( t ) {
 	var expected;
+	var delta;
+	var tol;
 	var it;
 	var v;
 
@@ -304,7 +369,13 @@ tape( 'the function supports specifying a tolerance', function test( t ) {
 	});
 
 	expected = 3.1415926530119025; // [ 3; 7, 15, 1, 292 ]
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	it = iterContinuedFractionSeq( -PI );
 	v = iterContinuedFraction( it, {
@@ -312,7 +383,13 @@ tape( 'the function supports specifying a tolerance', function test( t ) {
 	});
 
 	expected = -3.1415926530119025; // [ -3; -7, -15, -1, -292 ]
-	t.strictEqual( isAlmostSameValue( v, expected, 0 ), true, 'returns expected value' );
+	if ( v === expected ) {
+		t.strictEqual( v, expected, 'returns expected value' );
+	} else {
+		delta = abs( v - expected );
+		tol = 1.0 * EPS * abs( expected );
+		t.strictEqual( delta <= tol, true, 'actual: '+v+'. expected: '+expected+'. delta: '+delta+'. tol: '+tol+'.' );
+	}
 
 	t.end();
 });
