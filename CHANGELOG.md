@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`838614d`](https://github.com/stdlib-js/stdlib/commit/838614df9111fae3806dfe195fd2ab680960f9f3) - add C implementation for `math/base/special/polygamma` [(#13419)](https://github.com/stdlib-js/stdlib/pull/13419)
 -   [`923f116`](https://github.com/stdlib-js/stdlib/commit/923f116a84e9a9064e5c1e2a555c01170d2b5272) - add `math/base/special/cothf` [(#15301)](https://github.com/stdlib-js/stdlib/pull/15301)
 -   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984)
 -   [`dc4565a`](https://github.com/stdlib-js/stdlib/commit/dc4565a34719e6bb918598db213f4aefa0ab0e55) - add `math/base/special/exp10f` [(#15118)](https://github.com/stdlib-js/stdlib/pull/15118)
@@ -75,6 +76,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`838614d`](https://github.com/stdlib-js/stdlib/commit/838614df9111fae3806dfe195fd2ab680960f9f3) - **feat:** add C implementation for `math/base/special/polygamma` [(#13419)](https://github.com/stdlib-js/stdlib/pull/13419) _(by Philipp Burckhardt, Karan Anand)_
 -   [`132ef67`](https://github.com/stdlib-js/stdlib/commit/132ef67d22d68509e2de12425a2fc295387ed3d0) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`85d7c62`](https://github.com/stdlib-js/stdlib/commit/85d7c6294a488b7f21489da662c71504486a0f10) - **fix:** preserve sign _(by Athan Reines)_
 -   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - **fix:** preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667) _(by Manit Roy)_
