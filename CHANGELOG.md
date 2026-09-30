@@ -78,6 +78,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`931925e`](https://github.com/stdlib-js/stdlib/commit/931925e170e8064dc045793df38c74326f2664d1) - **test:** add medium-large range fixtures and test cases [(#15699)](https://github.com/stdlib-js/stdlib/pull/15699) _(by anee3)_
 -   [`6333df0`](https://github.com/stdlib-js/stdlib/commit/6333df0e6b22f4480ae3f7f63fa22537029a557b) - **test:** add medium-large range fixtures and test cases [(#15707)](https://github.com/stdlib-js/stdlib/pull/15707) _(by anee3)_
 -   [`7271dd6`](https://github.com/stdlib-js/stdlib/commit/7271dd6a16bce56365bc430fe925908b9ff55ebc) - **fix:** preserve sign in `math/base/special/{ceil2,floor2}` [(#15686)](https://github.com/stdlib-js/stdlib/pull/15686) _(by Philipp Burckhardt)_
 -   [`7728021`](https://github.com/stdlib-js/stdlib/commit/77280218ae986d22d7227326173658e7172db899) - **chore:** clean-up [(#15685)](https://github.com/stdlib-js/stdlib/pull/15685) _(by Philipp Burckhardt)_
