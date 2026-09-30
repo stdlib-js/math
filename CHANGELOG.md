@@ -75,6 +75,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`132ef67`](https://github.com/stdlib-js/stdlib/commit/132ef67d22d68509e2de12425a2fc295387ed3d0) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`85d7c62`](https://github.com/stdlib-js/stdlib/commit/85d7c6294a488b7f21489da662c71504486a0f10) - **fix:** preserve sign _(by Athan Reines)_
 -   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - **fix:** preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667) _(by Manit Roy)_
 -   [`d770ac4`](https://github.com/stdlib-js/stdlib/commit/d770ac4bf1e14e5028877ff482c03c0253bbc70f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
