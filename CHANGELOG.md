@@ -46,6 +46,7 @@
 
 ### Bug Fixes
 
+-   [`85d7c62`](https://github.com/stdlib-js/stdlib/commit/85d7c6294a488b7f21489da662c71504486a0f10) - preserve sign
 -   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667)
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869)
 -   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - remove unused variable
@@ -74,6 +75,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`85d7c62`](https://github.com/stdlib-js/stdlib/commit/85d7c6294a488b7f21489da662c71504486a0f10) - **fix:** preserve sign _(by Athan Reines)_
 -   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - **fix:** preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667) _(by Manit Roy)_
 -   [`d770ac4`](https://github.com/stdlib-js/stdlib/commit/d770ac4bf1e14e5028877ff482c03c0253bbc70f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`a692228`](https://github.com/stdlib-js/stdlib/commit/a692228605a448865adb4ef64e063f3bf4680a36) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
