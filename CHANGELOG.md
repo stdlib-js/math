@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c4db1b9`](https://github.com/stdlib-js/stdlib/commit/c4db1b94503a1e7f72deb4a8ca7aac2e69dce7ef) - add `math/base/special/truncsdf` [(#10606)](https://github.com/stdlib-js/stdlib/pull/10606)
 -   [`5d3c88e`](https://github.com/stdlib-js/stdlib/commit/5d3c88e192aaef1ecb1a93aed6d216f7e7b7cfd6) - add `math/base/special/digammaf` [(#10265)](https://github.com/stdlib-js/stdlib/pull/10265)
 -   [`838614d`](https://github.com/stdlib-js/stdlib/commit/838614df9111fae3806dfe195fd2ab680960f9f3) - add C implementation for `math/base/special/polygamma` [(#13419)](https://github.com/stdlib-js/stdlib/pull/13419)
 -   [`923f116`](https://github.com/stdlib-js/stdlib/commit/923f116a84e9a9064e5c1e2a555c01170d2b5272) - add `math/base/special/cothf` [(#15301)](https://github.com/stdlib-js/stdlib/pull/15301)
@@ -78,6 +79,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`c4db1b9`](https://github.com/stdlib-js/stdlib/commit/c4db1b94503a1e7f72deb4a8ca7aac2e69dce7ef) - **feat:** add `math/base/special/truncsdf` [(#10606)](https://github.com/stdlib-js/stdlib/pull/10606) _(by Aryan kumar, Karan Anand)_
 -   [`931925e`](https://github.com/stdlib-js/stdlib/commit/931925e170e8064dc045793df38c74326f2664d1) - **test:** add medium-large range fixtures and test cases [(#15699)](https://github.com/stdlib-js/stdlib/pull/15699) _(by anee3)_
 -   [`6333df0`](https://github.com/stdlib-js/stdlib/commit/6333df0e6b22f4480ae3f7f63fa22537029a557b) - **test:** add medium-large range fixtures and test cases [(#15707)](https://github.com/stdlib-js/stdlib/pull/15707) _(by anee3)_
 -   [`7271dd6`](https://github.com/stdlib-js/stdlib/commit/7271dd6a16bce56365bc430fe925908b9ff55ebc) - **fix:** preserve sign in `math/base/special/{ceil2,floor2}` [(#15686)](https://github.com/stdlib-js/stdlib/pull/15686) _(by Philipp Burckhardt)_
