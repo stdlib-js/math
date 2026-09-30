@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-29)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
@@ -46,6 +46,7 @@
 
 ### Bug Fixes
 
+-   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667)
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869)
 -   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - remove unused variable
 -   [`37facc3`](https://github.com/stdlib-js/stdlib/commit/37facc314354eb317977bab2bca09842120d1d63) - replace `pow` with `powf` in `math/base/special/frexpf` [(#13948)](https://github.com/stdlib-js/stdlib/pull/13948)
@@ -59,9 +60,9 @@
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#10846](https://github.com/stdlib-js/stdlib/issues/10846), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
+[#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#10846](https://github.com/stdlib-js/stdlib/issues/10846), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157), [#15666](https://github.com/stdlib-js/stdlib/issues/15666)
 
 </section>
 
@@ -73,6 +74,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - **fix:** preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667) _(by Manit Roy)_
 -   [`d770ac4`](https://github.com/stdlib-js/stdlib/commit/d770ac4bf1e14e5028877ff482c03c0253bbc70f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`a692228`](https://github.com/stdlib-js/stdlib/commit/a692228605a448865adb4ef64e063f3bf4680a36) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`3afa371`](https://github.com/stdlib-js/stdlib/commit/3afa37120e0f463f15e23e3f1be97477ed2d549f) - **test:** migrate `math/iter/utils/continued-fraction` to ULP-based assertions [(#15621)](https://github.com/stdlib-js/stdlib/pull/15621) _(by Athan Reines)_
@@ -410,7 +412,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 31 people contributed to this release. Thank you to the following contributors:
+A total of 32 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -427,6 +429,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 -   Gunj Joshi
 -   Ishwar
 -   Karan Anand
+-   Manit Roy
 -   Nakul Krishnakumar
 -   Navyansh Kesarwani
 -   Neeraj Pathak
