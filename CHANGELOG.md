@@ -48,6 +48,7 @@
 
 ### Bug Fixes
 
+-   [`7271dd6`](https://github.com/stdlib-js/stdlib/commit/7271dd6a16bce56365bc430fe925908b9ff55ebc) - preserve sign in `math/base/special/{ceil2,floor2}` [(#15686)](https://github.com/stdlib-js/stdlib/pull/15686)
 -   [`85d7c62`](https://github.com/stdlib-js/stdlib/commit/85d7c6294a488b7f21489da662c71504486a0f10) - preserve sign
 -   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667)
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869)
@@ -77,6 +78,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`7271dd6`](https://github.com/stdlib-js/stdlib/commit/7271dd6a16bce56365bc430fe925908b9ff55ebc) - **fix:** preserve sign in `math/base/special/{ceil2,floor2}` [(#15686)](https://github.com/stdlib-js/stdlib/pull/15686) _(by Philipp Burckhardt)_
 -   [`7728021`](https://github.com/stdlib-js/stdlib/commit/77280218ae986d22d7227326173658e7172db899) - **chore:** clean-up [(#15685)](https://github.com/stdlib-js/stdlib/pull/15685) _(by Philipp Burckhardt)_
 -   [`5d3c88e`](https://github.com/stdlib-js/stdlib/commit/5d3c88e192aaef1ecb1a93aed6d216f7e7b7cfd6) - **feat:** add `math/base/special/digammaf` [(#10265)](https://github.com/stdlib-js/stdlib/pull/10265) _(by anee3, Athan Reines, Karan Anand)_
 -   [`838614d`](https://github.com/stdlib-js/stdlib/commit/838614df9111fae3806dfe195fd2ab680960f9f3) - **feat:** add C implementation for `math/base/special/polygamma` [(#13419)](https://github.com/stdlib-js/stdlib/pull/13419) _(by Philipp Burckhardt, Karan Anand)_
