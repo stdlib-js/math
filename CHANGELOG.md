@@ -79,6 +79,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`4d37c8b`](https://github.com/stdlib-js/stdlib/commit/4d37c8bc26822cc1c8a6947bae1c718d2737661f) - **docs:** fix equation _(by Athan Reines)_
 -   [`b751bc1`](https://github.com/stdlib-js/stdlib/commit/b751bc15912ae1df0f94968d2d47eabe80620bb1) - **docs:** update equation _(by Athan Reines)_
 -   [`2ae6670`](https://github.com/stdlib-js/stdlib/commit/2ae6670cd62351feda72b27a548b1fef076741d5) - **docs:** update equation _(by Athan Reines)_
 -   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
