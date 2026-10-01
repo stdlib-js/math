@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a9d579e`](https://github.com/stdlib-js/stdlib/commit/a9d579e64e6f9342abecc9c577d7ac524ce3750c) - add `math/base/special/powm1f` [(#10315)](https://github.com/stdlib-js/stdlib/pull/10315)
 -   [`c4db1b9`](https://github.com/stdlib-js/stdlib/commit/c4db1b94503a1e7f72deb4a8ca7aac2e69dce7ef) - add `math/base/special/truncsdf` [(#10606)](https://github.com/stdlib-js/stdlib/pull/10606)
 -   [`5d3c88e`](https://github.com/stdlib-js/stdlib/commit/5d3c88e192aaef1ecb1a93aed6d216f7e7b7cfd6) - add `math/base/special/digammaf` [(#10265)](https://github.com/stdlib-js/stdlib/pull/10265)
 -   [`838614d`](https://github.com/stdlib-js/stdlib/commit/838614df9111fae3806dfe195fd2ab680960f9f3) - add C implementation for `math/base/special/polygamma` [(#13419)](https://github.com/stdlib-js/stdlib/pull/13419)
@@ -79,9 +80,11 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`a9d579e`](https://github.com/stdlib-js/stdlib/commit/a9d579e64e6f9342abecc9c577d7ac524ce3750c) - **feat:** add `math/base/special/powm1f` [(#10315)](https://github.com/stdlib-js/stdlib/pull/10315) _(by Nirmal Jyoti Biswas, Athan Reines, Karan Anand)_
 -   [`4d37c8b`](https://github.com/stdlib-js/stdlib/commit/4d37c8bc26822cc1c8a6947bae1c718d2737661f) - **docs:** fix equation _(by Athan Reines)_
 -   [`b751bc1`](https://github.com/stdlib-js/stdlib/commit/b751bc15912ae1df0f94968d2d47eabe80620bb1) - **docs:** update equation _(by Athan Reines)_
 -   [`2ae6670`](https://github.com/stdlib-js/stdlib/commit/2ae6670cd62351feda72b27a548b1fef076741d5) - **docs:** update equation _(by Athan Reines)_
+-   [`cd25362`](https://github.com/stdlib-js/stdlib/commit/cd25362c01af11e5becdfacba740fbe11ca9e9d3) - **docs:** update equation _(by Athan Reines)_
 -   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`b41c953`](https://github.com/stdlib-js/stdlib/commit/b41c953b185783768ac50677b4e07eeae0b84cdc) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`c4db1b9`](https://github.com/stdlib-js/stdlib/commit/c4db1b94503a1e7f72deb4a8ca7aac2e69dce7ef) - **feat:** add `math/base/special/truncsdf` [(#10606)](https://github.com/stdlib-js/stdlib/pull/10606) _(by Aryan kumar, Karan Anand)_
