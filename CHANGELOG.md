@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844)
 -   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106)
 -   [`57dd677`](https://github.com/stdlib-js/stdlib/commit/57dd6774f55c86b25b298462ab5519caa73459d4) - add C implementation for `math/base/special/kernel-betaincinv` [(#13418)](https://github.com/stdlib-js/stdlib/pull/13418)
 -   [`049eecc`](https://github.com/stdlib-js/stdlib/commit/049eecc715219bdb5b72bd696ea9eb6fb4fac8b4) - add `math/base/special/besselj1f` [(#13627)](https://github.com/stdlib-js/stdlib/pull/13627)
@@ -83,6 +84,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - **feat:** add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844) _(by anee3, stdlib-bot, Karan Anand, Philipp Burckhardt)_
 -   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - **feat:** add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106) _(by Karan Anand)_
 -   [`57dd677`](https://github.com/stdlib-js/stdlib/commit/57dd6774f55c86b25b298462ab5519caa73459d4) - **feat:** add C implementation for `math/base/special/kernel-betaincinv` [(#13418)](https://github.com/stdlib-js/stdlib/pull/13418) _(by Philipp Burckhardt, Karan Anand)_
 -   [`049eecc`](https://github.com/stdlib-js/stdlib/commit/049eecc715219bdb5b72bd696ea9eb6fb4fac8b4) - **feat:** add `math/base/special/besselj1f` [(#13627)](https://github.com/stdlib-js/stdlib/pull/13627) _(by Ujjwal Verma, Karan Anand)_
