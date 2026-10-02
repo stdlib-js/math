@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`049eecc`](https://github.com/stdlib-js/stdlib/commit/049eecc715219bdb5b72bd696ea9eb6fb4fac8b4) - add `math/base/special/besselj1f` [(#13627)](https://github.com/stdlib-js/stdlib/pull/13627)
 -   [`a9d579e`](https://github.com/stdlib-js/stdlib/commit/a9d579e64e6f9342abecc9c577d7ac524ce3750c) - add `math/base/special/powm1f` [(#10315)](https://github.com/stdlib-js/stdlib/pull/10315)
 -   [`c4db1b9`](https://github.com/stdlib-js/stdlib/commit/c4db1b94503a1e7f72deb4a8ca7aac2e69dce7ef) - add `math/base/special/truncsdf` [(#10606)](https://github.com/stdlib-js/stdlib/pull/10606)
 -   [`5d3c88e`](https://github.com/stdlib-js/stdlib/commit/5d3c88e192aaef1ecb1a93aed6d216f7e7b7cfd6) - add `math/base/special/digammaf` [(#10265)](https://github.com/stdlib-js/stdlib/pull/10265)
@@ -80,6 +81,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`049eecc`](https://github.com/stdlib-js/stdlib/commit/049eecc715219bdb5b72bd696ea9eb6fb4fac8b4) - **feat:** add `math/base/special/besselj1f` [(#13627)](https://github.com/stdlib-js/stdlib/pull/13627) _(by Ujjwal Verma, Karan Anand)_
 -   [`1a78936`](https://github.com/stdlib-js/stdlib/commit/1a789367328a127b029ac01287a730c649884c0c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`7a67bd3`](https://github.com/stdlib-js/stdlib/commit/7a67bd3e5cb80df7208ba3a63e118e9bdf6b5afa) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`a9d579e`](https://github.com/stdlib-js/stdlib/commit/a9d579e64e6f9342abecc9c577d7ac524ce3750c) - **feat:** add `math/base/special/powm1f` [(#10315)](https://github.com/stdlib-js/stdlib/pull/10315) _(by Nirmal Jyoti Biswas, Athan Reines, Karan Anand)_
