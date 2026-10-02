@@ -1,0 +1,160 @@
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+'use strict';
+
+// MODULES //
+
+var tape = require( 'tape' );
+var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
+var isnan = require( './../../../../base/assert/is-nan' );
+var PINF = require( '@stdlib/constants/float64/pinf' );
+var NINF = require( '@stdlib/constants/float64/ninf' );
+var randu = require( '@stdlib/random/base/randu' );
+var fresnel = require( './../lib/main.js' );
+
+
+// FIXTURES //
+
+var smallPositive = require( './fixtures/c/cephes/small.json' );
+var mediumPositive = require( './fixtures/c/cephes/medium.json' );
+var largePositive = require( './fixtures/c/cephes/large.json' );
+var hugePositive = require( './fixtures/c/cephes/huge.json' );
+
+
+// TESTS //
+
+tape( 'main export is a function', function test( t ) {
+	t.ok( true, __filename );
+	t.strictEqual( typeof fresnel, 'function', 'main export is a function' );
+	t.end();
+});
+
+tape( 'the function computes Fresnel integrals (small positive values)', function test( t ) {
+	var C;
+	var S;
+	var x;
+	var y;
+	var i;
+
+	x = smallPositive.x;
+	S = smallPositive.S;
+	C = smallPositive.C;
+
+	for ( i = 0; i < x.length; i++ ) {
+		y = fresnel( x[i] );
+		t.strictEqual( isAlmostSameValue( y[0], S[i], 4 ), true, 'returns expected value' );
+		t.strictEqual( isAlmostSameValue( y[1], C[i], 3 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function computes Fresnel integrals (medium positive values)', function test( t ) {
+	var C;
+	var S;
+	var x;
+	var y;
+	var i;
+
+	x = mediumPositive.x;
+	S = mediumPositive.S;
+	C = mediumPositive.C;
+
+	for ( i = 0; i < x.length; i++ ) {
+		y = fresnel( x[i] );
+		t.strictEqual( isAlmostSameValue( y[0], S[i], 0 ), true, 'returns expected value' );
+		t.strictEqual( isAlmostSameValue( y[1], C[i], 0 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function computes Fresnel integrals (large positive values)', function test( t ) {
+	var C;
+	var S;
+	var x;
+	var y;
+	var i;
+
+	x = largePositive.x;
+	S = largePositive.S;
+	C = largePositive.C;
+
+	for ( i = 0; i < x.length; i++ ) {
+		y = fresnel( x[i] );
+		t.strictEqual( isAlmostSameValue( y[0], S[i], 0 ), true, 'returns expected value' );
+		t.strictEqual( isAlmostSameValue( y[1], C[i], 0 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function computes Fresnel integrals (very large positive values)', function test( t ) {
+	var C;
+	var S;
+	var x;
+	var y;
+	var i;
+
+	x = hugePositive.x;
+	S = hugePositive.S;
+	C = hugePositive.C;
+
+	for ( i = 0; i < x.length; i++ ) {
+		y = fresnel( x[i] );
+		t.strictEqual( isAlmostSameValue( y[0], S[i], 0 ), true, 'returns expected value' );
+		t.strictEqual( isAlmostSameValue( y[1], C[i], 0 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function is an odd function of x', function test( t ) {
+	var yn;
+	var yp;
+	var x;
+	var i;
+
+	for ( i = 0; i < 500; i++ ) {
+		x = randu() * 10000.0;
+		yn = fresnel( -x );
+		yp = fresnel( x );
+
+		t.strictEqual( yp[0], -yn[0], 'S(x) = -S(-x)' );
+		t.strictEqual( yp[1], -yn[1], 'C(x) = -C(-x)' );
+	}
+	t.end();
+});
+
+tape( 'the function returns `[0.5, 0.5]` if provided `+infinity`', function test( t ) {
+	var v = fresnel( PINF );
+	t.strictEqual( v[0], 0.5, 'returns 0.5' );
+	t.strictEqual( v[1], 0.5, 'returns 0.5' );
+	t.end();
+});
+
+tape( 'the function returns `[-0.5, -0.5]` if provided `-infinity`', function test( t ) {
+	var v = fresnel( NINF );
+	t.strictEqual( v[0], -0.5, 'returns -0.5' );
+	t.strictEqual( v[1], -0.5, 'returns -0.5' );
+	t.end();
+});
+
+tape( 'the function returns `[NaN, NaN]` if provided a `NaN`', function test( t ) {
+	var v = fresnel( NaN );
+	t.strictEqual( isnan( v[0] ), true, 'returns expected value' );
+	t.strictEqual( isnan( v[1] ), true, 'returns expected value' );
+	t.end();
+});
