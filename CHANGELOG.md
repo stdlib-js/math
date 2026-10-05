@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-02)
+## Unreleased (2026-10-05)
 
 <section class="features">
 
 ### Features
 
+-   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384)
 -   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844)
 -   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106)
 -   [`57dd677`](https://github.com/stdlib-js/stdlib/commit/57dd6774f55c86b25b298462ab5519caa73459d4) - add C implementation for `math/base/special/kernel-betaincinv` [(#13418)](https://github.com/stdlib-js/stdlib/pull/13418)
@@ -84,6 +85,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - **feat:** add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384) _(by Philipp Burckhardt, Karan Anand)_
 -   [`84f8ffb`](https://github.com/stdlib-js/stdlib/commit/84f8ffb065248517c4b8ea2470b454c64a058d26) - **chore:** clean-up _(by Athan Reines)_
 -   [`4fa2661`](https://github.com/stdlib-js/stdlib/commit/4fa266186afb82024f14f5fb6a3c076eff50c7bc) - **style:** ensure consistent spacing _(by Athan Reines)_
 -   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - **feat:** add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844) _(by anee3, stdlib-bot, Karan Anand, Philipp Burckhardt)_
