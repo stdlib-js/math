@@ -1,0 +1,93 @@
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2024 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+'use strict';
+
+// MODULES //
+
+var resolve = require( 'path' ).resolve;
+var tape = require( 'tape' );
+var isnanf = require( './../../../../base/assert/is-nanf' );
+var isAlmostSameValuef = require( '@stdlib/number/float32/base/assert/is-almost-same-value' );
+var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// FIXTURES //
+
+var negative = require( './fixtures/julia/negative.json' );
+var positive = require( './fixtures/julia/positive.json' );
+
+
+// VARIABLES //
+
+var acotdf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( acotdf instanceof Error )
+};
+
+
+// TESTS //
+
+tape( 'main export is a function', opts, function test( t ) {
+	t.ok( true, __filename );
+	t.strictEqual( typeof acotdf, 'function', 'main export is a function' );
+	t.end();
+});
+
+tape( 'the function computes the arccotangent in degrees (negative values)', opts, function test( t ) {
+	var expected;
+	var x;
+	var y;
+	var i;
+	var e;
+
+	x = negative.x;
+	expected = negative.expected;
+
+	for ( i = 0; i < x.length; i++ ) {
+		e = float64ToFloat32( expected[ i ] );
+		y = acotdf( x[ i ] );
+		t.strictEqual( isAlmostSameValuef( y, e, 2 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function computes the arccotangent in degrees (positive values)', opts, function test( t ) {
+	var expected;
+	var x;
+	var y;
+	var i;
+	var e;
+
+	x = positive.x;
+	expected = positive.expected;
+
+	for ( i = 0; i < x.length; i++ ) {
+		e = float64ToFloat32( expected[ i ] );
+		y = acotdf( x[ i ] );
+		t.strictEqual( isAlmostSameValuef( y, e, 2 ), true, 'returns expected value' );
+	}
+	t.end();
+});
+
+tape( 'the function returns `NaN` if provided `NaN`', opts, function test( t ) {
+	var v = acotdf( NaN );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+	t.end();
+});
