@@ -85,6 +85,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`a2a3770`](https://github.com/stdlib-js/stdlib/commit/a2a3770a05544594e5d67f3ef19ed440dd206c90) - **style:** add missing space [(#16061)](https://github.com/stdlib-js/stdlib/pull/16061) _(by Philipp Burckhardt)_
 -   [`80dc97e`](https://github.com/stdlib-js/stdlib/commit/80dc97e06d35d2939e14645ca83383e20b41e01d) - **chore:** clean-up _(by Athan Reines)_
 -   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - **feat:** add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384) _(by Philipp Burckhardt, Karan Anand)_
 -   [`84f8ffb`](https://github.com/stdlib-js/stdlib/commit/84f8ffb065248517c4b8ea2470b454c64a058d26) - **chore:** clean-up _(by Athan Reines)_
