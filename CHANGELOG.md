@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-05)
+## Unreleased (2026-10-11)
 
 <section class="features">
 
@@ -85,6 +85,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`80dc97e`](https://github.com/stdlib-js/stdlib/commit/80dc97e06d35d2939e14645ca83383e20b41e01d) - **chore:** clean-up _(by Athan Reines)_
 -   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - **feat:** add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384) _(by Philipp Burckhardt, Karan Anand)_
 -   [`84f8ffb`](https://github.com/stdlib-js/stdlib/commit/84f8ffb065248517c4b8ea2470b454c64a058d26) - **chore:** clean-up _(by Athan Reines)_
 -   [`4fa2661`](https://github.com/stdlib-js/stdlib/commit/4fa266186afb82024f14f5fb6a3c076eff50c7bc) - **style:** ensure consistent spacing _(by Athan Reines)_
