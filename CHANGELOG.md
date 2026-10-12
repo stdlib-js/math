@@ -86,6 +86,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - **feat:** update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837) _(by stdlib-bot)_
 -   [`8c05bc6`](https://github.com/stdlib-js/stdlib/commit/8c05bc6d4db92616375d80463af6950eb5bddb9f) - **bench:** clean-up [(#15934)](https://github.com/stdlib-js/stdlib/pull/15934) _(by Philipp Burckhardt, Athan Reines)_
 -   [`01425e2`](https://github.com/stdlib-js/stdlib/commit/01425e27988c55cb9ace3469f7854bdf90e58371) - **docs:** add JSDoc examples [(#15948)](https://github.com/stdlib-js/stdlib/pull/15948) _(by Philipp Burckhardt, Athan Reines)_
