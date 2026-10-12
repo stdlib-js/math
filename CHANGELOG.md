@@ -85,6 +85,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`8c05bc6`](https://github.com/stdlib-js/stdlib/commit/8c05bc6d4db92616375d80463af6950eb5bddb9f) - **bench:** clean-up [(#15934)](https://github.com/stdlib-js/stdlib/pull/15934) _(by Philipp Burckhardt, Athan Reines)_
 -   [`01425e2`](https://github.com/stdlib-js/stdlib/commit/01425e27988c55cb9ace3469f7854bdf90e58371) - **docs:** add JSDoc examples [(#15948)](https://github.com/stdlib-js/stdlib/pull/15948) _(by Philipp Burckhardt, Athan Reines)_
 -   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
 -   [`bc4afc4`](https://github.com/stdlib-js/stdlib/commit/bc4afc42a59bd9003d68b0a1ac543a0b9f297384) - **test:** migrate `math/base/special/atan` to ULP-based testing [(#15872)](https://github.com/stdlib-js/stdlib/pull/15872) _(by Yug Bhatia)_
