@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837)
 -   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384)
 -   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844)
 -   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106)
@@ -85,6 +86,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - **feat:** update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837) _(by stdlib-bot)_
 -   [`8c05bc6`](https://github.com/stdlib-js/stdlib/commit/8c05bc6d4db92616375d80463af6950eb5bddb9f) - **bench:** clean-up [(#15934)](https://github.com/stdlib-js/stdlib/pull/15934) _(by Philipp Burckhardt, Athan Reines)_
 -   [`01425e2`](https://github.com/stdlib-js/stdlib/commit/01425e27988c55cb9ace3469f7854bdf90e58371) - **docs:** add JSDoc examples [(#15948)](https://github.com/stdlib-js/stdlib/pull/15948) _(by Philipp Burckhardt, Athan Reines)_
 -   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
