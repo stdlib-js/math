@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-11)
+## Unreleased (2026-10-12)
 
 <section class="features">
 
@@ -85,6 +85,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
 -   [`bc4afc4`](https://github.com/stdlib-js/stdlib/commit/bc4afc42a59bd9003d68b0a1ac543a0b9f297384) - **test:** migrate `math/base/special/atan` to ULP-based testing [(#15872)](https://github.com/stdlib-js/stdlib/pull/15872) _(by Yug Bhatia)_
 -   [`258cdbd`](https://github.com/stdlib-js/stdlib/commit/258cdbdbad15ae4bec38d11ae0318f069fcce3c9) - **test:** migrate `math/base/utils/absolute-difference` to ULP-based assertions [(#16019)](https://github.com/stdlib-js/stdlib/pull/16019) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4c5e602`](https://github.com/stdlib-js/stdlib/commit/4c5e6025ed434c64a9960f37da2381558c7318cb) - **docs:** fix missing examples and fix spacing [(#16006)](https://github.com/stdlib-js/stdlib/pull/16006) _(by Philipp Burckhardt)_
