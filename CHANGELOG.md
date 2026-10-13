@@ -86,6 +86,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`a034693`](https://github.com/stdlib-js/stdlib/commit/a034693f4b3761ec90635d100e98f82f5c84b485) - **test:** add medium-large range fixtures and test cases [(#15701)](https://github.com/stdlib-js/stdlib/pull/15701) _(by anee3)_
 -   [`0fa9c9d`](https://github.com/stdlib-js/stdlib/commit/0fa9c9d77641a4b4c3723814064825c3b4d11335) - **docs:** update examples [(#16099)](https://github.com/stdlib-js/stdlib/pull/16099) _(by stdlib-bot)_
 -   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - **feat:** update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837) _(by stdlib-bot)_
