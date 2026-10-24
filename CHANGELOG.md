@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-14)
+## Unreleased (2026-10-24)
 
 <section class="features">
 
@@ -86,6 +86,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`cc3652e`](https://github.com/stdlib-js/stdlib/commit/cc3652e1c805138e4355ae5c2195b846d1ba013c) - **test:** migrate `math/base/tools/sum-series` to ULP-based assertions [(#16218)](https://github.com/stdlib-js/stdlib/pull/16218) _(by Athan Reines)_
 -   [`cb57c9e`](https://github.com/stdlib-js/stdlib/commit/cb57c9e4507ab2731542c3d53ab4dadeb9069a69) - **docs:** add examples and keywords [(#16152)](https://github.com/stdlib-js/stdlib/pull/16152) _(by Philipp Burckhardt)_
 -   [`a034693`](https://github.com/stdlib-js/stdlib/commit/a034693f4b3761ec90635d100e98f82f5c84b485) - **test:** add medium-large range fixtures and test cases [(#15701)](https://github.com/stdlib-js/stdlib/pull/15701) _(by anee3)_
 -   [`0fa9c9d`](https://github.com/stdlib-js/stdlib/commit/0fa9c9d77641a4b4c3723814064825c3b4d11335) - **docs:** update examples [(#16099)](https://github.com/stdlib-js/stdlib/pull/16099) _(by stdlib-bot)_
