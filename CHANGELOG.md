@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-24)
+## Unreleased (2026-10-29)
 
 <section class="features">
 
@@ -86,6 +86,8 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`f3d9641`](https://github.com/stdlib-js/stdlib/commit/f3d96414757120d4577b1d406629573520f9073d) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#14788)](https://github.com/stdlib-js/stdlib/pull/14788) _(by Aryan kumar)_
+-   [`7bf6853`](https://github.com/stdlib-js/stdlib/commit/7bf68530dd12fe22f2ec82d68e1f9a591ab042c0) - **chore:** clean-up [(#16303)](https://github.com/stdlib-js/stdlib/pull/16303) _(by Philipp Burckhardt)_
 -   [`cc3652e`](https://github.com/stdlib-js/stdlib/commit/cc3652e1c805138e4355ae5c2195b846d1ba013c) - **test:** migrate `math/base/tools/sum-series` to ULP-based assertions [(#16218)](https://github.com/stdlib-js/stdlib/pull/16218) _(by Athan Reines)_
 -   [`cb57c9e`](https://github.com/stdlib-js/stdlib/commit/cb57c9e4507ab2731542c3d53ab4dadeb9069a69) - **docs:** add examples and keywords [(#16152)](https://github.com/stdlib-js/stdlib/pull/16152) _(by Philipp Burckhardt)_
 -   [`a034693`](https://github.com/stdlib-js/stdlib/commit/a034693f4b3761ec90635d100e98f82f5c84b485) - **test:** add medium-large range fixtures and test cases [(#15701)](https://github.com/stdlib-js/stdlib/pull/15701) _(by anee3)_
