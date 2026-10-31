@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fa49d31`](https://github.com/stdlib-js/stdlib/commit/fa49d316e8cde8ec32c5c77a43e51c472788b519) - add `assign` and `strided` methods to `math/base/special/cfloorf` [(#16030)](https://github.com/stdlib-js/stdlib/pull/16030)
 -   [`fc437a4`](https://github.com/stdlib-js/stdlib/commit/fc437a4fc7618ca3aa4b9cd8e16e0d1c30704ff4) - add `assign` and `strided` methods to `math/base/special/cceilf` [(#16028)](https://github.com/stdlib-js/stdlib/pull/16028)
 -   [`70c9c47`](https://github.com/stdlib-js/stdlib/commit/70c9c47836b664e425f90dc6db6769f0829832bf) - add `assign` and `strided` methods to `math/base/special/cround` [(#16026)](https://github.com/stdlib-js/stdlib/pull/16026)
 -   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025)
@@ -91,6 +92,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`fa49d31`](https://github.com/stdlib-js/stdlib/commit/fa49d316e8cde8ec32c5c77a43e51c472788b519) - **feat:** add `assign` and `strided` methods to `math/base/special/cfloorf` [(#16030)](https://github.com/stdlib-js/stdlib/pull/16030) _(by Karan Anand)_
 -   [`fc437a4`](https://github.com/stdlib-js/stdlib/commit/fc437a4fc7618ca3aa4b9cd8e16e0d1c30704ff4) - **feat:** add `assign` and `strided` methods to `math/base/special/cceilf` [(#16028)](https://github.com/stdlib-js/stdlib/pull/16028) _(by Karan Anand)_
 -   [`70c9c47`](https://github.com/stdlib-js/stdlib/commit/70c9c47836b664e425f90dc6db6769f0829832bf) - **feat:** add `assign` and `strided` methods to `math/base/special/cround` [(#16026)](https://github.com/stdlib-js/stdlib/pull/16026) _(by Karan Anand)_
 -   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - **feat:** add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025) _(by Karan Anand)_
