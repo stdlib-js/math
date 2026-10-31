@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025)
 -   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003)
 -   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000)
 -   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837)
@@ -88,6 +89,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - **feat:** add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025) _(by Karan Anand)_
 -   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - **feat:** add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003) _(by Karan Anand)_
 -   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - **feat:** add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000) _(by Karan Anand)_
 -   [`f3d9641`](https://github.com/stdlib-js/stdlib/commit/f3d96414757120d4577b1d406629573520f9073d) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#14788)](https://github.com/stdlib-js/stdlib/pull/14788) _(by Aryan kumar)_
