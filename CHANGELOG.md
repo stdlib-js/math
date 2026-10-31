@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`8729960`](https://github.com/stdlib-js/stdlib/commit/87299609e3a2c734cce1945b6828d4c6829272f0) - add `assign` and `strided` methods to `math/base/special/cinvf` [(#16044)](https://github.com/stdlib-js/stdlib/pull/16044)
+-   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043)
 -   [`13fcc1d`](https://github.com/stdlib-js/stdlib/commit/13fcc1d32ec408a0edbfc545dc6d5c19a9b8bf20) - add `assign` and `strided` methods to `math/base/special/croundf` [(#16039)](https://github.com/stdlib-js/stdlib/pull/16039)
 -   [`fa49d31`](https://github.com/stdlib-js/stdlib/commit/fa49d316e8cde8ec32c5c77a43e51c472788b519) - add `assign` and `strided` methods to `math/base/special/cfloorf` [(#16030)](https://github.com/stdlib-js/stdlib/pull/16030)
 -   [`fc437a4`](https://github.com/stdlib-js/stdlib/commit/fc437a4fc7618ca3aa4b9cd8e16e0d1c30704ff4) - add `assign` and `strided` methods to `math/base/special/cceilf` [(#16028)](https://github.com/stdlib-js/stdlib/pull/16028)
@@ -93,6 +95,8 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`8729960`](https://github.com/stdlib-js/stdlib/commit/87299609e3a2c734cce1945b6828d4c6829272f0) - **feat:** add `assign` and `strided` methods to `math/base/special/cinvf` [(#16044)](https://github.com/stdlib-js/stdlib/pull/16044) _(by Karan Anand)_
+-   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - **feat:** add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043) _(by Karan Anand)_
 -   [`13fcc1d`](https://github.com/stdlib-js/stdlib/commit/13fcc1d32ec408a0edbfc545dc6d5c19a9b8bf20) - **feat:** add `assign` and `strided` methods to `math/base/special/croundf` [(#16039)](https://github.com/stdlib-js/stdlib/pull/16039) _(by Karan Anand)_
 -   [`fa49d31`](https://github.com/stdlib-js/stdlib/commit/fa49d316e8cde8ec32c5c77a43e51c472788b519) - **feat:** add `assign` and `strided` methods to `math/base/special/cfloorf` [(#16030)](https://github.com/stdlib-js/stdlib/pull/16030) _(by Karan Anand)_
 -   [`fc437a4`](https://github.com/stdlib-js/stdlib/commit/fc437a4fc7618ca3aa4b9cd8e16e0d1c30704ff4) - **feat:** add `assign` and `strided` methods to `math/base/special/cceilf` [(#16028)](https://github.com/stdlib-js/stdlib/pull/16028) _(by Karan Anand)_
