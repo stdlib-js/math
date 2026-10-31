@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-29)
+## Unreleased (2026-10-31)
 
 <section class="features">
 
 ### Features
 
+-   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000)
 -   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837)
 -   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384)
 -   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844)
@@ -86,6 +87,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - **feat:** add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000) _(by Karan Anand)_
 -   [`f3d9641`](https://github.com/stdlib-js/stdlib/commit/f3d96414757120d4577b1d406629573520f9073d) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#14788)](https://github.com/stdlib-js/stdlib/pull/14788) _(by Aryan kumar)_
 -   [`7bf6853`](https://github.com/stdlib-js/stdlib/commit/7bf68530dd12fe22f2ec82d68e1f9a591ab042c0) - **chore:** clean-up [(#16303)](https://github.com/stdlib-js/stdlib/pull/16303) _(by Philipp Burckhardt)_
 -   [`cc3652e`](https://github.com/stdlib-js/stdlib/commit/cc3652e1c805138e4355ae5c2195b846d1ba013c) - **test:** migrate `math/base/tools/sum-series` to ULP-based assertions [(#16218)](https://github.com/stdlib-js/stdlib/pull/16218) _(by Athan Reines)_
