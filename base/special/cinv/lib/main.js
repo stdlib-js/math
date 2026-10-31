@@ -20,16 +20,21 @@
 
 // MODULES //
 
+var abs = require( './../../../../base/special/abs' );
+var max = require( './../../../../base/special/max' );
+var FLOAT64_BIGGEST = require( '@stdlib/constants/float64/max' );
+var FLOAT64_SMALLEST = require( '@stdlib/constants/float64/smallest-normal' );
+var EPS = require( '@stdlib/constants/float64/eps' );
 var Complex128 = require( '@stdlib/complex/float64/ctor' );
-var Float64Array = require( '@stdlib/array/float64' );
 var real = require( '@stdlib/complex/float64/real' );
 var imag = require( '@stdlib/complex/float64/imag' );
-var assign = require( './assign.js' );
 
 
 // VARIABLES //
 
-var out = new Float64Array( 2 );
+var LARGE_THRESHOLD = FLOAT64_BIGGEST * 0.5;
+var SMALL_THRESHOLD = FLOAT64_SMALLEST * ( 2.0 / EPS );
+var RECIP_EPS_SQR = 2.0 / ( EPS * EPS );
 
 
 // MAIN //
@@ -51,8 +56,40 @@ var out = new Float64Array( 2 );
 * // returns <Complex128>[ 0.1, -0.2 ]
 */
 function cinv( z ) {
-	assign( real( z ), imag( z ), out, 1, 0 );
-	return new Complex128( out[ 0 ], out[ 1 ] );
+	var ab;
+	var re;
+	var im;
+	var s;
+	var r;
+	var t;
+
+	re = real( z );
+	im = imag( z );
+	ab = max( abs(re), abs(im) );
+	s = 1.0;
+	if ( ab >= LARGE_THRESHOLD ) {
+		re *= 0.5;
+		im *= 0.5;
+		s *= 0.5;
+	} else if ( ab <= SMALL_THRESHOLD ) {
+		re *= RECIP_EPS_SQR;
+		im *= RECIP_EPS_SQR;
+		s *= RECIP_EPS_SQR;
+	}
+	if ( abs( im ) <= abs( re ) ) {
+		r = im / re;
+		t = 1.0 / ( re + (im*r) );
+		re = t;
+		im = -r * t;
+	} else {
+		r = re / im;
+		t = 1.0 / ( im + (re*r) );
+		re = r * t;
+		im = -t;
+	}
+	re *= s;
+	im *= s;
+	return new Complex128( re, im );
 }
 
 

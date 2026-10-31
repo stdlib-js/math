@@ -21,43 +21,37 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var uniform = require( '@stdlib/random/base/uniform' );
 var isnan = require( './../../../../base/assert/is-nan' );
-var Complex128Array = require( '@stdlib/array/complex128' );
+var Complex128 = require( '@stdlib/complex/float64/ctor' );
 var real = require( '@stdlib/complex/float64/real' );
 var imag = require( '@stdlib/complex/float64/imag' );
 var pkg = require( './../package.json' ).name;
 var cinv = require( './../lib' );
 
 
-// VARIABLES //
-
-var options = {
-	'dtype': 'float64'
-};
-
-
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var zbuf;
-	var z;
+	var values;
 	var y;
 	var i;
 
-	zbuf = uniform( 200, -500.0, 500.0, options );
-	z = new Complex128Array( zbuf.buffer );
+	values = [
+		new Complex128( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) ),
+		new Complex128( uniform( -500.0, 500.0 ), uniform( -500.0, 500.0 ) )
+	];
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = cinv( z.get( i%100 ) );
+		y = cinv( values[ i%values.length ] );
 		if ( isnan( real( y ) ) ) {
 			b.fail( 'should not return NaN' );
 		}
 	}
 	b.toc();
 	if ( isnan( imag( y ) ) ) {
-		b.fail( 'should not return NaN' );
+		b.fail( 'should not return not NaN' );
 	}
 	b.pass( 'benchmark finished' );
 	b.end();
