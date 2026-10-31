@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003)
 -   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000)
 -   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837)
 -   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384)
@@ -87,6 +88,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - **feat:** add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003) _(by Karan Anand)_
 -   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - **feat:** add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000) _(by Karan Anand)_
 -   [`f3d9641`](https://github.com/stdlib-js/stdlib/commit/f3d96414757120d4577b1d406629573520f9073d) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#14788)](https://github.com/stdlib-js/stdlib/pull/14788) _(by Aryan kumar)_
 -   [`7bf6853`](https://github.com/stdlib-js/stdlib/commit/7bf68530dd12fe22f2ec82d68e1f9a591ab042c0) - **chore:** clean-up [(#16303)](https://github.com/stdlib-js/stdlib/pull/16303) _(by Philipp Burckhardt)_
