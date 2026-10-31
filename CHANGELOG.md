@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`70c9c47`](https://github.com/stdlib-js/stdlib/commit/70c9c47836b664e425f90dc6db6769f0829832bf) - add `assign` and `strided` methods to `math/base/special/cround` [(#16026)](https://github.com/stdlib-js/stdlib/pull/16026)
 -   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025)
 -   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003)
 -   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000)
@@ -89,6 +90,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`70c9c47`](https://github.com/stdlib-js/stdlib/commit/70c9c47836b664e425f90dc6db6769f0829832bf) - **feat:** add `assign` and `strided` methods to `math/base/special/cround` [(#16026)](https://github.com/stdlib-js/stdlib/pull/16026) _(by Karan Anand)_
 -   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - **feat:** add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025) _(by Karan Anand)_
 -   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - **feat:** add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003) _(by Karan Anand)_
 -   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - **feat:** add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000) _(by Karan Anand)_
