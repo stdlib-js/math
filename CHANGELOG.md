@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9e5e372`](https://github.com/stdlib-js/stdlib/commit/9e5e372b8889458ed23cd2625a7ca3593db3fa1b) - add `assign` and `strided` methods to `math/base/special/ccis` [(#16050)](https://github.com/stdlib-js/stdlib/pull/16050)
 -   [`8729960`](https://github.com/stdlib-js/stdlib/commit/87299609e3a2c734cce1945b6828d4c6829272f0) - add `assign` and `strided` methods to `math/base/special/cinvf` [(#16044)](https://github.com/stdlib-js/stdlib/pull/16044)
 -   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043)
 -   [`13fcc1d`](https://github.com/stdlib-js/stdlib/commit/13fcc1d32ec408a0edbfc545dc6d5c19a9b8bf20) - add `assign` and `strided` methods to `math/base/special/croundf` [(#16039)](https://github.com/stdlib-js/stdlib/pull/16039)
@@ -95,6 +96,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`9e5e372`](https://github.com/stdlib-js/stdlib/commit/9e5e372b8889458ed23cd2625a7ca3593db3fa1b) - **feat:** add `assign` and `strided` methods to `math/base/special/ccis` [(#16050)](https://github.com/stdlib-js/stdlib/pull/16050) _(by Karan Anand)_
 -   [`8729960`](https://github.com/stdlib-js/stdlib/commit/87299609e3a2c734cce1945b6828d4c6829272f0) - **feat:** add `assign` and `strided` methods to `math/base/special/cinvf` [(#16044)](https://github.com/stdlib-js/stdlib/pull/16044) _(by Karan Anand)_
 -   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - **feat:** add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043) _(by Karan Anand)_
 -   [`13fcc1d`](https://github.com/stdlib-js/stdlib/commit/13fcc1d32ec408a0edbfc545dc6d5c19a9b8bf20) - **feat:** add `assign` and `strided` methods to `math/base/special/croundf` [(#16039)](https://github.com/stdlib-js/stdlib/pull/16039) _(by Karan Anand)_
