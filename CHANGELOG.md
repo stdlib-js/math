@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0e517df`](https://github.com/stdlib-js/stdlib/commit/0e517df100c8c0e9f67d8cc9300b9ca5d5d1926e) - update math scaffold databases [(#16405)](https://github.com/stdlib-js/stdlib/pull/16405)
 -   [`ec3050c`](https://github.com/stdlib-js/stdlib/commit/ec3050cfb6a889a513a2b5c576d146b8b0367070) - add `assign` and `strided` methods to `math/base/special/csignumf` [(#16052)](https://github.com/stdlib-js/stdlib/pull/16052)
 -   [`4cb9318`](https://github.com/stdlib-js/stdlib/commit/4cb9318e4562195a5fa3ccd93c3e0c4d49eb2aaa) - add `assign` and `strided` methods to `math/base/special/csignum` [(#16051)](https://github.com/stdlib-js/stdlib/pull/16051)
 -   [`9e5e372`](https://github.com/stdlib-js/stdlib/commit/9e5e372b8889458ed23cd2625a7ca3593db3fa1b) - add `assign` and `strided` methods to `math/base/special/ccis` [(#16050)](https://github.com/stdlib-js/stdlib/pull/16050)
@@ -98,6 +99,8 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
+-   [`0e517df`](https://github.com/stdlib-js/stdlib/commit/0e517df100c8c0e9f67d8cc9300b9ca5d5d1926e) - **feat:** update math scaffold databases [(#16405)](https://github.com/stdlib-js/stdlib/pull/16405) _(by stdlib-bot)_
 -   [`ec3050c`](https://github.com/stdlib-js/stdlib/commit/ec3050cfb6a889a513a2b5c576d146b8b0367070) - **feat:** add `assign` and `strided` methods to `math/base/special/csignumf` [(#16052)](https://github.com/stdlib-js/stdlib/pull/16052) _(by Karan Anand)_
 -   [`4cb9318`](https://github.com/stdlib-js/stdlib/commit/4cb9318e4562195a5fa3ccd93c3e0c4d49eb2aaa) - **feat:** add `assign` and `strided` methods to `math/base/special/csignum` [(#16051)](https://github.com/stdlib-js/stdlib/pull/16051) _(by Karan Anand)_
 -   [`9e5e372`](https://github.com/stdlib-js/stdlib/commit/9e5e372b8889458ed23cd2625a7ca3593db3fa1b) - **feat:** add `assign` and `strided` methods to `math/base/special/ccis` [(#16050)](https://github.com/stdlib-js/stdlib/pull/16050) _(by Karan Anand)_
