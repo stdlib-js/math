@@ -99,6 +99,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`480d5ee`](https://github.com/stdlib-js/stdlib/commit/480d5ee654552a7a60a6df14a694a68edb1926ce) - **docs:** update `math/base/special` TypeScript declarations [(#16413)](https://github.com/stdlib-js/stdlib/pull/16413) _(by stdlib-bot)_
 -   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
 -   [`0e517df`](https://github.com/stdlib-js/stdlib/commit/0e517df100c8c0e9f67d8cc9300b9ca5d5d1926e) - **feat:** update math scaffold databases [(#16405)](https://github.com/stdlib-js/stdlib/pull/16405) _(by stdlib-bot)_
 -   [`ec3050c`](https://github.com/stdlib-js/stdlib/commit/ec3050cfb6a889a513a2b5c576d146b8b0367070) - **feat:** add `assign` and `strided` methods to `math/base/special/csignumf` [(#16052)](https://github.com/stdlib-js/stdlib/pull/16052) _(by Karan Anand)_
