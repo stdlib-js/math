@@ -99,6 +99,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`7be6477`](https://github.com/stdlib-js/stdlib/commit/7be64773404680cd10096e9cac6b27d3a589ff94) - **docs:** update namespace table of contents [(#16417)](https://github.com/stdlib-js/stdlib/pull/16417) _(by stdlib-bot)_
 -   [`480d5ee`](https://github.com/stdlib-js/stdlib/commit/480d5ee654552a7a60a6df14a694a68edb1926ce) - **docs:** update `math/base/special` TypeScript declarations [(#16413)](https://github.com/stdlib-js/stdlib/pull/16413) _(by stdlib-bot)_
 -   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
 -   [`0e517df`](https://github.com/stdlib-js/stdlib/commit/0e517df100c8c0e9f67d8cc9300b9ca5d5d1926e) - **feat:** update math scaffold databases [(#16405)](https://github.com/stdlib-js/stdlib/pull/16405) _(by stdlib-bot)_
