@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-01)
+## Unreleased (2026-11-03)
 
 <section class="features">
 
 ### Features
 
+-   [`159b43a`](https://github.com/stdlib-js/stdlib/commit/159b43a8fb51cc2b4a8b08210ffab53aa28c6c42) - update `math/base/special` TypeScript declarations [(#16458)](https://github.com/stdlib-js/stdlib/pull/16458)
 -   [`0e517df`](https://github.com/stdlib-js/stdlib/commit/0e517df100c8c0e9f67d8cc9300b9ca5d5d1926e) - update math scaffold databases [(#16405)](https://github.com/stdlib-js/stdlib/pull/16405)
 -   [`ec3050c`](https://github.com/stdlib-js/stdlib/commit/ec3050cfb6a889a513a2b5c576d146b8b0367070) - add `assign` and `strided` methods to `math/base/special/csignumf` [(#16052)](https://github.com/stdlib-js/stdlib/pull/16052)
 -   [`4cb9318`](https://github.com/stdlib-js/stdlib/commit/4cb9318e4562195a5fa3ccd93c3e0c4d49eb2aaa) - add `assign` and `strided` methods to `math/base/special/csignum` [(#16051)](https://github.com/stdlib-js/stdlib/pull/16051)
@@ -99,6 +100,8 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
+-   [`159b43a`](https://github.com/stdlib-js/stdlib/commit/159b43a8fb51cc2b4a8b08210ffab53aa28c6c42) - **feat:** update `math/base/special` TypeScript declarations [(#16458)](https://github.com/stdlib-js/stdlib/pull/16458) _(by stdlib-bot)_
 -   [`7be6477`](https://github.com/stdlib-js/stdlib/commit/7be64773404680cd10096e9cac6b27d3a589ff94) - **docs:** update namespace table of contents [(#16417)](https://github.com/stdlib-js/stdlib/pull/16417) _(by stdlib-bot)_
 -   [`480d5ee`](https://github.com/stdlib-js/stdlib/commit/480d5ee654552a7a60a6df14a694a68edb1926ce) - **docs:** update `math/base/special` TypeScript declarations [(#16413)](https://github.com/stdlib-js/stdlib/pull/16413) _(by stdlib-bot)_
 -   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
