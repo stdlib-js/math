@@ -100,6 +100,8 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`d0d8e26`](https://github.com/stdlib-js/stdlib/commit/d0d8e26ce806b50d11397f4bf75269b6b4adee66) - **chore:** clean-up [(#16436)](https://github.com/stdlib-js/stdlib/pull/16436) _(by Philipp Burckhardt, Athan Reines)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`136f68b`](https://github.com/stdlib-js/stdlib/commit/136f68b4d9d45706c7ea0183b5990203a7e0a3b8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
 -   [`159b43a`](https://github.com/stdlib-js/stdlib/commit/159b43a8fb51cc2b4a8b08210ffab53aa28c6c42) - **feat:** update `math/base/special` TypeScript declarations [(#16458)](https://github.com/stdlib-js/stdlib/pull/16458) _(by stdlib-bot)_
