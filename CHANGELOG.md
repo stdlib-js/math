@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-06)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
@@ -100,6 +100,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`2a44431`](https://github.com/stdlib-js/stdlib/commit/2a444319de0629ad92a4a06e7e59b930379b8a53) - **style:** add missing whitespace [(#16531)](https://github.com/stdlib-js/stdlib/pull/16531) _(by Philipp Burckhardt)_
 -   [`34d508a`](https://github.com/stdlib-js/stdlib/commit/34d508a4977ad9ed687293d18fb74dcbc1da2912) - **style:** add missing whitespace [(#16515)](https://github.com/stdlib-js/stdlib/pull/16515) _(by stdlib-bot)_
 -   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
