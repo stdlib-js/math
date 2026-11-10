@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-08)
+## Unreleased (2026-11-10)
 
 <section class="features">
 
@@ -100,6 +100,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`2b568bd`](https://github.com/stdlib-js/stdlib/commit/2b568bd727177f95feae9cd3f940084030631b50) - **build:** compile C++ Boost benchmarks with C++14 [(#16556)](https://github.com/stdlib-js/stdlib/pull/16556) _(by Mara Averick)_
 -   [`4ff1612`](https://github.com/stdlib-js/stdlib/commit/4ff16126926ce482b471012528ec526d39cdd1d2) - **build:** upgrade Boost & compile C++ test fixture runners w C++14 [(#16545)](https://github.com/stdlib-js/stdlib/pull/16545) _(by Mara Averick)_
 -   [`2a44431`](https://github.com/stdlib-js/stdlib/commit/2a444319de0629ad92a4a06e7e59b930379b8a53) - **style:** add missing whitespace [(#16531)](https://github.com/stdlib-js/stdlib/pull/16531) _(by Philipp Burckhardt)_
 -   [`34d508a`](https://github.com/stdlib-js/stdlib/commit/34d508a4977ad9ed687293d18fb74dcbc1da2912) - **style:** add missing whitespace [(#16515)](https://github.com/stdlib-js/stdlib/pull/16515) _(by stdlib-bot)_
