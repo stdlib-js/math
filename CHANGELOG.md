@@ -100,6 +100,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`5841449`](https://github.com/stdlib-js/stdlib/commit/584144928656b13d21569cc4df389b07189366db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`2b568bd`](https://github.com/stdlib-js/stdlib/commit/2b568bd727177f95feae9cd3f940084030631b50) - **build:** compile C++ Boost benchmarks with C++14 [(#16556)](https://github.com/stdlib-js/stdlib/pull/16556) _(by Mara Averick)_
 -   [`4ff1612`](https://github.com/stdlib-js/stdlib/commit/4ff16126926ce482b471012528ec526d39cdd1d2) - **build:** upgrade Boost & compile C++ test fixture runners w C++14 [(#16545)](https://github.com/stdlib-js/stdlib/pull/16545) _(by Mara Averick)_
 -   [`2a44431`](https://github.com/stdlib-js/stdlib/commit/2a444319de0629ad92a4a06e7e59b930379b8a53) - **style:** add missing whitespace [(#16531)](https://github.com/stdlib-js/stdlib/pull/16531) _(by Philipp Burckhardt)_
