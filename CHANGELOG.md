@@ -100,6 +100,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`e938fda`](https://github.com/stdlib-js/stdlib/commit/e938fdaf052880e2ec7d5c838de4b6d702a3ccc1) - **bench:** fix Boost function call in `math/base/special/gamma1pm1` [(#16557)](https://github.com/stdlib-js/stdlib/pull/16557) _(by Mara Averick)_
 -   [`5841449`](https://github.com/stdlib-js/stdlib/commit/584144928656b13d21569cc4df389b07189366db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`2b568bd`](https://github.com/stdlib-js/stdlib/commit/2b568bd727177f95feae9cd3f940084030631b50) - **build:** compile C++ Boost benchmarks with C++14 [(#16556)](https://github.com/stdlib-js/stdlib/pull/16556) _(by Mara Averick)_
 -   [`4ff1612`](https://github.com/stdlib-js/stdlib/commit/4ff16126926ce482b471012528ec526d39cdd1d2) - **build:** upgrade Boost & compile C++ test fixture runners w C++14 [(#16545)](https://github.com/stdlib-js/stdlib/pull/16545) _(by Mara Averick)_
