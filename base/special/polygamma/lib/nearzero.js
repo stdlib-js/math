@@ -1,0 +1,128 @@
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link https://www.boost.org/doc/libs/1_92_0/boost/math/special_functions/detail/polygamma.hpp}. The implementation follows the original but has been modified for JavaScript.
+*
+* ```text
+* (C) Copyright Nikhar Agrawal 2013.
+* (C) Copyright Christopher Kormanyos 2013.
+* (C) Copyright John Maddock 2014.
+* (C) Copyright Paul Bristow 2013.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/
+
+'use strict';
+
+// MODULES //
+
+var factorial = require( './../../../../base/special/factorial' );
+var zeta = require( './../../../../base/special/riemann-zeta' );
+var abs = require( './../../../../base/special/abs' );
+var pow = require( './../../../../base/special/pow' );
+var PINF = require( '@stdlib/constants/float64/pinf' );
+var EPS = require( '@stdlib/constants/float64/eps' );
+var MAX = require( '@stdlib/constants/float64/max' );
+
+
+// VARIABLES //
+
+var MAX_SERIES_ITERATIONS = 1000000;
+
+
+// MAIN //
+
+/**
+* Evaluates the polygamma function near zero.
+*
+* ## Notes
+*
+* -   If we take this [expansion][1] for `polygamma` and substitute in this [expression][2] for `polygamma(n, 1)`, we get an alternating series for polygamma when `x` is small in terms of zeta functions of integer arguments (which are easy to evaluate, at least when the integer is even).
+*
+* [1]: http://functions.wolfram.com/06.15.06.0003.02
+* [2]: http://functions.wolfram.com/06.15.03.0009.01
+*
+* @private
+* @param {PositiveInteger} n - derivative to evaluate
+* @param {number} x - input value
+* @returns {number} (n+1)'th derivative
+*/
+function nearzero( n, x ) {
+	var factorialPart;
+	var prefix;
+	var scale;
+	var term;
+	var sum;
+	var k;
+
+	// In order to avoid spurious overflow, save the `n!` term for later, and rescale at the end:
+	scale = factorial( n );
+
+	// "factorialPart" contains everything except the zeta function evaluations in each term:
+	factorialPart = 1;
+
+	// "prefix" is what we'll be adding the accumulated sum to, it will be `n! / z^(n+1)`, but since we're scaling by `n!` it is just `1 / z^(n+1)` for now:
+	prefix = pow( x, n+1 );
+	if ( prefix === 0.0 ) {
+		return PINF;
+	}
+	prefix = 1.0 / prefix;
+
+	// First term in the series is necessarily `< zeta(2) < 2`, so ignore the sum if it will have no effect on the result:
+	if ( prefix > 2.0/EPS ) {
+		if ( n & 1 ) {
+			return prefix * scale;
+		}
+		return -( prefix * scale );
+	}
+	sum = prefix;
+	for ( k = 0; ; ) {
+		// Get the k'th term:
+		term = factorialPart * zeta( k+n+1 );
+		sum += term;
+
+		// Termination condition:
+		if ( abs( term ) < abs(sum * EPS ) ) {
+			break;
+		}
+		// Move on `k` and `factorialPart`:
+		k += 1;
+		factorialPart *= (-x * (n+k)) / k;
+
+		// Last chance exit; series failed to converge:
+		if ( k > MAX_SERIES_ITERATIONS ) {
+			return NaN;
+		}
+	}
+	// We need to multiply by the scale, at each stage checking for overflow:
+	if ( MAX/scale < sum ) {
+		return PINF;
+	}
+	sum *= scale;
+	return ( n & 1 ) ? sum : -sum;
+}
+
+
+// EXPORTS //
+
+module.exports = nearzero;
