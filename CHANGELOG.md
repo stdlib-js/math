@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`f1f573c`](https://github.com/stdlib-js/stdlib/commit/f1f573c8223b7d3ba6eb772c74ce819996a4dc32) - **test:** fix C++ fixture runner for `math/base/special/expm1` [(#16628)](https://github.com/stdlib-js/stdlib/pull/16628) _(by Mara Averick)_
 -   [`fdaaa9c`](https://github.com/stdlib-js/stdlib/commit/fdaaa9cb6bf3a8b7d58ee3ce2abc49ce6aecba91) - **refactor:** use `constants/float32/nan` in `math/base/special/maxf` [(#16637)](https://github.com/stdlib-js/stdlib/pull/16637) _(by Mustansir-06)_
 -   [`0a54a1b`](https://github.com/stdlib-js/stdlib/commit/0a54a1bea05872c1b6f02965f857db553ee40a00) - **chore:** fix JavaScript lint errors [(#16588)](https://github.com/stdlib-js/stdlib/pull/16588) _(by Hayabusa, Athan Reines)_
 -   [`0c06626`](https://github.com/stdlib-js/stdlib/commit/0c06626a9d809646f1ee63cc3d5b1214856accf2) - **docs:** update examples and clean-up [(#16598)](https://github.com/stdlib-js/stdlib/pull/16598) _(by Philipp Burckhardt)_
