@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-16)
+## Unreleased (2026-11-17)
 
 <section class="features">
 
@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`77225ca`](https://github.com/stdlib-js/stdlib/commit/77225ca6e99bacd8c41ceb4919ac4d6120d360c8) - **docs:** update namespace table of contents [(#16671)](https://github.com/stdlib-js/stdlib/pull/16671) _(by stdlib-bot)_
 -   [`07ca4c5`](https://github.com/stdlib-js/stdlib/commit/07ca4c54806085c09b4a9c0fa47892595a7442fe) - **docs:** add missing dtype parameters [(#16650)](https://github.com/stdlib-js/stdlib/pull/16650) _(by Philipp Burckhardt)_
 -   [`7f2ff7a`](https://github.com/stdlib-js/stdlib/commit/7f2ff7a3158ddbace4dede033bcce7af01c5111c) - **test:** fix C++ fixture runner for `math/base/special/ellipe` [(#16629)](https://github.com/stdlib-js/stdlib/pull/16629) _(by Mara Averick)_
 -   [`f1f573c`](https://github.com/stdlib-js/stdlib/commit/f1f573c8223b7d3ba6eb772c74ce819996a4dc32) - **test:** fix C++ fixture runner for `math/base/special/expm1` [(#16628)](https://github.com/stdlib-js/stdlib/pull/16628) _(by Mara Averick)_
