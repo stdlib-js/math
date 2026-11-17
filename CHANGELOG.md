@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`43833be`](https://github.com/stdlib-js/stdlib/commit/43833be881b2af16c9392ce0e76898fba28d60ce) - **refactor:** use `constants/float32/nan` in `math/base/special/minf` [(#16673)](https://github.com/stdlib-js/stdlib/pull/16673) _(by Mustansir-06)_
 -   [`77225ca`](https://github.com/stdlib-js/stdlib/commit/77225ca6e99bacd8c41ceb4919ac4d6120d360c8) - **docs:** update namespace table of contents [(#16671)](https://github.com/stdlib-js/stdlib/pull/16671) _(by stdlib-bot)_
 -   [`07ca4c5`](https://github.com/stdlib-js/stdlib/commit/07ca4c54806085c09b4a9c0fa47892595a7442fe) - **docs:** add missing dtype parameters [(#16650)](https://github.com/stdlib-js/stdlib/pull/16650) _(by Philipp Burckhardt)_
 -   [`7f2ff7a`](https://github.com/stdlib-js/stdlib/commit/7f2ff7a3158ddbace4dede033bcce7af01c5111c) - **test:** fix C++ fixture runner for `math/base/special/ellipe` [(#16629)](https://github.com/stdlib-js/stdlib/pull/16629) _(by Mara Averick)_
