@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-17)
+## Unreleased (2026-11-18)
 
 <section class="features">
 
@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`13f56f9`](https://github.com/stdlib-js/stdlib/commit/13f56f9ebfee2184739d405aa9a9da6a2d497a99) - **chore:** rename files [(#11856)](https://github.com/stdlib-js/stdlib/pull/11856) _(by Philipp Burckhardt)_
 -   [`43833be`](https://github.com/stdlib-js/stdlib/commit/43833be881b2af16c9392ce0e76898fba28d60ce) - **refactor:** use `constants/float32/nan` in `math/base/special/minf` [(#16673)](https://github.com/stdlib-js/stdlib/pull/16673) _(by Mustansir-06)_
 -   [`77225ca`](https://github.com/stdlib-js/stdlib/commit/77225ca6e99bacd8c41ceb4919ac4d6120d360c8) - **docs:** update namespace table of contents [(#16671)](https://github.com/stdlib-js/stdlib/pull/16671) _(by stdlib-bot)_
 -   [`07ca4c5`](https://github.com/stdlib-js/stdlib/commit/07ca4c54806085c09b4a9c0fa47892595a7442fe) - **docs:** add missing dtype parameters [(#16650)](https://github.com/stdlib-js/stdlib/pull/16650) _(by Philipp Burckhardt)_
