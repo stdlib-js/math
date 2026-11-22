@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-21)
+## Unreleased (2026-11-22)
 
 <section class="features">
 
@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`0741e98`](https://github.com/stdlib-js/stdlib/commit/0741e986476d1d085f985124dfc814415d11db13) - **refactor:** use `constants/float64/nan` in `math/base/special/nanmin` [(#16750)](https://github.com/stdlib-js/stdlib/pull/16750) _(by Anchal Gupta, Athan Reines)_
 -   [`4f37391`](https://github.com/stdlib-js/stdlib/commit/4f37391df8570463bc64e4507b9998fda5f7c256) - **docs:** update use of format specifiers in examples [(#16734)](https://github.com/stdlib-js/stdlib/pull/16734) _(by Philipp Burckhardt)_
 -   [`13f56f9`](https://github.com/stdlib-js/stdlib/commit/13f56f9ebfee2184739d405aa9a9da6a2d497a99) - **chore:** rename files [(#11856)](https://github.com/stdlib-js/stdlib/pull/11856) _(by Philipp Burckhardt)_
 -   [`43833be`](https://github.com/stdlib-js/stdlib/commit/43833be881b2af16c9392ce0e76898fba28d60ce) - **refactor:** use `constants/float32/nan` in `math/base/special/minf` [(#16673)](https://github.com/stdlib-js/stdlib/pull/16673) _(by Mustansir-06)_
@@ -518,13 +519,14 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 36 people contributed to this release. Thank you to the following contributors:
+A total of 37 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
 -   Aayush Khanna
 -   Abdelrahim Abdelazim
 -   Akanksha Kumari
+-   Anchal Gupta
 -   Arjan-P
 -   Aryan Sharma
 -   Aryan kumar
