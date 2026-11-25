@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-23)
+## Unreleased (2026-11-25)
 
 <section class="features">
 
@@ -100,6 +100,8 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`f82b54b`](https://github.com/stdlib-js/stdlib/commit/f82b54b5e08de9cea9aaf6e6d179960bc583f3e9) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`3a627f0`](https://github.com/stdlib-js/stdlib/commit/3a627f07dba028f23fceabc48cbdda8cc1beca69) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`0741e98`](https://github.com/stdlib-js/stdlib/commit/0741e986476d1d085f985124dfc814415d11db13) - **refactor:** use `constants/float64/nan` in `math/base/special/nanmin` [(#16750)](https://github.com/stdlib-js/stdlib/pull/16750) _(by Anchal Gupta, Athan Reines)_
 -   [`4f37391`](https://github.com/stdlib-js/stdlib/commit/4f37391df8570463bc64e4507b9998fda5f7c256) - **docs:** update use of format specifiers in examples [(#16734)](https://github.com/stdlib-js/stdlib/pull/16734) _(by Philipp Burckhardt)_
 -   [`13f56f9`](https://github.com/stdlib-js/stdlib/commit/13f56f9ebfee2184739d405aa9a9da6a2d497a99) - **chore:** rename files [(#11856)](https://github.com/stdlib-js/stdlib/pull/11856) _(by Philipp Burckhardt)_
