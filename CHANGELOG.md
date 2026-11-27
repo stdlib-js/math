@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`b4c71e0`](https://github.com/stdlib-js/stdlib/commit/b4c71e050447cb4726c457388d250a862d1c99a2) - **chore:** clean-up [(#16778)](https://github.com/stdlib-js/stdlib/pull/16778) _(by Philipp Burckhardt)_
 -   [`ad3b5f7`](https://github.com/stdlib-js/stdlib/commit/ad3b5f7aede02b68f622d3b1d35c4384189f38ea) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`cf5dbf8`](https://github.com/stdlib-js/stdlib/commit/cf5dbf89209471ed40b975fdd186aa10f43d78ba) - **refactor:** use `constants/float32/nan` in `math/base/special/fast/acoshf` [(#16857)](https://github.com/stdlib-js/stdlib/pull/16857) _(by Kartik)_
 -   [`19c9b24`](https://github.com/stdlib-js/stdlib/commit/19c9b24dc33dcdc99fd41ba11632be1951c0b698) - **refactor:** use `constants/float32/nan` in `math/base/special/acoshf` [(#16845)](https://github.com/stdlib-js/stdlib/pull/16845) _(by Uday Gund)_
