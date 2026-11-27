@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`cf5dbf8`](https://github.com/stdlib-js/stdlib/commit/cf5dbf89209471ed40b975fdd186aa10f43d78ba) - **refactor:** use `constants/float32/nan` in `math/base/special/fast/acoshf` [(#16857)](https://github.com/stdlib-js/stdlib/pull/16857) _(by Kartik)_
 -   [`19c9b24`](https://github.com/stdlib-js/stdlib/commit/19c9b24dc33dcdc99fd41ba11632be1951c0b698) - **refactor:** use `constants/float32/nan` in `math/base/special/acoshf` [(#16845)](https://github.com/stdlib-js/stdlib/pull/16845) _(by Uday Gund)_
 -   [`a17bfe6`](https://github.com/stdlib-js/stdlib/commit/a17bfe699a6cca35c5a93bdec2afbaa3242af8ff) - **refactor:** use `constants/float32/nan` in `math/base/special/asinf` [(#16847)](https://github.com/stdlib-js/stdlib/pull/16847) _(by Uday Gund)_
 -   [`f82b54b`](https://github.com/stdlib-js/stdlib/commit/f82b54b5e08de9cea9aaf6e6d179960bc583f3e9) - **docs:** update Markdown equation elements _(by stdlib-bot)_
@@ -523,7 +524,7 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 38 people contributed to this release. Thank you to the following contributors:
+A total of 39 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -542,6 +543,7 @@ A total of 38 people contributed to this release. Thank you to the following con
 -   Hayabusa
 -   Ishwar
 -   Karan Anand
+-   Kartik
 -   Manit Roy
 -   Mara Averick
 -   Mustansir-06
