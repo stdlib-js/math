@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-27)
+## Unreleased (2026-11-28)
 
 <section class="features">
 
@@ -86,9 +86,9 @@
 
 ### Closed Issues
 
-A total of 8 issues were closed in this release:
+A total of 9 issues were closed in this release:
 
-[#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#10846](https://github.com/stdlib-js/stdlib/issues/10846), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157), [#15666](https://github.com/stdlib-js/stdlib/issues/15666), [#16586](https://github.com/stdlib-js/stdlib/issues/16586)
+[#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#10846](https://github.com/stdlib-js/stdlib/issues/10846), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157), [#15666](https://github.com/stdlib-js/stdlib/issues/15666), [#16586](https://github.com/stdlib-js/stdlib/issues/16586), [#16919](https://github.com/stdlib-js/stdlib/issues/16919)
 
 </section>
 
@@ -100,6 +100,7 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`ca56d36`](https://github.com/stdlib-js/stdlib/commit/ca56d36805c551a504e4bca4e230c7090ff1650a) - **docs:** fix typo [(#16920)](https://github.com/stdlib-js/stdlib/pull/16920) _(by ItsAbir005)_
 -   [`14ef5a0`](https://github.com/stdlib-js/stdlib/commit/14ef5a0e9855baea02de8a0c501987a2fc053759) - **docs:** update example [(#16860)](https://github.com/stdlib-js/stdlib/pull/16860) _(by Tanu Saini)_
 -   [`b4c71e0`](https://github.com/stdlib-js/stdlib/commit/b4c71e050447cb4726c457388d250a862d1c99a2) - **chore:** clean-up [(#16778)](https://github.com/stdlib-js/stdlib/pull/16778) _(by Philipp Burckhardt)_
 -   [`ad3b5f7`](https://github.com/stdlib-js/stdlib/commit/ad3b5f7aede02b68f622d3b1d35c4384189f38ea) - **docs:** update Markdown equation elements _(by stdlib-bot)_
@@ -527,7 +528,7 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 40 people contributed to this release. Thank you to the following contributors:
+A total of 41 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -545,6 +546,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 -   Gunj Joshi
 -   Hayabusa
 -   Ishwar
+-   ItsAbir005
 -   Karan Anand
 -   Kartik
 -   Manit Roy
