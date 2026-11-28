@@ -1,0 +1,448 @@
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*
+* ## Notice
+*
+* The original C++ code and copyright notice are from the [Boost library]{@link http://www.boost.org/doc/libs/1_92_0/boost/math/tools/roots.hpp}. The implementation has been modified for JavaScript.
+*
+* ```text
+* Copyright John Maddock 2006.
+* Copyright Matt Borland 2024.
+*
+* Use, modification and distribution are subject to the
+* Boost Software License, Version 1.0. (See accompanying file
+* LICENSE or copy at http://www.boost.org/LICENSE_1_0.txt)
+* ```
+*/
+
+/* eslint-disable max-lines-per-function, max-statements, max-lines */
+
+'use strict';
+
+// MODULES //
+
+var ulpDifference = require( '@stdlib/number/float64/base/ulp-difference' );
+var frexp = require( './../../../../base/special/frexp' );
+var ldexp = require( './../../../../base/special/ldexp' );
+var floor = require( './../../../../base/special/floor' );
+var sign = require( './../../../../base/special/signum' );
+var abs = require( './../../../../base/special/abs' );
+var max = require( './../../../../base/special/max' );
+var MAX_VALUE = require( '@stdlib/constants/float64/max' );
+var floatPrior = require( './float_prior.js' );
+var floatNext = require( './float_next.js' );
+
+
+// VARIABLES //
+
+// Shared bracket state (`[ min, max, count ]`) used by the bracketing helpers:
+var STATE = [ 0.0, 0.0, 0 ]; // WARNING: not thread safe
+
+
+// FUNCTIONS //
+
+/**
+* Moves the current best guess toward the lower bracket until the root is bracketed, updating the brackets along the way.
+*
+* @private
+* @param {Function} fun - function which returns the function value and its first two derivatives
+* @param {number} x - current best guess
+* @param {number} fx - function value at the position from which bracketing begins
+* @param {NumericArray} state - bracket state (`[ min, max, count ]`), updated in place
+* @returns {number} step which should be subtracted from the current best guess
+*/
+function bracketRootTowardsMin( fun, x, fx, state ) {
+	var multiplier;
+	var guess0;
+	var xc;
+	var fc;
+	var fe;
+	var e;
+
+	if ( state[ 2 ] < 2 ) {
+		// Not enough iterations left to do anything!
+		return x - ( ( state[ 1 ] + state[ 0 ] ) / 2.0 );
+	}
+	// Move `x` towards the lower bracket until we bracket the root, updating the brackets as we go:
+	fe = frexp( x / state[ 0 ] );
+	e = abs( fe[ 1 ] );
+	guess0 = x;
+	xc = x;
+	multiplier = ( e < 64 ) ? 2.0 : ldexp( 1.0, floor( e / 32 ) );
+	fc = fx;
+	state[ 2 ] -= 1;
+	if ( abs( state[ 0 ] ) < abs( state[ 1 ] ) ) {
+		while ( state[ 2 ] !== 0 && ( ( fc < 0.0 ) === ( fx < 0.0 ) ) ) {
+			state[ 1 ] = xc;
+			xc /= multiplier;
+			if ( xc < state[ 0 ] ) {
+				xc = state[ 0 ];
+				fc = -fc; // there must be a change of sign!
+				break;
+			}
+			multiplier *= ( e > 1024 ) ? 8.0 : 2.0;
+			fc = fun( xc )[ 0 ];
+			state[ 2 ] -= 1;
+		}
+	} else {
+		// If the brackets are negative we have to multiply to head towards the lower bracket:
+		while ( state[ 2 ] !== 0 && ( ( fc < 0.0 ) === ( fx < 0.0 ) ) ) {
+			state[ 1 ] = xc;
+			xc *= multiplier;
+			if ( xc < state[ 0 ] ) {
+				xc = state[ 0 ];
+				fc = -fc; // there must be a change of sign!
+				break;
+			}
+			multiplier *= ( e > 1024 ) ? 8.0 : 2.0;
+			fc = fun( xc )[ 0 ];
+			state[ 2 ] -= 1;
+		}
+	}
+	if ( state[ 2 ] !== 0 ) {
+		state[ 0 ] = xc;
+		if ( multiplier > 16.0 ) {
+			return ( guess0-xc ) + bracketRootTowardsMax( fun, xc, fc, state );
+		}
+	}
+	return guess0 - ( ( state[ 1 ] + state[ 0 ] ) / 2.0 );
+}
+
+/**
+* Moves the current best guess toward the upper bracket until the root is bracketed, updating the brackets along the way.
+*
+* @private
+* @param {Function} fun - function which returns the function value and its first two derivatives
+* @param {number} x - current best guess
+* @param {number} fx - function value at the position from which bracketing begins
+* @param {NumericArray} state - bracket state (`[ min, max, count ]`), updated in place
+* @returns {number} step which should be subtracted from the current best guess
+*/
+function bracketRootTowardsMax( fun, x, fx, state ) {
+	var multiplier;
+	var guess0;
+	var xc;
+	var fc;
+	var fe;
+	var e;
+
+	if ( state[ 2 ] < 2 ) {
+		// Not enough iterations left to do anything!
+		return x - ( ( state[ 1 ] + state[ 0 ] ) / 2.0 );
+	}
+	// Move `x` towards the upper bracket until we bracket the root, updating the brackets as we go:
+	fe = frexp( state[ 1 ] / x );
+	e = abs( fe[ 1 ] );
+	guess0 = x;
+	xc = x;
+	multiplier = ( e < 64 ) ? 2.0 : ldexp( 1.0, floor( e / 32 ) );
+	fc = fx;
+	state[ 2 ] -= 1;
+	if ( abs( state[ 0 ] ) < abs( state[ 1 ] ) ) {
+		while ( state[ 2 ] !== 0 && ( ( fc < 0.0 ) === ( fx < 0.0 ) ) ) {
+			state[ 0 ] = xc;
+			xc *= multiplier;
+			if ( xc > state[ 1 ] ) {
+				xc = state[ 1 ];
+				fc = -fc; // there must be a change of sign!
+				break;
+			}
+			multiplier *= ( e > 1024 ) ? 8.0 : 2.0;
+			fc = fun( xc )[ 0 ];
+			state[ 2 ] -= 1;
+		}
+	} else {
+		// If the brackets are negative we have to divide to head towards the upper bracket:
+		while ( state[ 2 ] !== 0 && ( ( fc < 0.0 ) === ( fx < 0.0 ) ) ) {
+			state[ 0 ] = xc;
+			xc /= multiplier;
+			if ( xc > state[ 1 ] ) {
+				xc = state[ 1 ];
+				fc = -fc; // there must be a change of sign!
+				break;
+			}
+			multiplier *= ( e > 1024 ) ? 8.0 : 2.0;
+			fc = fun( xc )[ 0 ];
+			state[ 2 ] -= 1;
+		}
+	}
+	if ( state[ 2 ] !== 0 ) {
+		state[ 1 ] = xc;
+		if ( multiplier > 16.0 ) {
+			return ( guess0-xc ) + bracketRootTowardsMin( fun, xc, fc, state );
+		}
+	}
+	return guess0 - ( ( state[ 1 ] + state[ 0 ] ) / 2.0 );
+}
+
+
+// MAIN //
+
+/**
+* Performs root finding via third order Halley iteration.
+*
+* @private
+* @param {Function} fun - function which returns the function value and its first two derivatives
+* @param {number} guess - initial starting value
+* @param {number} minimum - minimum possible value for the result, used as initial lower bracket
+* @param {number} maximum - maximum possible value for the result, used as initial upper bracket
+* @param {PositiveInteger} digits - desired number of binary digits
+* @param {PositiveInteger} maxIter - maximum number of iterations
+* @returns {number} function value
+*/
+function halleyIterate( fun, guess, minimum, maximum, digits, maxIter ) {
+	var convergence;
+	var outOfBounds;
+	var maxRangeF;
+	var minRangeF;
+	var bigRange;
+	var delta1;
+	var delta2;
+	var factor;
+	var result;
+	var f0Last;
+	var count;
+	var delta;
+	var denom;
+	var diff;
+	var num;
+	var res;
+	var f0;
+	var f1;
+	var f2;
+
+	f0 = 0.0;
+	outOfBounds = false;
+	result = guess;
+	factor = ldexp( 1.0, 1.0-digits );
+	delta = max( 10000000*guess, 10000000 );  // Arbitrarily large delta...
+	f0Last = 0;
+	delta1 = delta;
+	delta2 = delta;
+
+	// We use these to sanity check that we do actually bracket a root; if we update both ends of the brackets and the function value has the same sign at both ends, then there is no root to be found:
+	maxRangeF = 0.0;
+	minRangeF = 0.0;
+
+	count = maxIter;
+	do {
+		f0Last = f0;
+		delta2 = delta1;
+		delta1 = delta;
+		res = fun( result );
+		f0 = res[ 0 ];
+		f1 = res[ 1 ];
+		f2 = res[ 2 ];
+		count -= 1;
+
+		if ( f0 === 0.0 ) {
+			break;
+		}
+		if ( f1 === 0.0 ) {
+			// Oops zero derivative!!!
+			if ( f0Last === 0.0 ) {
+				// Must be the first iteration, pretend that we had a previous one at either min or max:
+				if ( result === minimum ) {
+					guess = maximum;
+				} else {
+					guess = minimum;
+				}
+				f0Last = fun( guess )[ 0 ];
+				delta = guess - result;
+			}
+			if ( sign( f0Last ) * sign( f0 ) < 0 ) {
+				// We've crossed over so move in opposite direction to last step:
+				if ( delta < 0 ) {
+					delta = ( result-minimum ) / 2.0;
+				} else {
+					delta = ( result-maximum ) / 2.0;
+				}
+			// Move in same direction as last step:
+			} else if ( delta < 0 ) {
+				delta = (result-maximum) / 2.0;
+			} else {
+				delta = (result-minimum) / 2.0;
+			}
+		} else if ( f2 === 0.0 ) {
+			delta = f0 / f1;
+		} else {
+			denom = 2.0 * f0;
+			num = ( 2.0 * f1 ) - ( f0 * ( f2 / f1 ) );
+			if ( abs( num ) < 1.0 && ( abs( denom ) >= abs( num ) * MAX_VALUE ) ) {
+				// Possible overflow, use Newton step:
+				delta = f0 / f1;
+			} else {
+				delta = denom / num;
+			}
+			if ( delta * f1 / f0 < 0.0 ) {
+				// Probably cancellation error, try a Newton step instead:
+				delta = f0 / f1;
+				if ( abs( delta ) > 2.0 * abs( result ) ) {
+					delta = ( ( delta < 0.0 ) ? -2.0 : 2.0 ) * abs( result );
+				}
+			}
+		}
+		// We need to avoid delta/delta2 overflowing here:
+		if ( abs( delta2 ) > 1.0 || abs( MAX_VALUE*delta2 ) > abs( delta ) ) {
+			convergence = abs( delta / delta2 );
+		} else {
+			convergence = MAX_VALUE;
+		}
+		if ( convergence > 0.8 && convergence < 2.0 ) {
+			// Last two steps haven't converged...
+			if ( abs( minimum ) < 1.0 ) {
+				bigRange = ( abs( 1000.0*minimum ) < abs( maximum ) );
+			} else {
+				bigRange = ( abs( maximum/minimum ) > 1000.0 );
+			}
+			if ( bigRange ) {
+				STATE[ 0 ] = minimum;
+				STATE[ 1 ] = maximum;
+				STATE[ 2 ] = count;
+				if ( delta > 0.0 ) {
+					delta = bracketRootTowardsMin( fun, result, f0, STATE );
+				} else {
+					delta = bracketRootTowardsMax( fun, result, f0, STATE );
+				}
+				minimum = STATE[ 0 ];
+				maximum = STATE[ 1 ];
+				count = STATE[ 2 ];
+			} else {
+				delta = ( delta > 0.0 ) ? ( result-minimum )/2.0 : ( result-maximum )/2.0; // eslint-disable-line max-len
+				if ( result !== 0.0 && abs( delta ) > result ) {
+					delta = sign( delta ) * abs( result ) * 0.9; // Protect against huge jumps!
+				}
+			}
+			// Reset delta1/delta2 so that this branch will *not* be taken on the next iteration:
+			delta2 = delta * 3.0;
+			delta1 = delta * 3.0;
+		}
+		guess = result;
+		result -= delta;
+
+		// Check for out of bounds step:
+		if ( result < minimum ) {
+			if (
+				abs( minimum ) < 1.0 &&
+				abs( result ) > 1.0 &&
+				( MAX_VALUE / abs( result ) < abs( minimum ) )
+			) {
+				diff = 1000.0;
+			} else if (
+				abs( minimum ) < 1.0 &&
+				( abs( MAX_VALUE*minimum ) < abs( result ) )
+			) {
+				diff = ( ( minimum < 0.0 ) === ( result < 0.0 ) ) ? MAX_VALUE : -MAX_VALUE; // eslint-disable-line max-len
+			} else {
+				diff = result / minimum;
+			}
+			if ( abs( diff ) < 1.0 ) {
+				diff = 1.0 / diff;
+			}
+			if ( !outOfBounds && diff > 0.0 && diff < 3.0 ) {
+				// Only a small out of bounds step, let's assume that the result is probably approximately at minimum:
+				delta = 0.99 * (guess - minimum);
+				result = guess - delta;
+				outOfBounds = true; // Only take this branch once!
+			} else {
+				if ( ulpDifference( minimum, maximum ) < 2 ) {
+					result = ( minimum + maximum ) / 2.0;
+					guess = result;
+					break;
+				}
+				STATE[ 0 ] = minimum;
+				STATE[ 1 ] = maximum;
+				STATE[ 2 ] = count;
+				delta = bracketRootTowardsMin( fun, guess, f0, STATE );
+				minimum = STATE[ 0 ];
+				maximum = STATE[ 1 ];
+				count = STATE[ 2 ];
+				result = guess - delta;
+				if ( result <= minimum ) {
+					result = floatNext( minimum );
+				}
+				if ( result >= maximum ) {
+					result = floatPrior( maximum );
+				}
+				guess = minimum;
+				continue;
+			}
+		} else if ( result > maximum ) {
+			if (
+				abs( maximum ) < 1.0 &&
+				abs( result ) > 1.0 &&
+				MAX_VALUE / abs( result ) < abs( maximum )
+			) {
+				diff = 1000.0;
+			} else {
+				diff = result / maximum;
+			}
+			if ( abs( diff ) < 1.0 ) {
+				diff = 1.0 / diff;
+			}
+			if ( !outOfBounds && diff > 0.0 && diff < 3.0 ) {
+				// Only a small out of bounds step, let's assume that the result is probably approximately at minimum:
+				delta = 0.99 * (guess - maximum);
+				result = guess - delta;
+				outOfBounds = true; // Only take this branch once!
+			} else {
+				if ( ulpDifference( minimum, maximum ) < 2.0 ) {
+					result = ( minimum + maximum ) / 2.0;
+					guess = result;
+					break;
+				}
+				STATE[ 0 ] = minimum;
+				STATE[ 1 ] = maximum;
+				STATE[ 2 ] = count;
+				delta = bracketRootTowardsMax( fun, guess, f0, STATE );
+				minimum = STATE[ 0 ];
+				maximum = STATE[ 1 ];
+				count = STATE[ 2 ];
+				result = guess - delta;
+				if ( result >= maximum ) {
+					result = floatPrior( maximum );
+				}
+				if ( result <= minimum ) {
+					result = floatNext( minimum );
+				}
+				guess = minimum;
+				continue;
+			}
+		}
+		// Update brackets:
+		if ( delta > 0.0 ) {
+			maximum = guess;
+			maxRangeF = f0;
+		} else {
+			minimum = guess;
+			minRangeF = f0;
+		}
+		// Sanity check that we bracket the root:
+		if ( maxRangeF * minRangeF > 0.0 ) {
+			// There appears to be no root to be found (the original C++ implementation raises an evaluation error; we instead return the current best guess):
+			return guess;
+		}
+	} while ( count && ( abs( result * factor ) < abs( delta ) ) );
+
+	return result;
+}
+
+
+// EXPORTS //
+
+module.exports = halleyIterate;
